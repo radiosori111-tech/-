@@ -1,0 +1,576 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+import Disclaimer from '../../components/Disclaimer.astro';
+import { SITE, formatDate, minutesOfDay } from '../../data/site';
+
+export async function getStaticPaths() {
+  const all = await getCollection('articles');
+  const ordered = all.sort((a, b) => (minutesOfDay(a.data.time) ?? 9999) - (minutesOfDay(b.data.time) ?? 9999));
+  return ordered.map((entry, i) => ({
+    params: { slug: entry.id },
+    props: {
+      entry,
+      prev: ordered[i - 1] ?? null,
+      next: ordered[i + 1] ?? null,
+      related: ordered.filter((o) => o.id !== entry.id && o.data.category === entry.data.category).slice(0, 2),
+    },
+  }));
+}
+
+const { entry, prev, next, related } = Astro.props;
+const { Content, headings } = await render(entry);
+const toc = headings.filter((h) => h.depth === 2);
+const { title, description, category, time, moment, date, readMinutes } = entry.data;
+const pageUrl = new URL(`/articles/${entry.id}/`, Astro.site).toString();
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description,
+  datePublished: date.toISOString(),
+  inLanguage: 'ko',
+  author: { '@type': 'Organization', name: SITE.name },
+  publisher: { '@type': 'Organization', name: SITE.name },
+  mainEntityOfPage: pageUrl,
+};
+---
+<Base title={title} description={description} type="article" jsonLd={jsonLd}>
+  <header class="art-head night">
+    <div class="wrap head-inner">
+      <a class="back" href="/"><Icon name="arrow-left" /> 모든 아티클</a>
+      <h1>{title}</h1>
+      <p class="lede">{description}</p>
+      <dl class="meta">
+        <div><dt class="visually-hidden">시각</dt><dd><span class:list={['time-mark', !time && 'anytime']}>{time ?? '언제든'}</span>{time && ` ${moment}`}</dd></div>
+        <div><dt class="visually-hidden">카테고리</dt><dd>{category}</dd></div>
+        <div><dt class="visually-hidden">발행일</dt><dd class="tabular"><time datetime={date.toISOString()}>{formatDate(date)}</time></dd></div>
+        <div><dt class="visually-hidden">읽는 시간</dt><dd class="tabular">{readMinutes}분 읽기</dd></div>
+      </dl>
+    </div>
+  </header>
+
+  <div class="progress" data-progress aria-hidden="true">
+    <div class="wrap progress-inner">
+      <span class="progress-title">{title}</span>
+      <span class="progress-pct tabular" data-pct>0%</span>
+    </div>
+    <div class="progress-line"><span data-fill></span><span class="progress-flag" data-flag hidden></span></div>
+  </div>
+
+  <div class="wrap art-grid">
+    <aside class="toc" aria-labelledby="toc-title">
+      <details class="toc-box" open data-toc>
+        <summary id="toc-title"><Icon name="list" /> 목차</summary>
+        <ol>
+          {toc.map((h) => <li><a href={`#${h.slug}`} data-toc-link={h.slug}>{h.text}</a></li>)}
+        </ol>
+      </details>
+    </aside>
+
+    <article class="prose" data-article data-slug={entry.id}>
+      <div class="resume" data-resume hidden>
+        <Icon name="flag" />
+        <p>지난번 <strong class="tabular" data-resume-pct></strong> 지점에서 멈추셨어요.</p>
+        <button type="button" data-resume-go>이어 읽기</button>
+      </div>
+      <Content />
+
+      <Disclaimer reviewed={date} />
+
+      <section class="respond" aria-labelledby="respond-title">
+        <h2 id="respond-title" class="respond-title">이 글이 도움이 되었나요?</h2>
+        <div class="react" role="group" aria-label="글에 대한 반응">
+          <button type="button" class="react-btn" aria-pressed="false" data-react="helpful"><Icon name="heart" /> 도움이 됐어요</button>
+          <button type="button" class="react-btn" aria-pressed="false" data-react="try"><Icon name="spark" /> 오늘 실천해 볼게요</button>
+        </div>
+        <p class="react-note" data-react-note>선택은 이 브라우저에만 저장되며, 어디에도 전송되지 않습니다.</p>
+
+        <div class="share" role="group" aria-label="공유하기">
+          <span class="share-label">공유</span>
+          <button type="button" class="share-btn" data-copy={pageUrl}><Icon name="link" /> <span data-copy-label>링크 복사</span></button>
+          <a class="share-btn" href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(pageUrl)}`} target="_blank" rel="noopener"><Icon name="x" /> X</a>
+          <a class="share-btn" href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(pageUrl)}`} target="_blank" rel="noopener"><Icon name="facebook" /> 페이스북</a>
+          <button type="button" class="share-btn" data-native-share hidden><Icon name="share" /> 다른 앱으로</button>
+        </div>
+      </section>
+    </article>
+  </div>
+
+  <nav class="wrap pager" aria-label="다른 아티클">
+    {prev ? (
+      <a class="pager-link" href={`/articles/${prev.id}/`}>
+        <span class="pager-dir"><Icon name="arrow-left" /> 이전 글 <span class:list={['time-mark', !prev.data.time && 'anytime']}>{prev.data.time ?? '언제든'}</span></span>
+        <span class="pager-title">{prev.data.title}</span>
+      </a>
+    ) : <span />}
+    {next ? (
+      <a class="pager-link to-next" href={`/articles/${next.id}/`}>
+        <span class="pager-dir"><span class:list={['time-mark', !next.data.time && 'anytime']}>{next.data.time ?? '언제든'}</span> 다음 글 <Icon name="arrow-right" /></span>
+        <span class="pager-title">{next.data.title}</span>
+      </a>
+    ) : <span />}
+  </nav>
+
+  {related.length > 0 && (
+    <section class="wrap related" aria-labelledby="related-title">
+      <h2 id="related-title">{category}의 다른 글</h2>
+      <ul>
+        {related.map((r) => (
+          <li><a href={`/articles/${r.id}/`}>{r.data.title}</a><span class="tabular">{r.data.readMinutes}분 읽기</span></li>
+        ))}
+      </ul>
+    </section>
+  )}
+</Base>
+
+<script>
+  const article = document.querySelector<HTMLElement>('[data-article]')!;
+  const slug = article.dataset.slug!;
+  const bar = document.querySelector<HTMLElement>('[data-progress]')!;
+  const fill = bar.querySelector<HTMLElement>('[data-fill]')!;
+  const flag = bar.querySelector<HTMLElement>('[data-flag]')!;
+  const pctLabel = bar.querySelector<HTMLElement>('[data-pct]')!;
+
+  const read = (k: string) => { try { return JSON.parse(localStorage.getItem(k) || '{}'); } catch { return {}; } };
+  const write = (k: string, v: unknown) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
+
+  // 지난번 멈춘 자리: 깃발과 이어 읽기
+  const last = read('mgs:last')[slug] as number | undefined;
+  if (last && last > 0.05 && last < 0.9) {
+    flag.style.left = `${last * 100}%`;
+    flag.hidden = false;
+    const resume = document.querySelector<HTMLElement>('[data-resume]')!;
+    resume.querySelector('[data-resume-pct]')!.textContent = `${Math.round(last * 100)}%`;
+    resume.hidden = false;
+    resume.querySelector('[data-resume-go]')!.addEventListener('click', () => {
+      const top = article.offsetTop + article.offsetHeight * last - innerHeight * 0.3;
+      scrollTo({ top, behavior: 'smooth' });
+      resume.hidden = true;
+    });
+  }
+
+  function fraction() {
+    const start = article.offsetTop - innerHeight * 0.3;
+    const end = article.offsetTop + article.offsetHeight - innerHeight;
+    return Math.min(1, Math.max(0, (scrollY - start) / Math.max(1, end - start)));
+  }
+
+  let ticking = false;
+  let saveTimer = 0;
+  function update() {
+    ticking = false;
+    const f = fraction();
+    fill.style.transform = `scaleX(${f})`;
+    pctLabel.textContent = `${Math.round(f * 100)}%`;
+    bar.classList.toggle('is-shown', scrollY > article.offsetTop - 80);
+    clearTimeout(saveTimer);
+    saveTimer = window.setTimeout(() => {
+      const max = read('mgs:progress');
+      max[slug] = Math.max(max[slug] ?? 0, f);
+      write('mgs:progress', max);
+      const lastAll = read('mgs:last');
+      lastAll[slug] = f;
+      write('mgs:last', lastAll);
+    }, 400);
+  }
+  addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+  update();
+
+  // 목차: 지금 읽는 절에 해를 놓는다
+  const links = [...document.querySelectorAll<HTMLAnchorElement>('[data-toc-link]')];
+  const sections = links.map((l) => document.getElementById(l.dataset.tocLink!)).filter(Boolean) as HTMLElement[];
+  const io = new IntersectionObserver(() => {
+    let current = sections[0];
+    for (const s of sections) if (s.getBoundingClientRect().top < innerHeight * 0.35) current = s;
+    links.forEach((l) => l.toggleAttribute('aria-current', l.dataset.tocLink === current?.id));
+  }, { rootMargin: '0px 0px -60% 0px', threshold: [0, 1] });
+  sections.forEach((s) => io.observe(s));
+  const toc = document.querySelector<HTMLDetailsElement>('[data-toc]');
+  if (toc && matchMedia('(max-width: 1100px)').matches) toc.open = false;
+
+  // 반응: 이 브라우저에만 저장
+  const reactions = read('mgs:react');
+  document.querySelectorAll<HTMLButtonElement>('[data-react]').forEach((btn) => {
+    const key = `${slug}:${btn.dataset.react}`;
+    btn.setAttribute('aria-pressed', String(!!reactions[key]));
+    btn.addEventListener('click', () => {
+      const on = btn.getAttribute('aria-pressed') !== 'true';
+      btn.setAttribute('aria-pressed', String(on));
+      const r = read('mgs:react');
+      if (on) r[key] = 1; else delete r[key];
+      write('mgs:react', r);
+    });
+  });
+
+  // 공유
+  document.querySelector<HTMLButtonElement>('[data-copy]')?.addEventListener('click', async (e) => {
+    const btn = e.currentTarget as HTMLButtonElement;
+    const label = btn.querySelector('[data-copy-label]')!;
+    try {
+      await navigator.clipboard.writeText(location.href.split('#')[0]);
+      label.textContent = '복사했어요';
+    } catch {
+      label.textContent = '주소창에서 복사해 주세요';
+    }
+    setTimeout(() => (label.textContent = '링크 복사'), 2200);
+  });
+  const native = document.querySelector<HTMLButtonElement>('[data-native-share]');
+  if (native && 'share' in navigator) {
+    native.hidden = false;
+    native.addEventListener('click', () => navigator.share({ title: document.title, url: location.href.split('#')[0] }).catch(() => {}));
+  }
+</script>
+
+<style>
+  .art-head { padding-block: clamp(2rem, 5vw, 3.5rem) clamp(2.5rem, 6vw, 4.5rem); }
+  .head-inner { max-width: calc(var(--measure) + 15rem + clamp(2rem, 5vw, 5rem) + var(--gutter) * 2); }
+  .head-inner > * { max-width: 52rem; }
+  .back {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    font-size: 0.9375rem;
+    color: var(--night-muted);
+    text-decoration: none;
+  }
+  .back:hover { color: var(--night-text); }
+  .art-head h1 {
+    margin-top: clamp(1.5rem, 4vw, 2.5rem);
+    font-family: var(--font-read);
+    font-size: var(--step-5);
+    font-weight: 600;
+    line-height: 1.18;
+    letter-spacing: -0.035em;
+  }
+  .lede {
+    margin-top: 1.5rem;
+    font-size: var(--step-1);
+    line-height: 1.85;
+    color: var(--night-muted);
+    max-width: 44rem;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.75rem;
+    margin: 2rem 0 0;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--night-line);
+    font-size: 0.9375rem;
+    color: var(--night-muted);
+  }
+  .meta dd { margin: 0; }
+
+  .progress {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--paper);
+    border-bottom: 1px solid var(--line);
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.45s var(--ease-out), opacity 0.3s;
+    margin-bottom: -3.25rem;
+  }
+  .progress.is-shown { transform: none; opacity: 1; }
+  .progress-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    height: 3.125rem;
+    font-size: 0.875rem;
+  }
+  .progress-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 600; color: var(--ink-soft); }
+  .progress-pct { color: var(--sun-ink); font-weight: 600; }
+  .progress-line {
+    position: relative;
+    height: 2px;
+    background: repeating-linear-gradient(90deg, var(--line) 0 calc(100% / 24 - 2px), transparent calc(100% / 24 - 2px) calc(100% / 24));
+  }
+  .progress-line [data-fill] {
+    position: absolute;
+    inset: 0;
+    background: var(--sun);
+    transform-origin: left center;
+    transform: scaleX(0);
+  }
+  .progress-flag {
+    position: absolute;
+    top: -7px;
+    width: 2px; height: 16px;
+    background: var(--ink);
+  }
+  .progress-flag::after {
+    content: '';
+    position: absolute;
+    left: 2px; top: 0;
+    width: 8px; height: 8px;
+    background: var(--ink);
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+  }
+
+  .art-grid {
+    display: grid;
+    grid-template-columns: minmax(0, var(--measure)) minmax(0, 15rem);
+    justify-content: center;
+    gap: clamp(2rem, 5vw, 5rem);
+    padding-top: clamp(2.5rem, 6vw, 4.5rem);
+  }
+  .toc { order: 2; }
+  .toc-box { position: sticky; top: 5rem; }
+  .toc summary {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    list-style: none;
+    padding-bottom: 0.875rem;
+    border-bottom: 1px solid var(--ink);
+    font-size: 0.875rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .toc summary::-webkit-details-marker { display: none; }
+  .toc ol { list-style: none; padding-top: 0.75rem; display: grid; gap: 0.125rem; }
+  .toc a {
+    position: relative;
+    display: block;
+    padding: 0.4rem 0 0.4rem 1.125rem;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: var(--muted);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .toc a::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0.95em;
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    border: 1.5px solid var(--line);
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  .toc a:hover { color: var(--ink); }
+  .toc a[aria-current] { color: var(--ink); font-weight: 600; }
+  .toc a[aria-current]::before { background: var(--sun); border-color: var(--sun); }
+
+  .prose { order: 1; font-family: var(--font-read); font-size: 1.1875rem; line-height: 1.95; color: var(--ink); }
+  .resume {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.625rem 0.875rem;
+    margin-bottom: 2.5rem;
+    padding: 0.875rem 1.125rem;
+    background: var(--paper-sunk);
+    border-radius: 3px;
+    font-family: var(--font-ui);
+    font-size: 0.9375rem;
+    line-height: 1.5;
+  }
+  .resume .icon { color: var(--sun-ink); }
+  .resume p { margin: 0 !important; flex: 1 1 14rem; }
+  .resume button {
+    margin-left: auto;
+    padding: 0.4rem 0.875rem;
+    border: 1px solid var(--ink);
+    border-radius: 3px;
+    background: transparent;
+    font: inherit;
+    font-weight: 600;
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .resume button:hover { background: var(--ink); color: var(--paper); }
+
+  .prose :global(p) { margin-block: 0 1.5em; }
+  .prose :global(h2) {
+    margin: 2.75em 0 0.9em;
+    font-size: 1.625rem;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: -0.025em;
+    scroll-margin-top: 5rem;
+  }
+  .prose :global(strong) { font-weight: 650; background: linear-gradient(transparent 62%, rgb(233 162 59 / 0.28) 62%); }
+  .prose :global(ul), .prose :global(ol) { margin: 0 0 1.5em; padding-left: 1.4em; }
+  .prose :global(li) { margin-bottom: 0.6em; padding-left: 0.25em; }
+  .prose :global(li::marker) { color: var(--sun-ink); font-family: var(--font-ui); font-weight: 600; }
+  .prose :global(em) { font-style: italic; }
+  .prose :global(a) { color: var(--ink); text-decoration-color: var(--sun); }
+
+  /* 오늘의 실행: 글의 끝은 행동이다 */
+  .prose :global(h2#오늘의-실행) {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--ink);
+  }
+  .prose :global(h2#오늘의-실행)::before {
+    content: '';
+    width: 12px; height: 12px;
+    border-radius: 50%;
+    background: var(--sun);
+    outline: 1px solid var(--sun);
+    outline-offset: 3px;
+    flex: none;
+  }
+  .prose :global(h2#오늘의-실행 + ol) { counter-reset: act; list-style: none; padding-left: 0; }
+  .prose :global(h2#오늘의-실행 + ol > li) {
+    counter-increment: act;
+    position: relative;
+    padding: 1.1rem 0 1.1rem 3rem;
+    margin: 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .prose :global(h2#오늘의-실행 + ol > li::before) {
+    content: counter(act);
+    position: absolute;
+    left: 0; top: 1.2rem;
+    width: 1.875rem; height: 1.875rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--night);
+    color: var(--sun);
+    font-family: var(--font-ui);
+    font-size: 0.875rem;
+    font-weight: 700;
+  }
+  .prose :global(h2#오늘의-실행 + ol strong) { background: none; }
+
+  /* 참고 문헌 */
+  .prose :global(h2#참고-문헌) { font-family: var(--font-ui); font-size: 1rem; font-weight: 700; margin-top: 3.5em; }
+  .prose :global(h2#참고-문헌 + ul) {
+    list-style: none;
+    padding: 0;
+    font-family: var(--font-ui);
+    font-size: 0.875rem;
+    line-height: 1.7;
+    color: var(--muted);
+    word-break: normal;
+  }
+  .prose :global(h2#참고-문헌 + ul li) { padding-left: 0; margin-bottom: 0.75em; }
+
+  /* 도해 */
+  .prose :global(figure.diagram) {
+    margin: 2.5em 0;
+    padding: 1.75rem 1.5rem 1.25rem;
+    background: var(--night);
+    color: var(--night-text);
+    border-radius: 3px;
+  }
+  .prose :global(figure.diagram svg) { display: block; width: 100%; height: auto; overflow: visible; }
+  .prose :global(figure.diagram figcaption) {
+    margin-top: 1.25rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--night-line);
+    font-family: var(--font-ui);
+    font-size: 0.875rem;
+    line-height: 1.7;
+    color: var(--night-muted);
+  }
+  .prose :global(.d-line) { fill: none; stroke: var(--night-muted); stroke-width: 1.5; }
+  .prose :global(.d-line circle), .prose :global(.d-line rect) { fill: var(--night-raised); }
+  .prose :global(.d-faint) { stroke: var(--night-line); stroke-width: 1; fill: none; }
+  .prose :global(.d-dash) { stroke-dasharray: 4 5; fill: none; }
+  .prose :global(.d-arrow) { marker-end: none; }
+  .prose :global(.d-curve) { fill: none; stroke: var(--night-text); stroke-width: 2.25; stroke-linejoin: round; }
+  .prose :global(.d-thick) { fill: none; stroke: var(--sun); stroke-width: 6; stroke-linecap: round; }
+  .prose :global(.d-sun) { stroke: var(--sun); fill: none; stroke-width: 1.5; }
+  .prose :global(.d-fill) { fill: var(--sun); stroke: none; }
+  .prose :global(.d-fill-soft) { fill: var(--dusk); stroke: none; }
+  .prose :global(.d-bar) { fill: var(--dusk); }
+  .prose :global(.d-bar-sun) { fill: var(--sun); }
+  .prose :global(.d-text) { font-family: var(--font-ui); font-size: 14px; fill: var(--night-muted); stroke: none; }
+  .prose :global(.d-text .d-strong) { fill: var(--night-text); font-weight: 600; }
+
+  .respond { margin-top: 3rem; padding: 2rem; background: var(--paper-sunk); border-radius: 4px; font-family: var(--font-ui); }
+  .respond-title { margin: 0 !important; padding: 0 !important; border: 0 !important; font-size: 1.25rem !important; font-family: var(--font-read); }
+  .react { display: flex; flex-wrap: wrap; gap: 0.625rem; margin-top: 1.25rem; }
+  .react-btn, .share-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    padding: 0.5rem 1.125rem;
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    background: var(--paper);
+    color: var(--ink);
+    font: inherit;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: border-color 0.2s, background-color 0.2s, color 0.2s, transform 0.2s var(--ease-out);
+  }
+  .react-btn:hover, .share-btn:hover { border-color: var(--ink-soft); }
+  .react-btn:active, .share-btn:active { transform: scale(0.97); }
+  .react-btn[aria-pressed='true'] { background: var(--night); border-color: var(--night); color: var(--night-text); }
+  .react-btn[aria-pressed='true'] .icon { color: var(--sun); fill: currentColor; }
+  .react-note { margin: 0.75rem 0 0 !important; font-size: 0.8125rem; color: var(--muted); line-height: 1.6; }
+  .share {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1.75rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+  }
+  .share-label { font-size: 0.875rem; font-weight: 700; margin-right: 0.5rem; }
+  .share-btn { min-height: 2.5rem; padding: 0.4rem 0.95rem; font-size: 0.875rem; }
+
+  .pager {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: calc(56rem + var(--gutter) * 2);
+    margin-top: clamp(3rem, 7vw, 5rem);
+  }
+  .pager-link {
+    display: grid;
+    gap: 0.5rem;
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--ink);
+    text-decoration: none;
+  }
+  .pager-link.to-next { text-align: right; justify-items: end; }
+  .pager-dir { display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--muted); }
+  .pager-title { font-family: var(--font-read); font-size: 1.1875rem; font-weight: 600; line-height: 1.45; letter-spacing: -0.02em; }
+  .pager-link:hover .pager-title { text-decoration: underline; text-decoration-color: var(--sun); }
+
+  .related { max-width: calc(56rem + var(--gutter) * 2); margin-top: 2.5rem; }
+  .related h2 { font-size: 0.9375rem; font-weight: 700; padding-bottom: 0.75rem; border-bottom: 1px solid var(--line); }
+  .related ul { list-style: none; }
+  .related li { display: flex; justify-content: space-between; gap: 1rem; padding: 0.875rem 0; border-bottom: 1px solid var(--line); }
+  .related a { font-weight: 500; text-decoration: none; }
+  .related a:hover { text-decoration: underline; text-decoration-color: var(--sun); }
+  .related span { flex: none; font-size: 0.875rem; color: var(--muted); }
+
+  @media (max-width: 1100px) {
+    .art-grid { grid-template-columns: minmax(0, var(--measure)); }
+    .toc { order: 0; }
+    .toc-box { position: static; padding: 1rem 1.25rem; background: var(--paper-sunk); border-radius: 3px; }
+    .toc summary { border-bottom: 0; padding-bottom: 0; }
+    .toc-box[open] summary { padding-bottom: 0.75rem; border-bottom: 1px solid var(--line); }
+  }
+  @media (max-width: 640px) {
+    .prose { font-size: 1.0625rem; line-height: 1.9; }
+    .prose :global(h2) { font-size: 1.375rem; }
+    .prose :global(figure.diagram) { margin-inline: calc(var(--gutter) * -1); border-radius: 0; padding-inline: var(--gutter); overflow-x: auto; }
+    .prose :global(figure.diagram svg) { min-width: 34rem; }
+    .prose :global(figure.diagram figcaption) { position: sticky; left: 0; max-width: calc(100vw - var(--gutter) * 2); }
+    .respond { padding: 1.5rem 1.25rem; }
+    .pager { grid-template-columns: 1fr; }
+    .pager-link.to-next { text-align: left; justify-items: start; }
+    .progress-title { font-size: 0.8125rem; }
+    .resume button { margin-left: calc(1.125em + 0.875rem); }
+  }
+</style>

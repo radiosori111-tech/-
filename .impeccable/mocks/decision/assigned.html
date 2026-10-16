@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Serif+KR:wght@500;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1440px;height:900px;overflow:hidden}
+body{font-family:'Noto Sans KR',sans-serif;background:#F5F6F3;color:#1A2230}
+.night{background:#0F1622;color:#E8ECF2;height:520px;padding:0 96px;position:relative}
+nav{display:flex;justify-content:space-between;align-items:center;height:80px;border-bottom:1px solid #243041;font-size:15px}
+.brand{font-weight:700;letter-spacing:-.02em;font-size:18px}
+.brand span{color:#E9A23B}
+nav ul{display:flex;gap:36px;list-style:none;color:#9AA7B8}
+.mast{display:grid;grid-template-columns:1.1fr .9fr;gap:64px;padding-top:72px}
+.kick{font-size:14px;color:#E9A23B;letter-spacing:.08em;font-variant-numeric:tabular-nums;margin-bottom:22px}
+h1{font-family:'Noto Serif KR',serif;font-weight:700;font-size:72px;line-height:1.12;letter-spacing:-.03em}
+.slogan{margin-top:24px;font-size:20px;line-height:1.7;color:#B7C2D0;max-width:520px}
+.feat{border-left:1px solid #2A3648;padding-left:40px;align-self:end}
+.feat .t{font-size:13px;color:#7E8BA0;font-variant-numeric:tabular-nums}
+.feat h2{font-size:28px;line-height:1.4;margin:12px 0 14px;font-weight:700;letter-spacing:-.02em}
+.feat p{font-size:16px;line-height:1.8;color:#9AA7B8}
+.day{position:absolute;left:96px;right:96px;bottom:0;height:72px}
+.track{position:absolute;left:0;right:0;top:34px;height:2px;background:linear-gradient(90deg,#2A3648 0%,#2A3648 22%,#E9A23B 22%,#E9A23B 42%,#5B6B82 42%,#5B6B82 75%,#2A3648 75%)}
+.hours{position:absolute;left:0;right:0;top:46px;display:flex;justify-content:space-between;font-size:12px;color:#6B7890;font-variant-numeric:tabular-nums}
+.pin{position:absolute;top:24px;width:2px;height:22px;background:#E9A23B}
+.pin b{position:absolute;bottom:26px;left:-4px;white-space:nowrap;font-size:13px;font-weight:500;color:#F2D6A8}
+.list{padding:48px 96px 0;display:grid;grid-template-columns:200px 1fr 1fr 1fr;gap:48px}
+.filters{font-size:15px;line-height:2.4;color:#5B6B82}
+.filters .on{color:#1A2230;font-weight:700;border-left:2px solid #E9A23B;padding-left:12px;margin-left:-14px}
+.card .time{font-size:13px;color:#A26A16;font-variant-numeric:tabular-nums;font-weight:500}
+.card h3{font-size:22px;line-height:1.45;letter-spacing:-.02em;margin:10px 0 12px;font-weight:700}
+.card p{font-size:15px;line-height:1.8;color:#4A5568}
+.card .meta{margin-top:16px;font-size:13px;color:#7A8597}
+</style></head><body>
+<section class="night">
+<nav><div class="brand">믿음의 게임, <span>실행</span></div><ul><li>아티클</li><li>뇌과학 이슈</li><li>습관 설계</li><li>소개</li><li>문의</li></ul></nav>
+<div class="mast">
+<div><div class="kick">뇌과학 · 습관 · 실행</div>
+<h1>뇌를 이해하면<br>하루가 바뀝니다</h1>
+<p class="slogan">뇌와 마음, 그리고 습관 변화를 통한 삶의 긍정적 변화. 복잡한 연구를 오늘 해볼 수 있는 행동으로 풀어 씁니다.</p></div>
+<div class="feat"><div class="t">07:00 · 아침 햇빛 · 8분 읽기</div><h2>아침 햇빛 10분이 밤잠을 바꾸는 이유</h2><p>눈으로 들어온 빛은 생체시계의 기준점을 다시 맞춥니다. 시교차상핵이 하루를 계산하는 방식과, 내일 아침 바로 해볼 수 있는 루틴.</p></div>
+</div>
+<div class="day"><div class="track"></div>
+<div class="pin" style="left:29%"><b>07:00 아침 햇빛</b></div>
+<div class="pin" style="left:50%;background:#5B6B82"><b style="color:#9AA7B8">12:00 집중력</b></div>
+<div class="pin" style="left:87%;background:#5B6B82"><b style="color:#9AA7B8">21:00 수면 준비</b></div>
+<div class="hours"><span>00</span><span>03</span><span>06</span><span>09</span><span>12</span><span>15</span><span>18</span><span>21</span><span>24</span></div></div>
+</section>
+<section class="list">
+<div class="filters"><div class="on">전체</div><div>뇌과학 기초</div><div>뇌과학 이슈</div><div>습관 형성</div><div>수면 · 회복</div></div>
+<article class="card"><div class="time">언제든 · 습관 형성</div><h3>새 습관이 자리 잡는 데 정말 21일이면 될까</h3><p>자동화까지 걸린 기간은 사람마다 18일에서 254일까지 달랐습니다. 숫자보다 중요한 것.</p><div class="meta">10분 읽기</div></article>
+<article class="card"><div class="time">12:00 · 뇌과학 기초</div><h3>도파민은 '쾌락 물질'이 아니다</h3><p>도파민이 실제로 하는 일은 보상 그 자체보다 보상을 예측하고 쫓게 만드는 것에 가깝습니다.</p><div class="meta">9분 읽기</div></article>
+<article class="card"><div class="time">21:00 · 수면 · 회복</div><h3>잠든 사이 뇌는 낮의 기억을 정리한다</h3><p>깊은 수면 동안 해마와 대뇌피질이 나누는 대화, 그리고 공부한 날 일찍 자야 하는 이유.</p><div class="meta">11분 읽기</div></article>
+</section>
+</body></html>

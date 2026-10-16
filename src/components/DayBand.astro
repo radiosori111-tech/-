@@ -1,0 +1,201 @@
+---
+import { minutesOfDay } from '../data/site';
+
+interface Pin { slug: string; title: string; time: string; moment: string }
+interface Props { pins: Pin[] }
+
+const { pins } = Astro.props;
+const placed = pins
+  .map((p) => ({ ...p, pct: ((minutesOfDay(p.time) ?? 0) / 1440) * 100 }))
+  .sort((a, b) => a.pct - b.pct);
+const hours = [0, 3, 6, 9, 12, 15, 18, 21, 24];
+---
+<div class="dayband" data-dayband>
+  <p class="visually-hidden">하루 24시간 위에 놓인 아티클: 각 글은 그 습관이 일어나는 시각에 표시됩니다.</p>
+  <div class="band-inner">
+    <div class="track" aria-hidden="true">
+      <span class="elapsed" data-elapsed></span>
+      {hours.map((h) => <span class="tick" style={`left:${(h / 24) * 100}%`}></span>)}
+    </div>
+    <ol class="pins">
+      {placed.map((p) => (
+        <li class:list={['pin', p.pct > 70 && 'pin-end']} style={`--x:${p.pct}%`} data-minute={minutesOfDay(p.time)}>
+          <a href={`/articles/${p.slug}/`}>
+            <span class="pin-dot" aria-hidden="true"></span>
+            <span class="pin-label">
+              <span class="time-mark">{p.time}</span>
+              <span class="pin-moment">{p.moment}</span>
+            </span>
+            <span class="visually-hidden">: {p.title}</span>
+          </a>
+        </li>
+      ))}
+    </ol>
+    <span class="now" data-now hidden aria-hidden="true"><span class="now-label tabular" data-now-label>지금</span></span>
+    <div class="hours tabular" aria-hidden="true">
+      {hours.map((h) => <span style={`left:${(h / 24) * 100}%`}>{String(h).padStart(2, '0')}</span>)}
+    </div>
+  </div>
+</div>
+
+<script>
+  function placeNow() {
+    document.querySelectorAll<HTMLElement>('[data-dayband]').forEach((band) => {
+      const d = new Date();
+      const minute = d.getHours() * 60 + d.getMinutes();
+      const pct = (minute / 1440) * 100;
+      const now = band.querySelector<HTMLElement>('[data-now]');
+      const label = band.querySelector<HTMLElement>('[data-now-label]');
+      const elapsed = band.querySelector<HTMLElement>('[data-elapsed]');
+      if (now && label) {
+        now.style.setProperty('--x', `${pct}%`);
+        label.textContent = `지금 ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
+        now.classList.toggle('now-end', pct > 82);
+        now.hidden = false;
+      }
+      if (elapsed) {
+        elapsed.style.setProperty('--x', `${pct}%`);
+        requestAnimationFrame(() => band.classList.add('is-live'));
+      }
+      // 지금 이후 가장 가까운 시각의 글이 '해'를 받는다. 오늘 남은 글이 없으면 내일 첫 글.
+      const pinEls = [...band.querySelectorAll<HTMLElement>('.pin')];
+      const next = pinEls.find((p) => Number(p.dataset.minute) >= minute) ?? pinEls[0];
+      pinEls.forEach((p) => p.classList.toggle('is-next', p === next));
+    });
+  }
+  placeNow();
+  setInterval(placeNow, 60_000);
+</script>
+
+<style>
+  .dayband { padding-block: 2.5rem 1.25rem; }
+  .band-inner { position: relative; height: 7.5rem; }
+
+  .track {
+    position: absolute;
+    left: 0; right: 0;
+    top: 4.5rem;
+    height: 2px;
+    background: var(--night-line);
+  }
+  .elapsed {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: var(--x, 0%);
+    background: linear-gradient(90deg, rgb(233 162 59 / 0.15), var(--sun));
+    transform-origin: left center;
+    transform: scaleX(0);
+    transition: transform 1.6s var(--ease-out);
+  }
+  .is-live .elapsed { transform: scaleX(1); }
+  .tick {
+    position: absolute;
+    top: -4px;
+    width: 1px; height: 10px;
+    background: var(--night-line);
+  }
+
+  .pins { list-style: none; }
+  .pin {
+    position: absolute;
+    left: var(--x);
+    top: 0;
+    height: 4.5rem;
+  }
+  .pin a {
+    position: absolute;
+    left: 0; top: 0; bottom: -0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-decoration: none;
+    padding-right: 0.5rem;
+  }
+  .pin-dot {
+    order: 2;
+    width: 11px; height: 11px;
+    margin-left: -5px;
+    border-radius: 50%;
+    background: var(--night);
+    border: 2px solid var(--dusk);
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  .pin-label {
+    order: 1;
+    display: grid;
+    gap: 0.125rem;
+    margin-left: -5px;
+    padding-left: 0.75rem;
+    border-left: 1px solid var(--night-line);
+    padding-bottom: 0.5rem;
+    white-space: nowrap;
+    font-size: 0.875rem;
+  }
+  .pin-end a { left: auto; right: 0; align-items: flex-end; padding-right: 0; padding-left: 0.5rem; }
+  .pin-end .pin-dot { margin-left: 0; margin-right: -6px; }
+  .pin-end .pin-label {
+    margin-left: 0; margin-right: -6px;
+    padding-left: 0; padding-right: 0.75rem;
+    border-left: 0; border-right: 1px solid var(--night-line);
+    text-align: right;
+  }
+  .pin .time-mark { color: var(--night-muted); transition: color 0.3s; }
+  .pin-moment { color: var(--night-muted); transition: color 0.3s; }
+  .pin a:hover .pin-moment, .pin a:focus-visible .pin-moment { color: var(--night-text); }
+  .pin a:hover .pin-dot { border-color: var(--night-text); }
+
+  .pin.is-next .pin-dot {
+    background: var(--sun);
+    border-color: var(--sun);
+    outline: 1px solid var(--sun);
+    outline-offset: 3px;
+  }
+  .pin.is-next .time-mark { color: var(--sun); }
+  .pin.is-next .pin-moment { color: var(--night-text); }
+  .pin.is-next .pin-label { border-color: rgb(233 162 59 / 0.5); }
+
+  .now {
+    position: absolute;
+    left: var(--x);
+    top: 4.5rem;
+    width: 0;
+  }
+  .now::before {
+    content: '';
+    position: absolute;
+    left: -1px; top: -0.875rem;
+    width: 2px; height: 1.875rem;
+    background: var(--night-text);
+    border-radius: 2px;
+  }
+  .now-label {
+    position: absolute;
+    top: 2.125rem;
+    left: 0.5rem;
+    white-space: nowrap;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--night-text);
+  }
+  .now-end .now-label { left: auto; right: 0.5rem; }
+
+  .hours {
+    position: absolute;
+    left: 0; right: 0;
+    top: 5.25rem;
+    font-size: 0.75rem;
+    color: var(--night-faint);
+  }
+  .hours span { position: absolute; transform: translateX(-50%); }
+  .hours span:first-child { transform: none; }
+  .hours span:last-child { transform: translateX(-100%); }
+
+  @media (max-width: 720px) {
+    .band-inner { height: 8.25rem; }
+    .pin-moment { display: none; }
+    .pin-label { font-size: 0.8125rem; }
+    .hours span:nth-child(even) { display: none; }
+    .now-label { top: 2.75rem; }
+  }
+</style>

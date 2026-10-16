@@ -1,0 +1,58 @@
+---
+import Icon from './Icon.astro';
+
+interface Props { reviewed?: Date }
+const { reviewed } = Astro.props;
+---
+<aside class="disclaimer-box" role="note" aria-labelledby="disclaimer-title">
+  <h2 id="disclaimer-title" class="d-title"><Icon name="info" /> 의학 · 학술 정보 면책 조항</h2>
+  <ul>
+    <li>이 글은 공개된 연구와 학회 권고를 바탕으로 <strong>일반적인 정보를 제공</strong>하기 위해 작성되었습니다.</li>
+    <li>의사, 약사 등 <strong>전문가의 진단, 치료, 처방을 대신하지 않습니다.</strong> 건강에 관한 결정은 반드시 전문가와 상담한 뒤 내려 주세요.</li>
+    <li>연구 결과는 연구 대상과 조건에 따라 달라질 수 있으며, <strong>모든 사람에게 같은 효과를 보장하지 않습니다.</strong></li>
+    <li>지병이 있거나 약을 복용 중이라면, 생활 습관을 크게 바꾸기 전에 담당 의사와 먼저 상의하세요.</li>
+    <li>응급 상황에서는 즉시 <strong>119</strong>에 연락하거나 가까운 응급실을 찾으세요.</li>
+  </ul>
+  <p class="d-link"><a href="/privacy/#disclaimer">면책조항 전문</a>과 <a href="/privacy/">개인정보 처리방침</a>을 함께 확인해 주세요.</p>
+  {reviewed && (
+    <p class="d-date tabular">정보 기준일 <time datetime={reviewed.toISOString()}>{`${reviewed.getFullYear()}년 ${reviewed.getMonth() + 1}월 ${reviewed.getDate()}일`}</time> · 이후 새로운 연구로 내용이 달라질 수 있습니다.</p>
+  )}
+</aside>
+
+<style>
+  .disclaimer-box {
+    margin-top: 3rem;
+    padding: clamp(1.25rem, 3vw, 1.75rem);
+    border: 1px solid var(--ink);
+    border-radius: 4px;
+    background: var(--paper-sunk);
+    font-family: var(--font-ui);
+    color: var(--ink);
+  }
+  .d-title {
+    display: flex !important;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 0 0.875rem !important;
+    padding: 0 !important;
+    border: 0 !important;
+    font-family: var(--font-ui) !important;
+    font-size: 1.0625rem !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.01em;
+  }
+  .d-title :global(.icon) { width: 1.25rem; height: 1.25rem; color: var(--sun-ink); }
+  .disclaimer-box ul { margin: 0 !important; padding-left: 1.2em !important; font-size: 0.9375rem; line-height: 1.75; color: var(--ink-soft); }
+  .disclaimer-box li { margin-bottom: 0.375em !important; }
+  .disclaimer-box strong { background: none !important; color: var(--ink); font-weight: 700; }
+  .d-link { margin: 0.875rem 0 0 !important; font-size: 0.875rem; line-height: 1.6; color: var(--ink-soft); }
+  .d-link a { color: var(--ink); font-weight: 600; text-decoration-color: var(--sun); }
+  .d-date {
+    margin: 1rem 0 0 !important;
+    padding-top: 0.875rem;
+    border-top: 1px solid var(--line);
+    font-size: 0.8125rem;
+    line-height: 1.6;
+    color: var(--muted);
+  }
+</style>

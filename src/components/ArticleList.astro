@@ -1,0 +1,101 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Icon from './Icon.astro';
+
+interface Props { articles: CollectionEntry<'articles'>[] }
+const { articles } = Astro.props;
+---
+<ol class="rows" data-rows>
+  {articles.map((a) => (
+    <li class="row" data-category={a.data.category} data-slug={a.id}>
+      <div class="row-time">
+        {a.data.time
+          ? <span class="time-mark big">{a.data.time}</span>
+          : <span class="time-mark anytime big">언제든</span>}
+        {a.data.time && <span class="row-moment">{a.data.moment}</span>}
+      </div>
+      <div class="row-body">
+        <h3><a href={`/articles/${a.id}/`}>{a.data.title}</a></h3>
+        <p class="row-desc">{a.data.description}</p>
+      </div>
+      <div class="row-meta tabular">
+        <span class="row-cat">{a.data.category}</span>
+        <span>{a.data.readMinutes}분 읽기</span>
+        <span class="row-state" data-state hidden>
+          <span class="state-done"><Icon name="check" /> 다 읽음</span>
+          <span class="state-flag"><Icon name="flag" /> <span><span data-pct></span>% 읽음</span></span>
+        </span>
+      </div>
+    </li>
+  ))}
+</ol>
+<p class="rows-empty" data-empty hidden>이 카테고리에는 아직 글이 없습니다.</p>
+
+<script>
+  type Progress = Record<string, number>;
+  let progress: Progress = {};
+  try { progress = JSON.parse(localStorage.getItem('mgs:progress') || '{}'); } catch {}
+  document.querySelectorAll<HTMLElement>('[data-rows] .row').forEach((row) => {
+    const p = progress[row.dataset.slug ?? ''];
+    if (!p || p < 0.05) return;
+    const state = row.querySelector<HTMLElement>('[data-state]');
+    if (!state) return;
+    state.hidden = false;
+    state.classList.add(p >= 0.9 ? 'is-done' : 'is-partial');
+    const pct = state.querySelector('[data-pct]');
+    if (pct) pct.textContent = String(Math.round(p * 100));
+  });
+</script>
+
+<style>
+  .rows { list-style: none; border-top: 1px solid var(--ink); margin-top: -1px; }
+  .row {
+    position: relative;
+    display: grid;
+    grid-template-columns: 8.5rem minmax(0, 1fr) 8rem;
+    gap: 2rem;
+    padding-block: 2rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .row-time { display: grid; align-content: start; gap: 0.25rem; }
+  .time-mark.big { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.01em; line-height: 1.2; }
+  .time-mark.anytime.big { font-size: 1.125rem; padding-top: 0.25rem; }
+  .row-moment { font-size: 0.875rem; color: var(--muted); }
+  .row-cat { font-weight: 600; color: var(--ink-soft); }
+  .row h3 {
+    font-family: var(--font-read);
+    font-size: var(--step-3);
+    font-weight: 600;
+    line-height: 1.35;
+    letter-spacing: -0.025em;
+  }
+  .row h3 a { text-decoration: none; background-image: linear-gradient(var(--sun), var(--sun)); background-size: 0 1px; background-position: 0 100%; background-repeat: no-repeat; transition: background-size 0.5s var(--ease-out); }
+  .row h3 a::after { content: ''; position: absolute; inset: 0; }
+  .row:hover h3 a, .row h3 a:focus-visible { background-size: 100% 1px; }
+  .row-desc { margin-top: 0.75rem; color: var(--muted); line-height: 1.75; max-width: 42rem; }
+  .row-meta {
+    display: grid;
+    align-content: start;
+    justify-items: end;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--muted);
+    padding-top: 0.25rem;
+  }
+  .row-state > span { display: none; align-items: center; gap: 0.3rem; font-weight: 600; }
+  .row-state.is-done .state-done { display: inline-flex; color: var(--ink-soft); }
+  .row-state.is-partial .state-flag { display: inline-flex; color: var(--sun-ink); }
+  .rows-empty { padding-block: 3rem; color: var(--muted); }
+
+  @media (max-width: 860px) {
+    .row { grid-template-columns: 6.5rem minmax(0, 1fr); gap: 1.25rem; }
+    .row-meta { grid-column: 2; justify-items: start; grid-auto-flow: column; justify-content: start; gap: 1rem; padding-top: 0; }
+  }
+  @media (max-width: 560px) {
+    .row { grid-template-columns: 4.25rem minmax(0, 1fr); gap: 0.875rem; padding-block: 1.75rem; }
+    .time-mark.big { font-size: 1.0625rem; padding-top: 0.25rem; }
+    .time-mark.anytime.big { font-size: 0.9375rem; }
+    .row-moment { font-size: 0.75rem; line-height: 1.4; }
+    .row-meta { flex-wrap: wrap; display: flex; }
+  }
+</style>

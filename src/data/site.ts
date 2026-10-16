@@ -1,0 +1,24 @@
+export const SITE = {
+  name: '믿음의 게임, 실행',
+  slogan: '뇌와 마음, 그리고 습관 변화를 통한 삶의 긍정적 변화',
+  description:
+    '복잡한 뇌과학 정보를 쉽게 풀어, 오늘 바로 실천할 수 있는 팩트 기반 습관 정보를 전하는 뇌과학 아티클 사이트입니다.',
+  email: 'warauego@naver.com',
+  locale: 'ko_KR',
+};
+
+export const NAV = [
+  { href: '/', label: '아티클' },
+  { href: '/about/', label: '소개' },
+  { href: '/contact/', label: '문의' },
+];
+
+export function minutesOfDay(time?: string) {
+  if (!time) return null;
+  const [h, m] = time.split(':').map(Number);
+  return h * 60 + m;
+}
+
+export function formatDate(d: Date) {
+  return `${d.getFullYear()}. ${d.getMonth() + 1}. ${d.getDate()}.`;
+}
