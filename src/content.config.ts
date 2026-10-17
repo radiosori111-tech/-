@@ -18,7 +18,8 @@ const articles = defineCollection({
   }),
 });
 
-// 티스토리에서 옮겨 온 글 (scripts/tistory-import.mjs가 만든다)
+// 블로그 글. 티스토리에서 옮겨 온 글(scripts/tistory-import.mjs가 만든다)은 source에 원문 주소가 있고,
+// 이 사이트에서 새로 쓴 글은 source가 없다.
 const blog = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
   schema: z.object({
@@ -30,7 +31,7 @@ const blog = defineCollection({
     category: z.string().optional(),
     tags: z.array(z.string()).default([]),
     image: z.string().optional(),
-    source: z.string().url(),
+    source: z.string().url().optional(),
   }),
 });
 
