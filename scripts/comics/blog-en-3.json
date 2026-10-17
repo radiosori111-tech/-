@@ -1,0 +1,110 @@
+{
+  "blog/en/already-exhausted-will-exercise-make-me-more-tired": {
+    "title": "The more tired you are, the more 15 minutes helps",
+    "panels": [
+      ["tired", "I just want to lie down", "After a day on your feet, you end up lying down with your phone on every break."],
+      ["alarm", "The brain is more tired than the body", "That fatigue is <strong>neurological fatigue</strong>. Stress hormones wear out the <strong>hippocampus</strong>."],
+      ["run", "Just 15 minutes outside", "Change into comfortable sneakers and try a <strong>15-minute walk or light run</strong>."],
+      ["calm", "The brain has reset", "<strong>BDNF</strong>, <strong>serotonin</strong> and <strong>dopamine</strong> flow, giving you the strength for the rest of the day."]
+    ]
+  },
+  "blog/en/carnivore-diet-for-better-brain-function-inspired-by-you-quiz": {
+    "title": "First steps on a carnivore diet",
+    "panels": [
+      ["gut", "My stomach is always off", "Some people are sensitive to plant toxins (<strong>oxalates</strong>, <strong>lectins</strong>)."],
+      ["sprout", "Fuel the brain with ketones", "A diet centered on animal foods lets the brain use <strong>ketones</strong> as fuel."],
+      ["food", "Beef, eggs and butter", "Start by balancing your <strong>fat-to-protein ratio</strong> and increasing <strong>water and salt</strong>."],
+      ["focus", "After the adjustment period", "Many say focus improves after the early side effects pass, but <strong>talk to a professional</strong> first."]
+    ]
+  },
+  "blog/en/neuroscientist-anxiety-move-exercise-brain-science-guide": {
+    "title": "Exercise that tames anxiety",
+    "panels": [
+      ["alarm", "Anxious again…", "Neuroscientist <strong>Jennifer Heisz</strong>, who lived with anxiety, started from the same question."],
+      ["sprout", "Exercise changes the brain", "Exercise moves <strong>BDNF</strong>, <strong>dopamine</strong> and <strong>norepinephrine</strong>, lowering anxiety."],
+      ["run", "Six minutes is enough", "Short <strong>high-intensity exercise</strong>; <strong>morning workouts</strong> for focus; <strong>walks in nature</strong> for low mood."],
+      ["lift", "Don't forget strength", "<strong>Strength training</strong> also supports the memory-guarding <strong>hippocampus</strong> and dementia prevention."]
+    ]
+  },
+  "blog/en/why-we-give-up-diets-and-tasks-the-brain-uses-20-percent-of-energy": {
+    "title": "Giving up isn't a willpower problem",
+    "panels": [
+      ["food", "A late-night snack, again…", "Diets and put-off tasks keep slipping, and you end up blaming yourself."],
+      ["tired", "A brain that saves energy", "The brain is <strong>2%</strong> of body weight but uses <strong>20%</strong> of its energy, so it always chooses to save."],
+      ["steps", "Lower the starting barrier", "Make the first step tiny and move right away with the <strong>five-second rule</strong>."],
+      ["calm", "A smile instead of blame", "<strong>Managing the brain's energy itself</strong> changes your choices."]
+    ]
+  },
+  "blog/en/raemian-gallery-a-part-of-home-immersive-exhibition-brain-science-talks": {
+    "title": "Immersion starts with space",
+    "panels": [
+      ["phone", "At home, but my mind wanders…", "Sometimes you're home but your mind is somewhere else entirely."],
+      ["focus", "The immersed brain", "When immersed, the brain releases <strong>dopamine</strong> and sinks deeply into one thing."],
+      ["book", "A small space of my own", "Create <strong>a space of your own</strong> filled with things you love."],
+      ["calm", "Space shapes who I am", "<strong>Space affects immersion</strong>: that's the message of the exhibition and talks."]
+    ]
+  },
+  "blog/en/ceramic-problem-unsolved-for-years-solved-in-three-weeks-flow": {
+    "title": "A years-old problem, solved in three weeks",
+    "panels": [
+      ["alarm", "Stuck for years…", "There was a wall in ceramic engineering that researchers couldn't crack after years of effort."],
+      ["focus", "Don't let go of the thought", "<strong>Immersive thinking</strong>: hold one problem long and without a break, and the brain finds the answer."],
+      ["book", "One problem all day", "Instead of giving up, keep increasing the time you spend thinking about just one problem."],
+      ["steps", "The answer in three weeks", "It wasn't special equipment but a change in <strong>the way of thinking</strong>."]
+    ]
+  },
+  "blog/en/why-diets-and-savings-plans-last-three-days-identity-based-motivation": {
+    "title": "Three-day resolutions are an identity problem",
+    "panels": [
+      ["tired", "Gave up after three days…", "Diets and savings plans last three days, and we call it weak willpower."],
+      ["focus", "Does it feel like me?", "Psychologist <strong>Oyserman</strong>'s theory: when <strong>identity</strong> and behavior don't match, it's easy to quit."],
+      ["speech", "It's hard because it matters", "Read difficulty not as \"it's not for me\" but as <strong>\"it's hard because it matters.\"</strong>"],
+      ["steps", "Lasting, in my own way", "Design your strategy <strong>to fit you</strong>, and the behavior lasts."]
+    ]
+  },
+  "blog/en/five-minutes-a-day-why-the-brain-really-changes-neuroplasticity": {
+    "title": "Why five minutes a day changes the brain",
+    "panels": [
+      ["tired", "Can't get past day three…", "You resolve every morning, but it keeps falling apart within three days."],
+      ["synapse", "The power of small repetition", "Repeat a very small amount every day, and <strong>neuroplasticity</strong> creates real change."],
+      ["book", "Organized records", "Instead of notes that are just a few words, keep records organized <strong>by month, week and day</strong>."],
+      ["steps", "A day that doesn't waver", "The very process of recording what you do builds the power to think."]
+    ]
+  },
+  "blog/en/emotional-reactions-and-speech-habits-are-learned-reflex-circuits": {
+    "title": "Attitudes were reflex circuits too",
+    "panels": [
+      ["alarm", "Ugh! The words came out first", "Hear a sharp remark, and a cutting reply flies out before you can think."],
+      ["loop", "Like drooling at a bell", "<strong>Conditioned reflexes</strong>: repeated emotional reactions and speech habits are automatic circuits the brain has learned."],
+      ["pause", "Pause for 0.1 seconds", "Notice the <strong>short gap</strong> between stimulus and response, and you can pick another option."],
+      ["steps", "Build a new reflex", "<strong>Attitude</strong> isn't innate personality but accumulated reflexes. Small repetitions build a new circuit."]
+    ]
+  },
+  "blog/en/why-affirmations-fail-even-after-1000-times-brain-science": {
+    "title": "How affirmations reach the brain",
+    "panels": [
+      ["speech", "I can do it!", "You shout it every day, quit a few weeks later, and life stays the same."],
+      ["alarm", "The brain pushes back", "<strong>The bigger the gap</strong> between who you are and the affirmation, the more the brain resists."],
+      ["speech", "\"I'm someone who…\"", "Write <strong>identity</strong> sentences in the <strong>present tense, first person</strong>, only <strong>slightly different</strong> from now."],
+      ["steps", "Action follows", "The <strong>reticular activating system</strong> picks out information in that direction, building <strong>staying power</strong>."]
+    ]
+  },
+  "blog/en/if-you-keep-doing-things-you-regret-the-brain-acted-first": {
+    "title": "Why does regret always come later?",
+    "panels": [
+      ["phone", "I did it again…", "Late-night snacks, words said in anger, impulse buys. You repeat the same choice knowing better."],
+      ["metronome", "The amygdala goes first", "The <strong>amygdala</strong> moves before the <strong>prefrontal cortex</strong>, so action comes before judgment."],
+      ["pause", "Wait just 10 minutes", "Create a gap with <strong>affect labeling</strong>, the <strong>10-minute rule</strong> and <strong>implementation intentions</strong> set in advance."],
+      ["calm", "Reinterpret instead of blaming", "If you already regret it, try <strong>reinterpretation</strong> instead of self-blame. Meditation calms the amygdala too."]
+    ]
+  },
+  "blog/en/skip-the-5-minute-warm-up-and-cool-down-and-you-halve-runnings-brain-benefits": {
+    "title": "The difference 5 minutes before and after a run makes",
+    "panels": [
+      ["run", "Laces tied, off I go!", "Speeding up suddenly without a warm-up strains your muscles and joints."],
+      ["synapse", "The brain needs to get ready too", "Wake it gently, and blood flow to the brain and <strong>dopamine</strong> and <strong>BDNF</strong> release continue evenly."],
+      ["run", "Dynamic stretching first", "<strong>5 to 10 minutes of dynamic stretching</strong> before running; a <strong>cool-down</strong> and static stretches after."],
+      ["calm", "Double the benefits", "Take care of preparation and recovery, and running's brain benefits stay fully intact."]
+    ]
+  }
+}
