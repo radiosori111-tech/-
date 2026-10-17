@@ -121,6 +121,7 @@ const abs = (href: string) => new URL(href, Astro.site).toString();
             <a href={pagePath(lang, '/contact/')}>{tr.nav.contact}</a>
             <a href={privacyHref}>{tr.foot.privacy}</a>
             <a href={privacyHref + '#disclaimer'}>{tr.foot.disclaimer}</a>
+            <a href={pagePath(lang, '/sitemap/')}>{tr.foot.sitemap}</a>
           </nav>
           <div class="foot-meta">
             <p>{tr.foot.email} <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>

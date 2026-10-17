@@ -3,6 +3,55 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import sharp from 'sharp';
 import { copyFile } from 'node:fs/promises';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const SITE_URL = 'https://jes-lu.com';
+const SITEMAP_LOCALES = { ko: 'ko-KR', en: 'en-US', ja: 'ja-JP' };
+
+// 번역 글은 언어마다 주소(slug)가 달라서 sitemap 통합의 i18n 설정만으로는 서로 묶이지 않는다.
+// 글 파일의 frontmatter(lang · slug · translationOf)를 읽어 주소 → 같은 글의 언어별 주소 목록을 만든다.
+function translationLinks() {
+  const field = (src, name) => src.match(new RegExp(`^${name}:\\s*"?(.*?)"?\\s*$`, 'm'))?.[1] ?? '';
+  const mdFiles = (dir) =>
+    fs.readdirSync(dir, { withFileTypes: true }).flatMap((e) =>
+      e.isDirectory() ? mdFiles(path.join(dir, e.name)) : e.name.endsWith('.md') ? [path.join(dir, e.name)] : [],
+    );
+  const groups = new Map();
+  const add = (key, lang, pathname) => {
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push({ lang, pathname });
+  };
+  for (const file of mdFiles('src/content/blog')) {
+    const src = fs.readFileSync(file, 'utf8');
+    const lang = field(src, 'lang') || 'ko';
+    const slug = field(src, 'slug');
+    add(`blog:${field(src, 'translationOf') || slug}`, lang, `${lang === 'ko' ? '' : `/${lang}`}/blog/${slug}/`);
+  }
+  for (const file of mdFiles('src/content/articles')) {
+    const src = fs.readFileSync(file, 'utf8');
+    const lang = field(src, 'lang') || 'ko';
+    const name = path.basename(file, '.md');
+    add(`articles:${field(src, 'translationOf') || name}`, lang, `${lang === 'ko' ? '' : `/${lang}`}/articles/${name}/`);
+  }
+  // 한국어 아티클 목록은 홈(/)이고, 영어 · 일본어는 /en/articles/ · /ja/articles/
+  add('articles-index', 'ko', '/');
+  add('articles-index', 'en', '/en/articles/');
+  add('articles-index', 'ja', '/ja/articles/');
+  const byPath = new Map();
+  for (const members of groups.values()) {
+    if (members.length < 2) continue;
+    const order = Object.keys(SITEMAP_LOCALES);
+    members.sort((a, b) => order.indexOf(a.lang) - order.indexOf(b.lang));
+    const url = (p) => new URL(p, SITE_URL).href;
+    const links = members.map((m) => ({ lang: SITEMAP_LOCALES[m.lang], url: url(m.pathname) }));
+    const fallback = members.find((m) => m.lang === 'ko') ?? members[0];
+    links.push({ lang: 'x-default', url: url(fallback.pathname) });
+    for (const m of members) byPath.set(m.pathname, links);
+  }
+  return byPath;
+}
+const TRANSLATION_LINKS = translationLinks();
 
 // 본문 이미지(public/ 아래)에 실제 가로·세로 크기를 적어 로딩 중 화면이 밀리지 않게 하고,
 // 첫 이미지를 뺀 나머지는 화면에 가까워질 때 불러온다.
@@ -41,7 +90,7 @@ const sitemapAlias = {
 };
 
 export default defineConfig({
-  site: 'https://jes-lu.com',
+  site: SITE_URL,
   trailingSlash: 'ignore',
   build: { format: 'directory' },
   markdown: { rehypePlugins: [imageAttributes] },
@@ -54,7 +103,11 @@ export default defineConfig({
   integrations: [sitemap({
       filter: (page) => !page.includes('/404'),
       // 같은 경로의 언어별 페이지(/blog/ ↔ /en/blog/ ↔ /ja/blog/)를 xhtml:link로 서로 묶는다.
-      // 글마다 주소가 다른 번역 글은 각 페이지의 hreflang 태그로 묶인다.
-      i18n: { defaultLocale: 'ko', locales: { ko: 'ko-KR', en: 'en-US', ja: 'ja-JP' } },
+      i18n: { defaultLocale: 'ko', locales: SITEMAP_LOCALES },
+      // 글마다 주소가 다른 번역 글(블로그 · 아티클)은 translationLinks()로 만든 언어별 주소를 붙인다
+      serialize(item) {
+        const links = TRANSLATION_LINKS.get(decodeURI(new URL(item.url).pathname));
+        return links ? { ...item, links } : item;
+      },
     }), sitemapAlias],
 });

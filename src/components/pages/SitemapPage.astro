@@ -1,0 +1,261 @@
+---
+// 사이트맵 (한국어 /sitemap/, 영어 /en/sitemap/, 일본어 /ja/sitemap/)
+// 모든 페이지와 글을 주제별로 모으고, 글마다 한국어 · 영어 · 일본어 판으로 가는 링크를 붙인다.
+import Page from '../../layouts/Page.astro';
+import LangSwitch from '../LangSwitch.astro';
+import { sitemapArticles, sitemapPosts, type SitemapGroup } from '../../data/sitemap';
+import { t, LANGS, LANG_NAME, HREFLANG, CATEGORY_LABEL, articlesPath, blogPath, pagePath, type Lang } from '../../i18n/ui';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const tr = t(lang);
+
+const COPY = {
+  ko: {
+    title: '사이트맵',
+    lede: '이 사이트의 모든 페이지와 글을 주제별로 모았습니다. 글마다 한국어 · 영어 · 일본어 판으로 바로 이동할 수 있어요.',
+    pages: '주요 페이지',
+    count: (n: number) => `${n}편`,
+    desc: { articles: '하루의 흐름에 맞춘 뇌과학 아티클', blog: '뇌과학, 운동, 식단, 습관 이야기', about: '사이트 소개와 콘텐츠 원칙', contact: '주제 제안, 질문, 오류 제보', privacy: '개인정보 처리방침과 면책조항' },
+    topics: { exercise: '운동 · 러닝', food: '식단 · 혈당', mind: '마음 · 감정', habits: '뇌가소성 · 습관', health: '뇌 건강 · 일상' },
+    version: (l: string) => `${l} 판`,
+    missing: (l: string) => `${l} 판 준비 중`,
+    xml: '검색엔진용 XML 사이트맵',
+  },
+  en: {
+    title: 'Sitemap',
+    lede: 'Every page and post on this site, grouped by topic. Each one links straight to its Korean, English, and Japanese editions.',
+    pages: 'Main pages',
+    count: (n: number) => `${n} ${n === 1 ? 'post' : 'posts'}`,
+    desc: { articles: 'Brain science articles set along the course of a day', blog: 'Essays on brain science, exercise, food, and habits', about: 'About the site and our content principles', contact: 'Topic ideas, questions, and corrections', privacy: 'Privacy policy and disclaimer' },
+    topics: { exercise: 'Exercise & running', food: 'Food & blood sugar', mind: 'Mind & emotions', habits: 'Neuroplasticity & habits', health: 'Brain health & daily life' },
+    version: (l: string) => `${l} edition`,
+    missing: (l: string) => `${l} edition coming soon`,
+    xml: 'XML sitemap for search engines',
+  },
+  ja: {
+    title: 'サイトマップ',
+    lede: 'このサイトのすべてのページと記事をテーマ別にまとめました。記事ごとに、韓国語・英語・日本語版へすぐに移動できます。',
+    pages: '主なページ',
+    count: (n: number) => `${n}件`,
+    desc: { articles: '一日の流れに沿った脳科学の記事', blog: '脳科学、運動、食事、習慣の話', about: 'サイトの紹介とコンテンツの原則', contact: 'テーマの提案、質問、誤りのご指摘', privacy: 'プライバシーポリシーと免責事項' },
+    topics: { exercise: '運動・ランニング', food: '食事・血糖', mind: '心・感情', habits: '脳の可塑性・習慣', health: '脳の健康・暮らし' },
+    version: (l: string) => `${l}版`,
+    missing: (l: string) => `${l}版は準備中`,
+    xml: '検索エンジン向けXMLサイトマップ',
+  },
+}[lang];
+
+const CODE: Record<Lang, string> = { ko: 'KO', en: 'EN', ja: 'JA' };
+
+const pages = [
+  { href: articlesPath(lang), label: tr.nav.articles, desc: COPY.desc.articles },
+  { href: blogPath(lang), label: tr.nav.blog, desc: COPY.desc.blog },
+  { href: pagePath(lang, '/about/'), label: tr.nav.about, desc: COPY.desc.about },
+  { href: pagePath(lang, '/contact/'), label: tr.nav.contact, desc: COPY.desc.contact },
+  { href: pagePath(lang, '/privacy/'), label: tr.foot.privacy, desc: COPY.desc.privacy },
+];
+
+const articleGroups = await sitemapArticles(lang);
+const postGroups = await sitemapPosts(lang);
+const total = (groups: SitemapGroup[]) => groups.reduce((n, g) => n + g.entries.length, 0);
+
+const sections = [
+  { id: 'articles', title: tr.nav.articles, groups: articleGroups, label: (k: string) => CATEGORY_LABEL[lang][k] ?? k },
+  { id: 'blog', title: tr.nav.blog, groups: postGroups, label: (k: string) => COPY.topics[k as keyof typeof COPY.topics] ?? k },
+];
+
+const alternates = LANGS.map((l) => ({ lang: l, href: pagePath(l, '/sitemap/') }));
+---
+<Page title={COPY.title} lede={COPY.lede} lang={lang} alternates={alternates}>
+  <LangSwitch slot="head" alternates={alternates} current={lang} label={tr.post.readIn} />
+
+  <div class="sitemap">
+    <section aria-labelledby="sm-pages">
+      <h2 id="sm-pages" class="sm-title">{COPY.pages}</h2>
+      <ul class="sm-pages">
+        {pages.map((p) => (
+          <li>
+            <a href={p.href}>
+              <span class="sm-page-name">{p.label}</span>
+              <span class="sm-page-desc">{p.desc}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    {sections.map((s) => (
+      <section aria-labelledby={`sm-${s.id}`}>
+        <h2 id={`sm-${s.id}`} class="sm-title">
+          <a href={s.id === 'articles' ? articlesPath(lang) : blogPath(lang)}>{s.title}</a>
+          <span class="sm-count tabular">{COPY.count(total(s.groups))}</span>
+        </h2>
+        <div class="sm-groups">
+          {s.groups.map((g) => (
+            <section class="sm-group" aria-labelledby={`sm-${s.id}-${g.key}`}>
+              <h3 id={`sm-${s.id}-${g.key}`}>
+                {s.label(g.key)}
+                <span class="sm-count tabular">{COPY.count(g.entries.length)}</span>
+              </h3>
+              <ul class="sm-list">
+                {g.entries.map((e) => (
+                  <li>
+                    <a class="sm-entry" href={e.href} lang={HREFLANG[e.titleLang]}>{e.title}</a>
+                    <span class="sm-langs">
+                      {e.links.map((l) => (
+                        l.href
+                          ? <a href={l.href} hreflang={HREFLANG[l.lang]} class:list={['sm-chip', { 'is-current': l.lang === lang }]}
+                              aria-label={COPY.version(LANG_NAME[l.lang])} aria-current={l.lang === lang ? 'page' : undefined}>{CODE[l.lang]}</a>
+                          : <span class="sm-chip is-missing" title={COPY.missing(LANG_NAME[l.lang])} aria-label={COPY.missing(LANG_NAME[l.lang])}>{CODE[l.lang]}</span>
+                      ))}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <p class="sm-xml"><a href="/sitemap-index.xml">{COPY.xml}</a></p>
+  </div>
+</Page>
+
+<style>
+  .sitemap { display: grid; gap: clamp(3rem, 6vw, 4.5rem); }
+
+  .sm-title {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+    font-size: var(--text-2xl);
+    font-weight: 700;
+    line-height: 1.35;
+    letter-spacing: -0.03em;
+    color: var(--ink);
+  }
+  .sm-title a { color: inherit; text-decoration: none; transition: color 150ms ease; }
+  .sm-title a:hover { color: var(--accent-strong); }
+
+  .sm-count {
+    padding: 0.0625rem 0.5rem;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent-strong);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+
+  /* 주요 페이지 */
+  .sm-pages {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+    gap: 0.75rem;
+    list-style: none;
+  }
+  .sm-pages a {
+    display: grid;
+    gap: 0.25rem;
+    height: 100%;
+    padding: 1rem 1.25rem 1.0625rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
+    text-decoration: none;
+    transition: border-color 150ms ease, background-color 150ms ease, transform 160ms var(--ease-out);
+  }
+  .sm-pages a:hover { border-color: var(--line-hover); background: var(--surface-hover); }
+  .sm-page-name { font-weight: 700; letter-spacing: -0.02em; color: var(--ink); }
+  .sm-page-desc { font-size: var(--text-sm); line-height: 1.6; color: var(--muted); }
+
+  /* 카테고리 · 주제 카드 */
+  .sm-groups {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    align-items: start;
+  }
+  .sm-group {
+    padding: 1.25rem 1.5rem 0.5rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
+  }
+  .sm-group h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding-bottom: 0.875rem;
+    border-bottom: 1px solid var(--line);
+    font-size: var(--text-md);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+  }
+
+  .sm-list { list-style: none; }
+  .sm-list li {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-block: 0.75rem;
+  }
+  .sm-list li + li { border-top: 1px solid var(--sunk); }
+  .sm-entry {
+    min-width: 0;
+    font-size: var(--text-ui);
+    line-height: 1.6;
+    color: var(--ink-soft);
+    text-decoration: none;
+    overflow-wrap: anywhere;
+    transition: color 150ms ease;
+  }
+  .sm-entry:hover { color: var(--accent-strong); text-decoration: underline; text-underline-offset: 0.2em; }
+
+  /* 언어별 판으로 가는 작은 단추 */
+  .sm-langs { display: inline-flex; flex: none; gap: 0.25rem; }
+  .sm-chip {
+    display: inline-block;
+    min-width: 2.125rem;
+    padding: 0.125rem 0.375rem;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--muted);
+    text-decoration: none;
+    transition: color 150ms ease, border-color 150ms ease, background-color 150ms ease, transform 160ms var(--ease-out);
+  }
+  a.sm-chip:hover { color: var(--accent-strong); border-color: var(--accent-line); background: var(--accent-soft); }
+  .sm-chip.is-current { color: var(--accent-strong); border-color: var(--accent-line); background: var(--accent-soft); }
+  .sm-chip.is-missing { color: var(--line-hover); border-style: dashed; }
+
+  .sm-xml { font-size: var(--text-sm); color: var(--muted); }
+  .sm-xml a { color: var(--accent-strong); font-weight: 500; }
+  .sm-xml a:hover { color: var(--accent); }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .sm-pages a:active { transform: scale(0.98); }
+    a.sm-chip:active { transform: scale(0.94); }
+  }
+
+  @media (max-width: 860px) {
+    .sm-groups { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 480px) {
+    .sm-group { padding-inline: 1.125rem; }
+    .sm-list li { flex-direction: column; gap: 0.375rem; }
+  }
+</style>
