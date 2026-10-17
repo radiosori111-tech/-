@@ -18,4 +18,20 @@ const articles = defineCollection({
   }),
 });
 
-export const collections = { articles };
+// 티스토리에서 옮겨 온 글 (scripts/tistory-import.mjs가 만든다)
+const blog = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
+  schema: z.object({
+    title: z.string(),
+    slug: z.string(),
+    description: z.string(),
+    date: z.coerce.date(),
+    updated: z.coerce.date().optional(),
+    category: z.string().optional(),
+    tags: z.array(z.string()).default([]),
+    image: z.string().optional(),
+    source: z.string().url(),
+  }),
+});
+
+export const collections = { articles, blog };

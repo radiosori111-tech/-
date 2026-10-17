@@ -1,0 +1,391 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+import Disclaimer from '../../components/Disclaimer.astro';
+import { SITE, formatDate } from '../../data/site';
+import { getPosts, postUrl, postTags, postMinutes } from '../../data/blog';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return posts.map((post, i) => ({
+    params: { slug: post.data.slug },
+    // 목록은 최신순이므로 하나 앞이 더 최근 글, 하나 뒤가 지난 글
+    props: { post, newer: posts[i - 1] ?? null, older: posts[i + 1] ?? null },
+  }));
+}
+
+const { post, newer, older } = Astro.props;
+const { Content, headings } = await render(post);
+const { title, description, date, updated, image, slug } = post.data;
+const tags = postTags(post);
+const minutes = postMinutes(post);
+const pageUrl = new URL(postUrl(post), Astro.site).toString();
+const wasUpdated = updated && updated.toDateString() !== date.toDateString();
+
+// 소제목이 두 개 이상인 단계로 목차를 만든다 (h2가 없는 글은 h3로)
+const level = [2, 3].find((d) => headings.filter((h) => h.depth === d).length >= 2);
+const toc = level ? headings.filter((h) => h.depth === level) : [];
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: title,
+  description,
+  datePublished: date.toISOString(),
+  dateModified: (updated ?? date).toISOString(),
+  ...(image && { image: new URL(image, Astro.site).toString() }),
+  ...(tags.length && { keywords: tags.join(', ') }),
+  inLanguage: 'ko',
+  author: { '@type': 'Organization', name: SITE.name },
+  publisher: { '@type': 'Organization', name: SITE.name },
+  mainEntityOfPage: pageUrl,
+};
+---
+<Base title={title} description={description} type="article" jsonLd={jsonLd} image={image}>
+  <div class:list={['post-page', toc.length === 0 && 'is-narrow']}>
+  <header class="post-head frame">
+    <div class="wrap head-inner">
+      <a class="back" href="/blog/"><Icon name="arrow-left" /> 블로그</a>
+      <h1>{title}</h1>
+      <dl class="meta tabular">
+        <div><dt class="visually-hidden">작성일</dt><dd><time datetime={date.toISOString()}>{formatDate(date)}</time></dd></div>
+        {wasUpdated && <div><dt>수정</dt><dd><time datetime={updated!.toISOString()}>{formatDate(updated!)}</time></dd></div>}
+        <div><dt class="visually-hidden">읽는 시간</dt><dd>{minutes}분 읽기</dd></div>
+      </dl>
+    </div>
+  </header>
+
+  <div class="progress-line" aria-hidden="true"><span data-fill></span></div>
+
+  <div class="wrap post-grid">
+    {toc.length > 0 && (
+      <aside class="toc" aria-labelledby="toc-title">
+        <details class="toc-box" open data-toc>
+          <summary id="toc-title"><Icon name="list" /> 목차<span class="toc-chevron"><Icon name="chevron-down" /></span></summary>
+          <ol>
+            {toc.map((h) => <li><a href={`#${h.slug}`} data-toc-link={h.slug}>{h.text}</a></li>)}
+          </ol>
+        </details>
+      </aside>
+    )}
+
+    <article class="prose" data-article data-slug={slug}>
+      <Content />
+
+      {tags.length > 0 && (
+        <ul class="tags" aria-label="태그">
+          {tags.map((t) => <li class="chip">#{t}</li>)}
+        </ul>
+      )}
+
+      <Disclaimer reviewed={updated ?? date} />
+
+      <div class="share" role="group" aria-label="공유하기">
+        <span class="share-label">이 글 공유하기</span>
+        <button type="button" class="share-btn" data-copy><Icon name="link" /> <span data-copy-label>링크 복사</span></button>
+        <a class="share-btn" href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(pageUrl)}`} target="_blank" rel="noopener"><Icon name="x" /> X</a>
+        <a class="share-btn" href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(pageUrl)}`} target="_blank" rel="noopener"><Icon name="facebook" /> 페이스북</a>
+        <button type="button" class="share-btn" data-native-share hidden><Icon name="share" /> 다른 앱으로</button>
+      </div>
+    </article>
+  </div>
+
+  <nav class="wrap pager" aria-label="다른 글">
+    {older ? (
+      <a class="pager-link" href={postUrl(older)}>
+        <span class="pager-dir"><Icon name="arrow-left" /> 지난 글</span>
+        <span class="pager-title">{older.data.title}</span>
+      </a>
+    ) : <span />}
+    {newer ? (
+      <a class="pager-link to-next" href={postUrl(newer)}>
+        <span class="pager-dir">최근 글 <Icon name="arrow-right" /></span>
+        <span class="pager-title">{newer.data.title}</span>
+      </a>
+    ) : <span />}
+  </nav>
+  <p class="wrap all-link"><a class="btn btn-secondary" href="/blog/">블로그 글 전체 보기</a></p>
+  </div>
+</Base>
+
+<script>
+  const article = document.querySelector<HTMLElement>('[data-article]')!;
+  const key = `blog:${article.dataset.slug}`;
+  const fill = document.querySelector<HTMLElement>('.progress-line [data-fill]')!;
+
+  const read = (k: string) => { try { return JSON.parse(localStorage.getItem(k) || '{}'); } catch { return {}; } };
+  const write = (k: string, v: unknown) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
+
+  function fraction() {
+    const start = article.offsetTop - innerHeight * 0.3;
+    const end = article.offsetTop + article.offsetHeight - innerHeight;
+    return Math.min(1, Math.max(0, (scrollY - start) / Math.max(1, end - start)));
+  }
+  let ticking = false;
+  let saveTimer = 0;
+  function update() {
+    ticking = false;
+    const f = fraction();
+    fill.style.transform = `scaleX(${f})`;
+    clearTimeout(saveTimer);
+    saveTimer = window.setTimeout(() => {
+      const max = read('mgs:progress');
+      max[key] = Math.max(max[key] ?? 0, f);
+      write('mgs:progress', max);
+    }, 400);
+  }
+  addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+  update();
+
+  // 목차: 지금 읽는 절을 표시
+  const links = [...document.querySelectorAll<HTMLAnchorElement>('[data-toc-link]')];
+  const sections = links.map((l) => document.getElementById(l.dataset.tocLink!)).filter(Boolean) as HTMLElement[];
+  if (sections.length) {
+    const io = new IntersectionObserver(() => {
+      let current = sections[0];
+      for (const s of sections) if (s.getBoundingClientRect().top < innerHeight * 0.35) current = s;
+      links.forEach((l) => l.toggleAttribute('aria-current', l.dataset.tocLink === current?.id));
+    }, { rootMargin: '0px 0px -60% 0px', threshold: [0, 1] });
+    sections.forEach((s) => io.observe(s));
+  }
+  const toc = document.querySelector<HTMLDetailsElement>('[data-toc]');
+  if (toc && matchMedia('(max-width: 1100px)').matches) toc.open = false;
+
+  // 공유
+  document.querySelector<HTMLButtonElement>('[data-copy]')?.addEventListener('click', async (e) => {
+    const label = (e.currentTarget as HTMLElement).querySelector('[data-copy-label]')!;
+    try {
+      await navigator.clipboard.writeText(location.href.split('#')[0]);
+      label.textContent = '복사했어요';
+      document.dispatchEvent(new CustomEvent('toast', { detail: '링크를 복사했어요' }));
+    } catch {
+      label.textContent = '주소창에서 복사해 주세요';
+    }
+    setTimeout(() => (label.textContent = '링크 복사'), 2200);
+  });
+  const native = document.querySelector<HTMLButtonElement>('[data-native-share]');
+  if (native && 'share' in navigator) {
+    native.hidden = false;
+    native.addEventListener('click', () => navigator.share({ title: document.title, url: location.href.split('#')[0] }).catch(() => {}));
+  }
+</script>
+
+<style>
+  .post-head { padding-block: clamp(2rem, 5vw, 3rem) clamp(2.75rem, 6vw, 4.25rem); }
+  .head-inner { max-width: calc(var(--measure) + 16rem + clamp(2.5rem, 5vw, 4.5rem) + var(--gutter) * 2); }
+  .head-inner > * { max-width: 50rem; }
+  .back {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    padding: 0.375rem 0.75rem 0.375rem 0.5rem;
+    margin-left: -0.5rem;
+    border-radius: var(--radius-sm);
+    font-size: var(--text-ui);
+    color: var(--frame-muted);
+    text-decoration: none;
+    transition: color 150ms ease, background-color 150ms ease;
+  }
+  .back :global(.icon) { transition: transform 220ms var(--ease-out); }
+  .back:hover { color: var(--frame-text); background: var(--frame-raised); }
+  .post-head h1 {
+    margin-top: clamp(1.5rem, 4vw, 2.25rem);
+    font-size: clamp(1.75rem, 1.2rem + 2.2vw, 2.75rem);
+    font-weight: 700;
+    line-height: 1.32;
+    letter-spacing: -0.04em;
+    text-wrap: balance;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 1.5rem;
+    margin: 1.75rem 0 0;
+    font-size: var(--text-ui);
+    color: var(--frame-muted);
+  }
+  .meta div { display: flex; gap: 0.375rem; }
+  .meta dt { color: var(--frame-faint); }
+  .meta dd { margin: 0; }
+
+  .progress-line { position: sticky; top: 0; z-index: 10; height: 3px; background: var(--sunk); }
+  .progress-line [data-fill] { position: absolute; inset: 0; background: var(--accent); transform-origin: left center; transform: scaleX(0); }
+
+  .post-grid {
+    display: grid;
+    grid-template-columns: minmax(0, var(--measure)) minmax(0, 16rem);
+    justify-content: center;
+    gap: clamp(2.5rem, 5vw, 4.5rem);
+    padding-top: clamp(2.75rem, 6vw, 4.5rem);
+  }
+  /* 목차가 없는 글은 머리말 · 본문 · 이전/다음 글을 한 폭으로 맞춘다 */
+  .is-narrow .post-grid { grid-template-columns: minmax(0, var(--measure)); }
+  .is-narrow :is(.head-inner, .pager, .all-link) { max-width: calc(var(--measure) + var(--gutter) * 2); }
+  .toc { order: 2; }
+  .toc-box {
+    position: sticky;
+    top: 1.5rem;
+    padding: 1.125rem 0.75rem 0.75rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
+  }
+  .toc summary {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0 0.5rem 0.75rem;
+    list-style: none;
+    font-size: var(--text-sm);
+    font-weight: 700;
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .toc summary :global(.icon) { color: var(--accent); }
+  .toc-chevron { margin-left: auto; display: grid; place-items: center; transition: transform 200ms var(--ease-out); }
+  .toc summary .toc-chevron :global(.icon) { color: var(--muted); }
+  .toc-box[open] .toc-chevron { transform: rotate(180deg); }
+  .toc summary::-webkit-details-marker { display: none; }
+  .toc ol { list-style: none; display: grid; gap: 0.125rem; max-height: calc(100vh - 8rem); overflow-y: auto; }
+  .toc a {
+    display: block;
+    padding: 0.4375rem 0.625rem;
+    border-radius: var(--radius-sm);
+    font-size: var(--text-sm);
+    line-height: 1.55;
+    color: var(--muted);
+    text-decoration: none;
+    transition: color 150ms ease, background-color 150ms ease;
+  }
+  .toc a:hover { color: var(--ink); background: var(--sunk); }
+  .toc a[aria-current] { color: var(--accent-strong); background: var(--accent-soft); font-weight: 600; }
+
+  .prose { order: 1; font-size: var(--text-lg); line-height: 1.85; letter-spacing: -0.008em; color: var(--ink-soft); overflow-wrap: break-word; }
+  .prose :global(p) { margin-block: 0 1.4em; }
+  .prose :global(h2), .prose :global(h3), .prose :global(h4) { color: var(--ink); font-weight: 700; scroll-margin-top: 1.5rem; }
+  .prose :global(h2) { margin: 2.4em 0 0.8em; font-size: var(--text-2xl); line-height: 1.4; letter-spacing: -0.03em; }
+  .prose :global(h3) { margin: 2em 0 0.7em; font-size: var(--text-xl); line-height: 1.45; letter-spacing: -0.025em; }
+  .prose :global(h4) { margin: 1.75em 0 0.6em; font-size: var(--text-md); line-height: 1.5; letter-spacing: -0.02em; }
+  .prose :global(:is(h2, h3, h4):first-child) { margin-top: 0; }
+  .prose :global(strong) { font-weight: 650; color: var(--ink); }
+  .prose :global(ul), .prose :global(ol) { margin: 0 0 1.4em; padding-left: 1.4em; }
+  .prose :global(li) { margin-bottom: 0.6em; padding-left: 0.25em; }
+  .prose :global(li::marker) { color: var(--accent); font-weight: 600; }
+  .prose :global(a) { color: var(--accent-strong); font-weight: 500; }
+  .prose :global(a:hover) { color: var(--accent); }
+  .prose :global(img) {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: var(--radius-card);
+    background: var(--sunk);
+  }
+  .prose :global(p:has(> img)) { margin-block: 2em; text-align: center; }
+  .prose :global(p:has(> img) em) { display: block; margin-top: 0.75rem; font-style: normal; font-size: var(--text-sm); line-height: 1.6; color: var(--muted); }
+  .prose :global(blockquote) {
+    margin: 2em 0;
+    padding: 1.125rem 1.5rem;
+    border-left: 3px solid var(--accent);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    background: var(--accent-soft);
+    color: var(--ink);
+    font-weight: 600;
+  }
+  .prose :global(blockquote p:last-child) { margin-bottom: 0; }
+  .prose :global(hr) { margin: 2.5em 0; border: 0; border-top: 1px solid var(--line); }
+
+  .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 2.5rem 0 0 !important; padding: 0 !important; list-style: none; }
+  .tags li { margin: 0; padding-left: 0; }
+
+  .share {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
+  }
+  .share-label { font-size: var(--text-sm); font-weight: 700; color: var(--ink); margin-right: 0.5rem; }
+  .share-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 2.375rem;
+    padding: 0.4375rem 0.875rem;
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--ink);
+    font: inherit;
+    font-size: var(--text-sm);
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: border-color 150ms ease, background-color 150ms ease, transform 160ms var(--ease-out);
+  }
+  .prose a.share-btn, .prose a.share-btn:hover { color: var(--ink); font-weight: 600; }
+  .share-btn:hover { border-color: var(--line-hover); background: var(--surface-hover); }
+  @media (prefers-reduced-motion: no-preference) {
+    .share-btn:active { transform: scale(0.97); }
+  }
+
+  .pager {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    max-width: calc(var(--measure) + 16rem + 4.5rem + var(--gutter) * 2);
+    margin-top: clamp(3rem, 7vw, 4.5rem);
+  }
+  .pager-link {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    align-content: start;
+    gap: 0.5rem;
+    padding: 1.375rem 1.5rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
+    text-decoration: none;
+    transition: border-color 150ms ease, box-shadow 220ms var(--ease-out), transform 220ms var(--ease-out);
+  }
+  .pager-link.to-next { text-align: right; justify-items: end; }
+  .pager-dir { display: inline-flex; align-items: center; gap: 0.5rem; font-size: var(--text-sm); color: var(--muted); }
+  .pager-title { font-size: var(--text-md); font-weight: 700; line-height: 1.5; letter-spacing: -0.025em; color: var(--ink); }
+  .all-link { max-width: calc(var(--measure) + 16rem + 4.5rem + var(--gutter) * 2); margin-top: 1.5rem; text-align: center; }
+
+  @media (hover: hover) and (pointer: fine) {
+    .pager-link:hover { border-color: var(--line-strong); box-shadow: var(--shadow-md); }
+  }
+  @media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+    .pager-link:hover { transform: translateY(-2px); }
+    .back:hover :global(.icon) { transform: translateX(-3px); }
+  }
+  @media (prefers-reduced-motion: reduce) { .toc-chevron { transition: none; } }
+  @media (min-width: 1101px) { .toc-chevron { display: none; } .toc summary { pointer-events: none; } }
+  @media (max-width: 1100px) {
+    .post-grid { grid-template-columns: minmax(0, var(--measure)); justify-content: start; }
+    .pager, .all-link { max-width: calc(var(--measure) + var(--gutter) * 2); margin-inline: 0; }
+    .toc { order: 0; }
+    .toc-box { position: static; padding: 0.875rem 0.75rem; }
+    .toc summary { padding-bottom: 0; }
+    .toc-box[open] summary { padding-bottom: 0.75rem; }
+    .toc ol { max-height: none; }
+  }
+  @media (max-width: 640px) {
+    .prose { font-size: 1.0625rem; }
+    .prose :global(blockquote) { padding: 1rem 1.125rem; }
+    .share { padding: 1.125rem; }
+    .pager { grid-template-columns: minmax(0, 1fr); }
+    .pager-link.to-next { text-align: left; justify-items: start; }
+  }
+</style>

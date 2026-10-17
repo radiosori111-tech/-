@@ -11,6 +11,7 @@ export const SITE = {
 
 export const NAV = [
   { href: '/', label: '아티클' },
+  { href: '/blog/', label: '블로그' },
   { href: '/about/', label: '소개' },
   { href: '/contact/', label: '문의' },
 ];
