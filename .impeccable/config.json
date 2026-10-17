@@ -1,17 +1,9 @@
 {
   "detector": {
     "ignoreRules": [],
-    "ignoreFiles": [],
-    "ignoreValues": [
-      {
-        "rule": "repeating-stripes-gradient",
-        "value": "*",
-        "files": [
-          "src/pages/articles/[slug].astro"
-        ],
-        "createdAt": "2026-10-16T17:12:49.015Z",
-        "reason": "model triage: the repeating gradient draws the 24 hour-ticks of the reading progress line, the direction contract's signature scale"
-      }
-    ]
+    "ignoreFiles": [
+      ".impeccable/mocks/decision/*"
+    ],
+    "ignoreValues": []
   }
 }

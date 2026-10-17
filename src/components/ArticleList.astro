@@ -5,26 +5,28 @@ import Icon from './Icon.astro';
 interface Props { articles: CollectionEntry<'articles'>[] }
 const { articles } = Astro.props;
 ---
-<ol class="rows" data-rows>
+<ol class="cards" data-rows>
   {articles.map((a) => (
-    <li class="row" data-category={a.data.category} data-slug={a.id}>
-      <div class="row-time">
-        {a.data.time
-          ? <span class="time-mark big">{a.data.time}</span>
-          : <span class="time-mark anytime big">언제든</span>}
-        {a.data.time && <span class="row-moment">{a.data.moment}</span>}
-      </div>
-      <div class="row-body">
-        <h3><a href={`/articles/${a.id}/`}>{a.data.title}</a></h3>
-        <p class="row-desc">{a.data.description}</p>
-      </div>
-      <div class="row-meta tabular">
-        <span class="row-cat">{a.data.category}</span>
-        <span>{a.data.readMinutes}분 읽기</span>
-        <span class="row-state" data-state hidden>
-          <span class="state-done"><Icon name="check" /> 다 읽음</span>
-          <span class="state-flag"><Icon name="flag" /> <span><span data-pct></span>% 읽음</span></span>
-        </span>
+    <li class="card row" data-category={a.data.category} data-slug={a.id}>
+      <h3><a href={`/articles/${a.id}/`}>{a.data.title}</a></h3>
+      <p class="card-desc">{a.data.description}</p>
+      <div class="card-foot tabular">
+        <div class="card-meta">
+          <span class="chip">{a.data.category}</span>
+          <span class="card-time">
+            {a.data.time
+              ? <><span class="time-mark">{a.data.time}</span> <span class="card-moment">{a.data.moment}</span></>
+              : <span class="time-mark anytime">언제든</span>}
+          </span>
+        </div>
+        <div class="card-sub">
+          <span class="card-min">{a.data.readMinutes}분 읽기</span>
+          <span class="row-state" data-state hidden>
+            <span class="state-done"><Icon name="check" /> 다 읽음</span>
+            <span class="state-flag"><Icon name="flag" /> <span><span data-pct></span>% 읽음</span></span>
+          </span>
+          <span class="card-go" aria-hidden="true"><Icon name="arrow-right" /></span>
+        </div>
       </div>
     </li>
   ))}
@@ -48,54 +50,98 @@ const { articles } = Astro.props;
 </script>
 
 <style>
-  .rows { list-style: none; border-top: 1px solid var(--ink); margin-top: -1px; }
-  .row {
+  .cards {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+  .card {
     position: relative;
-    display: grid;
-    grid-template-columns: 8.5rem minmax(0, 1fr) 8rem;
-    gap: 2rem;
-    padding-block: 2rem;
-    border-bottom: 1px solid var(--line);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 1.5rem 1.25rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
+    transition:
+      transform 220ms var(--ease-out),
+      box-shadow 220ms var(--ease-out),
+      border-color 150ms ease;
   }
-  .row-time { display: grid; align-content: start; gap: 0.25rem; }
-  .time-mark.big { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.01em; line-height: 1.2; }
-  .time-mark.anytime.big { font-size: 1.125rem; padding-top: 0.25rem; }
-  .row-moment { font-size: 0.875rem; color: var(--muted); }
-  .row-cat { font-weight: 600; color: var(--ink-soft); }
-  .row h3 {
-    font-family: var(--font-read);
-    font-size: var(--step-3);
-    font-weight: 600;
-    line-height: 1.35;
-    letter-spacing: -0.025em;
-  }
-  .row h3 a { text-decoration: none; background-image: linear-gradient(var(--sun), var(--sun)); background-size: 0 1px; background-position: 0 100%; background-repeat: no-repeat; transition: background-size 0.5s var(--ease-out); }
-  .row h3 a::after { content: ''; position: absolute; inset: 0; }
-  .row:hover h3 a, .row h3 a:focus-visible { background-size: 100% 1px; }
-  .row-desc { margin-top: 0.75rem; color: var(--muted); line-height: 1.75; max-width: 42rem; }
-  .row-meta {
-    display: grid;
-    align-content: start;
-    justify-items: end;
-    gap: 0.5rem;
-    font-size: 0.875rem;
-    color: var(--muted);
-    padding-top: 0.25rem;
-  }
-  .row-state > span { display: none; align-items: center; gap: 0.3rem; font-weight: 600; }
-  .row-state.is-done .state-done { display: inline-flex; color: var(--ink-soft); }
-  .row-state.is-partial .state-flag { display: inline-flex; color: var(--sun-ink); }
-  .rows-empty { padding-block: 3rem; color: var(--muted); }
+  .card:focus-within { border-color: var(--line-strong); }
+  .card:has(h3 a:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .card h3 a:focus-visible { outline: none; }
 
-  @media (max-width: 860px) {
-    .row { grid-template-columns: 6.5rem minmax(0, 1fr); gap: 1.25rem; }
-    .row-meta { grid-column: 2; justify-items: start; grid-auto-flow: column; justify-content: start; gap: 1rem; padding-top: 0; }
+  .card-meta { display: flex; align-items: center; gap: 0.625rem; min-width: 0; }
+  .card-sub { display: flex; align-items: center; gap: 0.875rem; min-height: 2rem; margin-top: 0.625rem; }
+  .card-time { white-space: nowrap; }
+  .card-min { white-space: nowrap; }
+  .card-moment { color: var(--muted); }
+
+  .card h3 {
+    font-size: var(--text-lg);
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.025em;
+    color: var(--ink);
   }
-  @media (max-width: 560px) {
-    .row { grid-template-columns: 4.25rem minmax(0, 1fr); gap: 0.875rem; padding-block: 1.75rem; }
-    .time-mark.big { font-size: 1.0625rem; padding-top: 0.25rem; }
-    .time-mark.anytime.big { font-size: 0.9375rem; }
-    .row-moment { font-size: 0.75rem; line-height: 1.4; }
-    .row-meta { flex-wrap: wrap; display: flex; }
+  .card h3 a { text-decoration: none; }
+  .card h3 a::after { content: ''; position: absolute; inset: 0; border-radius: inherit; }
+  .card-desc {
+    flex: 1;
+    margin-top: 0.5rem;
+    font-size: var(--text-ui);
+    line-height: 1.7;
+    color: var(--muted);
+  }
+  .card-foot {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 1.25rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--line);
+    font-size: var(--text-sm);
+    color: var(--muted);
+  }
+  .card-go {
+    margin-left: auto;
+    display: grid;
+    place-items: center;
+    width: 2rem; height: 2rem;
+    border-radius: 999px;
+    background: var(--sunk);
+    color: var(--ink-soft);
+    transition: background-color 150ms ease, color 150ms ease, transform 220ms var(--ease-out);
+  }
+  .card-go :global(.icon) { width: 1rem; height: 1rem; }
+
+  .row-state > span { display: none; align-items: center; gap: 0.3rem; font-weight: 600; }
+  .row-state :global(.icon) { width: 1rem; height: 1rem; }
+  .row-state.is-done .state-done { display: inline-flex; color: var(--accent-strong); }
+  .row-state.is-partial .state-flag { display: inline-flex; color: var(--ink-soft); }
+  .rows-empty { padding: 3rem 0; text-align: center; color: var(--muted); }
+
+  @media (hover: hover) and (pointer: fine) {
+    .card:hover { border-color: var(--line-strong); box-shadow: var(--shadow-md); }
+    .card:hover .card-go { background: var(--accent); color: #fff; }
+  }
+  @media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+    .card:hover { transform: translateY(-3px); }
+    .card:hover .card-go { transform: translateX(2px); }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .card:active { transform: scale(0.99); transition-duration: 120ms; }
+  }
+
+  @media (max-width: 1024px) {
+    .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 640px) {
+    .cards { grid-template-columns: 1fr; gap: 0.875rem; }
+    .card { padding: 1.25rem 1.25rem 1rem; }
   }
 </style>

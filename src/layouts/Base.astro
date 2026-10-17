@@ -1,7 +1,7 @@
 ---
-import '@fontsource-variable/hahmlet';
 import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css';
 import '../styles/global.css';
+import Icon from '../components/Icon.astro';
 import { SITE, NAV } from '../data/site';
 
 interface Props {
@@ -28,7 +28,7 @@ const isCurrent = (href: string) =>
     <link rel="canonical" href={canonical} />
     <link rel="alternate" type="application/rss+xml" title={SITE.name} href={new URL("rss.xml", Astro.site)} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <meta name="theme-color" content="#0f1622" />
+    <meta name="theme-color" content="#0f141c" />
     <meta property="og:type" content={type} />
     <meta property="og:site_name" content={SITE.name} />
     <meta property="og:title" content={title ?? SITE.name} />
@@ -41,12 +41,14 @@ const isCurrent = (href: string) =>
   </head>
   <body>
     <a class="skip-link" href="#main">본문으로 건너뛰기</a>
-    <header class="site-header night">
+    <header class="site-header frame">
       <div class="wrap bar">
         <a class="brand" href="/" aria-label={`${SITE.name} 홈`}>
-          <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
-            <path d="M3 21h26" />
-            <circle cx="12" cy="15.5" r="4.5" />
+          <svg class="brand-mark" viewBox="0 0 28 28" aria-hidden="true">
+            <rect width="28" height="28" rx="8" />
+            <path d="M8 18.5c2.5-9 9.5 0 12-9" />
+            <circle cx="8" cy="18.5" r="2.25" />
+            <circle cx="20" cy="9.5" r="2.25" />
           </svg>
           <span>믿음의 게임, <b>실행</b></span>
         </a>
@@ -64,112 +66,136 @@ const isCurrent = (href: string) =>
       <slot />
     </main>
 
-    <footer class="site-footer night">
+    <footer class="site-footer frame">
       <div class="wrap foot">
-        <div class="foot-brand">
-          <p class="foot-name">믿음의 게임, 실행</p>
-          <p class="foot-slogan">{SITE.slogan}</p>
-        </div>
-        <nav class="foot-links" aria-label="사이트 정보">
-          <a href="/about/">소개</a>
-          <a href="/contact/">문의</a>
-          <a href="/privacy/">개인정보 처리방침</a>
-          <a href="/privacy/#disclaimer">면책조항 (Disclaimer)</a>
-        </nav>
-        <div class="foot-meta">
-          <p>문의 <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+        <div class="foot-top">
+          <div class="foot-brand">
+            <p class="foot-name">믿음의 게임, 실행</p>
+            <p class="foot-slogan">{SITE.slogan}</p>
+          </div>
+          <nav class="foot-links" aria-label="사이트 정보">
+            <a href="/about/">소개</a>
+            <a href="/contact/">문의</a>
+            <a href="/privacy/">개인정보 처리방침</a>
+            <a href="/privacy/#disclaimer">면책조항 (Disclaimer)</a>
+          </nav>
+          <div class="foot-meta">
+            <p>문의 <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+          </div>
         </div>
         <section class="foot-disclaimer" aria-labelledby="foot-disclaimer-title">
-          <h2 id="foot-disclaimer-title">의학 · 학술 정보 면책 조항</h2>
+          <h2 id="foot-disclaimer-title"><Icon name="info" /> 의학 · 학술 정보 면책 조항</h2>
           <p>{SITE.name}의 모든 콘텐츠는 공개된 연구와 학회 권고를 바탕으로 한 <strong>일반적인 정보 제공</strong>을 목적으로 하며, 의사 등 전문가의 <strong>진단, 치료, 처방을 대신하지 않습니다.</strong> 연구 결과는 개인에 따라 다르게 나타날 수 있으므로 건강에 관한 결정은 반드시 전문가와 상담하세요. 이 사이트의 정보를 이용해 생긴 결과에 대해 사이트는 법적 책임을 지지 않습니다. 응급 상황에서는 즉시 119에 연락하세요.</p>
-          <a class="foot-disclaimer-link" href="/privacy/#disclaimer">면책조항 전문 보기</a>
+          <a class="foot-disclaimer-link" href="/privacy/#disclaimer">면책조항 전문 보기 <Icon name="arrow-right" /></a>
         </section>
         <p class="foot-copy tabular">© {new Date().getFullYear()} 믿음의 게임, 실행</p>
       </div>
     </footer>
+
+    <div class="toast" data-toast role="status" aria-live="polite"><Icon name="check" /><span data-toast-text></span></div>
+
+    <script>
+      // 어디서든 document.dispatchEvent(new CustomEvent('toast', { detail: '문구' }))로 띄운다.
+      const toast = document.querySelector<HTMLElement>('[data-toast]');
+      const text = toast?.querySelector<HTMLElement>('[data-toast-text]');
+      let timer = 0;
+      document.addEventListener('toast', (e) => {
+        if (!toast || !text) return;
+        text.textContent = String((e as CustomEvent).detail ?? '');
+        toast.classList.add('is-on');
+        clearTimeout(timer);
+        timer = window.setTimeout(() => toast.classList.remove('is-on'), 2200);
+      });
+    </script>
   </body>
 </html>
 
 <style>
-  .site-header { position: relative; z-index: 5; border-bottom: 1px solid var(--night-line); }
+  .site-header { position: relative; z-index: 5; border-bottom: 1px solid var(--frame-line); }
   .bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 1.5rem;
-    min-height: 4.5rem;
+    min-height: 4.25rem;
   }
   .brand {
     display: inline-flex;
     align-items: center;
     gap: 0.625rem;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.0625rem;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.03em;
+    border-radius: var(--radius-sm);
   }
-  .brand b { color: var(--sun); font-weight: 700; }
-  .brand-mark { width: 1.75rem; height: 1.75rem; fill: none; stroke-width: 1.6; }
-  .brand-mark path { stroke: var(--night-muted); }
-  .brand-mark circle { stroke: var(--sun); fill: var(--sun); fill-opacity: 0.18; }
+  .brand b { color: var(--accent-on-dark); font-weight: 700; }
+  .brand-mark { width: 1.75rem; height: 1.75rem; }
+  .brand-mark rect { fill: var(--accent); }
+  .brand-mark path { fill: none; stroke: #fff; stroke-width: 1.8; stroke-linecap: round; }
+  .brand-mark circle { fill: #fff; }
 
   .bar nav ul { display: flex; gap: 0.25rem; list-style: none; }
   .bar nav a {
     display: block;
     padding: 0.5rem 0.875rem;
-    border-radius: 3px;
-    color: var(--night-muted);
+    border-radius: var(--radius-sm);
+    color: var(--frame-muted);
     text-decoration: none;
-    font-size: 0.9375rem;
+    font-size: var(--text-ui);
     font-weight: 500;
-    transition: color 0.2s, background-color 0.2s;
+    transition: color 150ms ease, background-color 150ms ease;
   }
-  .bar nav a:hover { color: var(--night-text); background: var(--night-raised); }
-  .bar nav a[aria-current='page'] { color: var(--night-text); }
-  .bar nav a[aria-current='page']::after {
-    content: '';
-    display: block;
-    width: 5px; height: 5px;
-    margin: 0.25rem auto -0.5625rem;
-    border-radius: 50%;
-    background: var(--sun);
-  }
+  .bar nav a:hover { color: var(--frame-text); background: var(--frame-raised); }
+  .bar nav a[aria-current='page'] { color: var(--frame-text); background: var(--frame-raised); font-weight: 600; }
 
-  .site-footer { margin-top: clamp(4rem, 10vw, 8rem); }
-  .foot {
+  .site-footer { margin-top: clamp(4.5rem, 10vw, 7.5rem); }
+  .foot { padding-block: clamp(3rem, 6vw, 4rem) 2.5rem; font-size: var(--text-ui); color: var(--frame-muted); }
+  .foot-top {
     display: grid;
-    grid-template-columns: 1.4fr 1fr 1.4fr;
+    grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr) minmax(0, 1.2fr);
     gap: 2.5rem;
-    padding-block: 3.5rem 3rem;
-    font-size: 0.9375rem;
-    color: var(--night-muted);
   }
-  .foot-name { font-family: var(--font-read); font-size: 1.375rem; font-weight: 600; color: var(--night-text); letter-spacing: -0.02em; }
+  .foot-name { font-size: 1.25rem; font-weight: 700; color: var(--frame-text); letter-spacing: -0.03em; }
   .foot-slogan { margin-top: 0.5rem; line-height: 1.7; max-width: 22rem; }
   .foot-links { display: flex; flex-direction: column; gap: 0.625rem; align-items: flex-start; }
-  .foot-links a { text-decoration: none; color: var(--night-text); }
-  .foot-links a:hover { color: var(--sun); }
-  .foot-meta { display: grid; gap: 0.75rem; align-content: start; }
-  .foot-meta a { color: var(--night-text); }
+  .foot-links a { text-decoration: none; color: var(--frame-text); transition: color 150ms ease; }
+  .foot-links a:hover { color: var(--accent-on-dark); }
+  .foot-meta a { color: var(--frame-text); }
+  .foot-meta a:hover { color: var(--accent-on-dark); }
   .foot-disclaimer {
-    grid-column: 1 / -1;
-    padding: 1.25rem 1.5rem;
-    border: 1px solid var(--night-line);
-    border-radius: 4px;
-    background: var(--night-raised);
+    margin-top: 2.5rem;
+    padding: 1.375rem 1.5rem;
+    border: 1px solid var(--frame-line);
+    border-radius: var(--radius-card);
+    background: var(--frame-raised);
   }
-  .foot-disclaimer h2 { font-size: 0.9375rem; font-weight: 700; color: var(--night-text); }
-  .foot-disclaimer p { margin-top: 0.5rem; font-size: 0.875rem; line-height: 1.75; color: var(--night-muted); max-width: 62rem; }
-  .foot-disclaimer-link { display: inline-block; margin-top: 0.75rem; font-size: 0.875rem; font-weight: 600; color: var(--sun); text-underline-offset: 0.22em; }
-  .foot-disclaimer-link:hover { color: var(--night-text); }
-  .foot-disclaimer strong { color: var(--night-text); font-weight: 600; }
-  .foot-copy { grid-column: 1 / -1; font-size: 0.8125rem; color: var(--night-faint); }
+  .foot-disclaimer h2 { display: flex; align-items: center; gap: 0.5rem; font-size: var(--text-ui); font-weight: 700; color: var(--frame-text); }
+  .foot-disclaimer h2 :global(.icon) { color: var(--accent-on-dark); }
+  .foot-disclaimer p { margin-top: 0.625rem; font-size: 0.875rem; line-height: 1.8; color: var(--frame-muted); max-width: 62rem; }
+  .foot-disclaimer strong { color: var(--frame-text); font-weight: 600; }
+  .foot-disclaimer-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--accent-on-dark);
+    text-decoration: none;
+  }
+  .foot-disclaimer-link :global(.icon) { transition: transform 200ms var(--ease-out); }
+  .foot-disclaimer-link:hover { text-decoration: underline; }
+  .foot-copy { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--frame-line); font-size: 0.8125rem; color: var(--frame-faint); }
 
+  @media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+    .foot-disclaimer-link:hover :global(.icon) { transform: translateX(3px); }
+  }
   @media (max-width: 720px) {
-    .bar { min-height: 3.75rem; }
+    .bar { min-height: 3.75rem; gap: 0.75rem; }
     .brand span { font-size: 0.9875rem; }
-    .bar nav a { padding: 0.5rem 0.625rem; font-size: 0.9rem; }
-    .foot { grid-template-columns: 1fr; gap: 2rem; }
+    .bar nav a { padding: 0.4375rem 0.625rem; font-size: 0.9rem; }
+    .foot-top { grid-template-columns: 1fr; gap: 1.75rem; }
   }
   @media (max-width: 380px) {
     .brand-mark { display: none; }

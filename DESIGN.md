@@ -1,290 +1,329 @@
 ---
 name: 믿음의 게임, 실행
-description: A day-shaped reading site where night ink owns the frame, morning paper owns the reading column, and one sun amber marks what is active.
+description: An orderly Korean knowledge magazine. A dark navy frame holds soft-gray reading ground, white cards, and one deep teal accent.
 colors:
-  night: "#0f1622"
-  night-raised: "#162030"
-  night-line: "#263248"
-  night-text: "#e8ecf2"
-  night-muted: "#a5b0c1"
-  night-faint: "#8692a9"
-  paper: "#f5f6f3"
-  paper-sunk: "#eceee9"
-  line: "#d6dbd2"
-  ink: "#18202c"
-  ink-soft: "#3a4452"
-  muted: "#566170"
-  sun: "#e9a23b"
-  sun-soft: "#f4d7a6"
-  sun-ink: "#855508"
-  dusk: "#5b6b82"
-  error: "#b3261e"
+  frame: "#0f141c"
+  frame-raised: "#171e29"
+  frame-line: "#263041"
+  frame-line-hover: "#3a4558"
+  frame-hover: "#1c2431"
+  frame-text: "#eef1f5"
+  frame-muted: "#a7b0bd"
+  frame-faint: "#8a94a3"
+  frame-quiet: "#4a5568"
+  bg: "#f6f7f9"
+  surface: "#ffffff"
+  surface-hover: "#fbfcfd"
+  sunk: "#eff1f4"
+  line: "#e4e7ec"
+  line-strong: "#cdd3db"
+  line-hover: "#b4bcc7"
+  placeholder: "#6b7380"
+  ink: "#121821"
+  ink-soft: "#384150"
+  muted: "#5d6674"
+  accent: "#0d7a6f"
+  accent-strong: "#0a6158"
+  accent-soft: "#e4f3f0"
+  accent-line: "#c6e6e0"
+  accent-on-dark: "#5fd0c0"
+  accent-on-dark-hover: "#7edccf"
+  danger: "#b42318"
 typography:
   display:
-    fontFamily: "'Hahmlet Variable', 'Noto Serif KR', 'AppleMyungjo', serif"
-    fontSize: "clamp(2.5rem, 1.6rem + 3.6vw, 4.5rem)"
-    fontWeight: 600
-    lineHeight: 1.15
-    letterSpacing: "-0.035em"
-  headline:
-    fontFamily: "'Hahmlet Variable', 'Noto Serif KR', 'AppleMyungjo', serif"
-    fontSize: "clamp(2rem, 1.4rem + 2.2vw, 3rem)"
-    fontWeight: 600
+    fontFamily: "'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif"
+    fontSize: "clamp(2.25rem, 1.35rem + 3.4vw, 3.75rem)"
+    fontWeight: 700
     lineHeight: 1.2
-    letterSpacing: "-0.03em"
+    letterSpacing: "-0.04em"
+  headline:
+    fontFamily: "'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif"
+    fontSize: "clamp(1.75rem, 1.35rem + 1.5vw, 2.375rem)"
+    fontWeight: 700
+    lineHeight: 1.25
+    letterSpacing: "-0.035em"
   title:
-    fontFamily: "'Hahmlet Variable', 'Noto Serif KR', 'AppleMyungjo', serif"
-    fontSize: "clamp(1.5rem, 1.2rem + 1vw, 1.875rem)"
-    fontWeight: 600
-    lineHeight: 1.35
-    letterSpacing: "-0.025em"
-  prose-heading:
-    fontFamily: "'Hahmlet Variable', 'Noto Serif KR', 'AppleMyungjo', serif"
-    fontSize: "1.625rem"
-    fontWeight: 600
+    fontFamily: "'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif"
+    fontSize: "clamp(1.375rem, 1.2rem + 0.6vw, 1.625rem)"
+    fontWeight: 700
     lineHeight: 1.4
-    letterSpacing: "-0.025em"
-  body-read:
-    fontFamily: "'Hahmlet Variable', 'Noto Serif KR', 'AppleMyungjo', serif"
-    fontSize: "1.1875rem"
-    fontWeight: 400
-    lineHeight: 1.95
-  body:
-    fontFamily: "'Pretendard Variable', Pretendard, -apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif"
-    fontSize: "1rem"
-    fontWeight: 400
-    lineHeight: 1.6
-  label:
-    fontFamily: "'Pretendard Variable', Pretendard, -apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif"
-    fontSize: "0.875rem"
+    letterSpacing: "-0.03em"
+  title-sm:
+    fontFamily: "'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif"
+    fontSize: "1.125rem"
     fontWeight: 700
     lineHeight: 1.5
-  time-mark:
-    fontFamily: "'Pretendard Variable', Pretendard, -apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif"
-    fontSize: "1.5rem"
+    letterSpacing: "-0.025em"
+  body-reading:
+    fontFamily: "'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif"
+    fontSize: "1.125rem"
+    fontWeight: 400
+    lineHeight: 1.85
+    letterSpacing: "-0.008em"
+  body:
+    fontFamily: "'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif"
+    fontSize: "1rem"
+    fontWeight: 400
+    lineHeight: 1.65
+    letterSpacing: "-0.006em"
+  label:
+    fontFamily: "'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif"
+    fontSize: "0.9375rem"
     fontWeight: 600
-    lineHeight: 1.2
-    letterSpacing: "-0.01em"
+    lineHeight: 1.3
+  caption:
+    fontFamily: "'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif"
+    fontSize: "0.8125rem"
+    fontWeight: 600
+    lineHeight: 1.4
     fontFeature: "'tnum'"
 rounded:
-  control: "3px"
-  container: "4px"
-  pin: "50%"
+  sm: "8px"
+  md: "10px"
+  card: "14px"
+  lg: "20px"
+  pill: "999px"
 spacing:
-  gutter: "clamp(1.25rem, 4vw, 4rem)"
-  measure: "40rem"
-  wide: "76rem"
-  row: "2rem"
-  section: "clamp(3rem, 6vw, 5rem)"
+  gutter: "clamp(1.25rem, 4vw, 3rem)"
+  wide: "74rem"
+  measure: "42rem"
+  card-pad: "1.5rem"
+  grid-gap: "1.25rem"
 components:
   button-primary:
-    backgroundColor: "{colors.night}"
-    textColor: "{colors.night-text}"
-    rounded: "{rounded.control}"
+    backgroundColor: "{colors.accent}"
+    textColor: "{colors.surface}"
+    typography: "{typography.label}"
+    rounded: "{rounded.md}"
+    padding: "0.625rem 1.125rem"
+    height: "2.75rem"
+  button-primary-hover:
+    backgroundColor: "{colors.accent-strong}"
+  button-secondary:
+    backgroundColor: "{colors.surface}"
+    textColor: "{colors.ink}"
+    typography: "{typography.label}"
+    rounded: "{rounded.md}"
+    padding: "0.625rem 1.125rem"
+    height: "2.75rem"
+  button-secondary-hover:
+    backgroundColor: "{colors.surface-hover}"
+  button-primary-on-frame:
+    backgroundColor: "{colors.accent-on-dark}"
+    textColor: "{colors.frame}"
+    rounded: "{rounded.md}"
+  button-primary-on-frame-hover:
+    backgroundColor: "{colors.accent-on-dark-hover}"
+  button-secondary-on-frame:
+    backgroundColor: "{colors.frame-raised}"
+    textColor: "{colors.frame-text}"
+    rounded: "{rounded.md}"
+  button-sm:
+    padding: "0.4375rem 0.875rem"
+    height: "2.375rem"
+  button-lg:
     padding: "0.75rem 1.5rem"
-    height: "3rem"
-  button-outline:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.control}"
-    padding: "0.5rem 1.125rem"
-    height: "2.75rem"
-  button-outline-pressed:
-    backgroundColor: "{colors.night}"
-    textColor: "{colors.night-text}"
-  button-sun:
-    backgroundColor: "{colors.sun}"
-    textColor: "{colors.night}"
-    rounded: "{rounded.control}"
-    padding: "0.5rem 1.25rem"
-    height: "2.75rem"
-  filter-tab:
+    height: "3.125rem"
+  chip:
+    backgroundColor: "{colors.accent-soft}"
+    textColor: "{colors.accent-strong}"
+    typography: "{typography.caption}"
+    rounded: "{rounded.pill}"
+    padding: "0.125rem 0.625rem"
+    height: "1.625rem"
+  filter-option:
+    backgroundColor: "transparent"
     textColor: "{colors.ink-soft}"
-    typography: "{typography.body}"
-    padding: "0.5rem 0"
-    height: "2.75rem"
-  filter-tab-active:
+    rounded: "{rounded.pill}"
+    padding: "0.375rem 1rem"
+    height: "2.5rem"
+  filter-option-active:
+    backgroundColor: "{colors.frame}"
+    textColor: "{colors.surface}"
+  card:
+    backgroundColor: "{colors.surface}"
     textColor: "{colors.ink}"
-  nav-link:
-    textColor: "{colors.night-muted}"
-    rounded: "{rounded.control}"
-    padding: "0.5rem 0.875rem"
-  nav-link-hover:
-    backgroundColor: "{colors.night-raised}"
-    textColor: "{colors.night-text}"
+    rounded: "{rounded.card}"
+    padding: "1.5rem 1.5rem 1.25rem"
+  card-feature:
+    backgroundColor: "{colors.frame-raised}"
+    textColor: "{colors.frame-text}"
+    rounded: "{rounded.lg}"
+    padding: "1.75rem"
+  panel:
+    backgroundColor: "{colors.surface}"
+    rounded: "{rounded.lg}"
+    padding: "clamp(1.75rem, 4vw, 2.75rem)"
   input:
-    backgroundColor: "#ffffff"
+    backgroundColor: "{colors.surface}"
     textColor: "{colors.ink}"
-    rounded: "{rounded.control}"
+    rounded: "{rounded.md}"
     padding: "0.75rem 1rem"
     height: "3rem"
-  disclaimer-box:
-    backgroundColor: "{colors.paper-sunk}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.container}"
-    padding: "clamp(1.25rem, 3vw, 1.75rem)"
-  disclaimer-row-night:
-    backgroundColor: "{colors.night-raised}"
-    textColor: "{colors.night-muted}"
-    rounded: "{rounded.container}"
-    padding: "1.25rem 1.5rem"
-  diagram-plate:
-    backgroundColor: "{colors.night}"
-    textColor: "{colors.night-text}"
-    rounded: "{rounded.control}"
-    padding: "1.75rem 1.5rem 1.25rem"
+  toc-link:
+    textColor: "{colors.muted}"
+    rounded: "{rounded.sm}"
+    padding: "0.4375rem 0.625rem"
+  toc-link-active:
+    backgroundColor: "{colors.accent-soft}"
+    textColor: "{colors.accent-strong}"
+  nav-link:
+    textColor: "{colors.frame-muted}"
+    rounded: "{rounded.sm}"
+    padding: "0.5rem 0.875rem"
+  nav-link-active:
+    backgroundColor: "{colors.frame-raised}"
+    textColor: "{colors.frame-text}"
+  toast:
+    backgroundColor: "{colors.frame}"
+    textColor: "{colors.frame-text}"
+    rounded: "{rounded.md}"
+    padding: "0.75rem 1.125rem"
 ---
 
 # Design System: 믿음의 게임, 실행
 
 ## Overview
 
-**Creative North Star: "The Day Chart"**
+**Creative North Star: "The Orderly Knowledge Magazine"**
 
-The site is drawn as one day. Every article is placed at the hour its habit happens (07:00, 18:30, 23:00) or marked "언제든" (anytime), and a single 24-hour line is the site's map: on the home masthead it carries the article pins and a live "지금" marker, on interior mastheads it closes the night zone as a static 00–24 scale, and on the article page it becomes the reading-progress line, segmented into 24 hours. Thumbnail card grids and image sliders are not part of this world; the index is a ruled list keyed by time.
+This is a category-standard Korean knowledge magazine played straight. A dark navy frame (masthead, page heads, article heads, diagrams, footer) bookends every page; between those bands sits a soft cool-gray reading ground carrying white cards with hairline borders and quiet offset shadows. Trust comes from order: one typeface (Pretendard Variable) with a precise weight and tracking ladder, tabular numerals for every time, count, and percentage, and a single deep teal accent that marks what is selected, current, or actionable.
 
-Color owns territory rather than decorating it. Night ink owns the frame (masthead, footer, diagram plates); morning paper owns the reading column. The only active color is the sun amber, which appears where something is current, chosen, or next: the next pin, the active filter, the read portion of the progress line, the current TOC entry, the "오늘의 실행" marker. Everything else is drawn with 1px hairlines, tabular time marks, and a Korean serif for reading set against a Korean sans for interface.
+Density is magazine-comfortable, not dashboard-tight: three-column card grids at desktop, a 42rem reading measure with a sticky table-of-contents card, generous section padding. The frame recurs at the top and bottom of every route, so each page reads as navy, then gray, then navy.
 
-The mood is calm and evidence-led, close to a quality knowledge magazine: generous leading, a 40rem reading measure, minimal rounding, no shadows, and one easing curve.
+The world explicitly refuses AI-landing defaults: no purple neon gradients, no glows, no eyebrow labels over headings. Hierarchy is carried by size, weight, and tracking alone.
 
 **Key Characteristics:**
-- Two zones by color: night frame, paper reading column; never a third surface family.
-- One active color (sun amber) with a darker text variant (sun-ink) for paper.
-- The 24-hour line recurs as map, masthead scale, and progress line.
-- 1px hairlines carry structure; shadows are absent.
-- Tabular-figure time marks precede titles wherever an article is listed.
-- Serif (Hahmlet) for reading and headings, sans (Pretendard) for UI, labels, and numerals.
+- Navy frame bands at top and bottom of every page; soft gray body between them.
+- White cards with a 1px hairline border, 14px corners, and a faint two-layer shadow.
+- One accent hue, deep teal, with a separate lighter teal for use on navy.
+- One typeface, Pretendard Variable, tightened tracking on all headings.
+- Tabular numerals for times, counts, dates, reading minutes, and progress.
+- Motion is short and ease-out; hover lifts are pointer-gated; reduced motion keeps opacity only.
 
 ## Colors
 
-A cool blue-black night and a faintly green-grey paper, split by one warm amber that only ever signals state.
+A cool, near-neutral blue-gray system with a single deep teal voice.
 
 ### Primary
-- **Sun Amber** (sun): The single active color. Next pin on the day band, active filter underline, progress fill, current TOC dot, nav current-page dot, focus outline, the "오늘의 실행" marker, link underline color, and the brand's "실행". On night it can carry text (feature "읽기" link, time marks); on paper it never carries text.
-- **Sun Ink** (sun-ink): The text-safe amber for paper. Time marks, list markers, filter counts when active, the partial-read flag state, "더 알아보기" links, policy section numbers.
-- **Sun Soft** (sun-soft): Text selection on paper only.
-
-### Secondary
-- **Dusk Slate** (dusk): Inactive pin rings on the day band, diagram secondary bars and fills, scrollbar thumb. The quiet counterpart to the sun inside diagrams.
+- **Deep Teal** (accent): selected and current state, primary buttons, time marks, list markers, links (as Deep Teal Strong), the reading progress fill, the brand mark tile.
+- **Deep Teal Strong** (accent-strong): primary hover, link text in prose, chip text, active TOC text. The text-safe teal.
+- **Teal Mist** (accent-soft) and **Teal Mist Line** (accent-line): chip ground, active TOC ground, resume notice and form status ground and border, text selection.
+- **Lagoon on Navy** (accent-on-dark) and its hover (accent-on-dark-hover): the teal used on the frame: headline second line, brand "실행", primary button on navy, time marks, next-pin on the day timeline, diagram emphasis.
 
 ### Neutral
-- **Night Ink** (night): Masthead, footer, diagram plates, primary buttons, the pressed reaction button, numbered action badges.
-- **Night Raised** (night-raised): Nav hover fill, the footer disclaimer row, diagram node fills.
-- **Night Line** (night-line): Every hairline inside the night zone: header bottom border, day-band track and ticks, masthead hour scale, meta separators, feature divider.
-- **Night Text / Night Muted / Night Faint** (night-text, night-muted, night-faint): Headings and current items; slogans, ledes, nav at rest; hour labels and the copyright line.
-- **Paper** (paper): Body background and the sticky reading bar.
-- **Paper Sunk** (paper-sunk): Recessed panels on paper: disclaimer box, reaction panel, resume notice, collapsed tablet TOC, contact status.
-- **Line** (line): Row separators, control borders at rest, TOC dot rings, progress-line hour segments.
-- **Ink / Ink Soft / Muted** (ink, ink-soft, muted): Headings and body; category labels and secondary body; descriptions, meta, hints.
-- **Error Red** (error): Invalid field border and error text on the contact form. Not yet a custom property.
+- **Frame Navy** (frame): masthead, page/article heads, footer, diagram figures, toast, the sliding active filter pill.
+- **Raised Navy** (frame-raised) / **Navy Hover** (frame-hover): featured card and footer disclaimer surface on the frame; active and hover nav link ground.
+- **Navy Line** (frame-line) / **Navy Line Hover** (frame-line-hover): every divider and border on the frame.
+- **Frame Text / Frame Muted / Frame Faint / Frame Quiet**: text ladder on navy (headings, ledes and body, hour labels and copyright, diagram fills only).
+- **Soft Gray** (bg): page reading ground. **White** (surface): cards, panels, inputs, sticky progress bar. **Sunk Gray** (sunk): hover ground for quiet links, arrow chip, progress track, contact aside.
+- **Hairline** (line), **Strong Hairline** (line-strong), **Hover Hairline** (line-hover): card borders and internal dividers; button and input borders; hover border.
+- **Ink** (ink), **Soft Ink** (ink-soft), **Muted** (muted), **Placeholder** (placeholder): heading text, reading body text, secondary text and metadata, input placeholder.
+- **Signal Red** (danger): form error text and invalid border only.
 
 ### Named Rules
-**The One Sun Rule.** Amber means "active, current, or next." If an element is not in one of those states, it is not amber. Decorative amber is a defect.
+**The One Teal Rule.** Teal is the only chromatic color. It marks selection, currency, and action; it never decorates. On navy it switches to Lagoon on Navy, never the light-ground teal.
 
-**The Territory Rule.** Night owns the frame, paper owns the reading. A night surface inside the paper zone is allowed only as a plate that carries the day's own content (diagram plates, pressed states, action badges), never as a decorative band.
-
-**The Ink-for-Text Rule.** On paper, amber text uses sun-ink; raw sun is reserved for fills, lines, and outlines.
+**The Frame Bookend Rule.** Navy is structural: it holds the top and bottom of every page and the diagrams inside articles. It is never a card on the gray ground, except the active filter pill.
 
 ## Typography
 
-**Display Font:** Hahmlet Variable (with Noto Serif KR, AppleMyungjo, serif)
-**Body Font:** Pretendard Variable (with Apple SD Gothic Neo, Malgun Gothic, sans-serif)
-**Label/Mono Font:** Pretendard with tabular figures for every clock time
+**Display Font:** Pretendard Variable (with Pretendard, Apple SD Gothic Neo, Malgun Gothic, system-ui)
+**Body Font:** the same family
+**Label/Mono Font:** the same family, tabular numerals via `tnum`
 
-**Character:** A sturdy, slightly calligraphic Korean serif carries everything meant to be read, while a neutral grotesque handles navigation, labels, and numbers. Tight negative tracking on serif headings, keep-all word breaking everywhere.
+**Character:** One Korean grotesque doing every job; hierarchy is built from weight (400 / 500 / 600 / 650 / 700) and progressively tighter tracking as size grows. Korean text uses `word-break: keep-all` and balanced headings.
 
 ### Hierarchy
-- **Display** (600, step-5 clamp 2.5–4.5rem, 1.14–1.18, -0.035em): Home masthead title, article title, interior page titles. Night zone only.
-- **Headline** (600, step-4 clamp 2–3rem, 1.2, -0.03em): Section heads on paper, such as the article index head.
-- **Title** (600, step-3 clamp 1.5–1.875rem, 1.35, -0.025em): Article row titles, featured article title, section heads of secondary blocks.
-- **Prose Heading** (600, 1.625rem, 1.4): h2 inside articles; 1.5rem in about/policy documents; 1.375rem under 640px.
-- **Body Read** (400, 1.1875rem, 1.95): Article prose in serif, max 40rem. Documents use 1.125rem / 1.9; under 640px prose drops to 1.0625rem / 1.9.
-- **Body** (400, 1rem, 1.6): Interface copy; descriptions run at 1.75–1.8 leading.
-- **Label** (700, 0.875–0.9375rem): TOC heads, disclaimer titles, share labels, footer headings. Sentence case; no uppercase, no letter-spaced small caps.
-- **Time Mark** (600, tabular figures, 1.5rem in index rows, inline size elsewhere): Clock times in sun-ink on paper, sun on night; "언제든" in muted at 500.
+- **Display** (700, clamp 2.25rem to 3.75rem, 1.2, -0.04em): home headline and page heads; article titles use the same family at clamp(2rem, 1.3rem + 2.7vw, 3.25rem), 1.25.
+- **Headline** (700, clamp 1.75rem to 2.375rem, 1.25, -0.035em): section titles on the gray ground ("모든 아티클").
+- **Title** (700, clamp 1.375rem to 1.625rem, 1.4, -0.03em): prose h2, featured-card title, panel titles.
+- **Title Small** (700, 1.125rem, 1.5, -0.025em): card titles, pager titles; 1.0625rem with -0.02em for principle and disclaimer headings.
+- **Body Reading** (400, 1.125rem, 1.85, -0.008em): article prose in Soft Ink within the 42rem measure; 1.0625rem under 640px. Policy and about pages use 1.0625rem / 1.85.
+- **Body** (400, 1rem, 1.65): base UI text; card descriptions and ledes on cards use 0.9375rem / 1.7 in Muted.
+- **Label** (600, 0.9375rem): buttons, nav, form labels.
+- **Caption** (600, 0.8125rem, tabular): chips, counts, progress percentage, dates.
 
 ### Named Rules
-**The Serif-Reads, Sans-Operates Rule.** If a reader reads it as content, it is Hahmlet; if they act on it or scan it as data, it is Pretendard.
+**The Tightening Ladder Rule.** Heading tracking tightens with size: -0.02em at small headings, -0.025em at card titles, -0.03em at titles, -0.035em at headlines, -0.04em at display. Body stays near zero.
 
-**The Tabular Clock Rule.** Every clock time is set in tabular figures so a column of times aligns.
+**The Tabular Numbers Rule.** Every time, count, date, percentage, and reading-minutes value is set in tabular numerals.
 
 ## Layout
 
-A single centered wrap (max 76rem plus gutters, gutter clamp 1.25–4rem). The home masthead splits 7:5 (title and slogan left, featured article right behind a 1px night-line divider) and collapses to one column under 900px, with the divider moving to the top. The day band spans the full wrap at the bottom of the night zone.
-
-Articles sit in a two-column grid: a 40rem prose measure plus a 15rem sticky TOC on the right (top 5rem). Under 1100px the TOC moves above the prose as a collapsible paper-sunk box. Interior pages share one masthead pattern: display title, lede at 40rem, then the 00–24 hour scale on a night-line rule; under 720px every other hour label is hidden.
-
-The article index is a three-column ruled list (8.5rem time column, flexible title column, 8rem meta column) that drops to two columns at 860px and narrows the time column to 4.25rem at 560px. Rows breathe at 2rem block padding. Sections step apart with clamp(3rem, 6vw, 5rem); the footer sits clamp(4rem, 10vw, 8rem) below content. On phones, filter tabs scroll horizontally edge to edge and diagrams bleed to the screen edges with horizontal scroll.
+Content sits in a centered wrap of 74rem plus a fluid gutter (clamp(1.25rem, 4vw, 3rem)). The home masthead is a 7:5 grid (headline left, featured card right) above a 24-hour article timeline, collapsing to one column below 900px. The article index is a three-column card grid (1.25rem gap), two columns at 1024px and one at 640px (0.875rem gap). Articles use a 42rem prose column with a 16rem sticky TOC card on the right; below 1100px the TOC moves above the prose as a collapsible card. The privacy page mirrors this with the TOC on the left; contact uses a form plus 18 to 22rem aside. Vertical rhythm between sections is fluid (roughly clamp(3.5rem, 7vw, 5.5rem)); the footer sits clamp(4.5rem, 10vw, 7.5rem) below content. On mobile the filter group scrolls horizontally edge to edge with masked ends, and article diagrams bleed to the viewport edge and scroll sideways.
 
 ## Elevation & Depth
 
-The system is flat. There are no drop shadows anywhere; depth is conveyed by zone color (night against paper), by tonal recess (paper-sunk panels, night-raised rows), and by 1px hairlines. The sticky reading bar is opaque paper with a 1px line border, not a blur or shadow.
+A hybrid: depth is mostly tonal (navy frame against gray ground, white cards on gray, raised navy on navy) with soft, offset, two-layer shadows that read as paper resting on a desk, never as glow.
+
+### Shadow Vocabulary
+- **Rest** (`box-shadow: 0 1px 2px rgb(16 24 40 / 0.04), 0 1px 3px rgb(16 24 40 / 0.05)`): every card, panel, TOC card, filter group, primary and secondary buttons, sticky progress bar.
+- **Lift** (`box-shadow: 0 2px 4px rgb(16 24 40 / 0.04), 0 14px 28px -10px rgb(16 24 40 / 0.14)`): card and pager hover on fine pointers.
+- **Float** (`box-shadow: 0 4px 8px rgb(16 24 40 / 0.06), 0 20px 40px -12px rgb(16 24 40 / 0.22)`): the toast.
+- **Frame Drop** (`box-shadow: 0 24px 48px -24px rgb(0 0 0 / 0.5)`): the featured card on navy only.
 
 ### Named Rules
-**The Hairline Rule.** Structure is drawn with 1px lines: ink rules open a section or list, line-color rules separate rows. Heavier strokes belong only to the 2px day-band track and progress line.
-
-**The No-Halo Rule.** Active marks use a 1px sun outline at 3px offset (next pin, "오늘의 실행" marker), never a glow or blurred ring.
+**The Paper Not Glow Rule.** Shadows are neutral navy-gray, low-opacity, and offset downward. No colored shadows, no glows, no hard offsets.
 
 ## Shapes
 
-Corners are nearly square. Controls (buttons, nav links, inputs, the resume notice, diagram plates, TOC box) take 3px; bordered containers (disclaimer box, reaction panel, footer disclaimer row, about contact block) take 4px. Pills do not exist. Circles are reserved for meaning: day-band pins, TOC state dots, the nav current-page dot, numbered action badges, and the "오늘의 실행" sun. The progress flag is a 2px staff with a small triangular pennant.
+Gently rounded, consistent by role: 8px for small interactive rows (nav links, TOC links, back link, focus ring at 4px), 10px for buttons, inputs, toast, and notices, 14px for cards, TOC cards, diagrams, and disclaimers, 20px for large panels (featured card, principles panel, contact form, respond box). Chips, filter groups, count badges, the arrow chip, and numbered action markers are full pills or circles (999px). Borders are 1px hairlines everywhere; dividers inside cards are hairlines too. Diagrams lose their radius and bleed edge to edge under 640px.
 
 ## Components
 
 ### Buttons
-Quiet, square-shouldered, and dark rather than colored.
-- **Shape:** Nearly square (3px).
-- **Primary:** Night fill with night-text, 600 weight, 3rem tall, 0.75rem 1.5rem padding; an icon inside takes sun. Used for form submit and the 404 return.
-- **Outline:** Paper fill, 1px line border, ink text, 2.75rem tall (2.5rem for share and copy); hover darkens the border to ink-soft; active scales to 0.97.
-- **Pressed toggle:** A pressed reaction flips to night fill and night-text with the icon filled sun.
-- **Sun:** Sun fill with night text, used only as the single primary action inside a night block (about page contact).
-- **Focus:** Global 2px sun outline at 3px offset.
+Calm and solid; they press, they do not bounce.
+- **Shape:** 10px corners, minimum height 2.75rem (2.375rem small, 3.125rem large).
+- **Primary:** Deep Teal ground, white text, Rest shadow; hover to Deep Teal Strong. On navy: Lagoon on Navy ground with navy text, no shadow.
+- **Secondary:** White ground, Strong Hairline border, Ink text, Rest shadow; hover shifts to Hover Hairline and near-white. On navy: Raised Navy with Navy Line.
+- **Press:** `scale(0.97)` over 160ms ease-out (`cubic-bezier(0.23, 1, 0.32, 1)`), only when motion is allowed. Reaction and share buttons follow the same shape and press; a pressed reaction turns Teal Mist with a teal border.
 
 ### Chips
-None. Category filtering uses text tabs (see Navigation).
+- **Style:** Teal Mist pill, Deep Teal Strong caption text (0.8125rem, 600). On navy: teal at 12% alpha with Lagoon text.
+- **Use:** article category only, plus small count badges in the same treatment.
+
+### Category Filter (signature)
+A white pill group with a hairline border and Rest shadow holds the category options. A navy pill slides beneath the active option (280ms, `cubic-bezier(0.77, 0, 0.175, 1)`) and resizes to its width; the active label turns white and its count Lagoon. On change, visible cards rise 8px into place with opacity, staggered about 35ms, 240ms ease-out; under reduced motion they fade only.
 
 ### Cards / Containers
-There are no cards. Lists are ruled rows; the whole row is the link target, and hover draws a 1px sun underline under the title from left (0.5s ease-out).
-- **Disclaimer box:** At the end of every article and in the policy page: paper-sunk fill, 1px ink border, 4px radius, sans type, a sun-ink info icon beside a bold title, bullet list in ink-soft, and a dated footnote under a 1px line rule.
-- **Footer disclaimer row:** The same content compressed into a full-width night-raised row with a 1px night-line border and a sun link.
-- **Recessed panels:** Reaction panel (4px, 2rem padding), resume notice and status (3px), all paper-sunk, no border.
-- **Diagram plate:** One per article; a night plate inside the paper column with stroked SVG (night-muted lines, night-text curve, sun for the emphasized path) and a caption under a night-line rule.
+- **Corner Style:** 14px (cards), 20px (panels).
+- **Background:** White on gray; Raised Navy for the featured card on the frame.
+- **Shadow Strategy:** Rest at rest; Lift plus a 3px rise on fine-pointer hover (featured card rises 2px and shifts its border).
+- **Border:** 1px Hairline; the whole card is the link target via a stretched title link, with the focus ring drawn on the card.
+- **Internal Padding:** 1.5rem (1.25rem on mobile); a hairline divides body from meta foot. A round Sunk Gray arrow chip in the foot turns teal on hover.
 
 ### Inputs / Fields
-- **Style:** White fill, 1px line border, 3px radius, 3rem tall, 0.75rem 1rem padding, sun-ink caret; hover darkens the border.
-- **Focus:** Border turns ink. (Currently also carries a 3px translucent amber ring; see drift note.)
-- **Error:** Error-red border and a 0.875rem error-red message beneath.
+- **Style:** White ground, Strong Hairline border, 10px corners, min height 3rem, 1rem text, teal caret.
+- **Focus:** border and 2px outline in Deep Teal.
+- **Error:** Signal Red border and small red message beneath; consent sits in a Soft Gray inset row.
 
 ### Navigation
-- **Header:** Night bar, 4.5rem tall (3.75rem under 720px), 1px night-line bottom rule. Brand mark is a horizon with a sun circle; "실행" set in sun.
-- **Links:** Night-muted at rest, night-text on night-raised fill on hover; the current page gets night-text plus a 5px sun dot beneath.
-- **Filter tabs:** Text-only buttons on paper, 2.75rem hit area, counts in muted; the active tab goes ink and bold with a 2px sun underline that scales in from the left, sitting on the list's 1px ink rule.
-- **TOC:** Ink-ruled head, entries with a 7px ring dot; the current entry fills the dot with sun.
+Right-aligned text links on the navy bar in Frame Muted, 0.9375rem / 500; hover and current page sit on a Raised Navy 8px tile in Frame Text (current at 600). The brand is a teal rounded-square mark plus the wordmark with "실행" in Lagoon. Mobile keeps the same row with tighter padding; the mark hides under 380px.
 
-### Day Band (signature)
-A 24-hour track (2px night-line with hour ticks) at the bottom of the home masthead. Articles hang as pins: dusk-ringed dots with a time mark and a moment label on a 1px night-line stem. The elapsed part of the day fills with an amber gradient and a white "지금" stem marks the current time; the pin nearest ahead becomes sun-filled with the 1px outline. The fill draws once with the exponential ease-out (1.6s) and is static under reduced motion. Under 720px moment labels and odd hours hide.
+### Article Reading Kit
+- **Progress bar:** a sticky white bar slides in once reading starts, showing the title, a teal pill percentage, and a 3px track that fills with teal; a small ink flag marks where the reader last stopped.
+- **TOC card:** white 14px card; the current section's link sits on Teal Mist in Deep Teal Strong.
+- **Today's action (오늘의 실행):** the heading carries a teal 8px tile with a check; its list becomes a white card with numbered teal circles and hairline separators.
+- **Diagram:** a Frame Navy figure (14px) with Lagoon emphasis strokes and muted labels, captioned under a navy hairline.
 
-### Reading Bar (signature)
-Appears after the article masthead scrolls away: an opaque paper bar with a 1px line border showing the title and a sun-ink percentage, above a 2px line segmented into 24 hour cells that fills with sun as the reader progresses. A returning reader sees an ink flag at the point they stopped and a resume notice at the top of the prose.
-
-### Action List
-"오늘의 실행" closes each article: a 1px ink rule, a sun dot with the 1px outline, then numbered steps with night badges carrying sun numerals, separated by line rules.
+### Toast
+A navy 10px pill-like bar with a Lagoon check rises 12px from the bottom center (280ms ease-out) and leaves after 2.2s; Float shadow.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** place every listed article behind its time mark (tabular, sun-ink on paper, sun on night) or "언제든" in muted.
-- **Do** keep amber for active, current, or next states, and use sun-ink for amber text on paper.
-- **Do** draw structure with 1px hairlines: ink to open a list or section, line between rows, night-line inside the night zone.
-- **Do** keep controls at 3px and bordered containers at 4px.
-- **Do** end every article with the "오늘의 실행" list followed by the bordered disclaimer box.
-- **Do** keep reading text in Hahmlet at a 40rem measure with 1.9–1.95 leading.
-- **Do** use the single ease-out curve (cubic-bezier(0.16, 1, 0.3, 1)) for the few motions, and freeze them under reduced motion.
+- **Do** bookend every page with the navy frame and keep reading content on Soft Gray with white cards.
+- **Do** use Deep Teal only for selected, current, and actionable states; switch to Lagoon on Navy on the frame.
+- **Do** set every time, count, date, and percentage in tabular numerals.
+- **Do** tighten heading tracking with size (-0.02em to -0.04em) and keep a single family.
+- **Do** gate hover lifts behind `(hover: hover) and (pointer: fine)` and transforms behind `prefers-reduced-motion: no-preference`; under reduced motion keep opacity only.
+- **Do** use `cubic-bezier(0.23, 1, 0.32, 1)` for entering and pressing, `cubic-bezier(0.77, 0, 0.175, 1)` for on-screen movement, 150 to 280ms durations, and `scale(0.97)` on press.
+- **Do** draw icons as inline 1.7-stroke line SVGs in currentColor.
 
 ### Don't:
-- **Don't** introduce thumbnail card grids or image sliders for article listing; the ruled, time-keyed list is the index.
-- **Don't** use pill shapes or large radii.
-- **Don't** add drop shadows, glows, or blurred halos; active marks use a 1px outline at 3px offset.
-- **Don't** add a third surface family or a second accent color.
-- **Don't** set amber (sun) text on paper.
-- **Don't** set UI labels in uppercase or letter-spaced small caps.
+- **Don't** use purple neon gradients, glows, or colored shadows.
+- **Don't** put eyebrow or kicker labels above headings; hierarchy comes from size, weight, and tracking.
+- **Don't** introduce a second accent hue or a second typeface.
+- **Don't** use hard offset shadows or heavy borders; borders are 1px hairlines.
+- **Don't** use emoji or text glyphs as icons.

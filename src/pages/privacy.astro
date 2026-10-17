@@ -82,44 +82,81 @@ const sections = [
 <style>
   .policy {
     display: grid;
-    grid-template-columns: minmax(0, 15rem) minmax(0, var(--measure));
-    gap: clamp(2rem, 5vw, 5rem);
+    grid-template-columns: minmax(0, 16rem) minmax(0, var(--measure));
+    gap: clamp(2rem, 5vw, 4.5rem);
     align-items: start;
   }
-  .policy-toc { position: sticky; top: 1.5rem; }
-  .toc-head { font-size: 0.875rem; font-weight: 700; padding-bottom: 0.75rem; border-bottom: 1px solid var(--ink); }
-  .policy-toc ol { list-style: none; padding-top: 0.5rem; }
+  .policy-toc {
+    position: sticky;
+    top: 1.5rem;
+    padding: 1.125rem 0.75rem 1rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
+  }
+  .toc-head { padding: 0 0.5rem 0.625rem; font-size: var(--text-sm); font-weight: 700; color: var(--ink); }
+  .policy-toc ol { list-style: none; display: grid; gap: 0.125rem; }
   .policy-toc a {
     display: block;
-    padding: 0.3rem 0;
-    font-size: 0.875rem;
+    padding: 0.4375rem 0.625rem;
+    border-radius: var(--radius-sm);
+    font-size: var(--text-sm);
     line-height: 1.5;
     color: var(--muted);
     text-decoration: none;
+    transition: color 150ms ease, background-color 150ms ease;
   }
-  .policy-toc a span { color: var(--sun-ink); font-weight: 600; }
-  .policy-toc a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--sun); }
-  .effective { margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--line); font-size: 0.8125rem; font-weight: 600; color: var(--sun-ink); }
+  .policy-toc a span { color: var(--accent); font-weight: 700; }
+  .policy-toc a:hover { color: var(--ink); background: var(--sunk); }
+  .effective {
+    margin: 0.75rem 0.5rem 0;
+    padding-top: 0.875rem;
+    border-top: 1px solid var(--line);
+    font-size: var(--text-xs);
+    font-weight: 600;
+    color: var(--accent-strong);
+  }
   .policy :global(.doc h2) { scroll-margin-top: 1.5rem; }
-  .h-note { font-family: var(--font-ui); font-size: 0.8125rem; font-weight: 600; color: var(--muted); margin-left: 0.375rem; letter-spacing: 0; }
+  .h-note {
+    display: inline-flex;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+    padding: 0.125rem 0.5rem;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent-strong);
+    font-size: var(--text-xs);
+    font-weight: 600;
+    letter-spacing: 0;
+  }
 
   .disclaimer-section {
     margin-top: 2.75em;
     padding: clamp(1.25rem, 3vw, 1.75rem);
-    border: 1px solid var(--ink);
-    border-radius: 4px;
-    background: var(--paper-sunk);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
   }
   .disclaimer-section :global(h2) { margin-top: 0 !important; }
   .disclaimer-section ul { margin-bottom: 0 !important; }
 
-  .facts { margin: 0; border-top: 1px solid var(--line); font-family: var(--font-ui); font-size: 0.9375rem; }
-  .facts div { display: grid; grid-template-columns: 7rem 1fr; gap: 1rem; padding: 0.75rem 0; border-bottom: 1px solid var(--line); }
-  .facts dt { font-weight: 700; }
+  .facts {
+    margin: 0;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    overflow: hidden;
+    font-size: var(--text-ui);
+  }
+  .facts div { display: grid; grid-template-columns: 7rem 1fr; gap: 1rem; padding: 0.875rem 1.25rem; }
+  .facts div + div { border-top: 1px solid var(--line); }
+  .facts dt { font-weight: 700; color: var(--ink); }
   .facts dd { margin: 0; color: var(--ink-soft); }
 
   @media (max-width: 960px) {
     .policy { grid-template-columns: 1fr; }
-    .policy-toc { position: static; padding: 1.25rem; background: var(--paper-sunk); border-radius: 3px; }
+    .policy-toc { position: static; }
   }
 </style>

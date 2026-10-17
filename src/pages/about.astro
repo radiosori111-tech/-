@@ -51,12 +51,12 @@ const topics: Record<string, string> = {
       <p>이 사이트는 운영을 위해 Google 애드센스 등 제3자 광고를 게재할 수 있습니다. 광고는 글의 내용이나 주제 선정에 영향을 주지 않으며, 광고와 본문은 명확히 구분해 표시합니다. 광고와 쿠키에 관한 자세한 내용은 <a href="/privacy/">개인정보 처리방침 및 면책조항</a>에서 확인할 수 있습니다.</p>
     </div>
 
-    <aside class="reach night" aria-labelledby="reach-title">
+    <aside class="reach frame" aria-labelledby="reach-title">
       <h2 id="reach-title">의견을 기다립니다</h2>
       <p>다뤄 줬으면 하는 주제, 글에 대한 질문, 오류 제보, 제휴 문의 모두 환영합니다.</p>
       <div class="reach-actions">
-        <a class="reach-btn primary" href="/contact/"><Icon name="mail" /> 문의 남기기</a>
-        <a class="reach-btn" href={`mailto:${SITE.email}`}>{SITE.email}</a>
+        <a class="btn btn-primary" href="/contact/"><Icon name="mail" /> 문의 남기기</a>
+        <a class="btn btn-secondary" href={`mailto:${SITE.email}`}>{SITE.email}</a>
       </div>
     </aside>
   </div>
@@ -64,45 +64,50 @@ const topics: Record<string, string> = {
 
 <style>
   .about { display: grid; gap: 0; }
+  @media (min-width: 1100px) {
+    .about {
+      grid-template-columns: minmax(0, 1fr) minmax(18rem, 21rem);
+      column-gap: clamp(3rem, 6vw, 5rem);
+      align-items: start;
+    }
+    .about > :not(.reach) { grid-column: 1; }
+    .reach { grid-column: 2; grid-row: 1 / span 3; position: sticky; top: 1.5rem; margin-top: 0 !important; }
+  }
   .topics {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    max-width: 52rem;
-    margin: 0.5rem 0 1rem;
-    border-top: 1px solid var(--ink);
+    gap: 1rem;
+    max-width: none;
+    margin: 0.5rem 0 3.25rem;
   }
-  .topics div { padding: 1.25rem 1.5rem 1.25rem 0; border-bottom: 1px solid var(--line); }
-  .topics dt { font-weight: 700; display: flex; gap: 0.5rem; align-items: baseline; }
-  .topics dt span { font-size: 0.8125rem; font-weight: 600; color: var(--sun-ink); }
-  .topics dd { margin: 0.375rem 0 0; color: var(--muted); line-height: 1.7; font-size: 0.9375rem; }
+  .topics div {
+    padding: 1.375rem 1.5rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
+  }
+  .topics dt { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; font-weight: 700; letter-spacing: -0.02em; }
+  .topics dt span {
+    padding: 0.0625rem 0.5rem;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent-strong);
+    font-size: var(--text-xs);
+    font-weight: 700;
+  }
+  .topics dd { margin: 0.5rem 0 0; color: var(--muted); line-height: 1.7; font-size: var(--text-ui); }
 
   .reach {
-    max-width: var(--measure);
-    margin-top: 3.5rem;
+    margin-top: 3rem;
     padding: clamp(1.75rem, 4vw, 2.5rem);
-    border-radius: 4px;
+    border-radius: var(--radius-lg);
   }
-  .reach h2 { font-family: var(--font-read); font-size: 1.5rem; font-weight: 600; letter-spacing: -0.025em; }
-  .reach p { margin-top: 0.625rem; color: var(--night-muted); line-height: 1.75; }
+  .reach h2 { font-size: var(--text-2xl); font-weight: 700; letter-spacing: -0.03em; }
+  .reach p { margin-top: 0.625rem; color: var(--frame-muted); line-height: 1.75; }
   .reach-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }
-  .reach-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    min-height: 2.75rem;
-    padding: 0.5rem 1.25rem;
-    border: 1px solid var(--night-line);
-    border-radius: 3px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 0.9375rem;
-    transition: border-color 0.2s, background-color 0.2s;
-  }
-  .reach-btn:hover { border-color: var(--night-muted); }
-  .reach-btn.primary { background: var(--sun); border-color: var(--sun); color: var(--night); }
-  .reach-btn.primary:hover { background: #f0b45a; }
 
   @media (max-width: 640px) {
-    .topics { grid-template-columns: 1fr; }
+    .topics { grid-template-columns: 1fr; gap: 0.75rem; }
   }
 </style>

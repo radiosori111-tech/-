@@ -1,375 +1,564 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-16T17:25:29.059Z",
+  "generatedAt": "2026-10-17T05:16:43.621Z",
   "title": "Design System: 믿음의 게임, 실행",
   "extensions": {
     "colorMeta": {
-      "night": {
+      "frame": {
         "role": "neutral",
-        "displayName": "Night Ink",
-        "canonical": "#0f1622",
-        "oklch": "oklch(19.9% 0.027 260.9)",
+        "displayName": "Frame Navy",
+        "canonical": "#0f141c",
+        "oklch": "oklch(19.0% 0.018 259.7)",
         "tonalRamp": [
-          "#050b16",
-          "#1d2431",
-          "#38404e",
-          "#555e6d",
-          "#778191",
-          "#9ba5b6",
-          "#c1cbdc",
-          "#e6effe"
+          "#070b13",
+          "#1f242d",
+          "#3a404a",
+          "#585e68",
+          "#7a818b",
+          "#9ea5b0",
+          "#c4cbd7",
+          "#e7effb"
         ]
       },
-      "night-raised": {
+      "frame-raised": {
         "role": "neutral",
-        "displayName": "Night Raised",
-        "canonical": "#162030",
-        "oklch": "oklch(24.2% 0.034 259.6)",
+        "displayName": "Raised Navy",
+        "canonical": "#171e29",
+        "oklch": "oklch(23.3% 0.024 259.3)",
+        "tonalRamp": [
+          "#060b15",
+          "#1d2430",
+          "#38404d",
+          "#565e6b",
+          "#78818f",
+          "#9ca5b4",
+          "#c2cbda",
+          "#e5efff"
+        ]
+      },
+      "frame-line": {
+        "role": "neutral",
+        "displayName": "Navy Line",
+        "canonical": "#263041",
+        "oklch": "oklch(30.8% 0.034 260.9)",
         "tonalRamp": [
           "#040b19",
-          "#1a2435",
-          "#354052",
-          "#525e71",
-          "#748195",
-          "#98a5ba",
+          "#1b2434",
+          "#364052",
+          "#535e71",
+          "#758195",
+          "#99a5ba",
           "#becbe1",
-          "#e6effe"
+          "#e6efff"
         ]
       },
-      "night-line": {
+      "frame-line-hover": {
         "role": "neutral",
-        "displayName": "Night Line",
-        "canonical": "#263248",
-        "oklch": "oklch(31.7% 0.043 262.1)",
+        "displayName": "Navy Line Hover",
+        "canonical": "#3a4558",
+        "oklch": "oklch(38.9% 0.036 261.3)",
         "tonalRamp": [
-          "#030a1d",
-          "#182439",
-          "#334057",
-          "#505e76",
-          "#72819a",
-          "#96a5c0",
-          "#bccbe7",
-          "#e6effe"
+          "#040b1a",
+          "#1a2435",
+          "#354053",
+          "#525e72",
+          "#748196",
+          "#98a5bb",
+          "#becbe2",
+          "#e6efff"
         ]
       },
-      "night-text": {
+      "frame-hover": {
         "role": "neutral",
-        "displayName": "Night Text",
-        "canonical": "#e8ecf2",
-        "oklch": "oklch(94.2% 0.009 258.3)",
-        "tonalRamp": [
-          "#090b0f",
-          "#212429",
-          "#3d4045",
-          "#5a5e63",
-          "#7d8086",
-          "#a1a5aa",
-          "#c7cbd1",
-          "#ebeff5"
-        ]
-      },
-      "night-muted": {
-        "role": "neutral",
-        "displayName": "Night Muted",
-        "canonical": "#a5b0c1",
-        "oklch": "oklch(75.4% 0.027 259.0)",
+        "displayName": "Navy Hover",
+        "canonical": "#1c2431",
+        "oklch": "oklch(25.9% 0.027 260.0)",
         "tonalRamp": [
           "#050b17",
           "#1c2431",
           "#37404e",
-          "#545e6d",
+          "#555e6d",
           "#778191",
           "#9ba5b6",
           "#c0cbdd",
-          "#e5efff"
+          "#e6efff"
         ]
       },
-      "night-faint": {
+      "frame-text": {
         "role": "neutral",
-        "displayName": "Night Faint",
-        "canonical": "#8692a9",
-        "oklch": "oklch(65.8% 0.037 263.5)",
+        "displayName": "Frame Text",
+        "canonical": "#eef1f5",
+        "oklch": "oklch(95.7% 0.006 255.5)",
         "tonalRamp": [
-          "#040a1b",
-          "#1b2436",
-          "#364054",
-          "#535e73",
-          "#758197",
-          "#99a5bd",
-          "#becbe3",
-          "#e7efff"
+          "#090b0e",
+          "#222427",
+          "#3e4043",
+          "#5b5e61",
+          "#7e8084",
+          "#a2a5a8",
+          "#c8cbcf",
+          "#eceff3"
         ]
       },
-      "paper": {
+      "frame-muted": {
         "role": "neutral",
-        "displayName": "Morning Paper",
-        "canonical": "#f5f6f3",
-        "oklch": "oklch(97.2% 0.004 121.6)",
+        "displayName": "Frame Muted",
+        "canonical": "#a7b0bd",
+        "oklch": "oklch(75.4% 0.021 257.5)",
         "tonalRamp": [
-          "#0b0b0a",
-          "#242422",
-          "#3f403e",
-          "#5d5e5b",
-          "#80817e",
-          "#a4a5a2",
-          "#cacbc8",
-          "#eeefec"
+          "#060b14",
+          "#1e242e",
+          "#39404b",
+          "#565e6a",
+          "#78818d",
+          "#9ca5b2",
+          "#c2cbd9",
+          "#e6effd"
         ]
       },
-      "paper-sunk": {
+      "frame-faint": {
         "role": "neutral",
-        "displayName": "Paper Sunk",
-        "canonical": "#eceee9",
-        "oklch": "oklch(94.6% 0.007 124.5)",
+        "displayName": "Frame Faint",
+        "canonical": "#8a94a3",
+        "oklch": "oklch(66.3% 0.025 258.4)",
         "tonalRamp": [
-          "#0a0c09",
-          "#232521",
-          "#3f403c",
-          "#5d5e5a",
-          "#7f817c",
-          "#a3a5a1",
-          "#c9cbc6",
-          "#edefea"
+          "#050b16",
+          "#1d2430",
+          "#38404d",
+          "#555e6c",
+          "#778190",
+          "#9ba5b5",
+          "#c1cbdb",
+          "#e5effe"
+        ]
+      },
+      "frame-quiet": {
+        "role": "neutral",
+        "displayName": "Frame Quiet",
+        "canonical": "#4a5568",
+        "oklch": "oklch(44.7% 0.034 261.3)",
+        "tonalRamp": [
+          "#040b19",
+          "#1b2435",
+          "#364052",
+          "#535e71",
+          "#758195",
+          "#99a5bb",
+          "#becbe2",
+          "#e6effe"
+        ]
+      },
+      "bg": {
+        "role": "neutral",
+        "displayName": "Soft Gray",
+        "canonical": "#f6f7f9",
+        "oklch": "oklch(97.6% 0.003 264.5)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#232425",
+          "#3f4041",
+          "#5d5e5f",
+          "#7f8082",
+          "#a4a4a6",
+          "#c9cacc",
+          "#edeef0"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242424",
+          "#404040",
+          "#5d5d5d",
+          "#808080",
+          "#a4a4a4",
+          "#cacaca",
+          "#eeeeee"
+        ]
+      },
+      "surface-hover": {
+        "role": "neutral",
+        "displayName": "Near White",
+        "canonical": "#fbfcfd",
+        "oklch": "oklch(99.1% 0.002 247.8)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#232425",
+          "#3f4041",
+          "#5d5e5e",
+          "#7f8081",
+          "#a4a5a5",
+          "#cacacb",
+          "#edeeef"
+        ]
+      },
+      "sunk": {
+        "role": "neutral",
+        "displayName": "Sunk Gray",
+        "canonical": "#eff1f4",
+        "oklch": "oklch(95.7% 0.005 258.3)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232426",
+          "#3e4042",
+          "#5c5e60",
+          "#7e8083",
+          "#a3a5a7",
+          "#c9cbcd",
+          "#edeff2"
         ]
       },
       "line": {
         "role": "neutral",
         "displayName": "Hairline",
-        "canonical": "#d6dbd2",
-        "oklch": "oklch(88.5% 0.013 130.8)",
+        "canonical": "#e4e7ec",
+        "oklch": "oklch(92.7% 0.007 260.7)",
         "tonalRamp": [
-          "#090c07",
-          "#22251f",
-          "#3d413a",
-          "#5b5f57",
-          "#7d827a",
-          "#a2a69e",
-          "#c7ccc3",
-          "#ebf0e7"
+          "#090b0e",
+          "#222428",
+          "#3d4044",
+          "#5b5e62",
+          "#7e8085",
+          "#a2a5a9",
+          "#c8cbcf",
+          "#eceff4"
+        ]
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Strong Hairline",
+        "canonical": "#cdd3db",
+        "oklch": "oklch(86.5% 0.013 255.5)",
+        "tonalRamp": [
+          "#080b11",
+          "#20242a",
+          "#3b4047",
+          "#595e65",
+          "#7b8188",
+          "#9fa5ad",
+          "#c5cbd3",
+          "#e9eff7"
+        ]
+      },
+      "line-hover": {
+        "role": "neutral",
+        "displayName": "Hover Hairline",
+        "canonical": "#b4bcc7",
+        "oklch": "oklch(79.2% 0.018 256.3)",
+        "tonalRamp": [
+          "#070b13",
+          "#1e242d",
+          "#3a4049",
+          "#575e68",
+          "#79818b",
+          "#9da5b0",
+          "#c3cbd6",
+          "#e7effb"
+        ]
+      },
+      "placeholder": {
+        "role": "neutral",
+        "displayName": "Placeholder",
+        "canonical": "#6b7380",
+        "oklch": "oklch(55.3% 0.022 260.2)",
+        "tonalRamp": [
+          "#060b15",
+          "#1e242f",
+          "#39404c",
+          "#565e6b",
+          "#79818e",
+          "#9da5b3",
+          "#c2cbda",
+          "#e6effe"
         ]
       },
       "ink": {
         "role": "neutral",
         "displayName": "Ink",
-        "canonical": "#18202c",
-        "oklch": "oklch(24.2% 0.026 258.3)",
+        "canonical": "#121821",
+        "oklch": "oklch(20.7% 0.020 258.3)",
         "tonalRamp": [
-          "#050b16",
-          "#1c2431",
-          "#37404e",
-          "#555e6d",
-          "#778190",
-          "#9ba5b5",
-          "#c0cbdc",
-          "#e5efff"
+          "#060b14",
+          "#1e242e",
+          "#39404b",
+          "#575e69",
+          "#79818d",
+          "#9da5b2",
+          "#c3cbd8",
+          "#e6effc"
         ]
       },
       "ink-soft": {
         "role": "neutral",
-        "displayName": "Ink Soft",
-        "canonical": "#3a4452",
-        "oklch": "oklch(38.3% 0.027 256.8)",
+        "displayName": "Soft Ink",
+        "canonical": "#384150",
+        "oklch": "oklch(37.3% 0.028 260.6)",
         "tonalRamp": [
           "#050b17",
-          "#1b2531",
-          "#37404e",
-          "#545e6d",
-          "#768191",
-          "#9aa6b6",
-          "#bfccdd",
-          "#e5efff"
+          "#1c2432",
+          "#37404f",
+          "#545e6e",
+          "#778192",
+          "#9ba5b7",
+          "#c0cbde",
+          "#e6effe"
         ]
       },
       "muted": {
         "role": "neutral",
-        "displayName": "Muted Slate",
-        "canonical": "#566170",
-        "oklch": "oklch(48.9% 0.028 256.2)",
+        "displayName": "Muted",
+        "canonical": "#5d6674",
+        "oklch": "oklch(50.8% 0.025 259.2)",
         "tonalRamp": [
-          "#040b17",
-          "#1b2531",
-          "#36414f",
-          "#545f6d",
-          "#768191",
-          "#9aa6b6",
-          "#bfccdd",
-          "#e4f0ff"
+          "#050b16",
+          "#1d2430",
+          "#38404d",
+          "#555e6c",
+          "#77818f",
+          "#9ba5b5",
+          "#c1cbdb",
+          "#e6effe"
         ]
       },
-      "sun": {
+      "accent": {
         "role": "primary",
-        "displayName": "Sun Amber",
-        "canonical": "#e9a23b",
-        "oklch": "oklch(76.4% 0.142 72.2)",
+        "displayName": "Deep Teal",
+        "canonical": "#0d7a6f",
+        "oklch": "oklch(52.2% 0.090 183.7)",
         "tonalRamp": [
-          "#170700",
-          "#351e00",
-          "#593800",
-          "#815200",
-          "#ae7203",
-          "#da9428",
-          "#febc64",
-          "#ffebd4"
+          "#000f0c",
+          "#002b26",
+          "#004b43",
+          "#056d63",
+          "#329286",
+          "#5cb7ab",
+          "#83ded1",
+          "#b8fff4"
         ]
       },
-      "sun-soft": {
+      "accent-strong": {
         "role": "primary",
-        "displayName": "Sun Soft",
-        "canonical": "#f4d7a6",
-        "oklch": "oklch(89.2% 0.071 80.6)",
+        "displayName": "Deep Teal Strong",
+        "canonical": "#0a6158",
+        "oklch": "oklch(44.4% 0.076 183.7)",
         "tonalRamp": [
-          "#150800",
-          "#322000",
-          "#533b08",
-          "#72592b",
-          "#967c4e",
-          "#bca071",
-          "#e3c696",
-          "#ffeccd"
+          "#000f0c",
+          "#002b26",
+          "#004b43",
+          "#1c6b62",
+          "#458f85",
+          "#6bb4aa",
+          "#91dbd0",
+          "#b8fff3"
         ]
       },
-      "sun-ink": {
+      "accent-soft": {
         "role": "primary",
-        "displayName": "Sun Ink",
-        "canonical": "#855508",
-        "oklch": "oklch(49.2% 0.103 70.7)",
+        "displayName": "Teal Mist",
+        "canonical": "#e4f3f0",
+        "oklch": "oklch(95.2% 0.016 182.7)",
         "tonalRamp": [
-          "#170600",
-          "#361e00",
-          "#5a3700",
-          "#815201",
-          "#a77533",
-          "#cd9959",
-          "#f5bf7e",
-          "#ffebd4"
+          "#040d0c",
+          "#1b2725",
+          "#374340",
+          "#54615e",
+          "#768481",
+          "#9aa8a5",
+          "#c0cecb",
+          "#e3f2ef"
         ]
       },
-      "dusk": {
-        "role": "secondary",
-        "displayName": "Dusk Slate",
-        "canonical": "#5b6b82",
-        "oklch": "oklch(52.3% 0.041 257.4)",
+      "accent-line": {
+        "role": "primary",
+        "displayName": "Teal Mist Line",
+        "canonical": "#c6e6e0",
+        "oklch": "oklch(90.0% 0.035 183.0)",
         "tonalRamp": [
-          "#020b1c",
-          "#172438",
-          "#324156",
-          "#4f5f75",
-          "#718199",
-          "#95a6bf",
-          "#bacce6",
-          "#e5efff"
+          "#000f0c",
+          "#0e2926",
+          "#2a4641",
+          "#48645f",
+          "#6a8782",
+          "#8daca6",
+          "#b3d2cc",
+          "#d6f7f0"
         ]
       },
-      "error": {
+      "accent-on-dark": {
+        "role": "primary",
+        "displayName": "Lagoon on Navy",
+        "canonical": "#5fd0c0",
+        "oklch": "oklch(78.8% 0.106 183.0)",
+        "tonalRamp": [
+          "#000f0c",
+          "#002b26",
+          "#004b43",
+          "#006d62",
+          "#069486",
+          "#46baab",
+          "#71e1d1",
+          "#b8fff3"
+        ]
+      },
+      "accent-on-dark-hover": {
+        "role": "primary",
+        "displayName": "Lagoon on Navy Hover",
+        "canonical": "#7edccf",
+        "oklch": "oklch(83.3% 0.092 184.2)",
+        "tonalRamp": [
+          "#000f0d",
+          "#002b27",
+          "#004b44",
+          "#046d63",
+          "#2e9287",
+          "#59b8ab",
+          "#80ded1",
+          "#b8fff4"
+        ]
+      },
+      "danger": {
         "role": "error",
-        "displayName": "Error Red",
-        "canonical": "#b3261e",
-        "oklch": "oklch(50.1% 0.178 28.7)",
+        "displayName": "Signal Red",
+        "canonical": "#b42318",
+        "oklch": "oklch(50.0% 0.182 29.5)",
         "tonalRamp": [
-          "#220000",
+          "#210000",
           "#4c0000",
-          "#7d0001",
-          "#ac1d17",
-          "#d64a3d",
-          "#ff7363",
-          "#ffb5aa",
-          "#ffe9e5"
+          "#7d0000",
+          "#ad1a10",
+          "#d74839",
+          "#ff7361",
+          "#ffb5a9",
+          "#fee9e5"
         ]
       }
     },
     "typographyMeta": {
       "display": {
         "displayName": "Display",
-        "purpose": "Home masthead title, article title, interior page titles. Night zone only."
+        "purpose": "Home headline and page heads on the navy frame."
       },
       "headline": {
         "displayName": "Headline",
-        "purpose": "Section heads on paper, such as the article index head."
+        "purpose": "Section titles on the gray ground."
       },
       "title": {
         "displayName": "Title",
-        "purpose": "Article row titles, featured article title, secondary block heads."
+        "purpose": "Prose h2, featured card title, panel titles."
       },
-      "prose-heading": {
-        "displayName": "Prose Heading",
-        "purpose": "h2 inside articles; 1.5rem in about/policy documents; 1.375rem under 640px."
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "Card and pager titles."
       },
-      "body-read": {
-        "displayName": "Body Read",
-        "purpose": "Article prose in serif at a 40rem measure; 1.0625rem / 1.9 under 640px."
+      "body-reading": {
+        "displayName": "Body Reading",
+        "purpose": "Article prose in a 42rem measure; 1.0625rem under 640px."
       },
       "body": {
         "displayName": "Body",
-        "purpose": "Interface copy in sans; descriptions run at 1.75-1.8 leading."
+        "purpose": "Base UI text."
       },
       "label": {
         "displayName": "Label",
-        "purpose": "TOC heads, disclaimer titles, share labels. Sentence case, never uppercase."
+        "purpose": "Buttons, nav, form labels."
       },
-      "time-mark": {
-        "displayName": "Time Mark",
-        "purpose": "Clock times in tabular figures: sun-ink on paper, sun on night; 1.5rem in index rows, inline size elsewhere."
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Chips, counts, dates, percentages; tabular numerals."
       }
     },
-    "shadows": [],
-    "focus": [
+    "shadows": [
       {
-        "name": "focus-global",
-        "value": "outline: 2px solid var(--sun); outline-offset: 3px; border-radius: 2px",
-        "purpose": "Keyboard focus on every interactive element."
+        "name": "rest",
+        "value": "0 1px 2px rgb(16 24 40 / 0.04), 0 1px 3px rgb(16 24 40 / 0.05)",
+        "purpose": "Every card, panel, TOC card, filter group, button, sticky progress bar at rest."
       },
       {
-        "name": "active-mark",
-        "value": "outline: 1px solid var(--sun); outline-offset: 3px",
-        "purpose": "Next day-band pin and the 오늘의 실행 sun dot. Replaces any halo or glow."
+        "name": "lift",
+        "value": "0 2px 4px rgb(16 24 40 / 0.04), 0 14px 28px -10px rgb(16 24 40 / 0.14)",
+        "purpose": "Card and pager hover on fine pointers."
+      },
+      {
+        "name": "float",
+        "value": "0 4px 8px rgb(16 24 40 / 0.06), 0 20px 40px -12px rgb(16 24 40 / 0.22)",
+        "purpose": "Toast."
+      },
+      {
+        "name": "frame-drop",
+        "value": "0 24px 48px -24px rgb(0 0 0 / 0.5)",
+        "purpose": "Featured card on the navy frame only."
       }
     ],
     "motion": [
       {
         "name": "ease-out",
-        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
-        "purpose": "The one easing curve: day-band fill (1.6s), filter underline (0.4s), row title underline (0.5s), reading bar reveal (0.45s), feature arrow nudge (0.4s)."
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Entering, pressing, hover lifts, toast, progress bar."
       },
       {
-        "name": "state-color",
-        "value": "0.2s",
-        "purpose": "Color, border, and background changes on links and controls."
+        "name": "ease-in-out",
+        "value": "cubic-bezier(0.77, 0, 0.175, 1)",
+        "purpose": "On-screen movement: the sliding filter pill."
       },
       {
         "name": "press",
-        "value": "transform: scale(0.97)",
-        "purpose": "Active state on outline and primary buttons."
+        "value": "scale(0.97) over 160ms ease-out",
+        "purpose": "Button press, motion allowed only. Filter options 0.96, cards 0.99."
       },
       {
-        "name": "reduced-motion",
-        "value": "durations collapsed to 0.01ms",
-        "purpose": "Day band and progress render in their final state."
+        "name": "state",
+        "value": "150ms ease",
+        "purpose": "Color, background, and border changes."
+      },
+      {
+        "name": "lift",
+        "value": "220ms ease-out, translateY(-3px)",
+        "purpose": "Card hover on (hover: hover) and (pointer: fine)."
+      },
+      {
+        "name": "filter-pill",
+        "value": "280ms ease-in-out",
+        "purpose": "Active filter pill slide and resize."
+      },
+      {
+        "name": "card-reflow",
+        "value": "240ms ease-out, 35ms stagger, translateY(8px) to none",
+        "purpose": "Cards re-entering after a filter change; opacity only under reduced motion."
+      },
+      {
+        "name": "toast",
+        "value": "in 280ms ease-out from translateY(12px) scale(0.98); out 160ms",
+        "purpose": "Bottom toast; dwell 2200ms."
       }
     ],
     "breakpoints": [
       {
-        "name": "toc-inline",
-        "value": "1100px"
+        "name": "xs",
+        "value": "380px"
       },
       {
-        "name": "masthead-stack",
-        "value": "900px"
-      },
-      {
-        "name": "list-two-col",
-        "value": "860px"
-      },
-      {
-        "name": "compact-header",
-        "value": "720px"
-      },
-      {
-        "name": "phone",
+        "name": "sm",
         "value": "640px"
       },
       {
-        "name": "list-narrow",
-        "value": "560px"
+        "name": "md",
+        "value": "720px"
+      },
+      {
+        "name": "lg",
+        "value": "900px"
+      },
+      {
+        "name": "xl",
+        "value": "1024px"
+      },
+      {
+        "name": "toc",
+        "value": "1100px"
       }
     ]
   },
@@ -378,131 +567,136 @@
       "name": "Primary Button",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Night-filled action on paper: form submit, 404 return.",
-      "html": "<button class=\"ds-btn-primary\">보내기 <svg class=\"ds-icon\" viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button>",
-      "css": ".ds-btn-primary { display: inline-flex; align-items: center; gap: 0.5rem; min-height: 3rem; padding: 0.75rem 1.5rem; border: 0; border-radius: 3px; background: var(--night, #0f1622); color: var(--night-text, #e8ecf2); font-family: 'Pretendard Variable', Pretendard, sans-serif; font-weight: 600; font-size: 1rem; cursor: pointer; transition: background-color 0.2s, transform 0.2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn-primary .ds-icon { color: var(--sun, #e9a23b); } .ds-btn-primary:hover { background: #1d2a3d; } .ds-btn-primary:active { transform: scale(0.97); } .ds-btn-primary:focus-visible { outline: 2px solid var(--sun, #e9a23b); outline-offset: 3px; }"
+      "description": "Main action on the gray ground: send, view all articles.",
+      "html": "<button class=\"ds-btn ds-btn-primary\">모든 아티클 보기 <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-height:2.75rem;padding:0.625rem 1.125rem;border:1px solid transparent;border-radius:var(--radius,10px);font-family:var(--font);font-size:0.9375rem;font-weight:600;line-height:1.3;text-decoration:none;cursor:pointer;transition:transform 160ms cubic-bezier(0.23,1,0.32,1),background-color 150ms ease,border-color 150ms ease;}.ds-btn:focus-visible{outline:2px solid #0d7a6f;outline-offset:2px;}.ds-btn-primary{background:#0d7a6f;color:#fff;box-shadow:0 1px 2px rgb(16 24 40 / 0.04),0 1px 3px rgb(16 24 40 / 0.05);}.ds-btn-primary:hover{background:#0a6158;}@media (prefers-reduced-motion: no-preference){.ds-btn:active{transform:scale(0.97);}}"
     },
     {
-      "name": "Outline Button / Reaction Toggle",
+      "name": "Secondary Button",
       "kind": "button",
-      "refersTo": "button-outline",
-      "description": "Reaction, share, and copy buttons on paper; pressed reaction flips to night.",
-      "html": "<div style=\"display:flex;gap:0.625rem\"><button class=\"ds-btn-outline\" aria-pressed=\"false\">도움이 됐어요</button><button class=\"ds-btn-outline\" aria-pressed=\"true\">실천해볼게요</button></div>",
-      "css": ".ds-btn-outline { display: inline-flex; align-items: center; gap: 0.5rem; min-height: 2.75rem; padding: 0.5rem 1.125rem; border: 1px solid var(--line, #d6dbd2); border-radius: 3px; background: var(--paper, #f5f6f3); color: var(--ink, #18202c); font-family: 'Pretendard Variable', Pretendard, sans-serif; font-size: 0.9375rem; font-weight: 500; cursor: pointer; transition: border-color 0.2s, background-color 0.2s, color 0.2s, transform 0.2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn-outline:hover { border-color: var(--ink-soft, #3a4452); } .ds-btn-outline:active { transform: scale(0.97); } .ds-btn-outline[aria-pressed='true'] { background: var(--night, #0f1622); border-color: var(--night, #0f1622); color: var(--night-text, #e8ecf2); } .ds-btn-outline:focus-visible { outline: 2px solid var(--sun, #e9a23b); outline-offset: 3px; }"
+      "refersTo": "button-secondary",
+      "description": "Quiet action: resume reading, copy address, more about the site.",
+      "html": "<button class=\"ds-btn ds-btn-secondary\">사이트 소개 더 보기 <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-height:2.75rem;padding:0.625rem 1.125rem;border:1px solid transparent;border-radius:var(--radius,10px);font-family:var(--font);font-size:0.9375rem;font-weight:600;line-height:1.3;text-decoration:none;cursor:pointer;transition:transform 160ms cubic-bezier(0.23,1,0.32,1),background-color 150ms ease,border-color 150ms ease;}.ds-btn:focus-visible{outline:2px solid #0d7a6f;outline-offset:2px;}.ds-btn-secondary{background:#fff;border-color:#cdd3db;color:#121821;box-shadow:0 1px 2px rgb(16 24 40 / 0.04),0 1px 3px rgb(16 24 40 / 0.05);}.ds-btn-secondary:hover{border-color:#b4bcc7;background:#fbfcfd;}@media (prefers-reduced-motion: no-preference){.ds-btn:active{transform:scale(0.97);}}"
     },
     {
-      "name": "Filter Tabs",
-      "kind": "nav",
-      "refersTo": "filter-tab",
-      "description": "Text tabs that filter the article index; active tab gets a 2px sun underline on the list's 1px ink rule.",
-      "html": "<div class=\"ds-filters-wrap\"><div class=\"ds-filters\"><button class=\"ds-tab\" aria-pressed=\"true\">전체 <span>6</span></button><button class=\"ds-tab\" aria-pressed=\"false\">뇌과학 기초 <span>1</span></button><button class=\"ds-tab\" aria-pressed=\"false\">습관 형성 <span>1</span></button></div></div>",
-      "css": ".ds-filters-wrap { background: var(--paper, #f5f6f3); border-bottom: 1px solid var(--ink, #18202c); padding: 0 1rem; } .ds-filters { display: flex; gap: 0 1.5rem; } .ds-tab { position: relative; display: inline-flex; align-items: center; gap: 0.4rem; min-height: 2.75rem; padding: 0.5rem 0; border: 0; background: transparent; color: var(--ink-soft, #3a4452); font-family: 'Pretendard Variable', Pretendard, sans-serif; font-size: 0.9375rem; font-weight: 500; cursor: pointer; transition: color 0.2s; } .ds-tab span { color: var(--muted, #566170); font-size: 0.8125rem; } .ds-tab::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: var(--sun, #e9a23b); transform: scaleX(0); transform-origin: left center; transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1); } .ds-tab:hover { color: var(--ink, #18202c); } .ds-tab[aria-pressed='true'] { color: var(--ink, #18202c); font-weight: 700; } .ds-tab[aria-pressed='true']::after { transform: scaleX(1); } .ds-tab[aria-pressed='true'] span { color: var(--sun-ink, #855508); } .ds-tab:focus-visible { outline: 2px solid var(--sun, #e9a23b); outline-offset: 3px; }"
+      "name": "Primary Button on Navy",
+      "kind": "button",
+      "refersTo": "button-primary-on-frame",
+      "description": "Action placed on the navy frame; Lagoon teal with navy text.",
+      "html": "<div class=\"ds-frame\"><button class=\"ds-btn ds-btn-frame\">읽기 <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></button></div>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-height:2.75rem;padding:0.625rem 1.125rem;border:1px solid transparent;border-radius:var(--radius,10px);font-family:var(--font);font-size:0.9375rem;font-weight:600;line-height:1.3;text-decoration:none;cursor:pointer;transition:transform 160ms cubic-bezier(0.23,1,0.32,1),background-color 150ms ease,border-color 150ms ease;}.ds-btn:focus-visible{outline:2px solid #0d7a6f;outline-offset:2px;}.ds-frame{background:#0f141c;padding:1.5rem;border-radius:14px;}.ds-btn-frame{background:#5fd0c0;color:#0f141c;}.ds-btn-frame:hover{background:#7edccf;}.ds-btn-frame:focus-visible{outline-color:#5fd0c0;}@media (prefers-reduced-motion: no-preference){.ds-btn:active{transform:scale(0.97);}}"
     },
     {
-      "name": "Site Header Nav",
-      "kind": "nav",
-      "refersTo": "nav-link",
-      "description": "Night header with brand and text links; current page marked by a 5px sun dot.",
-      "html": "<header class=\"ds-header\"><a class=\"ds-brand\" href=\"#\">믿음의 게임, <b>실행</b></a><nav><a href=\"#\" aria-current=\"page\">아티클</a><a href=\"#\">소개</a><a href=\"#\">문의</a></nav></header>",
-      "css": ".ds-header { display: flex; align-items: center; justify-content: space-between; min-height: 4.5rem; padding: 0 1.5rem; background: var(--night, #0f1622); border-bottom: 1px solid var(--night-line, #263248); font-family: 'Pretendard Variable', Pretendard, sans-serif; } .ds-brand { color: var(--night-text, #e8ecf2); text-decoration: none; font-weight: 600; font-size: 1.0625rem; letter-spacing: -0.02em; } .ds-brand b { color: var(--sun, #e9a23b); font-weight: 700; } .ds-header nav { display: flex; gap: 0.25rem; } .ds-header nav a { display: block; padding: 0.5rem 0.875rem; border-radius: 3px; color: var(--night-muted, #a5b0c1); text-decoration: none; font-size: 0.9375rem; font-weight: 500; transition: color 0.2s, background-color 0.2s; } .ds-header nav a:hover { color: var(--night-text, #e8ecf2); background: var(--night-raised, #162030); } .ds-header nav a[aria-current='page'] { color: var(--night-text, #e8ecf2); } .ds-header nav a[aria-current='page']::after { content: ''; display: block; width: 5px; height: 5px; margin: 0.25rem auto -0.5625rem; border-radius: 50%; background: var(--sun, #e9a23b); } .ds-header a:focus-visible { outline: 2px solid var(--sun, #e9a23b); outline-offset: 3px; }"
+      "name": "Category Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Article category label on cards and article heads.",
+      "html": "<span class=\"ds-chip\">수면 · 리듬</span>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;min-height:1.625rem;padding:0.125rem 0.625rem;border-radius:999px;background:#e4f3f0;color:#0a6158;font-family:var(--font);font-size:0.8125rem;font-weight:600;line-height:1.4;white-space:nowrap;}"
+    },
+    {
+      "name": "Category Filter",
+      "kind": "custom",
+      "refersTo": "filter-option-active",
+      "description": "Signature: a white pill group whose navy active pill slides between options.",
+      "html": "<div class=\"ds-filters\"><button class=\"ds-on\" aria-pressed=\"true\">전체 <span>6</span></button><button aria-pressed=\"false\">뇌과학 기초 <span>1</span></button><button aria-pressed=\"false\">습관 형성 <span>2</span></button></div>",
+      "css": ".ds-filters{display:inline-flex;gap:0.125rem;padding:0.25rem;border:1px solid #e4e7ec;border-radius:999px;background:#fff;box-shadow:0 1px 2px rgb(16 24 40 / 0.04),0 1px 3px rgb(16 24 40 / 0.05);font-family:var(--font);}.ds-filters button{display:inline-flex;align-items:center;gap:0.375rem;min-height:2.5rem;padding:0.375rem 1rem;border:0;border-radius:999px;background:transparent;color:#384150;font:inherit;font-size:0.9375rem;font-weight:500;cursor:pointer;transition:color 200ms ease,background-color 280ms cubic-bezier(0.77,0,0.175,1),transform 160ms cubic-bezier(0.23,1,0.32,1);}.ds-filters button span{color:#5d6674;font-size:0.8125rem;font-weight:600;font-variant-numeric:tabular-nums;}.ds-filters button.ds-on{background:#0f141c;color:#fff;font-weight:600;}.ds-filters button.ds-on span{color:#5fd0c0;}.ds-filters button:not(.ds-on):hover{background:#eff1f4;color:#121821;}.ds-filters button:focus-visible{outline:2px solid #0d7a6f;outline-offset:2px;}@media (prefers-reduced-motion: no-preference){.ds-filters button:active{transform:scale(0.96);}}"
+    },
+    {
+      "name": "Article Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Index card: title, description, category and time, reading minutes, arrow chip.",
+      "html": "<article class=\"ds-card\"><h3><a href=\"#\">아침 햇빛 10분이 밤잠을 바꾸는 이유</a></h3><p>눈으로 들어온 아침빛은 뇌 속 생체시계의 기준점을 다시 맞춥니다.</p><div class=\"ds-card-foot\"><span class=\"ds-card-chip\">수면 · 리듬</span><span class=\"ds-time\">07:00</span> 아침 햇빛<span class=\"ds-go\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></span></div></article>",
+      "css": ".ds-card{position:relative;max-width:22rem;padding:1.5rem 1.5rem 1.25rem;border:1px solid #e4e7ec;border-radius:14px;background:#fff;box-shadow:0 1px 2px rgb(16 24 40 / 0.04),0 1px 3px rgb(16 24 40 / 0.05);font-family:var(--font);transition:transform 220ms cubic-bezier(0.23,1,0.32,1),box-shadow 220ms cubic-bezier(0.23,1,0.32,1),border-color 150ms ease;}.ds-card h3{margin:0;font-size:1.125rem;font-weight:700;line-height:1.5;letter-spacing:-0.025em;color:#121821;}.ds-card h3 a{color:inherit;text-decoration:none;}.ds-card h3 a::after{content:\"\";position:absolute;inset:0;border-radius:inherit;}.ds-card p{margin:0.5rem 0 0;font-size:0.9375rem;line-height:1.7;color:#5d6674;}.ds-card-foot{display:flex;align-items:center;gap:0.625rem;margin-top:1.25rem;padding-top:1rem;border-top:1px solid #e4e7ec;font-size:0.875rem;color:#5d6674;}.ds-card-chip{padding:0.125rem 0.625rem;border-radius:999px;background:#e4f3f0;color:#0a6158;font-size:0.8125rem;font-weight:600;}.ds-time{font-weight:600;color:#0d7a6f;font-variant-numeric:tabular-nums;}.ds-go{margin-left:auto;display:grid;place-items:center;width:2rem;height:2rem;border-radius:999px;background:#eff1f4;color:#384150;transition:background-color 150ms ease,color 150ms ease,transform 220ms cubic-bezier(0.23,1,0.32,1);}.ds-card:has(a:focus-visible){outline:2px solid #0d7a6f;outline-offset:2px;}.ds-card a:focus-visible{outline:none;}@media (hover:hover) and (pointer:fine){.ds-card:hover{border-color:#cdd3db;box-shadow:0 2px 4px rgb(16 24 40 / 0.04),0 14px 28px -10px rgb(16 24 40 / 0.14);}.ds-card:hover .ds-go{background:#0d7a6f;color:#fff;}}@media (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){.ds-card:hover{transform:translateY(-3px);}.ds-card:hover .ds-go{transform:translateX(2px);}}"
     },
     {
       "name": "Text Field",
       "kind": "input",
       "refersTo": "input",
-      "description": "Contact form field: white fill, 1px line border, 3px radius; focus turns the border ink.",
-      "html": "<label class=\"ds-field\"><span>이메일</span><input class=\"ds-input\" type=\"email\" placeholder=\"name@example.com\"></label>",
-      "css": ".ds-field { display: grid; gap: 0.5rem; font-family: 'Pretendard Variable', Pretendard, sans-serif; } .ds-field > span { font-size: 0.9375rem; font-weight: 600; color: var(--ink, #18202c); } .ds-input { width: 100%; min-height: 3rem; padding: 0.75rem 1rem; border: 1px solid var(--line, #d6dbd2); border-radius: 3px; background: #fff; color: var(--ink, #18202c); font: inherit; font-size: 1rem; caret-color: var(--sun-ink, #855508); transition: border-color 0.2s; } .ds-input::placeholder { color: #6b7584; } .ds-input:hover { border-color: #b9c0b5; } .ds-input:focus-visible { outline: none; border-color: var(--ink, #18202c); } .ds-input[aria-invalid='true'] { border-color: #b3261e; }"
+      "description": "Contact form input: hairline border, teal focus.",
+      "html": "<label class=\"ds-field\"><span>답장받을 이메일</span><input type=\"email\" placeholder=\"you@example.com\" /></label>",
+      "css": ".ds-field{display:grid;gap:0.5rem;max-width:22rem;font-family:var(--font);}.ds-field span{font-size:0.9375rem;font-weight:600;color:#121821;}.ds-field input{min-height:3rem;padding:0.75rem 1rem;border:1px solid #cdd3db;border-radius:10px;background:#fff;color:#121821;font:inherit;font-size:1rem;caret-color:#0d7a6f;transition:border-color 150ms ease;}.ds-field input::placeholder{color:#6b7380;}.ds-field input:hover{border-color:#b4bcc7;}.ds-field input:focus-visible{border-color:#0d7a6f;outline:2px solid #0d7a6f;outline-offset:1px;}"
     },
     {
-      "name": "Article Row",
-      "kind": "card",
-      "refersTo": "time-mark",
-      "description": "The index unit: time column, serif title with sun underline on hover, meta column, separated by line rules.",
-      "html": "<ul class=\"ds-rows\"><li class=\"ds-row\"><div class=\"ds-row-time\"><span class=\"ds-time\">07:00</span><span class=\"ds-moment\">아침 햇빛</span></div><div><h3><a href=\"#\">아침 햇빛 10분이 밤잠을 바꾸는 이유</a></h3><p>눈으로 들어온 아침빛은 뇌 속 생체시계의 기준점을 다시 맞춥니다.</p></div><div class=\"ds-row-meta\"><b>수면 · 리듬</b><span>8분 읽기</span></div></li></ul>",
-      "css": ".ds-rows { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ink, #18202c); background: var(--paper, #f5f6f3); font-family: 'Pretendard Variable', Pretendard, sans-serif; } .ds-row { position: relative; display: grid; grid-template-columns: 6.5rem minmax(0, 1fr) 7rem; gap: 1.5rem; padding: 2rem 0; border-bottom: 1px solid var(--line, #d6dbd2); } .ds-row-time { display: grid; gap: 0.25rem; align-content: start; } .ds-time { font-variant-numeric: tabular-nums; font-size: 1.5rem; font-weight: 600; letter-spacing: -0.01em; line-height: 1.2; color: var(--sun-ink, #855508); } .ds-moment { font-size: 0.875rem; color: var(--muted, #566170); } .ds-row h3 { margin: 0; font-family: 'Hahmlet Variable', 'Noto Serif KR', serif; font-size: 1.625rem; font-weight: 600; line-height: 1.35; letter-spacing: -0.025em; } .ds-row h3 a { color: var(--ink, #18202c); text-decoration: none; background-image: linear-gradient(var(--sun, #e9a23b), var(--sun, #e9a23b)); background-size: 0 1px; background-position: 0 100%; background-repeat: no-repeat; transition: background-size 0.5s cubic-bezier(0.16, 1, 0.3, 1); } .ds-row h3 a::after { content: ''; position: absolute; inset: 0; } .ds-row:hover h3 a, .ds-row h3 a:focus-visible { background-size: 100% 1px; } .ds-row p { margin: 0.75rem 0 0; color: var(--muted, #566170); line-height: 1.75; } .ds-row-meta { display: grid; justify-items: end; gap: 0.5rem; font-size: 0.875rem; color: var(--muted, #566170); } .ds-row-meta b { color: var(--ink-soft, #3a4452); }"
+      "name": "Masthead Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Navy bar with brand mark and text links; current page on a raised navy tile.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-brand\" href=\"#\"><svg viewBox=\"0 0 28 28\" width=\"28\" height=\"28\" aria-hidden=\"true\"><rect width=\"28\" height=\"28\" rx=\"8\" fill=\"#0d7a6f\"/><path d=\"M8 18.5c2.5-9 9.5 0 12-9\" fill=\"none\" stroke=\"#fff\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"8\" cy=\"18.5\" r=\"2.25\" fill=\"#fff\"/><circle cx=\"20\" cy=\"9.5\" r=\"2.25\" fill=\"#fff\"/></svg>믿음의 게임, <b>실행</b></a><span><a href=\"#\" aria-current=\"page\">아티클</a><a href=\"#\">소개</a><a href=\"#\">문의</a></span></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;min-height:4.25rem;padding:0 1.5rem;background:#0f141c;border-bottom:1px solid #263041;font-family:var(--font);}.ds-brand{display:inline-flex;align-items:center;gap:0.625rem;color:#eef1f5;text-decoration:none;font-weight:700;font-size:1.0625rem;letter-spacing:-0.03em;}.ds-brand b{color:#5fd0c0;}.ds-nav span{display:flex;gap:0.25rem;}.ds-nav span a{padding:0.5rem 0.875rem;border-radius:8px;color:#a7b0bd;text-decoration:none;font-size:0.9375rem;font-weight:500;transition:color 150ms ease,background-color 150ms ease;}.ds-nav span a:hover,.ds-nav span a[aria-current]{color:#eef1f5;background:#171e29;}.ds-nav span a[aria-current]{font-weight:600;}.ds-nav a:focus-visible{outline:2px solid #5fd0c0;outline-offset:2px;}"
     },
     {
-      "name": "Disclaimer Box",
-      "kind": "card",
-      "refersTo": "disclaimer-box",
-      "description": "Medical/academic disclaimer closing every article: paper-sunk, 1px ink border, 4px radius.",
-      "html": "<aside class=\"ds-disclaimer\"><p class=\"ds-d-title\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 11v5M12 8h.01\"/></svg>의학 · 학술 정보 면책 조항</p><ul><li>이 글은 공개된 연구와 학회 권고를 바탕으로 <strong>일반적인 정보를 제공</strong>하기 위해 작성되었습니다.</li><li>의사, 약사 등 <strong>전문가의 진단, 치료, 처방을 대신하지 않습니다.</strong></li></ul><p class=\"ds-d-date\">정보 기준일 2026년 10월 17일</p></aside>",
-      "css": ".ds-disclaimer { padding: 1.5rem; border: 1px solid var(--ink, #18202c); border-radius: 4px; background: var(--paper-sunk, #eceee9); color: var(--ink, #18202c); font-family: 'Pretendard Variable', Pretendard, sans-serif; } .ds-d-title { display: flex; align-items: center; gap: 0.5rem; margin: 0 0 0.875rem; font-size: 1.0625rem; font-weight: 700; letter-spacing: -0.01em; } .ds-d-title svg { color: var(--sun-ink, #855508); } .ds-disclaimer ul { margin: 0; padding-left: 1.2em; font-size: 0.9375rem; line-height: 1.75; color: var(--ink-soft, #3a4452); } .ds-disclaimer li::marker { color: var(--sun-ink, #855508); } .ds-disclaimer strong { color: var(--ink, #18202c); font-weight: 700; } .ds-d-date { margin: 1rem 0 0; padding-top: 0.875rem; border-top: 1px solid var(--line, #d6dbd2); font-size: 0.8125rem; color: var(--muted, #566170); }"
-    },
-    {
-      "name": "Day Band",
+      "name": "Table of Contents Card",
       "kind": "custom",
-      "refersTo": "time-mark",
-      "description": "Signature 24-hour track on night: article pins, elapsed amber fill, 지금 marker, next pin with 1px outline.",
-      "html": "<div class=\"ds-band\"><div class=\"ds-track\"><div class=\"ds-elapsed\" style=\"width:30%\"></div></div><div class=\"ds-now\" style=\"left:30%\"><span>지금 07:12</span></div><div class=\"ds-pin\" style=\"left:12%\"><span class=\"ds-pin-label\"><b>02:00</b>새벽</span><i></i></div><div class=\"ds-pin is-next\" style=\"left:45%\"><span class=\"ds-pin-label\"><b>11:00</b>오전 집중</span><i></i></div><div class=\"ds-hours\"><span style=\"left:0\">00</span><span style=\"left:50%\">12</span><span style=\"right:0\">24</span></div></div>",
-      "css": ".ds-band { position: relative; height: 7.5rem; padding: 0 1.5rem; background: var(--night, #0f1622); color: var(--night-text, #e8ecf2); font-family: 'Pretendard Variable', Pretendard, sans-serif; } .ds-track { position: absolute; left: 1.5rem; right: 1.5rem; top: 4.5rem; height: 2px; background: var(--night-line, #263248); } .ds-elapsed { position: absolute; left: 0; top: 0; bottom: 0; background: linear-gradient(90deg, rgb(233 162 59 / 0.15), var(--sun, #e9a23b)); } .ds-now { position: absolute; top: 4.5rem; margin-left: 1.5rem; } .ds-now::before { content: ''; position: absolute; left: -1px; top: -0.875rem; width: 2px; height: 1.875rem; background: var(--night-text, #e8ecf2); border-radius: 2px; } .ds-now span { position: absolute; top: 2.125rem; left: 0.5rem; white-space: nowrap; font-size: 0.75rem; font-weight: 600; } .ds-pin { position: absolute; top: 0.5rem; height: 4.5rem; margin-left: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; } .ds-pin-label { display: grid; gap: 0.125rem; padding: 0 0 0.5rem 0.75rem; border-left: 1px solid var(--night-line, #263248); font-size: 0.875rem; color: var(--night-muted, #a5b0c1); white-space: nowrap; } .ds-pin-label b { font-variant-numeric: tabular-nums; font-weight: 600; } .ds-pin i { width: 11px; height: 11px; margin: 0 0 -5px -5px; border-radius: 50%; background: var(--night, #0f1622); border: 2px solid var(--dusk, #5b6b82); box-sizing: border-box; } .ds-pin.is-next i { background: var(--sun, #e9a23b); border-color: var(--sun, #e9a23b); outline: 1px solid var(--sun, #e9a23b); outline-offset: 3px; } .ds-pin.is-next b { color: var(--sun, #e9a23b); } .ds-pin.is-next .ds-pin-label { color: var(--night-text, #e8ecf2); border-color: rgb(233 162 59 / 0.5); } .ds-hours { position: absolute; left: 1.5rem; right: 1.5rem; top: 5.25rem; font-size: 0.75rem; color: var(--night-faint, #8692a9); } .ds-hours span { position: absolute; }"
+      "refersTo": "toc-link-active",
+      "description": "Sticky article TOC; the current section sits on Teal Mist.",
+      "html": "<nav class=\"ds-toc\"><p>목차</p><a href=\"#\">빛이 시계를 맞추는 원리</a><a href=\"#\" aria-current=\"true\">아침 10분의 근거</a><a href=\"#\">오늘의 실행</a></nav>",
+      "css": ".ds-toc{display:grid;gap:0.125rem;max-width:16rem;padding:1.125rem 0.75rem 0.75rem;border:1px solid #e4e7ec;border-radius:14px;background:#fff;box-shadow:0 1px 2px rgb(16 24 40 / 0.04),0 1px 3px rgb(16 24 40 / 0.05);font-family:var(--font);}.ds-toc p{margin:0;padding:0 0.5rem 0.75rem;font-size:0.875rem;font-weight:700;color:#121821;}.ds-toc a{display:block;padding:0.4375rem 0.625rem;border-radius:8px;font-size:0.875rem;line-height:1.55;color:#5d6674;text-decoration:none;transition:color 150ms ease,background-color 150ms ease;}.ds-toc a:hover{color:#121821;background:#eff1f4;}.ds-toc a[aria-current]{color:#0a6158;background:#e4f3f0;font-weight:600;}.ds-toc a:focus-visible{outline:2px solid #0d7a6f;outline-offset:2px;}"
+    },
+    {
+      "name": "Toast",
+      "kind": "custom",
+      "refersTo": "toast",
+      "description": "Short confirmation (copy) that rises from the bottom center.",
+      "html": "<div class=\"ds-toast\" role=\"status\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12.5l4.2 4.2L19 7\"/></svg>링크를 복사했어요</div>",
+      "css": ".ds-toast{display:inline-flex;align-items:center;gap:0.5rem;padding:0.75rem 1.125rem;border-radius:10px;background:#0f141c;color:#eef1f5;font-family:var(--font);font-size:0.9375rem;font-weight:500;box-shadow:0 4px 8px rgb(16 24 40 / 0.06),0 20px 40px -12px rgb(16 24 40 / 0.22);}.ds-toast svg{color:#5fd0c0;}"
     }
   ],
   "narrative": {
-    "northStar": "The Day Chart",
-    "overview": "The site is drawn as one day. Every article is placed at the hour its habit happens (07:00, 18:30, 23:00) or marked \"언제든\" (anytime), and a single 24-hour line is the site's map: on the home masthead it carries the article pins and a live \"지금\" marker, on interior mastheads it closes the night zone as a static 00–24 scale, and on the article page it becomes the reading-progress line, segmented into 24 hours. Thumbnail card grids and image sliders are not part of this world; the index is a ruled list keyed by time.\n\nColor owns territory rather than decorating it. Night ink owns the frame (masthead, footer, diagram plates); morning paper owns the reading column. The only active color is the sun amber, which appears where something is current, chosen, or next: the next pin, the active filter, the read portion of the progress line, the current TOC entry, the \"오늘의 실행\" marker. Everything else is drawn with 1px hairlines, tabular time marks, and a Korean serif for reading set against a Korean sans for interface.\n\nThe mood is calm and evidence-led, close to a quality knowledge magazine: generous leading, a 40rem reading measure, minimal rounding, no shadows, and one easing curve.",
+    "northStar": "The Orderly Knowledge Magazine",
+    "overview": "This is a category-standard Korean knowledge magazine played straight. A dark navy frame (masthead, page heads, article heads, diagrams, footer) bookends every page; between those bands sits a soft cool-gray reading ground carrying white cards with hairline borders and quiet offset shadows. Trust comes from order: one typeface (Pretendard Variable) with a precise weight and tracking ladder, tabular numerals for every time, count, and percentage, and a single deep teal accent that marks what is selected, current, or actionable.\n\nDensity is magazine-comfortable, not dashboard-tight: three-column card grids at desktop, a 42rem reading measure with a sticky table-of-contents card, generous section padding. The frame recurs at the top and bottom of every route, so each page reads as navy, then gray, then navy.\n\nThe world explicitly refuses AI-landing defaults: no purple neon gradients, no glows, no eyebrow labels over headings. Hierarchy is carried by size, weight, and tracking alone.",
     "keyCharacteristics": [
-      "Two zones by color: night frame, paper reading column; never a third surface family.",
-      "One active color (sun amber) with a darker text variant (sun-ink) for paper.",
-      "The 24-hour line recurs as map, masthead scale, and progress line.",
-      "1px hairlines carry structure; shadows are absent.",
-      "Tabular-figure time marks precede titles wherever an article is listed.",
-      "Serif (Hahmlet) for reading and headings, sans (Pretendard) for UI, labels, and numerals."
+      "Navy frame bands at top and bottom of every page; soft gray body between them.",
+      "White cards with a 1px hairline border, 14px corners, and a faint two-layer shadow.",
+      "One accent hue, deep teal, with a separate lighter teal for use on navy.",
+      "One typeface, Pretendard Variable, tightened tracking on all headings.",
+      "Tabular numerals for times, counts, dates, reading minutes, and progress.",
+      "Motion is short and ease-out; hover lifts are pointer-gated; reduced motion keeps opacity only."
     ],
     "rules": [
       {
-        "name": "The One Sun Rule",
-        "body": "Amber means \"active, current, or next.\" If an element is not in one of those states, it is not amber. Decorative amber is a defect.",
+        "name": "The One Teal Rule",
+        "body": "Teal is the only chromatic color. It marks selection, currency, and action; it never decorates. On navy it switches to Lagoon on Navy, never the light-ground teal.",
         "section": "colors"
       },
       {
-        "name": "The Territory Rule",
-        "body": "Night owns the frame, paper owns the reading. A night surface inside the paper zone is allowed only as a plate that carries the day's own content (diagram plates, pressed states, action badges), never as a decorative band.",
+        "name": "The Frame Bookend Rule",
+        "body": "Navy is structural: it holds the top and bottom of every page and the diagrams inside articles. It is never a card on the gray ground, except the active filter pill.",
         "section": "colors"
       },
       {
-        "name": "The Ink-for-Text Rule",
-        "body": "On paper, amber text uses sun-ink; raw sun is reserved for fills, lines, and outlines.",
-        "section": "colors"
-      },
-      {
-        "name": "The Serif-Reads, Sans-Operates Rule",
-        "body": "If a reader reads it as content, it is Hahmlet; if they act on it or scan it as data, it is Pretendard.",
+        "name": "The Tightening Ladder Rule",
+        "body": "Heading tracking tightens with size: -0.02em at small headings, -0.025em at card titles, -0.03em at titles, -0.035em at headlines, -0.04em at display. Body stays near zero.",
         "section": "typography"
       },
       {
-        "name": "The Tabular Clock Rule",
-        "body": "Every clock time is set in tabular figures so a column of times aligns.",
+        "name": "The Tabular Numbers Rule",
+        "body": "Every time, count, date, percentage, and reading-minutes value is set in tabular numerals.",
         "section": "typography"
       },
       {
-        "name": "The Hairline Rule",
-        "body": "Structure is drawn with 1px lines: ink rules open a section or list, line-color rules separate rows. Heavier strokes belong only to the 2px day-band track and progress line.",
-        "section": "elevation"
-      },
-      {
-        "name": "The No-Halo Rule",
-        "body": "Active marks use a 1px sun outline at 3px offset (next pin, \"오늘의 실행\" marker), never a glow or blurred ring.",
+        "name": "The Paper Not Glow Rule",
+        "body": "Shadows are neutral navy-gray, low-opacity, and offset downward. No colored shadows, no glows, no hard offsets.",
         "section": "elevation"
       }
     ],
     "dos": [
-      "Do place every listed article behind its time mark (tabular, sun-ink on paper, sun on night) or \"언제든\" in muted.",
-      "Do keep amber for active, current, or next states, and use sun-ink for amber text on paper.",
-      "Do draw structure with 1px hairlines: ink to open a list or section, line between rows, night-line inside the night zone.",
-      "Do keep controls at 3px and bordered containers at 4px.",
-      "Do end every article with the \"오늘의 실행\" list followed by the bordered disclaimer box.",
-      "Do keep reading text in Hahmlet at a 40rem measure with 1.9–1.95 leading.",
-      "Do use the single ease-out curve (cubic-bezier(0.16, 1, 0.3, 1)) for the few motions, and freeze them under reduced motion."
+      "Do bookend every page with the navy frame and keep reading content on Soft Gray with white cards.",
+      "Do use Deep Teal only for selected, current, and actionable states; switch to Lagoon on Navy on the frame.",
+      "Do set every time, count, date, and percentage in tabular numerals.",
+      "Do tighten heading tracking with size (-0.02em to -0.04em) and keep a single family.",
+      "Do gate hover lifts behind `(hover: hover) and (pointer: fine)` and transforms behind `prefers-reduced-motion: no-preference`; under reduced motion keep opacity only.",
+      "Do use `cubic-bezier(0.23, 1, 0.32, 1)` for entering and pressing, `cubic-bezier(0.77, 0, 0.175, 1)` for on-screen movement, 150 to 280ms durations, and `scale(0.97)` on press.",
+      "Do draw icons as inline 1.7-stroke line SVGs in currentColor."
     ],
     "donts": [
-      "Don't introduce thumbnail card grids or image sliders for article listing; the ruled, time-keyed list is the index.",
-      "Don't use pill shapes or large radii.",
-      "Don't add drop shadows, glows, or blurred halos; active marks use a 1px outline at 3px offset.",
-      "Don't add a third surface family or a second accent color.",
-      "Don't set amber (sun) text on paper.",
-      "Don't set UI labels in uppercase or letter-spaced small caps."
+      "Don't use purple neon gradients, glows, or colored shadows.",
+      "Don't put eyebrow or kicker labels above headings; hierarchy comes from size, weight, and tracking.",
+      "Don't introduce a second accent hue or a second typeface.",
+      "Don't use hard offset shadows or heavy borders; borders are 1px hairlines.",
+      "Don't use emoji or text glyphs as icons."
     ]
   }
 }

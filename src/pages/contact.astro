@@ -38,7 +38,7 @@ import { SITE } from '../data/site';
         <p class="error" id="e-agree" data-error-for="agree" hidden>답변을 위해 동의가 필요합니다.</p>
       </div>
       <div class="submit-row">
-        <button type="submit" class="submit"><Icon name="mail" /> 메일로 보내기</button>
+        <button type="submit" class="btn btn-primary btn-lg"><Icon name="mail" /> 메일로 보내기</button>
         <p class="submit-hint">버튼을 누르면 작성한 내용이 담긴 메일 앱이 열립니다.</p>
       </div>
       <p class="status" data-status role="status" hidden></p>
@@ -48,7 +48,7 @@ import { SITE } from '../data/site';
       <h2>이메일로 바로 보내기</h2>
       <p>메일 앱을 쓰지 않는다면 아래 주소로 직접 보내 주셔도 됩니다.</p>
       <p class="addr tabular">{SITE.email}</p>
-      <button type="button" class="copy" data-copy-email={SITE.email}><Icon name="copy" /> <span data-copy-label>주소 복사</span></button>
+      <button type="button" class="btn btn-secondary btn-sm copy" data-copy-email={SITE.email}><Icon name="copy" /> <span data-copy-label>주소 복사</span></button>
       <dl class="notes">
         <div><dt>답장</dt><dd>보내 주신 메일은 모두 확인한 뒤, 적어 주신 주소로 답장드립니다.</dd></div>
         <div><dt>오류 제보</dt><dd>글 제목과 문제가 된 문장을 함께 적어 주시면 빠르게 확인할 수 있습니다.</dd></div>
@@ -100,7 +100,7 @@ import { SITE } from '../data/site';
   document.querySelector<HTMLButtonElement>('[data-copy-email]')?.addEventListener('click', async (e) => {
     const btn = e.currentTarget as HTMLButtonElement;
     const label = btn.querySelector('[data-copy-label]')!;
-    try { await navigator.clipboard.writeText(btn.dataset.copyEmail!); label.textContent = '복사했어요'; }
+    try { await navigator.clipboard.writeText(btn.dataset.copyEmail!); label.textContent = '복사했어요'; document.dispatchEvent(new CustomEvent('toast', { detail: '이메일 주소를 복사했어요' })); }
     catch { label.textContent = '직접 선택해 복사해 주세요'; }
     setTimeout(() => (label.textContent = '주소 복사'), 2200);
   });
@@ -109,99 +109,96 @@ import { SITE } from '../data/site';
 <style>
   .contact {
     display: grid;
-    grid-template-columns: minmax(0, 40rem) minmax(0, 20rem);
-    gap: clamp(2.5rem, 6vw, 5.5rem);
+    grid-template-columns: minmax(0, 1fr) minmax(18rem, 22rem);
+    gap: clamp(1.5rem, 4vw, 3rem);
     align-items: start;
   }
-  .form { display: grid; gap: 1.5rem; }
+  .form {
+    display: grid;
+    gap: 1.5rem;
+    padding: clamp(1.5rem, 4vw, 2.25rem);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
+  }
   .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
   .field { display: grid; gap: 0.5rem; align-content: start; }
-  label { font-size: 0.9375rem; font-weight: 600; }
-  .opt { font-weight: 500; color: var(--muted); font-size: 0.8125rem; margin-left: 0.25rem; }
+  label { font-size: var(--text-ui); font-weight: 600; color: var(--ink); }
+  .opt { font-weight: 500; color: var(--muted); font-size: var(--text-xs); margin-left: 0.25rem; }
   input[type='text'], input[type='email'], select, textarea {
     width: 100%;
     min-height: 3rem;
     padding: 0.75rem 1rem;
-    border: 1px solid var(--line);
-    border-radius: 3px;
-    background: #fff;
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius);
+    background: var(--surface);
     color: var(--ink);
     font: inherit;
     font-size: 1rem;
-    caret-color: var(--sun-ink);
-    transition: border-color 0.2s;
+    caret-color: var(--accent);
+    transition: border-color 150ms ease, background-color 150ms ease;
   }
   textarea { line-height: 1.7; resize: vertical; min-height: 11rem; }
-  ::placeholder { color: #6b7584; }
+  ::placeholder { color: var(--placeholder); }
   select {
     appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23566170' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235d6674' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 0.875rem center;
     background-size: 1.125rem;
     padding-right: 2.75rem;
+    cursor: pointer;
   }
-  input:hover, select:hover, textarea:hover { border-color: #b9c0b5; }
+  input:hover, select:hover, textarea:hover { border-color: var(--line-hover); }
   input:focus-visible, select:focus-visible, textarea:focus-visible {
-    border-color: var(--ink);
-    outline: 2px solid var(--sun);
-    outline-offset: 2px;
+    border-color: var(--accent);
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
   }
-  [aria-invalid='true'] { border-color: #b3261e !important; }
-  .error { font-size: 0.875rem; color: #b3261e; line-height: 1.5; }
-  .check { grid-template-columns: auto 1fr; column-gap: 0.75rem; align-items: start; }
-  .check input { width: 1.25rem; height: 1.25rem; margin: 0.15rem 0 0; accent-color: var(--night); }
-  .check label { font-weight: 400; font-size: 0.9375rem; line-height: 1.65; color: var(--ink-soft); }
-  .check label a { color: var(--ink); text-decoration-color: var(--sun); }
+  [aria-invalid='true'] { border-color: var(--danger) !important; }
+  .error { font-size: var(--text-sm); color: var(--danger); line-height: 1.5; }
+  .check {
+    grid-template-columns: auto 1fr;
+    column-gap: 0.75rem;
+    align-items: start;
+    padding: 1rem 1.125rem;
+    border-radius: var(--radius);
+    background: var(--bg);
+  }
+  .check input { width: 1.25rem; height: 1.25rem; margin: 0.15rem 0 0; accent-color: var(--accent); cursor: pointer; }
+  .check label { font-weight: 400; font-size: var(--text-ui); line-height: 1.65; color: var(--ink-soft); }
+  .check label a { color: var(--accent-strong); font-weight: 600; }
   .check .error { grid-column: 2; }
   .submit-row { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.25rem; }
-  .submit {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    min-height: 3rem;
-    padding: 0.75rem 1.5rem;
-    border: 0;
-    border-radius: 3px;
-    background: var(--night);
-    color: var(--night-text);
-    font: inherit;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.2s, transform 0.2s var(--ease-out);
-  }
-  .submit .icon { color: var(--sun); }
-  .submit:hover { background: #1d2a3d; }
-  .submit:active { transform: scale(0.97); }
-  .submit-hint { font-size: 0.875rem; color: var(--muted); }
-  .status { padding: 1rem 1.25rem; background: var(--paper-sunk); border-radius: 3px; line-height: 1.7; font-size: 0.9375rem; }
-
-  .direct { padding-top: 1.5rem; border-top: 1px solid var(--ink); }
-  .direct h2 { font-family: var(--font-read); font-size: 1.25rem; font-weight: 600; letter-spacing: -0.02em; }
-  .direct > p { margin-top: 0.5rem; color: var(--muted); line-height: 1.7; font-size: 0.9375rem; }
-  .direct .addr { margin-top: 1.25rem; font-size: 1.125rem; font-weight: 600; color: var(--ink); word-break: break-all; }
-  .copy {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    margin-top: 0.75rem;
-    min-height: 2.5rem;
-    padding: 0.4rem 1rem;
-    border: 1px solid var(--line);
-    border-radius: 3px;
-    background: transparent;
-    font: inherit;
-    font-size: 0.875rem;
-    font-weight: 600;
+  .submit-hint { font-size: var(--text-sm); color: var(--muted); }
+  .status {
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--accent-line);
+    border-radius: var(--radius);
+    background: var(--accent-soft);
+    line-height: 1.7;
+    font-size: var(--text-ui);
     color: var(--ink);
-    cursor: pointer;
+    transition: opacity 240ms ease, transform 280ms var(--ease-out);
   }
-  .copy:hover { border-color: var(--ink-soft); }
-  .notes { margin: 2rem 0 0; display: grid; gap: 1rem; }
-  .notes dt { font-size: 0.875rem; font-weight: 700; }
-  .notes dd { margin: 0.25rem 0 0; font-size: 0.875rem; color: var(--muted); line-height: 1.65; }
+  @starting-style { .status { opacity: 0; transform: translateY(6px); } }
 
-  @media (max-width: 860px) {
+  .direct {
+    padding: clamp(1.5rem, 3vw, 1.75rem);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    background: var(--sunk);
+  }
+  .direct h2 { font-size: var(--text-xl); font-weight: 700; letter-spacing: -0.025em; }
+  .direct > p { margin-top: 0.5rem; color: var(--muted); line-height: 1.7; font-size: var(--text-ui); }
+  .direct .addr { margin-top: 1.25rem; font-size: var(--text-lg); font-weight: 700; color: var(--ink); word-break: break-all; }
+  .copy { margin-top: 0.75rem; }
+  .notes { margin: 1.75rem 0 0; padding-top: 1.5rem; border-top: 1px solid var(--line-strong); display: grid; gap: 1rem; }
+  .notes dt { font-size: var(--text-sm); font-weight: 700; color: var(--ink); }
+  .notes dd { margin: 0.25rem 0 0; font-size: var(--text-sm); color: var(--muted); line-height: 1.65; }
+
+  @media (max-width: 900px) {
     .contact { grid-template-columns: 1fr; }
   }
   @media (max-width: 560px) {
