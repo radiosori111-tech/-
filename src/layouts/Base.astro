@@ -26,6 +26,7 @@ const isCurrent = (href: string) =>
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    <link rel="alternate" type="application/rss+xml" title={SITE.name} href={new URL("rss.xml", Astro.site)} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta name="theme-color" content="#0f1622" />
     <meta property="og:type" content={type} />
