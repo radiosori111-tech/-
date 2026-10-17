@@ -1,93 +1,60 @@
 ---
-import Base from '../../layouts/Base.astro';
+import Page from '../../layouts/Page.astro';
 import Icon from '../../components/Icon.astro';
-import { formatDate } from '../../data/site';
+import PostList, { type ListItem } from '../../components/PostList.astro';
 import { getPosts, postUrl, postTags, postMinutes } from '../../data/blog';
 
 const posts = await getPosts();
-const description = '뇌과학, 운동, 식단, 습관에 관해 그동안 블로그에 써 온 글을 한곳에 모았습니다.';
+const items: ListItem[] = posts.map((p) => ({
+  href: postUrl(p),
+  key: `blog:${p.data.slug}`,
+  title: p.data.title,
+  description: p.data.description,
+  minutes: postMinutes(p),
+  image: p.data.image,
+  date: p.data.date,
+  hay: [p.data.title, p.data.description, ...postTags(p)].join(' ').toLowerCase(),
+}));
 ---
-<Base title="블로그" description={description}>
-  <header class="page-head frame">
-    <div class="wrap">
-      <h1>블로그</h1>
-      <p class="lede">{description}</p>
-    </div>
-  </header>
-
-  <div class="wrap blog-body">
-    <div class="toolbar">
+<Page title="블로그" lede="뇌과학, 운동, 식단, 습관에 관해 그동안 블로그에 써 온 글을 한곳에 모았습니다.">
+  <section aria-labelledby="list-title">
+    <div class="list-head">
+      <h2 id="list-title">모든 글 <span class="count tabular" aria-live="polite"><span data-count>{posts.length}</span>편</span></h2>
       <label class="search">
         <span class="visually-hidden">글 찾기</span>
         <Icon name="search" />
         <input type="search" placeholder="제목이나 주제로 찾기" title="예: BDNF, 러닝, 수면" autocomplete="off" enterkeyhint="search" data-search />
         <button type="button" class="search-clear" aria-label="검색어 지우기" data-clear hidden><Icon name="close" /></button>
       </label>
-      <p class="count tabular" aria-live="polite"><span data-count>{posts.length}</span>편</p>
     </div>
 
-    <ol class="posts" data-posts>
-      {posts.map((p, i) => (
-        <li
-          class:list={['post', i === 0 && 'is-lead']}
-          data-slug={p.data.slug}
-          data-hay={[p.data.title, p.data.description, ...postTags(p)].join(' ').toLowerCase()}
-        >
-          {p.data.image ? (
-            <div class="post-img">
-              <img src={p.data.image} alt="" width="800" height="500" loading={i < 4 ? 'eager' : 'lazy'} decoding="async" />
-            </div>
-          ) : (
-            <div class="post-img is-blank" aria-hidden="true">
-              <svg viewBox="0 0 28 28"><path d="M8 18.5c2.5-9 9.5 0 12-9" /><circle cx="8" cy="18.5" r="2.25" /><circle cx="20" cy="9.5" r="2.25" /></svg>
-            </div>
-          )}
-          <div class="post-text">
-            <p class="post-meta tabular">
-              <time datetime={p.data.date.toISOString()}>{formatDate(p.data.date)}</time>
-              <span aria-hidden="true">·</span>
-              <span>{postMinutes(p)}분 읽기</span>
-              <span class="post-state" data-state hidden><Icon name="check" /> 읽음</span>
-            </p>
-            <h2><a href={postUrl(p)}>{p.data.title}</a></h2>
-            <p class="post-desc">{p.data.description}</p>
-          </div>
-        </li>
-      ))}
-    </ol>
+    <PostList items={items} images lead />
 
-    <div class="empty" data-empty hidden>
-      <p><strong data-empty-q></strong>에 맞는 글이 없어요.</p>
+    <div class="search-empty" data-search-empty hidden>
+      <p><strong data-search-q></strong>에 맞는 글이 없어요.</p>
       <button type="button" class="btn btn-secondary btn-sm" data-clear>검색어 지우기</button>
     </div>
-  </div>
-</Base>
+  </section>
+</Page>
 
 <script>
   const input = document.querySelector<HTMLInputElement>('[data-search]')!;
-  const items = [...document.querySelectorAll<HTMLElement>('[data-posts] .post')];
+  const rows = [...document.querySelectorAll<HTMLElement>('[data-rows] .row')];
   const count = document.querySelector<HTMLElement>('[data-count]')!;
-  const empty = document.querySelector<HTMLElement>('[data-empty]')!;
-  const emptyQ = document.querySelector<HTMLElement>('[data-empty-q]')!;
+  const empty = document.querySelector<HTMLElement>('[data-search-empty]')!;
+  const emptyQ = document.querySelector<HTMLElement>('[data-search-q]')!;
   const clearInline = document.querySelector<HTMLButtonElement>('.search-clear')!;
-
-  // 다 읽은 글 표시 (글 페이지가 이 브라우저에 남긴 기록)
-  let progress: Record<string, number> = {};
-  try { progress = JSON.parse(localStorage.getItem('mgs:progress') || '{}'); } catch {}
-  items.forEach((li) => {
-    if ((progress[`blog:${li.dataset.slug}`] ?? 0) >= 0.9) li.querySelector<HTMLElement>('[data-state]')!.hidden = false;
-  });
 
   function apply() {
     const words = input.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
     let shown = 0;
-    items.forEach((li) => {
-      const hit = words.every((w) => li.dataset.hay!.includes(w));
-      li.hidden = !hit;
+    rows.forEach((row) => {
+      const hit = words.every((w) => row.dataset.hay!.includes(w));
+      row.hidden = !hit;
       if (hit) shown++;
     });
     // 검색 중에는 첫 글을 크게 보여 주지 않는다
-    items[0]?.classList.toggle('is-lead', words.length === 0);
+    rows[0]?.classList.toggle('is-lead', words.length === 0);
     count.textContent = String(shown);
     clearInline.hidden = !input.value;
     empty.hidden = shown > 0;
@@ -104,20 +71,15 @@ const description = '뇌과학, 운동, 식단, 습관에 관해 그동안 블�
 </script>
 
 <style>
-  .page-head { padding-block: clamp(3rem, 7vw, 5rem) clamp(2.75rem, 6vw, 4.25rem); }
-  .page-head h1 { font-size: var(--text-display); font-weight: 700; line-height: 1.2; letter-spacing: -0.035em; }
-  .lede { margin-top: 1.125rem; max-width: 42rem; font-size: var(--text-lg); line-height: 1.75; color: var(--frame-muted); }
+  .count { margin-left: 0.375rem; font-size: var(--text-md); font-weight: 600; letter-spacing: 0; color: var(--muted); }
 
-  .blog-body { padding-top: clamp(2rem, 5vw, 3rem); }
-
-  .toolbar { display: flex; align-items: center; gap: 1rem; margin-bottom: clamp(1.5rem, 4vw, 2.25rem); }
-  .search { position: relative; flex: 0 1 30rem; display: flex; align-items: center; }
+  .search { position: relative; flex: 0 1 26rem; display: flex; align-items: center; }
   .search > :global(.icon) { position: absolute; left: 1rem; color: var(--muted); pointer-events: none; }
   .search input {
     width: 100%;
     min-height: 3rem;
     padding: 0.75rem 3rem 0.75rem 2.875rem;
-    border: 1px solid var(--line-strong);
+    border: 1px solid var(--line);
     border-radius: 999px;
     background: var(--surface);
     color: var(--ink);
@@ -145,93 +107,14 @@ const description = '뇌과학, 운동, 식단, 습관에 관해 그동안 블�
   }
   .search-clear:hover { background: var(--sunk); color: var(--ink); }
   .search-clear :global(.icon) { width: 1rem; height: 1rem; }
-  .count { margin-left: auto; font-size: var(--text-sm); color: var(--muted); white-space: nowrap; }
-  .count span { font-weight: 700; color: var(--ink); }
-
-  .posts { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; }
-  .post {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid var(--line);
-    border-radius: var(--radius-card);
-    background: var(--surface);
-    box-shadow: var(--shadow-sm);
-    overflow: hidden;
-    transition: transform 220ms var(--ease-out), box-shadow 220ms var(--ease-out), border-color 150ms ease;
-  }
-  .post:has(h2 a:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
-  .post h2 a:focus-visible { outline: none; }
-  .post-img { aspect-ratio: 16 / 10; background: var(--sunk); overflow: hidden; border-bottom: 1px solid var(--line); }
-  .post-img.is-blank { display: grid; place-items: center; background: linear-gradient(135deg, var(--accent-soft), var(--sunk)); }
-  .post-img.is-blank svg { width: 3.5rem; height: 3.5rem; opacity: 0.55; }
-  .post-img.is-blank path { fill: none; stroke: var(--accent); stroke-width: 1.6; stroke-linecap: round; }
-  .post-img.is-blank circle { fill: var(--accent); }
-  .post-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 400ms var(--ease-out); }
-  .post-text { flex: 1; display: flex; flex-direction: column; padding: 1.25rem 1.375rem 1.375rem; }
-  .post-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.375rem; font-size: var(--text-sm); color: var(--muted); }
-  .post-state { display: inline-flex; align-items: center; gap: 0.25rem; margin-left: 0.25rem; font-weight: 600; color: var(--accent-strong); }
-  .post-state :global(.icon) { width: 0.9375rem; height: 0.9375rem; }
-  .post h2 {
-    margin-top: 0.5rem;
-    font-size: var(--text-md);
-    font-weight: 700;
-    line-height: 1.5;
-    letter-spacing: -0.025em;
-    color: var(--ink);
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-  .post h2 a { text-decoration: none; }
-  .post h2 a::after { content: ''; position: absolute; inset: 0; }
-  .post-desc {
-    margin-top: 0.5rem;
-    font-size: var(--text-sm);
-    line-height: 1.7;
-    color: var(--muted);
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-
-  /* 가장 최근 글은 가로로 크게 */
-  .post.is-lead { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); }
-  .post.is-lead .post-img { aspect-ratio: auto; min-height: 20rem; border-bottom: 0; border-right: 1px solid var(--line); }
-  .post.is-lead .post-text { justify-content: center; padding: clamp(1.75rem, 4vw, 3rem); }
-  .post.is-lead h2 { margin-top: 0.75rem; font-size: var(--text-2xl); line-height: 1.4; letter-spacing: -0.035em; }
-  .post.is-lead .post-desc { margin-top: 0.875rem; font-size: var(--text-ui); -webkit-line-clamp: 4; }
-
-  .empty { display: grid; justify-items: center; gap: 1rem; padding: 4rem 1rem; text-align: center; color: var(--muted); }
-  .empty strong { color: var(--ink); }
-
-  @media (hover: hover) and (pointer: fine) {
-    .post:hover { border-color: var(--line-strong); box-shadow: var(--shadow-md); }
-  }
-  @media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
-    .post:hover { transform: translateY(-3px); }
-    .post:hover .post-img img { transform: scale(1.03); }
-  }
   @media (prefers-reduced-motion: no-preference) {
-    .post:active { transform: scale(0.99); transition-duration: 120ms; }
     .search-clear:active { transform: scale(0.92); }
   }
 
-  @media (max-width: 1024px) {
-    .posts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    .post.is-lead .post-img { min-height: 16rem; }
-  }
-  @media (max-width: 720px) {
-    .post.is-lead { display: flex; }
-    .post.is-lead .post-img { aspect-ratio: 16 / 10; min-height: 0; border-right: 0; border-bottom: 1px solid var(--line); }
-    .post.is-lead .post-text { padding: 1.25rem 1.375rem 1.5rem; }
-    .post.is-lead h2 { font-size: var(--text-xl); }
-  }
+  .search-empty { display: grid; justify-items: center; gap: 1rem; padding: 4rem 1rem; text-align: center; color: var(--muted); }
+  .search-empty strong { color: var(--ink); }
+
   @media (max-width: 640px) {
-    .posts { grid-template-columns: 1fr; gap: 0.875rem; }
-    .toolbar { gap: 0.75rem; }
     .search { flex: 1 1 auto; }
   }
 </style>

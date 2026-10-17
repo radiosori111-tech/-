@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import DayBand from '../components/DayBand.astro';
-import ArticleList from '../components/ArticleList.astro';
+import PostList, { type ListItem } from '../components/PostList.astro';
 import Icon from '../components/Icon.astro';
 import { CATEGORIES } from '../content.config';
 import { SITE, minutesOfDay } from '../data/site';
@@ -14,6 +14,16 @@ const featured = articles.find((a) => a.data.featured) ?? articles[0];
 const pins = articles
   .filter((a) => a.data.time)
   .map((a) => ({ slug: a.id, title: a.data.title, time: a.data.time!, moment: a.data.moment }));
+const items: ListItem[] = articles.map((a) => ({
+  href: `/articles/${a.id}/`,
+  key: a.id,
+  title: a.data.title,
+  description: a.data.description,
+  minutes: a.data.readMinutes,
+  chip: a.data.category,
+  time: a.data.time ? { text: a.data.time, moment: a.data.moment } : { text: '언제든', anytime: true },
+  category: a.data.category,
+}));
 const counts = Object.fromEntries(CATEGORIES.map((c) => [c, articles.filter((a) => a.data.category === c).length]));
 
 const jsonLd = {
@@ -54,7 +64,7 @@ const jsonLd = {
   </section>
 
   <section class="index wrap" aria-labelledby="index-title">
-    <div class="index-head">
+    <div class="list-head">
       <h2 id="index-title">모든 아티클</h2>
       <div class="filters-scroll">
         <div class="filters" role="group" aria-label="카테고리로 거르기" data-filters>
@@ -66,7 +76,7 @@ const jsonLd = {
         </div>
       </div>
     </div>
-    <ArticleList articles={articles} />
+    <PostList items={items} />
   </section>
 
   <section class="principles wrap" aria-labelledby="principles-title">
@@ -224,20 +234,6 @@ const jsonLd = {
   }
 
   .index { padding-top: clamp(3.5rem, 7vw, 5.5rem); }
-  .index-head {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1.25rem 2rem;
-    margin-bottom: 1.75rem;
-  }
-  .index-head h2 {
-    font-size: var(--text-3xl);
-    font-weight: 700;
-    letter-spacing: -0.035em;
-    line-height: 1.25;
-  }
   .filters-scroll { min-width: 0; max-width: 100%; }
   .filters {
     position: relative;
@@ -319,7 +315,6 @@ const jsonLd = {
     .principle-grid > div + div { margin-top: 1.5rem; border-top: 1px solid var(--line); }
   }
   @media (max-width: 640px) {
-    .index-head { flex-direction: column; align-items: stretch; gap: 1rem; margin-bottom: 1.25rem; }
     .filters-scroll {
       overflow-x: auto;
       max-width: 100vw;

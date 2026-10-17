@@ -122,6 +122,25 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.24e
   padding-inline: var(--gutter);
 }
 
+/* 글 목록 위의 제목 줄 (홈의 '모든 아티클', 블로그의 '모든 글') */
+.list-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem 2rem;
+  margin-bottom: 1.75rem;
+}
+.list-head h2 {
+  font-size: var(--text-3xl);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.25;
+}
+@media (max-width: 640px) {
+  .list-head { flex-direction: column; align-items: stretch; gap: 1rem; margin-bottom: 1.25rem; }
+}
+
 .frame {
   background: var(--frame);
   color: var(--frame-text);
