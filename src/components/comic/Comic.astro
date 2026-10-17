@@ -2,11 +2,12 @@
 // 글 머리의 4컷 만화 (1컷 상황 → 2컷 원리 → 3컷 실천 → 4컷 변화).
 // 컷은 정사각형이라 scripts/export-comic.mjs로 한 컷씩 1080×1080 이미지로 뽑아
 // 인스타그램 · 네이버 클립에도 그대로 쓸 수 있다.
-import Scene from './Scene.astro';
+import SceneArt from './Scene.astro';
+import type { Scene } from './scenes';
 import { t, DEFAULT_LANG, type Lang } from '../../i18n/ui';
 
 interface Panel {
-  scene?: 'alarm' | 'metronome' | 'sigh' | 'calm';
+  scene?: Scene;
   image?: string;
   alt: string;
   label: string;
@@ -26,10 +27,10 @@ const { comic, lang = DEFAULT_LANG } = Astro.props;
   </header>
   <ol class="comic-grid">
     {comic.panels.map((p, i) => (
-      <li class="comic-panel" data-panel={i + 1}>
+      <li class="comic-panel" data-panel={i + 1} data-scene={p.scene}>
         <p class="panel-label"><span class="panel-no tabular">{i + 1}</span>{p.label}</p>
         <figure class="panel-art">
-          {p.image ? <img src={p.image} alt={p.alt} loading="lazy" decoding="async" /> : p.scene && <Scene scene={p.scene} />}
+          {p.image ? <img src={p.image} alt={p.alt} loading="lazy" decoding="async" /> : p.scene && <SceneArt scene={p.scene} />}
           {!p.image && <figcaption class="visually-hidden">{p.alt}</figcaption>}
           {p.bubble && <p class="panel-bubble">{p.bubble}</p>}
         </figure>

@@ -5,6 +5,29 @@ description: "독이 약이 된다는 말, 막연한 비유인 줄만 알았습�
 date: "2026-10-01T00:14:42+09:00"
 tags: ["KIST", "뇌과학", "미세아교세포", "아밀로이드베타", "치매치료", "퀴놀린산", "호르메시스"]
 source: "https://t1-ilu.tistory.com/entry/%EC%B9%98%EB%A7%A4-%EC%B9%98%EB%A3%8C-%EC%83%88-%EA%B2%BD%EB%A1%9C-%EB%87%8C-%EB%A9%B4%EC%97%AD%EC%84%B8%ED%8F%AC-GAP-%EA%B2%BD%EB%A1%9C-%ED%98%B8%EB%A5%B4%EB%A9%94%EC%8B%9C%EC%8A%A4"
+comic:
+  title: "독이 약이 되는 경로"
+  panels:
+    - scene: clean
+      label: "문제 상황"
+      bubble: "청소가 멈췄어"
+      alt: "뇌 아래로 노폐물이 물방울처럼 빠져나가는 그림"
+      caption: "뇌 면역세포가 <strong>아밀로이드</strong>를 제대로 치우지 못하면 치매 위험이 커집니다."
+    - scene: shield
+      label: "원리"
+      bubble: "미세아교세포의 힘"
+      alt: "세균을 막아 내는 방패와 체크 표시"
+      caption: "<strong>미세아교세포</strong>는 뇌의 청소부입니다. KIST·보스턴대 연구진이 새 경로를 찾았습니다."
+    - scene: synapse
+      label: "실천"
+      bubble: "GAP 경로, 호르메시스"
+      alt: "두 신경세포가 가지를 뻗어 서로 이어지는 순간"
+      caption: "독성 물질로 알려진 <strong>퀴놀린산</strong>이 낮은 농도에선 청소 능력을 끌어올립니다."
+    - scene: calm
+      label: "변화"
+      bubble: "치료의 새 실마리"
+      alt: "고른 파형이 흐르는 뇌와 천천히 뛰는 심장"
+      caption: "<strong>호르메시스</strong>: 적당한 자극이 회복력을 키운다는 원리가 치료 연구로 이어집니다."
 ---
 
 독이 약이 된다는 말, 막연한 비유인 줄만 알았습니다. 그런데 한국과학기술연구원(KIST)과 미국 보스턴대 의대 공동 연구진이 실제로 그 경로를 찾아냈습니다. 뇌 속에서 독성 물질로만 알려졌던 퀴놀린산이 낮은 농도에서는 오히려 뇌 면역세포의 청소 능력을 끌어올린다는 것입니다. 도서관에서 아이들과 프로그램을 운영하며 비슷한 장면을 숱하게 봐왔던 저로서는, 이 연구 결과가 묘하게 익숙하게 느껴졌습니다.

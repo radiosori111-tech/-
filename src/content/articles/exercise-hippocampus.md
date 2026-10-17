@@ -6,6 +6,29 @@ time: '18:30'
 moment: 퇴근 후 걷기
 date: 2026-10-17
 readMinutes: 8
+comic:
+  title: "1년 걷기가 해마를 키웠다"
+  panels:
+    - scene: tired
+      label: "문제 상황"
+      bubble: "깜빡깜빡해…"
+      alt: "지쳐 고개를 떨군 사람과 거의 바닥난 배터리"
+      caption: "나이가 들수록 기억을 담당하는 <strong>해마</strong>는 해마다 조금씩 줄어듭니다."
+    - scene: nature
+      label: "원리"
+      bubble: "걷기 vs 스트레칭"
+      alt: "햇살 아래 나무 옆을 걷는 사람"
+      caption: "<strong>PNAS</strong>에 실린 실험: 1년간 <strong>유산소 걷기</strong> 그룹의 해마가 약 <strong>2%</strong> 커졌습니다."
+    - scene: run
+      label: "실천"
+      bubble: "한 정거장 먼저 내리기"
+      alt: "가볍게 달리는 사람과 움직임 선"
+      caption: "퇴근길 <strong>한 정거장을 걸어</strong> 보세요. 같은 시각에 붙이면 습관이 됩니다."
+    - scene: sprout
+      label: "변화"
+      bubble: "기억이 자란다"
+      alt: "뇌 위로 새싹이 돋아나는 그림"
+      caption: "운동이 <strong>BDNF</strong>를 늘려 해마의 신경 연결을 돕습니다."
 ---
 
 나이가 들면 뇌가 조금씩 줄어든다는 것은 잘 알려진 사실입니다. 특히 새로운 기억을 만드는 데 중요한 **해마**는 중년 이후 해마다 조금씩 부피가 줄어드는 경향이 있습니다. 그렇다면 이 변화는 그저 받아들여야 하는 것일까요? 2011년 미국국립과학원회보(**PNAS**)에 실린 한 연구는 이 질문에 꽤 고무적인 답을 내놓았습니다.

@@ -6,6 +6,29 @@ date: "2026-09-22T10:39:36+09:00"
 tags: []
 image: "/images/blog/0f17c349a2/01.webp"
 source: "https://t1-ilu.tistory.com/entry/1%EB%B6%84-%EA%B3%A0%EA%B0%95%EB%8F%84-%EC%9A%B4%EB%8F%99HIIE%EC%9D%B4-%EB%87%8C-%EA%B1%B4%EA%B0%95%EC%9D%84-%EB%B0%94%EA%BE%B8%EB%8A%94-%EA%B3%BC%ED%95%99%EC%A0%81-%EA%B7%BC%EA%B1%B0%EC%99%80-%EB%A9%94%EC%BB%A4%EB%8B%88%EC%A6%98"
+comic:
+  title: "단 1분, 강도가 뇌를 깨운다"
+  panels:
+    - scene: tired
+      label: "문제 상황"
+      bubble: "운동할 시간이 없어…"
+      alt: "지쳐 고개를 떨군 사람과 거의 바닥난 배터리"
+      caption: "바빠서 운동을 미루다 보면 몸도 뇌도 점점 무뎌집니다."
+    - scene: sprout
+      label: "원리"
+      bubble: "시간보다 강도!"
+      alt: "뇌 위로 새싹이 돋아나는 그림"
+      caption: "짧고 강한 운동은 <strong>젖산</strong> 신호로 <strong>BDNF</strong> 분비를 끌어올립니다."
+    - scene: run
+      label: "실천"
+      bubble: "1분만 전력으로!"
+      alt: "가볍게 달리는 사람과 움직임 선"
+      caption: "일상 속 <strong>1분 고강도 움직임</strong>(VILPA)을 하루 몇 번씩 끼워 넣어 보세요."
+    - scene: synapse
+      label: "변화"
+      bubble: "뇌가 새로 연결돼"
+      alt: "두 신경세포가 가지를 뻗어 서로 이어지는 순간"
+      caption: "<strong>신경가소성</strong>이 깨어나 <strong>해마</strong>의 기억 회로가 단단해집니다."
 ---
 
 바쁜 현대인에게 "하루 1시간 운동"은 실천하기 어려운 숙제와 같습니다.

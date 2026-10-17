@@ -7,6 +7,7 @@ import Icon from '../components/Icon.astro';
 import Disclaimer from '../components/Disclaimer.astro';
 import AdSense from '../components/AdSense.astro';
 import Comic from '../components/comic/Comic.astro';
+import type { Scene } from '../components/comic/scenes';
 import LangSwitch from '../components/LangSwitch.astro';
 import { t, DEFAULT_LANG, type Lang, type Alternate } from '../i18n/ui';
 import { SITE } from '../data/site';
@@ -37,7 +38,7 @@ interface Props {
   related?: { title: string; items: { href: string; title: string; note: string }[] };
   lang?: Lang;
   alternates?: Alternate[];
-  comic?: { title?: string; panels: { scene?: 'alarm' | 'metronome' | 'sigh' | 'calm'; image?: string; alt: string; label: string; caption: string; bubble?: string }[] };
+  comic?: { title?: string; panels: { scene?: Scene; image?: string; alt: string; label: string; caption: string; bubble?: string }[] };
 }
 
 const {

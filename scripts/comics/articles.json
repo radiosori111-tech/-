@@ -1,0 +1,56 @@
+{
+  "articles/dopamine-prediction": {
+    "title": "도파민은 '예측'의 신호",
+    "panels": [
+      ["phone", "알림만 오면 손이 가", "알림 소리가 울리면 확인하지 않고는 못 배깁니다."],
+      ["loop", "불빛 뒤엔 주스", "<strong>도파민</strong>은 쾌락보다 <strong>보상 예측 오차</strong>, 예상과 실제의 차이에 반응합니다."],
+      ["steps", "좋은 습관 앞에 신호를", "좋은 습관 앞에는 <strong>분명한 신호</strong>를, 나쁜 습관의 신호는 치웁니다."],
+      ["calm", "원하는 것 ≠ 좋아하는 것", "<strong>원하는 마음</strong>과 <strong>좋아하는 느낌</strong>을 구분하면 끌려다니지 않습니다."]
+    ]
+  },
+  "articles/exercise-hippocampus": {
+    "title": "1년 걷기가 해마를 키웠다",
+    "panels": [
+      ["tired", "깜빡깜빡해…", "나이가 들수록 기억을 담당하는 <strong>해마</strong>는 해마다 조금씩 줄어듭니다."],
+      ["nature", "걷기 vs 스트레칭", "<strong>PNAS</strong>에 실린 실험: 1년간 <strong>유산소 걷기</strong> 그룹의 해마가 약 <strong>2%</strong> 커졌습니다."],
+      ["run", "한 정거장 먼저 내리기", "퇴근길 <strong>한 정거장을 걸어</strong> 보세요. 같은 시각에 붙이면 습관이 됩니다."],
+      ["sprout", "기억이 자란다", "운동이 <strong>BDNF</strong>를 늘려 해마의 신경 연결을 돕습니다."]
+    ]
+  },
+  "articles/habit-66-days": {
+    "title": "21일이 아니라, 사람마다 다르다",
+    "panels": [
+      ["tired", "21일 지났는데…", "'21일이면 습관이 된다'는 말과 달리 여전히 힘들 수 있습니다."],
+      ["steps", "중앙값 66일", "실제 측정에서 자동화까지 걸린 기간은 <strong>18일에서 254일</strong>, 중앙값 <strong>66일</strong>이었습니다."],
+      ["loop", "기간 말고 상황을", "기간 목표를 버리고 <strong>'언제, 어디서'라는 상황</strong>을 정해 행동을 붙입니다."],
+      ["calm", "하루쯤 빠져도 괜찮아", "하루를 빼먹어도 큰 문제가 없었습니다. <strong>기저핵</strong>이 천천히 자동화를 맡습니다."]
+    ]
+  },
+  "articles/morning-light": {
+    "title": "아침 햇빛 10분의 힘",
+    "panels": [
+      ["sleep", "밤에 잠이 안 와…", "밤잠이 늦어지는 이유는 사실 아침에 있을 때가 많습니다."],
+      ["sunrise", "뇌 속 24시간 시계", "아침빛은 눈의 세포를 거쳐 <strong>시교차상핵</strong>의 <strong>생체시계</strong>를 다시 맞춥니다."],
+      ["nature", "아침엔 밖으로 10분", "일어나면 <strong>밖에서 10분</strong> 빛을 쬐고, 저녁에는 조명을 어둡게 합니다."],
+      ["sleep", "제때 오는 잠", "밤이 되면 <strong>송과선</strong>이 제때 <strong>멜라토닌</strong>을 내보내 잠이 찾아옵니다."]
+    ]
+  },
+  "articles/sleep-memory": {
+    "title": "잠든 사이 정리되는 기억",
+    "panels": [
+      ["book", "밤새워 공부해야지", "배운 날 잠을 줄이면 공부한 것을 더 잃을 수 있습니다."],
+      ["synapse", "해마가 다시 틀어 준다", "<strong>서파수면</strong> 동안 <strong>해마</strong>가 낮의 경험을 재생해 장기 기억으로 옮깁니다."],
+      ["sleep", "잠들기 전 10분 복습", "<strong>잠들기 전 10분 복습</strong>, 잠드는 시각은 고정, 밝은 빛은 줄입니다."],
+      ["focus", "아침에 또렷하게", "<strong>7시간 이상</strong> 잔 날, 어제 배운 것이 더 단단하게 남습니다."]
+    ]
+  },
+  "articles/ten-percent-myth": {
+    "title": "뇌는 10%만 쓴다?",
+    "panels": [
+      ["focus", "숨은 90%를 깨우자?", "영화와 광고가 즐겨 쓰는 '뇌 10% 사용설'에는 근거가 없습니다."],
+      ["synapse", "뇌는 다 쓴다", "뇌는 쉬는 부분을 둘 만큼 여유롭지 않고, 필요한 회로를 골라 씁니다."],
+      ["book", "조금 어렵게 연습", "<strong>조금 어렵게</strong> 연습하고, 잠과 운동을 함께 챙깁니다."],
+      ["sprout", "쓰는 대로 바뀐다", "<strong>신경가소성</strong>: 런던 택시 기사의 <strong>해마</strong> 뒤쪽처럼 뇌는 쓰는 대로 바뀝니다."]
+    ]
+  }
+}

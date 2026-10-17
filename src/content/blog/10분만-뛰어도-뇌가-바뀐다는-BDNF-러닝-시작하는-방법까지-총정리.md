@@ -7,6 +7,29 @@ updated: "2026-09-14T08:54:11+09:00"
 tags: []
 image: "/images/blog/bd5b44eaf1/01.webp"
 source: "https://t1-ilu.tistory.com/entry/10%EB%B6%84%EB%A7%8C-%EB%9B%B0%EC%96%B4%EB%8F%84-%EB%87%8C%EA%B0%80-%EB%B0%94%EB%80%90%EB%8B%A4%EB%8A%94-BDNF-%EB%9F%AC%EB%8B%9D-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95%EA%B9%8C%EC%A7%80-%EC%B4%9D%EC%A0%95%EB%A6%AC"
+comic:
+  title: "10분의 러닝이 뇌를 바꾸기까지"
+  panels:
+    - scene: tired
+      label: "문제 상황"
+      bubble: "머리가 늘 멍해…"
+      alt: "지쳐 고개를 떨군 사람과 거의 바닥난 배터리"
+      caption: "몸보다 먼저 지치는 건 뇌일 때가 많습니다. 기억력과 기분이 함께 가라앉죠."
+    - scene: sprout
+      label: "원리"
+      bubble: "뇌의 비료 등장!"
+      alt: "뇌 위로 새싹이 돋아나는 그림"
+      caption: "달리기는 뇌세포를 자라게 하고 잇는 <strong>BDNF</strong>, 일명 '뇌의 비료'를 깨웁니다."
+    - scene: run
+      label: "실천"
+      bubble: "빨리 안 뛰어도 돼"
+      alt: "가볍게 달리는 사람과 움직임 선"
+      caption: "<strong>슬로우조깅</strong>처럼 대화할 수 있는 속도로, <strong>10분</strong>부터 시작하면 충분합니다."
+    - scene: calm
+      label: "변화"
+      bubble: "머리가 맑아졌어!"
+      alt: "고른 파형이 흐르는 뇌와 천천히 뛰는 심장"
+      caption: "꾸준히 뛰면 <strong>학습·기억</strong>이 또렷해지고 스트레스에도 덜 흔들립니다."
 ---
 
 ![](/images/blog/bd5b44eaf1/01.webp)

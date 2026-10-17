@@ -7,6 +7,29 @@ updated: "2026-09-14T09:31:31+09:00"
 tags: []
 image: "/images/blog/6ed4193844/01.webp"
 source: "https://t1-ilu.tistory.com/entry/%EC%9E%91%EC%8B%AC%EC%82%BC%EC%9D%BC-%EB%B0%98%EB%B3%B5%EB%90%9C%EB%8B%A4%EB%A9%B4-%EC%9D%98%EC%A7%80%EB%A0%A5%EB%B3%B4%EB%8B%A4-BDNF%C2%B7aMCC-%ED%99%9C%EC%9A%A9%EB%B2%95%EB%B6%80%ED%84%B0-%EC%B4%9D%EC%A0%95%EB%A6%AC"
+comic:
+  title: "BDNF와 aMCC로 작심삼일 넘기"
+  panels:
+    - scene: tired
+      label: "문제 상황"
+      bubble: "성격 탓일까?"
+      alt: "지쳐 고개를 떨군 사람과 거의 바닥난 배터리"
+      caption: "계획이 사흘을 못 가면 의지가 약한 성격 탓이라 여기기 쉽습니다."
+    - scene: sprout
+      label: "원리"
+      bubble: "뇌의 비료와 의지 버튼"
+      alt: "뇌 위로 새싹이 돋아나는 그림"
+      caption: "<strong>BDNF</strong>는 뇌의 비료, <strong>aMCC</strong>는 하기 싫은 일을 밀어붙이는 의지 버튼입니다."
+    - scene: steps
+      label: "실천"
+      bubble: "작은 불편함 하나"
+      alt: "한 칸씩 오르는 계단 꼭대기의 깃발"
+      caption: "거창한 계획 대신 <strong>오늘의 작은 불편함 하나</strong>를 골라 해내는 경험이 둘을 함께 깨웁니다."
+    - scene: steps
+      label: "변화"
+      bubble: "강도보다 꾸준함"
+      alt: "한 칸씩 오르는 계단 꼭대기의 깃발"
+      caption: "무리하면 역효과. <strong>꾸준함</strong>이 지능과 의지력을 함께 키웁니다."
 ---
 
 > 의지력도 뇌의 특정 부위에서 만들어진다

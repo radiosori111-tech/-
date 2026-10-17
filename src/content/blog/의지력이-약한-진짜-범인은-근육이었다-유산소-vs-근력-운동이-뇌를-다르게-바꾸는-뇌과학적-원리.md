@@ -6,6 +6,29 @@ date: "2026-10-11T23:36:17+09:00"
 tags: ["BDNF", "IGF-1", "결정지능 #유동지능", "근력운동", "뇌건강", "뇌노화방지", "마이오카인", "인지기능"]
 image: "/images/blog/0ea97b3aca/01.webp"
 source: "https://t1-ilu.tistory.com/entry/%EC%9D%98%EC%A7%80%EB%A0%A5%EC%9D%B4-%EC%95%BD%ED%95%9C-%EC%A7%84%EC%A7%9C-%EB%B2%94%EC%9D%B8%EC%9D%80-%EA%B7%BC%EC%9C%A1%EC%9D%B4%EC%97%88%EB%8B%A4-%EC%9C%A0%EC%82%B0%EC%86%8C-vs-%EA%B7%BC%EB%A0%A5-%EC%9A%B4%EB%8F%99%EC%9D%B4-%EB%87%8C%EB%A5%BC-%EB%8B%A4%EB%A5%B4%EA%B2%8C-%EB%B0%94%EA%BE%B8%EB%8A%94-%EB%87%8C%EA%B3%BC%ED%95%99%EC%A0%81-%EC%9B%90%EB%A6%AC"
+comic:
+  title: "의지력의 범인은 근육?"
+  panels:
+    - scene: tired
+      label: "문제 상황"
+      bubble: "의지가 약해서 그래…"
+      alt: "지쳐 고개를 떨군 사람과 거의 바닥난 배터리"
+      caption: "운동은 몸을 위한 것, 머리는 책으로 쓰는 것이라고만 믿어 왔습니다."
+    - scene: sprout
+      label: "원리"
+      bubble: "근육이 보내는 신호"
+      alt: "뇌 위로 새싹이 돋아나는 그림"
+      caption: "근육은 <strong>마이오카인</strong>을 내보내 염증을 낮추고 뇌 노화를 늦춥니다."
+    - scene: lift
+      label: "실천"
+      bubble: "유산소 + 근력"
+      alt: "바벨을 들어 올리는 사람"
+      caption: "달리기는 <strong>해마</strong>와 <strong>BDNF</strong>를, 근력 운동은 <strong>전전두엽</strong>을 돕습니다. <strong>병행</strong>이 답."
+    - scene: focus
+      label: "변화"
+      bubble: "의지력이 단단해져"
+      alt: "생각에 잠긴 사람 위로 켜진 전구"
+      caption: "의지력에 가까운 뇌 기능이 강해지고 <strong>결정 지능</strong>도 지켜집니다."
 ---
 
 헬스장에서 무거운 바벨을 들어 올리는 게 뇌에 좋다는 말을 처음 들었을 때, 솔직히 반신반의했습니다. 운동은 몸을 위한 것이고, 머리를 쓰려면 책을 읽어야 한다고 막연히 믿어왔거든요. 그런데 직접 경험해보니 이야기가 달랐습니다. 꾸준히 웨이트 트레이닝을 병행한 뒤부터 집중력이 확연히 달라졌고, 그 이유를 파고들다 근력 운동이 뇌에 미치는 영향을 다룬 연구들을 접하게 됐습니다.

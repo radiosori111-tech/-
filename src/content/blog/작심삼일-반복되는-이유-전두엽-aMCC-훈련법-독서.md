@@ -7,6 +7,29 @@ updated: "2026-09-14T13:21:00+09:00"
 tags: []
 image: "/images/blog/1349be7967/01.webp"
 source: "https://t1-ilu.tistory.com/entry/%EC%9E%91%EC%8B%AC%EC%82%BC%EC%9D%BC-%EB%B0%98%EB%B3%B5%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0-%EC%A0%84%EB%91%90%EC%97%BD-aMCC-%ED%9B%88%EB%A0%A8%EB%B2%95-%EB%8F%85%EC%84%9C"
+comic:
+  title: "aMCC를 키우는 독서"
+  panels:
+    - scene: tired
+      label: "문제 상황"
+      bubble: "또 사흘째 포기"
+      alt: "지쳐 고개를 떨군 사람과 거의 바닥난 배터리"
+      caption: "작심삼일이 반복되면 의지가 약하다고 자책하게 됩니다."
+    - scene: focus
+      label: "원리"
+      bubble: "의지력의 부위"
+      alt: "생각에 잠긴 사람 위로 켜진 전구"
+      caption: "<strong>전두엽</strong> 안쪽의 <strong>aMCC(전측대상피질)</strong>가 의지력·집중력과 이어져 있습니다."
+    - scene: book
+      label: "실천"
+      bubble: "같은 자리, 같은 시간"
+      alt: "펼친 책과 펜"
+      caption: "하기 싫은 마음을 넘어 <strong>매일 같은 시간에 읽는 독서</strong>가 aMCC 훈련이 됩니다."
+    - scene: steps
+      label: "변화"
+      bubble: "결국 꾸준함"
+      alt: "한 칸씩 오르는 계단 꼭대기의 깃발"
+      caption: "몇 분이라도 <strong>꾸준함</strong>이 회로를 키웁니다."
 ---
 
 ![](/images/blog/1349be7967/01.webp)

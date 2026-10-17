@@ -6,6 +6,29 @@ date: "2026-10-04T18:26:00+09:00"
 updated: "2026-10-04T18:36:47+09:00"
 tags: ["Mind-Muscle Connection", "뇌과학", "신체화학습", "자기중심적사고", "학습법", "해마", "헬스"]
 source: "https://t1-ilu.tistory.com/entry/%EB%87%8C-%EC%A2%8C%ED%91%9C%EA%B3%84%EB%A1%9C-%EB%B3%B4%EB%8A%94-%EC%9A%B4%EB%8F%99%EA%B3%BC-%ED%95%99%EC%8A%B5-Mind-Muscle-%EC%8B%A0%EC%B2%B4%ED%99%94-%ED%95%99%EC%8A%B5-%EC%9E%90%EA%B8%B0%EC%A4%91%EC%8B%AC"
+comic:
+  title: "내 몸을 기준으로 배운다"
+  panels:
+    - scene: lift
+      label: "문제 상황"
+      bubble: "또 다쳤어…"
+      alt: "바벨을 들어 올리는 사람"
+      caption: "거울 속 자세만 보며 운동하면 감각이 따라오지 않아 부상이 생기기 쉽습니다."
+    - scene: focus
+      label: "원리"
+      bubble: "뇌의 두 좌표계"
+      alt: "생각에 잠긴 사람 위로 켜진 전구"
+      caption: "뇌는 세상을 <strong>환경중심</strong>과 <strong>자기중심</strong> 좌표계로 동시에 처리합니다."
+    - scene: lift
+      label: "실천"
+      bubble: "근육에 집중!"
+      alt: "바벨을 들어 올리는 사람"
+      caption: "<strong>Mind-Muscle Connection</strong>: 쓰는 근육의 감각에 주의를 모읍니다."
+    - scene: book
+      label: "변화"
+      bubble: "몸으로 외운다"
+      alt: "펼친 책과 펜"
+      caption: "걸으며 외우는 <strong>신체화 학습</strong>은 <strong>해마</strong>에 더 오래 남습니다."
 ---
 
 인간의 뇌는 <strong>세상을 두 개의 좌표계로 동시에 처리</strong>합니다. 하나는 <strong>세상의 구조를 외부에서 내려다보는 환경중심적</strong>(allocentric) 방식, 다른 하나는 <strong>언제나 '내 몸'을 기준으로 삼는 자기중심적(egocentric) 방식</strong>입니다. 제가 헬스장에서 몇 년을 헤맨 끝에 깨달은 것도 결국 이 두 좌표계의 문제였습니다. 무게 숫자만 쫓던 시절, 저는 틀린 근육을 쓰고 있었습니다.

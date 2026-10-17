@@ -6,6 +6,29 @@ date: "2023-02-06T22:55:41+09:00"
 updated: "2023-02-23T18:22:39+09:00"
 tags: ["BDNF#BDNF부족시#BDNF에좋은음식#BDNF음식#뇌건강#솔포라판#플라보노이드"]
 source: "https://t1-ilu.tistory.com/entry/BDNF%EA%B0%80-%EB%A7%8E%EC%9D%B4%EB%93%A4%EC%96%B4%EC%9E%88%EB%8A%94-%EC%9D%8C%EC%8B%9D%EC%9D%80"
+comic:
+  title: "BDNF를 돕는 식탁"
+  panels:
+    - scene: tired
+      label: "문제 상황"
+      bubble: "뭘 먹어야 할까?"
+      alt: "지쳐 고개를 떨군 사람과 거의 바닥난 배터리"
+      caption: "뇌를 위해 무엇을 먹어야 할지 막막할 때가 있습니다."
+    - scene: sprout
+      label: "원리"
+      bubble: "뇌의 비료를 키우자"
+      alt: "뇌 위로 새싹이 돋아나는 그림"
+      caption: "<strong>BDNF</strong>는 신경세포의 생존과 <strong>가소성</strong>에 영향을 줍니다."
+    - scene: food
+      label: "실천"
+      bubble: "브로콜리, 베리, 올리브유"
+      alt: "접시에 담긴 고기, 달걀, 채소와 포크, 나이프"
+      caption: "<strong>설포라판</strong>(십자화과 채소), <strong>플라보노이드</strong>, <strong>단일불포화지방산</strong>을 챙기세요."
+    - scene: calm
+      label: "변화"
+      bubble: "든든한 한 끼"
+      alt: "고른 파형이 흐르는 뇌와 천천히 뛰는 심장"
+      caption: "매일 한 끼만이라도 뇌를 생각한 식사가 <strong>해마</strong>를 돕습니다."
 ---
 
 우리의 인지기능, 신경세포의 생존 및 가소성을 영향을 미치는 [BDNF](https://jes-lu.com/26 "bdnf 의 정체가 무엇인지 알아보는 포스팅 글") 향상하는 방법, [BDNF](https://jes-lu.com/31 "bdnf 부족하게 하는 원인에 대한 글")가 부족해지는 원인, 개선하는 방법 등에 대해 알아보았습니다. 지금부터는 매일먹는 세끼 한끼라도 뇌건강을 강화하는 식단을 섭취하면 좋지 않을까 싶어 **BDNF**가 많이 들어있는 음식에 대해 알아보는 시간을 갖고자 합니다.

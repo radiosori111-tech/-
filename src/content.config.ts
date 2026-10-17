@@ -1,14 +1,15 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
+import { SCENES } from './components/comic/scenes';
 
-// 글 머리의 4컷 만화. scene은 src/components/comic/ 아래 그림 이름, image를 주면 그림 대신 그 이미지를 쓴다
+// 글 머리의 4컷 만화. scene은 src/components/comic/scenes.ts의 그림 이름, image를 주면 그림 대신 그 이미지를 쓴다
 const comic = z
   .object({
     title: z.string().optional(),
     panels: z
       .array(
         z.object({
-          scene: z.enum(['alarm', 'metronome', 'sigh', 'calm']).optional(),
+          scene: z.enum(SCENES).optional(),
           image: z.string().optional(),
           alt: z.string(),
           label: z.string(),

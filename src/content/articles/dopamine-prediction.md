@@ -5,6 +5,29 @@ category: 뇌과학 기초
 moment: 언제든
 date: 2026-10-17
 readMinutes: 9
+comic:
+  title: "도파민은 '예측'의 신호"
+  panels:
+    - scene: phone
+      label: "문제 상황"
+      bubble: "알림만 오면 손이 가"
+      alt: "알림이 쉬지 않고 쌓이는 스마트폰"
+      caption: "알림 소리가 울리면 확인하지 않고는 못 배깁니다."
+    - scene: loop
+      label: "원리"
+      bubble: "불빛 뒤엔 주스"
+      alt: "신호에서 행동, 보상으로 이어지는 둥근 고리"
+      caption: "<strong>도파민</strong>은 쾌락보다 <strong>보상 예측 오차</strong>, 예상과 실제의 차이에 반응합니다."
+    - scene: steps
+      label: "실천"
+      bubble: "좋은 습관 앞에 신호를"
+      alt: "한 칸씩 오르는 계단 꼭대기의 깃발"
+      caption: "좋은 습관 앞에는 <strong>분명한 신호</strong>를, 나쁜 습관의 신호는 치웁니다."
+    - scene: calm
+      label: "변화"
+      bubble: "원하는 것 ≠ 좋아하는 것"
+      alt: "고른 파형이 흐르는 뇌와 천천히 뛰는 심장"
+      caption: "<strong>원하는 마음</strong>과 <strong>좋아하는 느낌</strong>을 구분하면 끌려다니지 않습니다."
 ---
 
 "**도파민** 중독", "도파민 디톡스" 같은 말이 흔해지면서 도파민은 즐거움을 느낄 때 나오는 '쾌락 물질'로 알려졌습니다. 틀린 말이라고 하기는 어렵지만, 뇌과학 연구가 그려 온 그림은 이보다 훨씬 흥미롭습니다. 도파민 신경세포가 가장 분명하게 반응하는 것은 보상 그 자체가 아니라 **예상과 실제의 차이**입니다.

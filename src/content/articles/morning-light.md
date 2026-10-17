@@ -7,6 +7,29 @@ moment: 아침 햇빛
 date: 2026-10-17
 readMinutes: 8
 featured: true
+comic:
+  title: "아침 햇빛 10분의 힘"
+  panels:
+    - scene: sleep
+      label: "문제 상황"
+      bubble: "밤에 잠이 안 와…"
+      alt: "초승달 아래 이불을 덮고 잠든 사람"
+      caption: "밤잠이 늦어지는 이유는 사실 아침에 있을 때가 많습니다."
+    - scene: sunrise
+      label: "원리"
+      bubble: "뇌 속 24시간 시계"
+      alt: "떠오르는 해와 그 빛을 받는 눈"
+      caption: "아침빛은 눈의 세포를 거쳐 <strong>시교차상핵</strong>의 <strong>생체시계</strong>를 다시 맞춥니다."
+    - scene: nature
+      label: "실천"
+      bubble: "아침엔 밖으로 10분"
+      alt: "햇살 아래 나무 옆을 걷는 사람"
+      caption: "일어나면 <strong>밖에서 10분</strong> 빛을 쬐고, 저녁에는 조명을 어둡게 합니다."
+    - scene: sleep
+      label: "변화"
+      bubble: "제때 오는 잠"
+      alt: "초승달 아래 이불을 덮고 잠든 사람"
+      caption: "밤이 되면 <strong>송과선</strong>이 제때 <strong>멜라토닌</strong>을 내보내 잠이 찾아옵니다."
 ---
 
 밤에 잠이 잘 오지 않을 때 우리는 보통 밤의 습관부터 고칩니다. 침대에서 휴대폰을 내려놓고, 커피를 줄이고, 일찍 눕습니다. 모두 의미 있는 일이지만, 뇌과학은 한 가지를 더 권합니다. **잠의 시작은 그 전날 아침에 이미 정해지기 시작한다**는 것입니다. 그 열쇠는 아침에 눈으로 들어오는 빛입니다.

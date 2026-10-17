@@ -5,6 +5,29 @@ description: "뇌 노폐물이 빠져나가는 첫 관문이 250년 만에 처�
 date: "2026-09-24T00:42:36+09:00"
 tags: ["VEGF-C", "뇌 노폐물", "뇌막 림프관", "뇌척수액", "림프마사지", "지주막 소창", "치매"]
 source: "https://t1-ilu.tistory.com/entry/%EB%8B%A8%EC%88%9C%ED%95%9C-%ED%94%BC%EB%B6%80-%EA%B4%80%EB%A6%AC%EA%B0%80-%EC%95%84%EB%8B%88%EC%97%88%EB%8D%98-%EC%96%BC%EA%B5%B4%C2%B7%EB%AA%A9-%EB%A6%BC%ED%94%84-%EB%A7%88%EC%82%AC%EC%A7%80-%EC%B5%9C%EC%8B%A0-IBS-%EC%85%80Cell-%EB%85%BC%EB%AC%B8%EC%9C%BC%EB%A1%9C-%EB%B0%9D%ED%98%80%EC%A7%84-%EB%87%8C-%EB%B0%B0%EC%88%98%EA%B5%AC-%EC%A7%80%EC%A3%BC%EB%A7%89-%EC%86%8C%EC%B0%BD%EC%9D%98-%EB%B9%84%EB%B0%80%EA%B3%BC-%EB%87%8C-%EB%85%B8%ED%8F%90%EB%AC%BC-%EB%B0%B0%EC%B6%9C%EC%9D%84-%EB%8F%95%EB%8A%94-%EC%9D%BC%EC%83%81-%EC%8A%B5%EA%B4%80%EC%9D%84-%EC%89%BD%EA%B2%8C-%ED%92%80%EC%96%B4-%EC%84%A4%EB%AA%85%ED%95%B4-%EB%93%9C%EB%A6%BD%EB%8B%88%EB%8B%A4"
+comic:
+  title: "뇌의 배수구, 지주막 소창"
+  panels:
+    - scene: clean
+      label: "문제 상황"
+      bubble: "뇌 노폐물은 어디로?"
+      alt: "뇌 아래로 노폐물이 물방울처럼 빠져나가는 그림"
+      caption: "뇌는 스스로 청소하지만, 노폐물이 빠져나가는 첫 관문은 오래 수수께끼였습니다."
+    - scene: clean
+      label: "원리"
+      bubble: "250년 만의 발견"
+      alt: "뇌 아래로 노폐물이 물방울처럼 빠져나가는 그림"
+      caption: "<strong>Cell</strong>에 실린 연구: 지름 4.5㎛의 <strong>지주막 소창</strong>이 뇌의 배수구였습니다."
+    - scene: calm
+      label: "실천"
+      bubble: "부드럽게 쓸어내리기"
+      alt: "고른 파형이 흐르는 뇌와 천천히 뛰는 심장"
+      caption: "얼굴·목 <strong>림프 마사지</strong> 같은 작은 습관이 흐름을 돕는 생활 관리가 됩니다."
+    - scene: sleep
+      label: "변화"
+      bubble: "노화를 늦추는 흐름"
+      alt: "초승달 아래 이불을 덮고 잠든 사람"
+      caption: "나이가 들면 배수 통로가 <strong>50~60%</strong> 줄어듭니다. 흐름을 지키는 습관이 중요합니다."
 ---
 
 뇌 노폐물이 빠져나가는 첫 관문이 250년 만에 처음으로 밝혀졌습니다. 지름 4.5㎛짜리 미세한 구멍, 이른바 '지주막 소창'이 그 주인공입니다. 이 소식을 접했을 때 솔직히 저는 무릎을 탁 쳤습니다. 매일 아침저녁으로 얼굴 림프마사지를 해온 저로서는 "그러니까 그게 단순한 피부 관리가 아니었던 거구나"라는 생각이 들었거든요

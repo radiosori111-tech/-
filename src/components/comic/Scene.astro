@@ -1,7 +1,9 @@
 ---
 // 4컷 만화의 그림. 글자는 넣지 않아 어느 언어 글에서나 그대로 쓴다.
 // 색은 사이트 토큰을 따른다: 선 --ink, 강조 --accent, 경보 --danger.
-interface Props { scene: 'alarm' | 'metronome' | 'sigh' | 'calm' }
+import type { Scene } from './scenes';
+
+interface Props { scene: Scene }
 const { scene } = Astro.props;
 ---
 <svg class="scene" viewBox="0 0 320 220" aria-hidden="true">
@@ -80,6 +82,242 @@ const { scene } = Astro.props;
       </g>
     </g>
   )}
+  {scene === 'tired' && (
+    <g>
+      {/* 지친 사람과 바닥난 배터리 */}
+      <path class="s-floor" d="M24 196h272" />
+      <circle class="s-fill-paper s-line" cx="112" cy="102" r="26" />
+      <path class="s-line" d="M100 100q4 3 8 0M118 100q4 3 8 0M106 116h12" />
+      <path class="s-line" d="M68 196c2-36 18-56 44-56s42 20 44 56" />
+      <path class="s-faint" d="M76 64c6-6 12-6 18 0M120 56c6-6 12-6 18 0" />
+      <rect class="s-fill-paper s-line" x="196" y="64" width="72" height="36" rx="7" />
+      <rect class="s-alert-fill" x="203" y="71" width="14" height="22" rx="3" />
+      <path class="s-line" d="M268 74h6v16h-6" />
+      <path class="s-alert" d="M232 116v18M223 126l9 9 9-9" />
+    </g>
+  )}
+  {scene === 'phone' && (
+    <g>
+      {/* 쉬지 않고 울리는 알림 */}
+      <rect class="s-fill-paper s-line" x="112" y="36" width="84" height="150" rx="14" />
+      <path class="s-faint" d="M126 70h56M126 86h40M126 102h48M126 118h30" />
+      <path class="s-line" d="M146 172h16" />
+      <circle class="s-alert-fill" cx="196" cy="40" r="10" />
+      <rect class="s-soft s-line" x="214" y="62" width="70" height="22" rx="11" />
+      <rect class="s-soft s-line" x="214" y="94" width="52" height="22" rx="11" />
+      <rect class="s-soft s-line" x="214" y="126" width="62" height="22" rx="11" />
+      <path class="s-alert" d="M84 60l-12-8M80 82H64M84 104l-12 8" />
+    </g>
+  )}
+  {scene === 'synapse' && (
+    <g>
+      {/* 두 신경세포가 이어지는 순간 */}
+      <circle class="s-soft s-line" cx="66" cy="110" r="24" />
+      <path class="s-line" d="M48 92l-18-18M46 124l-20 14M66 86V62M90 110h62" />
+      <circle class="s-accent-fill" cx="156" cy="110" r="5" />
+      <circle class="s-soft s-line" cx="254" cy="110" r="24" />
+      <path class="s-line" d="M272 92l18-18M274 124l20 14M254 86V62M230 110h-34" />
+      <circle class="s-accent-fill" cx="192" cy="110" r="5" />
+      <path class="s-accent" d="M166 98l6-10M174 110h10M166 122l6 10" />
+      <path class="s-faint" d="M60 172h200" />
+    </g>
+  )}
+  {scene === 'sprout' && (
+    <g>
+      {/* 뇌에서 돋아나는 새싹 */}
+      <path class="s-soft s-line" d="M84 112c-8-30 20-56 50-50 14-16 46-16 60 2 28-2 46 22 38 46 14 18-2 42-26 40-10 16-38 18-52 6-18 10-48 4-54-14-20-2-30-16-16-30z" />
+      <path class="s-fold" d="M110 92c10-10 24-10 32 0M168 80c8 8 20 10 32 4M190 142c8 4 18 2 24-6M118 148c10 4 20 2 26-6" />
+      <path class="s-accent" d="M160 64V24" />
+      <path class="s-soft-leaf" d="M160 40c-6-14-22-18-34-12 4 14 20 20 34 12zM160 32c6-14 22-18 34-12-4 14-20 20-34 12z" />
+      <path class="s-faint" d="M28 200h264" />
+    </g>
+  )}
+  {scene === 'clean' && (
+    <g>
+      {/* 뇌의 노폐물이 빠져나가는 길 */}
+      <path class="s-soft s-line" d="M84 82c-8-30 20-56 50-50 14-16 46-16 60 2 28-2 46 22 38 46 14 18-2 42-26 40-10 16-38 18-52 6-18 10-48 4-54-14-20-2-30-16-16-30z" />
+      <path class="s-fold" d="M110 62c10-10 24-10 32 0M168 50c8 8 20 10 32 4M118 118c10 4 20 2 26-6" />
+      <path class="s-wire" d="M116 140v40M160 144v44M204 140v40" />
+      <path class="s-accent-fill" d="M116 196c-5 6-7 10-7 13a7 7 0 0 0 14 0c0-3-2-7-7-13zM204 196c-5 6-7 10-7 13a7 7 0 0 0 14 0c0-3-2-7-7-13z" />
+      <circle class="s-alert-fill" cx="236" cy="86" r="6" />
+      <circle class="s-alert-fill" cx="250" cy="112" r="4" />
+    </g>
+  )}
+  {scene === 'gut' && (
+    <g>
+      {/* 장과 뇌를 잇는 길 */}
+      <path class="s-soft s-line" d="M40 64c-4-16 10-30 26-27 8-9 25-9 32 1 15-1 25 12 21 25 8 10-1 23-14 22-5 9-21 10-28 3-10 6-26 2-29-8-11-1-16-9-8-16z" />
+      <path class="s-line" d="M78 90v20" />
+      <path class="s-wire" d="M86 104c40 10 60 40 78 56" />
+      <path class="s-tube-edge" d="M170 118h76c16 0 16 24 0 24h-64c-16 0-16 24 0 24h64c16 0 16 24 0 24h-76" />
+      <path class="s-tube" d="M170 118h76c16 0 16 24 0 24h-64c-16 0-16 24 0 24h64c16 0 16 24 0 24h-76" />
+      <circle class="s-accent-fill" cx="86" cy="104" r="4" />
+      <circle class="s-accent-fill" cx="164" cy="160" r="4" />
+    </g>
+  )}
+  {scene === 'shield' && (
+    <g>
+      {/* 침입을 막는 방어막 */}
+      <path class="s-soft s-line" d="M168 36l64 24v48c0 42-30 70-64 82-34-12-64-40-64-82V60z" />
+      <path class="s-check-mark s-check-ink" d="M140 112l18 18 32-36" />
+      <circle class="s-alert-fill" cx="62" cy="80" r="10" />
+      <path class="s-alert" d="M62 64v-5M62 96v5M46 80h-5M78 80h5M51 69l-4-4M73 91l4 4M73 69l4-4M51 91l-4 4" />
+      <circle class="s-alert-fill" cx="58" cy="150" r="8" />
+      <path class="s-alert" d="M58 137v-4M58 163v4M45 150h-4M71 150h4M49 141l-3-3M67 159l3 3M67 141l3-3M49 159l-3 3" />
+    </g>
+  )}
+  {scene === 'glucose' && (
+    <g>
+      {/* 혈당 한 방울과 측정기 */}
+      <path class="s-alert-fill" d="M104 42c-26 36-36 56-36 74a36 36 0 0 0 72 0c0-18-10-38-36-74z" />
+      <rect class="s-fill-paper s-line" x="182" y="56" width="86" height="124" rx="14" />
+      <rect class="s-soft s-line" x="196" y="72" width="58" height="40" rx="6" />
+      <path class="s-accent" d="M204 98l10-8 10 6 10-12 12 8" />
+      <circle class="s-line" cx="225" cy="146" r="12" />
+      <path class="s-line" d="M225 180v16" />
+      <path class="s-faint" d="M28 200h264" />
+    </g>
+  )}
+  {scene === 'loop' && (
+    <g>
+      {/* 신호 → 행동 → 보상, 반복되는 고리 */}
+      <path class="s-accent" d="M178 56c30 12 44 36 44 70M204 166c-28 16-60 16-88 0M98 126c0-34 14-58 44-70" />
+      <path class="s-accent" d="M213 117l9 11 8-12M127 174l-12-8 13-6M131 51l12 4-8 10" />
+      <circle class="s-accent-fill" cx="160" cy="48" r="12" />
+      <circle class="s-fill-paper s-line" cx="224" cy="152" r="12" />
+      <circle class="s-alert-fill" cx="96" cy="152" r="12" />
+    </g>
+  )}
+  {scene === 'pause' && (
+    <g>
+      {/* 자극과 반응 사이의 짧은 틈 */}
+      <path class="s-alert" d="M30 110h92M110 98l12 12-12 12" />
+      <rect class="s-accent-fill" x="146" y="82" width="10" height="56" rx="3" />
+      <rect class="s-accent-fill" x="166" y="82" width="10" height="56" rx="3" />
+      <path class="s-accent" d="M200 110h92M280 98l12 12-12 12" />
+    </g>
+  )}
+  {scene === 'run' && (
+    <g>
+      {/* 달리기 */}
+      <path class="s-floor" d="M24 196h272" />
+      <circle class="s-fill-paper s-line" cx="176" cy="54" r="15" />
+      <path class="s-line" d="M170 72l-16 50M166 84l-26 16M166 84l22-4 10 22M154 122l-26 30-22-6M154 122l30 20-6 40" />
+      <path class="s-accent" d="M58 84h48M44 108h52M62 132h36" />
+      <path class="s-heart" d="M246 76c-6-5-14-10-14-17 0-5 4-8 8-8 3 0 5 2 6 4 1-2 3-4 6-4 4 0 8 3 8 8 0 7-8 12-14 17z" />
+    </g>
+  )}
+  {scene === 'lift' && (
+    <g>
+      {/* 근력 운동 */}
+      <path class="s-line s-bar" d="M48 92h224" />
+      <rect class="s-soft s-line" x="58" y="62" width="18" height="60" rx="4" />
+      <rect class="s-soft s-line" x="80" y="72" width="12" height="40" rx="3" />
+      <rect class="s-soft s-line" x="244" y="62" width="18" height="60" rx="4" />
+      <rect class="s-soft s-line" x="228" y="72" width="12" height="40" rx="3" />
+      <circle class="s-fill-paper s-line" cx="160" cy="142" r="16" />
+      <path class="s-line" d="M146 150l-22-56M174 150l22-56M124 206c2-26 16-40 36-40s34 14 36 40" />
+    </g>
+  )}
+  {scene === 'nature' && (
+    <g>
+      {/* 숲길 산책 */}
+      <path class="s-floor" d="M24 196h272" />
+      <circle class="s-accent-fill s-sun" cx="62" cy="50" r="15" />
+      <path class="s-accent" d="M62 22v-6M62 84v-6M34 50h-6M96 50h-6" />
+      <path class="s-line" d="M226 196v-54" />
+      <circle class="s-soft s-line" cx="226" cy="114" r="34" />
+      <circle class="s-soft s-line" cx="196" cy="140" r="20" />
+      <circle class="s-soft s-line" cx="256" cy="142" r="20" />
+      <circle class="s-fill-paper s-line" cx="118" cy="112" r="12" />
+      <path class="s-line" d="M116 126l-6 34M114 138l-14 12M114 138l16 6M110 160l-12 34M110 160l14 34" />
+    </g>
+  )}
+  {scene === 'sunrise' && (
+    <g>
+      {/* 아침 햇빛이 눈으로 들어온다 */}
+      <path class="s-floor" d="M24 140h272" />
+      <path class="s-soft s-line" d="M110 140a50 50 0 0 1 100 0" />
+      <path class="s-accent" d="M160 72V52M112 88l-14-14M208 88l14-14M92 128H72M228 128h20" />
+      <path class="s-fill-paper s-line" d="M118 186c14-16 70-16 84 0-14 16-70 16-84 0z" />
+      <circle class="s-accent-fill" cx="160" cy="186" r="9" />
+      <path class="s-wire" d="M160 150v20" />
+    </g>
+  )}
+  {scene === 'sleep' && (
+    <g>
+      {/* 잠 */}
+      <path class="s-soft s-line" d="M234 34a26 26 0 1 0 22 42 22 22 0 1 1-22-42z" />
+      <path class="s-accent" d="M176 56h12l-12 14h12M196 34h10l-10 12h10" />
+      <path class="s-line" d="M44 192v-48M276 192v-36M44 168h232" />
+      <rect class="s-fill-paper s-line" x="54" y="128" width="46" height="20" rx="9" />
+      <circle class="s-fill-paper s-line" cx="84" cy="122" r="14" />
+      <path class="s-soft s-line" d="M98 168c0-22 30-32 90-32s88 10 88 32z" />
+    </g>
+  )}
+  {scene === 'food' && (
+    <g>
+      {/* 식사 */}
+      <circle class="s-fill-paper s-line" cx="160" cy="116" r="64" />
+      <circle class="s-faint" cx="160" cy="116" r="46" />
+      <path class="s-alert-fill" d="M124 104c6-16 42-20 58-8 10 8 6 26-10 30-22 6-54-4-48-22z" />
+      <circle class="s-fill-paper s-line" cx="190" cy="140" r="13" />
+      <circle class="s-accent-fill" cx="190" cy="140" r="5" />
+      <path class="s-soft-leaf" d="M132 142c4-12 18-16 26-10-4 12-18 16-26 10z" />
+      <path class="s-line" d="M62 60v112M54 60v22c0 8 16 8 16 0V60M262 60c12 12 12 44 0 56v56" />
+    </g>
+  )}
+  {scene === 'book' && (
+    <g>
+      {/* 독서와 기록 */}
+      <path class="s-fill-paper s-line" d="M160 76c-30-14-72-14-104 0v110c32-14 74-14 104 0 30-14 72-14 104 0V76c-32-14-74-14-104 0z" />
+      <path class="s-line" d="M160 76v110" />
+      <path class="s-faint" d="M74 100h66M74 118h60M74 136h66M180 100h66M180 118h56M180 136h62" />
+      <path class="s-accent s-pen" d="M258 30l-44 64" />
+      <path class="s-line" d="M214 94l-4 12 10-6" />
+    </g>
+  )}
+  {scene === 'speech' && (
+    <g>
+      {/* 입 밖으로 나온 말 */}
+      <circle class="s-fill-paper s-line" cx="96" cy="112" r="30" />
+      <path class="s-line" d="M86 106h.01M106 106h.01M90 122c4 3 12 3 16 0M50 204c2-36 20-54 46-54s44 18 46 54" />
+      <path class="s-accent" d="M136 104c6 6 6 16 0 22M146 96c10 10 10 28 0 38" />
+      <path class="s-soft s-line" d="M176 40h104a16 16 0 0 1 16 16v38a16 16 0 0 1-16 16h-80l-18 16 4-16h-10a16 16 0 0 1-16-16V56a16 16 0 0 1 16-16z" />
+      <path class="s-faint" d="M188 64h80M188 82h56" />
+    </g>
+  )}
+  {scene === 'focus' && (
+    <g>
+      {/* 몰입 끝의 번뜩임 */}
+      <circle class="s-fill-paper s-line" cx="122" cy="132" r="28" />
+      <path class="s-line" d="M114 130h.01M132 130h.01M114 146h16M76 214c2-34 20-50 46-50s44 16 46 50" />
+      <path class="s-soft s-line" d="M214 32a24 24 0 0 0-13 44v12h26V76a24 24 0 0 0-13-44z" />
+      <path class="s-line" d="M204 96h20M206 104h16" />
+      <path class="s-accent" d="M214 18V8M180 40l-8-6M248 40l8-6M178 70h-10M250 70h10" />
+      <path class="s-wire" d="M150 116c20-10 34-24 46-40" />
+    </g>
+  )}
+  {scene === 'steps' && (
+    <g>
+      {/* 한 칸씩 오르는 계단과 목표 깃발 */}
+      <path class="s-line" d="M36 196h52v-34h52v-34h52v-34h52v-34h40" />
+      <path class="s-soft-area" d="M36 196h52v-34h52v-34h52v-34h52v-34h40v136z" />
+      <path class="s-line" d="M262 60V20" />
+      <path class="s-accent-fill" d="M262 20h30l-9 9 9 9h-30z" />
+      <circle class="s-accent-fill" cx="114" cy="146" r="9" />
+    </g>
+  )}
+  {scene === 'shoe' && (
+    <g>
+      {/* 러닝화와 발 아치 */}
+      <path class="s-fill-paper s-line" d="M50 150c16-6 32-34 56-36 18-2 26 14 54 20 34 6 76 6 100 18 10 5 12 12 12 20H50z" />
+      <path class="s-soft s-line" d="M50 164h222v10a8 8 0 0 1-8 8H58a8 8 0 0 1-8-8z" />
+      <path class="s-line" d="M120 118l10 14M138 120l8 14M156 126l6 12" />
+      <path class="s-wire" d="M70 206c40-26 130-26 190 0" />
+      <path class="s-accent" d="M164 194v-10" />
+    </g>
+  )}
 </svg>
 
 <style>
@@ -105,6 +343,14 @@ const { scene } = Astro.props;
   .s-wire { stroke: var(--accent); stroke-width: 2.25; stroke-dasharray: 6 6; }
   .s-heart { fill: var(--danger-soft); stroke: var(--danger); stroke-width: 2; }
   .s-check-mark { stroke: #fff; stroke-width: 2.5; }
+  .s-check-ink { stroke: var(--accent); stroke-width: 4; }
+  .s-soft-leaf { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; }
+  .s-faint-dot { fill: var(--line-strong); }
+  /* 장: 테두리가 있는 굵은 관 */
+  .s-tube-edge { fill: none; stroke: var(--ink); stroke-width: 18; stroke-linecap: round; stroke-linejoin: round; }
+  .s-tube { fill: none; stroke: var(--accent-soft); stroke-width: 14; stroke-linecap: round; stroke-linejoin: round; }
+  .s-bar { stroke-width: 4; }
+  .s-pen { stroke-width: 5; }
 
   /* 살짝 살아 있는 그림: 메트로놈 진자, 흔들리는 종, 날숨 파형이 그려지는 모습 */
   @media (prefers-reduced-motion: no-preference) {

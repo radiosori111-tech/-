@@ -6,6 +6,29 @@ date: "2026-09-29T09:25:01+09:00"
 tags: ["act치료", "뇌과학", "마음챙김", "불안장애극복", "생각버리기", "수용전념치료", "심리학칼럼", "전전두엽", "편도체"]
 image: "/images/blog/a092c2e66d/01.webp"
 source: "https://t1-ilu.tistory.com/entry/%EC%83%9D%EA%B0%81%EC%9D%80-%EB%82%B4%EA%B0%80-%EC%95%84%EB%8B%88%EB%8B%A4-%EC%88%98%EC%9A%A9%EC%A0%84%EB%85%90%EC%B9%98%EB%A3%8CACT%EC%99%80-%EB%87%8C%EA%B0%80-%EB%B0%9D%ED%98%80%EB%82%B8-%EC%9D%B8%EC%A7%80%EC%A0%81-%ED%83%88%EC%9C%B5%ED%95%A9%EC%9D%98-%ED%9E%98"
+comic:
+  title: "생각은 내가 아니다"
+  panels:
+    - scene: alarm
+      label: "문제 상황"
+      bubble: "누를수록 커져…"
+      alt: "책상 앞에서 짧게 숨 쉬는 사람과 머리 위에서 울리는 경보 종"
+      caption: "불안한 생각은 억누를수록 꼬리를 물고 더 강해집니다."
+    - scene: metronome
+      label: "원리"
+      bubble: "편도체가 착각해"
+      alt: "뇌간의 메트로놈이 점선 배선으로 경보 스피커와 이어진 그림"
+      caption: "생각과 내가 붙어 버리면 <strong>편도체</strong>는 그것을 실제 비상상황으로 받아들입니다."
+    - scene: speech
+      label: "실천"
+      bubble: "'~라는 생각이 드네'"
+      alt: "사람의 입에서 나온 말풍선"
+      caption: "<strong>생각에 라벨 붙이기</strong>, 이름 붙여 감사하기, 마음속 팝콘 관찰하기."
+    - scene: calm
+      label: "변화"
+      bubble: "생각은 지나가는 구름"
+      alt: "고른 파형이 흐르는 뇌와 천천히 뛰는 심장"
+      caption: "<strong>전전두엽</strong>이 주도권을 되찾으면 감정의 폭주가 멈춥니다."
 ---
 
 "불안한 생각이 들 때 억지로 긍정적인 척할 필요는 없습니다. 그저 그 생각이 내 뇌를 지나가는 하나의 구름임을 관찰하는 것만으로도, 뇌의 감정 폭주는 멈춥니다."

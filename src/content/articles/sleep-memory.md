@@ -6,6 +6,29 @@ time: '23:00'
 moment: 잠자리에 들 때
 date: 2026-10-17
 readMinutes: 10
+comic:
+  title: "잠든 사이 정리되는 기억"
+  panels:
+    - scene: book
+      label: "문제 상황"
+      bubble: "밤새워 공부해야지"
+      alt: "펼친 책과 펜"
+      caption: "배운 날 잠을 줄이면 공부한 것을 더 잃을 수 있습니다."
+    - scene: synapse
+      label: "원리"
+      bubble: "해마가 다시 틀어 준다"
+      alt: "두 신경세포가 가지를 뻗어 서로 이어지는 순간"
+      caption: "<strong>서파수면</strong> 동안 <strong>해마</strong>가 낮의 경험을 재생해 장기 기억으로 옮깁니다."
+    - scene: sleep
+      label: "실천"
+      bubble: "잠들기 전 10분 복습"
+      alt: "초승달 아래 이불을 덮고 잠든 사람"
+      caption: "<strong>잠들기 전 10분 복습</strong>, 잠드는 시각은 고정, 밝은 빛은 줄입니다."
+    - scene: focus
+      label: "변화"
+      bubble: "아침에 또렷하게"
+      alt: "생각에 잠긴 사람 위로 켜진 전구"
+      caption: "<strong>7시간 이상</strong> 잔 날, 어제 배운 것이 더 단단하게 남습니다."
 ---
 
 시험 전날 밤을 새워 공부한 경험이 있다면, 다음 날 머릿속이 뿌옇게 느껴졌던 기억도 함께 있을 것입니다. 잠은 오랫동안 뇌가 '쉬는 시간'으로 여겨졌지만, 지난 수십 년의 연구는 정반대의 그림을 보여 줍니다. 잠든 동안 뇌는 낮에 들어온 정보를 고르고, 다시 재생하고, 오래 남을 형태로 옮겨 적습니다.

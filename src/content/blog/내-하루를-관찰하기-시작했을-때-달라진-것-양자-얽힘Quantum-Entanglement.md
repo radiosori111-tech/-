@@ -6,6 +6,29 @@ date: "2026-09-23T23:54:22+09:00"
 updated: "2026-09-24T01:04:14+09:00"
 tags: []
 source: "https://t1-ilu.tistory.com/entry/%EB%82%B4-%ED%95%98%EB%A3%A8%EB%A5%BC-%EA%B4%80%EC%B0%B0%ED%95%98%EA%B8%B0-%EC%8B%9C%EC%9E%91%ED%96%88%EC%9D%84-%EB%95%8C-%EB%8B%AC%EB%9D%BC%EC%A7%84-%EA%B2%83-%EC%96%91%EC%9E%90-%EC%96%BD%ED%9E%98Quantum-Entanglement"
+comic:
+  title: "하루를 관찰하기 시작했을 때"
+  panels:
+    - scene: phone
+      label: "문제 상황"
+      bubble: "벌써 한 시간?"
+      alt: "알림이 쉬지 않고 쌓이는 스마트폰"
+      caption: "배달 앱 15분, 쇼핑몰 20분. 하루가 그냥 흘러가고 있었습니다."
+    - scene: synapse
+      label: "원리"
+      bubble: "주의가 뇌를 바꾼다"
+      alt: "두 신경세포가 가지를 뻗어 서로 이어지는 순간"
+      caption: "<strong>신경가소성</strong>: 자주 주의를 기울이는 쪽으로 뇌 회로가 실제로 재편됩니다."
+    - scene: book
+      label: "실천"
+      bubble: "시간을 적어 보자"
+      alt: "펼친 책과 펜"
+      caption: "하루를 <strong>기록하고 관찰</strong>하면 목적 없는 시간이 숫자로 보이기 시작합니다."
+    - scene: steps
+      label: "변화"
+      bubble: "방향이 생겼다"
+      alt: "한 칸씩 오르는 계단 꼭대기의 깃발"
+      caption: "관찰이 하루를 확정하듯, <strong>행동</strong>이 아직 정해지지 않은 미래를 만듭니다."
 ---
 
 솔직히 저는 한동안 하루를  '흘려보내고' 있었습니다. 배달 앱을 열었다 닫았다 하는 데 15분, 살 것도 없으면서 쇼핑몰을 구경하는 데 또 20분. 어느 날 하루 일과를 들여다봤더니 그런 시간이 생각보다 훨씬 많았습니다. 그때 든 의문이 하나 있었습니다. 나는 지금 내 시간을 '관찰'하고 있는 걸까, 아니면 그냥 떠내려가고 있는 걸까. 그 질문이 양자역학과 뇌과학을 다시 들여다보는 계기가 됐습니다.

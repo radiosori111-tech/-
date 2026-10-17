@@ -7,6 +7,29 @@ updated: "2023-02-23T18:23:37+09:00"
 tags: ["BDNF#BDNF부족원인#운동부족#신경전달물질#가소성"]
 image: "/images/blog/ed574772da/01.webp"
 source: "https://t1-ilu.tistory.com/entry/BDNF-%EB%B6%80%EC%A1%B1%ED%95%98%EA%B2%8C-%EB%90%98%EB%8A%94-%EC%9B%90%EC%9D%B8-%EB%87%8C%EA%B1%B4%EA%B0%95%EB%8F%84-%EC%A2%8B%EC%95%84%EC%A7%80%EB%82%98"
+comic:
+  title: "BDNF가 줄어드는 세 가지 이유"
+  panels:
+    - scene: alarm
+      label: "문제 상황"
+      bubble: "스트레스 폭발!"
+      alt: "책상 앞에서 짧게 숨 쉬는 사람과 머리 위에서 울리는 경보 종"
+      caption: "만성 <strong>스트레스</strong>는 뇌의 BDNF를 깎아 먹는 첫 번째 원인입니다."
+    - scene: tired
+      label: "원리"
+      bubble: "운동도 안 하고…"
+      alt: "지쳐 고개를 떨군 사람과 거의 바닥난 배터리"
+      caption: "<strong>운동 부족</strong>과 <strong>과당</strong>이 많은 식습관도 BDNF를 낮춥니다."
+    - scene: run
+      label: "실천"
+      bubble: "땀나게 달려 보자"
+      alt: "가볍게 달리는 사람과 움직임 선"
+      caption: "<strong>고강도 유산소 운동</strong>은 혈중 BDNF 농도를 더 크게 올립니다."
+    - scene: sprout
+      label: "변화"
+      bubble: "뇌가 살아난다"
+      alt: "뇌 위로 새싹이 돋아나는 그림"
+      caption: "BDNF가 회복되면 <strong>세로토닌</strong>과 함께 기분과 집중이 살아납니다."
 ---
 
 [**BDNF** 뇌 유래 신경영양인자 너의 정체는 뭐니?

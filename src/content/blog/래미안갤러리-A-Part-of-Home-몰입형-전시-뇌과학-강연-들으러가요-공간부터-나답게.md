@@ -7,6 +7,29 @@ updated: "2026-09-15T09:51:00+09:00"
 tags: []
 image: "/images/blog/2d2aeae196/01.webp"
 source: "https://t1-ilu.tistory.com/entry/%EB%9E%98%EB%AF%B8%EC%95%88%EA%B0%A4%EB%9F%AC%EB%A6%AC-A-Part-of-Home-%EB%AA%B0%EC%9E%85%ED%98%95-%EC%A0%84%EC%8B%9C-%EB%87%8C%EA%B3%BC%ED%95%99-%EA%B0%95%EC%97%B0-%EB%93%A4%EC%9C%BC%EB%9F%AC%EA%B0%80%EC%9A%94-%EA%B3%B5%EA%B0%84%EB%B6%80%ED%84%B0-%EB%82%98%EB%8B%B5%EA%B2%8C"
+comic:
+  title: "몰입은 공간에서 시작된다"
+  panels:
+    - scene: phone
+      label: "문제 상황"
+      bubble: "집인데 딴생각만…"
+      alt: "알림이 쉬지 않고 쌓이는 스마트폰"
+      caption: "집에 있어도 마음은 딴 데 가 있을 때가 있습니다."
+    - scene: focus
+      label: "원리"
+      bubble: "몰입하는 뇌"
+      alt: "생각에 잠긴 사람 위로 켜진 전구"
+      caption: "몰입할 때 뇌는 <strong>도파민</strong>을 내며 한 가지에 깊이 빠져듭니다."
+    - scene: book
+      label: "실천"
+      bubble: "나만의 작은 공간"
+      alt: "펼친 책과 펜"
+      caption: "좋아하는 것들로 채운 <strong>나만의 공간</strong>을 만들어 봅니다."
+    - scene: calm
+      label: "변화"
+      bubble: "공간이 나를 만든다"
+      alt: "고른 파형이 흐르는 뇌와 천천히 뛰는 심장"
+      caption: "<strong>공간이 몰입에 영향</strong>을 준다는 것, 전시와 강연이 전하는 메시지입니다."
 ---
 
 ![](/images/blog/2d2aeae196/01.webp)

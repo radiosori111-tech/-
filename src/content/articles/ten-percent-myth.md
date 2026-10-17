@@ -5,6 +5,29 @@ category: 뇌과학 이슈
 moment: 언제든
 date: 2026-10-17
 readMinutes: 7
+comic:
+  title: "뇌는 10%만 쓴다?"
+  panels:
+    - scene: focus
+      label: "문제 상황"
+      bubble: "숨은 90%를 깨우자?"
+      alt: "생각에 잠긴 사람 위로 켜진 전구"
+      caption: "영화와 광고가 즐겨 쓰는 '뇌 10% 사용설'에는 근거가 없습니다."
+    - scene: synapse
+      label: "원리"
+      bubble: "뇌는 다 쓴다"
+      alt: "두 신경세포가 가지를 뻗어 서로 이어지는 순간"
+      caption: "뇌는 쉬는 부분을 둘 만큼 여유롭지 않고, 필요한 회로를 골라 씁니다."
+    - scene: book
+      label: "실천"
+      bubble: "조금 어렵게 연습"
+      alt: "펼친 책과 펜"
+      caption: "<strong>조금 어렵게</strong> 연습하고, 잠과 운동을 함께 챙깁니다."
+    - scene: sprout
+      label: "변화"
+      bubble: "쓰는 대로 바뀐다"
+      alt: "뇌 위로 새싹이 돋아나는 그림"
+      caption: "<strong>신경가소성</strong>: 런던 택시 기사의 <strong>해마</strong> 뒤쪽처럼 뇌는 쓰는 대로 바뀝니다."
 ---
 
 "인간은 뇌의 10%밖에 쓰지 못한다. 나머지를 깨우면 놀라운 능력이 생긴다." 영화의 단골 설정이자 학습법 광고의 오래된 문구입니다. 매력적인 이야기지만, 뇌과학자들이 가장 자주 바로잡는 오해 가운데 하나이기도 합니다.

@@ -7,6 +7,29 @@ updated: "2026-09-30T02:12:46+09:00"
 tags: ["IgA항체", "뇌과학", "뇌염증", "면역글로불린A", "브레인포그", "장건강", "장내미생물혁명", "장뇌축", "장누수증후군", "프로바이오틱스"]
 image: "/images/blog/01e3cd1462/01.webp"
 source: "https://t1-ilu.tistory.com/entry/%EC%9E%A5%EC%9D%84-%EC%A7%80%ED%82%A4%EB%8A%94-IgA-%ED%95%AD%EC%B2%B4%EC%99%80-%EB%87%8C%EC%9D%98-%EC%97%B0%EA%B2%B0%EA%B3%A0%EB%A6%AC-%EB%87%8C-%EB%B0%9C%EB%8B%AC%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%9E%A5-%EA%B4%80%EB%A6%AC%EC%9D%98-%EC%8B%A0%EA%B2%BD%EA%B3%BC%ED%95%99"
+comic:
+  title: "장을 지키는 IgA, 뇌를 지킨다"
+  panels:
+    - scene: tired
+      label: "문제 상황"
+      bubble: "뇌만 신경 썼는데…"
+      alt: "지쳐 고개를 떨군 사람과 거의 바닥난 배터리"
+      caption: "뇌를 키우려면 머리만 챙기면 될까요? 출발점은 장일 수 있습니다."
+    - scene: gut
+      label: "원리"
+      bubble: "장과 뇌는 연결돼"
+      alt: "뇌와 장이 점선으로 이어진 그림"
+      caption: "<strong>장-뇌 축</strong>: 장과 뇌는 <strong>미주신경</strong>과 면역 시스템으로 실시간 신호를 주고받습니다."
+    - scene: shield
+      label: "실천"
+      bubble: "IgA 방화벽"
+      alt: "세균을 막아 내는 방패와 체크 표시"
+      caption: "<strong>IgA 항체</strong>는 장 점막의 1차 방어막이고, 뇌수막에서도 뇌를 지킵니다."
+    - scene: sprout
+      label: "변화"
+      bubble: "장이 건강하면 뇌도"
+      alt: "뇌 위로 새싹이 돋아나는 그림"
+      caption: "장 관리는 <strong>세로토닌</strong>, <strong>BDNF</strong>, <strong>신경가소성</strong>으로 이어집니다."
 ---
 
 💡 3줄 요약 (Key Takeaways)

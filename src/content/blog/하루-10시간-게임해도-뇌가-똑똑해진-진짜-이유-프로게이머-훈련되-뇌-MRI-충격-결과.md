@@ -6,6 +6,29 @@ date: "2026-10-11T22:28:46+09:00"
 tags: ["e스포츠뇌과학", "LCK", "뇌MRI분석", "뇌MRI연구", "선택적집중", "섬엽", "신경가소성", "주의력회로", "프로게이머뇌", "훈련된뇌 #전대상피질"]
 image: "/images/blog/9e3b5f5c55/01.webp"
 source: "https://t1-ilu.tistory.com/entry/%ED%95%98%EB%A3%A8-10%EC%8B%9C%EA%B0%84-%EA%B2%8C%EC%9E%84%ED%95%B4%EB%8F%84-%EB%87%8C%EA%B0%80-%EB%98%91%EB%98%91%ED%95%B4%EC%A7%84-%EC%A7%84%EC%A7%9C-%EC%9D%B4%EC%9C%A0-%ED%94%84%EB%A1%9C%EA%B2%8C%EC%9D%B4%EB%A8%B8-%ED%9B%88%EB%A0%A8%EB%90%98-%EB%87%8C-MRI-%EC%B6%A9%EA%B2%A9-%EA%B2%B0%EA%B3%BC"
+comic:
+  title: "훈련된 뇌는 더 잘 고른다"
+  panels:
+    - scene: phone
+      label: "문제 상황"
+      bubble: "게임하면 뇌가 망가져?"
+      alt: "알림이 쉬지 않고 쌓이는 스마트폰"
+      caption: "하루 10시간 게임하는 프로게이머의 뇌는 어떻게 달라졌을까요?"
+    - scene: focus
+      label: "원리"
+      bubble: "더 잘 거르는 뇌"
+      alt: "생각에 잠긴 사람 위로 켜진 전구"
+      caption: "LCK 선수 23명의 MRI: <strong>섬엽</strong>과 <strong>전대상피질</strong>이 '더 잘 고르는' 쪽으로 바뀌었습니다."
+    - scene: book
+      label: "실천"
+      bubble: "시뮬레이션과 출력"
+      alt: "펼친 책과 펜"
+      caption: "행동 전 <strong>머릿속 리허설</strong>, 내부 감각 집중, 입력보다 <strong>출력</strong>을 늘립니다."
+    - scene: steps
+      label: "변화"
+      bubble: "시간보다 구조"
+      alt: "한 칸씩 오르는 계단 꼭대기의 깃발"
+      caption: "뇌를 바꾸는 건 <strong>시간의 양</strong>이 아니라 <strong>훈련의 구조</strong>입니다."
 ---
 
 LCK 프로게이머 23명의 뇌 MRI를 분석했더니, 선수들의 뇌는 '더 많이 보는' 방향이 아니라 '더 잘 고르는' 방향으로 바뀌어 있었습니다. 이 결과를 처음 접했을 때, 솔직히 이건 예상 밖이었습니다. 게임을 잘하려면 당연히 더 넓게, 더 빠르게 받아들여야 한다고 막연히 믿고 있었거든요.

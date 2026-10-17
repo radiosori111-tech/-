@@ -6,6 +6,29 @@ date: "2023-02-01T13:12:32+09:00"
 updated: "2023-02-01T13:13:13+09:00"
 tags: ["BDNF", "뇌유래신경영양인자", "회복탄력성"]
 source: "https://t1-ilu.tistory.com/entry/BDNF-%EB%87%8C-%EC%9C%A0%EB%9E%98-%EC%8B%A0%EA%B2%BD%EC%98%81%EC%96%91%EC%9D%B8%EC%9E%90-%EB%84%88%EC%9D%98-%EC%A0%95%EC%B2%B4%EB%8A%94-%EB%AD%90%EB%8B%88"
+comic:
+  title: "BDNF, 너의 정체는?"
+  panels:
+    - scene: food
+      label: "문제 상황"
+      bubble: "명절 뒤 벌크업…"
+      alt: "접시에 담긴 고기, 달걀, 채소와 포크, 나이프"
+      caption: "스트레스와 폭식이 이어지면 몸도 마음도 무거워집니다."
+    - scene: sprout
+      label: "원리"
+      bubble: "나는 BDNF야"
+      alt: "뇌 위로 새싹이 돋아나는 그림"
+      caption: "<strong>BDNF</strong>는 신경세포를 자라게 하는 <strong>신경영양인자</strong>로, 학습과 기억을 돕습니다."
+    - scene: run
+      label: "실천"
+      bubble: "적당히 움직이자"
+      alt: "가볍게 달리는 사람과 움직임 선"
+      caption: "<strong>적당한 운동</strong>과 <strong>건강한 음식</strong>이 BDNF를 끌어올립니다."
+    - scene: calm
+      label: "변화"
+      bubble: "실패는 기본!"
+      alt: "고른 파형이 흐르는 뇌와 천천히 뛰는 심장"
+      caption: "BDNF는 <strong>회복 탄력성</strong>을 높여 넘어져도 다시 일어서게 합니다."
 ---
 
 [간헐적 단식 : 설 명절 확찐자들을 위한 비법

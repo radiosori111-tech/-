@@ -180,7 +180,12 @@ async function convert(url) {
     '',
   ].filter((l) => l !== null).join('\n');
 
-  await fs.writeFile(path.join(OUT_DIR, `${safeFileName(slug)}.md`), `${front}\n${body}`, 'utf8');
+  // 다시 가져올 때, 이미 넣어 둔 4컷 만화(comic:)는 그대로 옮겨 둔다
+  const file = path.join(OUT_DIR, `${safeFileName(slug)}.md`);
+  const old = await fs.readFile(file, 'utf8').catch(() => '');
+  const comic = old.match(/^comic:[\s\S]*?(?=^---$)/m)?.[0] ?? '';
+  const frontWithComic = comic ? front.replace(/---\n$/, `${comic}---\n`) : front;
+  await fs.writeFile(file, `${frontWithComic}\n${body}`, 'utf8');
   return { title, images: n, chars: body.length };
 }
 
