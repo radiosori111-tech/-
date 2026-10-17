@@ -2,6 +2,7 @@
 import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css';
 import '../styles/global.css';
 import Icon from '../components/Icon.astro';
+import AdSenseHead from '../components/ads/AdSenseHead.astro';
 import { SITE } from '../data/site';
 import { t, blogPath, articlesPath, pagePath, OG_LOCALE, HREFLANG, DEFAULT_LANG, type Lang, type Alternate } from '../i18n/ui';
 
@@ -78,9 +79,7 @@ const abs = (href: string) => new URL(href, Astro.site).toString();
         </script>
       </>
     )}
-    {import.meta.env.PROD && SITE.adsenseClient && (
-      <script is:inline async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`} crossorigin="anonymous"></script>
-    )}
+    <AdSenseHead />
     <slot name="head" />
   </head>
   <body>

@@ -1,0 +1,17 @@
+---
+// 모든 페이지 <head>에 들어가는 구글 애드센스 공통 코드 (Base.astro가 넣는다).
+// - google-adsense-account 메타 태그: 애드센스 사이트 소유 확인용
+// - adsbygoogle.js: 승인 심사와 자동 광고에 필요한 공통 스크립트
+// src/data/site.ts의 adsenseClient(ca-pub-…)가 비어 있으면 아무것도 넣지 않는다.
+// 개발 중(npm run dev)에는 광고가 뜨지 않도록 배포 빌드에서만 넣는다.
+import { SITE } from '../../data/site';
+
+const client = SITE.adsenseClient.trim();
+const enabled = import.meta.env.PROD && client.startsWith('ca-pub-');
+---
+{enabled && (
+  <>
+    <meta name="google-adsense-account" content={client} />
+    <script is:inline async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${client}`} crossorigin="anonymous"></script>
+  </>
+)}

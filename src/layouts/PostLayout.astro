@@ -5,12 +5,11 @@ import type { MarkdownHeading } from 'astro';
 import Base from './Base.astro';
 import Icon from '../components/Icon.astro';
 import Disclaimer from '../components/Disclaimer.astro';
-import AdSense from '../components/AdSense.astro';
+import AdSlot from '../components/ads/AdSlot.astro';
 import Comic from '../components/comic/Comic.astro';
 import type { Scene } from '../components/comic/scenes';
 import LangSwitch from '../components/LangSwitch.astro';
 import { t, DEFAULT_LANG, type Lang, type Alternate } from '../i18n/ui';
-import { SITE } from '../data/site';
 
 interface PagerLink {
   href: string;
@@ -95,9 +94,9 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
           </div>
 
           {comic && <Comic comic={comic} lang={lang} />}
-          <AdSense slot={SITE.adSlots.postTop} label="글 상단" lang={lang} />
+          <AdSlot position="top" lang={lang} />
           <slot />
-          <AdSense slot={SITE.adSlots.postBottom} label="글 하단" lang={lang} />
+          <AdSlot position="bottom" lang={lang} />
 
           {tags.length > 0 && (
             <ul class="tags" aria-label={tr.tags}>
