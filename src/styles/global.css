@@ -32,6 +32,8 @@
   --accent-on-dark-hover: #7edccf;
   --accent-line: #c6e6e0;
   --danger: #b42318;
+  --danger-soft: #fdf1f0;
+  --danger-line: #f1c4bf;
 
   --font: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif;
 
@@ -211,8 +213,10 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.24e
 .frame .btn-secondary { background: var(--frame-raised); border-color: var(--frame-line); color: var(--frame-text); box-shadow: none; }
 .frame .btn-secondary:hover { border-color: var(--frame-line-hover); background: var(--frame-hover); }
 
+  .btn:disabled { opacity: 0.72; cursor: progress; }
+
 @media (prefers-reduced-motion: no-preference) {
-  .btn:active { transform: scale(0.97); }
+  .btn:not(:disabled):active { transform: scale(0.97); }
 }
 
 .icon .icon-solid { fill: currentColor; stroke: none; }

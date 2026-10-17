@@ -5,6 +5,8 @@ export const SITE = {
     '복잡한 뇌과학 정보를 쉽게 풀어, 오늘 바로 실천할 수 있는 팩트 기반 습관 정보를 전하는 뇌과학 아티클 사이트입니다.',
   email: 'warauego@naver.com',
   locale: 'ko_KR',
+  // Formspree 폼 ID (https://formspree.io/f/XXXXXXXX 의 마지막 부분). 비워 두면 문의 폼이 메일 앱을 엽니다.
+  formspreeId: '',
 };
 
 export const NAV = [
