@@ -445,13 +445,24 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
   .prose :global(p:has(> img)) { margin-block: 2em; text-align: center; }
   .prose :global(p:has(> img) em) { display: block; margin-top: 0.75rem; font-style: normal; font-size: var(--text-sm); line-height: 1.6; color: var(--muted); }
   .prose :global(blockquote) {
+    position: relative;
     margin: 2em 0;
-    padding: 1.125rem 1.5rem;
-    border-left: 3px solid var(--accent);
-    border-radius: 0 var(--radius) var(--radius) 0;
+    padding: 1.25rem 1.5rem 1.25rem 3.25rem;
+    border: 1px solid var(--accent-line);
+    border-radius: var(--radius-card);
     background: var(--accent-soft);
     color: var(--ink);
     font-weight: 600;
+  }
+  .prose :global(blockquote)::before {
+    content: '“';
+    position: absolute;
+    left: 1.125rem;
+    top: 0.75rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--accent);
   }
   .prose :global(blockquote p:last-child) { margin-bottom: 0; }
   .prose :global(hr) { margin: 2.5em 0; border: 0; border-top: 1px solid var(--line); }
@@ -648,7 +659,8 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
   }
   @media (max-width: 640px) {
     .prose { font-size: 1.0625rem; line-height: 1.85; }
-    .prose :global(blockquote) { padding: 1rem 1.125rem; }
+    .prose :global(blockquote) { padding: 1rem 1.125rem 1rem 2.75rem; }
+    .prose :global(blockquote)::before { left: 0.875rem; top: 0.625rem; font-size: 2.125rem; }
     .prose :global(figure.diagram) { margin-inline: calc(var(--gutter) * -1); border-radius: 0; padding-inline: var(--gutter); overflow-x: auto; }
     .prose :global(figure.diagram svg) { min-width: 34rem; }
     .prose :global(figure.diagram figcaption) { position: sticky; left: 0; max-width: calc(100vw - var(--gutter) * 2); }
