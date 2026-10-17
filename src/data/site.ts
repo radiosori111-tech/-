@@ -7,6 +7,12 @@ export const SITE = {
   locale: 'ko_KR',
   // Formspree 폼 ID (https://formspree.io/f/XXXXXXXX 의 마지막 부분). 비워 두면 문의 폼이 메일 앱을 엽니다.
   formspreeId: '',
+  // 구글 애널리틱스(GA4) 측정 ID (예: G-XXXXXXXXXX). 비워 두면 추적 코드를 넣지 않습니다.
+  gaId: '',
+  // 구글 애드센스 게시자 ID (예: ca-pub-1234567890123456). 비워 두면 광고 스크립트와 광고 칸을 넣지 않습니다.
+  adsenseClient: '',
+  // 애드센스에서 만든 디스플레이 광고 단위의 슬롯 번호 (예: 1234567890)
+  adSlots: { postTop: '', postBottom: '' },
 };
 
 export const NAV = [

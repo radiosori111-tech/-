@@ -40,6 +40,21 @@ const isCurrent = (href: string) =>
     {image && <meta property="og:image" content={new URL(image, Astro.site)} />}
     <meta name="twitter:card" content={image ? "summary_large_image" : "summary"} />
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+    {/* 구글 애널리틱스 · 애드센스: ID가 있을 때, 배포용 빌드에서만 불러온다 */}
+    {import.meta.env.PROD && SITE.gaId && (
+      <>
+        <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${SITE.gaId}`}></script>
+        <script is:inline define:vars={{ gaId: SITE.gaId }}>
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function () { dataLayer.push(arguments); };
+          gtag('js', new Date());
+          gtag('config', gaId);
+        </script>
+      </>
+    )}
+    {import.meta.env.PROD && SITE.adsenseClient && (
+      <script is:inline async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`} crossorigin="anonymous"></script>
+    )}
     <slot name="head" />
   </head>
   <body>

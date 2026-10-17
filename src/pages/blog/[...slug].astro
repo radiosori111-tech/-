@@ -3,6 +3,7 @@ import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Icon from '../../components/Icon.astro';
 import Disclaimer from '../../components/Disclaimer.astro';
+import AdSense from '../../components/AdSense.astro';
 import { SITE, formatDate } from '../../data/site';
 import { getPosts, postUrl, postTags, postMinutes } from '../../data/blog';
 
@@ -71,7 +72,10 @@ const jsonLd = {
     )}
 
     <article class="prose" data-article data-slug={slug}>
+      <AdSense slot={SITE.adSlots.postTop} label="글 상단" />
       <Content />
+
+      <AdSense slot={SITE.adSlots.postBottom} label="글 하단" />
 
       {tags.length > 0 && (
         <ul class="tags" aria-label="태그">
