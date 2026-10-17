@@ -118,6 +118,7 @@ const sections = [
     color: var(--accent-strong);
   }
   .policy :global(.doc h2) { scroll-margin-top: 1.5rem; }
+  .policy :global(.doc a) { overflow-wrap: anywhere; }
   .h-note {
     display: inline-flex;
     vertical-align: middle;
@@ -156,7 +157,7 @@ const sections = [
   .facts dd { margin: 0; color: var(--ink-soft); }
 
   @media (max-width: 960px) {
-    .policy { grid-template-columns: 1fr; }
+    .policy { grid-template-columns: minmax(0, 1fr); }
     .policy-toc { position: static; }
   }
 </style>

@@ -8,7 +8,7 @@ const endpoint = SITE.formspreeId ? `https://formspree.io/f/${SITE.formspreeId}`
 <Page title="문의" lede="다뤄 줬으면 하는 주제, 글에 대한 질문, 오류 제보, 제휴 제안 무엇이든 남겨 주세요. 보내 주신 의견은 모두 꼼꼼히 읽습니다.">
   <div class="contact">
     <form class="form" data-form data-endpoint={endpoint || undefined} novalidate>
-      <input type="text" name="_gotcha" class="visually-hidden" tabindex="-1" autocomplete="off" aria-hidden="true" />
+      <div class="visually-hidden" aria-hidden="true"><input type="text" name="_gotcha" tabindex="-1" autocomplete="off" /></div>
       <div class="field">
         <label for="f-type">문의 종류</label>
         <select id="f-type" name="type">
