@@ -36,6 +36,9 @@ const articles = defineCollection({
     readMinutes: z.number(),
     featured: z.boolean().default(false),
     comic,
+    // 번역 아티클은 src/content/articles/en/, ja/ 아래에 두고 translationOf에 원문 파일 이름을 적는다
+    lang: z.enum(['ko', 'en', 'ja']).default('ko'),
+    translationOf: z.string().optional(),
   }),
 });
 

@@ -3,7 +3,7 @@ import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css';
 import '../styles/global.css';
 import Icon from '../components/Icon.astro';
 import { SITE } from '../data/site';
-import { t, blogPath, OG_LOCALE, HREFLANG, DEFAULT_LANG, type Lang, type Alternate } from '../i18n/ui';
+import { t, blogPath, articlesPath, pagePath, OG_LOCALE, HREFLANG, DEFAULT_LANG, type Lang, type Alternate } from '../i18n/ui';
 
 interface Props {
   title?: string;
@@ -23,15 +23,19 @@ const slogan = tr.slogan;
 const fullTitle = title ? `${title} | ${SITE.name}` : `${SITE.name} — ${slogan}`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const path = Astro.url.pathname;
+const articlesHref = articlesPath(lang);
 const isCurrent = (href: string) =>
-  href === '/' ? path === '/' || path.startsWith('/articles') : path.startsWith(href);
-// 아티클 · 소개 · 문의는 한국어 페이지 하나뿐이고, 블로그만 언어별 목록이 있다
+  href === '/' ? path === '/' || path.startsWith('/articles')
+  : href === articlesHref ? path.startsWith(articlesHref)
+  : path.startsWith(href);
+// 메뉴 · 푸터 링크는 지금 보고 있는 언어의 페이지로 간다
 const nav = [
-  { href: '/', label: tr.nav.articles },
+  { href: articlesHref, label: tr.nav.articles },
   { href: blogPath(lang), label: tr.nav.blog },
-  { href: '/about/', label: tr.nav.about },
-  { href: '/contact/', label: tr.nav.contact },
+  { href: pagePath(lang, '/about/'), label: tr.nav.about },
+  { href: pagePath(lang, '/contact/'), label: tr.nav.contact },
 ];
+const privacyHref = pagePath(lang, '/privacy/');
 const abs = (href: string) => new URL(href, Astro.site).toString();
 ---
 <!doctype html>
@@ -83,7 +87,7 @@ const abs = (href: string) => new URL(href, Astro.site).toString();
     <a class="skip-link" href="#main">{tr.skip}</a>
     <header class="site-header frame">
       <div class="wrap bar">
-        <a class="brand" href="/" aria-label={`${SITE.name} ${tr.home}`}>
+        <a class="brand" href={articlesHref} aria-label={`${SITE.name} ${tr.home}`}>
           <svg class="brand-mark" viewBox="0 0 28 28" aria-hidden="true">
             <rect width="28" height="28" rx="8" />
             <path d="M8 18.5c2.5-9 9.5 0 12-9" />
@@ -114,10 +118,10 @@ const abs = (href: string) => new URL(href, Astro.site).toString();
             <p class="foot-slogan">{slogan}</p>
           </div>
           <nav class="foot-links" aria-label={tr.foot.label}>
-            <a href="/about/">{tr.nav.about}</a>
-            <a href="/contact/">{tr.nav.contact}</a>
-            <a href="/privacy/">{tr.foot.privacy}</a>
-            <a href="/privacy/#disclaimer">{tr.foot.disclaimer}</a>
+            <a href={pagePath(lang, '/about/')}>{tr.nav.about}</a>
+            <a href={pagePath(lang, '/contact/')}>{tr.nav.contact}</a>
+            <a href={privacyHref}>{tr.foot.privacy}</a>
+            <a href={privacyHref + '#disclaimer'}>{tr.foot.disclaimer}</a>
           </nav>
           <div class="foot-meta">
             <p>{tr.foot.email} <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
@@ -126,7 +130,7 @@ const abs = (href: string) => new URL(href, Astro.site).toString();
         <section class="foot-disclaimer" aria-labelledby="foot-disclaimer-title">
           <h2 id="foot-disclaimer-title"><Icon name="info" /> {tr.foot.title}</h2>
           <p set:html={tr.foot.body} />
-          <a class="foot-disclaimer-link" href="/privacy/#disclaimer">{tr.foot.more} <Icon name="arrow-right" /></a>
+          <a class="foot-disclaimer-link" href={privacyHref + '#disclaimer'}>{tr.foot.more} <Icon name="arrow-right" /></a>
         </section>
         <p class="foot-copy tabular">© {new Date().getFullYear()} 믿음의 게임, 실행</p>
       </div>

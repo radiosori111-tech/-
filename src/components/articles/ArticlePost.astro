@@ -1,0 +1,58 @@
+---
+// 아티클 한 편 (한국어 /articles/…, 영어 /en/articles/…, 일본어 /ja/articles/…가 함께 쓴다)
+import { render } from 'astro:content';
+import PostLayout from '../../layouts/PostLayout.astro';
+import { SITE } from '../../data/site';
+import { articleUrl, articleAlternates, type Article } from '../../data/articles';
+import { t, articlesPath, formatDateFor, CATEGORY_LABEL, HREFLANG } from '../../i18n/ui';
+
+interface Props { entry: Article; prev: Article | null; next: Article | null; related: Article[] }
+const { entry, prev, next, related } = Astro.props;
+const { Content, headings } = await render(entry);
+const { title, description, category, time, moment, date, readMinutes, comic, lang } = entry.data;
+const tr = t(lang).post;
+const categoryLabel = CATEGORY_LABEL[lang][category] ?? category;
+const url = articleUrl(entry);
+const alternates = await articleAlternates(entry);
+
+const pagerLink = (a: Article | null) =>
+  a && { href: articleUrl(a), title: a.data.title, badge: { text: a.data.time ?? tr.anytime, anytime: !a.data.time } };
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description,
+  datePublished: date.toISOString(),
+  inLanguage: HREFLANG[lang],
+  author: { '@type': 'Organization', name: SITE.name },
+  publisher: { '@type': 'Organization', name: SITE.name },
+  mainEntityOfPage: new URL(url, Astro.site).toString(),
+};
+---
+<PostLayout
+  title={title}
+  description={description}
+  jsonLd={jsonLd}
+  url={url}
+  back={{ href: articlesPath(lang), label: tr.backArticles }}
+  headings={headings}
+  storageKey={entry.id}
+  reviewed={date}
+  prev={pagerLink(prev)}
+  next={pagerLink(next)}
+  prevLabel={tr.prev}
+  nextLabel={tr.next}
+  comic={comic}
+  lang={lang}
+  alternates={alternates}
+  related={{ title: tr.relatedIn(categoryLabel), items: related.map((r) => ({ href: articleUrl(r), title: r.data.title, note: tr.minutes(r.data.readMinutes) })) }}
+>
+  <Fragment slot="meta">
+    <div><dt class="visually-hidden">{tr.time}</dt><dd><span class:list={['time-mark', !time && 'anytime']}>{time ?? tr.anytime}</span>{time && ` ${moment}`}</dd></div>
+    <div><dt class="visually-hidden">{tr.category}</dt><dd><span class="chip">{categoryLabel}</span></dd></div>
+    <div><dt class="visually-hidden">{tr.published}</dt><dd class="tabular"><time datetime={date.toISOString()}>{formatDateFor(lang, date)}</time></dd></div>
+    <div><dt class="visually-hidden">{tr.readTime}</dt><dd class="tabular">{tr.minutes(readMinutes)}</dd></div>
+  </Fragment>
+  <Content />
+</PostLayout>

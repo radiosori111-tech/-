@@ -157,7 +157,8 @@ const emptyText = Astro.props.emptyText ?? tr.list.empty;
     font-size: var(--text-sm);
     color: var(--muted);
   }
-  .card-meta { display: flex; align-items: center; gap: 0.625rem; min-width: 0; }
+  /* 영어 카테고리 이름처럼 긴 글자는 좁은 화면에서 다음 줄로 넘긴다 */
+  .card-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.375rem 0.625rem; min-width: 0; }
   .card-sub { display: flex; align-items: center; gap: 0.875rem; min-height: 2rem; margin-top: 0.625rem; }
   .card-time, .card-min { white-space: nowrap; }
   .card-moment { color: var(--muted); }

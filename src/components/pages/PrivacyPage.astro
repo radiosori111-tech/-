@@ -1,0 +1,269 @@
+---
+// 개인정보 처리방침 및 면책조항 (한국어 /privacy/, 영어 /en/privacy/, 일본어 /ja/privacy/)
+import Page from '../../layouts/Page.astro';
+import LangSwitch from '../LangSwitch.astro';
+import { SITE } from '../../data/site';
+import { t, LANGS, pagePath, type Lang } from '../../i18n/ui';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const contact = pagePath(lang, '/contact/');
+const mail = `<a href="mailto:${SITE.email}">${SITE.email}</a>`;
+const GA_OPTOUT = 'https://tools.google.com/dlpage/gaoptout';
+const ADS = 'https://adssettings.google.com';
+
+const COPY = {
+  ko: {
+    title: '개인정보 처리방침 및 면책조항',
+    description: `${SITE.name}의 개인정보 처리방침과 의학·학술 정보 면책조항입니다.`,
+    lede: `[${SITE.name}]이 방문자의 정보를 어떻게 다루는지, 그리고 이 사이트의 콘텐츠를 어떻게 이해해야 하는지 안내합니다.`,
+    tocLabel: '처리방침 목차', toc: '목차', effective: '시행일 2026년 10월 17일',
+    sections: ['수집하는 개인정보', '개인정보의 이용 목적', '개인정보의 보관 및 파기', '제3자 제공 및 쿠키 안내', '이용자의 권리', '면책사항 (Disclaimer)', '개인정보 처리방침 변경'],
+    p1: `<h2 id="p1">1. 수집하는 개인정보</h2>
+      <p>본 블로그('jes-lu.com')는 별도의 회원가입 없이 운영됩니다. 최적의 블로그 서비스 제공과 구글 애드센스 광고 게재, 그리고 구글 애널리틱스(Google Analytics 4)를 통한 방문 통계 분석을 위해 방문 시 아래 정보가 자동으로 생성 및 수집될 수 있습니다.</p>
+      <ul>
+        <li><strong>자동 수집 항목:</strong> 접속 IP 주소, 쿠키(Cookie), 방문 일시, 웹 브라우저 종류, 서비스 이용 기록</li>
+        <li><strong>문의 페이지 작성 시:</strong> 성함(닉네임), 이메일 주소 (답장용 목적으로만 이용)</li>
+        <li><strong>브라우저 저장소:</strong> 글의 읽기 진행률과 남긴 반응은 방문자 기기의 브라우저 저장소(localStorage)에만 저장되며, 서버로 전송되지 않습니다. 브라우저의 사이트 데이터 삭제로 언제든 지울 수 있습니다.</li>
+      </ul>
+      <h2 id="p2">2. 개인정보의 이용 목적</h2>
+      <p>수집된 정보는 다음의 목적으로만 안전하게 사용됩니다.</p>
+      <ul>
+        <li>블로그 서비스 품질 유지, 보안 관리 및 콘텐츠 환경 개선</li>
+        <li>독자 문의사항 확인 및 답장</li>
+        <li>구글 애드센스(Google AdSense) 맞춤형 광고 게재</li>
+        <li>구글 애널리틱스(Google Analytics 4)를 통한 방문자 통계 분석</li>
+      </ul>
+      <h2 id="p3">3. 개인정보의 보관 및 파기</h2>
+      <ul>
+        <li><strong>문의 이메일 정보:</strong> 작성자의 삭제 요청 시 또는 문의 답변 완료 시 즉시 파기</li>
+        <li><strong>접속 기록 및 통계 데이터:</strong> Vercel 서버 기본 데이터 보안 정책에 따라 관리하며, 방문 통계 데이터는 Google 애널리틱스의 데이터 보관 정책을 함께 따릅니다.</li>
+      </ul>
+      <h2 id="p4">4. 제3자 제공 및 쿠키(Cookie) 안내 <span class="h-note">구글 애드센스 규정</span></h2>
+      <p>본 블로그는 원칙적으로 방문자의 개인정보를 외부에 공유하지 않습니다. 단, 구글 애드센스 및 관련 파트너사는 쿠키를 사용하여 방문자의 이전 접속 기록을 바탕으로 맞춤형 광고를 제공합니다.</p>
+      <ul>
+        <li>방문자는 웹 브라우저 설정(설정 &gt; 개인정보 보호 및 보안 &gt; 쿠키 차단)을 통해 쿠키 수집을 거부할 수 있습니다.</li>
+        <li>본 블로그는 방문 통계 분석을 위해 구글 애널리틱스(Google Analytics 4)를 사용합니다. 구글 애널리틱스는 쿠키를 통해 방문한 페이지, 머문 시간, 기기와 브라우저 종류, 대략적인 접속 지역 등을 개인을 알아볼 수 없는 통계 형태로 수집합니다.</li>
+        <li><a href="${GA_OPTOUT}" target="_blank" rel="noopener">Google 애널리틱스 차단 브라우저 부가기능</a>으로 통계 수집을 거부할 수 있습니다.</li>
+        <li><a href="${ADS}" target="_blank" rel="noopener">구글 광고 설정(https://adssettings.google.com)</a>에서 맞춤형 광고 수집을 직접 해제하실 수 있습니다.</li>
+      </ul>
+      <h2 id="p5">5. 이용자의 권리</h2>
+      <p>방문자는 언제든지 본인의 개인정보 열람, 수정, 삭제를 요청할 수 있으며, 상단 <a href="${contact}">[문의]</a> 메뉴 또는 ${mail}로 요청해 주시면 지체 없이 처리해 드립니다.</p>`,
+    disclaimer: `<h2 id="disclaimer">6. 면책사항 (Disclaimer)</h2>
+        <p>본 블로그는 개인 운영 정보 공유 및 학술 교양 목적의 뇌과학 매거진입니다.</p>
+        <ul>
+          <li><strong>전문가 조언 대체 불가:</strong> 게시된 모든 콘텐츠(뇌과학, 습관, 수면, 운동 메커니즘 등)는 논문 및 연구 자료에 기초한 일반 교양 정보이며, 전문적인 의학적 진단, 치료, 법률/금융 조언을 대체할 수 없습니다.</li>
+          <li><strong>책임 제한:</strong> 본 블로그에 수록된 정보를 활용하여 방문자가 행한 판단, 행동 및 그 결과에 대해 블로그 운영자는 법적 책임을 지지 않습니다.</li>
+          <li><strong>외부 링크 및 정보의 시의성:</strong> 외부 링크로 연결된 웹사이트의 내용 및 서비스에 대해서는 운영자가 책임지지 않으며, 모든 콘텐츠는 작성 시점 기준의 정보이므로 최신 변경 사항이 자동으로 반영되지 않을 수 있습니다.</li>
+        </ul>`,
+    p7: `<h2 id="p7">7. 개인정보 처리방침 변경</h2>
+      <p>본 방침은 관련 법령 개정 또는 서비스 운영 방침 변경 시 개정될 수 있으며, 사이트를 통해 공지합니다.</p>
+      <p>2026년 10월 17일부터 방문 통계 분석을 위해 구글 애널리틱스(Google Analytics 4)를 적용하고, 그에 맞춰 이 방침을 개정했습니다.</p>`,
+    facts: [['시행일', '2026년 10월 17일'], ['사이트 주소', `jes-lu.com ([${SITE.name}])`], ['문의', mail]],
+  },
+  en: {
+    title: 'Privacy Policy and Disclaimer',
+    description: `The privacy policy and medical/scientific information disclaimer of ${SITE.name}.`,
+    lede: `How [${SITE.name}] handles visitors' information, and how the content on this site should be understood.`,
+    tocLabel: 'Policy contents', toc: 'Contents', effective: 'Effective October 17, 2026',
+    sections: ['Information we collect', 'How we use information', 'Retention and deletion', 'Third parties and cookies', 'Your rights', 'Disclaimer', 'Changes to this policy'],
+    p1: `<h2 id="p1">1. Information we collect</h2>
+      <p>This blog (jes-lu.com) operates without user registration. To provide the best service, display Google AdSense ads, and analyze visits with Google Analytics 4, the following information may be generated and collected automatically when you visit.</p>
+      <ul>
+        <li><strong>Collected automatically:</strong> IP address, cookies, date and time of visit, browser type, and usage records</li>
+        <li><strong>When you use the contact page:</strong> your name (or nickname) and email address, used only to reply to you</li>
+        <li><strong>Browser storage:</strong> your reading progress and reactions are stored only in your device's browser storage (localStorage) and are never sent to a server. You can delete them at any time by clearing the site data in your browser.</li>
+      </ul>
+      <h2 id="p2">2. How we use information</h2>
+      <p>Collected information is used securely and only for the following purposes:</p>
+      <ul>
+        <li>Maintaining service quality, managing security, and improving the content</li>
+        <li>Reading and replying to readers' inquiries</li>
+        <li>Displaying personalized ads through Google AdSense</li>
+        <li>Analyzing visitor statistics through Google Analytics 4</li>
+      </ul>
+      <h2 id="p3">3. Retention and deletion</h2>
+      <ul>
+        <li><strong>Inquiry emails:</strong> deleted immediately when the sender requests it or once the inquiry has been answered</li>
+        <li><strong>Access logs and statistics:</strong> managed under Vercel's default data security policies; visit statistics also follow Google Analytics' data retention policies.</li>
+      </ul>
+      <h2 id="p4">4. Third parties and cookies <span class="h-note">Google AdSense policy</span></h2>
+      <p>As a rule, this blog does not share visitors' personal information with outside parties. However, Google AdSense and its partners use cookies to show personalized ads based on your previous visits.</p>
+      <ul>
+        <li>You can refuse cookies in your browser settings (Settings &gt; Privacy and security &gt; Block cookies).</li>
+        <li>This blog uses Google Analytics 4 to analyze visits. Through cookies, Google Analytics collects the pages you visit, time spent, device and browser type, and approximate location, in a statistical form that does not identify individuals.</li>
+        <li>You can opt out of analytics with the <a href="${GA_OPTOUT}" target="_blank" rel="noopener">Google Analytics opt-out browser add-on</a>.</li>
+        <li>You can turn off personalized ads yourself in <a href="${ADS}" target="_blank" rel="noopener">Google Ad Settings (https://adssettings.google.com)</a>.</li>
+      </ul>
+      <h2 id="p5">5. Your rights</h2>
+      <p>You may request access to, correction of, or deletion of your personal information at any time. Send your request through the <a href="${contact}">Contact</a> page or to ${mail}, and we will handle it without delay.</p>`,
+    disclaimer: `<h2 id="disclaimer">6. Disclaimer</h2>
+        <p>This blog is an independently run brain science magazine for sharing information and general education.</p>
+        <ul>
+          <li><strong>Not a substitute for professional advice:</strong> all content (brain science, habits, sleep, exercise mechanisms, and more) is general educational information based on published research, and it cannot replace professional medical diagnosis, treatment, or legal or financial advice.</li>
+          <li><strong>Limitation of liability:</strong> the operator of this blog accepts no legal liability for decisions or actions taken by visitors based on the information here, or for their results.</li>
+          <li><strong>External links and timeliness:</strong> the operator is not responsible for the content or services of linked external websites. All content reflects information at the time of writing and may not automatically reflect later changes.</li>
+        </ul>`,
+    p7: `<h2 id="p7">7. Changes to this policy</h2>
+      <p>This policy may be revised when relevant laws or our operating policies change, and any changes will be announced on the site.</p>
+      <p>As of October 17, 2026, we use Google Analytics 4 to analyze visits, and this policy was revised accordingly. If this translation differs from the Korean original, the Korean version prevails.</p>`,
+    facts: [['Effective', 'October 17, 2026'], ['Website', `jes-lu.com (${SITE.name})`], ['Contact', mail]],
+  },
+  ja: {
+    title: 'プライバシーポリシーと免責事項',
+    description: `${SITE.name}のプライバシーポリシーと、医学・学術情報に関する免責事項です。`,
+    lede: `［${SITE.name}］が訪問者の情報をどのように取り扱うのか、そして当サイトのコンテンツをどう理解すべきかをご案内します。`,
+    tocLabel: 'ポリシーの目次', toc: '目次', effective: '施行日 2026年10月17日',
+    sections: ['収集する個人情報', '個人情報の利用目的', '個人情報の保管と廃棄', '第三者提供と Cookie について', '利用者の権利', '免責事項', 'プライバシーポリシーの変更'],
+    p1: `<h2 id="p1">1. 収集する個人情報</h2>
+      <p>当ブログ（jes-lu.com）は会員登録なしで運営しています。より良いサービスの提供、Google アドセンス広告の掲載、Google アナリティクス（Google Analytics 4）による訪問統計の分析のため、訪問時に次の情報が自動的に生成・収集されることがあります。</p>
+      <ul>
+        <li><strong>自動で収集される項目：</strong>IP アドレス、Cookie、訪問日時、ブラウザの種類、サービスの利用記録</li>
+        <li><strong>お問い合わせページのご利用時：</strong>お名前（ニックネーム）、メールアドレス（返信の目的にのみ使用）</li>
+        <li><strong>ブラウザのストレージ：</strong>記事の読了状況やリアクションは、訪問者の端末のブラウザストレージ（localStorage）にのみ保存され、サーバーへは送信されません。ブラウザのサイトデータを削除すれば、いつでも消去できます。</li>
+      </ul>
+      <h2 id="p2">2. 個人情報の利用目的</h2>
+      <p>収集した情報は、次の目的にのみ安全に使用します。</p>
+      <ul>
+        <li>サービス品質の維持、セキュリティ管理、コンテンツ環境の改善</li>
+        <li>読者からのお問い合わせの確認と返信</li>
+        <li>Google アドセンスによるパーソナライズ広告の掲載</li>
+        <li>Google アナリティクス（Google Analytics 4）による訪問者統計の分析</li>
+      </ul>
+      <h2 id="p3">3. 個人情報の保管と廃棄</h2>
+      <ul>
+        <li><strong>お問い合わせのメール情報：</strong>送信者から削除の依頼があったとき、またはお問い合わせへの返信が完了した時点で、ただちに廃棄します。</li>
+        <li><strong>アクセス記録と統計データ：</strong>Vercel のサーバーの標準的なデータセキュリティポリシーに従って管理し、訪問統計データは Google アナリティクスのデータ保持ポリシーにもあわせて従います。</li>
+      </ul>
+      <h2 id="p4">4. 第三者提供と Cookie について <span class="h-note">Google アドセンス規定</span></h2>
+      <p>当ブログは、原則として訪問者の個人情報を外部と共有しません。ただし、Google アドセンスおよび関連パートナーは Cookie を使用し、訪問者の過去のアクセス履歴に基づいてパーソナライズ広告を表示します。</p>
+      <ul>
+        <li>ブラウザの設定（設定 &gt; プライバシーとセキュリティ &gt; Cookie をブロック）から、Cookie の収集を拒否できます。</li>
+        <li>当ブログは訪問統計の分析のために Google アナリティクス（Google Analytics 4）を使用しています。Google アナリティクスは Cookie を通じて、閲覧したページ、滞在時間、端末とブラウザの種類、おおよその地域などを、個人を特定できない統計の形で収集します。</li>
+        <li><a href="${GA_OPTOUT}" target="_blank" rel="noopener">Google アナリティクス オプトアウト アドオン</a>を使って、統計の収集を拒否できます。</li>
+        <li><a href="${ADS}" target="_blank" rel="noopener">Google 広告設定（https://adssettings.google.com）</a>で、パーソナライズ広告をご自身で無効にできます。</li>
+      </ul>
+      <h2 id="p5">5. 利用者の権利</h2>
+      <p>訪問者はいつでも、ご自身の個人情報の閲覧・訂正・削除を求めることができます。<a href="${contact}">お問い合わせ</a>ページ、または ${mail} までご連絡いただければ、速やかに対応いたします。</p>`,
+    disclaimer: `<h2 id="disclaimer">6. 免責事項</h2>
+        <p>当ブログは、個人が運営する情報共有と学術的な教養を目的とした脳科学マガジンです。</p>
+        <ul>
+          <li><strong>専門家の助言に代わるものではありません：</strong>掲載しているすべてのコンテンツ（脳科学、習慣、睡眠、運動のしくみなど）は、論文や研究資料に基づく一般的な教養情報であり、医学的な診断・治療、法律・金融に関する専門的な助言に代わるものではありません。</li>
+          <li><strong>責任の制限：</strong>当ブログに掲載された情報を利用して訪問者が行った判断・行動およびその結果について、当ブログの運営者は法的責任を負いません。</li>
+          <li><strong>外部リンクと情報の時点：</strong>外部リンク先のウェブサイトの内容やサービスについて、運営者は責任を負いません。すべてのコンテンツは執筆時点の情報であり、その後の変更が自動的に反映されるわけではありません。</li>
+        </ul>`,
+    p7: `<h2 id="p7">7. プライバシーポリシーの変更</h2>
+      <p>本ポリシーは、関連法令の改正やサービス運営方針の変更に応じて改定されることがあり、その際はサイト上でお知らせします。</p>
+      <p>2026年10月17日より、訪問統計の分析のために Google アナリティクス（Google Analytics 4）を導入し、それにあわせて本ポリシーを改定しました。本翻訳と韓国語の原文に相違がある場合は、韓国語版が優先されます。</p>`,
+    facts: [['施行日', '2026年10月17日'], ['サイト', `jes-lu.com（${SITE.name}）`], ['お問い合わせ', mail]],
+  },
+}[lang];
+const ids = ['p1', 'p2', 'p3', 'p4', 'p5', 'disclaimer', 'p7'];
+const alternates = LANGS.map((l) => ({ lang: l, href: pagePath(l, '/privacy/') }));
+---
+<Page title={COPY.title} description={COPY.description} lede={COPY.lede} lang={lang} alternates={alternates}>
+  <LangSwitch slot="head" alternates={alternates} current={lang} label={t(lang).post.readIn} />
+  <div class="policy">
+    <nav class="policy-toc" aria-label={COPY.tocLabel}>
+      <p class="toc-head">{COPY.toc}</p>
+      <ol>
+        {COPY.sections.map((label, i) => <li><a href={`#${ids[i]}`}><span class="tabular">{i + 1}.</span> {label}</a></li>)}
+      </ol>
+      <p class="effective tabular">{COPY.effective}</p>
+    </nav>
+
+    <div class="doc">
+      <Fragment set:html={COPY.p1} />
+
+      <section class="disclaimer-section" aria-labelledby="disclaimer" set:html={COPY.disclaimer} />
+
+      <Fragment set:html={COPY.p7} />
+      <dl class="facts">
+        {COPY.facts.map(([dt, dd]) => <div><dt>{dt}</dt><dd set:html={dd} /></div>)}
+      </dl>
+    </div>
+  </div>
+</Page>
+
+<style>
+  .policy {
+    display: grid;
+    grid-template-columns: minmax(0, 16rem) minmax(0, var(--measure));
+    gap: clamp(2rem, 5vw, 4.5rem);
+    align-items: start;
+  }
+  .policy-toc {
+    position: sticky;
+    top: 1.5rem;
+    padding: 1.125rem 0.75rem 1rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
+  }
+  .toc-head { padding: 0 0.5rem 0.625rem; font-size: var(--text-sm); font-weight: 700; color: var(--ink); }
+  .policy-toc ol { list-style: none; display: grid; gap: 0.125rem; }
+  .policy-toc a {
+    display: block;
+    padding: 0.4375rem 0.625rem;
+    border-radius: var(--radius-sm);
+    font-size: var(--text-sm);
+    line-height: 1.5;
+    color: var(--muted);
+    text-decoration: none;
+    transition: color 150ms ease, background-color 150ms ease;
+  }
+  .policy-toc a span { color: var(--accent); font-weight: 700; }
+  .policy-toc a:hover { color: var(--ink); background: var(--sunk); }
+  .effective {
+    margin: 0.75rem 0.5rem 0;
+    padding-top: 0.875rem;
+    border-top: 1px solid var(--line);
+    font-size: var(--text-xs);
+    font-weight: 600;
+    color: var(--accent-strong);
+  }
+  .policy :global(.doc h2) { scroll-margin-top: 1.5rem; }
+  .policy :global(.doc a) { overflow-wrap: anywhere; }
+  .policy :global(.h-note) {
+    display: inline-flex;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+    padding: 0.125rem 0.5rem;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent-strong);
+    font-size: var(--text-xs);
+    font-weight: 600;
+    letter-spacing: 0;
+  }
+
+  .disclaimer-section {
+    margin-top: 2.75em;
+    padding: clamp(1.25rem, 3vw, 1.75rem);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
+  }
+  .disclaimer-section :global(h2) { margin-top: 0 !important; }
+  .disclaimer-section :global(ul) { margin-bottom: 0 !important; }
+
+  .facts {
+    margin: 0;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    overflow: hidden;
+    font-size: var(--text-ui);
+  }
+  .facts div { display: grid; grid-template-columns: 7rem 1fr; gap: 1rem; padding: 0.875rem 1.25rem; }
+  .facts div + div { border-top: 1px solid var(--line); }
+  .facts dt { font-weight: 700; color: var(--ink); }
+  .facts dd { margin: 0; color: var(--ink-soft); }
+
+  @media (max-width: 960px) {
+    .policy { grid-template-columns: minmax(0, 1fr); }
+    .policy-toc { position: static; }
+  }
+</style>

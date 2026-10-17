@@ -10,6 +10,17 @@ export const OG_LOCALE: Record<Lang, string> = { ko: 'ko_KR', en: 'en_US', ja: '
 export const HREFLANG: Record<Lang, string> = { ko: 'ko', en: 'en', ja: 'ja' };
 
 export const blogPath = (lang: Lang) => (lang === 'ko' ? '/blog/' : `/${lang}/blog/`);
+// 한국어 아티클 목록은 홈(/)이고, 영어 · 일본어는 /en/articles/ · /ja/articles/
+export const articlesPath = (lang: Lang) => (lang === 'ko' ? '/' : `/${lang}/articles/`);
+// 소개 · 문의 · 개인정보 처리방침 같은 공통 페이지의 언어별 주소 (path는 '/about/'처럼)
+export const pagePath = (lang: Lang, path: string) => (lang === 'ko' ? path : `/${lang}${path}`);
+
+// 아티클 카테고리 이름 (frontmatter에는 한국어 이름이 들어 있다)
+export const CATEGORY_LABEL: Record<Lang, Record<string, string>> = {
+  ko: { '뇌과학 기초': '뇌과학 기초', '뇌과학 이슈': '뇌과학 이슈', '습관 형성': '습관 형성', '수면 · 리듬': '수면 · 리듬' },
+  en: { '뇌과학 기초': 'Brain basics', '뇌과학 이슈': 'Brain science in the news', '습관 형성': 'Building habits', '수면 · 리듬': 'Sleep & rhythm' },
+  ja: { '뇌과학 기초': '脳科学の基礎', '뇌과학 이슈': '脳科学トピック', '습관 형성': '習慣づくり', '수면 · 리듬': '睡眠・リズム' },
+};
 
 export function formatDateFor(lang: Lang, d: Date) {
   if (lang === 'en') return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
@@ -72,6 +83,13 @@ export const ui = {
       otherPosts: '다른 글',
       backBlog: '블로그',
       older: '지난 글',
+      prev: '이전 글',
+      next: '다음 글',
+      backArticles: '모든 아티클',
+      anytime: '언제든',
+      relatedIn: (c: string) => `${c}의 다른 글`,
+      time: '시각',
+      category: '카테고리',
       newer: '최근 글',
       updated: '수정',
       published: '작성일',
@@ -109,7 +127,7 @@ export const ui = {
       email: 'Contact',
       title: 'Medical and scientific disclaimer',
       body: 'All content on this site is <strong>general information</strong> based on published research and professional guidelines, and it <strong>does not replace diagnosis, treatment, or prescriptions from a doctor or other professional.</strong> Results vary from person to person, so please consult a professional before making health decisions. The site accepts no legal liability for outcomes arising from the use of this information. In an emergency, contact your local emergency number right away.',
-      more: 'Read the full disclaimer (Korean)',
+      more: 'Read the full disclaimer',
     },
     disclaimer: {
       title: 'Medical and scientific disclaimer',
@@ -120,7 +138,7 @@ export const ui = {
         'If you have a medical condition or take medication, check with your doctor before making major changes to your habits.',
         'In an emergency, contact your <strong>local emergency number</strong> or go to the nearest emergency room.',
       ],
-      links: 'See the <a href="/privacy/#disclaimer">full disclaimer</a> and <a href="/privacy/">privacy policy</a> (in Korean).',
+      links: 'See the <a href="/en/privacy/#disclaimer">full disclaimer</a> and <a href="/en/privacy/">privacy policy</a>.',
       reviewed: (date: string) => `Information current as of ${date}. Newer research may change these conclusions.`,
       reviewedDate: (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
     },
@@ -146,6 +164,13 @@ export const ui = {
       otherPosts: 'More articles',
       backBlog: 'Blog',
       older: 'Older',
+      prev: 'Previous',
+      next: 'Next',
+      backArticles: 'All articles',
+      anytime: 'Anytime',
+      relatedIn: (c: string) => `More in ${c}`,
+      time: 'Time of day',
+      category: 'Category',
       newer: 'Newer',
       updated: 'Updated',
       published: 'Published',
@@ -183,7 +208,7 @@ export const ui = {
       email: 'お問い合わせ',
       title: '医学・学術情報に関する免責事項',
       body: '当サイトのすべてのコンテンツは、公開された研究や学会の推奨に基づく<strong>一般的な情報の提供</strong>を目的としており、医師などの専門家による<strong>診断・治療・処方に代わるものではありません。</strong>研究結果には個人差があるため、健康に関する判断は必ず専門家にご相談ください。当サイトの情報の利用によって生じた結果について、当サイトは法的責任を負いません。緊急時はすぐに救急へ連絡してください。',
-      more: '免責事項の全文（韓国語）',
+      more: '免責事項の全文を見る',
     },
     disclaimer: {
       title: '医学・学術情報に関する免責事項',
@@ -194,7 +219,7 @@ export const ui = {
         '持病がある方や服薬中の方は、生活習慣を大きく変える前に主治医にご相談ください。',
         '緊急時は、すぐに<strong>救急（119）</strong>へ連絡するか、最寄りの救急外来を受診してください。',
       ],
-      links: '<a href="/privacy/#disclaimer">免責事項の全文</a>と<a href="/privacy/">プライバシーポリシー</a>（韓国語）もあわせてご確認ください。',
+      links: '<a href="/ja/privacy/#disclaimer">免責事項の全文</a>と<a href="/ja/privacy/">プライバシーポリシー</a>もあわせてご確認ください。',
       reviewed: (date: string) => `情報の基準日：${date}。その後の新しい研究により内容が変わる可能性があります。`,
       reviewedDate: (d: Date) => `${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日`,
     },
@@ -220,6 +245,13 @@ export const ui = {
       otherPosts: 'ほかの記事',
       backBlog: 'ブログ',
       older: '前の記事',
+      prev: '前の記事',
+      next: '次の記事',
+      backArticles: 'すべての記事',
+      anytime: 'いつでも',
+      relatedIn: (c: string) => `「${c}」のほかの記事`,
+      time: '時間帯',
+      category: 'カテゴリー',
       newer: '新しい記事',
       updated: '更新',
       published: '公開日',

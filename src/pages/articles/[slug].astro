@@ -1,11 +1,9 @@
 ---
-import { getCollection, render } from 'astro:content';
-import PostLayout from '../../layouts/PostLayout.astro';
-import { SITE, formatDate, minutesOfDay } from '../../data/site';
+import ArticlePost from '../../components/articles/ArticlePost.astro';
+import { getArticles } from '../../data/articles';
 
 export async function getStaticPaths() {
-  const all = await getCollection('articles');
-  const ordered = all.sort((a, b) => (minutesOfDay(a.data.time) ?? 9999) - (minutesOfDay(b.data.time) ?? 9999));
+  const ordered = await getArticles('ko');
   return ordered.map((entry, i) => ({
     params: { slug: entry.id },
     props: {
@@ -16,49 +14,5 @@ export async function getStaticPaths() {
     },
   }));
 }
-
-const { entry, prev, next, related } = Astro.props;
-const { Content, headings } = await render(entry);
-const { title, description, category, time, moment, date, readMinutes } = entry.data;
-const url = `/articles/${entry.id}/`;
-
-type Entry = typeof entry;
-const pagerLink = (a: Entry | null) =>
-  a && { href: `/articles/${a.id}/`, title: a.data.title, badge: { text: a.data.time ?? '언제든', anytime: !a.data.time } };
-
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'Article',
-  headline: title,
-  description,
-  datePublished: date.toISOString(),
-  inLanguage: 'ko',
-  author: { '@type': 'Organization', name: SITE.name },
-  publisher: { '@type': 'Organization', name: SITE.name },
-  mainEntityOfPage: new URL(url, Astro.site).toString(),
-};
 ---
-<PostLayout
-  title={title}
-  description={description}
-  jsonLd={jsonLd}
-  url={url}
-  back={{ href: '/', label: '모든 아티클' }}
-  headings={headings}
-  storageKey={entry.id}
-  reviewed={date}
-  prev={pagerLink(prev)}
-  next={pagerLink(next)}
-  prevLabel="이전 글"
-  nextLabel="다음 글"
-  comic={entry.data.comic}
-  related={{ title: `${category}의 다른 글`, items: related.map((r) => ({ href: `/articles/${r.id}/`, title: r.data.title, note: `${r.data.readMinutes}분 읽기` })) }}
->
-  <Fragment slot="meta">
-    <div><dt class="visually-hidden">시각</dt><dd><span class:list={['time-mark', !time && 'anytime']}>{time ?? '언제든'}</span>{time && ` ${moment}`}</dd></div>
-    <div><dt class="visually-hidden">카테고리</dt><dd><span class="chip">{category}</span></dd></div>
-    <div><dt class="visually-hidden">발행일</dt><dd class="tabular"><time datetime={date.toISOString()}>{formatDate(date)}</time></dd></div>
-    <div><dt class="visually-hidden">읽는 시간</dt><dd class="tabular">{readMinutes}분 읽기</dd></div>
-  </Fragment>
-  <Content />
-</PostLayout>
+<ArticlePost {...Astro.props} />

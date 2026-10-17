@@ -6,8 +6,9 @@ import PostList, { type ListItem } from '../components/PostList.astro';
 import Icon from '../components/Icon.astro';
 import { CATEGORIES } from '../content.config';
 import { SITE, minutesOfDay } from '../data/site';
+import { LANGS, articlesPath } from '../i18n/ui';
 
-const all = await getCollection('articles');
+const all = await getCollection('articles', (a) => a.data.lang === 'ko');
 // 시각이 있는 글은 하루의 순서대로, '언제든' 글은 그 뒤에
 const articles = all.sort((a, b) => (minutesOfDay(a.data.time) ?? 9999) - (minutesOfDay(b.data.time) ?? 9999));
 const featured = articles.find((a) => a.data.featured) ?? articles[0];
@@ -35,7 +36,7 @@ const jsonLd = {
   url: Astro.site?.toString(),
 };
 ---
-<Base jsonLd={jsonLd}>
+<Base jsonLd={jsonLd} alternates={LANGS.map((lang) => ({ lang, href: articlesPath(lang) }))}>
   <section class="mast frame">
     <div class="wrap">
       <div class="mast-grid">

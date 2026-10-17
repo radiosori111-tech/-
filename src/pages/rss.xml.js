@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import { SITE } from '../data/site';
 
 export async function GET(context) {
-  const articles = (await getCollection('articles')).map((article) => ({
+  const articles = (await getCollection('articles', (a) => a.data.lang === 'ko')).map((article) => ({
     title: article.data.title,
     description: article.data.description,
     pubDate: article.data.date,

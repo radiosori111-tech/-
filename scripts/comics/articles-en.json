@@ -1,0 +1,56 @@
+{
+  "articles/en/dopamine-prediction": {
+    "title": "Dopamine signals prediction",
+    "panels": [
+      ["phone", "A ping, and my hand moves…", "When a notification sounds, it's almost impossible not to check."],
+      ["loop", "Light, then juice", "<strong>Dopamine</strong> tracks less pleasure than <strong>reward prediction error</strong>: the gap between expected and actual."],
+      ["steps", "A clear cue for good habits", "Put a <strong>clear cue</strong> in front of good habits, and clear away the cues for bad ones."],
+      ["calm", "Wanting ≠ liking", "Telling <strong>wanting</strong> apart from <strong>liking</strong> keeps you from being pulled along."]
+    ]
+  },
+  "articles/en/exercise-hippocampus": {
+    "title": "A year of walking grew the hippocampus",
+    "panels": [
+      ["tired", "I keep forgetting…", "With age, the <strong>hippocampus</strong>, the brain's memory hub, shrinks a little every year."],
+      ["nature", "Walking vs. stretching", "In a <strong>PNAS</strong> study, a year of <strong>aerobic walking</strong> grew the hippocampus by about <strong>2%</strong>."],
+      ["run", "Get off one stop early", "<strong>Walk one stop</strong> on the way home. Tie it to the same time each day and it becomes a habit."],
+      ["sprout", "Memory grows", "Exercise raises <strong>BDNF</strong>, which supports connections in the hippocampus."]
+    ]
+  },
+  "articles/en/habit-66-days": {
+    "title": "Not 21 days, and different for everyone",
+    "panels": [
+      ["tired", "Day 21, still hard…", "Despite the \"21 days to a habit\" claim, it can still feel hard."],
+      ["steps", "Median: 66 days", "Measured time to automaticity ranged from <strong>18 to 254 days</strong>, with a median of <strong>66</strong>."],
+      ["loop", "A situation, not a deadline", "Drop the deadline and attach the behavior to a <strong>situation: when and where</strong>."],
+      ["calm", "Missing a day is fine", "Skipping a day didn't matter. The <strong>basal ganglia</strong> slowly take over the automation."]
+    ]
+  },
+  "articles/en/morning-light": {
+    "title": "The power of 10 minutes of morning light",
+    "panels": [
+      ["sleep", "Can't fall asleep…", "The reason sleep comes late at night often lies in the morning."],
+      ["sunrise", "A 24-hour clock in the brain", "Morning light travels through cells in the eye to reset the <strong>body clock</strong> in the <strong>suprachiasmatic nucleus</strong>."],
+      ["nature", "10 minutes outside", "Get <strong>10 minutes of light outdoors</strong> after waking, and dim the lights in the evening."],
+      ["sleep", "Sleep, right on time", "At night, the <strong>pineal gland</strong> releases <strong>melatonin</strong> on schedule, and sleep arrives."]
+    ]
+  },
+  "articles/en/sleep-memory": {
+    "title": "Memories sorted while you sleep",
+    "panels": [
+      ["book", "I'll study all night", "Cutting sleep on a day you learned something can cost you what you studied."],
+      ["synapse", "The hippocampus replays it", "During <strong>slow-wave sleep</strong>, the <strong>hippocampus</strong> replays the day and moves it into long-term memory."],
+      ["sleep", "10 minutes of review", "<strong>Review for 10 minutes before bed</strong>, keep a fixed bedtime, and dim bright lights."],
+      ["focus", "Clear in the morning", "After <strong>7 or more hours</strong> of sleep, yesterday's learning stays more firmly."]
+    ]
+  },
+  "articles/en/ten-percent-myth": {
+    "title": "Only 10% of the brain?",
+    "panels": [
+      ["focus", "Unlock the hidden 90%?", "The \"10% of the brain\" claim beloved by movies and ads has no evidence behind it."],
+      ["synapse", "We use all of it", "The brain can't afford to leave parts idle; it selects the circuits it needs."],
+      ["book", "Practice a bit harder", "Practice at a <strong>slightly harder</strong> level, and take care of sleep and exercise."],
+      ["sprout", "It changes as you use it", "<strong>Neuroplasticity</strong>: like London taxi drivers' <strong>hippocampus</strong>, the brain changes with use."]
+    ]
+  }
+}

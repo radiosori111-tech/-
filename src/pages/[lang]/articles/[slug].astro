@@ -1,0 +1,24 @@
+---
+// 영어(/en/articles/…) · 일본어(/ja/articles/…) 아티클
+import ArticlePost from '../../../components/articles/ArticlePost.astro';
+import { getArticles, articleSlug } from '../../../data/articles';
+import { LANGS, DEFAULT_LANG } from '../../../i18n/ui';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const lang of LANGS.filter((l) => l !== DEFAULT_LANG)) {
+    const ordered = await getArticles(lang);
+    paths.push(...ordered.map((entry, i) => ({
+      params: { lang, slug: articleSlug(entry) },
+      props: {
+        entry,
+        prev: ordered[i - 1] ?? null,
+        next: ordered[i + 1] ?? null,
+        related: ordered.filter((o) => o.id !== entry.id && o.data.category === entry.data.category).slice(0, 2),
+      },
+    })));
+  }
+  return paths;
+}
+---
+<ArticlePost {...Astro.props} />

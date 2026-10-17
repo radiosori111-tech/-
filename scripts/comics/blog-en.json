@@ -1,0 +1,83 @@
+{
+  "blog/en/the-most-enjoyable-way-to-keep-your-brain-young": {
+    "title": "Fun routines for a brain that stays young",
+    "panels": [
+      ["tired", "It's on the tip of my tongue…", "When the word you meant to say keeps vanishing, you start to worry about your brain."],
+      ["synapse", "It changes at any age", "<strong>Neuroplasticity</strong> responds to new stimulation regardless of age."],
+      ["book", "Music, art, a new language", "Hands-on <strong>music and art</strong> and learning a <strong>foreign language</strong> switch the brain back on."],
+      ["sleep", "Sleep and people, too", "<strong>Sleep</strong> is the brain's cleaning time, and <strong>connecting with people</strong> nourishes the <strong>hippocampus</strong>."]
+    ]
+  },
+  "blog/en/nature-heals-the-brain-15-minute-habit": {
+    "title": "15 minutes in nature reboots the brain",
+    "panels": [
+      ["phone", "My head is overloaded", "Spending <strong>directed attention</strong> on work and phones all day wears out the <strong>prefrontal cortex</strong>."],
+      ["nature", "Nature lets it rest", "Rustling leaves and birdsong engage effortless <strong>soft fascination</strong>."],
+      ["nature", "A 15-minute green walk", "Start with a <strong>15-minute walk</strong>, a plant on your desk, and <strong>5 minutes gazing out the window</strong>."],
+      ["calm", "Focus, switched back on", "<strong>Cortisol</strong> drops, and attention, memory, and emotional balance recover."]
+    ]
+  },
+  "blog/en/weak-willpower-muscle-aerobic-vs-strength-training": {
+    "title": "Was muscle behind weak willpower?",
+    "panels": [
+      ["tired", "I just lack willpower…", "I believed exercise was for the body and books were for the brain."],
+      ["sprout", "Signals from muscle", "Muscles release <strong>myokines</strong> that lower inflammation and slow brain aging."],
+      ["lift", "Aerobic + strength", "Running supports the <strong>hippocampus</strong> and <strong>BDNF</strong>; lifting supports the <strong>prefrontal cortex</strong>. <strong>Do both.</strong>"],
+      ["focus", "Stronger willpower", "The brain function closest to willpower grows stronger, and <strong>crystallized intelligence</strong> is protected."]
+    ]
+  },
+  "blog/en/burnout-the-brain-needs-a-switch-not-persuasion": {
+    "title": "The brain needs a switch, not persuasion",
+    "panels": [
+      ["tired", "Pull yourself together…", "No matter how often I repeated my resolutions, the burnout didn't lift."],
+      ["synapse", "What green algae taught us", "<strong>Optogenetics</strong>: shine light on <strong>channelrhodopsin</strong> and a brain circuit switches on."],
+      ["focus", "30 seconds of visualization", "Wellness routines like <strong>30 seconds of visualization before exercise</strong> act directly on brain circuits."],
+      ["calm", "A switch, not persuasion", "Actions that switch on the <strong>reward circuit</strong> come before resolutions."]
+    ]
+  },
+  "blog/en/pro-gamer-brain-mri-trained-brain": {
+    "title": "A trained brain chooses better",
+    "panels": [
+      ["phone", "Does gaming ruin the brain?", "How did the brains of pro gamers who play 10 hours a day change?"],
+      ["focus", "A brain that filters better", "MRIs of 23 LCK players: the <strong>insula</strong> and <strong>anterior cingulate cortex</strong> changed toward \"choosing better.\""],
+      ["book", "Simulate, then output", "Rehearse in your head first, focus on internal senses, and favor <strong>output</strong> over input."],
+      ["steps", "Structure over hours", "What changes the brain is not <strong>the amount of time</strong> but <strong>the structure of training</strong>."]
+    ]
+  },
+  "blog/en/brain-coordinate-systems-exercise-and-learning": {
+    "title": "Learning with your own body as the origin",
+    "panels": [
+      ["lift", "Hurt again…", "Exercising by watching only your form in the mirror, without feeling it, invites injury."],
+      ["focus", "The brain's two coordinate systems", "The brain processes the world in <strong>allocentric</strong> and <strong>egocentric</strong> coordinates at once."],
+      ["lift", "Focus on the muscle!", "<strong>Mind-Muscle Connection</strong>: bring your attention to the feeling of the muscle you're using."],
+      ["book", "Memorize with your body", "<strong>Embodied learning</strong>, like memorizing while walking, stays longer in the <strong>hippocampus</strong>."]
+    ]
+  },
+  "blog/en/sunlight-focus-and-brain-function": {
+    "title": "Sunlight before coffee",
+    "panels": [
+      ["tired", "Another coffee…", "When focus slips, we reach for coffee first."],
+      ["sunrise", "Clock cells in the eye", "Cells in the eye take in light to wake the brain; bright daylight made <strong>reaction times 7–10% faster</strong>."],
+      ["nature", "Get light during the day", "Build a routine of getting <strong>sunlight</strong> outdoors in the morning and during the day."],
+      ["focus", "A clearer afternoon", "Your <strong>circadian rhythm</strong> aligns, and focus returns along with <strong>dopamine</strong>."]
+    ]
+  },
+  "blog/en/new-path-for-dementia-treatment-gap-pathway-hormesis": {
+    "title": "When poison becomes medicine",
+    "panels": [
+      ["clean", "The cleanup stopped", "When the brain's immune cells can't clear <strong>amyloid</strong>, the risk of dementia rises."],
+      ["shield", "The power of microglia", "<strong>Microglia</strong> are the brain's cleaners. A KIST–Boston University team found a new pathway."],
+      ["synapse", "The GAP pathway and hormesis", "<strong>Quinolinic acid</strong>, known as a toxin, boosts their cleaning ability at low concentrations."],
+      ["calm", "A new lead for treatment", "<strong>Hormesis</strong>, the idea that moderate stress builds resilience, is leading into treatment research."]
+    ]
+  },
+  "blog/en/brain-fog-chronic-fatigue-brain-immunity-glia-gut-brain-axis": {
+    "title": "Brain fog: the problem is brain immunity",
+    "panels": [
+      ["tired", "Foggy even after 8 hours…", "If your head stays foggy and your stomach bloated even after good sleep, it may be a different signal."],
+      ["shield", "The brain's caretakers", "<strong>Glial cells</strong> (<strong>microglia</strong> and <strong>astrocytes</strong>) handle the brain's immunity and cleanup."],
+      ["gut", "A leaky gut inflames the brain", "<strong>Gut-brain axis</strong>: a leaky gut can lead to brain inflammation. Start with an <strong>anti-inflammatory diet</strong>."],
+      ["clean", "A clearer head", "When the <strong>glymphatic system</strong> runs well, waste drains away and your head feels refreshed."]
+    ]
+  }
+}

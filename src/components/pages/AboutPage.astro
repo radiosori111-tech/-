@@ -1,0 +1,192 @@
+---
+// 소개 페이지 (한국어 /about/, 영어 /en/about/, 일본어 /ja/about/)
+import Page from '../../layouts/Page.astro';
+import Icon from '../Icon.astro';
+import LangSwitch from '../LangSwitch.astro';
+import { CATEGORIES } from '../../content.config';
+import { SITE } from '../../data/site';
+import { getArticles } from '../../data/articles';
+import { t, LANGS, pagePath, CATEGORY_LABEL, type Lang } from '../../i18n/ui';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const articles = await getArticles(lang);
+const privacy = pagePath(lang, '/privacy/');
+
+const COPY = {
+  ko: {
+    title: '소개',
+    lede: "'믿음의 게임, 실행'은 복잡한 뇌과학을 쉽게 풀어, 일상에서 바로 실천할 수 있는 습관으로 옮기는 정보 사이트입니다.",
+    count: (n: number) => `${n}편`,
+    topics: {
+      '뇌과학 기초': '뉴런, 신경전달물질, 기억과 학습처럼 뇌가 일하는 기본 원리를 다룹니다.',
+      '뇌과학 이슈': '새로 발표된 연구, 널리 퍼진 오해, 화제가 된 주장을 근거와 함께 검토합니다.',
+      '습관 형성': '행동이 자동화되는 과정과, 연구로 검증된 습관 설계 방법을 정리합니다.',
+      '수면 · 리듬': '생체시계, 빛, 잠이 뇌와 하루의 컨디션을 어떻게 좌우하는지 살펴봅니다.',
+    } as Record<string, string>,
+    intro: `<h2>왜 이 사이트를 만들었나</h2>
+      <p>좋은 습관을 만들고 싶다는 마음은 누구에게나 있습니다. 하지만 '아침형 인간이 되는 법', '도파민 디톡스' 같은 조언은 넘쳐나는 반면, 그 조언이 어떤 근거에서 나왔는지, 정말 내 뇌에서도 그렇게 작동하는지 알려 주는 글은 많지 않습니다.</p>
+      <p>이 사이트는 그 빈자리를 채우기 위해 만들었습니다. 뇌과학 연구가 실제로 말하는 것을 쉬운 말로 옮기고, 그 지식을 오늘 할 수 있는 작은 행동으로 바꾸는 것이 목표입니다. 사이트 이름의 <strong>'믿음의 게임'</strong>은 변화가 가능하다는 믿음을, <strong>'실행'</strong>은 그 믿음을 현실로 만드는 반복을 뜻합니다.</p>
+      <h2>무엇을 다루나</h2>
+      <p>모든 글은 하루의 흐름 위에 놓입니다. 아침 햇빛, 퇴근 후 걷기, 잠자리에 들 때처럼 그 습관이 실제로 일어나는 시각을 함께 표시해, 읽은 내용을 언제 실천하면 좋을지 바로 떠올릴 수 있도록 했습니다. 시간과 관계없는 주제는 '언제든'으로 표시합니다.</p>`,
+    rest: `<h2>콘텐츠 원칙</h2>
+      <p>${SITE.name}의 콘텐츠 철학은 한 문장으로 요약됩니다. <strong>복잡한 뇌과학 정보를 쉽게 풀어내어, 실전에 활용 가능한 팩트 기반 정보를 제공한다.</strong> 이를 위해 글을 쓸 때 다음 원칙을 지킵니다.</p>
+      <ol>
+        <li><strong>출처를 밝힙니다.</strong> 학술지에 실린 연구, 학회와 공공기관의 공식 권고를 우선해 참고하고, 모든 글 끝에 참고 문헌을 적습니다.</li>
+        <li><strong>연구가 말한 만큼만 말합니다.</strong> 동물 실험의 결과를 사람에게 그대로 옮기거나, 상관관계를 인과관계처럼 쓰지 않습니다. 연구 대상과 한계를 함께 적습니다.</li>
+        <li><strong>과장하지 않습니다.</strong> '뇌를 해킹한다', '단숨에 바뀐다' 같은 표현을 쓰지 않습니다. 습관의 변화는 대개 느리고, 그 사실을 솔직하게 전합니다.</li>
+        <li><strong>실행으로 끝맺습니다.</strong> 모든 글은 오늘 바로 해볼 수 있는 구체적인 행동인 '오늘의 실행'으로 마무리합니다.</li>
+        <li><strong>바로잡습니다.</strong> 글에서 오류를 발견하거나 더 정확한 연구가 나오면 내용을 고칩니다. 오류 제보는 언제든 환영합니다.</li>
+      </ol>
+      <h2>건강 정보에 관한 안내</h2>
+      <p>이 사이트의 글은 일반적인 정보 제공과 교육을 위한 것이며, 의사나 전문가의 진단, 치료, 상담을 대신하지 않습니다. 수면 장애, 우울감, 집중력 문제 등이 일상에 지장을 줄 정도라면 반드시 전문의와 상담하세요.</p>
+      <h2>광고에 관하여</h2>
+      <p>이 사이트는 운영을 위해 Google 애드센스 등 제3자 광고를 게재할 수 있습니다. 광고는 글의 내용이나 주제 선정에 영향을 주지 않으며, 광고와 본문은 명확히 구분해 표시합니다. 광고와 쿠키에 관한 자세한 내용은 <a href="${privacy}">개인정보 처리방침 및 면책조항</a>에서 확인할 수 있습니다.</p>`,
+    reachTitle: '의견을 기다립니다',
+    reachBody: '다뤄 줬으면 하는 주제, 글에 대한 질문, 오류 제보, 제휴 문의 모두 환영합니다.',
+    reachCta: '문의 남기기',
+  },
+  en: {
+    title: 'About',
+    lede: 'Mideum-ui Geim, Silhaeng ("The Game of Belief, Action") translates complex brain science into plain language — and into habits you can put into practice in everyday life.',
+    count: (n: number) => `${n} ${n === 1 ? 'article' : 'articles'}`,
+    topics: {
+      '뇌과학 기초': 'The basic principles of how the brain works: neurons, neurotransmitters, memory, and learning.',
+      '뇌과학 이슈': 'New studies, widespread myths, and much-talked-about claims, examined against the evidence.',
+      '습관 형성': 'How behavior becomes automatic, and research-tested ways to design habits.',
+      '수면 · 리듬': 'How the body clock, light, and sleep shape the brain and the way each day feels.',
+    } as Record<string, string>,
+    intro: `<h2>Why this site exists</h2>
+      <p>Everyone wants to build better habits. Advice like "how to become a morning person" or "dopamine detox" is everywhere, but few articles explain where that advice comes from, or whether it really works the same way in your own brain.</p>
+      <p>This site was made to fill that gap. The goal is to put what brain research actually says into plain words, and to turn that knowledge into small actions you can take today. In the site's name, <strong>"the game of belief"</strong> stands for the belief that change is possible, and <strong>"action"</strong> for the repetition that turns that belief into reality.</p>
+      <h2>What we cover</h2>
+      <p>Every article sits on the timeline of a day. We mark the moment when a habit actually happens — morning light, an after-work walk, the time you go to bed — so you can picture right away when to put what you read into practice. Topics that aren't tied to a time of day are marked "Anytime."</p>`,
+    rest: `<h2>Our content principles</h2>
+      <p>Our editorial philosophy fits in one sentence: <strong>explain complex brain science simply, and offer fact-based information you can actually use.</strong> To do that, we follow these principles.</p>
+      <ol>
+        <li><strong>We cite our sources.</strong> We rely first on peer-reviewed research and official guidance from professional societies and public institutions, and every article ends with its references.</li>
+        <li><strong>We say only as much as the research does.</strong> We don't apply animal findings directly to people, and we don't present correlation as causation. We note who was studied and the limits of each study.</li>
+        <li><strong>We don't exaggerate.</strong> You won't find phrases like "hack your brain" or "change overnight" here. Habits usually change slowly, and we say so honestly.</li>
+        <li><strong>We end with action.</strong> Every article closes with "Today's practice": concrete steps you can try right away.</li>
+        <li><strong>We correct mistakes.</strong> When we find an error or more accurate research appears, we update the article. Error reports are always welcome.</li>
+      </ol>
+      <h2>About health information</h2>
+      <p>Articles on this site are for general information and education, and they do not replace diagnosis, treatment, or advice from a doctor or other professional. If sleep problems, low mood, or difficulty concentrating are getting in the way of daily life, please see a specialist.</p>
+      <h2>About advertising</h2>
+      <p>To support its operation, this site may display third-party ads such as Google AdSense. Ads do not influence the content of articles or the choice of topics, and they are clearly separated from the text. For details on ads and cookies, see our <a href="${privacy}">privacy policy and disclaimer</a>.</p>`,
+    reachTitle: "We'd love to hear from you",
+    reachBody: 'Topic suggestions, questions about an article, error reports, and partnership inquiries are all welcome.',
+    reachCta: 'Get in touch',
+  },
+  ja: {
+    title: '紹介',
+    lede: '「信じるゲーム、実行（믿음의 게임, 실행）」は、難しい脳科学をやさしく解きほぐし、毎日すぐに実践できる習慣へと置き換える情報サイトです。',
+    count: (n: number) => `${n}件`,
+    topics: {
+      '뇌과학 기초': 'ニューロン、神経伝達物質、記憶と学習など、脳がはたらく基本のしくみを扱います。',
+      '뇌과학 이슈': '新しく発表された研究、広まった誤解、話題の主張を、根拠とともに検証します。',
+      '습관 형성': '行動が自動化されていく過程と、研究で確かめられた習慣づくりの方法をまとめます。',
+      '수면 · 리듬': '体内時計、光、睡眠が、脳と一日のコンディションをどう左右するのかを見ていきます。',
+    } as Record<string, string>,
+    intro: `<h2>このサイトをつくった理由</h2>
+      <p>よい習慣を身につけたいという気持ちは、誰にでもあるものです。けれど「朝型人間になる方法」「ドーパミン・デトックス」といったアドバイスはあふれている一方で、そのアドバイスがどんな根拠から来ているのか、本当に自分の脳でもそのとおりに働くのかを教えてくれる記事は多くありません。</p>
+      <p>このサイトは、その空白を埋めるためにつくりました。脳科学の研究が実際に語っていることをやさしい言葉に置き換え、その知識を今日できる小さな行動に変えることが目標です。サイト名の<strong>「信じるゲーム」</strong>は変われるという信念を、<strong>「実行」</strong>はその信念を現実にする繰り返しを意味しています。</p>
+      <h2>扱うテーマ</h2>
+      <p>すべての記事は、一日の流れの上に置かれています。朝の光、仕事帰りのウォーキング、眠りにつくときなど、その習慣が実際に起こる時間帯をあわせて示し、読んだ内容をいつ実践すればよいかすぐに思い浮かべられるようにしました。時間帯に関係のないテーマは「いつでも」と表示しています。</p>`,
+    rest: `<h2>コンテンツの原則</h2>
+      <p>${SITE.name}のコンテンツの考え方は、ひと言にまとめられます。<strong>難しい脳科学をやさしく解きほぐし、実生活で使える、事実に基づいた情報を届けること。</strong>そのために、記事を書くときには次の原則を守っています。</p>
+      <ol>
+        <li><strong>出典を明らかにします。</strong>学術誌に掲載された研究や、学会・公的機関の公式な推奨を優先して参照し、すべての記事の最後に参考文献を記します。</li>
+        <li><strong>研究が語っている範囲だけを語ります。</strong>動物実験の結果をそのまま人に当てはめたり、相関関係を因果関係のように書いたりしません。研究の対象と限界もあわせて記します。</li>
+        <li><strong>誇張しません。</strong>「脳をハックする」「一瞬で変わる」といった表現は使いません。習慣の変化はたいていゆっくりで、その事実を正直にお伝えします。</li>
+        <li><strong>実行で締めくくります。</strong>すべての記事は、今日すぐに試せる具体的な行動「今日の実践」で終わります。</li>
+        <li><strong>誤りは正します。</strong>記事に誤りが見つかったり、より正確な研究が出たりしたときは内容を改めます。誤りのご指摘はいつでも歓迎します。</li>
+      </ol>
+      <h2>健康情報についてのご案内</h2>
+      <p>当サイトの記事は一般的な情報提供と教育を目的としたもので、医師や専門家による診断・治療・相談に代わるものではありません。睡眠の問題、気分の落ち込み、集中力の低下などが日常生活に支障をきたすほどであれば、必ず専門医にご相談ください。</p>
+      <h2>広告について</h2>
+      <p>当サイトは運営のため、Google アドセンスなどの第三者広告を掲載することがあります。広告が記事の内容やテーマの選定に影響することはなく、広告と本文ははっきり区別して表示します。広告と Cookie についての詳細は、<a href="${privacy}">プライバシーポリシーと免責事項</a>をご覧ください。</p>`,
+    reachTitle: 'ご意見をお待ちしています',
+    reachBody: '取り上げてほしいテーマ、記事へのご質問、誤りのご指摘、提携のご相談など、なんでも歓迎します。',
+    reachCta: 'お問い合わせ',
+  },
+}[lang];
+const alternates = LANGS.map((l) => ({ lang: l, href: pagePath(l, '/about/') }));
+---
+<Page title={COPY.title} lede={COPY.lede} lang={lang} alternates={alternates}>
+  <LangSwitch slot="head" alternates={alternates} current={lang} label={t(lang).post.readIn} />
+  <div class="about">
+    <div class="doc" set:html={COPY.intro} />
+
+    <dl class="topics">
+      {CATEGORIES.map((c) => (
+        <div>
+          <dt>{CATEGORY_LABEL[lang][c]} <span class="tabular">{COPY.count(articles.filter((a) => a.data.category === c).length)}</span></dt>
+          <dd>{COPY.topics[c]}</dd>
+        </div>
+      ))}
+    </dl>
+
+    <div class="doc" set:html={COPY.rest} />
+
+    <aside class="reach frame" aria-labelledby="reach-title">
+      <h2 id="reach-title">{COPY.reachTitle}</h2>
+      <p>{COPY.reachBody}</p>
+      <div class="reach-actions">
+        <a class="btn btn-primary" href={pagePath(lang, '/contact/')}><Icon name="mail" /> {COPY.reachCta}</a>
+        <a class="btn btn-secondary" href={`mailto:${SITE.email}`}>{SITE.email}</a>
+      </div>
+    </aside>
+  </div>
+</Page>
+
+<style>
+  .about { display: grid; gap: 0; }
+  @media (min-width: 1100px) {
+    .about {
+      grid-template-columns: minmax(0, 1fr) minmax(18rem, 21rem);
+      column-gap: clamp(3rem, 6vw, 5rem);
+      align-items: start;
+    }
+    .about > :not(.reach) { grid-column: 1; }
+    .reach { grid-column: 2; grid-row: 1 / span 3; position: sticky; top: 1.5rem; margin-top: 0 !important; }
+  }
+  .topics {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    max-width: none;
+    margin: 0.5rem 0 3.25rem;
+  }
+  .topics div {
+    padding: 1.375rem 1.5rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
+  }
+  .topics dt { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; font-weight: 700; letter-spacing: -0.02em; }
+  .topics dt span {
+    padding: 0.0625rem 0.5rem;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent-strong);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .topics dd { margin: 0.5rem 0 0; color: var(--muted); line-height: 1.7; font-size: var(--text-ui); }
+
+  .reach {
+    margin-top: 3rem;
+    padding: clamp(1.75rem, 4vw, 2.5rem);
+    border-radius: var(--radius-lg);
+  }
+  .reach h2 { font-size: var(--text-2xl); font-weight: 700; letter-spacing: -0.03em; }
+  .reach p { margin-top: 0.625rem; color: var(--frame-muted); line-height: 1.75; }
+  .reach-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }
+
+  @media (max-width: 640px) {
+    .topics { grid-template-columns: 1fr; gap: 0.75rem; }
+  }
+</style>
