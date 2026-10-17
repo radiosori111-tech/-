@@ -1,0 +1,142 @@
+---
+// 글 머리의 4컷 만화 (1컷 상황 → 2컷 원리 → 3컷 실천 → 4컷 변화).
+// 컷은 정사각형이라 scripts/export-comic.mjs로 한 컷씩 1080×1080 이미지로 뽑아
+// 인스타그램 · 네이버 클립에도 그대로 쓸 수 있다.
+import Scene from './Scene.astro';
+import { t, DEFAULT_LANG, type Lang } from '../../i18n/ui';
+
+interface Panel {
+  scene?: 'alarm' | 'metronome' | 'sigh' | 'calm';
+  image?: string;
+  alt: string;
+  label: string;
+  caption: string;
+  bubble?: string;
+}
+interface Props {
+  comic: { title?: string; panels: Panel[] };
+  lang?: Lang;
+}
+const { comic, lang = DEFAULT_LANG } = Astro.props;
+---
+<section class="comic" aria-labelledby="comic-title" data-comic>
+  <header class="comic-head">
+    <p class="comic-kicker">{t(lang).post.comic}</p>
+    {comic.title && <h2 id="comic-title" class="comic-title">{comic.title}</h2>}
+  </header>
+  <ol class="comic-grid">
+    {comic.panels.map((p, i) => (
+      <li class="comic-panel" data-panel={i + 1}>
+        <p class="panel-label"><span class="panel-no tabular">{i + 1}</span>{p.label}</p>
+        <figure class="panel-art">
+          {p.image ? <img src={p.image} alt={p.alt} loading="lazy" decoding="async" /> : p.scene && <Scene scene={p.scene} />}
+          {!p.image && <figcaption class="visually-hidden">{p.alt}</figcaption>}
+          {p.bubble && <p class="panel-bubble">{p.bubble}</p>}
+        </figure>
+        <p class="panel-caption" set:html={p.caption} />
+      </li>
+    ))}
+  </ol>
+</section>
+
+<style>
+  .comic { margin: 0 0 2.75rem; }
+  .comic-head { margin-bottom: 1rem; }
+  .comic-kicker { margin: 0 !important; font-size: var(--text-sm); font-weight: 700; color: var(--accent-strong); letter-spacing: -0.01em; }
+  .comic-title {
+    margin: 0.25rem 0 0 !important;
+    font-size: var(--text-xl) !important;
+    line-height: 1.4 !important;
+    letter-spacing: -0.03em;
+    color: var(--ink);
+  }
+
+  .comic-grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+    margin: 0 !important;
+    padding: 0 !important;
+    counter-reset: none;
+  }
+  .comic-panel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    aspect-ratio: 1 / 1;
+    margin: 0 !important;
+    padding: 1rem 1rem 1.125rem !important;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+  }
+  .panel-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 !important;
+    font-size: var(--text-xs);
+    font-weight: 700;
+    line-height: 1.4;
+    color: var(--muted);
+  }
+  .panel-no {
+    display: grid;
+    place-items: center;
+    width: 1.375rem; height: 1.375rem;
+    border-radius: 999px;
+    background: var(--frame);
+    color: #fff;
+    font-size: 0.75rem;
+  }
+  .panel-art {
+    position: relative;
+    flex: 1;
+    min-height: 0;
+    margin: 0.5rem 0 0;
+    padding: 0.25rem 0.5rem;
+  }
+  .panel-art img { width: 100%; height: 100%; object-fit: contain; border-radius: 0; background: none; }
+  .panel-bubble {
+    position: absolute;
+    top: 0.25rem;
+    left: 0.25rem;
+    max-width: 62%;
+    margin: 0 !important;
+    padding: 0.4375rem 0.75rem;
+    border: 1.5px solid var(--ink);
+    border-radius: 14px 14px 14px 4px;
+    background: var(--surface);
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: 1.45;
+    color: var(--ink);
+    text-align: left;
+  }
+  .panel-caption {
+    margin: 0.5rem 0 0 !important;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    letter-spacing: -0.01em;
+  }
+  .panel-caption :global(strong) { color: var(--ink); font-weight: 700; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .comic-panel { animation: panel-in 420ms var(--ease-out) both; }
+    .comic-panel:nth-child(2) { animation-delay: 70ms; }
+    .comic-panel:nth-child(3) { animation-delay: 140ms; }
+    .comic-panel:nth-child(4) { animation-delay: 210ms; }
+  }
+  @keyframes panel-in { from { opacity: 0; transform: translateY(8px); } }
+
+  @media (max-width: 560px) {
+    .comic-grid { grid-template-columns: minmax(0, 1fr); gap: 0.875rem; }
+    .comic-panel { padding: 1.125rem 1.125rem 1.25rem !important; }
+    .panel-caption { font-size: 0.9375rem; }
+    .panel-bubble { font-size: 0.875rem; }
+  }
+</style>

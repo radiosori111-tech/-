@@ -6,6 +6,9 @@ import Base from './Base.astro';
 import Icon from '../components/Icon.astro';
 import Disclaimer from '../components/Disclaimer.astro';
 import AdSense from '../components/AdSense.astro';
+import Comic from '../components/comic/Comic.astro';
+import LangSwitch from '../components/LangSwitch.astro';
+import { t, DEFAULT_LANG, type Lang, type Alternate } from '../i18n/ui';
 import { SITE } from '../data/site';
 
 interface PagerLink {
@@ -32,19 +35,23 @@ interface Props {
   prevLabel: string;
   nextLabel: string;
   related?: { title: string; items: { href: string; title: string; note: string }[] };
+  lang?: Lang;
+  alternates?: Alternate[];
+  comic?: { title?: string; panels: { scene?: 'alarm' | 'metronome' | 'sigh' | 'calm'; image?: string; alt: string; label: string; caption: string; bubble?: string }[] };
 }
 
 const {
   title, description, jsonLd, image, url, back, headings, storageKey, reviewed,
-  tags = [], prev, next, prevLabel, nextLabel, related,
+  tags = [], prev, next, prevLabel, nextLabel, related, lang = DEFAULT_LANG, alternates = [], comic,
 } = Astro.props;
+const tr = t(lang).post;
 const pageUrl = new URL(url, Astro.site).toString();
 
 // 소제목이 두 개 이상인 단계로 목차를 만든다 (h2가 없는 글은 h3로)
 const level = [2, 3].find((d) => headings.filter((h) => h.depth === d).length >= 2);
 const toc = level ? headings.filter((h) => h.depth === level) : [];
 ---
-<Base title={title} description={description} type="article" jsonLd={jsonLd} image={image}>
+<Base title={title} description={description} type="article" jsonLd={jsonLd} image={image} lang={lang} alternates={alternates}>
   <div class:list={['post-page', toc.length === 0 && 'is-narrow']}>
     <header class="art-head frame">
       <div class="wrap head-inner">
@@ -54,6 +61,7 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
         <dl class="meta">
           <slot name="meta" />
         </dl>
+        <LangSwitch alternates={alternates} current={lang} label={tr.readIn} />
       </div>
     </header>
 
@@ -70,7 +78,7 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
         {toc.length > 0 && (
           <aside class="toc" aria-labelledby="toc-title">
             <details class="toc-box" open data-toc>
-              <summary id="toc-title"><Icon name="list" /> 목차<span class="toc-chevron"><Icon name="chevron-down" /></span></summary>
+              <summary id="toc-title"><Icon name="list" /> {tr.toc}<span class="toc-chevron"><Icon name="chevron-down" /></span></summary>
               <ol>
                 {toc.map((h) => <li><a href={`#${h.slug}`} data-toc-link={h.slug}>{h.text}</a></li>)}
               </ol>
@@ -81,42 +89,43 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
         <article class="prose" data-article data-key={storageKey}>
           <div class="resume" data-resume hidden>
             <Icon name="flag" />
-            <p>지난번 <strong class="tabular" data-resume-pct></strong> 지점에서 멈추셨어요.</p>
-            <button type="button" class="btn btn-secondary btn-sm" data-resume-go>이어 읽기</button>
+            <p set:html={tr.resume('<span data-resume-pct></span>')} />
+            <button type="button" class="btn btn-secondary btn-sm" data-resume-go>{tr.resumeGo}</button>
           </div>
 
-          <AdSense slot={SITE.adSlots.postTop} label="글 상단" />
+          {comic && <Comic comic={comic} lang={lang} />}
+          <AdSense slot={SITE.adSlots.postTop} label="글 상단" lang={lang} />
           <slot />
-          <AdSense slot={SITE.adSlots.postBottom} label="글 하단" />
+          <AdSense slot={SITE.adSlots.postBottom} label="글 하단" lang={lang} />
 
           {tags.length > 0 && (
-            <ul class="tags" aria-label="태그">
+            <ul class="tags" aria-label={tr.tags}>
               {tags.map((t) => <li class="chip">#{t}</li>)}
             </ul>
           )}
 
-          <Disclaimer reviewed={reviewed} />
+          <Disclaimer reviewed={reviewed} lang={lang} />
 
           <section class="respond" aria-labelledby="respond-title">
-            <h2 id="respond-title" class="respond-title">이 글이 도움이 되었나요?</h2>
-            <div class="react" role="group" aria-label="글에 대한 반응">
-              <button type="button" class="react-btn" aria-pressed="false" data-react="helpful"><Icon name="heart" /> 도움이 됐어요</button>
-              <button type="button" class="react-btn" aria-pressed="false" data-react="try"><Icon name="spark" /> 오늘 실천해 볼게요</button>
+            <h2 id="respond-title" class="respond-title">{tr.respond}</h2>
+            <div class="react" role="group" aria-label={tr.reactGroup}>
+              <button type="button" class="react-btn" aria-pressed="false" data-react="helpful"><Icon name="heart" /> {tr.helpful}</button>
+              <button type="button" class="react-btn" aria-pressed="false" data-react="try"><Icon name="spark" /> {tr.tryIt}</button>
             </div>
-            <p class="react-note">선택은 이 브라우저에만 저장되며, 어디에도 전송되지 않습니다.</p>
+            <p class="react-note">{tr.reactNote}</p>
 
-            <div class="share" role="group" aria-label="공유하기">
-              <span class="share-label">공유</span>
-              <button type="button" class="share-btn" data-copy><Icon name="link" /> <span data-copy-label>링크 복사</span></button>
+            <div class="share" role="group" aria-label={tr.shareGroup} data-copied={tr.copied} data-copied-toast={tr.copiedToast} data-copy-fail={tr.copyFail} data-copy-text={tr.copy}>
+              <span class="share-label">{tr.share}</span>
+              <button type="button" class="share-btn" data-copy><Icon name="link" /> <span data-copy-label>{tr.copy}</span></button>
               <a class="share-btn" href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(pageUrl)}`} target="_blank" rel="noopener"><Icon name="x" /> X</a>
-              <a class="share-btn" href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(pageUrl)}`} target="_blank" rel="noopener"><Icon name="facebook" /> 페이스북</a>
-              <button type="button" class="share-btn" data-native-share hidden><Icon name="share" /> 다른 앱으로</button>
+              <a class="share-btn" href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(pageUrl)}`} target="_blank" rel="noopener"><Icon name="facebook" /> {tr.facebook}</a>
+              <button type="button" class="share-btn" data-native-share hidden><Icon name="share" /> {tr.nativeShare}</button>
             </div>
           </section>
         </article>
       </div>
 
-      <nav class="wrap pager" aria-label="다른 글">
+      <nav class="wrap pager" aria-label={tr.otherPosts}>
         {prev ? (
           <a class="pager-link" href={prev.href}>
             <span class="pager-dir"><Icon name="arrow-left" /> {prevLabel} {prev.badge && <span class:list={['time-mark', prev.badge.anytime && 'anytime']}>{prev.badge.text}</span>}</span>
@@ -235,14 +244,15 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
   // 공유
   document.querySelector<HTMLButtonElement>('[data-copy]')?.addEventListener('click', async (e) => {
     const label = (e.currentTarget as HTMLElement).querySelector('[data-copy-label]')!;
+    const text = document.querySelector<HTMLElement>('.share')!.dataset;
     try {
       await navigator.clipboard.writeText(location.href.split('#')[0]);
-      label.textContent = '복사했어요';
-      document.dispatchEvent(new CustomEvent('toast', { detail: '링크를 복사했어요' }));
+      label.textContent = text.copied!;
+      document.dispatchEvent(new CustomEvent('toast', { detail: text.copiedToast }));
     } catch {
-      label.textContent = '주소창에서 복사해 주세요';
+      label.textContent = text.copyFail!;
     }
-    setTimeout(() => (label.textContent = '링크 복사'), 2200);
+    setTimeout(() => (label.textContent = text.copyText!), 2200);
   });
   const native = document.querySelector<HTMLButtonElement>('[data-native-share]');
   if (native && 'share' in navigator) {
@@ -484,16 +494,16 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
   .prose :global(td) { border-top: 1px solid var(--line); }
   .prose :global(td:first-child) { color: var(--ink); font-weight: 600; white-space: nowrap; }
 
-  /* 오늘의 실행 */
-  .prose :global(h2#오늘의-실행) { display: flex; align-items: center; gap: 0.75rem; }
-  .prose :global(h2#오늘의-실행)::before {
+  /* 오늘의 실행 (영어 Today's practice, 일본어 今日の実践) */
+  .prose :global(h2:is(#오늘의-실행, #todays-practice, #今日の実践)) { display: flex; align-items: center; gap: 0.75rem; }
+  .prose :global(h2:is(#오늘의-실행, #todays-practice, #今日の実践))::before {
     content: '';
     flex: none;
     width: 2rem; height: 2rem;
     border-radius: var(--radius-sm);
     background: var(--accent) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.2 4.2L19 7'/%3E%3C/svg%3E") center / 1.125rem no-repeat;
   }
-  .prose :global(h2#오늘의-실행 + ol) {
+  .prose :global(h2:is(#오늘의-실행, #todays-practice, #今日の実践) + ol) {
     counter-reset: act;
     list-style: none;
     padding: 0.5rem 1.5rem;
@@ -502,14 +512,14 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
     background: var(--surface);
     box-shadow: var(--shadow-sm);
   }
-  .prose :global(h2#오늘의-실행 + ol > li) {
+  .prose :global(h2:is(#오늘의-실행, #todays-practice, #今日の実践) + ol > li) {
     counter-increment: act;
     position: relative;
     padding: 1.125rem 0 1.125rem 2.75rem;
     margin: 0;
   }
-  .prose :global(h2#오늘의-실행 + ol > li + li) { border-top: 1px solid var(--line); }
-  .prose :global(h2#오늘의-실행 + ol > li::before) {
+  .prose :global(h2:is(#오늘의-실행, #todays-practice, #今日の実践) + ol > li + li) { border-top: 1px solid var(--line); }
+  .prose :global(h2:is(#오늘의-실행, #todays-practice, #今日の実践) + ol > li::before) {
     content: counter(act);
     position: absolute;
     left: 0; top: 1.35rem;
@@ -524,9 +534,9 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
     font-variant-numeric: tabular-nums;
   }
 
-  /* 참고 문헌 */
-  .prose :global(h2#참고-문헌) { font-size: var(--text-base); font-weight: 700; margin-top: 3.25em; padding-top: 1.5rem; border-top: 1px solid var(--line); }
-  .prose :global(h2#참고-문헌 + ul) {
+  /* 참고 문헌 (References, 参考文献) */
+  .prose :global(h2:is(#참고-문헌, #references, #参考文献)) { font-size: var(--text-base); font-weight: 700; margin-top: 3.25em; padding-top: 1.5rem; border-top: 1px solid var(--line); }
+  .prose :global(h2:is(#참고-문헌, #references, #参考文献) + ul) {
     list-style: none;
     padding: 0;
     font-size: var(--text-sm);
@@ -534,7 +544,7 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
     color: var(--muted);
     word-break: normal;
   }
-  .prose :global(h2#참고-문헌 + ul li) { padding-left: 0; margin-bottom: 0.75em; }
+  .prose :global(h2:is(#참고-문헌, #references, #参考文献) + ul li) { padding-left: 0; margin-bottom: 0.75em; }
 
   /* 도해 */
   .prose :global(figure.diagram) {
@@ -684,7 +694,7 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
     .prose :global(figure.diagram) { margin-inline: calc(var(--gutter) * -1); border-radius: 0; padding-inline: var(--gutter); overflow-x: auto; }
     .prose :global(figure.diagram svg) { min-width: 34rem; }
     .prose :global(figure.diagram figcaption) { position: sticky; left: 0; max-width: calc(100vw - var(--gutter) * 2); }
-    .prose :global(h2#오늘의-실행 + ol) { padding-inline: 1.125rem; }
+    .prose :global(h2:is(#오늘의-실행, #todays-practice, #今日の実践) + ol) { padding-inline: 1.125rem; }
     .pager { grid-template-columns: minmax(0, 1fr); }
     .pager-link.to-next { text-align: left; justify-items: start; }
     .progress-title { font-size: var(--text-xs); }

@@ -1,7 +1,7 @@
 ---
 // 아티클 목록(홈)과 블로그 목록이 함께 쓰는 카드 목록.
 import Icon from './Icon.astro';
-import { formatDate } from '../data/site';
+import { t, formatDateFor, DEFAULT_LANG, type Lang } from '../i18n/ui';
 
 export interface ListItem {
   href: string;
@@ -27,8 +27,11 @@ interface Props {
   // 첫 글을 가로로 크게 보여 줄지
   lead?: boolean;
   emptyText?: string;
+  lang?: Lang;
 }
-const { items, images = false, lead = false, emptyText = '이 카테고리에는 아직 글이 없습니다.' } = Astro.props;
+const { items, images = false, lead = false, lang = DEFAULT_LANG } = Astro.props;
+const tr = t(lang);
+const emptyText = Astro.props.emptyText ?? tr.list.empty;
 ---
 <ol class:list={['cards', images && 'has-images']} data-rows>
   {items.map((it, i) => (
@@ -61,13 +64,13 @@ const { items, images = false, lead = false, emptyText = '이 카테고리에는
                 {it.time.moment && <> <span class="card-moment">{it.time.moment}</span></>}
               </span>
             )}
-            {it.date && <time class="card-time" datetime={it.date.toISOString()}>{formatDate(it.date)}</time>}
+            {it.date && <time class="card-time" datetime={it.date.toISOString()}>{formatDateFor(lang, it.date)}</time>}
           </div>
           <div class="card-sub">
-            <span class="card-min">{it.minutes}분 읽기</span>
+            <span class="card-min">{tr.post.minutes(it.minutes)}</span>
             <span class="row-state" data-state hidden>
-              <span class="state-done"><Icon name="check" /> 다 읽음</span>
-              <span class="state-flag"><Icon name="flag" /> <span><span data-pct></span>% 읽음</span></span>
+              <span class="state-done"><Icon name="check" /> {tr.list.done}</span>
+              <span class="state-flag"><Icon name="flag" /> <span set:html={tr.list.partial('<span data-pct></span>')} /></span>
             </span>
             <span class="card-go" aria-hidden="true"><Icon name="arrow-right" /></span>
           </div>

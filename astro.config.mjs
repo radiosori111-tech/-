@@ -45,5 +45,16 @@ export default defineConfig({
   trailingSlash: 'ignore',
   build: { format: 'directory' },
   markdown: { rehypePlugins: [imageAttributes] },
-  integrations: [sitemap({ filter: (page) => !page.includes('/404') }), sitemapAlias],
+  // 한국어가 기본(주소 앞 표시 없음), 영어 · 일본어는 /en/ · /ja/로 시작한다
+  i18n: {
+    defaultLocale: 'ko',
+    locales: ['ko', 'en', 'ja'],
+    routing: { prefixDefaultLocale: false },
+  },
+  integrations: [sitemap({
+      filter: (page) => !page.includes('/404'),
+      // 같은 경로의 언어별 페이지(/blog/ ↔ /en/blog/ ↔ /ja/blog/)를 xhtml:link로 서로 묶는다.
+      // 글마다 주소가 다른 번역 글은 각 페이지의 hreflang 태그로 묶인다.
+      i18n: { defaultLocale: 'ko', locales: { ko: 'ko-KR', en: 'en-US', ja: 'ja-JP' } },
+    }), sitemapAlias],
 });

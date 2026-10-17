@@ -38,7 +38,7 @@ source: "https://t1-ilu.tistory.com/entry/1%EB%B6%84-%EA%B3%A0%EA%B0%95%EB%8F%84
 
 기억의 저장소이자 치매 예방의 핵심 부위인 <strong>해마(Hippocampus)는 나이가 듦에 따라 매년 약 1~2%씩 부피가 감소</strong>합니다. 그러나 <strong>고강도 자극은 이 흐름을 뒤집는 신경가소성(Neuroplasticity)을 활성화</strong>합니다.
 
--   <strong>신경세포 재생(Neurogenesis):</strong> BDNF와 더불어 고강도 운동 시 분비되는 IGF-1(인슐린유사성장인자-1)과 VEGF(혈관내피성장인자)는 해마의 톱니이랑(Dentate Gyrus) 부위에서 새로운 신경세포가 만들어지도록 촉진합니다.
+-   <strong>신경세포 재생(Neurogenesis):</strong> BDNF와 더불어 고강도 운동 시 분비되는 **IGF-1**(인슐린유사성장인자-1)과 VEGF(혈관내피성장인자)는 해마의 톱니이랑(Dentate Gyrus) 부위에서 새로운 신경세포가 만들어지도록 촉진합니다.
 
 -   <strong>뇌 혈류량과 산소 공급:</strong> 강렬한 운동은 뇌 혈관의 내피세포를 자극하여 <strong>산화질소(NO) 분비를 늘리</strong>고, 뇌로 향하는 미세혈관의 탄력성과 혈류량을 급격히 끌어올립니다. 이는 <strong>뇌세포에 풍부한 산소와 영양분을 즉각 공급하여 인지 기능 저하를 막아줍</strong>니다.
 

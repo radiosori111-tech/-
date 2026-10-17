@@ -45,7 +45,7 @@ Orch-OR 이론: 의식이 뇌 속 미세관의 양자 과정에서 비롯될 수
 
 반대로 판단을 잠시 유예하면, 이전에 보이지 않던 제3의 선택지가 눈에 들어오는 경우가 실제로 있었습니다.
 <strong>양자 얽힘(Quantum Entanglement)</strong>이라는 개념도 인상적입니다. 양자 얽힘이란 <strong>공간적으로 멀리 떨어진 두 입자가 한쪽의 상태가 결정되면 다른 쪽 상태도 즉시 결정되는 비국소적 연결</strong>을 말합니다. 이것을 사람과 사람 사이에 바로 적용하면 비약이 되지만, 뇌과학에는 <strong>거울 신경세포(Mirror Neurons)라는 개념이 실제로 존재</strong>합니다. 거울 신경세포란 타인의 행동이나 감정을 관찰할 때 자신이 직접 그 행동을 하는 것처럼 반응하는 신경세포입니다
-(<"[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3510904/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3510904/)">출처: Rizzolatti & Sinigaglia, Nature Reviews Neuroscience, 2010).
+(<"[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3510904/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3510904/)">출처: Rizzolatti & Sinigaglia, **Nature Reviews Neuroscience**, 2010).
 
 실제로 제가 식사 후 주어진 잠깐의 휴식 시간에 매일 운동화를 신고 걷거나 달리는 모습을 유심히 보던 직장 동료들이 있었습니다. 얼마 뒤 그 동료들이 "매일 식사 후 꾸준히 움직이는 모습을 보고 자극을 받아, 나도 새벽에 일찍 일어나 걷기 루틴을 시작했다"고
 이야기해 주었습니다.

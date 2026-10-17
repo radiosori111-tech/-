@@ -1,0 +1,19 @@
+---
+// 영어(/en/blog/…) · 일본어(/ja/blog/…) 블로그 글
+import BlogPost from '../../../components/blog/BlogPost.astro';
+import { getPosts } from '../../../data/blog';
+import { LANGS, DEFAULT_LANG } from '../../../i18n/ui';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const lang of LANGS.filter((l) => l !== DEFAULT_LANG)) {
+    const posts = await getPosts(lang);
+    paths.push(...posts.map((post, i) => ({
+      params: { lang, slug: post.data.slug },
+      props: { post, newer: posts[i - 1] ?? null, older: posts[i + 1] ?? null },
+    })));
+  }
+  return paths;
+}
+---
+<BlogPost {...Astro.props} />

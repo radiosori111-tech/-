@@ -1,61 +1,14 @@
 ---
-import { render } from 'astro:content';
-import PostLayout from '../../layouts/PostLayout.astro';
-import { SITE, formatDate } from '../../data/site';
-import { getPosts, postUrl, postTags, postMinutes, type Post } from '../../data/blog';
+import BlogPost from '../../components/blog/BlogPost.astro';
+import { getPosts } from '../../data/blog';
 
 export async function getStaticPaths() {
-  const posts = await getPosts();
+  const posts = await getPosts('ko');
   return posts.map((post, i) => ({
     params: { slug: post.data.slug },
     // 목록은 최신순이므로 하나 앞이 더 최근 글, 하나 뒤가 지난 글
     props: { post, newer: posts[i - 1] ?? null, older: posts[i + 1] ?? null },
   }));
 }
-
-const { post, newer, older } = Astro.props;
-const { Content, headings } = await render(post);
-const { title, description, date, updated, image, slug } = post.data;
-const tags = postTags(post);
-const url = postUrl(post);
-const wasUpdated = updated && updated.toDateString() !== date.toDateString();
-const pagerLink = (p: Post | null) => p && { href: postUrl(p), title: p.data.title };
-
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'BlogPosting',
-  headline: title,
-  description,
-  datePublished: date.toISOString(),
-  dateModified: (updated ?? date).toISOString(),
-  ...(image && { image: new URL(image, Astro.site).toString() }),
-  ...(tags.length && { keywords: tags.join(', ') }),
-  inLanguage: 'ko',
-  author: { '@type': 'Organization', name: SITE.name },
-  publisher: { '@type': 'Organization', name: SITE.name },
-  mainEntityOfPage: new URL(url, Astro.site).toString(),
-};
 ---
-<PostLayout
-  title={title}
-  description={description}
-  jsonLd={jsonLd}
-  image={image}
-  url={url}
-  back={{ href: '/blog/', label: '블로그' }}
-  headings={headings}
-  storageKey={`blog:${slug}`}
-  reviewed={updated ?? date}
-  tags={tags}
-  prev={pagerLink(older)}
-  next={pagerLink(newer)}
-  prevLabel="지난 글"
-  nextLabel="최근 글"
->
-  <Fragment slot="meta">
-    <div><dt class="visually-hidden">작성일</dt><dd class="tabular"><time datetime={date.toISOString()}>{formatDate(date)}</time></dd></div>
-    {wasUpdated && <div><dt>수정</dt><dd class="tabular"><time datetime={updated!.toISOString()}>{formatDate(updated!)}</time></dd></div>}
-    <div><dt class="visually-hidden">읽는 시간</dt><dd class="tabular">{postMinutes(post)}분 읽기</dd></div>
-  </Fragment>
-  <Content />
-</PostLayout>
+<BlogPost {...Astro.props} />

@@ -1,0 +1,119 @@
+---
+// 4컷 만화의 그림. 글자는 넣지 않아 어느 언어 글에서나 그대로 쓴다.
+// 색은 사이트 토큰을 따른다: 선 --ink, 강조 --accent, 경보 --danger.
+interface Props { scene: 'alarm' | 'metronome' | 'sigh' | 'calm' }
+const { scene } = Astro.props;
+---
+<svg class="scene" viewBox="0 0 320 220" aria-hidden="true">
+  {scene === 'alarm' && (
+    <g>
+      {/* 마감 앞의 책상: 얕고 빠른 숨, 머리 위에서 울리는 경보 */}
+      <path class="s-floor" d="M24 196h272" />
+      <rect class="s-soft" x="150" y="118" width="112" height="70" rx="8" />
+      <path class="s-line" d="M150 188h112M162 130h88v44h-88z" />
+      <path class="s-faint" d="M174 144h46M174 154h62M174 164h34" />
+      <circle class="s-fill-paper s-line" cx="92" cy="98" r="30" />
+      <path class="s-line" d="M50 196c2-40 18-58 42-58s40 18 42 58" />
+      <path class="s-line" d="M84 92h.01M101 92h.01" />
+      <path class="s-line" d="M86 110c4-3 9-3 13 0" />
+      <path class="s-alert s-zig" d="M126 104l8-5 6 7 8-6 6 7" />
+      <path class="s-alert s-zig" d="M126 116l8-4 6 6 8-5" />
+      <g class="s-bell">
+        <path class="s-alert-fill" d="M208 52c0-14 9-24 22-24s22 10 22 24v14l7 9h-58l7-9z" />
+        <path class="s-line" d="M222 82a8 8 0 0 0 16 0" />
+        <path class="s-alert" d="M188 40l-8-6M190 58h-10M272 40l8-6M270 58h10" />
+      </g>
+      <circle class="s-line" cx="40" cy="44" r="16" />
+      <path class="s-line" d="M40 34v10l7 5" />
+    </g>
+  )}
+  {scene === 'metronome' && (
+    <g>
+      {/* 뇌간의 메트로놈이 비상 방송실(청반)과 직통 배선으로 이어져 있다 */}
+      <path class="s-soft s-line" d="M40 104c-8-30 20-56 50-50 14-16 46-16 60 2 28-2 46 22 38 46 14 18-2 42-26 40-10 16-38 18-52 6-18 10-48 4-54-14-20-2-30-16-16-30z" />
+      <path class="s-fold" d="M66 92c10-12 26-12 34 0M120 70c8 10 22 12 34 4M150 104c10 6 24 4 30-6M72 126c10 4 20 2 26-6" />
+      <path class="s-line" d="M118 148c2 16 6 30 12 46" />
+      <g class="s-metronome">
+        <path class="s-fill-paper s-line" d="M104 150l14-44 14 44z" />
+        <path class="s-accent s-pendulum" d="M118 144l-10-30" />
+        <circle class="s-accent-fill" cx="111" cy="122" r="3.5" />
+      </g>
+      <path class="s-wire" d="M132 140c40 0 54-60 98-62" />
+      <circle class="s-accent-fill" cx="132" cy="140" r="3.5" />
+      <g>
+        <rect class="s-fill-paper s-line" x="230" y="56" width="58" height="44" rx="10" />
+        <path class="s-alert-fill" d="M244 70h10l14-9v34l-14-9h-10z" />
+        <path class="s-alert" d="M276 70c4 4 4 12 0 16M282 64c8 8 8 20 0 28" />
+      </g>
+      <path class="s-faint" d="M226 136h64M226 150h48M226 164h56" />
+      <path class="s-floor" d="M24 196h272" />
+    </g>
+  )}
+  {scene === 'sigh' && (
+    <g>
+      {/* 두 번 들이쉬고(계단 두 칸) 길게 내쉬는(완만한 내리막) 생리적 한숨 */}
+      <path class="s-faint" d="M28 176h264" />
+      <path class="s-soft-area" d="M36 176V150c14 0 18-56 34-56 10 0 12-14 22-14 16 0 18 6 30 18 30 30 70 70 160 78v0z" />
+      <path class="s-accent s-wave" d="M36 150c14 0 18-56 34-56 10 0 12-14 22-14 16 0 18 6 30 18 30 30 70 70 160 78" />
+      <circle class="s-accent-fill" cx="70" cy="94" r="5" />
+      <circle class="s-accent-fill" cx="92" cy="80" r="5" />
+      <path class="s-line s-arrow" d="M58 70l12-14 12 14M82 56l10-12 10 12" />
+      <path class="s-line s-arrow" d="M196 120l18 14-22 4" />
+      <g transform="translate(232 28)">
+        <path class="s-fill-paper s-line" d="M28 6v22M28 22c-4-4-16-6-20 6-4 12-4 28 6 30 8 2 12-6 14-14M28 22c4-4 16-6 20 6 4 12 4 28-6 30-8 2-12-6-14-14" />
+      </g>
+    </g>
+  )}
+  {scene === 'calm' && (
+    <g>
+      {/* 경보가 잦아든 뇌: 고르고 느린 파형, 천천히 뛰는 심장 */}
+      <path class="s-soft s-line" d="M84 92c-8-30 20-56 50-50 14-16 46-16 60 2 28-2 46 22 38 46 14 18-2 42-26 40-10 16-38 18-52 6-18 10-48 4-54-14-20-2-30-16-16-30z" />
+      <path class="s-fold" d="M110 72c10-10 24-10 32 0M168 60c8 8 20 10 32 4M190 122c8 4 18 2 24-6M118 128c10 4 20 2 26-6" />
+      <path class="s-line" d="M162 136c2 14 4 26 8 40" />
+      <path class="s-accent s-wave" d="M108 98c10-14 20-14 30 0s20 14 30 0 20-14 30 0" />
+      <path class="s-faint" d="M28 196h264" />
+      <path class="s-heart" d="M54 168c-10-8-22-16-22-28 0-8 6-13 12-13 5 0 8 3 10 6 2-3 5-6 10-6 6 0 12 5 12 13 0 12-12 20-22 28z" />
+      <path class="s-accent s-beat" d="M196 176h22l6-10 8 20 6-10h60" />
+      <g class="s-check">
+        <circle class="s-accent-fill" cx="252" cy="54" r="16" />
+        <path class="s-check-mark" d="M245 54l5 5 9-10" />
+      </g>
+    </g>
+  )}
+</svg>
+
+<style>
+  .scene { display: block; width: 100%; height: 100%; overflow: visible; }
+  .scene :global(*) { vector-effect: non-scaling-stroke; }
+  .s-line, .s-floor, .s-faint, .s-alert, .s-accent, .s-wire, .s-arrow, .s-check-mark, .s-fold {
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .s-line { stroke: var(--ink); stroke-width: 2; }
+  .s-floor { stroke: var(--line-strong); stroke-width: 2; }
+  /* 뇌 주름 */
+  .s-fold { fill: none; stroke: var(--accent); stroke-width: 1.75; stroke-linecap: round; opacity: 0.55; }
+  .s-faint { stroke: var(--line-strong); stroke-width: 2; stroke-dasharray: 1 6; }
+  .s-soft { fill: var(--accent-soft); }
+  .s-soft-area { fill: var(--accent-soft); stroke: none; }
+  .s-fill-paper { fill: var(--surface); }
+  .s-alert { stroke: var(--danger); stroke-width: 2.25; }
+  .s-alert-fill { fill: var(--danger-soft); stroke: var(--danger); stroke-width: 2; stroke-linejoin: round; }
+  .s-accent { stroke: var(--accent); stroke-width: 3; }
+  .s-accent-fill { fill: var(--accent); }
+  .s-wire { stroke: var(--accent); stroke-width: 2.25; stroke-dasharray: 6 6; }
+  .s-heart { fill: var(--danger-soft); stroke: var(--danger); stroke-width: 2; }
+  .s-check-mark { stroke: #fff; stroke-width: 2.5; }
+
+  /* 살짝 살아 있는 그림: 메트로놈 진자, 흔들리는 종, 날숨 파형이 그려지는 모습 */
+  @media (prefers-reduced-motion: no-preference) {
+    .s-pendulum { transform-origin: 118px 144px; animation: swing 1.6s var(--ease-in-out) infinite alternate; }
+    .s-pendulum + circle { transform-origin: 118px 144px; animation: swing 1.6s var(--ease-in-out) infinite alternate; }
+    .s-bell { transform-origin: 230px 30px; animation: ring 1.2s ease-in-out infinite; }
+    .s-wire { animation: flow 1.4s linear infinite; }
+  }
+  @keyframes swing { from { transform: rotate(-14deg); } to { transform: rotate(26deg); } }
+  @keyframes ring { 0%, 60%, 100% { transform: rotate(0); } 10% { transform: rotate(-8deg); } 25% { transform: rotate(7deg); } 40% { transform: rotate(-4deg); } }
+  @keyframes flow { to { stroke-dashoffset: -24; } }
+</style>

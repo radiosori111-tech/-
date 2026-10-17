@@ -51,6 +51,7 @@ const jsonLd = {
   next={pagerLink(next)}
   prevLabel="이전 글"
   nextLabel="다음 글"
+  comic={entry.data.comic}
   related={{ title: `${category}의 다른 글`, items: related.map((r) => ({ href: `/articles/${r.id}/`, title: r.data.title, note: `${r.data.readMinutes}분 읽기` })) }}
 >
   <Fragment slot="meta">

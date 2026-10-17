@@ -2,7 +2,8 @@
 import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css';
 import '../styles/global.css';
 import Icon from '../components/Icon.astro';
-import { SITE, NAV } from '../data/site';
+import { SITE } from '../data/site';
+import { t, blogPath, OG_LOCALE, HREFLANG, DEFAULT_LANG, type Lang, type Alternate } from '../i18n/ui';
 
 interface Props {
   title?: string;
@@ -10,17 +11,31 @@ interface Props {
   type?: 'website' | 'article';
   jsonLd?: Record<string, unknown>;
   image?: string;
+  lang?: Lang;
+  // 같은 내용의 다른 언어 페이지들 (자기 자신 포함). 두 개 이상일 때 hreflang 태그를 넣는다
+  alternates?: Alternate[];
 }
 
-const { title, description = SITE.description, type = 'website', jsonLd, image } = Astro.props;
-const fullTitle = title ? `${title} | ${SITE.name}` : `${SITE.name} — ${SITE.slogan}`;
+const { title, type = 'website', jsonLd, image, lang = DEFAULT_LANG, alternates = [] } = Astro.props;
+const tr = t(lang);
+const description = Astro.props.description ?? tr.description;
+const slogan = tr.slogan;
+const fullTitle = title ? `${title} | ${SITE.name}` : `${SITE.name} — ${slogan}`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const path = Astro.url.pathname;
 const isCurrent = (href: string) =>
   href === '/' ? path === '/' || path.startsWith('/articles') : path.startsWith(href);
+// 아티클 · 소개 · 문의는 한국어 페이지 하나뿐이고, 블로그만 언어별 목록이 있다
+const nav = [
+  { href: '/', label: tr.nav.articles },
+  { href: blogPath(lang), label: tr.nav.blog },
+  { href: '/about/', label: tr.nav.about },
+  { href: '/contact/', label: tr.nav.contact },
+];
+const abs = (href: string) => new URL(href, Astro.site).toString();
 ---
 <!doctype html>
-<html lang="ko">
+<html lang={HREFLANG[lang]}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -28,6 +43,12 @@ const isCurrent = (href: string) =>
     <meta name="description" content={description} />
     <meta name="google-site-verification" content="zxZW0YclDH3R_GsIjoLKVRfqxiPKT_ZzV8YWoU35YPc" />
     <link rel="canonical" href={canonical} />
+    {alternates.length > 1 && (
+      <>
+        {alternates.map((a) => <link rel="alternate" hreflang={HREFLANG[a.lang]} href={abs(a.href)} />)}
+        <link rel="alternate" hreflang="x-default" href={abs((alternates.find((a) => a.lang === DEFAULT_LANG) ?? alternates[0]).href)} />
+      </>
+    )}
     <link rel="alternate" type="application/rss+xml" title={SITE.name} href={new URL("rss.xml", Astro.site)} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta name="theme-color" content="#0f141c" />
@@ -36,7 +57,8 @@ const isCurrent = (href: string) =>
     <meta property="og:title" content={title ?? SITE.name} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:locale" content={SITE.locale} />
+    <meta property="og:locale" content={OG_LOCALE[lang]} />
+    {alternates.filter((a) => a.lang !== lang).map((a) => <meta property="og:locale:alternate" content={OG_LOCALE[a.lang]} />)}
     {image && <meta property="og:image" content={new URL(image, Astro.site)} />}
     <meta name="twitter:card" content={image ? "summary_large_image" : "summary"} />
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
@@ -58,10 +80,10 @@ const isCurrent = (href: string) =>
     <slot name="head" />
   </head>
   <body>
-    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+    <a class="skip-link" href="#main">{tr.skip}</a>
     <header class="site-header frame">
       <div class="wrap bar">
-        <a class="brand" href="/" aria-label={`${SITE.name} 홈`}>
+        <a class="brand" href="/" aria-label={`${SITE.name} ${tr.home}`}>
           <svg class="brand-mark" viewBox="0 0 28 28" aria-hidden="true">
             <rect width="28" height="28" rx="8" />
             <path d="M8 18.5c2.5-9 9.5 0 12-9" />
@@ -70,9 +92,9 @@ const isCurrent = (href: string) =>
           </svg>
           <span>믿음의 게임, <b>실행</b></span>
         </a>
-        <nav aria-label="주 메뉴">
+        <nav aria-label={tr.mainMenu}>
           <ul>
-            {NAV.map((item) => (
+            {nav.map((item) => (
               <li><a href={item.href} aria-current={isCurrent(item.href) ? 'page' : undefined}>{item.label}</a></li>
             ))}
           </ul>
@@ -89,22 +111,22 @@ const isCurrent = (href: string) =>
         <div class="foot-top">
           <div class="foot-brand">
             <p class="foot-name">믿음의 게임, 실행</p>
-            <p class="foot-slogan">{SITE.slogan}</p>
+            <p class="foot-slogan">{slogan}</p>
           </div>
-          <nav class="foot-links" aria-label="사이트 정보">
-            <a href="/about/">소개</a>
-            <a href="/contact/">문의</a>
-            <a href="/privacy/">개인정보 처리방침</a>
-            <a href="/privacy/#disclaimer">면책조항 (Disclaimer)</a>
+          <nav class="foot-links" aria-label={tr.foot.label}>
+            <a href="/about/">{tr.nav.about}</a>
+            <a href="/contact/">{tr.nav.contact}</a>
+            <a href="/privacy/">{tr.foot.privacy}</a>
+            <a href="/privacy/#disclaimer">{tr.foot.disclaimer}</a>
           </nav>
           <div class="foot-meta">
-            <p>문의 <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+            <p>{tr.foot.email} <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
           </div>
         </div>
         <section class="foot-disclaimer" aria-labelledby="foot-disclaimer-title">
-          <h2 id="foot-disclaimer-title"><Icon name="info" /> 의학 · 학술 정보 면책 조항</h2>
-          <p>{SITE.name}의 모든 콘텐츠는 공개된 연구와 학회 권고를 바탕으로 한 <strong>일반적인 정보 제공</strong>을 목적으로 하며, 의사 등 전문가의 <strong>진단, 치료, 처방을 대신하지 않습니다.</strong> 연구 결과는 개인에 따라 다르게 나타날 수 있으므로 건강에 관한 결정은 반드시 전문가와 상담하세요. 이 사이트의 정보를 이용해 생긴 결과에 대해 사이트는 법적 책임을 지지 않습니다. 응급 상황에서는 즉시 119에 연락하세요.</p>
-          <a class="foot-disclaimer-link" href="/privacy/#disclaimer">면책조항 전문 보기 <Icon name="arrow-right" /></a>
+          <h2 id="foot-disclaimer-title"><Icon name="info" /> {tr.foot.title}</h2>
+          <p set:html={tr.foot.body} />
+          <a class="foot-disclaimer-link" href="/privacy/#disclaimer">{tr.foot.more} <Icon name="arrow-right" /></a>
         </section>
         <p class="foot-copy tabular">© {new Date().getFullYear()} 믿음의 게임, 실행</p>
       </div>
@@ -225,5 +247,10 @@ const isCurrent = (href: string) =>
   }
   @media (max-width: 380px) {
     .brand-mark { display: none; }
+  }
+  /* 영어 · 일본어 메뉴는 한국어보다 길어서, 아주 좁은 화면에서는 이름 대신 로고 표시만 남긴다 */
+  @media (max-width: 400px) {
+    :global(html:not([lang='ko'])) .brand span { display: none; }
+    :global(html:not([lang='ko'])) .brand-mark { display: block; }
   }
 </style>

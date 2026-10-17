@@ -1,14 +1,16 @@
 ---
 import Base from './Base.astro';
+import { DEFAULT_LANG, type Lang, type Alternate } from '../i18n/ui';
 
-interface Props { title: string; lede: string; description?: string }
-const { title, lede, description } = Astro.props;
+interface Props { title: string; lede: string; description?: string; lang?: Lang; alternates?: Alternate[] }
+const { title, lede, description, lang = DEFAULT_LANG, alternates } = Astro.props;
 ---
-<Base title={title} description={description ?? lede}>
+<Base title={title} description={description ?? lede} lang={lang} alternates={alternates}>
   <header class="page-head frame">
     <div class="wrap">
       <h1>{title}</h1>
       <p class="lede">{lede}</p>
+      <slot name="head" />
     </div>
   </header>
   <div class="wrap page-body">

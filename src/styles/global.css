@@ -92,6 +92,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* 일본어 페이지: Pretendard의 한자는 한국식 자형이라 가나와 섞이면 어색하므로 일본어 글꼴을 먼저 쓰고,
+   낱말 단위(keep-all)가 아니라 일본어 줄바꿈 규칙(금칙 처리)을 따른다 */
+:root:lang(ja) {
+  --font: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic UI', 'Yu Gothic', YuGothic, Meiryo, 'Noto Sans JP', 'Pretendard Variable', system-ui, sans-serif;
+}
+:lang(ja) body { word-break: normal; line-break: strict; letter-spacing: 0; }
+
 img, svg { max-width: 100%; }
 [hidden] { display: none !important; }
 h1, h2, h3, h4 { margin: 0; text-wrap: balance; color: inherit; }
