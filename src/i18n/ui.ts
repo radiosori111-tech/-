@@ -38,6 +38,7 @@ export const ui = {
     skip: '본문으로 건너뛰기',
     home: '홈',
     mainMenu: '주 메뉴',
+    langMenu: '언어 선택',
     nav: { articles: '아티클', blog: '블로그', about: '소개', contact: '문의' },
     foot: {
       label: '사이트 정보',
@@ -120,6 +121,7 @@ export const ui = {
     skip: 'Skip to content',
     home: 'home',
     mainMenu: 'Main menu',
+    langMenu: 'Choose language',
     nav: { articles: 'Articles', blog: 'Blog', about: 'About', contact: 'Contact' },
     foot: {
       label: 'Site information',
@@ -202,6 +204,7 @@ export const ui = {
     skip: '本文へスキップ',
     home: 'ホーム',
     mainMenu: 'メインメニュー',
+    langMenu: '言語を選ぶ',
     nav: { articles: '記事', blog: 'ブログ', about: '紹介', contact: 'お問合せ' },
     foot: {
       label: 'サイト情報',
