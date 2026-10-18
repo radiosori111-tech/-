@@ -55,13 +55,15 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
   <div class:list={['post-page', toc.length === 0 && 'is-narrow']}>
     <header class="art-head frame">
       <div class="wrap head-inner">
-        <a class="back" href={back.href}><Icon name="arrow-left" /> {back.label}</a>
+        <div class="head-top">
+          <a class="back" href={back.href}><Icon name="arrow-left" /> {back.label}</a>
+          <LangSwitch alternates={alternates} current={lang} label={tr.readIn} compact />
+        </div>
         <h1>{title}</h1>
         <p class="lede">{description}</p>
         <dl class="meta">
           <slot name="meta" />
         </dl>
-        <LangSwitch alternates={alternates} current={lang} label={tr.readIn} />
       </div>
     </header>
 
@@ -269,6 +271,14 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
   .art-head { padding-block: clamp(2rem, 5vw, 3rem) clamp(3rem, 7vw, 4.75rem); }
   .head-inner { max-width: var(--head-max); }
   .head-inner > * { max-width: 50rem; }
+  /* 돌아가기 링크와 언어 탭을 한 줄에. 좁은 화면에서 모자라면 탭이 다음 줄로 내려간다 */
+  .head-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem 1rem;
+  }
   .back {
     display: inline-flex;
     align-items: center;

@@ -1,16 +1,18 @@
 ---
 // 같은 글 · 목록의 다른 언어 페이지로 가는 작은 전환 단추. 언어가 하나뿐이면 그리지 않는다.
+// compact는 글 머리 맨 위에 놓는 짧은 탭(KO · EN · JA)으로, 화면 읽기 프로그램에는 언어 이름도 함께 읽힌다.
 import { LANG_NAME, HREFLANG, type Lang, type Alternate } from '../i18n/ui';
 
-interface Props { alternates: Alternate[]; current: Lang; label: string }
-const { alternates, current, label } = Astro.props;
+interface Props { alternates: Alternate[]; current: Lang; label: string; compact?: boolean }
+const { alternates, current, label, compact = false } = Astro.props;
+const text = (lang: Lang) => (compact ? lang.toUpperCase() : LANG_NAME[lang]);
 ---
 {alternates.length > 1 && (
-  <nav class="lang-switch" aria-label={label}>
+  <nav class:list={['lang-switch', compact && 'is-compact']} aria-label={label}>
     {alternates.map((a) => (
       a.lang === current
-        ? <span class="lang-on" aria-current="page" lang={HREFLANG[a.lang]}>{LANG_NAME[a.lang]}</span>
-        : <a href={a.href} hreflang={HREFLANG[a.lang]} lang={HREFLANG[a.lang]}>{LANG_NAME[a.lang]}</a>
+        ? <span class="lang-on" aria-current="page" lang={HREFLANG[a.lang]} title={compact ? LANG_NAME[a.lang] : undefined}>{text(a.lang)}{compact && <span class="visually-hidden">{` ${LANG_NAME[a.lang]}`}</span>}</span>
+        : <a href={a.href} hreflang={HREFLANG[a.lang]} lang={HREFLANG[a.lang]} title={compact ? LANG_NAME[a.lang] : undefined}>{text(a.lang)}{compact && <span class="visually-hidden">{` ${LANG_NAME[a.lang]}`}</span>}</a>
     ))}
   </nav>
 )}
@@ -39,6 +41,20 @@ const { alternates, current, label } = Astro.props;
   }
   .lang-switch a:hover { color: var(--frame-text); background: var(--frame-hover); }
   .lang-on { background: var(--accent-on-dark); color: var(--frame); font-weight: 700; }
+
+  /* 글 머리용: 위쪽 여백 없이, 고정 폭 칸에 언어 코드를 가운데 맞춘다 */
+  .is-compact { margin-top: 0; flex-shrink: 0; }
+  .is-compact a, .is-compact .lang-on {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.75rem;
+    min-height: 2rem;
+    padding: 0 0.625rem;
+    font-size: 0.8125rem;
+    letter-spacing: 0.04em;
+    font-variant-numeric: tabular-nums;
+  }
   @media (prefers-reduced-motion: no-preference) {
     .lang-switch a:active { transform: scale(0.96); }
   }
