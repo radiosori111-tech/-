@@ -63,8 +63,10 @@ Magnesium can't go into a tablet on its own, so it always comes paired with anot
 **🪨 Inorganic salts (magnesium oxide and others): a freighter anchored outside the harbour**
 Magnesium oxide packs a lot of magnesium into each tablet, but it dissolves poorly in water. Undissolved magnesium can't cross the gut wall; it stays in the intestine and pulls in water by **osmosis**. That softens stools, which is why it has long been used as a laxative. In a comparison of US commercial products, magnesium oxide's fractional absorption was only about <strong>4%</strong> (Firoz & Graber, 2001). It falls short for topping up your body's stores, but it does its job of getting the gut moving.
 
-**🍋 Organic salts (magnesium citrate, malate and others): ships that dissolve and sail into port**
+**🍋 Organic salts (magnesium citrate, gluconate, malate and others): ships that dissolve and sail into port**
 Magnesium paired with organic acids such as citric or malic acid dissolves readily in water. Magnesium has to dissolve into ions before it can pass through channels in the gut lining, so solubility is the first gate to absorption. In a randomised, double-blind study, **magnesium citrate** raised blood and urine magnesium more than magnesium oxide or an amino acid chelate (Walker et al., **Magnesium Research**, 2003).
+
+**Magnesium gluconate** is another leading member of this group. Paired with gluconic acid, which is made from glucose, it dissolves very readily in water, much like citrate, and is relatively less likely to irritate the stomach or cause a laxative effect such as diarrhoea, which is why it is often used in liquid and powder products. In a stable-isotope study comparing **ten** organic and inorganic salts in magnesium-depleted rats, magnesium gluconate showed the **highest** bioavailability (Coudray et al., **Magnesium Research**, 2005). Think of it as a fast boat that carries a light load and slips quickly into port. Its elemental magnesium content by weight is low, though, at **about 5–6%**, so you need more of it to get the same amount, and taking a lot at once can still loosen stools like other forms.
 
 **🧬 Amino acid chelates (glycinate, L-threonate and others): ships that may carry a pass**
 In a chelate, amino acids grip magnesium like tongs. Commonly cited advantages are that it breaks apart less in the stomach and is gentler on the gut, causing less diarrhoea. Some have **proposed** that these complexes can use a separate entrance, amino acid and peptide transporters such as **PEPT1**, but how much this route actually contributes in humans hasn't been well established. Honestly, it's a ship that *might* be carrying a pass.
@@ -96,7 +98,7 @@ A meta-analysis of **18** randomised controlled trials found that magnesium supp
 ## ✅ The fix: three steps to using magnesium well
 
 1. <strong>🥬 Step 1: Fill up from your plate first.</strong> Recommended intake for adults is roughly **360–420 mg a day for men and 280–320 mg for women** (exact figures vary by country). Leafy greens such as spinach, nuts and seeds like pumpkin seeds and almonds, beans, brown rice and high-cocoa dark chocolate are good sources. Magnesium from food carries almost no risk of excess.
-2. <strong>🎯 Step 2: Choose the form for your purpose.</strong> If constipation is the concern, **magnesium oxide**; to top up efficiently, **magnesium citrate**; if your gut is sensitive or you prefer to take it in the evening, **glycinate**; if memory is your interest, **L-threonate**, which is still being studied. Always check the label for the amount of **elemental magnesium**.
+2. <strong>🎯 Step 2: Choose the form for your purpose.</strong> If constipation is the concern, **magnesium oxide**; to top up efficiently, **magnesium citrate**; to absorb well while going easier on your stomach, **magnesium gluconate**; if your gut is sensitive or you prefer to take it in the evening, **glycinate**; if memory is your interest, **L-threonate**, which is still being studied. Always check the label for the amount of **elemental magnesium**.
 3. <strong>⏰ Step 3: Split the dose and respect the upper limit.</strong> For adults, the upper limit for magnesium from supplements is **350 mg a day**. Splitting it into two doses rather than taking it all at once improves absorption and reduces diarrhoea. Keep it **at least 2 hours** apart from calcium or iron supplements and some antibiotics.
 
 ### 📊 Magnesium forms at a glance
@@ -105,6 +107,7 @@ A meta-analysis of **18** randomised controlled trials found that magnesium supp
 | --- | --- | --- | --- | --- |
 | Magnesium oxide | Inorganic salt | Low (about 4% in one study) | High (laxative effect) | Mainly relieving constipation |
 | Magnesium citrate | Organic salt | High | Moderate | Efficient supplementation |
+| Magnesium gluconate | Organic salt | High (top of a 10-salt rat comparison) | Fairly low | Sensitive stomachs that still want good absorption, liquid products (relatively low elemental content) |
 | Magnesium malate | Organic salt | Fairly high | Moderate | People who are active during the day |
 | Glycinate (bisglycinate) | Amino acid chelate | Fairly high | Low | Sensitive guts, evening use |
 | L-threonate | Organic complex | Brain delivery under study | Low | Interest in memory and cognition (relatively low elemental content) |
@@ -129,6 +132,7 @@ Magnesium is not a nutrient where more is better. Going over the supplement uppe
 - Liu, G., Weinger, J. G., Lu, Z.-L., Xue, F., & Sadeghpour, S. (2016). Efficacy and safety of MMFS-01, a synapse density enhancer, for treating cognitive impairment in older adults. *Journal of Alzheimer's Disease*, 49(4), 971–990.
 - Firoz, M., & Graber, M. (2001). Bioavailability of US commercial magnesium preparations. *Magnesium Research*, 14(4), 257–262.
 - Walker, A. F., Marakis, G., Christie, S., & Byng, M. (2003). Mg citrate found more bioavailable than other Mg preparations in a randomised, double-blind study. *Magnesium Research*, 16(3), 183–191.
+- Coudray, C., Rambeau, M., Feillet-Coudray, C., … Mazur, A. (2005). Study of magnesium bioavailability from ten organic and inorganic Mg salts in Mg-depleted rats using a stable isotope approach. *Magnesium Research*, 18(4), 215–223.
 - Simental-Mendía, L. E., Sahebkar, A., Rodríguez-Morán, M., & Guerrero-Romero, F. (2016). A systematic review and meta-analysis of randomized controlled trials on the effects of magnesium supplementation on insulin sensitivity and glucose control. *Pharmacological Research*, 111, 272–282.
 - Arjinpathana, N., & Asawanonda, P. (2012). Glutathione as an oral whitening agent: a randomized, double-blind, placebo-controlled study. *Journal of Dermatological Treatment*, 23(2), 97–102.
 
