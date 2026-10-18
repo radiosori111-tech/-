@@ -5,7 +5,7 @@ lang: "en"
 translationOf: "마그네슘-유기염-무기염-킬레이트-흡수율-글루타치온-기억력"
 description: "The Science of Magnesium Bioavailability: From Chelates to Glutathione, Memory, and Metabolism"
 date: "2026-10-18T18:00:00+09:00"
-tags: ["magnesium", "bioavailability", "magnesium glycinate", "magnesium L-threonate", "glutathione", "memory", "insulin sensitivity", "neuroscience"]
+tags: ["magnesium", "bioavailability", "magnesium glycinate", "magnesium L-threonate", "glutathione", "memory", "insulin sensitivity", "sleep", "neuroscience"]
 comic:
   title: "Magnesium: the form decides the path"
   panels:
@@ -37,6 +37,7 @@ comic:
 - 🚢 The same magnesium is absorbed very differently **depending on the molecule it's paired with**. In one study, **magnesium oxide** had a fractional absorption of only about <strong>4%</strong> (**Magnesium Research**, 2001), while **magnesium citrate** was the best absorbed of the forms compared (**Magnesium Research**, 2003).
 - 🧠 **Magnesium L-threonate** raised brain magnesium in rats, increased synapses in the **hippocampus**, and improved learning and memory (**Neuron**, 2010). Human studies, however, are still small.
 - ⚖️ Magnesium supplementation tended to improve markers of **insulin sensitivity** (a 2016 meta-analysis of randomised controlled trials), and magnesium is also an essential helper for the enzymes that make **glutathione**, which is linked to skin tone.
+- 😴 Magnesium acts as a **brake for sleep**, locking excitatory signals and helping calming ones. One analysis found it shortened the time to fall asleep by about 17 minutes on average in older adults with insomnia, though the evidence is still low quality (**BMC Complementary Medicine and Therapies**, 2021).
 
 ### 💬 Does this sound familiar?
 
@@ -68,6 +69,8 @@ Magnesium paired with organic acids such as citric or malic acid dissolves readi
 
 **Magnesium gluconate** is another leading member of this group. Paired with gluconic acid, which is made from glucose, it dissolves very readily in water, much like citrate, and is relatively less likely to irritate the stomach or cause a laxative effect such as diarrhoea, which is why it is often used in liquid and powder products. In a stable-isotope study comparing **ten** organic and inorganic salts in magnesium-depleted rats, magnesium gluconate showed the **highest** bioavailability (Coudray et al., **Magnesium Research**, 2005). Think of it as a fast boat that carries a light load and slips quickly into port. Its elemental magnesium content by weight is low, though, at **about 5–6%**, so you need more of it to get the same amount, and taking a lot at once can still loosen stools like other forms.
 
+**Magnesium malate** pairs magnesium with malic acid, an ingredient in the cycle cells use to make ATP (the TCA cycle). That's why it is often promoted as "magnesium for energy," but evidence that it reduces fatigue in people is still lacking.
+
 **🧬 Amino acid chelates (glycinate, L-threonate and others): ships that may carry a pass**
 In a chelate, amino acids grip magnesium like tongs. Commonly cited advantages are that it breaks apart less in the stomach and is gentler on the gut, causing less diarrhoea. Some have **proposed** that these complexes can use a separate entrance, amino acid and peptide transporters such as **PEPT1**, but how much this route actually contributes in humans hasn't been well established. Honestly, it's a ship that *might* be carrying a pass.
 
@@ -93,6 +96,22 @@ When **insulin** knocks on a cell's door, the **insulin receptor** on the cell s
 
 A meta-analysis of **18** randomised controlled trials found that magnesium supplementation lowered fasting blood glucose and, in people at risk of diabetes, improved markers of insulin sensitivity (Simental-Mendía et al., **Pharmacological Research**, 2016). That doesn't mean magnesium makes you lose weight. **Putting a missing switch back in place so metabolism can run normally** is the honest share magnesium can contribute to weight management.
 
+### 6. A hand on the brakes of sleep
+
+Some nights you lie down at the end of the day and your mind just won't switch off. To fall asleep, the brain has to lift its foot off the **accelerator** and press the **brake**, and magnesium has a hand on both pedals.
+
+- **Locking the accelerator:** The **NMDA receptor** we met earlier is a gate for signals that excite the brain. Magnesium sits in that gate like a **safety lock**, keeping stray excitatory signals from leaking through.
+- **Helping the brake pedal:** It helps receptors for **GABA**, the brain's calming neurotransmitter, work better, so neurons can settle down.
+- **Turning down the alarm:** It is also involved in keeping the axis that releases the stress hormone **cortisol** (hypothalamus–pituitary–adrenal) from getting overexcited.
+
+The **Nature** (2016) finding from earlier fits in here too. Magnesium inside cells rises and falls on a daily cycle and works like a **metronome** that keeps the cell's clock in time. Magnesium is a brake for sleep, and also a hand that keeps the beat of the daily rhythm.
+
+There is human research as well. In a randomised, double-blind trial, **46** older adults with insomnia took **500 mg** of magnesium daily for 8 weeks (as magnesium oxide in this study). Compared with placebo, their insomnia scores, sleep efficiency and time to fall asleep improved, blood **melatonin** rose and **cortisol** fell (Abbasi et al., **Journal of Research in Medical Sciences**, 2012). A systematic review pooling three such trials found that older adults taking magnesium fell asleep **about 17 minutes** faster on average than with placebo (Mah & Pitre, **BMC Complementary Medicine and Therapies**, 2021). The authors rated the evidence as low quality, though, and 500 mg was a study dose used under supervision that exceeds the usual supplement upper limit (350 mg).
+
+This is also why **glycinate** is so often recommended for the evening. Its partner, **glycine**, has been shown on its own to improve subjective sleep quality when 3 g was taken before bed (Yamadera et al., **Sleep and Biological Rhythms**, 2007). But magnesium glycinate supplements usually contain far less glycine than that. Rather than expecting a big glycine effect, it's more accurate to see it as a form that is gentle on the gut and easy to take in the evening.
+
+Magnesium is not a sleeping pill that forces sleep down on you; it's closer to **topping up brake fluid that had run low**. If sleepless nights go on for more than three months, a sleep specialist should come before a supplement.
+
 ---
 
 ## ✅ The fix: three steps to using magnesium well
@@ -108,8 +127,8 @@ A meta-analysis of **18** randomised controlled trials found that magnesium supp
 | Magnesium oxide | Inorganic salt | Low (about 4% in one study) | High (laxative effect) | Mainly relieving constipation |
 | Magnesium citrate | Organic salt | High | Moderate | Efficient supplementation |
 | Magnesium gluconate | Organic salt | High (top of a 10-salt rat comparison) | Fairly low | Sensitive stomachs that still want good absorption, liquid products (relatively low elemental content) |
-| Magnesium malate | Organic salt | Fairly high | Moderate | People who are active during the day |
-| Glycinate (bisglycinate) | Amino acid chelate | Fairly high | Low | Sensitive guts, evening use |
+| Magnesium malate | Organic salt | Fairly high (mainly animal studies) | Moderate | Trying out different organic salts (evidence for less fatigue still lacking) |
+| Glycinate (bisglycinate) | Amino acid chelate | Fairly high | Low | Sensitive guts, evening use and sleep routines |
 | L-threonate | Organic complex | Brain delivery under study | Low | Interest in memory and cognition (relatively low elemental content) |
 
 ---
@@ -135,6 +154,9 @@ Magnesium is not a nutrient where more is better. Going over the supplement uppe
 - Coudray, C., Rambeau, M., Feillet-Coudray, C., … Mazur, A. (2005). Study of magnesium bioavailability from ten organic and inorganic Mg salts in Mg-depleted rats using a stable isotope approach. *Magnesium Research*, 18(4), 215–223.
 - Simental-Mendía, L. E., Sahebkar, A., Rodríguez-Morán, M., & Guerrero-Romero, F. (2016). A systematic review and meta-analysis of randomized controlled trials on the effects of magnesium supplementation on insulin sensitivity and glucose control. *Pharmacological Research*, 111, 272–282.
 - Arjinpathana, N., & Asawanonda, P. (2012). Glutathione as an oral whitening agent: a randomized, double-blind, placebo-controlled study. *Journal of Dermatological Treatment*, 23(2), 97–102.
+- Abbasi, B., Kimiagar, M., Sadeghniiat, K., Shirazi, M. M., Hedayati, M., & Rashidkhani, B. (2012). The effect of magnesium supplementation on primary insomnia in elderly: a double-blind placebo-controlled clinical trial. *Journal of Research in Medical Sciences*, 17(12), 1161–1169.
+- Mah, J., & Pitre, T. (2021). Oral magnesium supplementation for insomnia in older adults: a systematic review & meta-analysis. *BMC Complementary Medicine and Therapies*, 21, 125.
+- Yamadera, W., Inagawa, K., Chiba, S., Bannai, M., Takahashi, M., & Nakayama, K. (2007). Glycine ingestion improves subjective sleep quality in human volunteers, correlating with polysomnographic changes. *Sleep and Biological Rhythms*, 5(2), 126–131.
 
 ## 💭 A question for you
 
