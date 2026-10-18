@@ -33,7 +33,7 @@ comic:
 
 **Summary**
 
-- A study published in **Nature Neuroscience** in October 2026 found that neurons in the **hippocampus**, the gateway to memory, make more of a fat-breaking enzyme called **PLA2G2F** as we age. The team, led by Amar Sahay at **Massachusetts General Hospital**, described it as a **"compensatory cognitive-resilience mechanism"** that the brain switches on by itself.
+- A study published in **Nature Neuroscience** in October 2026 found that neurons in the **hippocampus**, the gateway to memory, make more of a fat-breaking enzyme called **PLA2G2F** as we age. The team, led by Amar Sahay at **Massachusetts General Hospital**, described it as a <strong>"compensatory cognitive-resilience mechanism"</strong> that the brain switches on by itself.
 - When the gene was removed in mice, brain inflammation and neuron damage got worse and **memory test scores dropped**. When its activity was boosted, synapses were preserved, inflammation fell, and **older mice scored higher on memory tests**.
 - In an analysis of **13** human brains, the enzyme's activity also rose with age and was **highest** in people who kept their thinking skills despite deposits of **amyloid-beta**, the protein linked to Alzheimer's disease.
 
@@ -87,17 +87,17 @@ Scientists have long called this, signs of disease with no symptoms, **cognitive
 
 ### But so far it's mice and 13 brains
 
-There is something to say honestly here. **It has not been shown that raising this enzyme's activity would prevent memory loss or dementia in people.** The human data come from a small sample of 13 brains and show a link, not cause and effect. And there is **no drug or supplement** that raises this enzyme directly. If you see a product advertised as boosting it, be careful.
+There is something to say honestly here. <strong>It has not been shown that raising this enzyme's activity would prevent memory loss or dementia in people.</strong> The human data come from a small sample of 13 brains and show a link, not cause and effect. And there is **no drug or supplement** that raises this enzyme directly. If you see a product advertised as boosting it, be careful.
 
-So the real message of this study is not "go find this enzyme," but this: **the brain does not simply give way to aging; it has machinery that fights back.** What we can do is make the conditions good for that machinery to work.
+So the real message of this study is not "go find this enzyme," but this: <strong>the brain does not simply give way to aging; it has machinery that fights back.</strong> What we can do is make the conditions good for that machinery to work.
 
 ## Three steps to protect your hippocampus
 
 The habits below have **not** been shown to raise PLA2G2F directly. They are habits that other research has repeatedly linked to **hippocampal health and cognitive reserve**. Think of them as improving the power supply for the whole building, so the backup generator can keep going longer.
 
-1. **Fuel the hippocampus: brisk walking, 40 minutes, 3 times a week.** When **120** adults aged 55 to 80 did walking exercise three times a week for a year, their **hippocampal volume grew by about 2%**, while the stretching-only group's shrank by about 1.4% (**PNAS**, 2011). The hippocampus is a generator that responds honestly to exercise. Aim for a pace where you're slightly out of breath: you could talk, but not sing.
-2. **Give the janitors their shift: sleep 7 hours or more.** During sleep the space between brain cells widens, and waste such as **amyloid-beta** is washed out much faster than when we're awake (**Science**, 2013). Sleep is the cheapest way to keep microglia from clogging up. Dim your screens in the hour before bed.
-3. **Lay spare wiring: learn one unfamiliar thing each day.** The core finding of **cognitive reserve** research is that people with more education, social connection and new learning show symptoms later even when brain damage is present (**Lancet Neurology**, 2012). Take a new route home, learn five words of a foreign language, cook something you've never made. Unfamiliar tasks lay new wiring.
+1. <strong>Fuel the hippocampus: brisk walking, 40 minutes, 3 times a week.</strong> When **120** adults aged 55 to 80 did walking exercise three times a week for a year, their <strong>hippocampal volume grew by about 2%</strong>, while the stretching-only group's shrank by about 1.4% (**PNAS**, 2011). The hippocampus is a generator that responds honestly to exercise. Aim for a pace where you're slightly out of breath: you could talk, but not sing.
+2. <strong>Give the janitors their shift: sleep 7 hours or more.</strong> During sleep the space between brain cells widens, and waste such as **amyloid-beta** is washed out much faster than when we're awake (**Science**, 2013). Sleep is the cheapest way to keep microglia from clogging up. Dim your screens in the hour before bed.
+3. <strong>Lay spare wiring: learn one unfamiliar thing each day.</strong> The core finding of **cognitive reserve** research is that people with more education, social connection and new learning show symptoms later even when brain damage is present (**Lancet Neurology**, 2012). Take a new route home, learn five words of a foreign language, cook something you've never made. Unfamiliar tasks lay new wiring.
 
 | Step | What to do | How much | What you can expect in the hippocampus |
 | --- | --- | --- | --- |
@@ -109,7 +109,7 @@ The habits below have **not** been shown to raise PLA2G2F directly. They are hab
 
 ### Are there foods or supplements that increase PLA2G2F?
 
-**Not at present.** The study raised the enzyme by delivering the gene directly into mouse brains, and no method for people has been developed yet. The researchers hold a related patent, so treatment research may follow, but until then you can assume that products labelled as a "PLA2G2F booster" have no scientific basis. The best thing you can do now is to create good working conditions for your hippocampus, as in the three steps above.
+<strong>Not at present.</strong> The study raised the enzyme by delivering the gene directly into mouse brains, and no method for people has been developed yet. The researchers hold a related patent, so treatment research may follow, but until then you can assume that products labelled as a "PLA2G2F booster" have no scientific basis. The best thing you can do now is to create good working conditions for your hippocampus, as in the three steps above.
 
 ### I've been forgetting things more often. Is this the start of dementia?
 

@@ -34,7 +34,7 @@ comic:
 ## 📌 Key takeaways
 
 - 🔋 Magnesium does its work by binding to **ATP**, the cell's energy currency, to form **Mg-ATP**. **More than 600 enzymes** depend on it (**Physiological Reviews**, 2015). It is the cell factory's **main switch**, and **Nature** (2016) showed that magnesium inside cells rises and falls on a daily cycle, tuning how fast cells spend energy.
-- 🚢 The same magnesium is absorbed very differently **depending on the molecule it's paired with**. In one study, **magnesium oxide** had a fractional absorption of only about **4%** (**Magnesium Research**, 2001), while **magnesium citrate** was the best absorbed of the forms compared (**Magnesium Research**, 2003).
+- 🚢 The same magnesium is absorbed very differently **depending on the molecule it's paired with**. In one study, **magnesium oxide** had a fractional absorption of only about <strong>4%</strong> (**Magnesium Research**, 2001), while **magnesium citrate** was the best absorbed of the forms compared (**Magnesium Research**, 2003).
 - 🧠 **Magnesium L-threonate** raised brain magnesium in rats, increased synapses in the **hippocampus**, and improved learning and memory (**Neuron**, 2010). Human studies, however, are still small.
 - ⚖️ Magnesium supplementation tended to improve markers of **insulin sensitivity** (a 2016 meta-analysis of randomised controlled trials), and magnesium is also an essential helper for the enzymes that make **glutathione**, which is linked to skin tone.
 
@@ -61,7 +61,7 @@ A 2016 study in **Nature** went a step further. In both human cells and single-c
 Magnesium can't go into a tablet on its own, so it always comes paired with another molecule. That partner decides what happens in the gut. Picture magnesium as cargo, and the partner as the **ship** carrying it: the type of ship determines how it reaches the harbour, the cells lining your intestine.
 
 **🪨 Inorganic salts (magnesium oxide and others): a freighter anchored outside the harbour**
-Magnesium oxide packs a lot of magnesium into each tablet, but it dissolves poorly in water. Undissolved magnesium can't cross the gut wall; it stays in the intestine and pulls in water by **osmosis**. That softens stools, which is why it has long been used as a laxative. In a comparison of US commercial products, magnesium oxide's fractional absorption was only about **4%** (Firoz & Graber, 2001). It falls short for topping up your body's stores, but it does its job of getting the gut moving.
+Magnesium oxide packs a lot of magnesium into each tablet, but it dissolves poorly in water. Undissolved magnesium can't cross the gut wall; it stays in the intestine and pulls in water by **osmosis**. That softens stools, which is why it has long been used as a laxative. In a comparison of US commercial products, magnesium oxide's fractional absorption was only about <strong>4%</strong> (Firoz & Graber, 2001). It falls short for topping up your body's stores, but it does its job of getting the gut moving.
 
 **🍋 Organic salts (magnesium citrate, malate and others): ships that dissolve and sail into port**
 Magnesium paired with organic acids such as citric or malic acid dissolves readily in water. Magnesium has to dissolve into ions before it can pass through channels in the gut lining, so solubility is the first gate to absorption. In a randomised, double-blind study, **magnesium citrate** raised blood and urine magnesium more than magnesium oxide or an amino acid chelate (Walker et al., **Magnesium Research**, 2003).
@@ -71,9 +71,9 @@ In a chelate, amino acids grip magnesium like tongs. Commonly cited advantages a
 
 ### 3. L-threonate and the checkpoint in front of the brain
 
-The brain is surrounded by a strict checkpoint called the **blood–brain barrier (BBB)**, so a rise in blood magnesium doesn't automatically raise magnesium in the brain.
+The brain is surrounded by a strict checkpoint called the <strong>blood–brain barrier (BBB)</strong>, so a rise in blood magnesium doesn't automatically raise magnesium in the brain.
 
-In a 2010 study in **Neuron**, researchers compared several forms of magnesium and developed a new one, **magnesium L-threonate (MgT)**. Rats given it had higher magnesium in their cerebrospinal fluid, greater **synapse density** in the **hippocampus**, the brain's memory hub, and performed better on learning and on short- and long-term memory tasks (Slutsky et al., 2010). The researchers pointed to stronger signalling through hippocampal **NMDA receptors** as the key. NMDA receptors are **gatekeepers** that decide whether to strengthen connections between neurons. Magnesium normally acts as a **safety lock** on this gate, blocking background noise so that important signals come through more clearly.
+In a 2010 study in **Neuron**, researchers compared several forms of magnesium and developed a new one, <strong>magnesium L-threonate (MgT)</strong>. Rats given it had higher magnesium in their cerebrospinal fluid, greater **synapse density** in the **hippocampus**, the brain's memory hub, and performed better on learning and on short- and long-term memory tasks (Slutsky et al., 2010). The researchers pointed to stronger signalling through hippocampal **NMDA receptors** as the key. NMDA receptors are **gatekeepers** that decide whether to strengthen connections between neurons. Magnesium normally acts as a **safety lock** on this gate, blocking background noise so that important signals come through more clearly.
 
 In people, a 12-week study of **44** adults aged 50 to 70 reported improved cognitive scores (Liu et al., **Journal of Alzheimer's Disease**, 2016). It was small, though, and funded by the manufacturer, so larger independent studies are needed.
 
@@ -81,9 +81,9 @@ In people, a 12-week study of **44** adults aged 50 to 70 reported improved cogn
 
 **Glutathione** is one of the main antioxidants that cells make for themselves. The body links three amino acids together in two enzyme steps, and both enzymes run on **Mg-ATP**. When magnesium runs low, the switch on this assembly line loosens.
 
-The link to skin lies in **melanin**. Melanin is made along two branches: dark brown **eumelanin** and light, yellowish **pheomelanin**. When a cell has plenty of glutathione and cysteine, production tilts towards the **lighter branch (pheomelanin)**, like a railway **switch** turning the train onto a different track. A small clinical study found that people who took glutathione for four weeks had a slightly lower skin melanin index (Arjinpathana & Asawanonda, 2012).
+The link to skin lies in **melanin**. Melanin is made along two branches: dark brown **eumelanin** and light, yellowish **pheomelanin**. When a cell has plenty of glutathione and cysteine, production tilts towards the <strong>lighter branch (pheomelanin)</strong>, like a railway **switch** turning the train onto a different track. A small clinical study found that people who took glutathione for four weeks had a slightly lower skin melanin index (Arjinpathana & Asawanonda, 2012).
 
-One thing has to be said clearly: **there is no clinical study yet showing that magnesium supplements lighten skin.** Magnesium is an essential helper in the glutathione factory, not a whitening agent. For someone who is low, topping up may help the antioxidant system work properly, and that is as far as the science currently goes.
+One thing has to be said clearly: <strong>there is no clinical study yet showing that magnesium supplements lighten skin.</strong> Magnesium is an essential helper in the glutathione factory, not a whitening agent. For someone who is low, topping up may help the antioxidant system work properly, and that is as far as the science currently goes.
 
 ### 5. Insulin's keyhole and body fat
 
@@ -95,9 +95,9 @@ A meta-analysis of **18** randomised controlled trials found that magnesium supp
 
 ## ✅ The fix: three steps to using magnesium well
 
-1. **🥬 Step 1: Fill up from your plate first.** Recommended intake for adults is roughly **360–420 mg a day for men and 280–320 mg for women** (exact figures vary by country). Leafy greens such as spinach, nuts and seeds like pumpkin seeds and almonds, beans, brown rice and high-cocoa dark chocolate are good sources. Magnesium from food carries almost no risk of excess.
-2. **🎯 Step 2: Choose the form for your purpose.** If constipation is the concern, **magnesium oxide**; to top up efficiently, **magnesium citrate**; if your gut is sensitive or you prefer to take it in the evening, **glycinate**; if memory is your interest, **L-threonate**, which is still being studied. Always check the label for the amount of **elemental magnesium**.
-3. **⏰ Step 3: Split the dose and respect the upper limit.** For adults, the upper limit for magnesium from supplements is **350 mg a day**. Splitting it into two doses rather than taking it all at once improves absorption and reduces diarrhoea. Keep it **at least 2 hours** apart from calcium or iron supplements and some antibiotics.
+1. <strong>🥬 Step 1: Fill up from your plate first.</strong> Recommended intake for adults is roughly **360–420 mg a day for men and 280–320 mg for women** (exact figures vary by country). Leafy greens such as spinach, nuts and seeds like pumpkin seeds and almonds, beans, brown rice and high-cocoa dark chocolate are good sources. Magnesium from food carries almost no risk of excess.
+2. <strong>🎯 Step 2: Choose the form for your purpose.</strong> If constipation is the concern, **magnesium oxide**; to top up efficiently, **magnesium citrate**; if your gut is sensitive or you prefer to take it in the evening, **glycinate**; if memory is your interest, **L-threonate**, which is still being studied. Always check the label for the amount of **elemental magnesium**.
+3. <strong>⏰ Step 3: Split the dose and respect the upper limit.</strong> For adults, the upper limit for magnesium from supplements is **350 mg a day**. Splitting it into two doses rather than taking it all at once improves absorption and reduces diarrhoea. Keep it **at least 2 hours** apart from calcium or iron supplements and some antibiotics.
 
 ### 📊 Magnesium forms at a glance
 
