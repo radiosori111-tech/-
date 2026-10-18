@@ -1,0 +1,193 @@
+---
+title: "The Brain's Power to Get Back Up: What Resilience Is, How to Build It, and What Neuroscience Says About Achievement and Learning"
+slug: "resilience-what-it-is-how-to-build-it-brain-science-achievement-learning"
+lang: "en"
+translationOf: "회복탄력성-뜻과-키우는-법-뇌과학으로-본-성취와-학습의-관계"
+description: "Resilience is not a personality you're born with but a strength of mind you can train. Drawing on the key ideas of Professor Kim Joo-hwan's Korean book Resilience and on studies in Nature, Cell, PNAS and Nature Neuroscience, we explain how resilience is built in the brain, how it shapes achievement and learning, and a three-step training plan you can start today."
+date: "2026-10-18T21:00:00+09:00"
+tags: ["resilience", "Kim Joo-hwan", "prefrontal cortex", "amygdala", "neuroplasticity", "BDNF", "gratitude journal", "growth mindset", "neuroscience"]
+comic:
+  title: "The brain that gets back up where it fell"
+  panels:
+    - scene: tired
+      label: "The situation"
+      bubble: "I failed again… maybe I just can't do this"
+      alt: "A person slumped at a desk with an empty battery"
+      caption: "The day you fall, in an exam, at work, in a relationship. The <strong>amygdala</strong> sounds the alarm and the <strong>prefrontal cortex</strong> control room briefly goes dark."
+    - scene: synapse
+      label: "How it works"
+      bubble: "I can build a new road"
+      alt: "Two neurons joining"
+      caption: "Prefrontal connections weakened by stress recover after <strong>a month</strong> of rest. Like a sat-nav, the brain finds <strong>a new route</strong>. (<strong>PNAS</strong>, 2009)"
+    - scene: run
+      label: "What to do"
+      bubble: "Three lines of thanks, a 30-minute walk"
+      alt: "A person jogging lightly"
+      caption: "<strong>Gratitude notes</strong>, exercise that wakes up <strong>BDNF</strong>, and <strong>a small sense of control</strong>. Mental muscle grows through repetition."
+    - scene: steps
+      label: "The change"
+      bubble: "Even failure became a step"
+      alt: "Small repeated steps up a staircase towards a goal flag"
+      caption: "A brain that uses mistakes as information learns better and goes further. <strong>Resilience</strong> is the ground floor of achievement."
+---
+
+## 📌 Key takeaways
+
+- 🧠 **Resilience** is the strength of mind that brings you back to where you were, or higher, after hardship. In his Korean book *Resilience* (회복탄력성), Professor Kim Joo-hwan describes it through three pillars, **self-regulation, relationships and positivity**, and stresses that, like a muscle, **it can be trained**.
+- 🚨 In the moment you feel you might fall apart, the **amygdala**, the brain's alarm, goes off and the **prefrontal cortex**, which handles judgement, briefly shuts down. Yet in medical students facing a major exam, weakened prefrontal connections **recovered a month later**, once the stress had passed (**PNAS**, 2009).
+- 🗺️ Resilience is not "the absence of weakness" but **an adaptation the brain actively builds**. Mice that stayed unshaken by stress were in fact making more gene changes in their brain's reward circuits (**Cell**, 2007). And the key turned out to be <strong>the sense that "I have control"</strong> (**Nature Neuroscience**, 2005).
+- 🎓 Resilience carries over into learning and achievement. The brains of people who see mistakes as material for growth reacted more strongly right after an error and did better on the next problem (**Psychological Science**, 2011), and a mindset lesson of under an hour raised the grades of lower-achieving high school students (**Nature**, 2019).
+
+### 💬 The night I almost fell apart
+
+There was a day when something I had spent months preparing fell apart in an instant. The moment I saw the result, my heart dropped, my fingertips went cold and my mind went blank. That night one sentence kept circling: *So I really am someone who can't do this.*
+
+You've probably had a night like that too. The day you failed an exam, the day someone you trusted let you down, the day the results didn't match the effort. But looking back later, something curious often happens: the moment that felt like it would break you turned out to be where you started to grow a little.
+
+Psychology and neuroscience call what makes that difference **resilience**. And what happened in my body that night, the sinking heart and the blank mind, was actually a very precise signal from the brain. This post is about how to read that signal, and how to build a brain that gets back up.
+
+---
+
+## 📖 What is resilience?
+
+### A mind that bounces like a ball
+
+The word itself holds a hint. A glass ball dropped on the floor shatters; a rubber ball takes the force of the fall and bounces back up. Resilience is the mind's ability, like a rubber ball, to **turn the force of a fall into the force to rise again**. The better the ball, the higher it may bounce, sometimes higher than where it fell from.
+
+In his 2011 book *Resilience*, Professor Kim Joo-hwan of Yonsei University explained this idea in plain Korean. The book divides resilience into three pillars, and each pillar into three abilities.
+
+| Pillar | Component abilities | In a line |
+| --- | --- | --- |
+| **Self-regulation** | Emotion regulation, impulse control, causal analysis | The strength that steadies you when you're shaken |
+| **Relationships** | Communication, empathy, self-expansion | The strength that tells you you're not alone |
+| **Positivity** | Self-optimism, life satisfaction, gratitude | The strength that finds a reason to get back up |
+
+The book also includes the <strong>Korean Resilience Quotient (KRQ-53)</strong>, a self-test for checking these three pillars. A low score is no reason for disappointment. Just as a strength test is where training begins, this test is a starting point.
+
+### 📝 Three messages worth remembering from the book
+
+Here is the message that runs through the whole book, summarised in three sentences. (These summarise its key ideas; they are not direct quotations.)
+
+> <strong>One. Resilience is a muscle of the mind.</strong>
+> Like the body's muscles, the strength of the mind isn't fixed at birth. Anyone can build it by using and training it consistently.
+
+> <strong>Two. The ball that hits the bottom bounces the highest.</strong>
+> Hardship isn't simply bad luck to avoid; for people with high resilience, it becomes a springboard for a higher leap.
+
+> <strong>Three. We don't give thanks because we're happy; we become happy because we give thanks.</strong>
+> Positivity isn't just the result of good things happening. It's a habit you can create first, through deliberate practice such as gratitude.
+
+### The children of Kauai, Hawaii
+
+The best-known study the book introduces is psychologist Emmy Werner's **Kauai longitudinal study**. It followed **698** children born on the Hawaiian island of Kauai in 1955 for more than 30 years. Of the **201** high-risk children who grew up amid poverty, family conflict or parental illness, about **one third** grew into healthy adults without serious problems.
+
+These children shared one thing: **at least one** adult who believed in them and supported them unconditionally. It shows why "relationships" matters so much among the three pillars of resilience.
+
+## 🔬 Deep Dive: how is resilience built in the brain?
+
+### 1. The alarm and the control room: amygdala and prefrontal cortex
+
+Deep in the brain, the **amygdala** is a **fire alarm** that goes off the instant it senses danger. Just behind the forehead, the **prefrontal cortex** is the **control room** and the **brake**: it decides whether the alarm means a real fire or just burnt toast, and switches it off. The sinking heart and cold fingertips I felt that night were the amygdala sending an emergency broadcast to the whole body.
+
+The trouble is that this control room is very vulnerable to stress. Yale neuroscientist Amy Arnsten has described how intense stress floods the brain with **noradrenaline** and **dopamine**, temporarily "switching off" prefrontal connections and handing the wheel to the amygdala and habit circuits instead (**Nature Reviews Neuroscience**, 2009). Going blank in an exam, or saying things in anger you'd never normally say, is exactly this state.
+
+A resilient brain isn't one whose alarm never sounds. It's one whose **control room comes back on quickly** when it does.
+
+### 2. The control room switches back on: the medical student experiment
+
+Does a control room that has gone dark stay broken for good? Researchers at Cornell scanned the brains of medical students who had spent a month under heavy stress before a major exam, and compared them with less-stressed students. The stressed students did worse on a task requiring them to shift attention, and their prefrontal connections were noticeably weaker. But when they were scanned again after **a month** of rest following the exam, both the weakened connections and their task performance had **returned to normal** (Liston et al., **PNAS**, 2009).
+
+The message of this experiment is a gentle one. The mark stress leaves on the brain is less a wound than **a light briefly switched off**, and given time to rest and recover, it can come back on.
+
+### 3. The brain builds new roads like a sat-nav: neuroplasticity
+
+The brain's neural circuits are a lot like the **routes** on a sat-nav. If, every time you fail, you keep travelling the road that leads to "I can't do it," that road gradually widens into a **motorway**. The next time something similar happens, the brain takes that motorway automatically.
+
+But just as a sat-nav **recalculates a new route** around a blocked road, the brain can lay new roads too. As in **Hebb's rule**, "neurons that fire together wire together," repeating the thought "what could I change this time?" gradually widens a circuit that started as a narrow path. This ability of circuits to rewire with experience is called **neuroplasticity**. Training resilience, in the end, means **adding more route options** the brain can choose from when hardship strikes.
+
+### 4. The sense that "I can stop this" protects the brain
+
+In the 1960s, Martin Seligman found that animals repeatedly given shocks they couldn't escape later gave up even when escape was possible, and called it **learned helplessness**. Decades later, brain research turned the story around.
+
+In a 2005 study in **Nature Neuroscience**, rats that received the same amount of shock but **could stop it themselves** by turning a wheel did not later become helpless (Amat et al., 2005). In their brains, the **medial prefrontal cortex** detected the information "this is something I can control" and suppressed the brainstem alarm circuit that amplifies the stress response. When the researchers temporarily switched off the prefrontal cortex, even the rats that had control behaved like helpless ones.
+
+Seligman and colleagues later summed it up this way: helplessness isn't learned; it's the brain's **default**, and what we need to learn is **the sense that we have control** (Maier & Seligman, **Psychological Review**, 2016).
+
+### 5. Resilience is "active"
+
+A study in **Cell** (Krishnan et al., 2007) changed how scientists see resilience. The researchers exposed mice to repeated social stress; some developed depression-like behaviour and some stayed unshaken. Surprisingly, the unshaken mice hadn't simply been lucky. They were making **even more gene changes** in their brain's reward circuits, actively building adaptations that pushed back against the stress.
+
+Building on this, neuroscientists have described resilience not as "the absence of vulnerability" but as <strong>"an adaptive process the brain actively carries out"</strong> (Russo et al., **Nature Neuroscience**, 2012). It's the moment Kim Joo-hwan's "muscle of the mind" is confirmed in the language of neuroscience.
+
+### 6. Gratitude widens your view and leaves a trace in the brain
+
+Positivity isn't just feeling good. According to psychologist Barbara Fredrickson's **broaden-and-build theory**, anxiety and fear narrow our view to the threat in front of us, while positive emotions such as joy, gratitude and interest **broaden our thinking**, help us find new solutions, and build up resources for weathering the next hardship (Fredrickson, **American Psychologist**, 2001).
+
+Gratitude leaves a trace in the brain too. Among people receiving psychological counselling, those who wrote gratitude letters for three weeks showed, in brain scans **three months later**, a more sensitive response in the **medial prefrontal cortex** when expressing gratitude (Kini et al., **NeuroImage**, 2016). Practising gratitude had laid a road in the brain that lasted.
+
+## 🎓 Resilience, achievement and learning
+
+### A different brain for mistakes
+
+Studying is, in the end, the process of correcting what we got wrong. So learning depends heavily on **what the brain does right after a mistake**.
+
+Researchers at Michigan State University gave people an error-prone task and recorded their brainwaves. The more strongly people held a **growth mindset**, the belief that ability grows with effort, the more their brains showed a **signal of paying closer attention** right after a mistake, and the more accurate they were on the very next trial (Moser et al., **Psychological Science**, 2011). A brain that takes a mistake as a verdict, "I can't do it," looks away from it; a brain that takes it as information learns from it.
+
+### A mindset lesson of under an hour that changed grades
+
+In 2019, **Nature** published a large experiment involving **12,490** US ninth-graders. Students took an online lesson of **less than an hour** explaining that the brain's connections grow stronger when it takes on challenges. Afterwards, the grades of lower-achieving students rose meaningfully, and more students chose harder maths courses (Yeager et al., 2019). The effect was modest and varied with school culture, but it showed that the belief "I can try again" can turn into real behaviour and achievement.
+
+### Learning needs the control room switched on
+
+Understanding something new, holding it in memory and making plans are all the prefrontal cortex's job. That's why, when you're frightened, nothing sinks in no matter how long you sit at your desk. Resilience isn't a bonus on top of achievement; it's **the ground condition for learning to happen at all**. People who can switch the control room back on quickly after a fall take on more challenges, make more mistakes, and learn that much more.
+
+## ✅ The fix: a three-step plan to build resilience
+
+1. <strong>🙏 Step 1: Practise gratitude (5 minutes before bed).</strong> Write down **three** specific things you were grateful for today. The key is to write so the scene comes back, not "the weather was nice" but "at lunch a colleague handed me a coffee with a smile." People who wrote weekly about things they were grateful for rated their lives more positively, exercised more and reported fewer physical complaints than people who wrote about hassles (Emmons & McCullough, **Journal of Personality and Social Psychology**, 2003). Once a month, try writing a short thank-you letter to someone.
+2. <strong>🏃 Step 2: Wake up BDNF with exercise (3 times a week, 30–40 minutes).</strong> Try aerobic exercise that leaves you slightly out of breath, such as brisk walking or light jogging. <strong>BDNF (brain-derived neurotrophic factor)</strong>, often called fertiliser for the brain, is a protein essential for building new neural connections, and it rises with exercise. When **120** older adults walked three times a week for a year, the **hippocampus**, the brain's memory hub, <strong>grew by about 2%</strong>, and greater growth went with higher blood BDNF (Erickson et al., **PNAS**, 2011). An analysis pooling more than 1,000 clinical trials also found that physical activity clearly reduced depression, anxiety and psychological distress (Singh et al., **British Journal of Sports Medicine**, 2023). It's as if your body delivers the building materials for laying new roads.
+3. <strong>🎯 Step 3: Find a small sense of control and name your feelings (1 minute, whenever something hard happens).</strong> Fold a sheet of paper in half. On one side write "what I can't change," on the other "what I can change." Then, from the side you can change, pick **the smallest action you can take today**. At the same time, **name your current feeling in one word**, such as "hurt" or "anxious." Simply putting feelings into words reduced the amygdala's response and activated the prefrontal cortex (Lieberman et al., **Psychological Science**, 2007). It's one minute to turn down the alarm and switch the control-room lights back on.
+
+| Step | What to do | When and how much | Pillar of resilience strengthened | What happens in the brain |
+| --- | --- | --- | --- | --- |
+| 1. Gratitude | Three things you're grateful for; a thank-you letter once a month | 5 minutes before bed | Positivity (gratitude, life satisfaction) | **Medial prefrontal cortex** stays more sensitive; thinking broadens |
+| 2. Exercise | Aerobic exercise that leaves you slightly breathless | 3 times a week, 30–40 min | The base strength for everything | **BDNF** rises, **hippocampus** grows, mood improves |
+| 3. Control and labelling | The smallest action you can change; name your feeling in one word | 1 minute, whenever something is hard | Self-regulation (emotion regulation, causal analysis) | **Prefrontal cortex** switches on, the **amygdala** alarm quiets |
+
+None of these steps is grand. Resilience is a muscle that grows through **small repetitions** rather than big resolutions.
+
+## 🙋 Frequently asked questions
+
+### Q1. Isn't resilience something you're born with?
+
+It is true that genes and early environment play a part. But as the Kauai study shows, children grew up healthy even in difficult circumstances when they had a supportive relationship, and the medical student experiment showed that brain connections weakened by stress recover with rest. Just as people's muscles differ in size yet anyone gets stronger with exercise, resilience can be built through training, whatever your starting point.
+
+### Q2. Do resilient people not feel painful emotions?
+
+No. Resilience isn't the ability not to feel sadness or anxiety; it's the ability to feel those emotions fully and then **come back**. Simply suppressing painful emotions can actually slow recovery. Acknowledging and naming your feelings, and asking for help when you need it, are also an important part of resilience.
+
+## 📚 References
+
+- Kim, J.-H. (2011). *Resilience: The Delightful Secret of Turning Hardship into Good Fortune* (회복탄력성: 시련을 행운으로 바꾸는 유쾌한 비밀). Wisdom House. (In Korean.)
+- Werner, E. E., & Smith, R. S. (1992). *Overcoming the Odds: High Risk Children from Birth to Adulthood*. Cornell University Press.
+- Arnsten, A. F. T. (2009). Stress signalling pathways that impair prefrontal cortex structure and function. *Nature Reviews Neuroscience*, 10(6), 410–422.
+- Liston, C., McEwen, B. S., & Casey, B. J. (2009). Psychosocial stress reversibly disrupts prefrontal processing and attentional control. *PNAS*, 106(3), 912–917.
+- Amat, J., Baratta, M. V., Paul, E., Bland, S. T., Watkins, L. R., & Maier, S. F. (2005). Medial prefrontal cortex determines how stressor controllability affects behavior and dorsal raphe nucleus. *Nature Neuroscience*, 8(3), 365–371.
+- Maier, S. F., & Seligman, M. E. P. (2016). Learned helplessness at fifty: insights from neuroscience. *Psychological Review*, 123(4), 349–367.
+- Krishnan, V., Han, M.-H., Graham, D. L., … Nestler, E. J. (2007). Molecular adaptations underlying susceptibility and resistance to social defeat in brain reward regions. *Cell*, 131(2), 391–404.
+- Russo, S. J., Murrough, J. W., Han, M.-H., Charney, D. S., & Nestler, E. J. (2012). Neurobiology of resilience. *Nature Neuroscience*, 15(11), 1475–1484.
+- Fredrickson, B. L. (2001). The role of positive emotions in positive psychology: the broaden-and-build theory of positive emotions. *American Psychologist*, 56(3), 218–226.
+- Kini, P., Wong, J., McInnis, S., Gabana, N., & Brown, J. W. (2016). The effects of gratitude expression on neural activity. *NeuroImage*, 128, 1–10.
+- Moser, J. S., Schroder, H. S., Heeter, C., Moran, T. P., & Lee, Y.-H. (2011). Mind your errors: evidence for a neural mechanism linking growth mind-set to adaptive posterror adjustments. *Psychological Science*, 22(12), 1484–1489.
+- Yeager, D. S., Hanselman, P., Walton, G. M., … Dweck, C. S. (2019). A national experiment reveals where a growth mindset improves achievement. *Nature*, 573(7774), 364–369.
+- Emmons, R. A., & McCullough, M. E. (2003). Counting blessings versus burdens: an experimental investigation of gratitude and subjective well-being in daily life. *Journal of Personality and Social Psychology*, 84(2), 377–389.
+- Erickson, K. I., Voss, M. W., Prakash, R. S., … Kramer, A. F. (2011). Exercise training increases size of hippocampus and improves memory. *PNAS*, 108(7), 3017–3022.
+- Singh, B., Olds, T., Curtis, R., … Maher, C. (2023). Effectiveness of physical activity interventions for improving depression, anxiety and distress: an overview of systematic reviews. *British Journal of Sports Medicine*, 57(18), 1203–1209.
+- Lieberman, M. D., Eisenberger, N. I., Crockett, M. J., Tom, S. M., Pfeifer, J. H., & Way, B. M. (2007). Putting feelings into words: affect labeling disrupts amygdala activity in response to affective stimuli. *Psychological Science*, 18(5), 421–428.
+
+## 💭 A question for you
+
+When you fell the hardest, what helped you back up? Was it someone's words, a small habit, or a sentence you said to yourself? Tell us on the [contact page](/en/contact/). Your story of recovery could be someone else's reason to get back up.
+
+## ⚠️ Disclaimer
+
+This article provides general information based on a book and academic research and is not a substitute for psychological counselling or medical diagnosis and treatment. Some of the neuroscience studies described are based on animal experiments. If low mood or anxiety lasts more than two weeks or makes daily life difficult, please seek help from a psychiatrist or a mental health professional. If you are in crisis, contact your local emergency number or a crisis helpline right away.
