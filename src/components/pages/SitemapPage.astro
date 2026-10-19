@@ -4,7 +4,7 @@
 import Page from '../../layouts/Page.astro';
 import LangSwitch from '../LangSwitch.astro';
 import { sitemapArticles, sitemapPosts, type SitemapGroup } from '../../data/sitemap';
-import { t, LANGS, LANG_NAME, HREFLANG, articlesPath, blogPath, pagePath, type Lang } from '../../i18n/ui';
+import { t, LANGS, LANG_NAME, HREFLANG, articlesPath, homePath, pagePath, type Lang } from '../../i18n/ui';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -50,7 +50,7 @@ const CODE: Record<Lang, string> = { ko: 'KO', en: 'EN', ja: 'JA' };
 
 const pages = [
   { href: articlesPath(lang), label: tr.nav.articles, desc: COPY.desc.articles },
-  { href: blogPath(lang), label: tr.nav.blog, desc: COPY.desc.blog },
+  { href: homePath(lang), label: tr.nav.blog, desc: COPY.desc.blog },
   { href: pagePath(lang, '/about/'), label: tr.nav.about, desc: COPY.desc.about },
   { href: pagePath(lang, '/contact/'), label: tr.nav.contact, desc: COPY.desc.contact },
   { href: pagePath(lang, '/privacy/'), label: tr.foot.privacy, desc: COPY.desc.privacy },
@@ -88,7 +88,7 @@ const alternates = LANGS.map((l) => ({ lang: l, href: pagePath(l, '/sitemap/') }
     {sections.map((s) => (
       <section aria-labelledby={`sm-${s.id}`}>
         <h2 id={`sm-${s.id}`} class="sm-title">
-          <a href={s.id === 'articles' ? articlesPath(lang) : blogPath(lang)}>{s.title}</a>
+          <a href={s.id === 'articles' ? articlesPath(lang) : homePath(lang)}>{s.title}</a>
           <span class="sm-count tabular">{COPY.count(total(s.groups))}</span>
         </h2>
         <div class="sm-groups">

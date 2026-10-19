@@ -5,7 +5,7 @@ import Icon from '../components/Icon.astro';
 import LangSwitch from '../components/LangSwitch.astro';
 import AdSenseHead from '../components/ads/AdSenseHead.astro';
 import { SITE } from '../data/site';
-import { t, LANGS, blogPath, articlesPath, pagePath, OG_LOCALE, HREFLANG, DEFAULT_LANG, type Lang, type Alternate } from '../i18n/ui';
+import { t, LANGS, blogPath, homePath, articlesPath, pagePath, OG_LOCALE, HREFLANG, DEFAULT_LANG, type Lang, type Alternate } from '../i18n/ui';
 
 interface Props {
   title?: string;
@@ -26,20 +26,21 @@ const fullTitle = title ? `${title} | ${SITE.name}` : `${SITE.name} — ${slogan
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const path = Astro.url.pathname;
 const articlesHref = articlesPath(lang);
+const homeHref = homePath(lang);
+// 블로그 메뉴는 첫 화면과 블로그 글에서, 아티클 메뉴는 아티클 목록과 글에서 켜진다
 const isCurrent = (href: string) =>
-  href === '/' ? path === '/' || path.startsWith('/articles')
-  : href === articlesHref ? path.startsWith(articlesHref)
+  href === homeHref ? path === homeHref || path.startsWith(blogPath(lang))
   : path.startsWith(href);
 // 메뉴 · 푸터 링크는 지금 보고 있는 언어의 페이지로 간다
 const nav = [
+  { href: homeHref, label: tr.nav.blog },
   { href: articlesHref, label: tr.nav.articles },
-  { href: blogPath(lang), label: tr.nav.blog },
   { href: pagePath(lang, '/about/'), label: tr.nav.about },
   { href: pagePath(lang, '/contact/'), label: tr.nav.contact },
 ];
 const privacyHref = pagePath(lang, '/privacy/');
 // 머리 메뉴의 언어 탭: 같은 페이지의 번역이 있으면 그리로, 없으면 그 언어의 아티클 홈으로 간다
-const langLinks = LANGS.map((l) => alternates.find((a) => a.lang === l) ?? { lang: l, href: articlesPath(l) });
+const langLinks = LANGS.map((l) => alternates.find((a) => a.lang === l) ?? { lang: l, href: homePath(l) });
 const abs = (href: string) => new URL(href, Astro.site).toString();
 ---
 <!doctype html>
@@ -91,7 +92,7 @@ const abs = (href: string) => new URL(href, Astro.site).toString();
     <a class="skip-link" href="#main">{tr.skip}</a>
     <header class="site-header frame">
       <div class="wrap bar">
-        <a class="brand" href={articlesHref} aria-label={`${SITE.name} ${tr.home}`}>
+        <a class="brand" href={homeHref} aria-label={`${SITE.name} ${tr.home}`}>
           <svg class="brand-mark" viewBox="0 0 28 28" aria-hidden="true">
             <rect width="28" height="28" rx="8" />
             <path d="M8 18.5c2.5-9 9.5 0 12-9" />

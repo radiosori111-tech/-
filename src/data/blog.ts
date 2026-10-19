@@ -1,5 +1,5 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
-import { blogPath, LANGS, type Lang, type Alternate } from '../i18n/ui';
+import { blogPath, homePath, LANGS, type Lang, type Alternate } from '../i18n/ui';
 
 export type Post = CollectionEntry<'blog'>;
 
@@ -25,7 +25,7 @@ export async function postAlternates(post: Post): Promise<Alternate[]> {
 }
 
 // 블로그 목록의 언어별 주소
-export const listAlternates: Alternate[] = LANGS.map((lang) => ({ lang, href: blogPath(lang) }));
+export const listAlternates: Alternate[] = LANGS.map((lang) => ({ lang, href: homePath(lang) }));
 
 // 티스토리 태그는 "#태그1#태그2"처럼 한 칸에 붙어 들어온 것이 많아 낱개로 나눈다
 export function postTags(post: Post) {

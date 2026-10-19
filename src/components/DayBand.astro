@@ -1,17 +1,22 @@
 ---
 import { minutesOfDay } from '../data/site';
 
-interface Pin { slug: string; title: string; time: string; moment: string }
-interface Props { pins: Pin[] }
+interface Pin { href: string; title: string; time: string; moment: string }
+interface Props { pins: Pin[]; lang?: 'ko' | 'en' | 'ja' }
 
-const { pins } = Astro.props;
+const { pins, lang = 'ko' } = Astro.props;
+const T = {
+  ko: { desc: '하루 24시간 위에 놓인 아티클: 각 글은 그 습관이 일어나는 시각에 표시됩니다.', now: '지금' },
+  en: { desc: 'Articles placed on a 24-hour day: each one sits at the time its habit happens.', now: 'Now' },
+  ja: { desc: '一日24時間の上に置いた記事：それぞれの記事は、その習慣が起こる時刻に表示されます。', now: 'いま' },
+}[lang];
 const placed = pins
   .map((p) => ({ ...p, pct: ((minutesOfDay(p.time) ?? 0) / 1440) * 100 }))
   .sort((a, b) => a.pct - b.pct);
 const hours = [0, 3, 6, 9, 12, 15, 18, 21, 24];
 ---
-<div class="dayband" data-dayband>
-  <p class="visually-hidden">하루 24시간 위에 놓인 아티클: 각 글은 그 습관이 일어나는 시각에 표시됩니다.</p>
+<div class="dayband" data-dayband data-now-word={T.now}>
+  <p class="visually-hidden">{T.desc}</p>
   <div class="band-inner">
     <div class="track" aria-hidden="true">
       <span class="elapsed" data-elapsed></span>
@@ -21,7 +26,7 @@ const hours = [0, 3, 6, 9, 12, 15, 18, 21, 24];
     <ol class="pins">
       {placed.map((p) => (
         <li class:list={['pin', p.pct > 70 && 'pin-end']} style={`--x:${p.pct}%`} data-minute={minutesOfDay(p.time)}>
-          <a href={`/articles/${p.slug}/`}>
+          <a href={p.href}>
             <span class="pin-dot" aria-hidden="true"></span>
             <span class="pin-label">
               <span class="time-mark">{p.time}</span>
@@ -32,7 +37,7 @@ const hours = [0, 3, 6, 9, 12, 15, 18, 21, 24];
         </li>
       ))}
     </ol>
-    <span class="now" data-now hidden aria-hidden="true"><span class="now-label tabular" data-now-label>지금</span></span>
+    <span class="now" data-now hidden aria-hidden="true"><span class="now-label tabular" data-now-label>{T.now}</span></span>
     <div class="hours tabular" aria-hidden="true">
       {hours.map((h) => <span style={`left:${(h / 24) * 100}%`}>{String(h).padStart(2, '0')}</span>)}
     </div>
@@ -50,7 +55,7 @@ const hours = [0, 3, 6, 9, 12, 15, 18, 21, 24];
       const elapsed = band.querySelector<HTMLElement>('[data-elapsed]');
       if (now && label) {
         now.style.setProperty('--x', `${pct}%`);
-        label.textContent = `지금 ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
+        label.textContent = `${band.dataset.nowWord} ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
         now.classList.toggle('now-end', pct > 82);
         now.hidden = false;
       }

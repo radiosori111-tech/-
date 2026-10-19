@@ -9,9 +9,12 @@ export const LANG_NAME: Record<Lang, string> = { ko: '한국어', en: 'English',
 export const OG_LOCALE: Record<Lang, string> = { ko: 'ko_KR', en: 'en_US', ja: 'ja_JP' };
 export const HREFLANG: Record<Lang, string> = { ko: 'ko', en: 'en', ja: 'ja' };
 
+// 블로그 글 주소의 앞부분 (/blog/<slug>/). 블로그 목록은 사이트 첫 화면(homePath)이다
 export const blogPath = (lang: Lang) => (lang === 'ko' ? '/blog/' : `/${lang}/blog/`);
-// 한국어 아티클 목록은 홈(/)이고, 영어 · 일본어는 /en/articles/ · /ja/articles/
-export const articlesPath = (lang: Lang) => (lang === 'ko' ? '/' : `/${lang}/articles/`);
+// 사이트 첫 화면 = 블로그 목록 (/, /en/, /ja/)
+export const homePath = (lang: Lang) => (lang === 'ko' ? '/' : `/${lang}/`);
+// 아티클 목록 (/articles/, /en/articles/, /ja/articles/)
+export const articlesPath = (lang: Lang) => (lang === 'ko' ? '/articles/' : `/${lang}/articles/`);
 // 소개 · 문의 · 개인정보 처리방침 같은 공통 페이지의 언어별 주소 (path는 '/about/'처럼)
 export const pagePath = (lang: Lang, path: string) => (lang === 'ko' ? path : `/${lang}${path}`);
 

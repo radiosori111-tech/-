@@ -6,6 +6,8 @@ import PostList, { type ListItem } from '../PostList.astro';
 import LangSwitch from '../LangSwitch.astro';
 import { getPosts, postUrl, postTags, postMinutes, listAlternates } from '../../data/blog';
 import { t, formatDateFor, type Lang } from '../../i18n/ui';
+import DayBand from '../DayBand.astro';
+import { getArticles, articleUrl } from '../../data/articles';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -23,9 +25,14 @@ const items: ListItem[] = posts.map((p) => ({
 }));
 // 가장 최근 글은 머리의 '최신글' 카드로 올리고, 목록에서는 검색할 때만 다시 보인다
 const latest = posts[0];
+// 아티클 홈과 같은 하루 띠: 습관 시각이 있는 아티클을 하루 위에 놓는다
+const pins = (await getArticles(lang))
+  .filter((a) => a.data.time)
+  .map((a) => ({ href: articleUrl(a), title: a.data.title, time: a.data.time!, moment: a.data.moment }));
 ---
 <Page title={tr.list.blogTitle} lede={tr.list.blogLede} lang={lang} alternates={listAlternates}>
   <LangSwitch slot="head" alternates={listAlternates} current={lang} label={tr.post.readIn} />
+  {pins.length > 0 && <DayBand slot="band" pins={pins} lang={lang} />}
   {latest && (
     <article class="latest" slot="feature">
       <p class="latest-badge"><span class="latest-dot" aria-hidden="true"></span>{tr.list.latest}</p>

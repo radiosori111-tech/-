@@ -1,6 +1,36 @@
 {
   "redirects": [
     {
+      "source": "/ja/blog/",
+      "destination": "/ja/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/blog",
+      "destination": "/ja/",
+      "permanent": true
+    },
+    {
+      "source": "/en/blog/",
+      "destination": "/en/",
+      "permanent": true
+    },
+    {
+      "source": "/en/blog",
+      "destination": "/en/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/entry/:path*",
       "destination": "/blog/:path*",
       "permanent": true

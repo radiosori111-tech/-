@@ -4,7 +4,7 @@ import { render } from 'astro:content';
 import PostLayout from '../../layouts/PostLayout.astro';
 import { SITE } from '../../data/site';
 import { postUrl, postTags, postMinutes, postAlternates, type Post } from '../../data/blog';
-import { t, blogPath, formatDateFor, HREFLANG } from '../../i18n/ui';
+import { t, homePath, formatDateFor, HREFLANG } from '../../i18n/ui';
 import { readNext } from '../../data/related';
 import { conceptNet } from '../../data/concepts';
 
@@ -42,7 +42,7 @@ const jsonLd = {
   jsonLd={jsonLd}
   image={image}
   url={url}
-  back={{ href: blogPath(lang), label: tr.backBlog }}
+  back={{ href: homePath(lang), label: tr.backBlog }}
   headings={headings}
   storageKey={`blog:${slug}`}
   reviewed={updated ?? date}

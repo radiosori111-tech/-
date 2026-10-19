@@ -36,8 +36,11 @@ function translationLinks() {
     const name = path.basename(file).replace(/\.mdx?$/, '');
     add(`articles:${field(src, 'translationOf') || name}`, lang, `${lang === 'ko' ? '' : `/${lang}`}/articles/${name}/`);
   }
-  // 한국어 아티클 목록은 홈(/)이고, 영어 · 일본어는 /en/articles/ · /ja/articles/
-  add('articles-index', 'ko', '/');
+  // 첫 화면은 블로그 목록(/, /en/, /ja/), 아티클 목록은 /articles/, /en/articles/, /ja/articles/
+  add('home', 'ko', '/');
+  add('home', 'en', '/en/');
+  add('home', 'ja', '/ja/');
+  add('articles-index', 'ko', '/articles/');
   add('articles-index', 'en', '/en/articles/');
   add('articles-index', 'ja', '/ja/articles/');
   const byPath = new Map();

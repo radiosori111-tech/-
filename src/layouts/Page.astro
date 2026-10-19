@@ -19,6 +19,7 @@ const hasFeature = Astro.slots.has('feature');
         </div>
         {hasFeature && <slot name="feature" />}
       </div>
+      <slot name="band" />
     </div>
   </header>
   <div class="wrap page-body">
