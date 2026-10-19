@@ -34,6 +34,15 @@ const panelAlt = (p: Panel, i: number) => {
   const stop = lang === 'ja' ? '。' : '.';
   return `${head}: ${p.alt}${stop}${bubble} ${plain(p.caption)}`.trim();
 };
+
+// 만화 아래에 컷마다 그림 묘사와 말풍선을 글로 보여 준다. 그림을 보기 어려운 독자도 같은 내용을 읽는다
+const TRANSCRIPT: Record<Lang, { title: string; panel: (n: number, label: string) => string; picture: string; bubble: string; quote?: [string, string] }> = {
+  ko: { title: '만화를 글로 읽기', panel: (n, label) => `${n}컷 · ${label}`, picture: '그림', bubble: '말풍선' },
+  en: { title: 'The comic in words', panel: (n, label) => `Panel ${n} · ${label}`, picture: 'Picture', bubble: 'Speech bubble' },
+  ja: { title: 'マンガを文章で読む', panel: (n, label) => `${n}コマ目・${label}`, picture: '絵', bubble: 'ふきだし', quote: ['「', '」'] },
+};
+const tr = TRANSCRIPT[lang];
+const [qOpen, qClose] = tr.quote ?? ['“', '”'];
 ---
 <section class="comic" aria-labelledby="comic-title" data-comic>
   <header class="comic-head">
@@ -52,6 +61,18 @@ const panelAlt = (p: Panel, i: number) => {
       </li>
     ))}
   </ol>
+  <div class="comic-transcript">
+    <p class="transcript-title">{tr.title}</p>
+    <ol class="transcript-list">
+      {comic.panels.map((p, i) => (
+        <li>
+          <strong>{tr.panel(i + 1, p.label)}</strong>
+          <span class="transcript-line"><span class="transcript-key">{tr.picture}</span>{p.alt}</span>
+          {p.bubble && <span class="transcript-line"><span class="transcript-key">{tr.bubble}</span>{qOpen}{p.bubble}{qClose}</span>}
+        </li>
+      ))}
+    </ol>
+  </div>
 </section>
 
 <style>
@@ -140,6 +161,30 @@ const panelAlt = (p: Panel, i: number) => {
   }
   .panel-caption :global(strong) { color: var(--ink); font-weight: 700; }
 
+  .comic-transcript {
+    margin-top: 1rem;
+    padding: 1rem 1.125rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-card);
+    background: var(--surface);
+  }
+  .transcript-title { margin: 0 0 0.5rem !important; font-size: var(--text-sm); font-weight: 700; color: var(--ink); }
+  .transcript-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.625rem 1.25rem;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: var(--ink-soft);
+  }
+  .transcript-list li { margin: 0 !important; padding: 0 !important; }
+  .transcript-list strong { display: block; color: var(--ink); font-weight: 700; }
+  .transcript-line { display: block; }
+  .transcript-key { margin-right: 0.375rem; font-size: var(--text-xs); font-weight: 700; color: var(--muted); }
+
   @media (prefers-reduced-motion: no-preference) {
     .comic-panel { animation: panel-in 420ms var(--ease-out) both; }
     .comic-panel:nth-child(2) { animation-delay: 70ms; }
@@ -153,5 +198,6 @@ const panelAlt = (p: Panel, i: number) => {
     .comic-panel { padding: 1.125rem 1.125rem 1.25rem !important; }
     .panel-caption { font-size: 0.9375rem; }
     .panel-bubble { font-size: 0.875rem; }
+    .transcript-list { grid-template-columns: minmax(0, 1fr); font-size: 0.9375rem; }
   }
 </style>
