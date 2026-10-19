@@ -61,8 +61,6 @@ Instead, he recommended record-keeping habits that organize and categorize, like
 
 You can start by writing just three lines each evening about what you did today and what you'll do tomorrow. It may seem like nothing at first, but as these records pile up, you're said to develop your own framework within which you can move freely, so it's worth a try.
 
-![Thumbnail of a KBS Radio 'Success Forecast' video with Professor Kim Ik-han and a caption warning that taking notes this way can weaken memory](/images/blog/200fe3c620/02.webp)
-
 ## Why people who steadily fill in a daily amount end up ahead
 
 An English education expert said it's important to work through a set amount of study from a complete curriculum every single day, like a diligent tortoise. What students who consistently stay at the top nationally, from the early grades of elementary school through middle school, had in common was exactly this <strong>daily amount of study</strong>.

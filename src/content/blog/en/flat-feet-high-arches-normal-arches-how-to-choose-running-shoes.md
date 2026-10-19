@@ -63,8 +63,6 @@ If almost the entire inner side of the footprint shows in a nearly straight line
 
 This method is only for reference, though; if you need an accurate assessment, I recommend a foot-pressure scan at a specialist running store or a gait analysis at an orthopedic or rehabilitation clinic. If the soles of your old sneakers are unusually worn on one side, that can also be a hint about the state of your arch.
 
-![A black running shoe with neon yellow accents](/images/blog/5c99fba022/03.webp)
-
 ## If you have flat feet, these running shoes are comfortable
 
 <strong>Because flat feet have a low arch</strong>, the foot tends to roll inward excessively when landing, which is called <strong>overpronation</strong>. When this repeats, strain easily builds up on the inside of the knee, the shins and the plantar fascia. That's why people with flat feet should look at running shoes with a **stability** function that controls the foot's rotation.
@@ -77,8 +75,6 @@ If your knees still bother you after choosing shoes, look at the causes in [**kn
 When people with flat feet wear shoes that only have good cushioning, the foot can actually wobble more unstably, bringing on fatigue sooner. I recommend trying them on in the store and walking a few steps to make sure the inside of your foot feels comfortably supported.
 
 ![People walking barefoot on a dirt trail](/images/blog/5c99fba022/04.webp)
-
-![Running shoes displayed on glass shelves in a store](/images/blog/5c99fba022/05.webp)
 
 ## For high arches, choose running shoes like these
 

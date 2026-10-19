@@ -60,15 +60,11 @@ When BDNF levels drop, memory and learning ability tend to decline, and levels a
 
 Interestingly, there are also observations that in people whose cognitive abilities stay remarkably sharp with age, often called **SuperAgers**, this aMCC area is more active than in their peers. <strong>On the other hand, it's also said that if you keep seeking only physical comfort and avoid challenges, this region gets used less and less and shrinks.</strong>
 
-![Participants in blue T-shirts walking and running together at a marathon event](/images/blog/6ed4193844/03.webp)
-
 ## Why intelligence and willpower start in the same place
 
 If <strong>BDNF</strong> is the <strong>soil</strong> that grows brain cells, the <strong>aMCC</strong> is closer to <strong>the engine that keeps you repeating hard things on top of that soil</strong>. Learning something new means enduring difficult, boring stretches; the aMCC provides the staying power, and the brain cells stimulated in the process grow and connect with BDNF's help.
 
 So even though a head for study and sheer grit look like completely different talents, in reality they often come together in people with similar habits of using the brain. That's also why, if you want to get smarter, you shouldn't just cling to workbooks but also make time for activities that use body and mind together.
-
-![A finisher in hanbok holding an Osaka Marathon 'FINISHER!' sign](/images/blog/6ed4193844/04.webp)
 
 ## Ways to wake up BDNF and the aMCC together
 

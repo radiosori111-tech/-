@@ -49,8 +49,6 @@ Suddenly speeding up with cold muscles makes small tears in the muscle fibers mo
 
 The same goes for your heart and lungs. Going straight from rest to a fast pace makes your heart rate spike sharply and puts strain on your body, but warming up slowly for 5 to 10 minutes lets your heart rate rise gently, so you can move into your main run much more comfortably.
 
-![Runners at the start line of the 6th Egg Marathon as officials signal the start](/images/blog/acddf6e03f/02.webp)
-
 ## 5 to 10 minutes before you run: wake your body up in this order
 
 Start by circling your arms widely in place and gently loosening your shoulders and neck. If your upper body is stiff, your arm swing becomes unnatural and less power reaches your legs.

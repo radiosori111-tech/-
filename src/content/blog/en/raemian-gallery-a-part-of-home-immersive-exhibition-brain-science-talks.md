@@ -7,7 +7,6 @@ description: "There are times when you're at home but your mind is elsewhere, an
 date: "2026-09-15T09:50:16+09:00"
 updated: "2026-09-15T09:51:00+09:00"
 tags: ["Raemian Gallery", "immersion", "flow", "Jeong Jae-seung", "Kim Kyung-il", "space and the brain"]
-image: "/images/blog/2d2aeae196/01.webp"
 comic:
   title: "Immersion starts with space"
   panels:
@@ -33,8 +32,6 @@ comic:
       caption: "<strong>Space affects immersion</strong>: that's the message of the exhibition and talks."
 ---
 
-![The immersive exhibition space of Raemian Gallery's 'A Part of Home', decorated with flowering trees and a garden](/images/blog/2d2aeae196/01.webp)
-
 There are times when you're at home but your mind is elsewhere, and other times when you're completely absorbed at a single small desk. Lately, the theme of "immersion" has met brain science and is drawing attention in an unexpected place.
 
 > Filling the gaps in your home with your tastes, and your tastes with immersion
@@ -50,8 +47,6 @@ But this isn't an exhibition you just look around and leave. It's followed by ta
 According to the exhibition's introduction, it aims to spotlight <strong>"your own spaces of taste hidden inside the home."</strong> It's a point worth noting for anyone interested in interiors or making use of space.
 
 What's interesting is that a construction company planned it directly. <strong>Cultural exhibitions are usually held by museums or galleries, so a company that builds apartments creating an immersive exhibition</strong> about space and taste is itself seen as a new kind of venture.
-
-![A visitor posing in front of a giant moon sculpture at the Raemian exhibition](/images/blog/2d2aeae196/02.webp)
 
 ## Who is Professor Kim Kyung-il, the speaker in September?
 
@@ -91,8 +86,6 @@ If the exhibition and talks have piqued your interest, you're probably wondering
 For details such as the exact application schedule and method and the exhibition's opening hours, <strong><em>Raemian Gallery's official channels</em></strong> are the most accurate source. Application conditions for cultural programs like this can change from period to period, so it helps to keep an eye on announcements.
 
 The exhibition itself can often be viewed without a reservation, but programs with limited seating, like the talks, are likely to have a separate application process. Checking whether you need to apply before you go can save you a wasted trip.
-
-![Raemian (RAEMIAN) brand logo](/images/blog/2d2aeae196/05.webp)
 
 ## Why an exhibition made by a construction company is special
 

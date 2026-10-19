@@ -7,7 +7,6 @@ description: "More and more people are reportedly looking for glucose meters at 
 date: "2026-09-14T17:00:56+09:00"
 updated: "2026-09-14T17:01:08+09:00"
 tags: ["blood sugar", "glucose meter", "glucose spike", "fasting blood sugar", "brain health"]
-image: "/images/blog/d5e8159fac/01.webp"
 comic:
   title: "Brain health in one drop of blood"
   panels:
@@ -33,8 +32,6 @@ comic:
       caption: "See a doctor if <strong>126 mg/dL or higher</strong> repeats. Day to day, eat <strong>vegetables and protein first</strong>."
 ---
 
-![A person checking a blood glucose reading of 97 mg/dL on a handheld device connected to an ear sensor](/images/blog/d5e8159fac/01.webp)
-
 > One prick of the fingertip, and
 > *it tells you about your brain health, too?*
 
@@ -43,8 +40,6 @@ More and more people are reportedly looking for glucose meters at pharmacies and
 A glucose meter is a small device that takes a tiny amount of blood from your fingertip and shows your current blood sugar level within seconds. Its biggest advantage is that, unlike the fasting blood sugar test at a clinic, you can measure at home whenever you like. You can see for yourself how the numbers change by situation: on an empty stomach in the morning, right after a meal, before and after exercise.
 
 For those using a glucose meter for the first time, this post walks through how to choose a device, the actual steps for using it, how to read the numbers, and when and how often to measure. It may sound complicated, but if you follow along in order, it's simpler than you'd think.
-
-![A continuous glucose monitor on the upper arm and a smartphone app showing a glucose graph](/images/blog/d5e8159fac/02.webp)
 
 ## What does blood sugar have to do with brain health?
 
@@ -56,8 +51,6 @@ In particular, when blood sugar shoots up after a meal and then drops quickly, i
 > *the more easily the brain tires.*
 
 Of course, a single glucose meter can't fully diagnose the state of your brain health. What makes it meaningful is that you can see with your own eyes how your body responds to particular foods and lifestyle habits. If warning signs keep showing up, don't stop at self-diagnosis; it's best to get a consultation at a nearby clinic.
-
-![A non-invasive blood glucose meter prototype (glucowise) held between the fingers](/images/blog/d5e8159fac/03.webp)
 
 ## Types of glucose meters and how to choose one
 

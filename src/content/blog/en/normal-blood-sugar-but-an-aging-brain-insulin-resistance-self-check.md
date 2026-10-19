@@ -44,8 +44,6 @@ In fact, many recent health articles repeat the warning that you can't relax jus
 
 Today, let's go step by step through why insulin matters for the brain beyond regulating blood sugar, how insulin resistance can affect dementia risk, and what signs you can check for yourself in daily life.
 
-![Three medical speakers presenting at an academic event](/images/blog/ad7c0d9025/02.webp)
-
 ## The brain uses insulin, too
 
 Insulin is usually known only as the hormone that lowers blood sugar, but <strong>it actually plays an important role inside the brain as well</strong>. **Insulin receptors** exist in many brain regions, including the **hippocampus**, which handles memory, and <strong>only when these receptors receive signals normally can nerve cells use energy properly and form memories smoothly</strong>.

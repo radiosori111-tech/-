@@ -7,7 +7,6 @@ description: "Some problems show no sign of a clue even after years of effort. W
 date: "2026-09-15T08:00:17+09:00"
 updated: "2026-09-15T08:02:11+09:00"
 tags: ["Hwang Nong-mun", "immersion", "flow", "deep thinking", "problem solving"]
-image: "/images/blog/f8e75c1af0/01.webp"
 comic:
   title: "A years-old problem, solved in three weeks"
   panels:
@@ -32,8 +31,6 @@ comic:
       alt: "A staircase climbed step by step with a flag at the top"
       caption: "It wasn't special equipment but a change in <strong>the way of thinking</strong>."
 ---
-
-![Diagram of developing advanced engineering ceramics, from material design through synthesis and manufacturing to application](/images/blog/f8e75c1af0/01.webp)
 
 Some problems show no sign of a clue even after years of effort. What if someone solved one in just three weeks, and did it purely by changing the way they thought, without special equipment or help? Would you believe it? This is the true story of a Seoul National University professor, and if you look closely, it hides a principle anyone could try at least once.
 
