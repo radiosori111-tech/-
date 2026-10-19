@@ -148,11 +148,22 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.24e
   .list-head { flex-direction: column; align-items: stretch; gap: 1rem; margin-bottom: 1.25rem; }
 }
 
+/* 프레임 = 뇌 우주: 뉴런 신호가 오가는 네트워크 · 반짝이는 별 · 활성화된 영역의 성운 */
 .frame {
-  background: var(--frame);
+  --frame-raised: rgb(23 30 48 / 0.72);
+  --frame-hover: rgb(30 39 60 / 0.78);
+  background:
+    url('/cosmos-neurons.svg') center top / 1400px 700px repeat,
+    url('/cosmos-stars.svg') 0 0 / 800px 800px repeat,
+    radial-gradient(60% 80% at 12% 18%, rgb(124 92 255 / 0.28), transparent 70%),
+    radial-gradient(55% 75% at 88% 30%, rgb(95 208 192 / 0.2), transparent 70%),
+    radial-gradient(50% 70% at 60% 100%, rgb(240 171 252 / 0.14), transparent 70%),
+    linear-gradient(160deg, #070a16 0%, #0b1024 45%, #0a0f1f 100%);
+  background-color: var(--frame);
   color: var(--frame-text);
   color-scheme: dark;
 }
+.frame .feature { backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
 
 .tabular { font-variant-numeric: tabular-nums; font-feature-settings: 'tnum'; }
 
