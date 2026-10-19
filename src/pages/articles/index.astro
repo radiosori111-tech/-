@@ -34,7 +34,7 @@ const jsonLd = {
   url: Astro.site?.toString(),
 };
 ---
-<Base jsonLd={jsonLd} alternates={LANGS.map((lang) => ({ lang, href: articlesPath(lang) }))}>
+<Base title="하루의 시간 위에 놓인 뇌과학 아티클" description="아침 햇빛부터 잠자리까지, 습관이 실제로 일어나는 시각 위에 놓은 뇌과학 아티클. 연구 근거와 오늘 바로 해 볼 수 있는 실행을 함께 정리했습니다." jsonLd={jsonLd} alternates={LANGS.map((lang) => ({ lang, href: articlesPath(lang) }))}>
   <section class="mast frame">
     <HeroBrain lang="ko" />
     <div class="wrap">

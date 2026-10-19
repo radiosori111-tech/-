@@ -20,6 +20,9 @@ function translationLinks() {
       e.isDirectory() ? mdFiles(path.join(dir, e.name)) : /\.mdx?$/.test(e.name) ? [path.join(dir, e.name)] : [],
     );
   const groups = new Map();
+  // 글 주소 → 마지막 수정일 (updated가 없으면 date)
+  const modified = new Map();
+  const dateOf = (src) => field(src, 'updated') || field(src, 'date');
   const add = (key, lang, pathname) => {
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key).push({ lang, pathname });
@@ -28,13 +31,17 @@ function translationLinks() {
     const src = fs.readFileSync(file, 'utf8');
     const lang = field(src, 'lang') || 'ko';
     const slug = field(src, 'slug');
-    add(`blog:${field(src, 'translationOf') || slug}`, lang, `${lang === 'ko' ? '' : `/${lang}`}/blog/${slug}/`);
+    const blogPath = `${lang === 'ko' ? '' : `/${lang}`}/blog/${slug}/`;
+    add(`blog:${field(src, 'translationOf') || slug}`, lang, blogPath);
+    if (dateOf(src)) modified.set(blogPath, new Date(dateOf(src)));
   }
   for (const file of mdFiles('src/content/articles')) {
     const src = fs.readFileSync(file, 'utf8');
     const lang = field(src, 'lang') || 'ko';
     const name = path.basename(file).replace(/\.mdx?$/, '');
-    add(`articles:${field(src, 'translationOf') || name}`, lang, `${lang === 'ko' ? '' : `/${lang}`}/articles/${name}/`);
+    const articlePath = `${lang === 'ko' ? '' : `/${lang}`}/articles/${name}/`;
+    add(`articles:${field(src, 'translationOf') || name}`, lang, articlePath);
+    if (dateOf(src)) modified.set(articlePath, new Date(dateOf(src)));
   }
   // 첫 화면은 블로그 목록(/, /en/, /ja/), 아티클 목록은 /articles/, /en/articles/, /ja/articles/
   add('home', 'ko', '/');
@@ -54,9 +61,9 @@ function translationLinks() {
     links.push({ lang: 'x-default', url: url(fallback.pathname) });
     for (const m of members) byPath.set(m.pathname, links);
   }
-  return byPath;
+  return { byPath, modified };
 }
-const TRANSLATION_LINKS = translationLinks();
+const { byPath: TRANSLATION_LINKS, modified: LAST_MODIFIED } = translationLinks();
 
 // 본문 이미지(public/ 아래)에 실제 가로·세로 크기를 적어 로딩 중 화면이 밀리지 않게 하고,
 // 첫 이미지를 뺀 나머지는 화면에 가까워질 때 불러온다.
@@ -112,8 +119,10 @@ export default defineConfig({
       i18n: { defaultLocale: 'ko', locales: SITEMAP_LOCALES },
       // 글마다 주소가 다른 번역 글(블로그 · 아티클)은 translationLinks()로 만든 언어별 주소를 붙인다
       serialize(item) {
-        const links = TRANSLATION_LINKS.get(decodeURI(new URL(item.url).pathname));
-        return links ? { ...item, links } : item;
+        const path = decodeURI(new URL(item.url).pathname);
+        const links = TRANSLATION_LINKS.get(path);
+        const lastmod = LAST_MODIFIED.get(path);
+        return { ...item, ...(links && { links }), ...(lastmod && !isNaN(lastmod) && { lastmod: lastmod.toISOString() }) };
       },
     }), sitemapAlias],
 });
