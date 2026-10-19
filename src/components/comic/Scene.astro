@@ -3,10 +3,11 @@
 // 색은 사이트 토큰을 따른다: 선 --ink, 강조 --accent, 경보 --danger.
 import type { Scene } from './scenes';
 
-interface Props { scene: Scene }
-const { scene } = Astro.props;
+interface Props { scene: Scene; label?: string }
+const { scene, label } = Astro.props;
 ---
-<svg class="scene" viewBox="0 0 320 220" aria-hidden="true">
+<svg class="scene" viewBox="0 0 320 220" {...(label ? { role: 'img', 'aria-label': label } : { 'aria-hidden': 'true' })}>
+  {label && <title>{label}</title>}
   {scene === 'alarm' && (
     <g>
       {/* 마감 앞의 책상: 얕고 빠른 숨, 머리 위에서 울리는 경보 */}

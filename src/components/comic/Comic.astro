@@ -19,6 +19,20 @@ interface Props {
   lang?: Lang;
 }
 const { comic, lang = DEFAULT_LANG } = Astro.props;
+
+// 그림 설명(alt)은 그림만 묘사해 글마다 겹치므로, 만화 제목 · 컷 번호 · 말풍선 · 설명을 붙여
+// 컷마다 내용이 드러나는 대체 텍스트를 만든다. 검색 · 광고 크롤러와 화면 낭독기가 이 글을 읽는다.
+const PANEL_NAME: Record<Lang, (n: number, label: string) => string> = {
+  ko: (n, label) => `4컷 만화 ${n}컷(${label})`,
+  en: (n, label) => `Four-panel comic, panel ${n} (${label})`,
+  ja: (n, label) => `4コマ漫画 ${n}コマ目（${label}）`,
+};
+const plain = (html: string) => html.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+const panelAlt = (p: Panel, i: number) => {
+  const head = [comic.title, PANEL_NAME[lang](i + 1, p.label)].filter(Boolean).join(' · ');
+  const bubble = p.bubble ? ` “${p.bubble}”` : '';
+  return `${head}: ${p.alt}.${bubble} ${plain(p.caption)}`.trim();
+};
 ---
 <section class="comic" aria-labelledby="comic-title" data-comic>
   <header class="comic-head">
@@ -30,8 +44,7 @@ const { comic, lang = DEFAULT_LANG } = Astro.props;
       <li class="comic-panel" data-panel={i + 1} data-scene={p.scene}>
         <p class="panel-label"><span class="panel-no tabular">{i + 1}</span>{p.label}</p>
         <figure class="panel-art">
-          {p.image ? <img src={p.image} alt={p.alt} loading="lazy" decoding="async" /> : p.scene && <SceneArt scene={p.scene} />}
-          {!p.image && <figcaption class="visually-hidden">{p.alt}</figcaption>}
+          {p.image ? <img src={p.image} alt={panelAlt(p, i)} loading="lazy" decoding="async" /> : p.scene && <SceneArt scene={p.scene} label={panelAlt(p, i)} />}
           {p.bubble && <p class="panel-bubble">{p.bubble}</p>}
         </figure>
         <p class="panel-caption" set:html={p.caption} />
