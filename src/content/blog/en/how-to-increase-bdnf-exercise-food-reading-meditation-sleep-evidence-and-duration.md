@@ -1,0 +1,250 @@
+---
+title: "How to Increase BDNF: Exercise, Food, Reading, Meditation, Sleep and Sunlight — the Evidence, and How Long It Takes to Change Your Brain"
+slug: "how-to-increase-bdnf-exercise-food-reading-meditation-sleep-evidence-and-duration"
+lang: "en"
+translationOf: "BDNF-늘리는-법-총정리-운동-음식-독서-명상-수면-실험-근거와-유지-기간"
+description: "Every human activity linked to BDNF, the brain's fertilizer, checked against studies in PNAS, Nature, Cell and eLife: exercise, dance, learning, reading, meditation, sleep, sunlight, food and meal timing. We rate the strength of the evidence, show how long each takes to work, and illustrate how the brain actually changed."
+date: "2026-10-19T12:00:00+09:00"
+tags: ["BDNF", "how to increase BDNF", "brain-derived neurotrophic factor", "hippocampus", "neuroplasticity", "aerobic exercise", "meditation", "reading", "neuroscience"]
+comic:
+  title: "A day of fertilizing the brain"
+  panels:
+    - scene: tired
+      label: "Situation"
+      bubble: "My head just isn't working lately…"
+      alt: "A person slumped at a desk with an empty battery"
+      caption: "More forgetting, less focus. Maybe the garden of your brain has run out of <strong>fertilizer</strong>."
+    - scene: sprout
+      label: "The science"
+      bubble: "BDNF grows the sprouts"
+      alt: "A sprout growing out of the brain"
+      caption: "<strong>BDNF</strong> is a protein that grows connections between neurons. One year of walking enlarged the <strong>hippocampus</strong> by <strong>2%</strong> (<strong>PNAS</strong>, 2011)."
+    - scene: run
+      label: "Practice"
+      bubble: "Walk 3x a week, learn, sleep"
+      alt: "A person jogging lightly"
+      caption: "<strong>Aerobic exercise</strong>, new learning, enough sleep, sunlight. The key is to keep going for <strong>8 weeks or more</strong>, not just once."
+    - scene: focus
+      label: "Change"
+      bubble: "My mind feels clear"
+      alt: "A person absorbed in a bright idea"
+      caption: "Consistency raises your brain's baseline. Just remember: stop, and it shrinks back."
+---
+
+## 📌 Key takeaways
+
+- 🌱 **BDNF (brain-derived neurotrophic factor)** is a protein that keeps neurons alive and grows their connections. It is often called the **brain's fertilizer**, and it matters most in the **hippocampus**, the hub of memory.
+- 🏃 In humans, the method with the **strongest evidence** is **aerobic exercise**. A meta-analysis of 29 studies (1,111 people) found that a single workout raises BDNF and that regular training makes that rise larger (**Journal of Psychiatric Research**, 2015). When 120 older adults walked for a year, their **hippocampus grew by about 2%** (**PNAS**, 2011).
+- 💃 **Dance**, **learning new skills**, **meditation**, **enough sleep**, **sunlight** and **flavonoid-rich foods** have also been linked to BDNF or to changes in brain structure. But the strength of the evidence differs from one activity to the next, and this article says so plainly.
+- ⏳ BDNF rises right after exercise and then **falls back**. Changing the brain's structure took **at least 8 weeks, and up to 6 months to a year**, of repetition, and in one study the gains **shrank again within 3 months of stopping**.
+
+### 💬 "Why do I keep forgetting things lately?"
+
+Some days you open the fridge and can't remember what you came for. You read the same line three times, and your thoughts feel wrapped in fog. On days like that, it's easy to shrug and blame age.
+
+But what neuroscience has uncovered over the past 30 years tells a different story. The brain is less a machine that has set hard and more a **garden** you tend every day, and that garden has a **fertilizer** you can spread yourself. Its name is BDNF. This article is a map: of everything a person can do, **what really raises BDNF, how much of it you need, and how the brain actually changed** — checked one study at a time.
+
+---
+
+## 🔬 Deep dive: what does BDNF do in the brain?
+
+### 1. The brain's fertilizer, and the growth of new sprouts
+
+BDNF stands for **Brain-Derived Neurotrophic Factor**. When it fits into a lock on the neuron's surface called the **TrkB receptor**, it switches on signals inside the cell that say "survive, branch out, strengthen your connections." Just as fertilizer makes sprouts appear and roots grow deeper, BDNF **strengthens synapses** and helps **newborn neurons in the hippocampus survive**.
+
+If you'd like the basics first, start with [BDNF, brain-derived neurotrophic factor: what are you?](/en/blog/bdnf-brain-derived-neurotrophic-factor-what-are-you/)
+
+### 2. The moment you learn, the brain makes BDNF
+
+BDNF isn't only released during exercise. When rats learned to remember a new place, expression of the BDNF gene in the hippocampus rose **quickly and selectively** (Hall et al., **Nature Neuroscience**, 2000). Learning itself is an act of fertilizing the brain.
+
+### 3. Letters from your muscles and liver to your brain
+
+How exercise raises BDNF in the brain has mostly been worked out in mice. Two pathways are well known.
+
+- **The muscle's letter (FNDC5/irisin):** Endurance exercise increases a protein called **FNDC5** in muscle. Raising this protein switched on the hippocampal **BDNF gene** along with other neuroprotective genes (Wrann et al., **Cell Metabolism**, 2013).
+- **The liver's letter (ketones):** Mice that ran on wheels for 30 days made more of a ketone called **β-hydroxybutyrate** in their livers. It released the **brakes (HDAC2 and HDAC3)** on the BDNF gene and raised BDNF in the hippocampus (Sleiman et al., **eLife**, 2016).
+
+![Diagram of FNDC5 from muscle and ketones from the liver travelling through the blood to the hippocampus, switching on the BDNF gene; BDNF then binds the TrkB receptor and strengthens synapses](/images/blog/bdnf-how-to-increase/en-04-pathway.svg)
+
+In other words, when you move your body, your muscles and liver send the brain a **letter** that says "it's time to grow."
+
+### 4. Two limits worth knowing
+
+- **BDNF in the blood ≠ BDNF in the brain:** Most human studies measure BDNF in the **blood**, because measuring it directly inside a living person's brain is hard. Blood levels are a **window** that hints at what's happening in the brain, not the brain itself.
+- **BDNF varies from person to person:** The BDNF gene has a common variant called **Val66Met**. People who carry it release less BDNF when their neurons are active, and they scored lower on episodic memory (Egan et al., **Cell**, 2003). The same workout may have a different-sized effect in different people.
+
+---
+
+## 🧭 Everything that raises BDNF: the evidence, and how much you need
+
+The activities below are listed **from strongest evidence to weakest**. The ⭐ ratings are my own shorthand for how solid the human research is.
+
+### 1. Aerobic exercise ⭐⭐⭐ (strongest evidence)
+
+- **Evidence:** In a meta-analysis of 29 studies and 1,111 people, **a single workout** raised blood BDNF by a **moderate** amount (effect size g = 0.46). In people who **trained regularly**, the rise after one session was larger (g = 0.59), and their resting BDNF was slightly higher too (g = 0.27) (Szuhany et al., **Journal of Psychiatric Research**, 2015).
+- **Brain change:** **120** older adults were randomly assigned for one year to either **aerobic walking three times a week** or stretching only. In the walking group, the **anterior hippocampus grew by about 2%**; in the stretching group it **shrank by 1.4%**. That roughly reverses 1–2 years of age-related loss, and the people whose hippocampus grew more also had higher blood BDNF (Erickson et al., **PNAS**, 2011).
+- **How much:** Three times a week, 30–40 minutes at an intensity that leaves you slightly out of breath. The structural change appeared in a study that kept going for **one year**.
+
+![Bar chart comparing a 2.0% increase in anterior hippocampal volume after one year of aerobic exercise with a 1.4% decrease in the stretching control group](/images/blog/bdnf-how-to-increase/en-01-hippocampus.svg)
+
+If you want to start with running, [BDNF running: just 10 minutes changes the brain — how to start](/en/blog/bdnf-just-10-minutes-of-running-changes-the-brain-how-to-start/) has a beginner's plan.
+
+### 2. High-intensity interval training (HIIT) ⭐⭐
+
+- **Evidence:** Over the same 20 minutes, researchers compared **1 minute at 90% of maximal work rate followed by 1 minute of rest** with **continuous exercise at 70%**. Both raised BDNF, but the interval protocol raised it **slightly more** (Saucedo Marquez et al., **Journal of Applied Physiology**, 2015).
+- **How much:** The effect showed up after a single 20-minute session, but the study was small and the difference modest. Think of it as an **alternative** for days when you're short on time. If you have knee or heart concerns, talk to a professional first.
+
+### 3. Dance ⭐⭐
+
+- **Evidence:** **38** adults aged 63–80 spent six months either in a **dance class** that kept teaching new choreography or in **fitness training** at the same intensity. Both groups gained the same fitness, but **blood BDNF rose only in the dance group**, and **more brain regions grew in volume**, including the cingulate cortex, insula, corpus callosum and sensorimotor cortex (Rehfeld et al., **PLoS ONE**, 2018). A separate 18-month study also found BDNF rising in the dance group (Müller et al., **Frontiers in Aging Neuroscience**, 2017).
+- **Why it may work better:** Dance combines **exercise** with **learning** new moves. It's like fertilizing twice.
+- **How much:** Six months or more, about twice a week. Both studies, however, were small.
+
+### 4. Learning a new skill ⭐⭐
+
+- **Evidence:** Of **24** people who had never juggled, half spent three months learning a three-ball cascade. Afterwards, **gray matter increased** in a brain area that processes visual motion (the temporal-parietal visual motion area), and it **shrank again three months after they stopped** (Draganski et al., **Nature**, 2004). BDNF wasn't measured, but as we saw, learning raises BDNF expression in the hippocampus (**Nature Neuroscience**, 2000).
+- **How much:** Three months or more of something that feels **a little hard** — an instrument, a language, a new sport. The key is to **raise the difficulty** once it gets easy.
+
+### 5. Reading ⭐ (no direct BDNF evidence yet)
+
+- **Evidence:** **19** people read one novel over nine days and had their brains scanned every morning. On the mornings after reading, connectivity rose in the **left temporal cortex**, which handles language, and in the **somatosensory area**, which handles bodily sensation. Some of it lasted for **five days** after they finished (Berns et al., **Brain Connectivity**, 2013).
+- **To be honest:** This study did not measure BDNF, had no control group and was small. **There is no direct evidence yet that reading raises BDNF.** Still, reading is a way of learning something new, so it fits the same picture as the studies showing that learning raises BDNF.
+- **How much:** A little every day — and reading in a **new field** gives a bigger learning challenge than rereading familiar books.
+
+### 6. Meditation and yoga ⭐⭐
+
+- **Evidence:** When **38** people with an average age of 34.8 joined a three-month retreat of daily meditation and yoga, **blood BDNF rose** and anxiety and depression fell (Cahn et al., **Frontiers in Human Neuroscience**, 2017). This study **had no control group**, though, so the effect can't be credited to the practice alone.
+- **Brain change:** People in an 8-week mindfulness program (MBSR) practiced about 27 minutes a day on average, and afterwards **gray matter density in the hippocampus increased**. The waitlist control group showed no such change (Hölzel et al., **Psychiatry Research: Neuroimaging**, 2011).
+- **How much:** 20–30 minutes a day for **8 weeks or more**.
+
+### 7. Enough sleep ⭐⭐
+
+- **Evidence:** A meta-analysis comparing 446 people with insomnia and 706 without found **clearly lower BDNF** in the insomnia group (g = −0.86) (Ballesio et al., **Sleep Medicine Reviews**, 2023). In animal studies, too, sleep deprivation lowered hippocampal BDNF.
+- **To be honest:** The human studies compared people at one point in time, so they **don't prove** that lack of sleep causes low BDNF.
+- **How much:** 7–9 hours a night, going to bed and waking up at regular times. Sleep is less an activity that **raises** BDNF and more the **floor that keeps it from being worn down**.
+
+### 8. Sunlight ⭐
+
+- **Evidence:** Blood BDNF in **2,851** Dutch adults showed a clear seasonal pattern: **higher in spring and summer, lower in autumn and winter**. The more hours of sunshine in the weeks before the blood draw, the slightly higher the BDNF (Molendijk et al., **PLoS ONE**, 2012).
+- **To be honest:** The link with sunlight was **weak** (correlation 0.05–0.18), and as an observational study it can't show cause and effect.
+- **How much:** Combine **exercise and sunlight**, as on a morning walk, and you get both at once.
+
+### 9. Food ⭐ (human evidence still limited)
+
+- **Flavonoids (cocoa, berries, vegetables):** When adults aged 62–75 drank a flavanol-rich **cocoa drink** for 12 weeks, blood BDNF rose, and those whose BDNF rose more also improved more on cognitive tests. A separate trial with flavonoid-rich **fruit and vegetables** found something similar (Neshatdoust et al., **Nutrition and Healthy Aging**, 2016). A later study found no change, though, so **the results aren't consistent**.
+- **Omega-3 (DHA):** When brain-injured rats were fed a DHA-rich diet, their lowered BDNF **returned to normal** (Wu et al., **Journal of Neurotrauma**, 2004). This was a rat study.
+- **What to avoid:** Rats fed a diet high in saturated fat and refined sugar for two months showed **lower hippocampal BDNF and poorer spatial learning** (Molteni et al., **Neuroscience**, 2002).
+- **How much:** Changing your **whole diet** for several weeks or more matters more than any single food. For a food-by-food guide, see [Which foods are rich in BDNF?](/en/blog/which-foods-are-rich-in-bdnf/)
+
+### 10. Meal timing (intermittent fasting, eating less) ⭐ (human evidence mixed)
+
+- **Evidence:** Restricting food for three months **raised** hippocampal BDNF and new neurons in mice (Lee et al., **Journal of Neurochemistry**, 2002). But a 2024 systematic review of 16 human studies found **5 showing an increase, 5 a decrease and 6 no change** (Alkurd et al., **Medicina**, 2024).
+- **To be honest:** The evidence that intermittent fasting raises BDNF in humans is **not yet clear**. If you're curious about fasting, weigh it on other grounds than BDNF.
+
+### 11. Reducing chronic stress (stopping what wears BDNF down)
+
+- **Evidence:** When rats were stressed by being held immobile, expression of the BDNF gene in the hippocampus **dropped sharply** (Smith et al., **Journal of Neuroscience**, 1995).
+- **What it means:** No amount of fertilizer helps a garden stuck in drought. Exercise, meditation and sleep are also ways of lowering stress. For more on what lowers BDNF, see [What causes BDNF deficiency, and does brain health improve?](/en/blog/what-causes-bdnf-deficiency-and-does-brain-health-improve/)
+
+### 💪 What about strength training? ⭐ (BDNF evidence mixed)
+
+A single strength session didn't meaningfully change blood BDNF (Knaepen et al., **Sports Medicine**, 2010), and a 2023 meta-analysis of 27 trials in middle-aged and older adults found **no statistically clear rise** in BDNF. That doesn't mean you should drop strength training. It supports brain health in other ways, such as blood-sugar control and fall prevention. Do it **alongside aerobic exercise**.
+
+---
+
+## ⏳ How long does it take? A single spark vs a steady ember
+
+The most common misunderstanding about BDNF is about **time**.
+
+1. **One workout = a brief spark:** Blood BDNF rises right after exercise, but in most studies the rise was **transient** and fell back during recovery (Knaepen et al., **Sports Medicine**, 2010).
+2. **Regular exercise = a higher floor:** People who trained regularly had slightly higher resting BDNF, and a larger rise during exercise (**Journal of Psychiatric Research**, 2015).
+3. **Stop, and it goes back:** Gray matter gained through juggling shrank again within three months of stopping (**Nature**, 2004). Like muscle, the brain's gains **fade when you don't use them**.
+
+![Concept diagram: blood BDNF rises briefly after each workout and falls back, while regular training raises both the baseline and the size of each rise](/images/blog/bdnf-how-to-increase/en-02-timecourse.svg)
+
+| Activity | How long until an effect appeared in studies | What changed | Evidence |
+| --- | --- | --- | --- |
+| Aerobic exercise | One session → brief rise / **1 year** | Blood BDNF↑, hippocampal volume about 2%↑ | PNAS 2011, J Psychiatr Res 2015 |
+| High-intensity intervals | One 20-minute session | Blood BDNF slightly↑ vs continuous exercise | J Appl Physiol 2015 |
+| Dance | **6 months** to 18 months | Blood BDNF↑, volume↑ in several brain regions | PLoS ONE 2018 |
+| Meditation (MBSR) | **8 weeks** (about 27 min/day) | Hippocampal gray matter density↑ | Psychiatry Res 2011 |
+| Meditation and yoga retreat | 3 months | Blood BDNF↑ (no control group) | Front Hum Neurosci 2017 |
+| New skill (juggling) | **3 months**; shrank 3 months after stopping | Gray matter↑ | Nature 2004 |
+| Reading (a novel) | 9 days; partly lasting 5 days after | Brain connectivity↑ (BDNF not measured) | Brain Connect 2013 |
+| Cocoa flavanols | **12 weeks** | Blood BDNF↑ (mixed replication) | Nutr Healthy Aging 2016 |
+
+In short, changes began to show after **at least 8–12 weeks**, and changing the brain's **structure** took **6 months to a year**. Keeping those changes depends above all on **not stopping**.
+
+---
+
+## 🧠 How did the brain actually change?
+
+The picture below gathers, on one page, human brain-imaging studies showing **which activity changed which part of the brain**.
+
+![Map marking on a brain drawing the studies in which aerobic exercise and meditation changed the hippocampus, juggling changed the temporal-parietal visual motion area, dance changed the cingulate cortex, insula, corpus callosum and sensorimotor cortex, and reading a novel changed the left temporal cortex and somatosensory area](/images/blog/bdnf-how-to-increase/en-03-brain-map.svg)
+
+What's striking is that **different activities changed different areas**. Walking and meditation changed the hippocampus, the hub of memory; juggling changed the area that watches movement; dance changed broad areas that handle bodily sensation and control. The brain seems to spread its fertilizer **where we use it again and again**.
+
+---
+
+## ✅ Solution: a three-step plan to raise BDNF
+
+1. <strong>🏃 Step 1: Build the floor — aerobic exercise 3x a week (30–40 minutes).</strong> Start with brisk walking, an easy jog or cycling at an intensity where you're **a little too out of breath to sing, but can still talk**. Walk outside in the morning and you get **sunlight** as well. On busy days, swap in **20 minutes of intervals**: one minute fast, one minute easy.
+2. <strong>💃 Step 2: Double the fertilizer — learn while you move (2x a week).</strong> Pick one activity that **uses body and mind together**, such as dance, table tennis or a new sport. Add 15 minutes a day of **something a little hard to learn**, like an instrument or a language. When it gets easy, remember to step up the difficulty.
+3. <strong>🌙 Step 3: Protect it from wearing down — sleep, meditation and diet (daily).</strong> Go to bed and wake up at the same times and sleep **7–9 hours**; before bed, let the day's stress go with **20 minutes of meditation**. In your diet, cut sugar and processed food and eat more **berries, vegetables, cocoa and oily fish**.
+
+| Step | What | When and how much | Minimum duration | What you can expect |
+| --- | --- | --- | --- | --- |
+| 1. Build the floor | Aerobic exercise (+ morning sunlight) | 3x a week, 30–40 min | 8+ weeks; aim for a year | Blood BDNF↑; hippocampus maintained or enlarged |
+| 2. Double the fertilizer | Dance, new skills, reading in new fields | 2x a week + 15 min a day | 3–6+ months | Gray matter and connectivity↑ in areas tied to the learning |
+| 3. Protect it | Sleep, meditation, flavonoid- and omega-3-rich diet | Daily | 8+ weeks | Prevents stress-related BDNF loss |
+
+None of these steps needs **special equipment or money**. All they need is **consistency that doesn't stop**.
+
+---
+
+## 🙋 Frequently asked questions
+
+### Q1. Can't I just take a BDNF supplement?
+
+BDNF is a protein, so when you swallow it, it gets digested and broken down, and it can hardly pass from the blood into the brain anyway. **There's no way to raise BDNF by eating BDNF itself.** As this article shows, the best-supported approaches so far are ones that **get your body to make BDNF on its own**, such as exercise, learning and sleep. If a product claims to "boost BDNF," check whether it has been tested in people.
+
+### Q2. Can I still raise BDNF when I'm older?
+
+Yes. The hippocampus study in this article (average age in the late 60s) and the dance study (ages 63–80) were both done in **older adults**. The fact that a year of walking enlarged the hippocampus is strong evidence that the brain can still change with age. When you start a new exercise routine, though, match the intensity to your health, and talk to your doctor first if you have a medical condition.
+
+---
+
+## 📚 References
+
+- Szuhany, K. L., Bugatti, M., & Otto, M. W. (2015). A meta-analytic review of the effects of exercise on brain-derived neurotrophic factor. *Journal of Psychiatric Research*, 60, 56–64.
+- Erickson, K. I., Voss, M. W., Prakash, R. S., … Kramer, A. F. (2011). Exercise training increases size of hippocampus and improves memory. *PNAS*, 108(7), 3017–3022.
+- Knaepen, K., Goekint, M., Heyman, E. M., & Meeusen, R. (2010). Neuroplasticity — exercise-induced response of peripheral brain-derived neurotrophic factor. *Sports Medicine*, 40(9), 765–801.
+- Saucedo Marquez, C. M., Vanaudenaerde, B., Troosters, T., & Wenderoth, N. (2015). High-intensity interval training evokes larger serum BDNF levels compared with intense continuous exercise. *Journal of Applied Physiology*, 119(12), 1363–1373.
+- Wrann, C. D., White, J. P., Salogiannnis, J., … Spiegelman, B. M. (2013). Exercise induces hippocampal BDNF through a PGC-1α/FNDC5 pathway. *Cell Metabolism*, 18(5), 649–659.
+- Sleiman, S. F., Henry, J., Al-Haddad, R., … Chao, M. V. (2016). Exercise promotes the expression of brain derived neurotrophic factor (BDNF) through the action of the ketone body β-hydroxybutyrate. *eLife*, 5, e15092.
+- Hall, J., Thomas, K. L., & Everitt, B. J. (2000). Rapid and selective induction of BDNF expression in the hippocampus during contextual learning. *Nature Neuroscience*, 3(6), 533–535.
+- Egan, M. F., Kojima, M., Callicott, J. H., … Weinberger, D. R. (2003). The BDNF val66met polymorphism affects activity-dependent secretion of BDNF and human memory and hippocampal function. *Cell*, 112(2), 257–269.
+- Rehfeld, K., Lüders, A., Hökelmann, A., … Müller, N. G. (2018). Dance training is superior to repetitive physical exercise in inducing brain plasticity in the elderly. *PLoS ONE*, 13(7), e0196636.
+- Müller, P., Rehfeld, K., Schmicker, M., … Müller, N. G. (2017). Evolution of neuroplasticity in response to physical activity in old age: the case for dancing. *Frontiers in Aging Neuroscience*, 9, 56.
+- Draganski, B., Gaser, C., Busch, V., Schuierer, G., Bogdahn, U., & May, A. (2004). Changes in grey matter induced by training. *Nature*, 427(6972), 311–312.
+- Berns, G. S., Blaine, K., Prietula, M. J., & Pye, B. E. (2013). Short- and long-term effects of a novel on connectivity in the brain. *Brain Connectivity*, 3(6), 590–600.
+- Cahn, B. R., Goodman, M. S., Peterson, C. T., Maturi, R., & Mills, P. J. (2017). Yoga, meditation and mind-body health: increased BDNF, cortisol awakening response, and altered inflammatory marker expression after a 3-month yoga and meditation retreat. *Frontiers in Human Neuroscience*, 11, 315.
+- Hölzel, B. K., Carmody, J., Vangel, M., … Lazar, S. W. (2011). Mindfulness practice leads to increases in regional brain gray matter density. *Psychiatry Research: Neuroimaging*, 191(1), 36–43.
+- Ballesio, A., Zagaria, A., Curti, D. G., … Lombardo, C. (2023). Peripheral brain-derived neurotrophic factor (BDNF) in insomnia: a systematic review and meta-analysis. *Sleep Medicine Reviews*, 67, 101738.
+- Molendijk, M. L., Haffmans, J. P. M., Bus, B. A. A., … Elzinga, B. M. (2012). Serum BDNF concentrations show strong seasonal variation and correlations with the amount of ambient sunlight. *PLoS ONE*, 7(11), e48046.
+- Neshatdoust, S., Saunders, C., Castle, S. M., … Spencer, J. P. E. (2016). High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: two randomised, controlled trials. *Nutrition and Healthy Aging*, 4(1), 81–93.
+- Wu, A., Ying, Z., & Gomez-Pinilla, F. (2004). Dietary omega-3 fatty acids normalize BDNF levels, reduce oxidative damage, and counteract learning disability after traumatic brain injury in rats. *Journal of Neurotrauma*, 21(10), 1457–1467.
+- Molteni, R., Barnard, R. J., Ying, Z., Roberts, C. K., & Gómez-Pinilla, F. (2002). A high-fat, refined sugar diet reduces hippocampal brain-derived neurotrophic factor, neuronal plasticity, and learning. *Neuroscience*, 112(4), 803–814.
+- Lee, J., Duan, W., & Mattson, M. P. (2002). Evidence that brain-derived neurotrophic factor is required for basal neurogenesis and mediates, in part, the enhancement of neurogenesis by dietary restriction in the hippocampus of adult mice. *Journal of Neurochemistry*, 82(6), 1367–1375.
+- Alkurd, R., Mahrous, L., Zeb, F., … Faris, M. E. (2024). Effect of calorie restriction and intermittent fasting regimens on brain-derived neurotrophic factor levels and cognitive function in humans: a systematic review. *Medicina*, 60(1), 191.
+- Smith, M. A., Makino, S., Kvetnansky, R., & Post, R. M. (1995). Stress and glucocorticoids affect the expression of brain-derived neurotrophic factor and neurotrophin-3 mRNAs in the hippocampus. *Journal of Neuroscience*, 15(3), 1768–1777.
+
+## 💭 A question for you
+
+Of the activities in this article, **which one could you start today**? Walking, dancing, or the instrument you've been putting off for years? Three months from now, tell us what changed through the [contact page](/en/contact/). Your story may be what gives someone else the courage to begin.
+
+## ⚠️ Disclaimer
+
+This article offers general health information based on scientific research and does not replace medical diagnosis or treatment. Some of the studies cited are animal studies or small studies, and BDNF levels in human blood do not directly reflect BDNF in the brain. Before starting a new exercise routine, diet or fast — especially if you have a medical condition or take medication — please consult a doctor.
