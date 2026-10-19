@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import DayBand from '../../components/DayBand.astro';
 import HeroBrain from '../../components/HeroBrain.astro';
+import HeadCard from '../../components/HeadCard.astro';
 import PostList, { type ListItem } from '../../components/PostList.astro';
 import Icon from '../../components/Icon.astro';
 import { SITE, minutesOfDay } from '../../data/site';
@@ -42,20 +43,11 @@ const jsonLd = {
           <h1>뇌를 이해하면,<br /><span>하루가 바뀝니다</span></h1>
           <p class="slogan">{SITE.slogan}. 복잡한 뇌과학 연구를 쉽게 풀어, 오늘 바로 해볼 수 있는 행동으로 옮겨 적습니다.</p>
         </div>
-        <article class="feature">
-          <h2><a href={`/articles/${featured.id}/`}>{featured.data.title}</a></h2>
-          <p class="feature-desc">{featured.data.description}</p>
-          <div class="feature-foot">
-            <p class="feature-time">
-              <span class="time-mark">{featured.data.time ?? '언제든'}</span>
-              <span>{featured.data.moment}</span>
-              <span class="tabular">{featured.data.readMinutes}분 읽기</span>
-            </p>
-            <a class="feature-go" href={`/articles/${featured.id}/`} aria-hidden="true" tabindex="-1">
-              읽기 <Icon name="arrow-right" />
-            </a>
-          </div>
-        </article>
+        <HeadCard badge="추천 아티클" href={`/articles/${featured.id}/`} title={featured.data.title} description={featured.data.description} readLabel="읽기">
+          <span class="time-mark">{featured.data.time ?? '언제든'}</span>
+          <span>{featured.data.moment}</span>
+          <span>{featured.data.readMinutes}분 읽기</span>
+        </HeadCard>
       </div>
       <DayBand pins={pins} lang="ko" />
     </div>
@@ -115,56 +107,6 @@ const jsonLd = {
     color: var(--frame-muted);
   }
 
-  .feature {
-    position: relative;
-    padding: 1.75rem;
-    border: 1px solid var(--frame-line);
-    border-radius: var(--radius-lg);
-    background: var(--frame-raised);
-    box-shadow: 0 24px 48px -24px rgb(0 0 0 / 0.5);
-    transition: border-color 200ms ease, transform 240ms var(--ease-out);
-  }
-  .feature h2 {
-    font-size: var(--text-2xl);
-    font-weight: 700;
-    line-height: 1.4;
-    letter-spacing: -0.03em;
-  }
-  .feature h2 a { text-decoration: none; }
-  .feature h2 a::after { content: ''; position: absolute; inset: 0; border-radius: inherit; }
-  .feature-desc { margin-top: 0.75rem; color: var(--frame-muted); line-height: 1.75; font-size: var(--text-ui); }
-  .feature-foot {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0.75rem 1rem;
-    margin-top: 1.5rem;
-    padding-top: 1.25rem;
-    border-top: 1px solid var(--frame-line);
-  }
-  .feature-time { display: flex; flex-wrap: wrap; align-items: center; gap: 0.375rem 0.625rem; font-size: var(--text-sm); color: var(--frame-muted); }
-  .feature-go {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.375rem;
-    padding: 0.5rem 0.875rem;
-    border-radius: var(--radius);
-    background: var(--accent-on-dark);
-    color: var(--frame);
-    font-size: var(--text-sm);
-    font-weight: 700;
-    text-decoration: none;
-  }
-  .feature-go :global(.icon) { width: 1rem; height: 1rem; transition: transform 220ms var(--ease-out); }
-  @media (hover: hover) and (pointer: fine) {
-    .feature:hover { border-color: var(--frame-line-hover); }
-  }
-  @media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
-    .feature:hover { transform: translateY(-2px); }
-    .feature:hover .feature-go :global(.icon) { transform: translateX(3px); }
-  }
-
   .index { padding-top: clamp(3.5rem, 7vw, 5.5rem); }
 
   .principles { padding-top: clamp(4rem, 9vw, 6.5rem); }
@@ -199,8 +141,5 @@ const jsonLd = {
     .principle-grid { grid-template-columns: 1fr; }
     .principle-grid > div, .principle-grid > div + div { padding: 1.5rem 0 0; border-left: 0; }
     .principle-grid > div + div { margin-top: 1.5rem; border-top: 1px solid var(--line); }
-  }
-  @media (max-width: 640px) {
-    .feature { padding: 1.375rem; }
   }
 </style>

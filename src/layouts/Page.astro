@@ -45,7 +45,8 @@ const hasFeature = Astro.slots.has('feature');
   .page-body { padding-top: clamp(2.75rem, 6vw, 4.5rem); }
 
   /* 오른쪽 카드가 있는 머리(블로그): 아티클 홈 머리와 같은 높이와 7:5 배치 */
-  .has-feature { padding-block: clamp(3.5rem, 8vw, 6rem); min-height: clamp(30rem, 43vw, 38rem); }
+  .has-feature { padding-block: clamp(3.5rem, 8vw, 6rem) clamp(2.5rem, 5vw, 4rem); }
+  .has-feature:has(.dayband) { padding-bottom: 0; }
   .has-feature .head-grid {
     display: grid;
     grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);

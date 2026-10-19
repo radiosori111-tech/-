@@ -1,8 +1,10 @@
 ---
-// 영어(/en/articles/) · 일본어(/ja/articles/) 아티클 목록. 한국어 목록은 홈(/)이다.
+// 영어(/en/articles/) · 일본어(/ja/articles/) 아티클 목록. 한국어 목록은 /articles/이다.
 import Page from '../../../layouts/Page.astro';
 import PostList, { type ListItem } from '../../../components/PostList.astro';
 import LangSwitch from '../../../components/LangSwitch.astro';
+import HeadCard from '../../../components/HeadCard.astro';
+import DayBand from '../../../components/DayBand.astro';
 import { getArticles, articleUrl } from '../../../data/articles';
 import { t, LANGS, DEFAULT_LANG, articlesPath, type Lang } from '../../../i18n/ui';
 
@@ -34,9 +36,19 @@ const items: ListItem[] = articles.map((a) => ({
   time: a.data.time ? { text: a.data.time, moment: a.data.moment } : { text: tr.post.anytime, anytime: true },
 }));
 const alternates = LANGS.map((l) => ({ lang: l, href: articlesPath(l) }));
+const featured = articles.find((a) => a.data.featured) ?? articles[0];
+const pins = articles
+  .filter((a) => a.data.time)
+  .map((a) => ({ href: articleUrl(a), title: a.data.title, time: a.data.time!, moment: a.data.moment }));
 ---
 <Page title={copy.title} lede={copy.lede} lang={lang} alternates={alternates}>
   <LangSwitch slot="head" alternates={alternates} current={lang} label={tr.post.readIn} />
+  <HeadCard slot="feature" badge={tr.list.featured} href={articleUrl(featured)} title={featured.data.title} description={featured.data.description} readLabel={tr.list.read}>
+    <span class="time-mark">{featured.data.time ?? tr.post.anytime}</span>
+    {featured.data.time && <span>{featured.data.moment}</span>}
+    <span>{tr.post.minutes(featured.data.readMinutes)}</span>
+  </HeadCard>
+  <DayBand slot="band" pins={pins} lang={lang} />
   <section aria-labelledby="list-title">
     <div class="list-head">
       <h2 id="list-title">{copy.all} <span class="count tabular">{tr.list.count(String(items.length))}</span></h2>
