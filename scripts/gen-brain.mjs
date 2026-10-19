@@ -20,6 +20,9 @@ const STEM = 'M378 336C386 366 384 398 374 430C384 436 396 436 404 430C406 398 4
 const SYLVIAN = 'M196 282C236 262 272 250 310 238C350 226 380 214 404 192';
 const HIPPO = 'M302 292C318 276 344 270 366 276C382 280 392 292 388 304C384 314 370 314 364 304'; // 측두엽 안쪽 해마
 const PFC = { cx: 178, cy: 168, rx: 62, ry: 74 }; // 전전두엽
+// 기저핵(선조체): 꼬리핵의 C자 곡선과 그 아래 조가비핵. 습관이 자리 잡으면 일이 전전두엽에서 이곳으로 넘어간다
+const CAUDATE = 'M246 196C250 170 280 158 310 162C336 166 352 184 350 206C348 224 336 236 322 240';
+const PUTAMEN = { cx: 292, cy: 214, rx: 30, ry: 19 };
 
 // 곡선을 다각형으로 펴서 안쪽 판정에 쓴다
 function polygon(d) {
@@ -216,6 +219,8 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.
 <radialGradient id="pfc"><stop offset="0" stop-color="#fff6dc" stop-opacity=".9"/><stop offset=".35" stop-color="#fdd663" stop-opacity=".4"/><stop offset=".7" stop-color="#8ab4f8" stop-opacity=".14"/><stop offset="1" stop-color="#8ab4f8" stop-opacity="0"/></radialGradient>
 <radialGradient id="hip"><stop offset="0" stop-color="#f1fff6" stop-opacity=".95"/><stop offset=".4" stop-color="#81c995" stop-opacity=".45"/><stop offset="1" stop-color="#8ab4f8" stop-opacity="0"/></radialGradient>
 <radialGradient id="node"><stop offset="0" stop-color="#fff" stop-opacity="1"/><stop offset=".22" stop-color="#e8f0ff" stop-opacity=".5"/><stop offset="1" stop-color="#8ab4f8" stop-opacity="0"/></radialGradient>
+<radialGradient id="bg"><stop offset="0" stop-color="#fff1f1" stop-opacity=".95"/><stop offset=".3" stop-color="#ff6b78" stop-opacity=".6"/><stop offset=".7" stop-color="#ff3d55" stop-opacity=".18"/><stop offset="1" stop-color="#ff3d55" stop-opacity="0"/></radialGradient>
+<linearGradient id="habit" x1="0" x2="1"><stop offset="0" stop-color="#fff6dc"/><stop offset=".35" stop-color="#ff8a8f"/><stop offset="1" stop-color="#ff4d5e"/></linearGradient>
 <linearGradient id="hipline" x1="0" x2="1"><stop offset="0" stop-color="#81c995"/><stop offset=".5" stop-color="#fdd663"/><stop offset="1" stop-color="#f28b82"/></linearGradient>
 <clipPath id="clip"><path d="${CER}"/><path d="${CEREB}"/></clipPath>
 </defs>
@@ -232,7 +237,13 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.
 @keyframes nd{0%,100%{opacity:.3;transform:scale(.55)}8%{opacity:1;transform:scale(1.2)}35%{opacity:.6;transform:scale(.85)}}
 @keyframes link{0%,8%{stroke-dashoffset:1000;opacity:0}12%{opacity:1}40%{stroke-dashoffset:0;opacity:1}48%,100%{stroke-dashoffset:0;opacity:0}}
 @keyframes hipglow{0%,30%,100%{stroke-opacity:.5}42%{stroke-opacity:1}}
-@media (prefers-reduced-motion:reduce){.wave,.zone,.tw,.nd,.link,.hipline{animation:none}.wave,.link{opacity:0}}
+.habit{fill:none;stroke:url(#habit);stroke-width:4.5;stroke-linecap:round;stroke-dasharray:70 930;animation:habit 9s cubic-bezier(.45,0,.25,1) infinite;filter:drop-shadow(0 0 6px #ff5c6c) drop-shadow(0 0 2px #fff)}
+.bgz{transform-box:fill-box;transform-origin:center;animation:bgz 9s ease-in-out infinite}
+.caud{animation:caud 9s ease-in-out infinite}
+@keyframes habit{0%,28%{stroke-dashoffset:1000;opacity:0}32%{opacity:1}56%{stroke-dashoffset:0;opacity:1}62%,100%{stroke-dashoffset:0;opacity:0}}
+@keyframes bgz{0%,45%,100%{opacity:.4;transform:scale(.88)}58%,78%{opacity:1;transform:scale(1.12)}}
+@keyframes caud{0%,45%,100%{stroke-opacity:.35}60%,78%{stroke-opacity:1}}
+@media (prefers-reduced-motion:reduce){.wave,.zone,.tw,.nd,.link,.hipline,.habit,.bgz,.caud{animation:none}.wave,.link,.habit{opacity:0}}
 </style>
 <ellipse cx="320" cy="220" rx="310" ry="225" fill="url(#aura)"/>
 <image width="${W}" height="${H}" xlink:href="data:image/webp;base64,${texture.toString('base64')}"/>
@@ -240,6 +251,12 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.
 <ellipse class="zone" cx="${PFC.cx}" cy="${PFC.cy}" rx="${PFC.rx * 1.25}" ry="${PFC.ry * 1.15}" fill="url(#pfc)"/>
 <ellipse class="zone" cx="346" cy="292" rx="70" ry="34" fill="url(#hip)" style="animation-delay:3.4s"/>
 <path class="hipline" d="${HIPPO}" fill="none" stroke="url(#hipline)" stroke-width="4.5" stroke-linecap="round"/>
+<ellipse class="bgz" cx="${PUTAMEN.cx}" cy="${PUTAMEN.cy}" rx="${PUTAMEN.rx * 1.9}" ry="${PUTAMEN.ry * 2.2}" fill="url(#bg)"/>
+<path class="caud" d="${CAUDATE}" fill="none" stroke="#ff5c6c" stroke-width="12" stroke-linecap="round" stroke-opacity=".35" style="filter:blur(5px)"/>
+<path class="caud" d="${CAUDATE}" fill="none" stroke="#ffb3b9" stroke-width="2" stroke-linecap="round" stroke-dasharray="1 7"/>
+<ellipse class="bgz" cx="${PUTAMEN.cx}" cy="${PUTAMEN.cy}" rx="${PUTAMEN.rx}" ry="${PUTAMEN.ry}" fill="url(#bg)" style="animation-delay:.4s"/>
+${polygon(CAUDATE).filter((_, i) => i % 5 === 2).concat([[PUTAMEN.cx - 14, PUTAMEN.cy + 4], [PUTAMEN.cx + 12, PUTAMEN.cy - 6], [PUTAMEN.cx + 2, PUTAMEN.cy + 10]]).map(([x, y], i) => `<path class="tw" d="${star(Math.round(x), Math.round(y), 6 + (i % 3) * 2)}" fill="${i % 2 ? '#ffe3e6' : '#ff8a94'}" style="animation-delay:-${(i * 0.53 % 2.6).toFixed(2)}s;animation-duration:${(1.8 + (i % 3) * 0.5).toFixed(2)}s"/>`).join('')}
+<path class="habit" pathLength="1000" d="M${PFC.cx + 10} ${PFC.cy - 6}C210 150 240 175 262 196S${PUTAMEN.cx - 4} ${PUTAMEN.cy - 2} ${PUTAMEN.cx} ${PUTAMEN.cy}"/>
 <path class="link" pathLength="1000" d="M${PFC.cx + 20} ${PFC.cy + 30}C240 250 280 300 ${hippoPts[0][0]} ${hippoPts[0][1]}"/>
 ${nodes.map((p) => `<circle class="nd" cx="${p[0]}" cy="${p[1]}" r="8" fill="url(#node)" style="animation-delay:${delay(p)}s"/>`).join('')}
 ${twinkles.map(([x, y, z], i) => `<path class="tw" d="${star(x, y, z === 'p' ? 8 + (i % 3) * 3 : 7 + (i % 2) * 2.5)}" fill="${z === 'p' ? (i % 3 ? '#fff6dc' : '#ffffff') : (i % 2 ? '#f1fff6' : '#fff0ee')}" style="animation-delay:-${(i * 0.37 % 2.6).toFixed(2)}s;animation-duration:${(2 + (i % 4) * 0.45).toFixed(2)}s"/>`).join('')}

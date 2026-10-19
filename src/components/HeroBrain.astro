@@ -5,9 +5,9 @@ import { DEFAULT_LANG, type Lang } from '../i18n/ui';
 interface Props { lang?: Lang }
 const { lang = DEFAULT_LANG } = Astro.props;
 const ALT: Record<Lang, string> = {
-  ko: '좋은 습관을 이어 갈 때 빛나는 전전두엽과 해마를 빛의 점으로 그린 뇌 일러스트',
-  en: 'Illustration of a brain drawn in points of light, with the prefrontal cortex and hippocampus glowing as good habits take hold',
-  ja: '良い習慣を続けるときに光る前頭前野と海馬を、光の点で描いた脳のイラスト',
+  ko: '빛의 점으로 그린 뇌 일러스트. 좋은 습관을 이어 갈 때 전전두엽과 해마가 빛나고, 습관이 자리 잡으며 전전두엽의 빛이 붉은 기저핵으로 옮겨 갑니다',
+  en: 'A brain drawn in points of light. The prefrontal cortex and hippocampus glow as good habits continue, and light passes from the prefrontal cortex to the red basal ganglia as a habit settles in',
+  ja: '光の点で描いた脳のイラスト。良い習慣を続けると前頭前野と海馬が光り、習慣が根づくにつれて前頭前野の光が赤い大脳基底核へ移っていきます',
 };
 ---
 <img class="hero-brain" src="/cosmos-brain.svg" alt={ALT[lang]} width="640" height="460" decoding="async" />
