@@ -1,62 +1,160 @@
 ---
-title: "Which Foods Are Rich in BDNF?"
+title: "Which Foods Are Rich in BDNF? Sulforaphane, Flavonoids, Omega-3 and the Eating Patterns That Protect BDNF, Backed by Research"
 slug: "which-foods-are-rich-in-bdnf"
 lang: "en"
 translationOf: "BDNF가-많이들어있는-음식은"
-description: "We've looked at how to boost BDNF, which affects our cognitive function and the survival and plasticity of nerve cells, what causes BDNF to run low, and how to improve it."
+description: "Food doesn't actually contain BDNF. But some foods and eating patterns help your body make it. From sulforaphane in broccoli and flavonoids in cocoa and berries to omega-3, the Mediterranean diet, eating less and intermittent fasting, we sort the evidence into human and animal studies and suggest a three-step diet you can start today."
 date: "2023-02-06T22:55:41+09:00"
-updated: "2023-02-23T18:22:39+09:00"
-tags: ["BDNF", "foods for BDNF", "sulforaphane", "flavonoids", "brain health"]
+updated: "2026-10-19T15:00:00+09:00"
+tags: ["BDNF", "foods for BDNF", "BDNF diet", "sulforaphane", "flavonoids", "omega-3", "Mediterranean diet", "intermittent fasting", "brain health"]
 comic:
   title: "A table that supports BDNF"
   panels:
     - scene: tired
-      label: "The problem"
-      bubble: "What should I eat?"
-      alt: "A tired person with a lowered head beside an almost empty battery"
-      caption: "Sometimes it's hard to know what to eat for your brain."
+      label: "Situation"
+      bubble: "What should I eat for my brain?"
+      alt: "A person hanging their head with a nearly empty battery"
+      caption: "There are endless 'good for your brain' foods, and it's hard to know what to trust."
     - scene: sprout
-      label: "How it works"
-      bubble: "Grow the brain's fertilizer"
-      alt: "A sprout growing from the top of a brain"
-      caption: "<strong>BDNF</strong> affects the survival and <strong>plasticity</strong> of nerve cells."
+      label: "The science"
+      bubble: "Food is raw material for fertilizer"
+      alt: "A sprout growing out of the brain"
+      caption: "Food doesn't contain <strong>BDNF</strong>. It's raw material that helps the brain <strong>make BDNF itself</strong>."
     - scene: food
-      label: "What to do"
-      bubble: "Broccoli, berries, olive oil"
-      alt: "A plate with meat, an egg, and greens, with a fork and knife"
-      caption: "Get <strong>sulforaphane</strong> (cruciferous vegetables), <strong>flavonoids</strong> and <strong>monounsaturated fats</strong>."
+      label: "Practice"
+      bubble: "Broccoli, berries, fish, nuts"
+      alt: "A plate of meat, eggs and vegetables with a knife and fork"
+      caption: "Eat more <strong>sulforaphane</strong>, <strong>flavonoids</strong> and <strong>omega-3</strong>, cut back on <strong>refined sugar</strong>, and keep it up for <strong>12 weeks</strong>."
     - scene: calm
-      label: "The change"
-      bubble: "One hearty meal"
-      alt: "A brain with an even wave and a slowly beating heart"
-      caption: "Even one brain-minded meal a day supports the <strong>hippocampus</strong>."
+      label: "Change"
+      bubble: "Meals add up to a brain"
+      alt: "A brain with steady waves and a slowly beating heart"
+      caption: "After three years on a Mediterranean diet, <strong>fewer people had low BDNF</strong> (<strong>Nutritional Neuroscience</strong>, 2011)."
 ---
 
-We've looked at how to boost <a href="/en/blog/bdnf-brain-derived-neurotrophic-factor-what-are-you/">BDNF</a>, which affects our cognitive function and the survival and plasticity of nerve cells, <a href="/en/blog/what-causes-bdnf-deficiency-and-does-brain-health-improve/">what causes BDNF to run low</a>, and how to improve it. Now, thinking it would be good to eat brain-strengthening food for at least one of our three daily meals, let's take some time to look at foods rich in **BDNF**.
+## 📌 Key takeaways
 
-If you're not yet sure what BDNF is or how to activate it, the posts below should help.
+- 🥦 First, a correction. **Food doesn't contain BDNF.** BDNF is a protein, so when you eat it, it gets digested and broken down. A "BDNF-rich food" is really a **food that helps your body make BDNF**.
+- 🧪 **Sulforaphane** from broccoli (**Molecular Nutrition & Food Research**, 2017), **flavonoids** from blueberries (**Free Radical Biology & Medicine**, 2008) and **omega-3** from fish (**Journal of Neurotrauma**, 2004) raised hippocampal BDNF in animal studies.
+- 👥 Human evidence is emerging too. When adults aged 62–75 drank **cocoa flavanols** for 12 weeks, their blood BDNF rose (**Nutrition and Healthy Aging**, 2016), and after three years on a **Mediterranean diet with nuts**, fewer people had low BDNF (**Nutritional Neuroscience**, 2011).
+- 🍰 On the other hand, a **diet high in saturated fat and refined sugar** lowered hippocampal BDNF and learning in rats within two months (**Neuroscience**, 2002). **How you eat** matters too: eating less raised BDNF in animals, but human studies are still mixed.
 
-- [BDNF, brain-derived neurotrophic factor: what are you?](/en/blog/bdnf-brain-derived-neurotrophic-factor-what-are-you/)
-- [What causes BDNF deficiency, and does brain health improve too?](/en/blog/what-causes-bdnf-deficiency-and-does-brain-health-improve/)
+### 💬 The day I got lost in the supermarket aisle
 
-## 1. Sulforaphane from cruciferous vegetables
+I once stood for a long time in front of products labelled "brain health" and "memory." One featured blueberries, another omega-3, and one simply printed "BDNF" in large letters. Nowhere, though, did any of them say which study the claim came from.
 
-In 2017, a research team led by research professor Kim Ji-young (Seoul National University), supported by the **National Research Foundation of Korea**, found that <strong>the sulforaphane in broccoli helps keep BDNF (brain-derived neurotrophic factor) strong and healthy</strong>, a protein found in abundance in brain areas such as the **hippocampus**.
+This article is a rewrite of a 2023 post on "foods that are good for BDNF." The first version just listed foods. This time I checked, one by one, **what experiment sits behind each food**, whether that experiment was done **in people or in animals**, and **how you should actually eat it**.
 
-When mice with dementia were fed the **sulforaphane** contained in broccoli, the team confirmed that it increased BDNF and also increased nerve cells and [microtubule-associated proteins](https://terms.naver.com/entry.naver?docId=426520&cid=60261&categoryId=60261 "Naver encyclopedia entry on microtubule-associated proteins (in Korean)"), as well as synaptophysin and PSD-95.
+---
 
-Sulforaphane is said to be good not only for BDNF release but also for killing cancer cells, so I strongly recommend eating <strong>broccoli</strong> (one of the top ten cancer-prevention foods in the US), <strong>cabbage</strong> (good for anemia, stomach trouble and constipation), <strong>kale</strong> (helps suppress metabolic syndrome and prevent cancer) and <strong>cauliflower</strong> (an anti-cancer superfood).
+## 🔬 Deep dive: how does food change BDNF in the brain?
 
-To boost the effect of sulforaphane, it's best to <strong>blanch them briefly in boiling water or steam them lightly</strong>, so keep that in mind.
+### 1. Food isn't the fertilizer — it's raw material for the fertilizer factory
 
-## 2. Foods high in flavonoids
+BDNF is the **brain's fertilizer**, growing connections between neurons. But you can't buy this fertilizer and scatter it; a **factory** inside the brain has to make it. Food's job is to **supply that factory with good raw materials and remove what gets in its way**.
 
-One of the causes of BDNF deficiency was sugar, or excessive sugar intake. **Flavonoids** come from natural plants and can also promote BDNF production. They're found in cranberries, chocolate (such as dark chocolate), green tea, olive oil, spices, pepper and turmeric.
+UCLA neuroscientist Fernando Gómez-Pinilla reviewed more than 160 studies and concluded that nutrients in food directly affect neuronal function and **synaptic plasticity**, with BDNF at the center (Gómez-Pinilla, **Nature Reviews Neuroscience**, 2008). One of the review's key messages is that omega-3-rich diets benefit the brain, while diets high in saturated and trans fats harm cognition.
 
-## 3. Foods rich in monounsaturated fatty acids
+If BDNF is new to you, start with [BDNF, brain-derived neurotrophic factor: what are you?](/en/blog/bdnf-brain-derived-neurotrophic-factor-what-are-you/)
 
-Research shows that foods high in **saturated fat**, along with sugar, reduce BDNF, while foods eaten before the age of industrial processing (putting it that way is too complicated, isn't it!) are known to promote BDNF production. To put it in terms of Korean history, the foods people could eat in the Joseon era are known to promote BDNF production. **Monounsaturated fatty acids** such as those in olive oil belong here.
+### 2. Human studies and animal studies don't carry the same weight
 
-Being human, we can't eat only healthy foods every single day, but for the sake of the brain health that will shape our future, let's make at least one meal a day count. As the saying goes, <strong>"how you take care of yourself now decides who you'll be ten years from now."</strong>
+Much of the research on food and BDNF is in **rats and mice**. Their diet can be controlled precisely, and their brains can be examined directly. Human studies, by contrast, mostly measure **BDNF in the blood**, which doesn't directly reflect BDNF in the brain. That's why this article states, for every food, **whether the evidence comes from people or from animals**.
 
-I hope you'll take a moment to check what you're eating right now, and that we can all spend each day in good health.
+![Table sorting foods and eating patterns by human versus animal evidence: the Mediterranean diet and cocoa flavanols have human evidence; blueberries, sulforaphane, omega-3 and eating less rest mainly on animal evidence; a high-fat, refined-sugar diet is one to avoid](/images/blog/bdnf-food/en-food-evidence.svg)
+
+---
+
+## 🥗 Foods that support BDNF: checking the evidence one by one
+
+### 1. Sulforaphane: broccoli, cabbage, kale (animal evidence)
+
+- **Study:** A Seoul National University team (Kim et al.) fed **sulforaphane**, found in **cruciferous vegetables** such as broccoli, to mice modelling Alzheimer's disease for two months. BDNF **rose in the cortex and hippocampus**, the **TrkB pathway** that carries BDNF's signal was activated, and synaptic proteins increased as well. The team reported that sulforaphane works **epigenetically**, changing the **acetylation of histones** wrapped around the BDNF gene so that the gene's switch is easier to turn on (Kim et al., **Molecular Nutrition & Food Research**, 2017).
+- **To be honest:** This was a mouse study. A clinical trial in people with mild Alzheimer's disease is under way, but it has not yet been shown that sulforaphane raises BDNF in people.
+- **How to eat it:** Sulforaphane forms when an enzyme (myrosinase) acts as you **cut or chew** the vegetable, and that enzyme is sensitive to heat. **Lightly steaming or blanching** is better than long boiling.
+
+### 2. Flavonoids: berries, cocoa, green tea, vegetables (human + animal evidence)
+
+- **Animal study:** When aged rats ate **blueberries** as 2% of their diet for 12 weeks, their spatial working memory improved from week 3, and the improvement tracked rises in hippocampal **BDNF** (Williams et al., **Free Radical Biology & Medicine**, 2008).
+- **Human study:** When adults aged 62–75 drank a flavanol-rich **cocoa drink** (494 mg flavanols) for 12 weeks, their blood BDNF rose, and those whose BDNF rose more also improved more on cognitive tests. A separate trial with flavonoid-rich **fruit and vegetables** found something similar (Neshatdoust et al., **Nutrition and Healthy Aging**, 2016).
+- **To be honest:** A later study testing cocoa and berries found no BDNF change, so **the results aren't consistent**. The cocoa used in the study was formulated to be high in flavanols, which is not the same as a square of ordinary chocolate. Chocolate also comes with sugar, so stick to small amounts of high-cacao chocolate.
+
+### 3. Omega-3 (DHA): mackerel, salmon, sardines (animal evidence)
+
+- **Study:** When rats with a brain injury were fed a DHA-rich diet for 12 days, their lowered hippocampal **BDNF returned to normal**, and their learning improved (Wu et al., **Journal of Neurotrauma**, 2004).
+- **What it means:** DHA is a major component of neuronal membranes. A factory runs properly only when its **bricks** are sound.
+- **To be honest:** This was a rat study, and it isn't yet clear that omega-3 raises BDNF in healthy people.
+
+### 4. The Mediterranean diet and nuts (human evidence)
+
+- **Study:** In **PREDIMED**, a large Spanish diet trial, researchers compared blood BDNF in 243 participants after three years. Participants followed (1) a low-fat diet, (2) a Mediterranean diet with olive oil, or (3) a **Mediterranean diet with nuts**. Both Mediterranean groups had slightly higher BDNF, but the overall difference in averages was not statistically significant. However, **far fewer people in the nut group had low BDNF**, and among those who had depression at the start, the nut group had significantly higher BDNF (Sánchez-Villegas et al., **Nutritional Neuroscience**, 2011).
+- **What it means:** The **overall pattern of your diet**, sustained over time, matters more than any single food. The Mediterranean diet is built on vegetables, fruit, whole grains, fish, olive oil and nuts, and the **monounsaturated fats** mentioned in the earlier version of this post (olive oil, nuts, avocado) are one of its pillars.
+
+---
+
+## 🍽️ Eating patterns that protect BDNF: how you eat matters as much as what you eat
+
+### 1. Cut back: refined sugar and saturated fat (animal evidence)
+
+Rats fed a diet high in saturated fat and refined sugar for **two months** had **lower hippocampal BDNF** and poorer spatial learning. Proteins that help BDNF act at the synapse (such as synapsin I and CREB) fell too (Molteni et al., **Neuroscience**, 2002). No matter how good the raw materials, keep pouring **sand** into the factory and the machines stop. For other ways sugar lowers BDNF, see [What causes BDNF deficiency, and does brain health improve?](/en/blog/what-causes-bdnf-deficiency-and-does-brain-health-improve/)
+
+### 2. Eating less and intermittent fasting (up in animals, mixed in humans)
+
+- **Animal study:** Restricting food for **three months** raised hippocampal BDNF and new neurons in mice (Lee et al., **Journal of Neurochemistry**, 2002).
+- **Human studies:** A 2024 systematic review of 16 studies on how eating less and intermittent fasting affect human BDNF found **5 showing an increase, 5 a decrease and 6 no change** (Alkurd et al., **Medicina**, 2024).
+- **To be honest:** The evidence that intermittent fasting raises BDNF in humans is **not yet clear**. Results may also depend on when and how blood was sampled.
+
+### 3. A word on ketones
+
+During long exercise, the liver makes a ketone called **β-hydroxybutyrate**, and in mice this compound released the brakes on the BDNF gene and raised hippocampal BDNF (Sleiman et al., **eLife**, 2016). Because fasting and low-carb diets also raise ketones, this study gets a lot of attention. But it looked at ketones produced by **exercise**; whether raising ketones through diet increases BDNF in people hasn't been shown.
+
+---
+
+## ✅ Solution: a three-step diet that supports BDNF
+
+1. <strong>🥦 Step 1: Fill one meal a day with "green and purple."</strong> Put **cruciferous vegetables** (broccoli, cabbage, kale) and **berries** (blueberries, cranberries) into one meal every day. Lightly steam the broccoli and chew it well. For snacks, swap crisps for **a handful of berries** or **a square or two of high-cacao dark chocolate**.
+2. <strong>🐟 Step 2: Fish twice a week, a handful of nuts every day.</strong> Eat **oily fish** such as mackerel, salmon or sardines twice a week, and a handful (about 30 g) of **nuts** such as walnuts or almonds every day. Use **olive oil** as your default oil. This combination is the backbone of the Mediterranean diet.
+3. <strong>🍰 Step 3: Cut sugary drinks and processed food (a 12-week challenge).</strong> Each day, cut back on one food high in **refined sugar and saturated fat**, such as sweet drinks, snacks or processed meat. Keep this diet going for at least **12 weeks**. Both the cocoa trial and the blueberry study lasted 12 weeks.
+
+| Step | What | How much | Evidence | Strength |
+| --- | --- | --- | --- | --- |
+| 1. Green and purple | Cruciferous vegetables, berries, a little high-cacao chocolate | One meal a day | Sulforaphane (mice, 2017), blueberries (rats, 2008), cocoa flavanols (people, 2016) | Animal + some human |
+| 2. Fish and nuts | Oily fish, nuts, olive oil | Fish 2x a week, nuts 30 g a day | Omega-3 (rats, 2004), Mediterranean diet + nuts (people, 3 years, 2011) | Human + animal |
+| 3. Cut back | Fewer sweet drinks, snacks, processed foods | 12+ weeks | High-fat, refined-sugar diet (rats, 2002) | Animal |
+
+Food is an **auxiliary engine** for BDNF. In people, the most reliable method is still **exercise**, so pair your diet with movement. Every method — exercise, sleep, learning and more — is covered in [How to increase BDNF](/en/blog/how-to-increase-bdnf-exercise-food-reading-meditation-sleep-evidence-and-duration/).
+
+---
+
+## 🙋 Frequently asked questions
+
+### Q1. Can't I just take a BDNF supplement or a "brain food" product?
+
+BDNF itself is a protein, so when you swallow it, it gets digested and broken down, and it can hardly pass from the blood into the brain anyway. **There's no way to raise BDNF by eating it directly.** Products containing ingredients like blueberry or omega-3, as we've seen, rest largely on animal evidence. When choosing a product, first check **whether it has been tested in people** — and changing your **whole diet** is closer to what the research shows than any supplement.
+
+### Q2. Does intermittent fasting raise BDNF?
+
+It did in mice, but in people results vary from study to study, so **it isn't clear yet**. Weigh intermittent fasting alongside other goals such as weight or blood-sugar control, and if you have diabetes or take medication, talk to your doctor first.
+
+---
+
+## 📚 References
+
+- Gómez-Pinilla, F. (2008). Brain foods: the effects of nutrients on brain function. *Nature Reviews Neuroscience*, 9(7), 568–578.
+- Kim, J., Lee, S., Choi, B.-R., … (2017). Sulforaphane epigenetically enhances neuronal BDNF expression and TrkB signaling pathways. *Molecular Nutrition & Food Research*, 61(2), 1600194.
+- Williams, C. M., El Mohsen, M. A., Vauzour, D., … Spencer, J. P. E. (2008). Blueberry-induced changes in spatial working memory correlate with changes in hippocampal CREB phosphorylation and brain-derived neurotrophic factor (BDNF) levels. *Free Radical Biology & Medicine*, 45(3), 295–305.
+- Neshatdoust, S., Saunders, C., Castle, S. M., … Spencer, J. P. E. (2016). High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: two randomised, controlled trials. *Nutrition and Healthy Aging*, 4(1), 81–93.
+- Wu, A., Ying, Z., & Gomez-Pinilla, F. (2004). Dietary omega-3 fatty acids normalize BDNF levels, reduce oxidative damage, and counteract learning disability after traumatic brain injury in rats. *Journal of Neurotrauma*, 21(10), 1457–1467.
+- Sánchez-Villegas, A., Galbete, C., Martinez-González, M. A., … (2011). The effect of the Mediterranean diet on plasma brain-derived neurotrophic factor (BDNF) levels: the PREDIMED-NAVARRA randomized trial. *Nutritional Neuroscience*, 14(5), 195–201.
+- Molteni, R., Barnard, R. J., Ying, Z., Roberts, C. K., & Gómez-Pinilla, F. (2002). A high-fat, refined sugar diet reduces hippocampal brain-derived neurotrophic factor, neuronal plasticity, and learning. *Neuroscience*, 112(4), 803–814.
+- Lee, J., Duan, W., & Mattson, M. P. (2002). Evidence that brain-derived neurotrophic factor is required for basal neurogenesis and mediates, in part, the enhancement of neurogenesis by dietary restriction in the hippocampus of adult mice. *Journal of Neurochemistry*, 82(6), 1367–1375.
+- Alkurd, R., Mahrous, L., Zeb, F., … Faris, M. E. (2024). Effect of calorie restriction and intermittent fasting regimens on brain-derived neurotrophic factor levels and cognitive function in humans: a systematic review. *Medicina*, 60(1), 191.
+- Sleiman, S. F., Henry, J., Al-Haddad, R., … Chao, M. V. (2016). Exercise promotes the expression of brain derived neurotrophic factor (BDNF) through the action of the ketone body β-hydroxybutyrate. *eLife*, 5, e15092.
+
+## 💭 A question for you
+
+If you changed **just one thing** at tonight's dinner table, what would it be? Swapping crisps for a handful of berries, or grilling fish once a week? Twelve weeks from now, tell us how your body and mind have changed through the [contact page](/en/contact/).
+
+## ⚠️ Disclaimer
+
+This article offers general nutrition information based on scientific research and does not replace medical diagnosis, treatment or personalized nutrition advice. Many of the studies cited are animal studies, and BDNF levels in human blood do not directly reflect BDNF in the brain. Before making major changes to your diet or starting a fast — especially if you have a condition such as diabetes or kidney disease, or take medication — please consult a doctor or dietitian. If you are allergic to nuts or fish, avoid those foods.
