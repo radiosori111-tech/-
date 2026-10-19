@@ -16,11 +16,13 @@ const tr = t(lang);
 const copy = {
   en: {
     title: 'Articles',
+    heading: 'Brain science<br /><span>on the clock of your day</span>',
     lede: 'Brain science, explained plainly and placed on the clock of your day — each article ends with something you can do today.',
     all: 'All articles',
   },
   ja: {
     title: '記事',
+    heading: '一日の時間に置いた<br /><span>脳科学</span>',
     lede: '脳科学をやさしく解きほぐし、一日のどの時間に実践するとよいかまで添えてお届けします。どの記事も、今日からできる行動で締めくくります。',
     all: 'すべての記事',
   },
@@ -41,7 +43,7 @@ const pins = articles
   .filter((a) => a.data.time)
   .map((a) => ({ href: articleUrl(a), title: a.data.title, time: a.data.time!, moment: a.data.moment }));
 ---
-<Page title={copy.title} lede={copy.lede} lang={lang} alternates={alternates}>
+<Page title={copy.title} heading={copy.heading} lede={copy.lede} lang={lang} alternates={alternates}>
   <LangSwitch slot="head" alternates={alternates} current={lang} label={tr.post.readIn} />
   <HeadCard slot="feature" badge={tr.list.featured} href={articleUrl(featured)} title={featured.data.title} description={featured.data.description} readLabel={tr.list.read}>
     <span class="time-mark">{featured.data.time ?? tr.post.anytime}</span>
