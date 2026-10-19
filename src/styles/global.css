@@ -181,6 +181,9 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.24e
   user-select: none;
 }
 :is(.page-head, .art-head) .hero-brain { width: min(34rem, 80vw); opacity: 0.7; }
+/* 목록 머리(블로그 등)는 뇌가 잘리지 않도록 높이를 넉넉히 두고 가운데로 모은다 */
+.page-head { min-height: clamp(19rem, 34vw, 28rem); display: grid; align-content: center; }
+.page-head .hero-brain { width: min(36rem, 86vw); opacity: 0.8; }
 .frame:is(.mast, .page-head, .art-head) :is(h1, h2, p) { text-shadow: 0 0 2px rgb(7 10 22 / 0.9), 0 1px 14px rgb(7 10 22 / 0.95), 0 0 32px rgb(7 10 22 / 0.8); }
 
 .tabular { font-variant-numeric: tabular-nums; font-feature-settings: 'tnum'; }
