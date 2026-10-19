@@ -48,7 +48,7 @@ const emptyText = Astro.props.emptyText ?? tr.list.empty;
             <img src={it.image} alt="" width="800" height="500" loading={i < 4 ? 'eager' : 'lazy'} decoding="async" />
           </div>
         ) : (
-          <div class="card-img is-cover" aria-hidden="true" set:html={cover(it.key, it.hay ?? it.title)} />
+          <div class="card-img is-cover" aria-hidden="true" set:html={cover(it.key, it.title, it.hay ?? '')} />
         )
       )}
       <div class="card-body">
