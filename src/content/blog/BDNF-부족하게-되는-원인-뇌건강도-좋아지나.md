@@ -36,9 +36,9 @@ comic:
 
 간헐적 단식 : 설 명절 확찐자들을 위한 비법 2023년 설 명절 가족과 함께 즐거운 시간을 보내셨습니까? 부모님과 함께 보내고 온 연휴기간동안 저는 즐거운 시간과 함께 얻지 않아도 될 벌크업을
 
-jes-lu.com](https://jes-lu.com/entry/BDNF-뇌-유래-신경영양인자-너의-정체는-뭐니)
+jes-lu.com](/blog/BDNF-뇌-유래-신경영양인자-너의-정체는-뭐니/)
 
-앞선 글에서  <strong>[BDNF](https://jes-lu.com/26 "BDNF에 관해 설명하는 글")</strong>(뇌유래 신경영양인자, Brain-Derived Neurotrophic Factor)는 신경세포들을 활발하게
+앞선 글에서  <strong>[BDNF](/blog/BDNF-뇌-유래-신경영양인자-너의-정체는-뭐니/ "BDNF에 관해 설명하는 글")</strong>(뇌유래 신경영양인자, Brain-Derived Neurotrophic Factor)는 신경세포들을 활발하게
 
 하고 외부자극에 대해 적응력을 향상시키는 신경[가소성](http://HTTPS://JES-LU.COM/7 "신경가소성을 증가시키는 방법에 대한 글") 역할을 하며 플라스틱이 힘 자극에 의해 변화무쌍한 모습을 보여주는 것처럼 우리 뇌의 확장성을 높이는데 중요한 영향을 끼치는 것에 대해 알아 보았고 이번시간에는 <strong>BDNF가 부족에 영향을 미치는 원인,BDNF 분비에 방해가 되는 것</strong>들에 대해 알아보도록 하겠습니다.
 
