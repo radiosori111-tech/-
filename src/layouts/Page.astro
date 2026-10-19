@@ -3,17 +3,18 @@ import Base from './Base.astro';
 import HeroBrain from '../components/HeroBrain.astro';
 import { DEFAULT_LANG, type Lang, type Alternate } from '../i18n/ui';
 
-interface Props { title: string; lede: string; description?: string; lang?: Lang; alternates?: Alternate[] }
-const { title, lede, description, lang = DEFAULT_LANG, alternates } = Astro.props;
+// heading을 주면 화면의 큰 제목은 그 HTML로 쓰고(<span>은 강조색), 문서 제목(title)은 그대로 둔다. title이 null이면 사이트 이름이 문서 제목이 된다
+interface Props { title: string | null; heading?: string; lede: string; description?: string; lang?: Lang; alternates?: Alternate[] }
+const { title, heading, lede, description, lang = DEFAULT_LANG, alternates } = Astro.props;
 const hasFeature = Astro.slots.has('feature');
 ---
-<Base title={title} description={description ?? lede} lang={lang} alternates={alternates}>
+<Base title={title ?? undefined} description={description ?? lede} lang={lang} alternates={alternates}>
   <header class:list={['page-head frame', hasFeature && 'has-feature']}>
     <HeroBrain lang={lang} />
     <div class="wrap">
       <div class="head-grid">
         <div class="head-copy">
-          <h1>{title}</h1>
+          {heading ? <h1 set:html={heading} /> : <h1>{title}</h1>}
           <p class="lede">{lede}</p>
           <slot name="head" />
         </div>
@@ -29,6 +30,7 @@ const hasFeature = Astro.slots.has('feature');
 
 <style>
   .page-head { padding-block: clamp(3rem, 7vw, 5rem) clamp(2.75rem, 6vw, 4.25rem); }
+  .page-head h1 :global(span) { color: var(--accent-on-dark); }
   .page-head h1 {
     font-size: var(--text-display);
     font-weight: 700;

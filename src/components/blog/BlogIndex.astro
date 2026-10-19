@@ -31,7 +31,7 @@ const pins = (await getArticles(lang))
   .filter((a) => a.data.time)
   .map((a) => ({ href: articleUrl(a), title: a.data.title, time: a.data.time!, moment: a.data.moment }));
 ---
-<Page title={tr.list.blogTitle} lede={tr.list.blogLede} lang={lang} alternates={listAlternates}>
+<Page title={null} heading={tr.list.homeHeading} lede={tr.list.homeLede} lang={lang} alternates={listAlternates}>
   <LangSwitch slot="head" alternates={listAlternates} current={lang} label={tr.post.readIn} />
   {pins.length > 0 && <DayBand slot="band" pins={pins} lang={lang} />}
   {latest && (

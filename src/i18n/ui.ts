@@ -108,6 +108,8 @@ export const ui = {
     },
     list: {
       blogTitle: '블로그',
+      homeHeading: '뇌를 이해하면,<br /><span>하루가 바뀝니다</span>',
+      homeLede: '뇌와 마음, 그리고 습관 변화를 통한 삶의 긍정적 변화. 복잡한 뇌과학 연구를 쉽게 풀어, 오늘 바로 해볼 수 있는 행동으로 옮겨 적습니다.',
       blogLede: '뇌과학, 운동, 식단, 습관에 관해 그동안 블로그에 써 온 글을 한곳에 모았습니다.',
       all: '모든 글',
       latest: '최신글',
@@ -197,6 +199,8 @@ export const ui = {
     },
     list: {
       blogTitle: 'Blog',
+      homeHeading: 'Understand your brain,<br /><span>and your day changes</span>',
+      homeLede: 'Changing life for the better through the brain, the mind, and our habits. We unpack complex brain research in plain language and turn it into something you can try today.',
       blogLede: 'Brain science for everyday life — essays on how the brain shapes our habits, health, and the way we live.',
       all: 'All posts',
       latest: 'Latest',
@@ -286,6 +290,8 @@ export const ui = {
     },
     list: {
       blogTitle: 'ブログ',
+      homeHeading: '脳を理解すれば、<br /><span>一日が変わる</span>',
+      homeLede: '脳と心、そして習慣を変えることで、人生をよりよい方向へ。むずかしい脳科学の研究をやさしく解きほぐし、今日すぐに試せる行動にして届けます。',
       blogLede: '脳科学から、毎日の習慣と健康、そして生き方を見つめ直すエッセイを集めました。',
       all: 'すべての記事',
       latest: '最新記事',
