@@ -1,5 +1,6 @@
 ---
 import Base from './Base.astro';
+import HeroBrain from '../components/HeroBrain.astro';
 import { DEFAULT_LANG, type Lang, type Alternate } from '../i18n/ui';
 
 interface Props { title: string; lede: string; description?: string; lang?: Lang; alternates?: Alternate[] }
@@ -7,6 +8,7 @@ const { title, lede, description, lang = DEFAULT_LANG, alternates } = Astro.prop
 ---
 <Base title={title} description={description ?? lede} lang={lang} alternates={alternates}>
   <header class="page-head frame">
+    <HeroBrain lang={lang} />
     <div class="wrap">
       <h1>{title}</h1>
       <p class="lede">{lede}</p>

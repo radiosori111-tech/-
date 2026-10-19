@@ -15,6 +15,7 @@ const hours = [0, 3, 6, 9, 12, 15, 18, 21, 24];
   <div class="band-inner">
     <div class="track" aria-hidden="true">
       <span class="elapsed" data-elapsed></span>
+      <span class="journey" data-journey hidden></span>
       {hours.map((h) => <span class="tick" style={`left:${(h / 24) * 100}%`}></span>)}
     </div>
     <ol class="pins">
@@ -61,6 +62,14 @@ const hours = [0, 3, 6, 9, 12, 15, 18, 21, 24];
       const pinEls = [...band.querySelectorAll<HTMLElement>('.pin')];
       const next = pinEls.find((p) => Number(p.dataset.minute) >= minute) ?? pinEls[0];
       pinEls.forEach((p) => p.classList.toggle('is-next', p === next));
+      // 지금에서 다음 글까지 남은 시간 여정. 다음 글이 내일이면 오늘 끝(24시)까지 잇는다
+      const journey = band.querySelector<HTMLElement>('[data-journey]');
+      if (journey && next) {
+        const to = Number(next.dataset.minute) >= minute ? (Number(next.dataset.minute) / 1440) * 100 : 100;
+        journey.style.setProperty('--from', `${pct}%`);
+        journey.style.setProperty('--to', `${to}%`);
+        journey.hidden = to - pct < 0.5;
+      }
     });
   }
   placeNow();
@@ -93,6 +102,37 @@ const hours = [0, 3, 6, 9, 12, 15, 18, 21, 24];
     transition: transform 1.2s var(--ease-out);
   }
   .is-live .elapsed { transform: scaleX(1); }
+  /* 지금 → 다음 글: 점선 위로 빛 하나가 다음 습관 시각을 향해 흘러간다 */
+  .journey {
+    position: absolute;
+    top: 0; bottom: 0;
+    left: var(--from);
+    width: calc(var(--to) - var(--from));
+    background: repeating-linear-gradient(90deg, rgb(253 214 99 / 0.75) 0 6px, transparent 6px 12px);
+    filter: drop-shadow(0 0 4px rgb(253 214 99 / 0.6));
+    opacity: 0;
+    transition: opacity 600ms ease 900ms;
+  }
+  .is-live .journey { opacity: 1; }
+  .journey::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 9px; height: 9px;
+    margin: -4.5px 0 0 -4.5px;
+    border-radius: 50%;
+    background: #fff6dc;
+    box-shadow: 0 0 10px 3px rgb(253 214 99 / 0.85), 0 0 22px 6px rgb(95 208 192 / 0.35);
+    animation: journey 4.5s var(--ease-in-out) infinite;
+  }
+  @keyframes journey {
+    0% { left: 0; opacity: 0; }
+    12% { opacity: 1; }
+    85% { opacity: 1; }
+    100% { left: 100%; opacity: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) { .journey::after { animation: none; left: 100%; } }
   .tick {
     position: absolute;
     top: -4px;

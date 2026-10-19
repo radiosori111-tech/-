@@ -166,18 +166,21 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.24e
 .frame .feature { backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
 
 /* 큰 머리 영역에는 왼쪽에 빛나는 뇌: 앞쪽 뇌(전전두엽)에서 빛의 물결이 퍼져 나간다 */
-.frame:is(.mast, .page-head, .art-head) { position: relative; isolation: isolate; }
-.frame:is(.mast, .page-head, .art-head)::before {
-  content: '';
+.frame:is(.mast, .page-head, .art-head) { position: relative; isolation: isolate; overflow-x: clip; }
+.hero-brain {
   position: absolute;
-  inset: 0;
   z-index: -1;
-  background: url('/cosmos-brain.svg') no-repeat left max(-6rem, calc(50% - 41rem)) center / min(46rem, 92vw) auto;
-  mix-blend-mode: screen; /* 어두운 고랑은 비치고 밝은 이랑만 빛처럼 더해진다 */
+  top: 50%;
+  left: max(-6rem, calc(50% - 41rem));
+  width: min(46rem, 92vw);
+  height: auto;
+  translate: 0 -50%;
+  mix-blend-mode: screen; /* 어두운 고랑은 비치고 밝은 점만 빛처럼 더해진다 */
   opacity: 0.85;
   pointer-events: none;
+  user-select: none;
 }
-.frame:is(.page-head, .art-head)::before { background-size: min(34rem, 80vw) auto; opacity: 0.7; }
+:is(.page-head, .art-head) .hero-brain { width: min(34rem, 80vw); opacity: 0.7; }
 .frame:is(.mast, .page-head, .art-head) :is(h1, h2, p) { text-shadow: 0 0 2px rgb(7 10 22 / 0.9), 0 1px 14px rgb(7 10 22 / 0.95), 0 0 32px rgb(7 10 22 / 0.8); }
 
 .tabular { font-variant-numeric: tabular-nums; font-feature-settings: 'tnum'; }

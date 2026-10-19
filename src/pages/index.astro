@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import DayBand from '../components/DayBand.astro';
+import HeroBrain from '../components/HeroBrain.astro';
 import PostList, { type ListItem } from '../components/PostList.astro';
 import Icon from '../components/Icon.astro';
 import { CATEGORIES } from '../content.config';
@@ -38,6 +39,7 @@ const jsonLd = {
 ---
 <Base jsonLd={jsonLd} alternates={LANGS.map((lang) => ({ lang, href: articlesPath(lang) }))}>
   <section class="mast frame">
+    <HeroBrain lang="ko" />
     <div class="wrap">
       <div class="mast-grid">
         <div class="mast-copy">

@@ -4,6 +4,7 @@
 import type { MarkdownHeading } from 'astro';
 import Base from './Base.astro';
 import Icon from '../components/Icon.astro';
+import HeroBrain from '../components/HeroBrain.astro';
 import Disclaimer from '../components/Disclaimer.astro';
 import AdSlot from '../components/ads/AdSlot.astro';
 import Comic from '../components/comic/Comic.astro';
@@ -54,6 +55,7 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
 <Base title={title} description={description} type="article" jsonLd={jsonLd} image={image} lang={lang} alternates={alternates}>
   <div class:list={['post-page', toc.length === 0 && 'is-narrow']}>
     <header class="art-head frame">
+      <HeroBrain lang={lang} />
       <div class="wrap head-inner">
         <div class="head-top">
           <a class="back" href={back.href}><Icon name="arrow-left" /> {back.label}</a>
