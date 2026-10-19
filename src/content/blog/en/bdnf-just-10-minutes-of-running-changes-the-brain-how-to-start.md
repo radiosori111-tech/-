@@ -1,86 +1,170 @@
 ---
-title: "BDNF: Just 10 Minutes of Running Changes the Brain, and How to Start Running"
+title: "Why Running Is Good for Your Brain, and How to Start as a Beginner: 3 Research-Backed Steps to Raise BDNF"
 slug: "bdnf-just-10-minutes-of-running-changes-the-brain-how-to-start"
 lang: "en"
 translationOf: "10분만-뛰어도-뇌가-바뀐다는-BDNF-러닝-시작하는-방법까지-총정리"
-description: "Walk through a park or along the Han River these days and you'll notice far more people running in their running shoes. It isn't just to lose weight or build stamina. Lately there's been steady talk that running is closely tied to brain health, and in particular to a substance called BDNF."
+description: "Ten minutes of moderate running lifted mood and focus and activated the prefrontal cortex (Scientific Reports, 2021); meta-analyses show exercise raises BDNF, the brain's fertilizer; and a year of aerobic exercise enlarged the hippocampus (PNAS, 2011). Here is why running helps the brain, and three steps for beginners to start without getting hurt."
 date: "2026-09-13T23:22:48+09:00"
-updated: "2026-09-14T08:54:11+09:00"
-tags: ["BDNF", "running", "slow jogging", "aerobic exercise", "brain health"]
+updated: "2026-10-20T10:00:00+09:00"
+tags: ["running", "running for beginners", "BDNF", "slow jogging", "aerobic exercise", "hippocampus", "prefrontal cortex", "brain health"]
 image: "/images/blog/bd5b44eaf1/01.webp"
 comic:
-  title: "How 10 minutes of running changes the brain"
+  title: "From 10 minutes of running to a changed brain"
   panels:
     - scene: tired
-      label: "The problem"
+      label: "The worry"
       bubble: "My head always feels foggy…"
-      alt: "A tired person with a lowered head beside an almost empty battery"
-      caption: "Often it's the brain that tires before the body. Memory and mood sink together."
+      alt: "A person hanging their head beside an almost empty battery"
+      caption: "You've heard exercise is good for the brain, but getting out of breath and worrying about your knees makes it hard to start."
+    - scene: focus
+      label: "10 minutes later"
+      bubble: "Ten minutes in, my head cleared"
+      alt: "Lines of sight converging on one point, thoughts coming into focus"
+      caption: "After <strong>10 minutes</strong> of moderate running, mood and focus improved and the <strong>prefrontal cortex</strong> was more active (<strong>Scientific Reports</strong>, 2021)."
     - scene: sprout
-      label: "How it works"
-      bubble: "Enter brain fertilizer!"
-      alt: "A sprout growing from the top of a brain"
-      caption: "Running wakes up <strong>BDNF</strong>, the \"brain fertilizer\" that grows and connects brain cells."
+      label: "With consistency"
+      bubble: "The brain's fertilizer builds up"
+      alt: "A sprout growing out of the top of a brain"
+      caption: "Exercise raises <strong>BDNF</strong>, the brain's fertilizer, and older adults who walked for a year grew a larger <strong>hippocampus</strong> (<strong>PNAS</strong>, 2011)."
     - scene: run
-      label: "What to do"
-      bubble: "No need to run fast"
-      alt: "A person running lightly with motion lines"
-      caption: "At a talking pace, like <strong>slow jogging</strong>, starting with <strong>10 minutes</strong> is plenty."
-    - scene: calm
-      label: "The change"
-      bubble: "My head feels clear!"
-      alt: "A brain with an even wave and a slowly beating heart"
-      caption: "Run steadily and <strong>learning and memory</strong> sharpen, and stress shakes you less."
+      label: "In practice"
+      bubble: "At a pace you can talk at"
+      alt: "A person jogging lightly with motion lines"
+      caption: "Start with 10 minutes, mixed with walking, at a pace where you can <strong>still hold a conversation</strong>."
 ---
 
-![](/images/blog/bd5b44eaf1/01.webp)
+## 📌 Key takeaways
 
-> "There's a substance in the brain that doesn't increase unless you run"
+- 🏃 **It starts with 10 minutes.** In an experiment at Japan's University of Tsukuba, healthy adults who ran for **10 minutes at moderate intensity** felt better, did better on a test of focus, and showed more activity on both sides of the **prefrontal cortex**, the region that plans and judges (**Scientific Reports**, 2021). That study did not measure BDNF.
+- 🌱 **BDNF builds with consistency.** In a meta-analysis pooling many studies, even a single bout of exercise raised **BDNF** in the blood, and the effect was larger in people who exercised regularly (**Journal of Psychiatric Research**, 2015). Because the level falls back soon after a workout, the power to change the brain comes from **repetition**.
+- 🧠 **The hippocampus grew after a year.** When 120 older adults did aerobic walking for a year, their **hippocampus**, which handles memory, grew by about 2%, and those whose BDNF rose more grew more (**PNAS**, 2011).
+- ⚖️ **You don't need to run fast.** The intensity with the evidence behind it is a pace where you can **still talk**. The most common way beginners fail is not running too slowly but adding distance too quickly and getting hurt.
 
-Walk through a park or along the Han River these days and you'll notice far more people running in their running shoes. It isn't just to lose weight or build stamina. Lately there's been steady talk that running is closely tied to brain health, and in particular to a substance called **BDNF**.
+### 💬 "Exercise is good for the brain, they say. Could I run too?"
 
-BDNF stands for **brain-derived neurotrophic factor**, a protein that helps brain cells grow and connect with one another. Enough of it is known to keep memory, focus and emotional regulation running smoothly. The problem is that its levels naturally fall as we age and the less we move our bodies.
+On the way home through the park, people in running shoes brush past. The idea that running is good for the brain is familiar by now. But the moment you think of trying it, the questions pile up. How much do you need to run for it to count? Do you have to run until you're gasping? Will your knees be all right?
 
-Kian84, well known in Korea as a comedian and webtoon artist, said in a media interview that his condition improved greatly after he started running while struggling with **panic disorder**. The gist was that things might have gotten worse if he hadn't run, and it's often cited as an example of the link between running and the state of the brain.
+This post tries to answer those questions only as far as the research actually goes. It separates **what has been confirmed and what we don't yet know** in the claim that "just 10 minutes of running changes the brain," and lays out a way to start that you can keep up without getting hurt.
 
-> "While you run, the brain rebuilds itself"
+![A person running along a riverside at sunset](/images/blog/bd5b44eaf1/01.webp)
 
-![](/images/blog/bd5b44eaf1/02.webp)
+## Deep Dive: what running changes in the brain
 
-## BDNF: what is it, exactly?
+### 1. BDNF, the brain's fertilizer
 
-BDNF works like fertilizer in the brain. It helps new brain cells grow and helps existing cells connect through **synapses**. The denser these connections, the better learning and memory become, and the higher your resistance to stress is known to be.
+<strong>BDNF (brain-derived neurotrophic factor)</strong> is a protein that helps neurons survive, branch out and connect with one another. Like fertilizer in a flowerpot, it strengthens existing neurons and lays the ground for new connections to grow. It plays an especially important role in the **hippocampus**, where memories are made. What BDNF is and where it works are covered in [BDNF: brain-derived neurotrophic factor, what are you?](/en/blog/bdnf-brain-derived-neurotrophic-factor-what-are-you/)
 
-Conversely, there are concerns that a lack of BDNF can deepen depression and lethargy and, with age, lead to memory loss or cognitive decline. That's why people looking after their brain health are paying attention to natural ways to raise BDNF, and the method mentioned before medicine or supplements is <strong>aerobic exercise, and running in particular</strong>.
+### 2. Ten minutes of running: the changes that show up right away
 
-## Why running, of all things, wakes up BDNF
+Professor Hideaki Soya's team at the University of Tsukuba had healthy adults run on a treadmill for **10 minutes at 50% of their peak oxygen uptake**, a moderate intensity where you breathe a little harder but can still talk (Damrongthai et al., **Scientific Reports**, 2021). They compared this with a day on which the same people simply rested.
 
-Walking and stretching are of course good for the body, but the consensus is that **aerobic exercise that raises your heart rate** to a certain level stimulates BDNF release more reliably. As you use your muscles while running, blood flow speeds up, and in the process the supply of blood and oxygen to the brain increases too. When this stimulation repeats, the brain is said to respond by making its own nerve cells sturdier.
+- After running, **mood** was better and people felt more energized.
+- They got faster at the **Stroop task**, which asks you to answer without getting tripped up when a word's meaning and its ink color conflict. The task measures **executive function**, the ability to hold attention and hold back impulses.
+- Measured with near-infrared spectroscopy (fNIRS), which tracks blood flow in the brain, **both sides of the prefrontal cortex** were more active during the task after running, and this change went hand in hand with the gains in mood and performance.
+
+Two points matter here. First, this experiment **did not measure BDNF**. What it showed is not "10 minutes of running raises BDNF and changes the brain" but "10 minutes of running **improves mood and focus on the spot**." Second, these are changes **right after a single run**. Changing the brain's structure takes much longer.
+
+### 3. BDNF behaves differently after one run and after many
+
+The link between exercise and BDNF has been confirmed by **meta-analyses** pooling dozens of studies.
+
+- **A single bout of exercise** raises BDNF in the blood. In a meta-analysis from researchers at Boston University, the effect was moderate in size, and in **people who exercised regularly**, a single session raised it more (Szuhany et al., **Journal of Psychiatric Research**, 2015).
+- Another meta-analysis of healthy adults found that BDNF rose right after aerobic exercise, and rose more **the longer people exercised**. But the level **soon returned to baseline** once the workout ended (Dinoff et al., **European Journal of Neuroscience**, 2017).
+- When people kept up **exercise training** for weeks to months, their resting BDNF, measured when they weren't exercising, was higher too (Dinoff et al., **PLOS ONE**, 2016).
+
+But what does BDNF in the blood have to do with BDNF in the brain? When Danish researchers directly compared blood flowing into and out of the human brain, a **large share** of BDNF in the blood **came from the brain**, and the amount released by the brain rose during exercise (Rasmussen et al., **Experimental Physiology**, 2009). Blood levels are not a perfect mirror of the brain, but this is a clue that **the brain really makes more BDNF** while you exercise.
+
+In short, BDNF is something that **rises briefly with one run and rises at baseline with regular running**. It is like a flowerpot: a little water every day grows the plant better than one big pour.
+
+### 4. The hippocampus grew after a year
+
+The best-known study comes from researchers at the University of Pittsburgh and the University of Illinois (Erickson et al., **PNAS**, 2011). They randomly split **120 adults aged 55 to 80** into two groups: one did **aerobic walking** for 40 minutes three times a week, the other did **stretching**, for a year.
+
+- The walking group's **hippocampus** grew by about **2%**. The stretching group's shrank by about 1.4% over the year, close to the natural decline that comes with age.
+- In the walking group, **the more someone's blood BDNF rose**, the more their hippocampus grew, and the growth in the hippocampus was linked to improvements in **spatial memory**.
+
+The exercise in this study was not running but **brisk walking**. What changed the brain was not "exercise that leaves you gasping" but **keeping up exercise that raises your heart rate moderately for a year**. Running is one way to reach that intensity faster. The study is covered in more detail in [A Year of Walking Made the Hippocampus Grow](/en/articles/exercise-hippocampus/).
 
 <!-- related-link -->
 If you've just started running, there's something to take care of before speed. Read [**the 5-minute warm-up before and after a run**](/en/blog/skip-the-5-minute-warm-up-and-cool-down-and-you-halve-runnings-brain-benefits/) so your brain and joints both have an easier time.
 
-Various sources on dementia prevention also say the preventive effect is greater when you combine exercise that raises your heart rate rather than simply walking. Some explain that the effect doubles when you add ways of using body and mind together, such as listening to an audiobook while running or changing your route. In the end, many sources commonly stress that <strong>consistency is the key</strong>.
+### 5. Letters from muscle to brain: lactate and irisin
 
-## It's fine if you can't run fast: slow jogging
+Why does running raise BDNF in the brain? Animal experiments have uncovered a few routes. Substances made by working muscles travel through the blood to the brain and deliver something like a **letter**: "The body is on the move, so get the brain ready."
 
-Many people know running is good, but when they actually try, they get breathless and worry about their knees. For them, an alternative that has recently emerged is **slow jogging**. You run at a pace where you can comfortably chat with the person next to you or hum a song, just slightly faster than walking.
+- **Lactate**: Lactate released by muscles during exercise raised BDNF in the hippocampus of mice and improved learning and memory (El Hayek et al., **Journal of Neuroscience**, 2019). Lactate, usually thought of only as a fatigue product, turns out to be a signal for the brain.
+- **Irisin (FNDC5)**: This protein rose in the muscle and brain of mice after endurance exercise and drove up BDNF in the hippocampus (Wrann et al., **Cell Metabolism**, 2013).
 
-In one case that was shared, even a fit flight attendant pushed too hard preparing for a half marathon and ended up quitting because of the strain on their body. The point is that giving your body time to adapt matters far more than being greedy about distance or speed from the start. Slow jogging is a low-pressure starting point, especially for people starting to run for the first time or returning to it after a long break.
+These routes, however, **were found in mice**. Whether the same thing happens in the human brain is still being studied.
 
-## Running: start like this, today
+### 6. Summary: what's confirmed and what we don't yet know
 
-The first thing to do is get <strong>running shoes that fit your feet</strong>. Running hard in your everyday sneakers can strain your knees or ankles, so it's better to start with at least one pair of cushioned running shoes. For clothes, anything not too thick and easy to move in is enough.
+| Question | The answer so far | Type of evidence |
+| --- | --- | --- |
+| Does 10 minutes of running change anything right away? | Mood and focus improved, and the prefrontal cortex was more active | Human experiment (Scientific Reports, 2021) |
+| Does BDNF rise during those 10 minutes? | That experiment did not measure BDNF. Other studies found it rises briefly right after exercise | Meta-analysis |
+| Does regular running raise BDNF? | There is evidence that resting levels go up | Meta-analysis |
+| Can exercise enlarge the hippocampus? | It grew after a year of aerobic exercise | Randomized controlled trial (PNAS, 2011) |
+| Do lactate and irisin raise BDNF? | In mice, yes. In humans, research is ongoing | Animal experiments |
+| Is faster running better for the brain? | **We don't know yet.** Starting at a moderate, comfortable intensity is the safe choice | Studies comparing intensities are lacking |
 
-At first, I recommend starting with <strong>5 to 10 minutes of alternating walking and light running</strong>. If you're so out of breath that talking is hard, slow down, and keep to a pace at which you can comfortably talk with someone beside you. By mixing walking and running like this and gradually increasing your running time, you can build a running habit without straining your body.
+## The plan: 3 research-backed steps for running
 
-As for frequency, starting at about **two or three times a week** and increasing as you see your body adapt is a safe approach. Light stretching before and after running reduces the risk of injury, and it's good to drink enough water afterward. Above all, the secret to running for the long haul is <strong>not being greedy about distance or records from the start, and simply building the habit of getting outside and moving</strong>.
+What a beginner needs is not willpower but **a plan that lets you keep going without getting hurt**. Here are the intensity and duration from the research, turned into three steps.
 
-## Better together: why running became a culture
+**Step 1. Ten minutes at a pace you can talk at**
+At first, set no distance and no time goal. The only aim is to keep **a pace where you can speak in full sentences** with someone beside you. This **talk test** has been shown to be a reliable way to set exercise intensity (Persinger et al., **Medicine & Science in Sports & Exercise**, 2004). If you get too breathless to talk, switch to walking, and run again once your breath comes back. The **slow jogging** popularized by Professor Hiroaki Tanaka of Fukuoka University in Japan means this kind of pace.
 
-These days you often see running crews jogging in groups along the Han River or around university neighborhoods. Running alone easily ends after three days, but when there are people to run with, the habit forms naturally, like keeping a promise. Running's popularity seems to be going beyond a mere exercise trend and settling in as a lifestyle culture.
+**Step 2. Mix in walking, three times a week, and add time slowly**
+Start with a mix such as "run 1 minute, walk 2 minutes," and lengthen the running bits little by little. In a study of Danish novice runners, **those who increased their weekly distance by more than 30%** had more of certain injuries (Nielsen et al., **Journal of Orthopaedic & Sports Physical Therapy**, 2014). Keep each week's increase small, and aim instead to **not skip**.
 
-You don't need to join a crew from the start. Simply choosing a nearby park and going out on set days at a set time is enough to build the habit. Whether it's for your brain or your stamina, I hope you'll remember that what matters isn't a grand plan but <strong>the small act of putting on your shoes and heading out today</strong>.
+**Step 3. Keep it up for months: 150 minutes a week**
+The World Health Organization recommends that adults get **150 to 300 minutes of moderate exercise a week**, or 75 to 150 minutes of vigorous exercise (Bull et al., **British Journal of Sports Medicine**, 2020). The study in which the hippocampus grew also kept going at 40 minutes three times a week for **a year**. Fill that time with a mix of running and brisk walking, and keep it up over months. Higher baseline BDNF is built on this consistency.
 
-![](/images/blog/bd5b44eaf1/03.webp)
+| Step | What | How much | Evidence | What the evidence showed |
+| --- | --- | --- | --- | --- |
+| 1. Intensity | Run at a pace where you can talk | Start with 10 minutes at a time | Scientific Reports (2021), MSSE (2004) | Mood and focus improved after 10 minutes, and the talk test reliably identified moderate intensity |
+| 2. Progression | Mix in walking and lengthen the running a little at a time | 3 times a week, adding a little each week | JOSPT (2014) | Novice runners who raised weekly distance by more than 30% had more of certain injuries |
+| 3. Duration | Fill the time with running and brisk walking | 150+ minutes a week, kept up for months | WHO guidelines (2020), PNAS (2011) | A year of aerobic exercise enlarged the hippocampus, and regular exercise raised resting BDNF |
 
+![People running together along a riverside path](/images/blog/bd5b44eaf1/02.webp)
+
+Shoes that don't fit your feet often make your knees or shins hurt first. Before you start, take a look at [flat feet, high arches, normal arches: how to choose running shoes](/en/blog/flat-feet-high-arches-normal-arches-how-to-choose-running-shoes/).
+
+## Conclusion
+
+The claim that "just 10 minutes of running changes the brain" is about half right. Ten minutes of running changed **that day's mood and focus** right away. But the **structural changes**, BDNF building up and the hippocampus growing, appeared on top of months, and in one case a year, of consistency. So your first goal is not to run fast or far but **10 minutes at a pace you can talk at**, and then **doing those 10 minutes again next week**. The brain remembers repeated effort more than today's sweat.
+
+### 🙋 Frequently asked questions
+
+#### Do I have to run? Is walking enough?
+
+Yes, walking counts. The exercise in the study where the hippocampus grew was **brisk walking**. What matters is not the activity but **keeping up an intensity that raises your heart rate moderately**. Running is just a way to reach that intensity in less time. If your knees bother you, you can fill the time with brisk walking, a stationary bike or swimming, which are gentler on the joints. As for running itself, a meta-analysis found that even short runs, once a week or under 50 minutes a week, were **associated** with a lower risk of death compared with not running at all (Pedisic et al., **British Journal of Sports Medicine**, 2020).
+
+#### Can running help with low mood or anxiety?
+
+Evidence that exercise reduces symptoms of depression keeps building. In a meta-analysis pooling many randomized controlled trials, exercise meaningfully reduced depressive symptoms (Heissel et al., **British Journal of Sports Medicine**, 2023). But exercise is **an addition to** treatment, not a replacement for it. If low mood or anxiety is shaking up your daily life, please talk to a professional first.
+
+### 📚 References
+
+- Damrongthai, C., Kuwamizu, R., Suwabe, K., … Soya, H. (2021). Benefit of human moderate running boosting mood and executive function coinciding with bilateral prefrontal activation. *Scientific Reports*, 11, 22657.
+- Szuhany, K. L., Bugatti, M., & Otto, M. W. (2015). A meta-analytic review of the effects of exercise on brain-derived neurotrophic factor. *Journal of Psychiatric Research*, 60, 56–64.
+- Dinoff, A., Herrmann, N., Swardfager, W., & Lanctôt, K. L. (2017). The effect of acute exercise on blood concentrations of brain-derived neurotrophic factor in healthy adults: a meta-analysis. *European Journal of Neuroscience*, 46(1), 1635–1646.
+- Dinoff, A., Herrmann, N., Swardfager, W., … Lanctôt, K. L. (2016). The effect of exercise training on resting concentrations of peripheral brain-derived neurotrophic factor (BDNF): a meta-analysis. *PLOS ONE*, 11(9), e0163037.
+- Rasmussen, P., Brassard, P., Adser, H., … Pilegaard, H. (2009). Evidence for a release of brain-derived neurotrophic factor from the brain during exercise. *Experimental Physiology*, 94(10), 1062–1069.
+- Erickson, K. I., Voss, M. W., Prakash, R. S., … Kramer, A. F. (2011). Exercise training increases size of hippocampus and improves memory. *PNAS*, 108(7), 3017–3022.
+- El Hayek, L., Khalifeh, M., Zibara, V., … Sleiman, S. F. (2019). Lactate mediates the effects of exercise on learning and memory through SIRT1-dependent activation of hippocampal brain-derived neurotrophic factor (BDNF). *Journal of Neuroscience*, 39(13), 2369–2382.
+- Wrann, C. D., White, J. P., Salogiannis, J., … Spiegelman, B. M. (2013). Exercise induces hippocampal BDNF through a PGC-1α/FNDC5 pathway. *Cell Metabolism*, 18(5), 649–659.
+- Persinger, R., Foster, C., Gibson, M., Fater, D. C., & Porcari, J. P. (2004). Consistency of the talk test for exercise prescription. *Medicine & Science in Sports & Exercise*, 36(9), 1632–1636.
+- Nielsen, R. O., Parner, E. T., Nohr, E. A., … Rasmussen, S. (2014). Excessive progression in weekly running distance and risk of running-related injuries: an association which varies according to type of injury. *Journal of Orthopaedic & Sports Physical Therapy*, 44(10), 739–747.
+- Bull, F. C., Al-Ansari, S. S., Biddle, S., … Willumsen, J. F. (2020). World Health Organization 2020 guidelines on physical activity and sedentary behaviour. *British Journal of Sports Medicine*, 54(24), 1451–1462.
+- Pedisic, Z., Shrestha, N., Kovalchik, S., … Oja, P. (2020). Is running associated with a lower risk of all-cause, cardiovascular and cancer mortality, and is the more the better? A systematic review and meta-analysis. *British Journal of Sports Medicine*, 54(15), 898–905.
+- Heissel, A., Heinen, D., Brokmeier, L. L., … Schuch, F. (2023). Exercise as medicine for depressive symptoms? A systematic review and meta-analysis with meta-regression. *British Journal of Sports Medicine*, 57(16), 1049–1057.
+
+### 💭 A question for you
+
+When was the last time you moved enough to get out of breath? If you ran **10 minutes at a pace you can talk at** this week, which route would you pick? Tell us how you felt after your first 10 minutes through the [contact page](/en/contact/). It's a big help in writing the next post.
+
+### ⚠️ Disclaimer
+
+This post is general health information based on academic research and does not replace medical diagnosis or treatment. The 10-minute running experiment looked at healthy adults right after a single run and did not measure BDNF. The routes by which lactate and irisin raise BDNF were found in animal experiments, and the link between running and risk of death comes from observational studies that do not prove cause and effect. If you have heart disease, high blood pressure or joint problems, or haven't exercised in a long time, please talk to a medical professional before you start running. If you feel chest pain, severe dizziness or can't catch your breath while running, stop immediately.
