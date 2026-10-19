@@ -10,7 +10,7 @@ export async function getStaticPaths() {
       entry,
       prev: ordered[i - 1] ?? null,
       next: ordered[i + 1] ?? null,
-      related: ordered.filter((o) => o.id !== entry.id && o.data.category === entry.data.category).slice(0, 2),
+      related: [...ordered.slice(i + 2), ...ordered.slice(0, Math.max(0, i - 1))].slice(0, 2),
     },
   }));
 }

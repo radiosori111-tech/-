@@ -6,14 +6,13 @@ import { SITE } from '../../data/site';
 import { articleUrl, articleAlternates, articleSlug, type Article } from '../../data/articles';
 import { readNext } from '../../data/related';
 import { conceptNet } from '../../data/concepts';
-import { t, articlesPath, formatDateFor, CATEGORY_LABEL, HREFLANG } from '../../i18n/ui';
+import { t, articlesPath, formatDateFor, HREFLANG } from '../../i18n/ui';
 
 interface Props { entry: Article; prev: Article | null; next: Article | null; related: Article[] }
 const { entry, prev, next, related } = Astro.props;
 const { Content, headings } = await render(entry);
-const { title, description, category, time, moment, date, readMinutes, comic, lang } = entry.data;
+const { title, description, time, moment, date, readMinutes, comic, lang } = entry.data;
 const tr = t(lang).post;
-const categoryLabel = CATEGORY_LABEL[lang][category] ?? category;
 const url = articleUrl(entry);
 const alternates = await articleAlternates(entry);
 const next2 = await readNext('articles', entry.data.translationOf ?? articleSlug(entry), lang);
@@ -52,11 +51,10 @@ const jsonLd = {
   comic={comic}
   lang={lang}
   alternates={alternates}
-  related={{ title: tr.relatedIn(categoryLabel), items: related.map((r) => ({ href: articleUrl(r), title: r.data.title, note: tr.minutes(r.data.readMinutes) })) }}
+  related={{ title: tr.relatedMore, items: related.map((r) => ({ href: articleUrl(r), title: r.data.title, note: tr.minutes(r.data.readMinutes) })) }}
 >
   <Fragment slot="meta">
     <div><dt class="visually-hidden">{tr.time}</dt><dd><span class:list={['time-mark', !time && 'anytime']}>{time ?? tr.anytime}</span>{time && ` ${moment}`}</dd></div>
-    <div><dt class="visually-hidden">{tr.category}</dt><dd><span class="chip">{categoryLabel}</span></dd></div>
     <div><dt class="visually-hidden">{tr.published}</dt><dd class="tabular"><time datetime={date.toISOString()}>{formatDateFor(lang, date)}</time></dd></div>
     <div><dt class="visually-hidden">{tr.readTime}</dt><dd class="tabular">{tr.minutes(readMinutes)}</dd></div>
   </Fragment>
