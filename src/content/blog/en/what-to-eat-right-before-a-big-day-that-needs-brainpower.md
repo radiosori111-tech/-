@@ -1,59 +1,143 @@
 ---
-title: "What Should You Eat Right Before a Big Day That Needs Brainpower?"
+title: "What to Eat Right Before an Exam or Interview: 3 Steps for a Big Day, from Dark Chocolate and Cocoa Research"
 slug: "what-to-eat-right-before-a-big-day-that-needs-brainpower"
 lang: "en"
 translationOf: "두뇌활성이-필요한-중요한-날엔-직전에-뭘-먹을까"
-description: "Today gave me a reason to think about which foods help in the few hours before an event that may not matter much to others but matters a lot to you. To be honest, I didn't get the result I wanted today."
+description: "People did better on demanding math tasks and felt less mentally tired after a cocoa flavanol drink (Journal of Psychopharmacology, 2010), and working memory improved two hours after dark chocolate (Physiology & Behavior, 2011). Here are three steps for what to eat, and how, right before an exam, interview or other big day."
 date: "2023-02-07T21:09:21+09:00"
-updated: "2023-02-10T00:36:51+09:00"
-tags: ["brain health", "dark chocolate", "cacao", "B vitamins", "focus"]
+updated: "2026-10-20T15:00:00+09:00"
+tags: ["food before an exam", "food before an interview", "dark chocolate", "cocoa flavanols", "focus foods", "nuts", "vitamin B", "brain health"]
 image: "/images/blog/41b4bcfe15/01.webp"
 comic:
-  title: "What to eat right before a big day"
+  title: "A big day: what to eat right before"
   panels:
     - scene: alarm
-      label: "The problem"
-      bubble: "I blew it today…"
-      alt: "A person breathing shallowly at a desk while an alarm bell rings overhead"
-      caption: "When an important task doesn't go as hoped, negative thoughts start to loop."
-    - scene: tired
-      label: "How it works"
-      bubble: "Running on empty"
-      alt: "A tired person with a lowered head beside an almost empty battery"
-      caption: "On tense days, the brain burns through a lot of energy and runs low fast."
+      label: "The worry"
+      bubble: "The interview is in an hour!"
+      alt: "A ringing alarm clock"
+      caption: "Something important is an hour away. What should you eat now?"
     - scene: food
-      label: "What to do"
-      bubble: "A piece of cacao chocolate"
-      alt: "A plate with meat, an egg, and greens, with a fork and knife"
-      caption: "<strong>Cacao chocolate</strong> gives you strength faster than nuts, which take a long time to digest."
-    - scene: calm
-      label: "The change"
-      bubble: "Failure is the default, success a bonus"
-      alt: "A brain with an even wave and a slowly beating heart"
-      caption: "What you eat supports your <strong>focus</strong> and <strong>resilience</strong>."
+      label: "The research"
+      bubble: "Flavanols in cocoa"
+      alt: "A plate of healthy food"
+      caption: "People who drank <strong>cocoa flavanols</strong> did better on math tasks and felt less mentally tired (2010)."
+    - scene: glucose
+      label: "How it works"
+      bubble: "Familiar and light"
+      alt: "A gently rising and falling blood sugar curve"
+      caption: "Right before, <strong>familiar, easy-to-digest</strong> food and a glass of water are safer than anything new."
+    - scene: focus
+      label: "In practice"
+      bubble: "A square or two of dark chocolate"
+      alt: "Lines of sight converging on one point, thoughts coming into focus"
+      caption: "If you like, add a square or two of <strong>high-cocoa dark chocolate</strong>. Just know it isn't magic."
 ---
 
-Today gave me a reason to think about which foods help in the few hours before an event that may not matter much to others but matters a lot to you. To be honest, I didn't get the result I wanted today. So I kept thinking negatively: "Why did that happen? Why? Am I just not capable?" But after eating some chocolate containing cacao, I noticed the negative thoughts stopped looping and my energy surged. "Ah, what you eat really matters! On important days, you can't afford to run low on energy!" That's when I decided I should share this with you. Not getting the result I wanted was a reason to feel discouraged, but it was also the day I learned that the food you eat plays an important role in exercising <a href="/en/blog/bdnf-brain-derived-neurotrophic-factor-what-are-you/">resilience</a>, the attitude of "failure is the default, success is a bonus."
+## 📌 Key takeaways
 
-For days in our lives when we're tense and burn a lot of energy, like exam day for students or interview day for job seekers, the food I thought would help was nuts.
+- 🍫 **Cocoa flavanols showed effects within hours.** After a cocoa flavanol drink, people did better on a long, demanding math task and felt less **mental fatigue** (**Journal of Psychopharmacology**, 2010).
+- 🧠 **Two hours after dark chocolate, working memory improved.** People who ate flavanol-rich dark chocolate did better on a **spatial working memory** task two hours later (**Physiology & Behavior**, 2011). Another study found more blood flow to the brain after cocoa.
+- ⚠️ **But store-bought chocolate isn't the same as the study drinks.** The studies used cocoa made to keep unusually high flavanol levels; ordinary chocolate loses much of its flavanols in processing, and comes with sugar and calories.
+- 🥤 **The most reliable thing right before is the basics:** a familiar, easy-to-digest meal and **a glass of water**. Drinking water when thirsty sped up reaction times (**Frontiers in Human Neuroscience**, 2013).
 
-So I ate nuts an hour before an important event like the one in the photo above. Nuts are of course good for the brain, but on a day when you're tense and burning a lot of energy, I wonder whether **chocolate containing cacao**, rather than nuts that take time to digest, would have done more to sharpen my focus and ease my tension, helping me get a better result.
+### 💬 "If only I'd eaten something other than nuts that day"
 
-So let's take some time to look at the good effects chocolate has on us.
+To others it was an ordinary day, but I had something important scheduled, the way a student has an exam day or a job seeker an interview day. An hour beforehand, I made sure to eat **nuts**, since they're known to be good for the brain.
 
-![A photo of the side of a cerebral hemisphere and its axons on a flat surface. Photo: Robina Weermeijer on Unsplash](/images/blog/41b4bcfe15/01.webp)
-*A photo of the side of a cerebral hemisphere and its axons on a flat surface. Photo: Robina Weermeijer on Unsplash*
+I didn't get the result I wanted that day. On the way home, going over what might have gone wrong, it struck me that on a tense, high-energy day, something other than slow-to-digest nuts might have been a better choice. What came to mind was chocolate made with cacao. This post checks that hunch against research. I wrote it ahead of my next important appointment, on February 10 at 11:50 a.m.
 
-## Eating chocolate
+![A brain hemisphere model and a neuron model on a flat surface (photo: Robina Weermeijer on Unsplash)](/images/blog/41b4bcfe15/01.webp)
 
-Chocolate not only improves **focus** but also eases tension and temporarily boosts **memory**. What's more, the **glucose** energy the brain needs (though the brain can also use ketones for energy) takes relatively little time to digest and absorb from it, making chocolate an excellent snack to raise your efficiency when eaten a few dozen minutes before something important.
+## Deep Dive: what does the brain want right before a big day?
 
-If you take it together with **B vitamins**, the sugar in chocolate is converted to glucose in the body and can be used more effectively as energy in the brain. B vitamins are nutrients used to produce energy in the body, and because they play a very important role in the brain and nerve cells, they're called "nerve vitamins."
+### 1. Cocoa flavanols: when you need to think hard for a long time
 
-I hope you'll boost your efficiency on the important things you've worked hard to prepare for by eating <strong>chocolate and B vitamins (supplements, or brown rice, pork and eel)</strong>, which help activate the brain just by eating them. I have an important appointment this Friday, February 10, at 11:50. This time, instead of nuts, I'll bring chocolate, called the food of the gods, and come back with a result to celebrate.
+Andrew Scholey's team at Northumbria University in the UK gave healthy adults cocoa drinks with different flavanol levels, then had them work on math problems for an extended period (Scholey et al., **Journal of Psychopharmacology**, 2010). Each person tried every drink on different days.
+
+- On the days with the high-flavanol drink, they did a serial-threes subtraction task **faster and more accurately**.
+- As the task went on, they felt less **mental fatigue**.
+
+**Flavanols** are plant compounds found in cacao, tea and berries, and are known to support blood flow by increasing **nitric oxide**, which widens blood vessels. Indeed, a team at the University of Nottingham observed increased **blood flow to the brain** during a task about two hours after people drank flavanol-rich cocoa (Francis et al., **Journal of Cardiovascular Pharmacology**, 2006).
+
+### 2. Two hours after dark chocolate
+
+A team at the University of Reading had people eat either flavanol-rich dark chocolate or white chocolate with almost no flavanols, then tested them two hours later (Field et al., **Physiology & Behavior**, 2011). On the dark chocolate days, people did better on a **spatial working memory** task, remembering locations, and on a visual task distinguishing faint contrasts.
+
+What these results show is not "chocolate makes you smart" but that **flavanol-rich cocoa can improve some cognitive functions within a few hours**. It's closer to briefly widening the waterways to the brain.
+
+### 3. The limits you need to know: study cocoa ≠ store chocolate
+
+- The studies used **cocoa made to retain unusually high flavanol levels**. Ordinary chocolate loses much of its flavanols in fermentation, roasting and alkalizing.
+- Chocolate is high in **sugar and fat**. Eating a lot can make blood sugar swing, and on a tense day it can upset your stomach.
+- Dark chocolate contains a little theobromine, a stimulant similar to **caffeine**, which can make your heart race if you're not used to it.
+
+So chocolate isn't a **secret weapon** for a big day; it's more accurately **an optional extra** for people it already agrees with.
 
 <!-- related-link -->
 If you're deciding what to eat before an important day, knowing how blood sugar and insulin move after a meal makes it easier. Read [**what insulin does and how to use it wisely**](/en/blog/what-does-insulin-do-and-how-to-use-it-wisely/).
 
-Honestly, I was a little upset today because I didn't get the result I wanted. Until the day we each achieve what we want, I hope you'll all protect your brain health and keep your nerve cells active!
+### 4. What about nuts and vitamin B?
 
+**Nuts** are rich in brain-friendly fats and vitamin E, and they matter when eaten regularly. Because they're high in fat and digest slowly, though, they may not suit as **immediate fuel** just before something. That's what I regretted about my own experience.
+
+**B vitamins** are essential for turning food into energy. Reviewing the research, David Kennedy of Northumbria University concluded that supplementation helps people who are deficient, but **there's little evidence that taking them right beforehand helps** people who already get enough (Kennedy, **Nutrients**, 2016). Getting them from everyday food such as brown rice, pork, eggs and beans is the foundation.
+
+### 5. Summary: options right before a big day
+
+| Option | The answer so far | Evidence |
+| --- | --- | --- |
+| Flavanol-rich cocoa | Some cognitive functions and mental fatigue improved within hours | J Psychopharmacol (2010), Physiol Behav (2011) |
+| Ordinary chocolate | Lower in flavanols and high in sugar, so the same effect is unlikely | Flavanols decrease during processing |
+| Nuts | Good when eaten regularly, but slow to digest as last-minute fuel | High in fat, so they digest slowly |
+| Vitamin B supplements | Little evidence for taking them right before unless deficient | Nutrients (2016) |
+| Water | Drinking when thirsty sped up reaction times | Front Hum Neurosci (2013) |
+
+## The plan: 3 steps for eating on a big day
+
+**Step 1. Dinner the night before and breakfast that morning: as usual**
+Don't try new foods on an important day. **A familiar meal that sits well** is safest. Digestion tends to be more sensitive than usual on tense days.
+
+**Step 2. One to two hours before: eat lightly and drink a glass of water**
+Rather than going in on an empty stomach, have a little **easy-to-digest carbohydrate** such as a banana, yogurt or whole-grain bread. A review of studies reported a tendency for glucose to improve performance on memory tasks, though the effect varied by task and person (Smith et al., **Neuroscience & Biobehavioral Reviews**, 2011). And be sure to have **a glass of water**.
+
+**Step 3. If you like, a square or two of dark chocolate**
+If chocolate usually agrees with you, add a square or two of **high-cocoa dark chocolate**. If you don't normally eat it, an important day is not the time to start. The same goes for coffee: don't go beyond your usual amount.
+
+| Step | What | When | Evidence | What the evidence showed |
+| --- | --- | --- | --- | --- |
+| 1. As usual | Eat a familiar meal that sits well | The night before and that morning | A basic principle for reducing digestive strain on a tense day | Unfamiliar food can cause unexpected discomfort |
+| 2. Light + water | Have a little easy-to-digest carbohydrate and a glass of water | 1–2 hours before | Neurosci Biobehav Rev (2011), Front Hum Neurosci (2013) | Glucose tended to help memory tasks, and water sped up reactions |
+| 3. Dark chocolate | Add a square or two of high-cocoa chocolate | Only if it usually agrees with you | J Psychopharmacol (2010), Physiol Behav (2011) | Flavanol-rich cocoa helped some cognitive functions within hours |
+
+## Conclusion
+
+No single food eaten right before a big day will change the outcome. What research shows is that **flavanol-rich cocoa can help the brain a little for a few hours**, and that before that, **a familiar, comfortable meal and a glass of water** need to be the foundation. The result I didn't get that day probably wasn't only the nuts' fault. On my next big day, I plan to have a familiar breakfast, a light snack, a glass of water and a square of dark chocolate. I hope you all look after your brain health until the day you achieve what you're aiming for.
+
+### 🙋 Frequently asked questions
+
+#### Wouldn't coffee be better?
+
+There's plenty of evidence that caffeine improves alertness and attention (McLellan et al., **Neuroscience & Biobehavioral Reviews**, 2016). But drinking more than usual can backfire, with a racing heart, anxiety and frequent trips to the bathroom. The safest choice is your usual amount at your usual time.
+
+#### Will eating dark chocolate every day improve my memory?
+
+Long-term studies are a different story from last-minute effects. In one, adults aged 50 to 69 who drank a high-flavanol cocoa drink for three months showed improved function in part of the hippocampus, which handles memory (Brickman et al., **Nature Neuroscience**, 2014). But that too used a specially made drink, and eating a lot of chocolate every day adds sugar and calories. You can also get flavanols from foods like berries, tea and apples. The link between food and the brain is covered in more detail in [Which foods are rich in BDNF?](/en/blog/which-foods-are-rich-in-bdnf/)
+
+### 📚 References
+
+- Scholey, A. B., French, S. J., Morris, P. J., Kennedy, D. O., Milne, A. L., & Haskell, C. F. (2010). Consumption of cocoa flavanols results in acute improvements in mood and cognitive performance during sustained mental effort. *Journal of Psychopharmacology*, 24(10), 1505–1514.
+- Field, D. T., Williams, C. M., & Butler, L. T. (2011). Consumption of cocoa flavanols results in an acute improvement in visual and cognitive functions. *Physiology & Behavior*, 103(3–4), 255–260.
+- Francis, S. T., Head, K., Morris, P. G., & Macdonald, I. A. (2006). The effect of flavanol-rich cocoa on the fMRI response to a cognitive task in healthy young people. *Journal of Cardiovascular Pharmacology*, 47(Suppl 2), S215–S220.
+- Brickman, A. M., Khan, U. A., Provenzano, F. A., … Small, S. A. (2014). Enhancing dentate gyrus function with dietary flavanols improves cognition in older adults. *Nature Neuroscience*, 17(12), 1798–1803.
+- Kennedy, D. O. (2016). B vitamins and the brain: mechanisms, dose and efficacy—a review. *Nutrients*, 8(2), 68.
+- Edmonds, C. J., Crombie, R., & Gardner, M. R. (2013). Subjective thirst moderates changes in speed of responding associated with water consumption. *Frontiers in Human Neuroscience*, 7, 363.
+- Smith, M. A., Riby, L. M., van Eekelen, J. A. M., & Foster, J. K. (2011). Glucose enhancement of human memory: a comprehensive research review of the glucose memory facilitation effect. *Neuroscience & Biobehavioral Reviews*, 35(3), 770–783.
+- McLellan, T. M., Caldwell, J. A., & Lieberman, H. R. (2016). A review of caffeine's effects on cognitive, physical and occupational performance. *Neuroscience & Biobehavioral Reviews*, 71, 294–312.
+
+### 💭 A question for you
+
+On a big day like an exam or interview, what's your "one reliable thing"? Tell us how it went through the [contact page](/en/contact/).
+
+### ⚠️ Disclaimer
+
+This post is general health information based on academic research and does not replace medical diagnosis or treatment. The cocoa studies described used specially made drinks or chocolate designed to retain high flavanol levels, which doesn't mean store-bought products will have the same effect. If you have diabetes, a digestive condition or caffeine sensitivity, or take supplements, please talk to a medical professional first.
