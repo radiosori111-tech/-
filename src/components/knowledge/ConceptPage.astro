@@ -2,7 +2,7 @@
 // 개념 하나를 모아 보는 페이지 (/concepts/<id>/, /en/…, /ja/…). 지식 지도에서 그 개념과 이웃을 밝히고, 그 개념을 다룬 글을 최신순으로 보여 준다
 import Page from '../../layouts/Page.astro';
 import PostList, { type ListItem } from '../PostList.astro';
-import ConceptMap from './ConceptMap.astro';
+import BrainAtlas from './BrainAtlas.astro';
 import { CONCEPTS, conceptById, conceptEntries, conceptPath, neighbors } from '../../data/concepts';
 import { LANGS, type Lang } from '../../i18n/ui';
 
@@ -22,7 +22,7 @@ const alternates = LANGS.map((l) => ({ lang: l, href: conceptPath(l, id) }));
 ---
 <Page title={concept ? concept.name[lang] : T.indexTitle} lede={concept ? concept.blurb[lang] : T.indexLede} lang={lang} alternates={alternates}>
   <section class="concept-map">
-    <ConceptMap lang={lang} active={concept ? [concept.id, ...neighbors(concept.id)] : CONCEPTS.map((c) => c.id)} counts={counts} label={T.map} />
+    <BrainAtlas lang={lang} current={concept?.id} />
     {concept && (
       <p class="concept-near">{T.near}: {neighbors(concept.id).map((n, i) => <>{i > 0 && ' · '}<a href={conceptPath(lang, n)}>{conceptById(n).name[lang]}</a></>)} · <a href={conceptPath(lang)}>{T.all}</a></p>
     )}

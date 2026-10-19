@@ -1,0 +1,39 @@
+---
+// Brain Integrity Atlas를 페이지나 MDX 글에 넣는 껍데기. 개념별 글 수를 세고 언어별 이름 · 대체 텍스트를 붙여
+// Preact 섬(BrainAtlasGraph)에 넘긴다. 섬은 화면에 보일 때만 스크립트를 불러온다.
+import BrainAtlasGraph, { type AtlasNode } from './BrainAtlasGraph';
+import { CONCEPTS, LINKS, conceptEntries, conceptPath } from '../../data/concepts';
+import type { Lang } from '../../i18n/ui';
+
+interface Props { lang?: Lang; current?: string }
+const { lang = 'ko', current } = Astro.props;
+
+const ALT: Record<Lang, string> = {
+  ko: '[시각화] 뇌 신경가소성 및 습관 형성 메커니즘 지식 지도 (Brain Integrity Atlas)',
+  en: '[Visualization] Brain Integrity Atlas and Knowledge Network Diagram',
+  ja: '[視覚化] 脳神経可塑性と習慣形成メカニズムのナレッジマップ（Brain Integrity Atlas）',
+};
+const COUNT: Record<Lang, string> = { ko: '{n}편', en: '{n} posts', ja: '{n}本' };
+// 개념마다 붙는 작은 칩: 그 개념 아래에서 다루는 뇌의 부위나 기전
+const TAGS: Record<string, string[]> = {
+  habit: ['Prefrontal Cortex', 'Basal Ganglia'],
+  exercise: ['Myokines', 'Cerebral Blood Flow'],
+  emotion: ['Amygdala Control', 'Vagal Breathing'],
+  neurotransmitter: ['Dopamine RPE', 'Wanting vs Liking'],
+  synapse: ['Synaptic Pruning', 'Hebbian Learning'],
+  memory: ['Hippocampus', 'Consolidation'],
+  sleep: ['Circadian Clock', 'Memory Replay'],
+  immunity: ['Microglia', 'Gut–Brain Axis'],
+  nutrition: ['Insulin Sensitivity', 'Ketones'],
+  bdnf: ['Neurotrophic Support', 'TrkB Signaling'],
+};
+
+const entries = await conceptEntries(lang);
+const toNode = (id: string): AtlasNode => {
+  const c = CONCEPTS.find((x) => x.id === id)!;
+  return { id, name: c.name[lang], count: entries.filter((e) => e.concepts.includes(id)).length, href: conceptPath(lang, id), tags: TAGS[id] ?? [] };
+};
+const hub = toNode('habit');
+const nodes = CONCEPTS.filter((c) => c.id !== 'habit').map((c) => toNode(c.id));
+---
+<BrainAtlasGraph client:visible hub={hub} nodes={nodes} links={LINKS} label={ALT[lang]} countFormat={COUNT[lang]} current={current} />
