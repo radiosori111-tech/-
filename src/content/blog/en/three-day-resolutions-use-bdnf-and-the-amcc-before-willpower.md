@@ -50,9 +50,9 @@ When a plan you made in the morning fizzles out within three days, it's easy to 
 
 When BDNF levels drop, memory and learning ability tend to decline, and levels are known to fall naturally with age. Conversely, many sources repeat that aerobic exercise, enough sleep and learning new things increase BDNF release. That's why it's considered an essential element in keeping the brain young.
 
-![](/images/blog/6ed4193844/01.webp)
+![A runner jogging along a city moat with office towers behind](/images/blog/6ed4193844/01.webp)
 
-![](/images/blog/6ed4193844/02.webp)
+![A woman holding a plank](/images/blog/6ed4193844/02.webp)
 
 ## The aMCC, the "willpower button": what is it?
 
@@ -60,7 +60,7 @@ When BDNF levels drop, memory and learning ability tend to decline, and levels a
 
 Interestingly, there are also observations that in people whose cognitive abilities stay remarkably sharp with age, often called **SuperAgers**, this aMCC area is more active than in their peers. <strong>On the other hand, it's also said that if you keep seeking only physical comfort and avoid challenges, this region gets used less and less and shrinks.</strong>
 
-![](/images/blog/6ed4193844/03.webp)
+![Participants in blue T-shirts walking and running together at a marathon event](/images/blog/6ed4193844/03.webp)
 
 ## Why intelligence and willpower start in the same place
 
@@ -68,7 +68,7 @@ If <strong>BDNF</strong> is the <strong>soil</strong> that grows brain cells, th
 
 So even though a head for study and sheer grit look like completely different talents, in reality they often come together in people with similar habits of using the brain. That's also why, if you want to get smarter, you shouldn't just cling to workbooks but also make time for activities that use body and mind together.
 
-![](/images/blog/6ed4193844/04.webp)
+![A finisher in hanbok holding an Osaka Marathon 'FINISHER!' sign](/images/blog/6ed4193844/04.webp)
 
 ## Ways to wake up BDNF and the aMCC together
 

@@ -42,7 +42,7 @@ You've probably heard that running is good not only for cardiovascular endurance
 
 Foot arches differ from person to person, and depending on their shape, the way your foot meets the ground when you walk or run differs too. If you choose running shoes just because they're pretty or famous without knowing this, it can actually lead to injury. Today I've put together, step by step, how to check your foot arch and how to choose running shoes for each type.
 
-![](/images/blog/e0e0370b52/01.webp)
+![Foot arch types: footprints of flat, normal, high and very high arches](/images/blog/e0e0370b52/01.webp)
 
 ## Why running is good for brain health
 
@@ -50,7 +50,7 @@ Rhythmic aerobic exercise like running is known to increase **blood flow to the 
 
 Of course, running once or twice won't bring dramatic change; <strong>consistency is the key</strong>. The problem is that the most common thing blocking that consistency is injury. Beginners in particular often suffer knee, sole or shin pain from shoes that don't fit and give up partway.
 
-![](/images/blog/e0e0370b52/02.webp)
+![A runner running through an indoor passage, seen from behind](/images/blog/e0e0370b52/02.webp)
 
 ## Why you should check your foot arch first
 

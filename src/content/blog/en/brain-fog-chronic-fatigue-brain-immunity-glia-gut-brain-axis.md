@@ -89,7 +89,7 @@ When the balance of **glial cells** breaks down, it leads directly to major cond
 
 The root cause that sends the brain's immune police, the **microglia**, into overdrive starts in the gut. The gut and the brain are bound together by the gut-brain axis, communicating in real time through three routes: the nervous, immune, and endocrine systems.
 
-![](/images/blog/2dc2681166/01.webp)
+![Gut–brain axis diagram showing two-way signals between the gut and the brain through the vagus nerve and immune and microbial pathways](/images/blog/2dc2681166/01.webp)
 
 *Pathways of interaction between the gut and the brain. Source: Neuromuscular Relief Research Institute*
 

@@ -33,7 +33,7 @@ comic:
       caption: "It wasn't special equipment but a change in <strong>the way of thinking</strong>."
 ---
 
-![](/images/blog/f8e75c1af0/01.webp)
+![Diagram of developing advanced engineering ceramics, from material design through synthesis and manufacturing to application](/images/blog/f8e75c1af0/01.webp)
 
 Some problems show no sign of a clue even after years of effort. What if someone solved one in just three weeks, and did it purely by changing the way they thought, without special equipment or help? Would you believe it? This is the true story of a Seoul National University professor, and if you look closely, it hides a principle anyone could try at least once.
 

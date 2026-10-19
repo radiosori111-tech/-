@@ -33,7 +33,7 @@ comic:
       caption: "If you notice heavy <strong>sleepiness and fatigue</strong> after meals or a growing <strong>waistline</strong>, see a doctor."
 ---
 
-![](/images/blog/ad7c0d9025/01.webp)
+![A blood glucose meter showing a reading of 114](/images/blog/ad7c0d9025/01.webp)
 
 > The idea that Alzheimer's might really be
 > *a kind of diabetes in the brain*
@@ -44,7 +44,7 @@ In fact, many recent health articles repeat the warning that you can't relax jus
 
 Today, let's go step by step through why insulin matters for the brain beyond regulating blood sugar, how insulin resistance can affect dementia risk, and what signs you can check for yourself in daily life.
 
-![](/images/blog/ad7c0d9025/02.webp)
+![Three medical speakers presenting at an academic event](/images/blog/ad7c0d9025/02.webp)
 
 ## The brain uses insulin, too
 
@@ -64,7 +64,7 @@ To get a bit more specific, brain insulin resistance is said to affect the **pho
 
 On top of that, insulin resistance is linked to blood vessel health. When vascular function declines, blood flow to the brain, or perfusion, can decrease, which can leave brain cells without enough oxygen and nutrients. **Chronic inflammation** is also described as being involved in this process; in the end, it's not one cause but several factors overlapping that shake brain health.
 
-![](/images/blog/ad7c0d9025/03.webp)
+![A blood sample being drawn from an arm into a collection tube](/images/blog/ad7c0d9025/03.webp)
 
 ## Why you can't relax even without a diabetes diagnosis
 
@@ -95,7 +95,7 @@ The medical world is also actively researching whether improving insulin resista
 
 There are still reasons for caution, though. Phase 3 clinical trials in Alzheimer's disease have reported mixed results, with biomarkers improving while actual clinical effects did not always follow, so it's too early to declare a definite therapeutic effect. It's also noted that during fasting, infection or severe acute illness, these drugs can raise the risk of complications such as ketoacidosis, so it's safest to <strong>decide whether to take them only in consultation with your medical team</strong>.
 
-![](/images/blog/ad7c0d9025/04.webp)
+![Interior of a bright pharmacy with a consultation table](/images/blog/ad7c0d9025/04.webp)
 
 ## How to lower resistance through lifestyle
 

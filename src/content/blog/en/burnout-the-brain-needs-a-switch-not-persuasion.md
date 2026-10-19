@@ -90,7 +90,7 @@ The lesson I finally learned is simple: <strong>the brain is not something to pe
 
 <strong>In short:</strong> trying to change the brain through willpower has limits; following the principle of neuroplasticity, it is more effective to tune the circuits first with physical stimulation.
 
-![](/images/blog/c4a2eb30a0/01.webp)
+![Comparison chart of brain circuit control: older drug and electrical methods that act broadly versus optogenetics, which switches specific neurons with light](/images/blog/c4a2eb30a0/01.webp)
 
 ## Frequently asked questions
 

@@ -33,7 +33,7 @@ comic:
       caption: "Take care of preparation and recovery, and running's brain benefits stay fully intact."
 ---
 
-![](/images/blog/acddf6e03f/01.webp)
+![Two people stretching their legs against a riverside railing before a run](/images/blog/acddf6e03f/01.webp)
 
 Do you start running the moment you've tied your shoelaces? In fact, it's said that nearly half of running's benefits for brain health are decided from that very moment. <strong>Speeding up suddenly without warming up not only strains your muscles and joints but can also change blood flow to the brain and the pattern of neurotransmitter release</strong>.
 
@@ -49,7 +49,7 @@ Suddenly speeding up with cold muscles makes small tears in the muscle fibers mo
 
 The same goes for your heart and lungs. Going straight from rest to a fast pace makes your heart rate spike sharply and puts strain on your body, but warming up slowly for 5 to 10 minutes lets your heart rate rise gently, so you can move into your main run much more comfortably.
 
-![](/images/blog/acddf6e03f/02.webp)
+![Runners at the start line of the 6th Egg Marathon as officials signal the start](/images/blog/acddf6e03f/02.webp)
 
 ## 5 to 10 minutes before you run: wake your body up in this order
 
@@ -59,7 +59,7 @@ Next, move on to dynamic stretches for your legs. Repeat moves such as knee-ups 
 
 Finally, gradually build from walking in place to a light jog, loosening your body completely for 2 to 3 minutes. Go only until you're slightly out of breath, and it's safest to start your real pace after that.
 
-![](/images/blog/acddf6e03f/03.webp)
+![Two runners jogging side by side along a park path, seen from behind](/images/blog/acddf6e03f/03.webp)
 
 ## Why dynamic stretching comes before static stretching
 
@@ -70,7 +70,7 @@ With the warm-up sorted, it's time to run. [**10 minutes of running and BDNF: ho
 
 Static stretching is said to be more effective <strong>after dynamic stretching, which loosens your joints through movement</strong>, or as part of your cool-down after running, rather than while your body is still cold. Simply changing the order greatly reduces your risk of injury, so be sure to remember it.
 
-![](/images/blog/acddf6e03f/04.webp)
+![Three older adults doing warm-up stretches together on the grass](/images/blog/acddf6e03f/04.webp)
 
 ## Right after you finish running, your body is at its most sensitive
 
@@ -84,7 +84,7 @@ Once the cool-down has brought your heart rate down, it's time for static stretc
 
 Your calf and shin muscles in particular are the most heavily used during running, so neglecting to stretch them can make next-day muscle soreness much worse. Don't forget to slowly roll your ankles too.
 
-![](/images/blog/acddf6e03f/05.webp)
+![A woman loosening her leg muscles with a foam roller](/images/blog/acddf6e03f/05.webp)
 
 ## Why the cool-down also affects brain health
 

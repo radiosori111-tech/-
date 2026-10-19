@@ -33,7 +33,7 @@ comic:
       caption: "The very process of recording what you do builds the power to think."
 ---
 
-![](/images/blog/200fe3c620/01.webp)
+![English vocabulary list on a tablet, reviewed a little every day](/images/blog/200fe3c620/01.webp)
 
 > Five minutes a day changes the brain
 
@@ -61,7 +61,7 @@ Instead, he recommended record-keeping habits that organize and categorize, like
 
 You can start by writing just three lines each evening about what you did today and what you'll do tomorrow. It may seem like nothing at first, but as these records pile up, you're said to develop your own framework within which you can move freely, so it's worth a try.
 
-![](/images/blog/200fe3c620/02.webp)
+![Thumbnail of a KBS Radio 'Success Forecast' video with Professor Kim Ik-han and a caption warning that taking notes this way can weaken memory](/images/blog/200fe3c620/02.webp)
 
 ## Why people who steadily fill in a daily amount end up ahead
 
@@ -74,7 +74,7 @@ How long must a small habit continue before it runs on its own? Read about [**th
 
 This principle doesn't apply only to studying English. <strong>Whether it's exercise, reading or a new habit, the shared message from many experts was that setting a small daily amount and filling it in every day ends up taking you much further than occasionally doing a lot at once</strong>.
 
-![](/images/blog/200fe3c620/03.webp)
+![A person organizing ideas on a wall covered with sticky notes](/images/blog/200fe3c620/03.webp)
 
 ## The brain grows only if you feed it reading every day, like meals
 

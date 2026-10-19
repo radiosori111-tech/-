@@ -33,7 +33,7 @@ comic:
       caption: "<strong>Space affects immersion</strong>: that's the message of the exhibition and talks."
 ---
 
-![](/images/blog/2d2aeae196/01.webp)
+![The immersive exhibition space of Raemian Gallery's 'A Part of Home', decorated with flowering trees and a garden](/images/blog/2d2aeae196/01.webp)
 
 There are times when you're at home but your mind is elsewhere, and other times when you're completely absorbed at a single small desk. Lately, the theme of "immersion" has met brain science and is drawing attention in an unexpected place.
 
@@ -51,7 +51,7 @@ According to the exhibition's introduction, it aims to spotlight <strong>"your o
 
 What's interesting is that a construction company planned it directly. <strong>Cultural exhibitions are usually held by museums or galleries, so a company that builds apartments creating an immersive exhibition</strong> about space and taste is itself seen as a new kind of venture.
 
-![](/images/blog/2d2aeae196/02.webp)
+![A visitor posing in front of a giant moon sculpture at the Raemian exhibition](/images/blog/2d2aeae196/02.webp)
 
 ## Who is Professor Kim Kyung-il, the speaker in September?
 
@@ -61,7 +61,7 @@ At this exhibition he'll speak on <strong>"The power of the small spaces that ma
 
 <strong>A psychologist talking about space may seem like an odd pairing, but environment, immersion and habit formation are in fact closely connected topics</strong>. Depending on the space you're in, you may focus easily or get distracted easily.
 
-![](/images/blog/2d2aeae196/03.webp)
+![An auditorium filled with an audience for a brain science lecture](/images/blog/2d2aeae196/03.webp)
 
 ## In October, brain scientist Professor Jeong Jae-seung takes the stage
 
@@ -71,7 +71,7 @@ His talk will reportedly explore <strong>happy spaces from a brain-science persp
 
 The very structure, a psychologist and a brain scientist giving talks a month apart at the same exhibition, gives the impression that this isn't just for show.
 
-![](/images/blog/2d2aeae196/04.webp)
+![A children's area in the exhibition with cartoon characters painted on the floor](/images/blog/2d2aeae196/04.webp)
 
 ## What happens in the brain when we're immersed?
 
@@ -92,7 +92,7 @@ For details such as the exact application schedule and method and the exhibition
 
 The exhibition itself can often be viewed without a reservation, but programs with limited seating, like the talks, are likely to have a separate application process. Checking whether you need to apply before you go can save you a wasted trip.
 
-![](/images/blog/2d2aeae196/05.webp)
+![Raemian (RAEMIAN) brand logo](/images/blog/2d2aeae196/05.webp)
 
 ## Why an exhibition made by a construction company is special
 

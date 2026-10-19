@@ -62,5 +62,5 @@ I'll end with something a YouTuber said:
 
 (I've only read a third of the book so far.)
 
-![](/images/blog/babdbca233/01.webp)
+![A book with highlighted passages next to handwritten notes](/images/blog/babdbca233/01.webp)
 

@@ -33,7 +33,7 @@ comic:
       caption: "Some reviews report benefits, but <strong>if you have a condition, talk to an expert</strong> first."
 ---
 
-![](/images/blog/d2ae849f8d/01.webp)
+![Sliced medium-rare beef steak on a plate](/images/blog/d2ae849f8d/01.webp)
 
 > A diet that people say
 > *changed their brains on meat alone?*
@@ -50,7 +50,7 @@ BDNF is a protein in the brain that supports the creation and survival of nerve 
 
 Many factors, such as exercise, sleep and eating habits, are known to affect BDNF levels, and diet gets particular attention because **blood sugar** and **inflammation** directly affect the brain's environment. Swinging blood sugar or chronic inflammation can weigh on how the brain functions. That's the background against which the carnivore diet comes up.
 
-![](/images/blog/d2ae849f8d/02.webp)
+![A plate of steak, shrimp, scallops, mushrooms and asparagus](/images/blog/d2ae849f8d/02.webp)
 
 ## What exactly is the carnivore diet?
 
@@ -58,7 +58,7 @@ The carnivore diet is, as the name says, a meat-centered diet: you eat only meat
 
 Because you don't eat vegetables at all, it can feel strange at first, but many people who try it say digestion became easier and bloating decreased. That said, this varies a lot from person to person, so not everyone gets the same effect.
 
-![](/images/blog/d2ae849f8d/03.webp)
+![Raw beef in a glass container](/images/blog/d2ae849f8d/03.webp)
 
 > Cut carbs, and **ketone bodies**
 > *are known to become the brain's new fuel*
@@ -78,7 +78,7 @@ Cutting out vegetables and grains completely from the start can strain the body,
 
 In the second step, it's good to gradually reduce the share of vegetables while widening the variety of meat. Rather than sticking to lean meat only, eating fatty cuts and organ meats too keeps your nutrition from falling out of balance. Third, you must <strong>look after your water and electrolyte intake</strong>: without vegetables, your potassium and magnesium intake can drop, so it's good to pay more attention than usual to salt and water.
 
-![](/images/blog/d2ae849f8d/04.webp)
+![A thick steak grilling over charcoal with a meat thermometer inserted](/images/blog/d2ae849f8d/04.webp)
 
 ## Foods you can eat and foods best avoided
 

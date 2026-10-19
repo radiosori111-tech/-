@@ -79,7 +79,7 @@ At some point in your day, <strong>set a 5-minute alarm and spend that time look
 
 This gives a temporary rest to brain circuits on the verge of overload from processing information. This short break greatly improves your afternoon focus and your emotional stability in the evening.
 
-![](/images/blog/433214b635/01.webp)
+![Infographic comparing city walks with walks in forests and green spaces: differences in attention, working memory and stress response](/images/blog/433214b635/01.webp)
 
 ## Long-term effects: how brain health carries over into physical health
 

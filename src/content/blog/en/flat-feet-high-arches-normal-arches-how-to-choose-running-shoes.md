@@ -33,7 +33,7 @@ comic:
       caption: "Trying shoes on in the <strong>afternoon or evening</strong>, when feet swell slightly, means fewer bad buys."
 ---
 
-![](/images/blog/5c99fba022/01.webp)
+![Bare footprints in the sand showing the shape of the foot's arch](/images/blog/5c99fba022/01.webp)
 
 > Did you know the shape of your foot alone
 > *completely changes which running shoe you need?*
@@ -53,7 +53,7 @@ Running in particular repeatedly puts far more impact on the feet than walking. 
 > *The foot arch decides how well*
 > *landing shock is absorbed*
 
-![](/images/blog/5c99fba022/02.webp)
+![A pair of white casual sneakers](/images/blog/5c99fba022/02.webp)
 
 ## How to check your own foot arch
 
@@ -63,7 +63,7 @@ If almost the entire inner side of the footprint shows in a nearly straight line
 
 This method is only for reference, though; if you need an accurate assessment, I recommend a foot-pressure scan at a specialist running store or a gait analysis at an orthopedic or rehabilitation clinic. If the soles of your old sneakers are unusually worn on one side, that can also be a hint about the state of your arch.
 
-![](/images/blog/5c99fba022/03.webp)
+![A black running shoe with neon yellow accents](/images/blog/5c99fba022/03.webp)
 
 ## If you have flat feet, these running shoes are comfortable
 
@@ -76,9 +76,9 @@ If your knees still bother you after choosing shoes, look at the causes in [**kn
 
 When people with flat feet wear shoes that only have good cushioning, the foot can actually wobble more unstably, bringing on fatigue sooner. I recommend trying them on in the store and walking a few steps to make sure the inside of your foot feels comfortably supported.
 
-![](/images/blog/5c99fba022/04.webp)
+![People walking barefoot on a dirt trail](/images/blog/5c99fba022/04.webp)
 
-![](/images/blog/5c99fba022/05.webp)
+![Running shoes displayed on glass shelves in a store](/images/blog/5c99fba022/05.webp)
 
 ## For high arches, choose running shoes like these
 

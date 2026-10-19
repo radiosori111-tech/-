@@ -33,7 +33,7 @@ comic:
       caption: "If you already regret it, try <strong>reinterpretation</strong> instead of self-blame. Meditation calms the amygdala too."
 ---
 
-![](/images/blog/3430ac5fca/01.webp)
+![A young man resting his chin on his hand, lost in thought](/images/blog/3430ac5fca/01.webp)
 
 > The thing you'll regret,
 > *your brain had already done first.*
@@ -54,7 +54,7 @@ The amygdala reacts almost instantly, but it takes the prefrontal cortex much lo
 
 The more intense the emotion, the wider this time gap grows. Psychology calls this a hot state, and it's exactly why decisions made when you're hungry, angry or sleepy are especially likely to end in regret.
 
-![](/images/blog/3430ac5fca/02.webp)
+![A woman leaning by a window and gazing outside, lost in thought](/images/blog/3430ac5fca/02.webp)
 
 ## The real reason the amygdala moves first
 
@@ -85,7 +85,7 @@ For example, <strong>if you pair situations and actions ahead of time, such as "
 
 The third is <strong>precommitment</strong>: <strong>setting up an environment in advance that makes the regrettable action hard to do in the first place</strong>. If late-night snacks are the problem, delete the delivery app; <strong>if impulse buying is the problem, go out with cash only instead of a card</strong>. Rather than spending willpower at the moment of decision, you cut down the options from the start.
 
-![](/images/blog/3430ac5fca/03.webp)
+![A man meditating on a mountaintop at sunrise, seen from behind](/images/blog/3430ac5fca/03.webp)
 
 ## Why meditation calms the amygdala
 
@@ -95,7 +95,7 @@ You don't need to sit for an elaborate meditation every day. Taking even five mi
 
 At first meditation felt like grand spiritual training to me, so I kept putting it off. But when I tried turning off the lights for just five minutes before bed and focusing only on my breathing, I clearly felt my mood swings decrease the next morning. A short routine you can repeat every day lasts longer than a grand method.
 
-![](/images/blog/3430ac5fca/04.webp)
+![A woman meditating cross-legged on a yoga mat with her eyes closed](/images/blog/3430ac5fca/04.webp)
 
 ## If you already regret something, try handling it this way
 
@@ -105,7 +105,7 @@ Cognitive behavioral therapy calls this <strong>cognitive restructuring</strong>
 
 <strong>Regret isn't an emotion to get rid of; it's closer to data that makes your next choice better</strong>. Simply building the habit of recording moments of regret noticeably raises the odds of making a different choice in the same situation.
 
-![](/images/blog/3430ac5fca/05.webp)
+![A middle-aged man holding a pen and thinking as he looks out the window](/images/blog/3430ac5fca/05.webp)
 
 In the end, the way to avoid regrettable actions wasn't squeezing out more willpower but <strong>understanding the order in which the brain reacts and stepping into that gap</strong>. I recommend putting even one of today's methods into practice this week.
 

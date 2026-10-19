@@ -47,9 +47,9 @@ Here is a careful summary of the scientific mechanisms by which <strong>short, h
 ![Garmin Instinct 2 screen after a 1 km run during a work break on September 21, 2026](/images/blog/0f17c349a2/03.webp)
 *Garmin Instinct 2 screen after a 1 km run during a work break on September 21, 2026*
 
-![](/images/blog/0f17c349a2/04.webp)
+![Running app history screen showing three separate free runs logged on the same day](/images/blog/0f17c349a2/04.webp)
 
-![](/images/blog/0f17c349a2/05.webp)
+![Monthly calendar in a running app marking the days run in September 2026](/images/blog/0f17c349a2/05.webp)
 
 ## 1. The key to BDNF release: intensity, not time
 

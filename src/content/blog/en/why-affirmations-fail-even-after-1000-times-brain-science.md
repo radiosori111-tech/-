@@ -33,7 +33,7 @@ comic:
       caption: "The <strong>reticular activating system</strong> picks out information in that direction, building <strong>staying power</strong>."
 ---
 
-![](/images/blog/c279a4e1ab/01.webp)
+![A person writing in a small notebook with a pen](/images/blog/c279a4e1ab/01.webp)
 
 Most of us have tried shouting "I can do it!" every morning at least once. A few weeks later we quietly stop, and it feels hollow because life doesn't seem to have changed much. But what if that's <strong>not because affirmations don't work, but because they're reaching the brain the wrong way</strong>?
 

@@ -33,7 +33,7 @@ comic:
       caption: "Even a few minutes of <strong>consistency</strong> grows the circuit."
 ---
 
-![](/images/blog/1349be7967/01.webp)
+![A book and a cup of tea on a table among potted plants](/images/blog/1349be7967/01.webp)
 
 > One line of a book flips the **frontal lobe** switch
 
@@ -51,7 +51,7 @@ The aMCC sits right against the frontal lobe and is known to become especially a
 
 That's why the aMCC is often compared to a **"willpower muscle."** The idea is that, like a muscle, it develops the more you use it and shrinks when you don't. The catch is that to strengthen it, you can't just pick the easy things; you have to keep repeating activities that are a little beyond your comfort.
 
-![](/images/blog/1349be7967/02.webp)
+![An open book and a drink on a terrace table overlooking the sea at night](/images/blog/1349be7967/02.webp)
 
 > Maybe it's not weak willpower, but an underused aMCC
 
@@ -72,7 +72,7 @@ Besides reading, BDNF can also help train the aMCC. How to use the two together 
 
 More important than paper versus e-book is **uninterrupted reading time**. If you read in fits and starts with notifications going off, your brain has to spend that much more energy getting back into a state of immersion, so the key is securing time without interruptions, even if it's short.
 
-![](/images/blog/1349be7967/03.webp)
+![A stack of books next to a mug and a tumbler](/images/blog/1349be7967/03.webp)
 
 ## How many minutes a day, and how should you read?
 
@@ -82,7 +82,7 @@ The genre you read is worth some thought, too. If you only pick books that read 
 
 Keeping your phone out of sight while you read is also surprisingly important. Every time a notification pulls your gaze away, you have to repeat the process of getting back into focus from scratch, so your brain gets far more tired even in a short stretch of time.
 
-![](/images/blog/1349be7967/04.webp)
+![Old books and a cup of coffee on a wooden table](/images/blog/1349be7967/04.webp)
 
 ## Practical tips for keeping a reading habit going
 
@@ -92,7 +92,7 @@ To keep the habit going for a long time, it helps to let go of the pressure to f
 
 Above all, <strong>just sitting in the same spot at the same time every day</strong> teaches the brain to recognize <strong>"now it's time to focus."</strong> It's also worth remembering that simply fixing the place and time greatly shortens how long it takes for a habit to stick.
 
-![](/images/blog/1349be7967/05.webp)
+![Cover of the book 'People Are Books and Libraries' (사람이 책이고 도서관이다)](/images/blog/1349be7967/05.webp)
 
 ## In the end, what matters is consistency
 

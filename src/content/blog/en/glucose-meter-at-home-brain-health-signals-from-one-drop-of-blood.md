@@ -33,7 +33,7 @@ comic:
       caption: "See a doctor if <strong>126 mg/dL or higher</strong> repeats. Day to day, eat <strong>vegetables and protein first</strong>."
 ---
 
-![](/images/blog/d5e8159fac/01.webp)
+![A person checking a blood glucose reading of 97 mg/dL on a handheld device connected to an ear sensor](/images/blog/d5e8159fac/01.webp)
 
 > One prick of the fingertip, and
 > *it tells you about your brain health, too?*
@@ -44,7 +44,7 @@ A glucose meter is a small device that takes a tiny amount of blood from your fi
 
 For those using a glucose meter for the first time, this post walks through how to choose a device, the actual steps for using it, how to read the numbers, and when and how often to measure. It may sound complicated, but if you follow along in order, it's simpler than you'd think.
 
-![](/images/blog/d5e8159fac/02.webp)
+![A continuous glucose monitor on the upper arm and a smartphone app showing a glucose graph](/images/blog/d5e8159fac/02.webp)
 
 ## What does blood sugar have to do with brain health?
 
@@ -57,7 +57,7 @@ In particular, when blood sugar shoots up after a meal and then drops quickly, i
 
 Of course, a single glucose meter can't fully diagnose the state of your brain health. What makes it meaningful is that you can see with your own eyes how your body responds to particular foods and lifestyle habits. If warning signs keep showing up, don't stop at self-diagnosis; it's best to get a consultation at a nearby clinic.
 
-![](/images/blog/d5e8159fac/03.webp)
+![A non-invasive blood glucose meter prototype (glucowise) held between the fingers](/images/blog/d5e8159fac/03.webp)
 
 ## Types of glucose meters and how to choose one
 
@@ -78,7 +78,7 @@ Once you start measuring blood sugar, there are signs worth checking even when t
 
 Most devices today automatically store the date, time and reading, so you can check trends later without writing anything down. If the product connects to a smartphone app, you can see everything at a glance as a graph, which is even more convenient.
 
-![](/images/blog/d5e8159fac/04.webp)
+![Measuring blood sugar by touching a test strip to a drop of blood from a fingertip](/images/blog/d5e8159fac/04.webp)
 
 ## Normal ranges: how high is still okay?
 
@@ -96,7 +96,7 @@ We recommend measuring once on an empty stomach right after you wake up, and onc
 
 If you've already been diagnosed with diabetes, it's right to follow the number of times and timing your doctor recommends first. Please keep in mind that self-measurement is, at the end of the day, a supplementary tool.
 
-![](/images/blog/d5e8159fac/05.webp)
+![A bowl of olive oil with an olive and olive leaves](/images/blog/d5e8159fac/05.webp)
 
 ## Blood sugar tips that look after your brain, too
 

@@ -42,7 +42,7 @@ This is a story from the latest cognitive neuroscience about lowering **amygdala
 - <strong>The neural mechanism:</strong> practicing cognitive defusion activates the dorsolateral **prefrontal cortex** (dlPFC), which reins in the amygdala's emotional runaway from the top down.
 - <strong>In practice:</strong> instead of fighting to change your thoughts, put distance between yourself and them through "labeling," "thanking the safety alarm team," and "watching the popcorn."
 
-![](/images/blog/a092c2e66d/01.webp)
+![Brain cross-section showing the prefrontal cortex (PFC), the amygdala and the hippocampus](/images/blog/a092c2e66d/01.webp)
 
 ## 1. Why do spiraling anxious thoughts grow stronger the more we push them down? (cognitive fusion)
 
