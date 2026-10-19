@@ -44,6 +44,9 @@ At the core of mood disorders such as depression and anxiety is a problem of **e
 
 Understanding *how the brain evolves and organizes itself* reveals *when and how strong emotional reactions drive a person to act.* The ascending sequence of the **brainstem**, from the midbrain to the right hemisphere and then across to the left hemisphere, is associated with the increased integration of cognition and emotion that underlies complex social functioning. By contrast, *midbrain areas* closely linked to limbic function are associated with *survival-based emotions*. *<strong>In times of danger, by coupling more strongly, function reverts to the brain's older regions, and the strong neural coupling between the limbic system and the cerebellar motor areas is accompanied by weaker neural coupling toward the cortical areas.</strong>* As a result, fear and anger under stress drive more complex emotions and cortical cognition.
 
+<!-- related-link -->
+For concrete ways to wake up lifelong plasticity in daily life, continue with [**everyday habits that wake up neuroplasticity**](/en/blog/wake-up-your-neuroplasticity/).
+
 The basic core emotions related to pleasure and pain are happiness, surprise, fear, anger, disgust and sadness. Basic emotions tell a person whether their environment is beneficial or harmful, rewarding or threatening, and whether it calls for acceptance or rejection, categorizing it as unpleasant or pleasant. Arousal from displeasure or pleasure is built by autonomic reflexes mediated by the brainstem and the basal ganglia, which affect brainstem motor activation. The innate human tendency to return to emotion is expressed in the brain's organization. The structure of a hierarchically organized brain model is expressed functionally through bottom-up and top-down neural pathways.
 
 ## Emotional regulation and integration
@@ -53,3 +56,14 @@ Affective neuroscience emphasizes the importance of limbic emotion connected wit
 ## Relational empathic expression and mindfulness
 
 Humans can learn through empathic imitation and by observing other people's actions, and **mirror neurons** help us observe and recognize that someone else's action is something we can do too. Mirror neurons, first discovered in the brains of macaque monkeys, fire not only in response to their perceptions or when anticipating intentional, successful actions performed by others, but also when they intentionally move their own hands and feet.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🌀 **The changing brain:** [The Brain Is Changing](/en/blog/the-brain-is-changing/)
+> - 🧠 **What neuroplasticity really is:** [Do We Really Use Only 10% of Our Brains?](/en/articles/ten-percent-myth/)
+
+</aside>
+<!-- related-reads:end -->

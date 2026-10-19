@@ -44,6 +44,9 @@ Semantic memory is encoded in the left hippocampus and the left **prefrontal cor
 
 Voluntary awareness in episodic memory coordinates information from multiple, layered cerebral lobes. Executive function arises from distributed brain processes, the negotiation of self-awareness, social insight and the **prefrontal** regulation of limbic feelings, while spatial information stored in the posterior parietal cortex is sequenced and organized. Automatic memories are implicit, non-declarative memories that include sensory information and the perception of episodic events.
 
+<!-- related-link -->
+Alongside writing, there's another time when memories are protected: sleep. See also [**how the brain sorts memories while you sleep**](/en/articles/sleep-memory/).
+
 Episodic memory probably derives from the hippocampus's role in cognitive mapping. This highly advanced survival skill lets us build four-dimensional models that transcend time. By about age two, toddlers begin to show a more sophisticated view of themselves. They start to show a sense of time as they learn the order in which events happen. By age two, stories are constructed at a rate of 2.2 per hour in ordinary conversations between parents and children. These stories are tied to interpreting reality and giving it meaning. At this stage, parents become self-aware and teach their children self-awareness by encouraging them to share the parents' own stories.
 
 <strong>Autobiographical memory, a subtype of episodic memory, provides our own unique sense of past, present and future.</strong> Autobiographical memory is encoded in the right hippocampus and the right orbitofrontal cortex. Autobiographical memory is mental time travel. It includes memories of personally special events, such as the first time you used paint at school, memories of art activities in general, a gestalt of years of art-making, and personal facts such as who the US president was when you were born. <strong>Emotion strengthens memory</strong>. Emotional states in particular produce lasting, vivid memories known as **flashbulb memories**. These arise in response to personal events or to special social events that shock vast numbers of people, such as Princess Diana's car crash in 1997. Flashbulb memories generally show strongly persistent, high levels of surprise, high impact and repeated verbal and mental reenactment. They put you back somewhere, like jumping through. The visceral intensity of this jumping through leads us to evaluate the experience emotionally right away, without going through the normal process.
@@ -53,3 +56,14 @@ Episodic memory probably derives from the hippocampus's role in cognitive mappin
 <strong>The process of recall itself revises memory.</strong> When we dance, internal and external cues find abstract or concrete expression, much like explicit or implicit memories of color and form. In the artist's mind, artistry embraces and grafts together the artist's narrative intentions and other unpredictable cues, such as the bodily representation of pain. Vivid original memories and highly relived memories almost always have strong visual images associated with them. Strikingly visual imagery prompts working memory to expand older, stored information. Furthermore, memories of events, <strong>especially of emotionally charged events, are sometimes very different from what actually happened. We keep re-editing memories that have already been revised</strong>. Dance reminds us that a memory is a pattern of connection, interacting with neurons in other networks or within its own network. Works of art are continually reconstructed memories. The involvement of other networks provides unique connections that creativity can reach.
 
 That's exactly why it's worth <strong>writing down the facts and feelings of the day</strong> while they're fresh: a record gives you a steady reference point that recollection alone can't.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 👀 **Observing your day:** [What Changed When I Started "Observing" My Day: Quantum Entanglement](/en/blog/what-changed-when-i-started-observing-my-day-quantum-entanglement/)
+> - 🌀 **The changing brain:** [The Brain Is Changing](/en/blog/the-brain-is-changing/)
+
+</aside>
+<!-- related-reads:end -->

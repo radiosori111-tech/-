@@ -62,6 +62,9 @@ In fact, problems such as knee pain or **plantar fasciitis** in beginner runners
 
 The simplest way is to wet the soles of your feet and leave footprints on dry paper or the floor. By looking at how deeply the inner line of the footprint curves in, you can estimate your arch shape. If the middle of the footprint looks almost continuous, you're close to **flat feet**; if instead the footprint looks almost broken, you're closer to **high arches (pes cavus)**.
 
+<!-- related-link -->
+If your shoes may be behind knee pain, the next step is choosing a pair for your arch. See [**how to choose running shoes for flat, high or normal arches**](/en/blog/flat-feet-high-arches-normal-arches-how-to-choose-running-shoes/).
+
 Looking at the soles of your old sneakers is also a good hint. If the inner side is unusually worn, you likely pronate heavily; if they're worn mainly on the outer side, you may tend toward **supination**. These methods are only for reference, though, so if you're curious about your exact condition, the gait analysis service at a specialist running store is one option.
 
 ## How each arch type shows up differently
@@ -85,3 +88,14 @@ Running shoes are consumables whose cushioning wears down after a certain distan
 Just checking your foot arch has probably made your criteria for choosing running shoes much clearer. To enjoy the good changes that steady running brings for a long time, please remember that <strong>finding shoes that fit your own feet is the first step</strong>.
 
 <strong>Do you pay attention to your foot arch when choosing running shoes? If you have your own criteria or tips, let me know in the comments.</strong>
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🤸 **Warming up around a run:** [Skip the 5-Minute Warm-Up and Cool-Down, and You Cut Running's Brain Benefits in Half!](/en/blog/skip-the-5-minute-warm-up-and-cool-down-and-you-halve-runnings-brain-benefits/)
+> - 🏃 **Running and BDNF:** [BDNF: Just 10 Minutes of Running Changes the Brain, and How to Start Running](/en/blog/bdnf-just-10-minutes-of-running-changes-the-brain-how-to-start/)
+
+</aside>
+<!-- related-reads:end -->

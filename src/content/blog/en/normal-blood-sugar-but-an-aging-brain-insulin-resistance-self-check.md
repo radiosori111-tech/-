@@ -70,6 +70,9 @@ On top of that, insulin resistance is linked to blood vessel health. When vascul
 
 Here's the part many people miss: insulin resistance isn't only relevant to people diagnosed with diabetes. Even in states not yet diagnosed as diabetes, such as impaired fasting glucose or prediabetes, insulin resistance may already be under way.
 
+<!-- related-link -->
+If any of the self-check signs concern you, it helps to know how to measure blood sugar at home. Continue with [**how to check your blood sugar at home**](/en/blog/glucose-meter-at-home-brain-health-signals-from-one-drop-of-blood/).
+
 The concept of **metabolic inflammation** is also worth a look. When abdominal obesity, lack of sleep, frequent drinking and late-night eating and stress pile up, chronic low-grade inflammation develops in the body, and this can drive both insulin resistance and vascular dysfunction. So rather than relaxing completely just because your blood sugar was normal at a checkup, it's important to look at these metabolic signals as a whole.
 
 ## Check for insulin resistance if you notice these signs
@@ -103,3 +106,14 @@ On the diet side, research suggests that cutting back on sugar helps. One study 
 In the end, insulin resistance should probably be seen not as a problem of diabetes alone but as a signal that touches brain health too. Rather than grand treatments, <strong>checking your eating, exercise and sleep a little at a time, starting right now,</strong> can be the real start of prevention. I hope you'll use the checklist above to take a look at your own lifestyle at least once.
 
 <strong>Share this story about dementia prevention and insulin resistance with family who'd benefit, or save it to read again later.</strong>
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🍞 **Using insulin wisely:** [What Does Insulin Do? And How Can You Use It Wisely?](/en/blog/what-does-insulin-do-and-how-to-use-it-wisely/)
+> - 🛡️ **Brain immunity and the gut-brain axis:** [Brain Fog and Chronic Fatigue: Is Brain Immunity the Real Problem? An Anti-Inflammatory Nutrient and Diet Guide for Your Glial Cells and Gut-Brain Axis](/en/blog/brain-fog-chronic-fatigue-brain-immunity-glia-gut-brain-axis/)
+
+</aside>
+<!-- related-reads:end -->

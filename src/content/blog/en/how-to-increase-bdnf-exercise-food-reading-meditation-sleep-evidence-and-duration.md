@@ -214,7 +214,21 @@ BDNF is a protein, so when you swallow it, it gets digested and broken down, and
 
 Yes. The hippocampus study in this article (average age in the late 60s) and the dance study (ages 63–80) were both done in **older adults**. The fact that a year of walking enlarged the hippocampus is strong evidence that the brain can still change with age. When you start a new exercise routine, though, match the intensity to your health, and talk to your doctor first if you have a medical condition.
 
+<!-- related-link -->
+If you'd like to start with the meals you eat every day, [**foods and eating patterns that support BDNF**](/en/blog/which-foods-are-rich-in-bdnf/) sorts the evidence food by food.
+
 ---
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🏃 **Running and BDNF:** [BDNF: Just 10 Minutes of Running Changes the Brain, and How to Start Running](/en/blog/bdnf-just-10-minutes-of-running-changes-the-brain-how-to-start/)
+> - 🧩 **BDNF, the aMCC and sticking with plans:** [If Your Resolutions Keep Lasting Three Days, Start With BDNF and the aMCC, Not Willpower](/en/blog/three-day-resolutions-use-bdnf-and-the-amcc-before-willpower/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## 📚 References
 

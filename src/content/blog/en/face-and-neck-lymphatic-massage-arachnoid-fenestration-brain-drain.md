@@ -55,6 +55,9 @@ A similar structure was also confirmed in primates, not just mice. This suggests
 
 What impressed me most personally in this study was not the discovery of arachnoid fenestrations itself, but <strong>the results that put numbers on the changes with age</strong>. In <strong>mice aged 85 to 100 weeks, equivalent to old age in humans</strong>, the size and number of arachnoid fenestrations had <strong>decreased by 50 to 60%</strong> compared with young mice (8 to 10 weeks). The drainage passages themselves had narrowed by nearly half.
 
+<!-- related-link -->
+If the brain's waste-clearing route interested you, the glial cells that clean and defend the brain come next: [**brain immunity and an anti-inflammatory diet for the gut-brain axis**](/en/blog/brain-fog-chronic-fatigue-brain-immunity-glia-gut-brain-axis/).
+
 That's not all. <strong>Meningeal lymphatic vessels around the olfactory bulb decreased by 58%</strong>, and <strong>the passages through the cribriform plate (the thin bone between the brain and nasal cavity), through which lymphatic vessels and olfactory nerves pass, decreased by 64%</strong>. **Meningeal lymphatic vessels** are a network of lymphatic vessels in the membranes surrounding the brain; they absorb cerebrospinal fluid that has passed through the arachnoid fenestrations and carry it toward the lymph nodes in the neck. So there's a double blow: the drains (arachnoid fenestrations) clog, and the sewer pipes connected to them (meningeal lymphatic vessels) degenerate as well. Naturally, cerebrospinal fluid drains less efficiently, and the risk of waste building up in the brain rises.
 
 Previous studies have consistently pointed to a link between degenerative brain diseases, including Alzheimer's disease, and declining waste clearance by cerebrospinal fluid (Source: Institute for Basic Science, IBS).
@@ -73,3 +76,14 @@ That said, there's something I should point out honestly. Whether VEGF-C gene th
 ## When a medical discovery meets small everyday habits
 
 The discovery of arachnoid fenestrations is a breakthrough that could change the paradigm of brain health. Although it will take time before gene therapy can be applied in daily life, simply understanding the structural mechanism by which brain waste drains out through the nasal cavity and the lymph nodes of the neck is meaningful in itself. Science has, in effect, shown that my small habits, massaging my face and neck every morning and evening to help lymphatic circulation and taking care to breathe deeply and stretch my neck, were never meaningless. Creating an environment in which the brain can clean itself may ultimately be the wisest first step to protecting brain health in an age when we live to 100.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🧹 **Brain immune cells and dementia:** [A New Path for Dementia Treatment (Brain Immune Cells, the GAP Pathway, Hormesis)](/en/blog/new-path-for-dementia-treatment-gap-pathway-hormesis/)
+> - 😴 **Sleep and memory:** [While You Sleep, Your Brain Sorts the Day's Memories](/en/articles/sleep-memory/)
+
+</aside>
+<!-- related-reads:end -->

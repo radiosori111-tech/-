@@ -76,12 +76,26 @@ A classic example is the study of London taxi drivers. To get a taxi license in 
 
 The 10% myth has probably survived so long because the belief that "I still have untapped potential" moves people. That belief itself isn't wrong. But there is no secret technique to "awaken" a hidden 90%; potential becomes real through **the way repeated practice and experience rewire circuits**. That's also why this site is called "The Game of Belief, Action."
 
+<!-- related-link -->
+If the brain reshapes itself according to how it is used, how do we encourage that change day to day? [**Everyday habits that wake up neuroplasticity**](/en/blog/wake-up-your-neuroplasticity/) looks at how the gut, sleep and information shape it.
+
 ## Today's practice
 
 1. **Be skeptical of ads promising to "unlock your brain's potential."** Claims that a particular drink, sound, or gadget awakens a hidden part of the brain usually have no evidence behind them.
 2. **Choose one new skill and practice it briefly every day.** Plasticity depends more on repetition and consistency than on intensity.
 3. **Practice at a slightly harder level.** Rather than repeating only what is already easy, staying at a level that is a little too hard gives the brain more reason to change.
 4. **Take care of sleep and exercise, too.** Our other articles on memory consolidation and the health of the **hippocampus** support this practice.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🌀 **Lifelong neuroplasticity:** [Lifelong Connectivity: Neuroplasticity](/en/blog/lifelong-connectivity-neuroplasticity/)
+> - 💬 **Words and neuroplasticity:** [One Word Can Rewire Your Brain: The Neuroscience of Neuroplasticity and Speech Habits](/en/blog/one-word-rewires-the-brain-neuroplasticity-and-speech-habits/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## References
 

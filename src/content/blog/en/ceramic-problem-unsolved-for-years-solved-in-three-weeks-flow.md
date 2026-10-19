@@ -61,6 +61,9 @@ It wasn't the kind of problem that yields to a short burst of concentrated thoug
 
 The method he chose was simple: <strong>deliberately increasing the time spent thinking about that one problem alone.</strong> He reportedly trained himself to clear away stray thoughts and everyday worries as much as possible and to keep returning to the problem the whole time he was awake. For the first few days there was little progress, but as the time piled up, the very way he saw the problem gradually began to change.
 
+<!-- related-link -->
+The idea that changing how you think changes outcomes also shows up in brain imaging. See [**the MRI study of pro gamers' trained brains**](/en/blog/pro-gamer-brain-mri-trained-brain/), whose brains had shifted toward choosing better.
+
 What's special about this approach is that he thought not hard but long, without interruption. Rather than rushing anxiously toward an answer, <strong>he chose to keep slowly chewing over the same problem.</strong> He later named this way of thinking "immersive thinking," explaining that anyone can reach this state through training.
 
 ## The answer that came after three weeks, and a turning point in his life
@@ -86,3 +89,14 @@ It doesn't have to be something as grand as ceramic engineering. You can apply t
 The story of solving in three weeks a problem that had resisted years of effort shows that, in the end, the answer has less to do with talent than with how long you held on. If you have a worry you can't resolve right now, instead of stepping back for a while, it may be worth really holding on to it at least once.
 
 <strong>If Professor Hwang Nong-mun's story of immersion helped you, next time we'll look at concrete methods for achieving immersion.</strong>
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🔑 **The secret of success:** [The Secret of Success](/en/blog/the-secret-of-success/)
+> - 🧭 **The brain's coordinate systems and learning:** [Exercise and Learning Through the Brain's Coordinate Systems (Mind-Muscle, Embodied Learning, Egocentric Space)](/en/blog/brain-coordinate-systems-exercise-and-learning/)
+
+</aside>
+<!-- related-reads:end -->

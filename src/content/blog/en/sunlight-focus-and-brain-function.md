@@ -71,6 +71,9 @@ Dr. Altug Didikoglu, who led the study, said that <strong>"light is a key enviro
 
 Here is <strong>the light-exposure routine</strong> I put together as I felt the changes myself: get at least 30 minutes of natural light in the morning, choose a seat by the window when working indoors, and dim the lights from one to two hours before bed. If all three are hard to manage at once, I think morning sunlight alone is the most effective place to start ([Source: Health Chosun](https://health.chosun.com/site/data/html_dir/2026/01/13/2026011302989.html)).
 
+<!-- related-link -->
+If daytime light helps focus, the day's rhythm begins with morning light. Read [**how 10 minutes of morning sunlight resets the body clock**](/en/articles/morning-light/).
+
 I think it's right to approach light exposure not as a "mood boost" but as a matter of setting up your environment for cognitive function. If a cup of coffee artificially pushes up **dopamine**, <strong>morning sunlight is closer to aligning the circadian rhythm itself to the right phase.</strong> <strong>Phase describes where the body clock is, and in what state, at a given point in the day</strong>; if the timing of light exposure is off, the whole circadian rhythm can be thrown out of joint.
 
 <strong>In short:</strong> three routines, natural light in the morning, working by a window during the day, and dimming the lights before bed, are enough to correct the phase of your circadian rhythm and protect cognitive function.
@@ -100,6 +103,17 @@ When we want to improve focus, <strong>we usually look for something to add: sup
 Having experienced it myself, the change isn't dramatic. A 30-minute outdoor run in the morning, a seat by the window during the day, and dimmer lights in the evening were enough for my circadian rhythm to start responding. If you want to sort out your light-exposure habits, stepping outside for just 10 minutes at lunch today could be the smallest first step.
 
 Reference: [https://health.chosun.com/site/data/html_dir/2026/01/13/2026011302989.html](https://health.chosun.com/site/data/html_dir/2026/01/13/2026011302989.html)
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🌅 **Morning minutes and sleep inertia:** [The Early Bird Gets the Worm? No: Use the First 30 Minutes to Wake the Brain Out of Sleep Inertia, Its Most Vulnerable Moment](/en/blog/the-early-bird-the-first-30-minutes-and-sleep-inertia/)
+> - 🌳 **15 minutes in nature:** [Nature as Healing, Through Brain Science: Why a 15-Minute Habit Reboots Your Brain](/en/blog/nature-heals-the-brain-15-minute-habit/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## References
 

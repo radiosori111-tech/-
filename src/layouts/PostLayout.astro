@@ -474,6 +474,13 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
     color: var(--ink);
     font-weight: 600;
   }
+  /* 본문 끝의 '함께 읽으면 좋은 글' 상자: 인용과 구분되도록 따옴표 없이 목록형으로 */
+  .prose :global(.read-next blockquote) { padding: 1.25rem 1.5rem; font-weight: 500; background: var(--surface); border-color: var(--line-strong); box-shadow: var(--shadow-sm); }
+  .prose :global(.read-next blockquote)::before { content: none; }
+  .prose :global(.read-next blockquote p) { margin: 0 0 0.625rem; font-weight: 700; }
+  .prose :global(.read-next blockquote ul) { margin: 0; padding-left: 0; list-style: none; display: grid; gap: 0.5rem; }
+  .prose :global(.read-next blockquote li) { margin: 0; padding-left: 0; line-height: 1.6; }
+  .prose :global(.read-next blockquote li)::before { content: none; }
   .prose :global(blockquote)::before {
     content: '“';
     position: absolute;

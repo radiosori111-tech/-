@@ -76,6 +76,9 @@ The benefits of short exercise have also been confirmed in large epidemiological
 
 Despite the powerful effects of a one-minute sprint, a sudden all-out sprint isn't safe for everyone. To get the brain-stimulating benefits safely, you need a step-by-step approach.
 
+<!-- related-link -->
+If short, intense bursts stimulate the brain, the type of exercise likely matters too. Compare the two in [**how aerobic and strength training change the brain differently**](/en/blog/weak-willpower-muscle-aerobic-vs-strength-training/).
+
 1. <strong>Always warm up:</strong> if you don't usually exercise much, or you have cardiovascular or joint problems, sudden high-intensity stimulation can strain your blood vessels. Be sure to loosen up first with light marching in place or stretching.
 2. <strong>Increase intensity gradually:</strong> it doesn't have to be a 100% sprint. The key is reaching 80 to 90% of your maximum heart rate (breathless enough that you can't hold a light conversation). You can substitute climbing a steep hill, going up stairs quickly or pedaling hard on a stationary bike.
 3. <strong>Make it routine:</strong> using the low bar of "one minute a day" to build a habit tied naturally to everyday actions (your commute, a short spurt during a lunchtime walk) is the key to maintaining brain health over the long term.
@@ -85,3 +88,14 @@ Despite the powerful effects of a one-minute sprint, a sudden all-out sprint isn
 <strong>If it's hard to find a long block of time, try splitting your running into short sessions like I do: before work, at lunch and on the way home</strong>. Even a few minutes of running is enough to feel your tired brain's fatigue wash away and fresh energy fill in.
 
 <strong>You don't need a grand start, either.</strong> Five hundred meters is fine; just one minute is enough. Why not get up from where you are right now and run until you're out of breath for just one minute? <strong>That single minute of practice in your busy day can be the start of the most efficient brain health routine</strong>.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🏃 **Running and BDNF:** [BDNF: Just 10 Minutes of Running Changes the Brain, and How to Start Running](/en/blog/bdnf-just-10-minutes-of-running-changes-the-brain-how-to-start/)
+> - 🔋 **Exercising when you're tired:** [If I'm Already Physically Exhausted, Won't Exercise Make Me Even More Tired? How Movement Wakes Up the Brain](/en/blog/already-exhausted-will-exercise-make-me-more-tired/)
+
+</aside>
+<!-- related-reads:end -->

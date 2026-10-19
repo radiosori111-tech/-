@@ -71,6 +71,9 @@ Sleep is not a single state. Over one night, a cycle that descends from light sl
 
 New experiences from the day are first stored temporarily in the **hippocampus**. You can think of the hippocampus as a notepad that records quickly but doesn't hold much. During deep slow-wave sleep, the hippocampus replays, in compressed form, the sequences of neurons that were active during the day, and these signals are timed to line up with the slow waves of the cerebral cortex and with short bursts of brain activity called **sleep spindles**. Through this process, memories are gradually moved into more stable networks in the cortex. That is the widely accepted explanation today (Rasch & Born, 2013).
 
+<!-- related-link -->
+Sleep consolidates memories, yet memories still shift a little each time we recall them. That is why [**the habit of writing things down to protect memory**](/en/blog/memory-is-less-true-so-write-it-down/) makes a good companion to good sleep.
+
 In animal studies, hippocampal cells that fired in sequence while a rat ran through a maze were later observed firing again, rapidly and in the same order, while it slept. Experiments with people have also repeatedly found that those who sleep after learning something retain it better than those who stay awake for the same amount of time.
 
 ## So what do we lose when we cut sleep?
@@ -85,6 +88,17 @@ Because deep slow-wave sleep is concentrated early in the night and REM sleep ar
 4. **Dim the lights from an hour before bed.** Bright light delays the release of **melatonin** and pushes back the time you fall asleep. See also our article on morning sunlight.
 
 If someone tells you that your breathing seems to stop during sleep, or if you feel very sleepy during the day despite sleeping enough, it's a good idea to see a sleep specialist.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🛡️ **PLA2G2F, the hippocampus's backup generator:** [People Whose Memory Holds Up With Age Had a 'Backup Generator' Running in Their Brains: PLA2G2F and Hippocampal Resilience](/en/blog/the-brains-backup-generator-enzyme-pla2g2f-memory-resilience/)
+> - ☀️ **Morning light and the body clock:** [Why 10 Minutes of Morning Sunlight Changes Your Sleep at Night](/en/articles/morning-light/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## References
 

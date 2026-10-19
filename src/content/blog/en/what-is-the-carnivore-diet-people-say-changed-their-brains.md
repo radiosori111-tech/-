@@ -67,6 +67,9 @@ Because you don't eat vegetables at all, it can feel strange at first, but many 
 
 When you eat almost no carbohydrates, as on the carnivore diet, the body produces an alternative fuel called **ketone bodies**, and studies suggest these ketones may act as a signal that helps the brain produce BDNF. Large-scale human studies aren't yet sufficient, so it's hard to say anything definitive, but the discussion is moving toward the idea that a low-carb state may send a positive signal for the brain's **neuroplasticity**.
 
+<!-- related-link -->
+The 'clearer head' often mentioned in carnivore stories is usually discussed alongside ketone bodies. [**Brain fog, ketones and mental clarity**](/en/blog/brain-fog-ketones-carnivore-mental-clarity/) walks through the idea.
+
 Another factor is stable blood sugar. Eating habits that make blood sugar spike and crash are known to trigger inflammatory responses in the brain too, and some see an advantage in the carnivore diet here because blood sugar fluctuates relatively little. Still, it's worth keeping in mind that all of this is an area still being researched.
 
 ## If you want to start, approach it this way
@@ -92,3 +95,14 @@ If you have a kidney or liver condition or are pregnant, I strongly recommend <s
 In the end, the relationship between the carnivore diet and BDNF is still an actively researched topic, so it's hard to say definitively that doing this alone will improve your brain. However, the general direction of <strong>stabilizing blood sugar and reducing refined carbohydrates</strong> is known to help many health markers, so rather than following it to the extreme, I recommend adapting it to suit your own body. If you do start, go slowly and watch how your body responds.
 
 <strong>If you'd like to keep up with carnivore diet and brain health tips, be sure to follow along!</strong>
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🥩 **Brain function on a carnivore diet:** [Boosting Brain Function with a Carnivore Diet, Started on the Recommendation of Heo Nam-jun and Jang Seung-jo from You Quiz on the Block](/en/blog/carnivore-diet-for-better-brain-function-inspired-by-you-quiz/)
+> - 🥩 **Carnivore and magnesium after the holidays:** [The Post-Holiday Quick Reset (A Guide to the Carnivore Diet and Magnesium Right After Chuseok)](/en/blog/post-holiday-reset-carnivore-diet-and-magnesium-guide/)
+
+</aside>
+<!-- related-reads:end -->

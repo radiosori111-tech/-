@@ -62,6 +62,9 @@ The brain's hippocampus originally evolved for spatial navigation. <strong>The h
 
 There's one more method that, in my experience, had a different kind of effect: explaining what you've learned to someone else. <strong>When you switch coordinates from student to teacher and speak aloud as if explaining, the brain doesn't just "store" knowledge but "reconstructs" it.</strong> As the egocentric view shifts to the other person's point of view, <strong>it becomes clear what you know and what you don't</strong>. Structurally, this is the same as switching your perspective in exercise from "push the barbell" to "stand your body up." The very act of moving the origin of the coordinates creates new processing pathways in the brain.
 
+<!-- related-link -->
+The brain's body-centered way of learning connects to how repeated training reshapes it. See the changes training leaves behind in [**the MRI study of pro gamers' trained brains**](/en/blog/pro-gamer-brain-mri-trained-brain/).
+
 In this context, the risk of learning only through digital devices becomes clearer. <strong>Learning through a screen keeps the brain firmly in a passive, allocentric view and leaves less room for egocentric processing.</strong> This is also why <strong>pausing a video midway and predicting "what comes next?"</strong> is effective. The moment prediction begins, the brain <strong>switches from a passive allocentric mode to an active egocentric mode</strong>. The same principle explains why training children to find their way with a paper map instead of navigation is known to matter for brain development. Rotating information from a map (allocentric) to match your body's current sense of direction (egocentric) is the best exercise for stimulating the hippocampus and grid cells at the same time ([Source: **Nature Reviews Neuroscience**](https://www.nature.com/articles/s41583-021-00477-z)).
 
 <strong>In short:</strong> reading text only with your eyes is merely "looking on" at allocentric knowledge, and embodied learning, which moves the body and shifts perspective, is the key to stimulating the hippocampus and turning knowledge into long-term memory.
@@ -101,3 +104,14 @@ Reference: [https://www.hankookilbo.com/news/article/A2026093009590001528](https
 Today, while you exercised or studied, did you take your eyes off the numbers and the screen at least once and listen to the sensations inside your body?
 
 *About the author's views, and a note for readers: the content and analysis in this post reflect personal views and learning notes reconstructed from the author's own trial and error and experience, together with literature and news articles. The effects of exercise methods and training approaches can vary depending on your build, past injuries, and underlying conditions. Please pay attention to your body's signals when trying a new exercise routine or managing pain, and if you have persistent pain or health problems, be sure to seek an accurate diagnosis and advice from a medical professional or specialist first.*
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🏋️ **Aerobic vs. strength training:** [Was Muscle the Real Culprit Behind Weak Willpower? How Aerobic and Strength Training Change the Brain Differently](/en/blog/weak-willpower-muscle-aerobic-vs-strength-training/)
+> - 🌀 **Waking up neuroplasticity:** [Wake Up Your Neuroplasticity](/en/blog/wake-up-your-neuroplasticity/)
+
+</aside>
+<!-- related-reads:end -->

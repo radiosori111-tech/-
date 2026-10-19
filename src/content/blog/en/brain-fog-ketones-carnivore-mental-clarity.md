@@ -68,6 +68,9 @@ Cardiovascular researcher Dr. James DiNicolantonio explains that when the body l
 
 Conversely, when you get enough salt, this abnormal hormonal signal switches off and the instinctive craving for sugar decreases. In my experience, when a sudden craving for sweets hit, drinking a little sea salt or pink salt dissolved in water calmed the craving within minutes. I think this mechanism is why the carnivore diet doesn't stop at cutting carbohydrates but leads to healthier eating habits overall.
 
+<!-- related-link -->
+If you are curious about the diet behind the ketone and brain fog story, [**the carnivore diet and BDNF**](/en/blog/what-is-the-carnivore-diet-people-say-changed-their-brains/) starts from what the diet actually is.
+
 The same pattern holds for **insulin resistance**, a state in which cells don't respond properly to insulin signals and blood sugar control breaks down; it is considered one of the main causes of brain fog. By eliminating carbohydrates themselves, the carnivore diet minimizes the stimulus for insulin release and structurally cuts off this vicious cycle.
 
 <strong>In short:</strong> more salt on a carnivore diet stabilizes the renin-angiotensin system and reduces sugar cravings, and together with improved insulin resistance, it leads to healthier eating habits overall.
@@ -103,6 +106,17 @@ If fogginess keeps coming back after every meal even when you've slept enough, i
 Brain fog is not a lack of willpower. For a long time I simply put up with the fog that came every afternoon, but it turned out the cause was the blood sugar swings created by carbohydrates. When I switched my energy source to **ketones** with a carnivore or keto diet, the fog disappeared, and now I deliberately choose this way of eating on days I need to focus.
 
 The first two weeks bring the keto flu, but the change in cognitive function you feel after keeping it up to 30 days is unmistakable. If you have an important project, exam, or presentation ahead, it may be worth trying to restrict carbohydrates for at least two weeks. However, if you have an underlying condition, be sure to consult a medical professional first.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🥩 **Brain function on a carnivore diet:** [Boosting Brain Function with a Carnivore Diet, Started on the Recommendation of Heo Nam-jun and Jang Seung-jo from You Quiz on the Block](/en/blog/carnivore-diet-for-better-brain-function-inspired-by-you-quiz/)
+> - 🛡️ **Brain immunity and the gut-brain axis:** [Brain Fog and Chronic Fatigue: Is Brain Immunity the Real Problem? An Anti-Inflammatory Nutrient and Diet Guide for Your Glial Cells and Gut-Brain Axis](/en/blog/brain-fog-chronic-fatigue-brain-immunity-glia-gut-brain-axis/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## Medical disclaimer
 

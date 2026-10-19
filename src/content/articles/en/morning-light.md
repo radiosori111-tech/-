@@ -85,6 +85,9 @@ Because our eyes adapt quickly to differences in brightness, it is easy to feel 
 
 Light has opposite effects depending on when you see it. In general, light in the morning moves the clock earlier so you feel sleepy earlier at night, while bright light late at night delays the clock and pushes back the time you fall asleep. That is why **"bright in the morning, dark at night"** is more accurate advice than simply "get more light."
 
+<!-- related-link -->
+Morning light sets the body clock. What does daytime light do for focus? [**Daylight, focus and cognitive function**](/en/blog/sunlight-focus-and-brain-function/) covers the hours after sunrise.
+
 ## Today's practice
 
 1. **Go outside within an hour of waking.** Walking a little farther on your commute, or drinking your coffee on the balcony or by the front door, is enough. On clear days aim for about 10 minutes; on cloudy days, a little longer.
@@ -93,6 +96,17 @@ Light has opposite effects depending on when you see it. In general, light in th
 4. **Keep your wake-up time steady, even on weekends.** The clock stabilizes when the morning light signal arrives at about the same time every day.
 
 Light is a signal, not a medicine. Rather than expecting a dramatic change in a day or two, try getting morning light at the same time for about a week and note how your bedtime shifts. If insomnia lasts more than a few weeks, it is a good idea to see a sleep specialist.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 😴 **Sleep and memory:** [While You Sleep, Your Brain Sorts the Day's Memories](/en/articles/sleep-memory/)
+> - 🌅 **Morning minutes and sleep inertia:** [The Early Bird Gets the Worm? No: Use the First 30 Minutes to Wake the Brain Out of Sleep Inertia, Its Most Vulnerable Moment](/en/blog/the-early-bird-the-first-30-minutes-and-sleep-inertia/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## References
 

@@ -76,6 +76,9 @@ When you actually try it, it seems trivial but works surprisingly well. The mome
 
 The first is <strong>the 10-minute rule</strong>. When you want to impulsively buy, send or decide something, put it off for just 10 minutes. The excitement the amygdala creates usually subsides within a few minutes, so if you still want to do it after 10 minutes, it's a real need; if not, it was most likely an impulse.
 
+<!-- related-link -->
+Behind the order in which the brain acts first is dopamine, predicting rewards. Continue with [**dopamine and reward prediction error**](/en/articles/dopamine-prediction/).
+
 The second is <strong>deciding in advance</strong>, so-called <strong>implementation intentions</strong> of the form "if this happens, I'll do that."
 
 For example, <strong>if you pair situations and actions ahead of time, such as "When I'm angry, I'll go for a walk before sending any text,"</strong> then when the moment comes, your body moves automatically without having to deliberate anew.
@@ -107,3 +110,14 @@ Cognitive behavioral therapy calls this <strong>cognitive restructuring</strong>
 In the end, the way to avoid regrettable actions wasn't squeezing out more willpower but <strong>understanding the order in which the brain reacts and stepping into that gap</strong>. I recommend putting even one of today's methods into practice this week.
 
 <strong>If you'd like to see more about regret-free choices and brain science, be sure to follow along!</strong>
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 💧 **Resetting reward circuits with exercise:** [\[Brain Science\] If You Want to Break a Bad Habit, Reset the Brain's Reward Circuit with Sweat](/en/blog/break-bad-habits-reset-the-brains-reward-circuit-with-sweat/)
+> - 🔁 **Emotional reflex circuits:** [What If Repeated Emotional Reactions, Speech Habits and Even Habitual Attitudes Are Reflex Circuits the Brain Has Learned?](/en/blog/emotional-reactions-and-speech-habits-are-learned-reflex-circuits/)
+
+</aside>
+<!-- related-reads:end -->

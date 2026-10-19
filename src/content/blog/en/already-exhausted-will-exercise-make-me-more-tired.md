@@ -65,6 +65,9 @@ I've found that running even a short 0.5 km or 1.5 km leaves my body feeling ref
 
 To give you the conclusion first: <strong><em>done at the right intensity, exercise actually lowers fatigue and brings the brain's focus to its peak</em></strong>.
 
+<!-- related-link -->
+When you're worn out, flipping the brain's switches works better than pushing through on willpower. The how-to continues in [**burnout and the brain's switches**](/en/blog/burnout-the-brain-needs-a-switch-not-persuasion/).
+
 I'm not telling you to do high-intensity intervals until you collapse.
 
 (Recommended intensity: a "light jog (Zone 2 pace)" or "brisk walk" at which you can still talk to the person next to you or breathe through your nose.)
@@ -86,3 +89,14 @@ This level of intensity <strong>floods the brain with oxygen and nutrients witho
 
 ![An fMRI scan of brain activity during running](/images/blog/50da75638c/03.webp)
 *An fMRI scan of brain activity during running*
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - ⚡ **Short, intense exercise:** [The Science and Mechanisms Behind How One Minute of High-Intensity Exercise (HIIE) Changes Brain Health](/en/blog/one-minute-high-intensity-exercise-hiie-brain-health-science/)
+> - 🌳 **15 minutes in nature:** [Nature as Healing, Through Brain Science: Why a 15-Minute Habit Reboots Your Brain](/en/blog/nature-heals-the-brain-15-minute-habit/)
+
+</aside>
+<!-- related-reads:end -->

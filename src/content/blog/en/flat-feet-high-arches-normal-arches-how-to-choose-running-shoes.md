@@ -71,6 +71,9 @@ This method is only for reference, though; if you need an accurate assessment, I
 
 In stores, these are products usually classified as stability or motion-control shoes. They have firm material reinforcing the inner side of the shoe to keep the foot from collapsing too far inward. If, when you try them on, the inner arch area feels gently supported rather than floating, that's a sign they fit well.
 
+<!-- related-link -->
+If your knees still bother you after choosing shoes, look at the causes in [**knee pain in new runners and running shoes**](/en/blog/running-for-brain-health-beginner-knee-pain-and-the-wrong-shoes-for-your-arch/).
+
 When people with flat feet wear shoes that only have good cushioning, the foot can actually wobble more unstably, bringing on fatigue sooner. I recommend trying them on in the store and walking a few steps to make sure the inside of your foot feels comfortably supported.
 
 ![](/images/blog/5c99fba022/04.webp)
@@ -104,3 +107,14 @@ When buying online, searching reviews together with your arch type and foot widt
 Your foot arch is something you're born with and can't change, but simply choosing running shoes that match it can considerably reduce the strain on your knees and ankles. If your current running shoes have felt particularly uncomfortable, I'd recommend <strong>looking at your own foot arch again before the brand or design</strong>. It may seem like a small difference, but for a runner who covers several kilometers every day, it can make quite a big difference in protecting knee health.
 
 <strong>If you've ever had knee or ankle pain because of your running shoes, please share your story in the comments.</strong>
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🤸 **Warming up around a run:** [Skip the 5-Minute Warm-Up and Cool-Down, and You Cut Running's Brain Benefits in Half!](/en/blog/skip-the-5-minute-warm-up-and-cool-down-and-you-halve-runnings-brain-benefits/)
+> - 🏃 **Running and BDNF:** [BDNF: Just 10 Minutes of Running Changes the Brain, and How to Start Running](/en/blog/bdnf-just-10-minutes-of-running-changes-the-brain-how-to-start/)
+
+</aside>
+<!-- related-reads:end -->

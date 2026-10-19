@@ -50,6 +50,9 @@ In fact, Roger Penrose and Stuart Hameroff proposed the **Orch-OR** theory, whic
 It hasn't yet reached full mainstream consensus in academia, but it is clearly a serious attempt to explore where the brain and the microscopic world meet.
 In my own experience, <strong>what mattered more than theoretical completeness was "the act of observing itself."</strong> Simply starting to look closely at my day reduced my habit of opening the delivery app, and other choices took its place. The concept of the **reticular activating system** (RAS) connects to this too.
 
+<!-- related-link -->
+Once you start observing your day, writing it down keeps the memory more accurate. Read [**the habit of writing things down to protect memory**](/en/blog/memory-is-less-true-so-write-it-down/) as well.
+
 The reticular activating system is the brain's filter, selectively picking out, from countless pieces of information, the signals related to what you're focusing on. When you change the direction of your observation, the RAS starts catching different information.
 
 - **Neuroplasticity:** brain circuits physically reorganize in the direction you pay attention to
@@ -78,3 +81,14 @@ My conclusion is this: the fact that the future isn't fixed is not a word of com
 If you want to dig deeper into this topic, books that explain the concepts without equations, such as Kim Sang-wook's *Lectures on Quantum Physics* or Jeong Jae-seung's *Science Concert*, are good introductions. When I read them, the everyday insights stayed with me longer than the difficulty of the theory.
 
 <strong>In short:</strong> "superposition" doesn't mean putting off conclusions; it's an attitude of keeping more possibilities open, and that attitude changes real actions and choices.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - ☁️ **Stepping back from thoughts (ACT):** [Your Thoughts Are Not You: Acceptance and Commitment Therapy (ACT) and the Power of "Cognitive Defusion" Revealed by the Brain](/en/blog/thoughts-are-not-you-act-cognitive-defusion/)
+> - 🎯 **Reaching your goals:** [Three Ways to Achieve Your Goals](/en/blog/three-ways-to-achieve-your-goals/)
+
+</aside>
+<!-- related-reads:end -->

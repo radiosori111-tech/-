@@ -66,6 +66,9 @@ The best way to trigger neuroplasticity is <strong>movement</strong>. Moving you
 
 Professor Yoo Im-joo of Korea University College of Medicine said: "To exercise, commands that control each muscle must be sent down from the brain. While you're exercising, it's actually your brain that is commanding each part of your body to move. The very fact that you're exercising means the brain's circuits keep running. So by steadily activating particular brain circuits, you can develop that part of the brain."
 
+<!-- related-link -->
+Among the everyday materials that wake up plasticity, the closest at hand are the words you use. Read [**the neuroscience of how words rewire the brain**](/en/blog/one-word-rewires-the-brain-neuroplasticity-and-speech-habits/) too.
+
 Paul Zientarski, a physical education department head, said: "That exercise stimulates the brain isn't just a belief; it's real science. Exercise, especially cardiovascular exercise, releases chemicals in the brain such as **dopamine**, serotonin and **norepinephrine**, which actually help the brain function. They affect memory, mood, alertness, attention and motivation."
 
 ## The gut affects neuroplasticity
@@ -99,3 +102,14 @@ The Korean Spirit column "Is my brain now really my brain?" introduced the five 
 5. <strong>BOS Law 5</strong>: Design every environment
 
 Written after reading Kim Dae-sung's *How Are the Brains of People Who Eventually Achieve Built?*
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🌀 **Lifelong neuroplasticity:** [Lifelong Connectivity: Neuroplasticity](/en/blog/lifelong-connectivity-neuroplasticity/)
+> - 🔑 **The secret of success:** [The Secret of Success](/en/blog/the-secret-of-success/)
+
+</aside>
+<!-- related-reads:end -->

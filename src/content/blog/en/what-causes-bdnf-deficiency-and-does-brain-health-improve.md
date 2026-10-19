@@ -44,6 +44,9 @@ In the previous post, we learned that <strong><a href="/en/blog/bdnf-brain-deriv
 
 Throughout life, we're exposed to all kinds of environments that cause stress. Just take working life: many of us think, "The moment I win the lottery, I'm quitting." A moderate amount of stress keeps us healthily alert and can be used as a source of energy in daily life, but **excessive stress** that harms our health damages not only our health but can even alter the **structure of the brain**.
 
+<!-- related-link -->
+Having looked at what lowers BDNF, it's time to turn to what raises it. [**The complete guide to increasing BDNF**](/en/blog/how-to-increase-bdnf-exercise-food-reading-meditation-sleep-evidence-and-duration/) covers the evidence and how long it takes.
+
 In one study, <strong>the brains of mice exposed to stress for a long time came to resemble the brains of mice lacking BDNF</strong> (a nerve-cell growth factor). I recommend finding your own way to lift your mood that effectively lowers the stress you take on from outside.
 
 ## 2) Lack of exercise
@@ -55,3 +58,14 @@ Researchers at **Johns Hopkins** found that BDNF not only handles learning, memo
 When you eat too much sugar, less BDNF, which together with other substances helps form memories, is produced. A moderate amount of sugar releases the neurotransmitter **serotonin**, lifting your mood and relieving stress. But with excessive sugar intake, serotonin is released so often that it's easily depleted, which can not only cause symptoms of depression but also make sugar the worst factor for suppressing BDNF. In the end, it damages **synaptic activity** in the brain and impairs communication between brain cells, disrupting the hormones that send the "I'm full now" signal, so you overeat, which can even lead to weight gain. We knew sugar was bad for our health, but now that we know it also lowers our brain function, I recommend <strong>keeping your sugar intake moderate</strong> from now on.
 
 In the end, the causes of BDNF deficiency were never far from the causes that harm our health. I hope that through <strong>healthy lifestyle habits, eating habits and stress management</strong>, you'll protect a healthy brain where BDNF is released actively.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🌱 **BDNF basics:** [BDNF, Brain-Derived Neurotrophic Factor: What Are You?](/en/blog/bdnf-brain-derived-neurotrophic-factor-what-are-you/)
+> - ⏱️ **Intermittent fasting:** [Intermittent Fasting: A Secret for Those Who Gained Weight Over the Holidays](/en/blog/intermittent-fasting-a-secret-for-those-who-gained-weight-over-the-holidays/)
+
+</aside>
+<!-- related-reads:end -->

@@ -56,6 +56,9 @@ The key is <strong>myokines</strong>. Myokines are signaling molecules released 
 
 If the brain were an old apartment building, <strong>aging would be the cracks in the walls, and substances like myokines and IGF-1 would be the repair crew that fills and fixes them</strong>. Neglecting strength training is like letting the repair crew go, and cognitive decline inevitably speeds up. From your 40s on, the repair crew's role becomes much bigger, which helps explain why the effects of strength training are more pronounced in middle age.
 
+<!-- related-link -->
+Beyond the type of exercise, intensity and duration matter to the brain too. See the evidence for short, hard efforts in [**1-minute high-intensity exercise (HIIE) and brain health**](/en/blog/one-minute-high-intensity-exercise-hiie-brain-health-science/).
+
 If <strong>the gym</strong> strengthens the brain's hardware, books and learning fill in the software. The hardware here is fluid intelligence: <strong>the ability to respond to new problems on the spot and improvise solutions</strong>. <strong>Crystallized intelligence</strong>, by contrast, is the sum of the knowledge and experience built up over a lifetime. When I combined the two, I found that what I read sank in much better after a workout. Better hardware really does make the software run better, and you can feel it.
 
 <strong>In short:</strong> myokines released during muscle work lower chronic inflammation in the brain, acting as a core mechanism by which strength training slows brain aging and cognitive decline.
@@ -88,3 +91,14 @@ To sum up, if you want to use your brain well for a long time, relying on aerobi
 What changed most after I began consistently adding weight training wasn't focus but "the strength not to give up." Only later did I learn that this was a change in executive function that comes from a stronger prefrontal cortex. If you're in your 40s or beyond, I think opening the gym door right now could be the best investment you make in your brain.
 
 Reference: [https://www.youtube.com/watch?v=FdpZLVsyBUo](https://www.youtube.com/watch?v=FdpZLVsyBUo)
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🏃 **The neuroscience of exercise:** [The Exercise Routine a Neuroscientist Found After Living with Anxiety: A Complete Guide to Putting the Brain Science of Exercise into Practice](/en/blog/neuroscientist-anxiety-move-exercise-brain-science-guide/)
+> - 📈 **The compounding of exercise habits:** [Brain Health (Neuroplasticity, Exercise Habits, and the Compound Effect)](/en/blog/brain-health-plasticity-exercise-habits-compound-effect/)
+
+</aside>
+<!-- related-reads:end -->

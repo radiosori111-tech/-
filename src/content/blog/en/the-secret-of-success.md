@@ -56,6 +56,9 @@ First, <strong>I'm reading for at least 10 minutes a day</strong>. Right now I'm
 
 Second, <strong>I've started writing a blog</strong>. I started with an attitude of "let's just do it," so it's not easy, but I'm keeping at it.
 
+<!-- related-link -->
+The idea that belief changes behavior and the body shows up most clearly in placebo research. Continue with [**whether the placebo effect is real**](/en/blog/is-the-placebo-effect-real/).
+
 Third, <strong>I'm exercising for 30 minutes a day</strong>.
 
 Fourth, <strong>I'm trying things I've never done before</strong>. Right now I have a one-year subscription to Class101 and am learning to draw on an iPad.
@@ -73,3 +76,14 @@ I hope you'll become a better you than yesterday, too!
 Let's grow more today than yesterday!!!
 
 - Next post: [Is the placebo effect real? Let's find out](/en/blog/is-the-placebo-effect-real/)
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🎯 **Reaching your goals:** [Three Ways to Achieve Your Goals](/en/blog/three-ways-to-achieve-your-goals/)
+> - 🌀 **Waking up neuroplasticity:** [Wake Up Your Neuroplasticity](/en/blog/wake-up-your-neuroplasticity/)
+
+</aside>
+<!-- related-reads:end -->

@@ -110,6 +110,9 @@ Magnesium moves the scale from both sides. On one side, it sits in the gate of t
 
 Rats fed a magnesium-deficient diet showed more anxious behaviour, and the axis that releases stress hormones of the **cortisol** family (hypothalamus–pituitary–adrenal) became overactive (Sartori et al., **Neuropharmacology**, 2012). In the other direction, stress makes the body lose more magnesium in urine, which can set up a vicious circle: stress, then low magnesium, then even greater sensitivity.
 
+<!-- related-link -->
+To see magnesium in an actual eating plan, [**a carnivore diet and magnesium supplement guide**](/en/blog/post-holiday-reset-carnivore-diet-and-magnesium-guide/) pairs the two after a holiday feast.
+
 In people, one study found that **264** adults with low blood magnesium and high stress had lower stress scores after taking magnesium for 8 weeks (including a group that also took vitamin B6) (Pouteau et al., **PLoS One**, 2018). The study had no placebo group, though, which limits how far it can be read.
 
 #### 🌙 The night-time traffic light: melatonin
@@ -179,6 +182,17 @@ Absorption isn't known to change much with the time of day, so taking it **consi
 ### Q2. Isn't more better? Are there side effects?
 
 Magnesium is not a nutrient where more is better. Going over the supplement upper limit (**350 mg a day**) easily causes diarrhoea, stomach cramps and nausea. People with **reduced kidney function** in particular may not clear magnesium properly, and blood levels can rise dangerously, so always talk to your doctor first. If you take blood pressure medication, diuretics, osteoporosis drugs or antibiotics, ask a pharmacist to check for interactions.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🥦 **Eating to support BDNF:** [Which Foods Are Rich in BDNF? Sulforaphane, Flavonoids, Omega-3 and the Eating Patterns That Protect BDNF, Backed by Research](/en/blog/which-foods-are-rich-in-bdnf/)
+> - 🛡️ **Brain immunity and the gut-brain axis:** [Brain Fog and Chronic Fatigue: Is Brain Immunity the Real Problem? An Anti-Inflammatory Nutrient and Diet Guide for Your Glial Cells and Gut-Brain Axis](/en/blog/brain-fog-chronic-fatigue-brain-immunity-glia-gut-brain-axis/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## 📚 References
 

@@ -67,6 +67,9 @@ What difference does it make to the brain whether you <strong>tell yourself some
 
 From a neuroscientific perspective, what shakes the brain most powerfully is, by far, <strong>the act of speaking aloud (overt speech)</strong>.
 
+<!-- related-link -->
+If words change the brain, why do affirmations so often fall flat? [**Affirmations that actually reach the brain**](/en/blog/why-affirmations-fail-even-after-1000-times-brain-science/) explains the difference.
+
 In the neuroscience of memory, this is called <strong>the production effect</strong>. If <strong>inner speech</strong> mostly stimulates <strong>Broca's area</strong> and <strong>the prefrontal cortex</strong>, the moment you speak aloud, the brain enters an entirely different level of alert. <strong>The motor cortex is recruited</strong> to move your lips and vocal cords, and your own voice, coming back in through your ears, <strong>strongly stimulates the auditory cortex at the same time</strong>.
 
 1. <strong>Language production (Broca's area)</strong>
@@ -99,6 +102,17 @@ Fortunately, the brain has the remarkable property of **neuroplasticity**, the a
 <strong>The words we use every day are not mere vibrations in the air</strong>; they are like <strong>a carving knife that sketches the map of our brain</strong>.
 
 <strong>The words you speak to yourself aloud today will change the structure of your brain tomorrow.</strong>
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🔁 **Emotional reflex circuits:** [What If Repeated Emotional Reactions, Speech Habits and Even Habitual Attitudes Are Reflex Circuits the Brain Has Learned?](/en/blog/emotional-reactions-and-speech-habits-are-learned-reflex-circuits/)
+> - ☁️ **Stepping back from thoughts (ACT):** [Your Thoughts Are Not You: Acceptance and Commitment Therapy (ACT) and the Power of "Cognitive Defusion" Revealed by the Brain](/en/blog/thoughts-are-not-you-act-cognitive-defusion/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## References
 

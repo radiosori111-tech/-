@@ -103,6 +103,9 @@ The message of this experiment is a gentle one. The mark stress leaves on the br
 
 The brain's neural circuits are a lot like the **routes** on a sat-nav. If, every time you fail, you keep travelling the road that leads to "I can't do it," that road gradually widens into a **motorway**. The next time something similar happens, the brain takes that motorway automatically.
 
+<!-- related-link -->
+Like resilience of the mind, the brain has its own resilience. Read about the hippocampus's memory-protecting strength in the [**PLA2G2F study on the hippocampus's backup generator**](/en/blog/the-brains-backup-generator-enzyme-pla2g2f-memory-resilience/).
+
 But just as a sat-nav **recalculates a new route** around a blocked road, the brain can lay new roads too. As in **Hebb's rule**, "neurons that fire together wire together," repeating the thought "what could I change this time?" gradually widens a circuit that started as a narrow path. This ability of circuits to rewire with experience is called **neuroplasticity**. Training resilience, in the end, means **adding more route options** the brain can choose from when hardship strikes.
 
 ### 4. The sense that "I can stop this" protects the brain
@@ -164,6 +167,17 @@ It is true that genes and early environment play a part. But as the Kauai study 
 ### Q2. Do resilient people not feel painful emotions?
 
 No. Resilience isn't the ability not to feel sadness or anxiety; it's the ability to feel those emotions fully and then **come back**. Simply suppressing painful emotions can actually slow recovery. Acknowledging and naming your feelings, and asking for help when you need it, are also an important part of resilience.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - ☁️ **Stepping back from thoughts (ACT):** [Your Thoughts Are Not You: Acceptance and Commitment Therapy (ACT) and the Power of "Cognitive Defusion" Revealed by the Brain](/en/blog/thoughts-are-not-you-act-cognitive-defusion/)
+> - 🌬️ **Breathing and arousal:** [Your Breath Is Your Brain's Switch: The Neuroscience of Turning Down Anxiety and Turning Up Focus, in 5 Minutes a Day](/en/blog/breath-is-your-brains-switch/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## 📚 References
 

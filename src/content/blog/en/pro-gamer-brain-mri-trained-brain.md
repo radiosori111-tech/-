@@ -110,6 +110,20 @@ For the brain to change, it needs <strong>not repetition, but purposeful repetit
 
 Reference: [https://www.sciencetimes.co.kr/nscvrg/view/menu/248?searchCategory=220&nscvrgSn=262503](https://www.sciencetimes.co.kr/nscvrg/view/menu/248?searchCategory=220&nscvrgSn=262503)
 
+<!-- related-link -->
+How training changes the brain ties into the brain's body-centered coordinate system. Read [**exercise and learning through the brain's coordinate systems**](/en/blog/brain-coordinate-systems-exercise-and-learning/).
+
 > <strong>⚠️ About the author's views, and a note for readers</strong>
 >
 > This post reframes press materials and related articles on a recent neuroscience journal paper (Scientific Reports) through the author's personal practice and perspective. The effects of neuroplasticity and attention training can differ depending on each person's physical and mental condition and environment. The training habits and cognitive approaches introduced here are general self-improvement guidance and cannot replace treatment for attention deficit (ADHD) or related neurological conditions. If you have a health condition or need professional treatment, please be sure to consult a medical professional.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 💡 **Changing how you think:** [A Ceramic Engineering Problem Unsolved for Years: Why Did a Seoul National University Professor Crack It in Three Weeks?](/en/blog/ceramic-problem-unsolved-for-years-solved-in-three-weeks-flow/)
+> - 🏋️ **Aerobic vs. strength training:** [Was Muscle the Real Culprit Behind Weak Willpower? How Aerobic and Strength Training Change the Brain Differently](/en/blog/weak-willpower-muscle-aerobic-vs-strength-training/)
+
+</aside>
+<!-- related-reads:end -->

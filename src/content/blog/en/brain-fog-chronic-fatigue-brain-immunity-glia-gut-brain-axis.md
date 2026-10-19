@@ -112,6 +112,9 @@ The root cause that sends the brain's immune police, the **microglia**, into ove
 
 As we age or remain exposed to chronic inflammation for a long time, **microglia** fall into a state of being always slightly activated, called <strong>microglial priming</strong>.
 
+<!-- related-link -->
+If the gut-brain axis is tied to a clear head, the antibodies that protect the gut deserve a look: [**gut-protecting IgA antibodies and the brain**](/en/blog/iga-antibodies-gut-brain-connection/).
+
 In this state, even very small stresses or a mild cold virus can send microglia into overdrive and trigger brain inflammation. The reason forgetfulness worsens and we become more vulnerable to stress with age is this <strong>loss of the brain's immune reset point</strong>, and correcting it is the key to keeping the brain young.
 
 ## 7. Five key nutrients that lower brain inflammation
@@ -203,6 +206,17 @@ Unexplained mental fatigue and brain fog are not the result of weak willpower. T
 The way to regain a clear mind and sharp focus is simple. Instead of relying on caffeine or stimulants that force the brain awake, you need to send signals that <strong>repair the gut lining and switch off chronic inflammation in the brain</strong>.
 
 Starting today, eat a diet rich in glutamine, cut back on refined sugar, and get 7 hours of deep sleep. Small changes in eating habits and lifestyle will revive your gut, calm your glial cells, and bring back days that shine clearly again.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 💆 **The brain's drain and lymphatic massage:** [Face and Neck Lymphatic Massage Was More Than Skin Care: A Plain-Language Guide to the Brain's Drain, "Arachnoid Fenestrations," Revealed in a New IBS Paper in Cell, and Everyday Habits That Help Clear Brain Waste](/en/blog/face-and-neck-lymphatic-massage-arachnoid-fenestration-brain-drain/)
+> - 🧹 **Brain immune cells and dementia:** [A New Path for Dementia Treatment (Brain Immune Cells, the GAP Pathway, Hormesis)](/en/blog/new-path-for-dementia-treatment-gap-pathway-hormesis/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## References
 

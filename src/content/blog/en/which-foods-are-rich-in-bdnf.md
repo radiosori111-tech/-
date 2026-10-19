@@ -136,7 +136,21 @@ BDNF itself is a protein, so when you swallow it, it gets digested and broken do
 
 It did in mice, but in people results vary from study to study, so **it isn't clear yet**. Weigh intermittent fasting alongside other goals such as weight or blood-sugar control, and if you have diabetes or take medication, talk to your doctor first.
 
+<!-- related-link -->
+If calorie control and intermittent fasting caught your interest, [**a hands-on account of intermittent fasting**](/en/blog/intermittent-fasting-a-secret-for-those-who-gained-weight-over-the-holidays/) tells how it went after a holiday feast.
+
 ---
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🌱 **Ways to raise BDNF:** [How to Increase BDNF: Exercise, Food, Reading, Meditation, Sleep and Sunlight — the Evidence, and How Long It Takes to Change Your Brain](/en/blog/how-to-increase-bdnf-exercise-food-reading-meditation-sleep-evidence-and-duration/)
+> - 💊 **Magnesium absorption:** [Why the Same Magnesium Works Differently: Organic Salts, Inorganic Salts, Chelates, and the Science of Glutathione, Memory and Metabolism](/en/blog/magnesium-bioavailability-organic-chelate-glutathione-memory/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## 📚 References
 

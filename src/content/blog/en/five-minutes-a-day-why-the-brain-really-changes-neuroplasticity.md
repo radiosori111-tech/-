@@ -69,6 +69,9 @@ An English education expert said it's important to work through a set amount of 
 
 This method reportedly doesn't rely only on personal experience or hunches but draws on the teaching methods of language experts in Korea and abroad along with brain-science research. The explanation was that <strong>repeating a set amount every day is far more likely to move into long-term memory than cramming all at once</strong>.
 
+<!-- related-link -->
+How long must a small habit continue before it runs on its own? Read about [**the 66-day habit formation study**](/en/articles/habit-66-days/), where the median came out at 66 days.
+
 This principle doesn't apply only to studying English. <strong>Whether it's exercise, reading or a new habit, the shared message from many experts was that setting a small daily amount and filling it in every day ends up taking you much further than occasionally doing a lot at once</strong>.
 
 ![](/images/blog/200fe3c620/03.webp)
@@ -100,3 +103,14 @@ For example, <strong>I recommend starting with goals so small they're hard to fa
 It takes less time than you might think for one small habit to change your brain. Today, choose just one thing and start.
 
 <strong>If you want to start growing every day with habits grounded in brain science, one at a time from today, please give this post a heart.</strong>
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 📈 **The compounding of exercise habits:** [Brain Health (Neuroplasticity, Exercise Habits, and the Compound Effect)](/en/blog/brain-health-plasticity-exercise-habits-compound-effect/)
+> - 🌀 **Waking up neuroplasticity:** [Wake Up Your Neuroplasticity](/en/blog/wake-up-your-neuroplasticity/)
+
+</aside>
+<!-- related-reads:end -->

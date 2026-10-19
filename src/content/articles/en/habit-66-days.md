@@ -79,6 +79,9 @@ When you first do a new behavior, the **prefrontal cortex**, which handles plann
 
 The key word here is **situation**. A habit isn't stored as a behavior alone; it is bundled together with the place, the time, and the action that comes right before it. That is why a behavior tied to a fixed situation, like "after breakfast," becomes automatic faster than exercising at a different time each day.
 
+<!-- related-link -->
+If the situation you repeat matters more than the number of days, how small can the daily dose be? [**Why a 5-minute daily habit changes neuroplasticity**](/en/blog/five-minutes-a-day-why-the-brain-really-changes-neuroplasticity/) continues the story of small repetitions.
+
 ## Today's practice
 
 1. **Drop the time-based goal and choose a situation.** Instead of "for 21 days," attach the new behavior to something that happens every day without fail, like "right after I brew my morning coffee."
@@ -86,6 +89,17 @@ The key word here is **situation**. A habit isn't stored as a behavior alone; it
 3. **Start almost laughably small.** What builds automaticity is not the size of the behavior but the number of repetitions. Two push-ups is fine.
 4. **If you miss a day, come back the very next day.** A single slip doesn't break the curve. What breaks it is stopping for days because you think "I've already blown it."
 5. **Judge after two months.** If it's still hard in week three, you haven't failed; you're simply on the early part of the curve.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🗓️ **Why plans last three days:** [Why Diets and Savings Plans Last Only Three Days: It Wasn't Your Willpower](/en/blog/why-diets-and-savings-plans-last-three-days-identity-based-motivation/)
+> - 🧩 **BDNF, the aMCC and sticking with plans:** [If Your Resolutions Keep Lasting Three Days, Start With BDNF and the aMCC, Not Willpower](/en/blog/three-day-resolutions-use-bdnf-and-the-amcc-before-willpower/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## References
 

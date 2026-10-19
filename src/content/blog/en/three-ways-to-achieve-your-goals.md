@@ -57,6 +57,9 @@ When your thoughts change, your actions change; when your actions change, your h
 
 I've already covered **neuroplasticity** in an earlier post, but when you keep up focused, sustained effort in one area, the nerve cells in that area increase and their bonds grow stronger. When we do or learn something new, new **synaptic connections** form, carving new paths into unknown territory in the brain. In other words, the brain has the property of physically changing, like plastic, depending on our environment and actions. To change something by working with this property of the brain, think "I can," "I'm able to," and keep up focused, sustained effort, and a lifestyle habit will form. We inherit about **20,000 genes** from our parents, but there are about **200 trillion connection points between neurons**, a difference of roughly 100 million times. That means <strong>our potential to change things after birth is 100 million times greater than what we're born with</strong>. Let's lead our brains in the direction we want.
 
+<!-- related-link -->
+If your plans are moving slower than you hoped, it helps to know how long habits actually take to settle in. Read about [**the 66-day habit formation study**](/en/articles/habit-66-days/).
+
 "The fact that the **hippocampus** grows and becomes physically larger through learning means the brain can change; in other words, it has good plasticity. Today, researchers are beginning to understand why the hippocampus grows when trainee taxi drivers learn the streets of London. When you drive in an unfamiliar environment without GPS, both the hippocampus and the **frontal lobe** are activated. The hippocampus is important for memory and spatial awareness, and the frontal lobe is important for making decisions. (…) But when you follow directions (…) while looking at GPS, the hippocampus and frontal lobe aren't activated. That's because the brain, to save energy, doesn't waste effort on what it doesn't need. This means that if we don't use some of our mental abilities, we may lose them."
 
 Evidence for neuroplasticity: Anders Hansen, *Insta-Brain*
@@ -77,3 +80,14 @@ I hope you achieve every goal you've set for 2023 by putting to work <strong>pos
 
 ![A photo of a to-do list written to achieve my goals](/images/blog/67c0d03b2e/01.webp)
 *A photo of a to-do list written to achieve my goals*
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🔑 **The secret of success:** [The Secret of Success](/en/blog/the-secret-of-success/)
+> - 🗓️ **Why plans last three days:** [Why Diets and Savings Plans Last Only Three Days: It Wasn't Your Willpower](/en/blog/why-diets-and-savings-plans-last-three-days-identity-based-motivation/)
+
+</aside>
+<!-- related-reads:end -->

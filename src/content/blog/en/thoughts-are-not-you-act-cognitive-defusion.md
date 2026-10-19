@@ -59,6 +59,9 @@ So what is the real way to break the loop of negative thoughts? Acceptance and C
 
 Our brain, and especially the <strong>amygdala</strong>, which handles primitive emotions, <strong>can't perfectly tell verbal imagination from reality.</strong>
 
+<!-- related-link -->
+Why practice stepping back from thoughts? It makes more sense once you see how emotional reactions are stored as circuits. Read [**repeated emotional reactions and the brain's reflex circuits**](/en/blog/emotional-reactions-and-speech-habits-are-learned-reflex-circuits/).
+
 The moment a thought like "I'm a failure" pops into your head, if <strong>you and the thought are fused</strong>, the amygdala perceives it not as a mere idea but as <strong>"a real emergency."</strong> As a result, the autonomic nervous system is stimulated, and the stress hormones **cortisol** and **adrenaline** pour into the bloodstream.
 
 <strong>Cognitive fusion: thought = reality</strong>
@@ -102,6 +105,17 @@ We are not "the thoughts themselves" that we have, but the "vast observer" (self
 When I forced myself to "think positive," I felt resistance rise inside me. But simply naming the thought, "Ah, my brain is sounding the alarm again," noticeably eased the tightness in my chest.
 
 Anxiety is not an enemy that has to disappear. Even with fear riding along as an uninvited passenger, we can still turn the wheel toward the life we want. Tonight, try gently setting the thoughts drifting in your mind down on a sheet of paper.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🌬️ **Breathing and arousal:** [Your Breath Is Your Brain's Switch: The Neuroscience of Turning Down Anxiety and Turning Up Focus, in 5 Minutes a Day](/en/blog/breath-is-your-brains-switch/)
+> - 👀 **Observing your day:** [What Changed When I Started "Observing" My Day: Quantum Entanglement](/en/blog/what-changed-when-i-started-observing-my-day-quantum-entanglement/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## References
 

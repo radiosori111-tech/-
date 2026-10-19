@@ -79,6 +79,9 @@ The second thing I tried that had a fairly clear effect was <strong>"30 seconds 
 
 In my experience, this is the different part. <strong>Trying to change the brain with willpower is like trying to fix the brain using that very same brain.</strong> There's a concept called neuroplasticity. <strong>Neuroplasticity means that the connections between the brain's neurons can be physically reshaped by experience and environment.</strong> The key point is that <strong>it is "physical stimulation," not "thinking," that changes the brain</strong>.
 
+<!-- related-link -->
+If you worry that moving on a tired day will only wear you out more, read [**how exercise wakes the brain when you're exhausted**](/en/blog/already-exhausted-will-exercise-make-me-more-tired/).
+
 Optogenetics is the technology that tackles exactly this point head-on: switching specific neural circuits on and off directly with a physical stimulus, light. During a period when I was struggling with lethargy and tension, I too spent months trying to change my thinking, only to end up even more exhausted. Seeing the news of this Nobel Prize, I was reminded once again that, in brain-science terms, that failure was entirely to be expected.
 
 Of course, optogenetic treatment isn't available in hospitals yet. It is currently at the stage of verifying the safety of gene therapy and optical fiber implantation, and research is moving toward refining existing deep brain stimulation ([Source: The Nobel Prize official website](https://www.nobelprize.org)). But the fact that its principle is already woven into everyday wellness routines is something entirely practical.
@@ -114,3 +117,14 @@ The 2026 Nobel Prize in Physiology or Medicine wasn't just science news to me. I
 The brain is not something you persuade with willpower. Just as channelrhodopsin opens its ion channel when it receives light, our daily routines are acts that send physical signals to brain circuits. Change your environment before you try to change your thoughts: that is how I got out of burnout, and it is also the principle optogenetics has proven. This morning, I'd encourage you to simply step outside for 10 minutes.
 
 Reference: [https://www.chosun.com/medical/2026/10/06/C2QQIMRXI5DQ5GTOOZH4K2WV3E/](https://www.chosun.com/medical/2026/10/06/C2QQIMRXI5DQ5GTOOZH4K2WV3E/)
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🌳 **15 minutes in nature:** [Nature as Healing, Through Brain Science: Why a 15-Minute Habit Reboots Your Brain](/en/blog/nature-heals-the-brain-15-minute-habit/)
+> - 🌬️ **Breathing and arousal:** [Your Breath Is Your Brain's Switch: The Neuroscience of Turning Down Anxiety and Turning Up Focus, in 5 Minutes a Day](/en/blog/breath-is-your-brains-switch/)
+
+</aside>
+<!-- related-reads:end -->

@@ -65,6 +65,9 @@ Finally, gradually build from walking in place to a light jog, loosening your bo
 
 When many people think of warming up, they picture static stretching first: extending a leg and holding a long stretch. But right before running, it's actually the opposite. Holding muscles in a stretch for a long time is known to temporarily lower your explosive strength and reaction speed.
 
+<!-- related-link -->
+With the warm-up sorted, it's time to run. [**10 minutes of running and BDNF: how to start**](/en/blog/bdnf-just-10-minutes-of-running-changes-the-brain-how-to-start/) is written for first-time runners.
+
 Static stretching is said to be more effective <strong>after dynamic stretching, which loosens your joints through movement</strong>, or as part of your cool-down after running, rather than while your body is still cold. Simply changing the order greatly reduces your risk of injury, so be sure to remember it.
 
 ![](/images/blog/acddf6e03f/04.webp)
@@ -100,3 +103,14 @@ Running isn't an exercise that just uses your leg muscles; it's a single flow fr
 Simply following the order I've introduced today will make running feel much more comfortable. One small habit can be the surest way to keep running consistently.
 
 <strong>If you'd like to keep getting running tips that look after your brain health, be sure to follow along!</strong>
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 👟 **Knee pain for new runners:** [Running for Brain Health: A Beginner's Knee Pain May Come From Shoes That Don't Fit Your Arch](/en/blog/running-for-brain-health-beginner-knee-pain-and-the-wrong-shoes-for-your-arch/)
+> - 👟 **Running shoes by arch type:** [Flat Feet, High Arches, Normal Arches: How to Choose Running Shoes for Your Foot Arch](/en/blog/flat-feet-high-arches-normal-arches-how-to-choose-running-shoes/)
+
+</aside>
+<!-- related-reads:end -->

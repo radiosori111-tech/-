@@ -65,6 +65,9 @@ The same tone of voice popping out every time you're irritated, or biting your n
 
 We often say someone "is just like that," but from a brain-science perspective, much of that <strong>attitude</strong> is closer to the result of <strong>reflex responses repeated over a long time</strong>. The person who raises their voice first when angry and the person who laughs off even hard situations each have response patterns they've repeated countless times.
 
+<!-- related-link -->
+If emotional reactions are reflex circuits the brain has learned, there is also a way to practice stepping back from them: [**acceptance and commitment therapy (ACT) and cognitive defusion**](/en/blog/thoughts-are-not-you-act-cognitive-defusion/).
+
 That's also why changing your attitude is so hard. It's not simply a matter of pulling yourself together; you have to fight neural circuits that have already hardened. Put the other way, <strong>the very fact that the circuits were built by repetition is also hope that they can be changed again through repetition</strong>.
 
 ## The key to changing automatic responses: a 0.1-second gap before you react
@@ -86,3 +89,14 @@ In the end, <strong>the surest way to erase an old reflex is to fill its place w
 Attitudes aren't formed overnight, and they don't change overnight. But simply realizing that your reactions so far were reflexes built by repetition may give you room to make a slightly different choice the next time that moment comes.
 
 <strong>If you'd like to keep getting stories about brain science in everyday life, be sure to follow along!</strong>
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 💬 **Words and neuroplasticity:** [One Word Can Rewire Your Brain: The Neuroscience of Neuroplasticity and Speech Habits](/en/blog/one-word-rewires-the-brain-neuroplasticity-and-speech-habits/)
+> - ⏪ **Why we repeat regrets:** [If You Keep Doing Things You Regret, Your Brain Had Already Acted First](/en/blog/if-you-keep-doing-things-you-regret-the-brain-acted-first/)
+
+</aside>
+<!-- related-reads:end -->

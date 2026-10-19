@@ -47,6 +47,9 @@ Learned helplessness is the state in which, after being exposed to an aversive s
 
 In a way, the book can be difficult, since it covers the history and experiments of neuroscience as it relates to pain, but through it you learn about how to live.
 
+<!-- related-link -->
+If belief has a way of reaching the body, the words you tell yourself have their own way of reaching the brain. See [**affirmations that actually reach the brain**](/en/blog/why-affirmations-fail-even-after-1000-times-brain-science/).
+
 If you feel right now that something hurts, your first reaction shouldn't simply be to get scared and afraid; you should take the attitude, "Ah, this is to protect my body, so I'll look after it from now on."
 
 <strong>In life, "expectation and hope" are what move our brains and change them.</strong>
@@ -60,3 +63,14 @@ I'll end with something a YouTuber said:
 (I've only read a third of the book so far.)
 
 ![](/images/blog/babdbca233/01.webp)
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🔑 **The secret of success:** [The Secret of Success](/en/blog/the-secret-of-success/)
+> - 💬 **Words and neuroplasticity:** [One Word Can Rewire Your Brain: The Neuroscience of Neuroplasticity and Speech Habits](/en/blog/one-word-rewires-the-brain-neuroplasticity-and-speech-habits/)
+
+</aside>
+<!-- related-reads:end -->

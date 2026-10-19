@@ -73,6 +73,9 @@ So failing to resist a late-night snack, or putting off a task yet again, isn't 
 
 When the brain makes an energy-saving choice, it factors in only the comfort right in front of it. What that choice will lead to in a few days or weeks isn't weighed much in that moment's calculation. So you feel comfortable at the moment of choosing, and regret only floods in later, when you see you've drifted from your goal.
 
+<!-- related-link -->
+Knowing the brain tries to save energy, you may also like another explanation for plans that fizzle out: [**why quitting after three days isn't about willpower**](/en/blog/why-diets-and-savings-plans-last-three-days-identity-based-motivation/).
+
 It's easiest to understand as two systems in the brain working differently. A system that seeks immediate comfort and a system that calculates long-term goals run separately and clash. Because the immediate, energy-saving system generally reacts first and more strongly, the side in charge of long-term goals sends its signal, regret, only belatedly.
 
 Once you understand this structure, instead of beating yourself up every time you feel regret, you can change your environment so the brain can make good choices while using less energy in the first place.
@@ -99,3 +102,14 @@ When you've put something off again or failed to resist something you meant to r
 Of course, that doesn't mean you should blame every choice on your brain and give up. But rather than berating yourself, designing your environment and habits so the brain moves in a good direction while still saving energy is a far more realistic and sustainable approach. Simply lowering small barriers, cutting down on decisions and keeping your body's energy well topped up can noticeably reduce how often you make choices you'll regret.
 
 <strong>If you've been beating yourself up over willpower, save this post about the brain's energy-saving habit or share it with someone wrestling with the same thing.</strong>
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - ⏪ **Why we repeat regrets:** [If You Keep Doing Things You Regret, Your Brain Had Already Acted First](/en/blog/if-you-keep-doing-things-you-regret-the-brain-acted-first/)
+> - 🔌 **Burnout and the brain's switches:** [For Anyone Who Burned Out Running on Willpower: The Brain Needs a Switch, Not Persuasion](/en/blog/burnout-the-brain-needs-a-switch-not-persuasion/)
+
+</aside>
+<!-- related-reads:end -->

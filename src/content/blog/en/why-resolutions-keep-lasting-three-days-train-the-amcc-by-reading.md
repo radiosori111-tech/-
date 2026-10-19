@@ -67,6 +67,9 @@ Videos and social media are designed so that short stimuli switch quickly, letti
 
 The key is the repetition of bringing your attention back to the sentence each time your focus wanders while reading. You can think of the process of "drifting into other thoughts and coming back to the book" as aMCC training in itself. The effect is greater with a book that takes a little concentration than with one so fun it reads itself.
 
+<!-- related-link -->
+Besides reading, BDNF can also help train the aMCC. How to use the two together is in [**using BDNF and the aMCC to stick with plans**](/en/blog/three-day-resolutions-use-bdnf-and-the-amcc-before-willpower/).
+
 More important than paper versus e-book is **uninterrupted reading time**. If you read in fits and starts with notifications going off, your brain has to spend that much more energy getting back into a state of immersion, so the key is securing time without interruptions, even if it's short.
 
 ![](/images/blog/1349be7967/03.webp)
@@ -98,3 +101,14 @@ Above all, <strong>just sitting in the same spot at the same time every day</str
 Rather than aiming to finish a thick book today, how about <strong>starting by reading for just 10 minutes without interruption</strong>? As those small repetitions add up, you may feel your focus change sooner than you expect.
 
 <strong>Save this post on building the frontal lobe and aMCC through reading if you'd like to come back to it later.</strong>
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🗓️ **Why plans last three days:** [Why Diets and Savings Plans Last Only Three Days: It Wasn't Your Willpower](/en/blog/why-diets-and-savings-plans-last-three-days-identity-based-motivation/)
+> - 🌱 **BDNF basics:** [BDNF, Brain-Derived Neurotrophic Factor: What Are You?](/en/blog/bdnf-brain-derived-neurotrophic-factor-what-are-you/)
+
+</aside>
+<!-- related-reads:end -->

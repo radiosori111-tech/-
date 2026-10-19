@@ -63,6 +63,9 @@ Take dieting as an example. Someone who resolves "I have to work out today" and 
 
 This approach is called identity-based habits. Rather than reaching the goal first, you <strong>first decide to become the kind of person who fits the identity you want</strong>, then attach the behaviors. The same goes for affirmations: present-tense sentences such as "I am this kind of person" are known to imprint more strongly on the brain than "I will become like this."
 
+<!-- related-link -->
+For affirmations to reach the brain, it helps to know how words change it in the first place. Read [**the neuroscience of how words rewire the brain**](/en/blog/one-word-rewires-the-brain-neuroplasticity-and-speech-habits/).
+
 With each small success that builds up, the brain gradually starts accepting that identity as fact, and the self-image that hardens this way drives the next action, creating a cycle.
 
 ## How the brain builds the future in advance
@@ -90,3 +93,14 @@ When this process of writing and checking repeats for a few days, the brain begi
 If you felt affirmations didn't work, it was most likely a problem of method, not of your brain. Rather than changing a single phrase, steadily building, day by day, a self that fits those words may ultimately be the faster path.
 
 <strong>If you'd like to keep getting self-improvement tips grounded in affirmations and brain science, be sure to follow along!</strong>
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🧪 **The placebo effect:** [Is the Placebo Effect Real? Let's Find Out](/en/blog/is-the-placebo-effect-real/)
+> - ⏳ **A 5-minute daily habit:** [A Five-Minute Daily Habit: The Real Reason Your Brain Changes Is Neuroplasticity](/en/blog/five-minutes-a-day-why-the-brain-really-changes-neuroplasticity/)
+
+</aside>
+<!-- related-reads:end -->

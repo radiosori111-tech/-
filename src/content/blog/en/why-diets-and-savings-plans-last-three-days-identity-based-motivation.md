@@ -68,6 +68,9 @@ People who take the first view see difficulty as a sign they're getting closer t
 
 Another pillar of identity-based motivation theory is identity-congruent strategy. Even for the same goal, the way you pursue it has to fit your disposition if you're going to keep it up.
 
+<!-- related-link -->
+If quitting after three days is a brain issue rather than a character flaw, the regions and molecules involved are worth knowing. See [**using BDNF and the aMCC to stick with plans**](/en/blog/three-day-resolutions-use-bdnf-and-the-amcc-before-willpower/).
+
 If you enjoy being around people, a shared strategy such as group runs or a study group may suit you far better than working out alone at the gym. Conversely, forcing group activities on someone who's comfortable spending time alone can crush their motivation.
 
 In the end, the practical message of this theory is that sustainable methods differ from person to person even for the same goal, and a method only takes root as a habit when it fits your identity.
@@ -93,3 +96,14 @@ Simply changing your perspective can change your attitude toward the same goal. 
 In the end, what matters may not be how fiercely you steel yourself, but how closely the goal connects with who you are now. Whatever goal you set next, it may help to ask yourself, at least once, whether it's connected to the person you really are.
 
 <strong>When you apply identity-based motivation theory to your own goals, what comes to mind? Leave your thoughts in the comments.</strong>
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🧠 **How long habits really take:** [Does It Really Take 21 Days to Build a New Habit?](/en/articles/habit-66-days/)
+> - 🔋 **The energy-saving brain:** [Why You Keep Giving Up on Diets and Put-Off Tasks: It Wasn't Willpower, It Was a Brain That Uses 20% of the Body's Energy](/en/blog/why-we-give-up-diets-and-tasks-the-brain-uses-20-percent-of-energy/)
+
+</aside>
+<!-- related-reads:end -->

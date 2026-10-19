@@ -70,6 +70,9 @@ Even if two people's days are the same 24 hours, the density and depth of that t
 
 There's a measure called glycated hemoglobin (HbA1c). It reflects your average blood sugar over the past two to three months, showing not a single day's blood sugar but "the result of accumulated time." Brain health is similar. One workout today won't change anything right away, but as those days add up, they show up plainly in an MRI.
 
+<!-- related-link -->
+The compounding of an exercise habit starts with small repetitions. See [**why a 5-minute daily habit changes the brain**](/en/blog/five-minutes-a-day-why-the-brain-really-changes-neuroplasticity/) for how to start small.
+
 Research has found that forming a habit takes 66 days on average. During those 66 days, the brain treats it as a new stimulus every day, so it takes conscious effort each time. But once you pass that tipping point, the brain begins processing exercise not as an "option" but as the "default." And that one default becomes a stepping stone to other good habits. In my case, once morning running took hold, I naturally started paying attention to my sleep and diet, too. One success expands into the next.
 
 <strong>In short:</strong> the difference in the density of time that an exercise habit creates grows like compound interest, and 66 days of repetition is the tipping point that changes the brain's default.
@@ -99,3 +102,14 @@ Research shows it takes 66 days on average. Contrary to the commonly cited 21 da
 At first, it starts with overcoming what you don't want to do. That small achievement changes the density of your day, and as that density accumulates, it shows up as a different picture on an MRI five or ten years later. Rather than relying on willpower, design one small routine: that's the method I've tested through experience. Starting with just 2 km right now is enough.
 
 Reference: [https://www.youtube.com/watch?v=_b7Ua3uZiZs](https://www.youtube.com/watch?v=_b7Ua3uZiZs)
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🏃 **Walking that grows the hippocampus:** [A Year of Walking Made the Hippocampus Grow](/en/articles/exercise-hippocampus/)
+> - 🏋️ **Aerobic vs. strength training:** [Was Muscle the Real Culprit Behind Weak Willpower? How Aerobic and Strength Training Change the Brain Differently](/en/blog/weak-willpower-muscle-aerobic-vs-strength-training/)
+
+</aside>
+<!-- related-reads:end -->

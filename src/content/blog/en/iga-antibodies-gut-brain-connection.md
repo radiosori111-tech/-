@@ -158,7 +158,21 @@ Effort spent simply taking in knowledge can't develop a clear brain on its own. 
 
 Whether you choose a balanced diet, a carnivore diet, or a ketogenic diet, the core is the same: guard the gut lining's immunity (IgA) to keep toxins from flowing into the bloodstream, and protect the blood-brain barrier (BBB) to shut down brain inflammation.
 
+<!-- related-link -->
+If gut immunity is linked to the brain, what do the brain's own immune cells do? Continue with [**brain immunity, glial cells and an anti-inflammatory diet**](/en/blog/brain-fog-chronic-fatigue-brain-immunity-glia-gut-brain-axis/).
+
 Using the scientific principles and food lists introduced today, start a gut-care diet that fits your own lifestyle. You may find the brain fog weighing on your head lifting, and your brain's potential rising to its peak.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🥦 **Eating to support BDNF:** [Which Foods Are Rich in BDNF? Sulforaphane, Flavonoids, Omega-3 and the Eating Patterns That Protect BDNF, Backed by Research](/en/blog/which-foods-are-rich-in-bdnf/)
+> - 💆 **The brain's drain and lymphatic massage:** [Face and Neck Lymphatic Massage Was More Than Skin Care: A Plain-Language Guide to the Brain's Drain, "Arachnoid Fenestrations," Revealed in a New IBS Paper in Cell, and Everyday Habits That Help Clear Brain Waste](/en/blog/face-and-neck-lymphatic-massage-arachnoid-fenestration-brain-drain/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## References
 

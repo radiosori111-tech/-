@@ -78,6 +78,9 @@ If you simply try to hold back a bad habit, the brain feels intense stress. When
 
 You need to give the brain <strong>strong positive reinforcement right after exercise</strong>. Like me, posting your workout log to an Instagram account every day is a big motivator.
 
+<!-- related-link -->
+To understand how exercise changes the reward circuit, it helps to know what dopamine actually does. Read [**dopamine and reward prediction error**](/en/articles/dopamine-prediction/) alongside this.
+
 Using the Runday app to check your total distance since you started running, or your total distance for the month, is another good way to keep a record of your successes.
 
 - <strong>How:</strong> right after a sweaty run, jot down in a notes app the bad habit you broke today and the workout you completed. The boost to self-esteem from "I controlled my impulse" works as a second dopamine reward.
@@ -97,3 +100,14 @@ The red and yellow areas in the image show dopamine D2 receptors working activel
 When intense, excessive dopamine release (drugs, Shorts and Reels, provocative media and so on) continues, the brain protects itself by reducing the number of dopamine D2 receptors (downregulation).
 
 In the image <strong>you can see the red and yellow areas shrink sharply while the blue and dark areas grow</strong>. This signals a state of tolerance in which <strong>dopamine receptors have dulled</strong>, so you feel <strong>no satisfaction</strong> from ordinary stimuli and demand ever stronger stimulation.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - ⏪ **Why we repeat regrets:** [If You Keep Doing Things You Regret, Your Brain Had Already Acted First](/en/blog/if-you-keep-doing-things-you-regret-the-brain-acted-first/)
+> - 🏃 **The neuroscience of exercise:** [The Exercise Routine a Neuroscientist Found After Living with Anxiety: A Complete Guide to Putting the Brain Science of Exercise into Practice](/en/blog/neuroscientist-anxiety-move-exercise-brain-science-guide/)
+
+</aside>
+<!-- related-reads:end -->

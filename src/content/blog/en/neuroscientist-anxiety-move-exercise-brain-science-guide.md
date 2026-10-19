@@ -72,6 +72,9 @@ The book explains that repeating even short bouts of high-intensity interval exe
 
 The book explains that exercise can also help when you feel scattered and can't concentrate. Exercise increases the release of neurotransmitters such as **dopamine** and **norepinephrine**, which activate the brain areas in charge of attention and executive function.
 
+<!-- related-link -->
+Alongside exercise, another handle on anxiety is your breath. Try [**the 5-minute breathing habit that calms anxiety and sharpens focus**](/en/blog/breath-is-your-brains-switch/) as well.
+
 It's also interesting that the effect can differ depending on when in the day you exercise. Moving in the morning has a longer-lasting effect on that day's focus and mood. Building a routine of loosening up, even briefly, before study or work is presented as one of the practices.
 
 ## For low mood, walking in nature works twice as well
@@ -104,3 +107,14 @@ After reading this, I too shifted from grand exercise plans to moving my body fo
 *Move!* is worth reading for anyone dealing with anxiety, poor focus or lethargy. Instead of trying to start exercising with some grand resolution, I hope you'll start by moving your body for just six minutes today.
 
 <strong>If the practices from this book helped you, please give the post a heart.</strong>
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🏃 **Walking that grows the hippocampus:** [A Year of Walking Made the Hippocampus Grow](/en/articles/exercise-hippocampus/)
+> - 🏋️ **Aerobic vs. strength training:** [Was Muscle the Real Culprit Behind Weak Willpower? How Aerobic and Strength Training Change the Brain Differently](/en/blog/weak-willpower-muscle-aerobic-vs-strength-training/)
+
+</aside>
+<!-- related-reads:end -->

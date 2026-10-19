@@ -57,6 +57,9 @@ Conversely, there are concerns that a lack of BDNF can deepen depression and let
 
 Walking and stretching are of course good for the body, but the consensus is that **aerobic exercise that raises your heart rate** to a certain level stimulates BDNF release more reliably. As you use your muscles while running, blood flow speeds up, and in the process the supply of blood and oxygen to the brain increases too. When this stimulation repeats, the brain is said to respond by making its own nerve cells sturdier.
 
+<!-- related-link -->
+If you've just started running, there's something to take care of before speed. Read [**the 5-minute warm-up before and after a run**](/en/blog/skip-the-5-minute-warm-up-and-cool-down-and-you-halve-runnings-brain-benefits/) so your brain and joints both have an easier time.
+
 Various sources on dementia prevention also say the preventive effect is greater when you combine exercise that raises your heart rate rather than simply walking. Some explain that the effect doubles when you add ways of using body and mind together, such as listening to an audiobook while running or changing your route. In the end, many sources commonly stress that <strong>consistency is the key</strong>.
 
 ## It's fine if you can't run fast: slow jogging
@@ -80,3 +83,14 @@ These days you often see running crews jogging in groups along the Han River or 
 You don't need to join a crew from the start. Simply choosing a nearby park and going out on set days at a set time is enough to build the habit. Whether it's for your brain or your stamina, I hope you'll remember that what matters isn't a grand plan but <strong>the small act of putting on your shoes and heading out today</strong>.
 
 ![](/images/blog/bd5b44eaf1/03.webp)
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🌱 **Ways to raise BDNF:** [How to Increase BDNF: Exercise, Food, Reading, Meditation, Sleep and Sunlight — the Evidence, and How Long It Takes to Change Your Brain](/en/blog/how-to-increase-bdnf-exercise-food-reading-meditation-sleep-evidence-and-duration/)
+> - 👟 **Running shoes by arch type:** [Flat Feet, High Arches, Normal Arches: How to Choose Running Shoes for Your Foot Arch](/en/blog/flat-feet-high-arches-normal-arches-how-to-choose-running-shoes/)
+
+</aside>
+<!-- related-reads:end -->

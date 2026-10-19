@@ -127,4 +127,18 @@ Dimidjian, S., et al. (2016). Neural correlates of cognitive defusion in mindful
 
 Journal of Consulting and Clinical Psychology (2018). Mechanisms of Change in ACT: Cognitive Defusion and Amygdala Reactivity. APA Review.
 
+<!-- related-link -->
+생각과 거리를 두는 연습이 왜 필요한지는, 감정 반응이 뇌에 회로로 남는 방식을 알면 더 잘 이해됩니다. [**반복되는 감정 반응과 뇌의 반사 회로**](/blog/반복된-감정-반응-말버릇-습관적인-태도까지도-결국-뇌가-학습해-놓은-일종의-반사-회로라면/)를 함께 읽어 보세요.
+
 ※ 본 포스팅은 인지심리학 및 뇌과학 저널의 공인된 학술 연구를 바탕으로 작성된 건강·과학 정보 콘텐츠이며, 전문적인 정신건강의학적 진단이나 치료를 대신할 수 없습니다.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **함께 읽으면 뇌가 더 총명해지는 관련 글**
+>
+> - 🌬️ **호흡과 뇌의 각성:** [숨은 뇌의 스위치다: 호흡 하나로 불안을 끄고 집중을 켜는 뇌과학, 하루 5분 습관](/blog/숨이-뇌의-스위치다-호흡-뇌과학-하루-5분-습관/)
+> - 👀 **하루를 관찰하는 힘:** [내 하루를 '관찰'하기 시작했을 때 달라진 것: 양자 얽힘(Quantum Entanglement)](/blog/내-하루를-관찰하기-시작했을-때-달라진-것-양자-얽힘Quantum-Entanglement/)
+
+</aside>
+<!-- related-reads:end -->

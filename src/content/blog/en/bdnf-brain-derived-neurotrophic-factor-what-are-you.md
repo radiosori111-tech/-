@@ -77,6 +77,9 @@ These days we feel a lot of fear when we try something new and fail. But people 
 
 *Exercise not only makes our brains happy but also makes us smarter. Exercise builds networks connecting old nerve cells and supplies blood and nutrients to brain cells. In particular, BDNF, a neurotrophic substance produced in the brain the more we exercise, improves intellectual ability.*
 
+<!-- related-link -->
+Now that you know what BDNF is, the next question is how to raise it. [**The complete guide to increasing BDNF**](/en/blog/how-to-increase-bdnf-exercise-food-reading-meditation-sleep-evidence-and-duration/) gathers the evidence on exercise, food, sleep and sunlight.
+
 From *Resilience* (Kim Joo-hwan)
 
 Resilience is defined as the ability to maintain a healthy outlook on life despite having experienced adversity.
@@ -98,3 +101,14 @@ Lonely people have a very high risk of developing Alzheimer's disease (Wilson et
 Next time, we'll look at the problems that appear when BDNF is weak and the things that get in the way of BDNF release.
 
 - Next post: [What causes BDNF deficiency, and does brain health improve too?](/en/blog/what-causes-bdnf-deficiency-and-does-brain-health-improve/)
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🌱 **What lowers BDNF:** [What Causes BDNF Deficiency? And Does Brain Health Improve Too?](/en/blog/what-causes-bdnf-deficiency-and-does-brain-health-improve/)
+> - 🥦 **Eating to support BDNF:** [Which Foods Are Rich in BDNF? Sulforaphane, Flavonoids, Omega-3 and the Eating Patterns That Protect BDNF, Backed by Research](/en/blog/which-foods-are-rich-in-bdnf/)
+
+</aside>
+<!-- related-reads:end -->

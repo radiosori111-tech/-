@@ -77,6 +77,9 @@ The very structure, a psychologist and a brain scientist giving talks a month ap
 
 So how does the brain actually respond in a state of immersion? It's commonly known that in a flow state, activity drops in the brain areas responsible for stray thoughts and energy concentrates in the areas related to the task at hand.
 
+<!-- related-link -->
+If space shapes focus, what does a natural setting do for the brain? See [**why 15 minutes in nature helps the brain recover**](/en/blog/nature-heals-the-brain-15-minute-habit/).
+
 It's also widely explained that neurotransmitters such as **dopamine** are involved in this process, lifting focus and satisfaction at the same time. We've all had the experience of getting so absorbed in something that we lose track of time; at that moment, quite a busy set of changes is happening in the brain.
 
 <strong>Space affecting immersion follows the same logic</strong>. <strong>In a space arranged to suit you, rather than a visually cluttered one, the brain receives fewer unnecessary stimuli and slips more easily into what you want to do</strong>. That may be why this exhibition and these talks tie space and immersion together.
@@ -106,3 +109,14 @@ Both the familiar space of home and the familiar feeling of immersion can look n
 <strong>Raemian Gallery</strong>
 
 17 Chungmin-ro, Songpa-gu, Seoul, Raemian Gallery
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🎨 **Routines for a younger brain:** [The Most Enjoyable Way to Keep Your Brain Young: 3 Fun Routines That Wake Up Your Brain](/en/blog/the-most-enjoyable-way-to-keep-your-brain-young/)
+> - 🧭 **The brain's coordinate systems and learning:** [Exercise and Learning Through the Brain's Coordinate Systems (Mind-Muscle, Embodied Learning, Egocentric Space)](/en/blog/brain-coordinate-systems-exercise-and-learning/)
+
+</aside>
+<!-- related-reads:end -->

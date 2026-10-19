@@ -70,6 +70,9 @@ The <strong>most common and cheapest is magnesium oxide</strong>, a form in whic
 
 What I mainly use right after Chuseok is magnesium gluconate. <strong>Magnesium gluconate is a form in which magnesium is bound to gluconic acid; it often comes in liquid form, is absorbed quickly, and is gentle on the stomach.</strong> After the holiday, once I finish my fasted workout, I take magnesium gluconate until I get a loose-stool response. Once the body has absorbed as much as it needs, it naturally signals to flush the rest. People whose routines have been regular sometimes respond after two or three sachets, while I've seen people who had built up a lot of waste take more than six or seven sachets without any diarrhea. That difference serves as one indicator of each person's condition.
 
+<!-- related-link -->
+If you wondered why different forms of magnesium absorb differently, [**comparing organic, inorganic and chelated magnesium**](/en/blog/magnesium-bioavailability-organic-chelate-glutathione-memory/) goes into detail.
+
 Chelated magnesium is another option. <strong>Chelated magnesium</strong> is a form in which magnesium ions are wrapped in organic molecules such as amino acids; <strong>it has high bioavailability and few digestive side effects, making it suitable for steady everyday supplementation</strong>. It is, however, relatively expensive. After taking magnesium, you'll find your body relaxing and sleep coming naturally, which is why I recommend taking it after dinner or before bed. <strong>Magnesium acts as a natural sedative that relaxes the nerves. After a deep sleep, you'll wake up to a body in quite a different state from before the holiday.</strong> It's also important to get plenty of mineral-rich sea salt or pink salt along with it. For more on choosing a magnesium supplement, see [Healthline — Magnesium Supplements](https://www.healthline.com/nutrition/magnesium-supplements).
 
 <strong>In short:</strong> avoid magnesium oxide, which is meant as a laxative, and supplement with fast-absorbing magnesium gluconate or chelated magnesium in the evening or before bed to effectively correct the electrolyte imbalance of carnivore.
@@ -104,3 +107,14 @@ But it's hard to experience carnivore fully without magnesium. <strong>Avoid mag
 Reference: [Chuseok holiday diet, carnivore, and magnesium — Google search](https://www.google.com/search?q=%EC%B6%94%EC%84%9D%EB%AA%85%EC%A0%88+%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8+%EC%B9%B4%EB%8B%88%EB%B3%B4%EC%96%B4+%EA%B7%B8%EB%A6%AC%EA%B3%A0+%EB%A7%88%EA%B7%B8%EB%84%A4%EC%8A%98)
 
 *This post is based on personal experience and general nutrition information, and it cannot replace professional medical diagnosis or treatment. If you have a medical condition or a particular constitution, please consult a specialist or pharmacist before starting.*
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🥩 **The carnivore diet and the brain:** [Eating Only Meat Changed Their Brains? What the Carnivore Diet Really Is](/en/blog/what-is-the-carnivore-diet-people-say-changed-their-brains/)
+> - 🧊 **Brain fog and ketones:** [Brain Fog (Ketones, the Carnivore Diet, Mental Clarity)](/en/blog/brain-fog-ketones-carnivore-mental-clarity/)
+
+</aside>
+<!-- related-reads:end -->

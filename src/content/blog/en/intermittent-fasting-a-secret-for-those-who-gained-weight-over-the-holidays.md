@@ -57,6 +57,9 @@ Namuwiki, the Korean online encyclopedia, says intermittent fasting has the foll
 
 The most common method of intermittent fasting is to <strong>fast for 16 hours and eat within an 8-hour window</strong>. Other methods include fasting for 18 hours and eating for 6, fasting for 20 hours and eating for 4, and, for those who find 16 hours of fasting hard, a good starter method of fasting for 12 hours and eating within the other 12.
 
+<!-- related-link -->
+If fasting affects the brain and not just body weight, BDNF is part of the link. Continue with [**what causes BDNF to run low**](/en/blog/what-causes-bdnf-deficiency-and-does-brain-health-improve/).
+
 If you begin with the **12:12** method and then move to 16 hours of fasting with an 8-hour eating window, you'll definitely get both weight-loss and health benefits. According to the five stages of bodily change during fasting compiled by Dr. George F. Cahill Jr. of **Harvard Medical School**, stage 3, from 16 to 30 hours after a meal, is when the glycogen stored in the liver is running out and the body makes glucose from protein. Some people worry that using protein means losing muscle mass, but the body doesn't take the protein we need; it uses aged cells. Simply put, it eats up old and sick cells that would have been thrown away as waste and recycles them, so this is a stage in which the body uses itself in a healthier way. This is called [autophagy](https://en.wikipedia.org/wiki/Autophagy "The process of consuming old, worn-out cells to clean house").
 
 ## 3. What you must follow during intermittent fasting
@@ -70,3 +73,14 @@ Eating only during a set window, as in 16:8 intermittent fasting, where you eat 
 ### 3) Stretch and exercise regularly
 
 Going from three meals to two lowers your energy intake, which tends to lower your activity level too, so there's a high chance of losing not only fat but also muscle. So <strong>keep up a regular exercise habit</strong> to make sure your body doesn't lose muscle mass.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🍞 **Using insulin wisely:** [What Does Insulin Do? And How Can You Use It Wisely?](/en/blog/what-does-insulin-do-and-how-to-use-it-wisely/)
+> - 🥦 **Eating to support BDNF:** [Which Foods Are Rich in BDNF? Sulforaphane, Flavonoids, Omega-3 and the Eating Patterns That Protect BDNF, Backed by Research](/en/blog/which-foods-are-rich-in-bdnf/)
+
+</aside>
+<!-- related-reads:end -->

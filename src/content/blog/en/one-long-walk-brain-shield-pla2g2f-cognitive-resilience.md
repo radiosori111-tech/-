@@ -76,6 +76,9 @@ An international team fitted **33,560** UK Biobank participants who walked **8,0
 
 The longer people walked without stopping, the more **risk dropped like a staircase**. The researchers reported that the gap was larger among **people walking fewer than 5,000 steps a day**. An accompanying editorial suggested that future physical activity guidelines should include not just step counts but **step patterns**.
 
+<!-- related-link -->
+To learn more about what PLA2G2F does in the hippocampus, read the [**PLA2G2F study on the hippocampus's backup generator**](/en/blog/the-brains-backup-generator-enzyme-pla2g2f-memory-resilience/), built around the original paper.
+
 When reading these results, though, keep four things in mind.
 
 - **It's an observational study.** People weren't randomly assigned to groups, so this is an **association**, not cause and effect. It remains possible that people who were healthier to begin with were simply able to walk for longer stretches.
@@ -141,6 +144,17 @@ Not at all. In its 2020 guidelines, the World Health Organization dropped the ol
 #### Is it okay to walk for a long time if my knees hurt or I'm older?
 
 Starting slowly on flat ground is fine for most people, but if you have **joint disease, heart disease, or dizziness**, talk to your doctor first. If walking is hard, you can build up your active time with lower-impact exercise such as an **indoor bike or water walking**. What matters more than the activity is **keeping it up consistently**.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🏃 **Walking that grows the hippocampus:** [A Year of Walking Made the Hippocampus Grow](/en/articles/exercise-hippocampus/)
+> - 🧠 **How long habits really take:** [Does It Really Take 21 Days to Build a New Habit?](/en/articles/habit-66-days/)
+
+</aside>
+<!-- related-reads:end -->
 
 ### References
 

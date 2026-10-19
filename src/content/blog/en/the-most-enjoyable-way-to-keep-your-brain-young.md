@@ -72,6 +72,9 @@ Quite a lot happens in the brain when you learn a new language. Imitating unfami
 
 A report from [Alzheimer's Disease International](https://www.alzint.org/) also noted that bilingual people tend to show cognitive decline later than people who speak only one language.
 
+<!-- related-link -->
+Beneath any enjoyable routine, sleep is the foundation that supports the brain. [**How the brain sorts memories while you sleep**](/en/articles/sleep-memory/) explains why.
+
 Honestly, this surprised me: there's no need to start language study in a big way. I began by translating the lyrics of pop songs I love, or reading basic words aloud for 10 minutes a day with a free smartphone app. Even that gave me the feeling that my brain "switched on" every morning, and the feeling lasted a long time.
 
 <strong>In short:</strong> learning a foreign language stimulates the prefrontal and auditory cortices together, making it the most accessible form of high-intensity brain training for building cognitive reserve.
@@ -114,6 +117,17 @@ I've also made grand plans to look after my brain, only to give up within days. 
 What matters is to keep adding new stimulation, and for that stimulation to be enjoyable so it lasts. Neuroplasticity is not a matter of willpower but of environment and habit. I encourage you to pick just one and start right now. If your head starts to ache a little, it means it's working.
 
 Reference: [https://yuyu.co.kr/blog/612ff20d-2f45-4d94-9e2a-0eb3c31c4668/](https://yuyu.co.kr/blog/612ff20d-2f45-4d94-9e2a-0eb3c31c4668/)
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🛡️ **PLA2G2F, the hippocampus's backup generator:** [People Whose Memory Holds Up With Age Had a 'Backup Generator' Running in Their Brains: PLA2G2F and Hippocampal Resilience](/en/blog/the-brains-backup-generator-enzyme-pla2g2f-memory-resilience/)
+> - 🖼️ **Focus and space:** [Raemian Gallery's Immersive Exhibition "A Part of Home": I'm Going for the Brain Science Talks, Starting with a Space That Feels Like Me](/en/blog/raemian-gallery-a-part-of-home-immersive-exhibition-brain-science-talks/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## References
 

@@ -73,6 +73,9 @@ First, <strong>wash your hands well with soap and dry them completely</strong>. 
 
 Pricking the side rather than the center of the fingertip is known to hurt less. Touch the drop of blood to the end of the test strip, and the number appears on the screen within a few seconds. When you're done, throw away the used lancet and test strip right away; for hygiene, it's safest not to reuse the same lancet.
 
+<!-- related-link -->
+Once you start measuring blood sugar, there are signs worth checking even when the numbers look normal. Read [**self-check signs of insulin resistance**](/en/blog/normal-blood-sugar-but-an-aging-brain-insulin-resistance-self-check/).
+
 Most devices today automatically store the date, time and reading, so you can check trends later without writing anything down. If the product connects to a smartphone app, you can see everything at a glance as a graph, which is even more convenient.
 
 ![](/images/blog/d5e8159fac/04.webp)
@@ -104,3 +107,14 @@ Regular sleep and stress management also play a big role in keeping blood sugar 
 A glucose meter is less a diagnostic tool and more a reference for understanding your own body. Rather than reacting too sensitively to the numbers, **steadily watching the trend and getting expert help when needed** is probably the most balanced approach.
 
 <strong>If this helped you look after your brain health with a glucose meter, please give it a like!</strong>
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🍞 **Using insulin wisely:** [What Does Insulin Do? And How Can You Use It Wisely?](/en/blog/what-does-insulin-do-and-how-to-use-it-wisely/)
+> - 🍽️ **What to eat before a big day:** [What Should You Eat Right Before a Big Day That Needs Brainpower?](/en/blog/what-to-eat-right-before-a-big-day-that-needs-brainpower/)
+
+</aside>
+<!-- related-reads:end -->

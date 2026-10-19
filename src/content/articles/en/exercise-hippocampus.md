@@ -65,6 +65,9 @@ After a year, the results were clear. In the aerobic walking group, the volume o
 
 The researchers also looked closely at **brain-derived neurotrophic factor (BDNF)**, a protein that supports the survival and growth of neurons and changes at synapses. In the walking group, the increase in **hippocampal** volume was associated with higher BDNF levels in the blood. Animal studies have repeatedly reported that aerobic exercise promotes the birth of new neurons in the hippocampus, although how much this happens in the human brain is still being researched.
 
+<!-- related-link -->
+If walking can grow the hippocampus, what keeps an older hippocampus going? The [**PLA2G2F study on the hippocampus's backup generator**](/en/blog/the-brains-backup-generator-enzyme-pla2g2f-memory-resilience/) looks at an enzyme that was more active in older adults with sharp memories.
+
 ## Things to keep in mind about this study
 
 - The participants were **older adults aged 55 to 80.** We can't assume that young adults would see an effect of the same size.
@@ -79,6 +82,17 @@ The researchers also looked closely at **brain-derived neurotrophic factor (BDNF
 4. **Track numbers, not moods.** Writing down how long and how far you walked lets you see your own change in fitness after two or three months.
 
 If you have a medical condition or haven't exercised in a long time, talk to your doctor before increasing the intensity.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🛡️ **Continuous walking and PLA2G2F:** [Is One Long Walk Better for Your Brain? What the Brain's Shield PLA2G2F and Walking Research Tell Us About Cognitive Resilience](/en/blog/one-long-walk-brain-shield-pla2g2f-cognitive-resilience/)
+> - 🏃 **The neuroscience of exercise:** [The Exercise Routine a Neuroscientist Found After Living with Anxiety: A Complete Guide to Putting the Brain Science of Exercise into Practice](/en/blog/neuroscientist-anxiety-move-exercise-brain-science-guide/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## References
 

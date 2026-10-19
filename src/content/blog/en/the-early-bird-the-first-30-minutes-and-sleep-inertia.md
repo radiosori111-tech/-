@@ -57,6 +57,9 @@ I used to be left with an unexplained uneasiness every morning; looking back, I 
 
 The biggest change I actually felt, surprisingly, was that the question "what should I do?" disappeared. Human willpower and judgment are resources that get used up over the day. Deliberating from the moment you wake up about what to eat or what to do first is enough on its own to pile up <strong>decision fatigue</strong>. <strong>Decision fatigue is a state of cognitive exhaustion in which the quality of later decisions drops the more choices and judgments you make</strong>.
 
+<!-- related-link -->
+The easiest ingredient for a good first 30 minutes is light. Read [**how 10 minutes of morning sunlight resets the body clock**](/en/articles/morning-light/).
+
 By contrast, when you start the morning with a routine decided the night before, <strong>the brain slips into autopilot without spending any energy</strong>. I fixed the order: brush my teeth, drink salt tea, do squats. <strong><em>The body moves without thinking. That in itself is a way of saving energy.</em></strong>
 And honestly, this I didn't expect: I had no idea how big the sense of achievement would be after finishing 100 squats. When you complete a small goal, the brain releases a little **dopamine**.
 
@@ -91,3 +94,14 @@ A. During sleep the body loses water, and the autonomic nervous system stays in 
 Back when I was fixated only on what time I got up, I opened my eyes early every day yet always lived as though the day had been taken from me. Now, even when I get up at 7, once I've filled the first 30 minutes with brushing my teeth, salt tea and 100 squats, I start the day more solidly than any dawn wake-up ever managed. Sleep inertia, the cortisol awakening response and the **circadian rhythm**, these three biological mechanisms were all saying the same thing: give the brain and body time to wake up on their own.
 
 From here I plan to weave one more small habit into this 30-minute routine. <strong>Starting very small</strong> is, <strong>as my own experience has already proven, the secret to a routine that lasts</strong>. <strong>I recommend starting by deciding tonight, before you fall asleep, how you'll spend the first 30 minutes tomorrow morning.</strong>
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - ☀️ **Daylight and focus:** [Sunlight, Focus, and Brain Function (Circadian Rhythm, Cognition, Light Exposure)](/en/blog/sunlight-focus-and-brain-function/)
+> - 😴 **Sleep and memory:** [While You Sleep, Your Brain Sorts the Day's Memories](/en/articles/sleep-memory/)
+
+</aside>
+<!-- related-reads:end -->

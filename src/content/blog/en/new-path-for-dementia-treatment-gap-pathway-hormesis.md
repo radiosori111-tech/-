@@ -67,6 +67,9 @@ The results were published on July 15, 2025, in the international journal Signal
 
 In my view, this is the different part. For decades, dementia drug development focused on directly removing **amyloid** beta and repeatedly stumbled at the clinical stage. This approach goes in a different direction altogether: reviving the brain's own ability to clean itself, that is, restoring **phagocytosis** by microglia, the brain's built-in self-cleaning system. Phagocytosis is the process by which cells engulf and break down debris and waste directly; when it works properly, the brain can keep toxic proteins from building up on its own.
 
+<!-- related-link -->
+There is another way the brain protects itself against dementia changes. Read the [**PLA2G2F study on the hippocampus's backup generator**](/en/blog/the-brains-backup-generator-enzyme-pla2g2f-memory-resilience/).
+
 The researchers themselves also mentioned the possibility of applying this principle to other degenerative brain diseases caused by the buildup of toxic proteins, such as Parkinson's disease and ALS. Of course, the road from animal studies to humans is still long and hard. But the fact that the pathway itself has been identified: that is the real weight of this study.
 
 <strong>In short:</strong> identifying the GAP pathway is the starting point for a new dementia treatment strategy that directly activates the brain's self-cleaning system, with the potential to extend to other degenerative brain diseases.
@@ -96,3 +99,14 @@ The phrase I lingered on longest in this KIST study was "a metabolite known only
 The road to dementia treatment is still long, but I think the discovery of the GAP pathway is a starting point for trusting the brain's self-cleaning ability again. I plan to keep watching whether this research can pass through the preclinical and clinical stages and lead to actual treatment.
 
 Reference: [https://www.sciencetimes.co.kr/nscvrg/view/menu/247?thisPage=5&searchCategory=216&searchSection=&sersYn=&serlYn=&nscvrgSn=262417](https://www.sciencetimes.co.kr/nscvrg/view/menu/247?thisPage=5&searchCategory=216&searchSection=&sersYn=&serlYn=&nscvrgSn=262417)
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🛡️ **Brain immunity and the gut-brain axis:** [Brain Fog and Chronic Fatigue: Is Brain Immunity the Real Problem? An Anti-Inflammatory Nutrient and Diet Guide for Your Glial Cells and Gut-Brain Axis](/en/blog/brain-fog-chronic-fatigue-brain-immunity-glia-gut-brain-axis/)
+> - 🛡️ **Continuous walking and PLA2G2F:** [Is One Long Walk Better for Your Brain? What the Brain's Shield PLA2G2F and Walking Research Tell Us About Cognitive Resilience](/en/blog/one-long-walk-brain-shield-pla2g2f-cognitive-resilience/)
+
+</aside>
+<!-- related-reads:end -->

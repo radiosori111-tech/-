@@ -79,12 +79,26 @@ Kent Berridge's team proposed another distinction. **Wanting** something and act
 
 From the perspective of **reward prediction error**, a reward that could arrive at any moment is hard to predict, so it produces a small "surprise" every time. Message notifications and feeds that change with every refresh are classic examples. On the other hand, when the same reward comes at the same time every day, the prediction becomes accurate and the response to the reward itself shrinks. Understanding this also makes it clear why "quitting **dopamine**" can't be the goal: dopamine is a signal we need in order to learn and to act. The goal is **choosing which signals to train yourself to respond to**.
 
+<!-- related-link -->
+Once you see how prediction errors hold a habit in place, you may wonder how to retune that circuit. [**How exercise resets the brain's reward circuit**](/en/blog/break-bad-habits-reset-the-brains-reward-circuit-with-sweat/) picks up from here.
+
 ## Today's practice
 
 1. **Turn notifications into predictable signals.** Switch off real-time notifications and set a few fixed times a day to check messages. A reward that could come at any moment becomes a set schedule.
 2. **Put a clear cue in front of good habits.** When a cue repeats, like leaving your workout clothes by the door, the brain starts attaching motivation to the cue itself.
 3. **Record "Did I want it?" and "Did I like it?" separately.** After doing something, rate how much you wanted to do it and how much you actually enjoyed it, each from 1 to 5. Behaviors with strong wanting but low satisfaction will stand out.
 4. **Attach small, unexpected rewards to new habits.** For the first few weeks, occasionally giving yourself a small treat on days you follow through can help keep motivation going.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🧠 **How long habits really take:** [Does It Really Take 21 Days to Build a New Habit?](/en/articles/habit-66-days/)
+> - ⏪ **Why we repeat regrets:** [If You Keep Doing Things You Regret, Your Brain Had Already Acted First](/en/blog/if-you-keep-doing-things-you-regret-the-brain-acted-first/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## References
 

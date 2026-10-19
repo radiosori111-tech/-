@@ -52,6 +52,9 @@ Once the worry about finding a job is over, before we know it, another thought s
 
 It begins with "Can I really do this well?" and all kinds of thoughts follow one after another until they take hold of us.
 
+<!-- related-link -->
+To go deeper into the idea that the brain keeps changing all life long, [**lifelong neuroplasticity**](/en/blog/lifelong-connectivity-neuroplasticity/) covers development, recovery and emotional regulation.
+
 In a word, <strong>the "brain" is saying, "I don't want to change anymore!" It seeks comfort, avoiding the discomfort of abandoning the system it's used to and adapting to a new one</strong>. And who's doing this? The very capable brain that made us act so efficiently.
 
 But here's the thing. As you keep working at the company, you get used to the senior colleague and the manager who subtly mess with you, and another system develops in which you can let it go with "There he goes again."
@@ -69,3 +72,14 @@ You get sleepy. Here, instead of thinking, "Ah, I can't do this; books and I jus
 In the next post, I'll cover the science of whether the brain can change.
 
 - Related post: [Wake up your neuroplasticity](/en/blog/wake-up-your-neuroplasticity/)
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 📝 **Writing things down:** [Memory Is Less True Than We Think. So Write It Down](/en/blog/memory-is-less-true-so-write-it-down/)
+> - 🌀 **Waking up neuroplasticity:** [Wake Up Your Neuroplasticity](/en/blog/wake-up-your-neuroplasticity/)
+
+</aside>
+<!-- related-reads:end -->

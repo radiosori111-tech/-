@@ -85,6 +85,9 @@ This gives a temporary rest to brain circuits on the verge of overload from proc
 
 Regular contact with nature goes beyond short-term recovery from fatigue and <strong>improves long-term physical health as well</strong>. Lower stress hormones improve gut health, which in turn has a positive effect on immunity and overall metabolism.
 
+<!-- related-link -->
+If 15 minutes in nature lets a tired prefrontal cortex rest, there's also a tool for days you can't get outside: [**the 5-minute breathing habit that calms anxiety and sharpens focus**](/en/blog/breath-is-your-brains-switch/).
+
 In particular, regular time in nature improves sleep quality, which then activates the brain's **glymphatic system**, its waste-clearing system, creating a virtuous cycle that restores the brain overnight.
 
 ![Everyday tips for reviving a tired brain in nature](/images/blog/433214b635/02.webp)
@@ -122,6 +125,17 @@ Rainy weather is also a good chance to be exposed to nature. The sound of rain, 
 ### Can this method cure mental health problems like depression or anxiety disorders?
 
 Exposure to nature is a supporting tool for improving mental health, not a replacement for medical treatment. If you have serious mental health symptoms, please see a medical professional. That said, it is very effective for managing everyday stress and brain fatigue.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🔌 **Burnout and the brain's switches:** [For Anyone Who Burned Out Running on Willpower: The Brain Needs a Switch, Not Persuasion](/en/blog/burnout-the-brain-needs-a-switch-not-persuasion/)
+> - ☀️ **Daylight and focus:** [Sunlight, Focus, and Brain Function (Circadian Rhythm, Cognition, Light Exposure)](/en/blog/sunlight-focus-and-brain-function/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## References
 

@@ -79,6 +79,9 @@ Here is what they found. **When people breathed through the nose**, the rhythms 
 
 The difference showed up in behavior, too. **At the moment of inhaling**, participants recognized fearful faces on a screen more quickly, and they remembered pictures they had seen during an inhale more accurately. And these effects **all but disappeared when they breathed through the mouth.**
 
+<!-- related-link -->
+Once your breath has lowered your arousal, you can add the practice of stepping back from passing thoughts. Read [**acceptance and commitment therapy (ACT) and cognitive defusion**](/en/blog/thoughts-are-not-you-act-cognitive-defusion/).
+
 The mouth is an emergency exit, good for pulling in a lot of air quickly. The nose is the front door: it warms and filters the air and converses with the brain's rhythms. Simply breathing through the front door for most of the day is a way to give your brain a steadier beat.
 
 ## The sigh is a reset button built by the brain
@@ -127,6 +130,17 @@ The physiological sigh is most useful **at the very moment you feel tension risi
 ### How is this different from meditation, and should I choose one?
 
 Meditation is the practice of **watching** the breath; the techniques here are practices of **changing** it directly. In the 2023 study, **mood improved more with breathing practice over the month**, but meditation had positive effects too. They are not rivals. When your mind is in turmoil, you can use breathing first to settle the body, then sit and observe quietly.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🏃 **The neuroscience of exercise:** [The Exercise Routine a Neuroscientist Found After Living with Anxiety: A Complete Guide to Putting the Brain Science of Exercise into Practice](/en/blog/neuroscientist-anxiety-move-exercise-brain-science-guide/)
+> - 🌳 **15 minutes in nature:** [Nature as Healing, Through Brain Science: Why a 15-Minute Habit Reboots Your Brain](/en/blog/nature-heals-the-brain-15-minute-habit/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## References
 

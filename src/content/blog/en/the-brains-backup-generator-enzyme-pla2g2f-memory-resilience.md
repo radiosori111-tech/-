@@ -77,6 +77,9 @@ So how does this generator deliver power? The key turned out to be **microglia**
 
 In the aging brain, **lipid droplets** gradually build up inside microglia. A separate 2020 study in **Nature Neuroscience** showed that these greasy microglia are in a **broken state**: they do a poor job of cleaning and pump out inflammatory signals instead. Think of a fan filter clogged with grease that moves no air and only makes noise.
 
+<!-- related-link -->
+To read the PLA2G2F findings together with walking research, go on to [**PLA2G2F and the continuous-walking study**](/en/blog/one-long-walk-brain-shield-pla2g2f-cognitive-resilience/), which separates what's confirmed from what isn't.
+
 In the new study, PLA2G2F released by neurons signaled to microglia and **reduced those lipid droplets**. With a clean filter, the janitor gets back to work, the noise of inflammation dies down, and the synaptic wiring breaks less often. Neurons look after their janitor neighbours, and the janitors in turn protect the neurons: a gentle, mutual loop.
 
 ### The same traces in human brains
@@ -114,6 +117,17 @@ The habits below have **not** been shown to raise PLA2G2F directly. They are hab
 ### I've been forgetting things more often. Is this the start of dementia?
 
 Briefly losing a name or forgetting where you put something is common with age, and most of the time it has nothing to do with dementia. But if you **get lost on familiar routes, ask the same question repeatedly, or find daily life affected**, please see your doctor or a memory clinic for an assessment. As this study shows, the ability to withstand changes in the brain differs from person to person, and the earlier you know, the more you can do.
+
+<!-- related-reads:start -->
+<aside class="read-next">
+
+> 💡 **Related reads for a sharper brain**
+>
+> - 🏃 **Walking that grows the hippocampus:** [A Year of Walking Made the Hippocampus Grow](/en/articles/exercise-hippocampus/)
+> - 🌱 **Building resilience:** [The Brain's Power to Get Back Up: What Resilience Is, How to Build It, and What Neuroscience Says About Achievement and Learning](/en/blog/resilience-what-it-is-how-to-build-it-brain-science-achievement-learning/)
+
+</aside>
+<!-- related-reads:end -->
 
 ## References
 
