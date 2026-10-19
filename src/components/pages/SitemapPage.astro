@@ -4,7 +4,7 @@
 import Page from '../../layouts/Page.astro';
 import LangSwitch from '../LangSwitch.astro';
 import { sitemapArticles, sitemapPosts, type SitemapGroup } from '../../data/sitemap';
-import { t, LANGS, LANG_NAME, HREFLANG, CATEGORY_LABEL, articlesPath, blogPath, pagePath, type Lang } from '../../i18n/ui';
+import { t, LANGS, LANG_NAME, HREFLANG, articlesPath, blogPath, pagePath, type Lang } from '../../i18n/ui';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -61,7 +61,7 @@ const postGroups = await sitemapPosts(lang);
 const total = (groups: SitemapGroup[]) => groups.reduce((n, g) => n + g.entries.length, 0);
 
 const sections = [
-  { id: 'articles', title: tr.nav.articles, groups: articleGroups, label: (k: string) => CATEGORY_LABEL[lang][k] ?? k },
+  { id: 'articles', title: tr.nav.articles, groups: articleGroups, label: () => '' },
   { id: 'blog', title: tr.nav.blog, groups: postGroups, label: (k: string) => COPY.topics[k as keyof typeof COPY.topics] ?? k },
 ];
 
@@ -94,10 +94,12 @@ const alternates = LANGS.map((l) => ({ lang: l, href: pagePath(l, '/sitemap/') }
         <div class="sm-groups">
           {s.groups.map((g) => (
             <section class="sm-group" aria-labelledby={`sm-${s.id}-${g.key}`}>
-              <h3 id={`sm-${s.id}-${g.key}`}>
-                {s.label(g.key)}
-                <span class="sm-count tabular">{COPY.count(g.entries.length)}</span>
-              </h3>
+              {s.label(g.key) ? (
+                <h3 id={`sm-${s.id}-${g.key}`}>
+                  {s.label(g.key)}
+                  <span class="sm-count tabular">{COPY.count(g.entries.length)}</span>
+                </h3>
+              ) : <h3 id={`sm-${s.id}-${g.key}`} class="visually-hidden">{s.title}</h3>}
               <ul class="sm-list">
                 {g.entries.map((e) => (
                   <li>

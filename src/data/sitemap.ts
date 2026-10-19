@@ -1,5 +1,4 @@
 import { getCollection } from 'astro:content';
-import { CATEGORIES } from '../content.config';
 import { articleUrl, articleSlug, type Article } from './articles';
 import { postUrl, type Post } from './blog';
 import { minutesOfDay } from './site';
@@ -27,19 +26,14 @@ function entryOf<T extends { data: { lang: Lang; title: string } }>(versions: T[
   };
 }
 
-// 아티클: 한국어 원문을 기준으로 묶고, 카테고리별로 하루의 순서대로
+// 아티클: 한국어 원문을 기준으로 묶고, 하루의 순서대로 한 목록에
 export async function sitemapArticles(lang: Lang): Promise<SitemapGroup[]> {
   const all = await getCollection('articles');
   const key = (a: Article) => a.data.translationOf ?? articleSlug(a);
   const originals = all
     .filter((a) => a.data.lang === 'ko')
     .sort((a, b) => (minutesOfDay(a.data.time) ?? 9999) - (minutesOfDay(b.data.time) ?? 9999));
-  return CATEGORIES.map((c) => ({
-    key: c,
-    entries: originals
-      .filter((a) => a.data.category === c)
-      .map((a) => entryOf(all.filter((x) => key(x) === key(a)), lang, articleUrl)),
-  })).filter((g) => g.entries.length > 0);
+  return [{ key: 'all', entries: originals.map((a) => entryOf(all.filter((x) => key(x) === key(a)), lang, articleUrl)) }];
 }
 
 // 블로그 글에는 카테고리가 없어서, 한국어 원문 제목의 낱말로 주제를 나눈다 (위에서부터 먼저 맞는 주제)
