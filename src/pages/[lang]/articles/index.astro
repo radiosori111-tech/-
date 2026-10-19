@@ -4,7 +4,7 @@ import Page from '../../../layouts/Page.astro';
 import PostList, { type ListItem } from '../../../components/PostList.astro';
 import LangSwitch from '../../../components/LangSwitch.astro';
 import { getArticles, articleUrl } from '../../../data/articles';
-import { t, LANGS, DEFAULT_LANG, articlesPath, CATEGORY_LABEL, type Lang } from '../../../i18n/ui';
+import { t, LANGS, DEFAULT_LANG, articlesPath, type Lang } from '../../../i18n/ui';
 
 export function getStaticPaths() {
   return LANGS.filter((l) => l !== DEFAULT_LANG).map((lang) => ({ params: { lang } }));
@@ -31,9 +31,7 @@ const items: ListItem[] = articles.map((a) => ({
   title: a.data.title,
   description: a.data.description,
   minutes: a.data.readMinutes,
-  chip: CATEGORY_LABEL[lang][a.data.category],
   time: a.data.time ? { text: a.data.time, moment: a.data.moment } : { text: tr.post.anytime, anytime: true },
-  category: a.data.category,
 }));
 const alternates = LANGS.map((l) => ({ lang: l, href: articlesPath(l) }));
 ---
