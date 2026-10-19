@@ -1,0 +1,9 @@
+---
+import ConceptPage from '../../components/knowledge/ConceptPage.astro';
+import { CONCEPTS } from '../../data/concepts';
+
+export function getStaticPaths() {
+  return CONCEPTS.map((c) => ({ params: { id: c.id } }));
+}
+---
+<ConceptPage lang="ko" id={Astro.params.id} />

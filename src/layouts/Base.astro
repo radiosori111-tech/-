@@ -47,6 +47,8 @@ const abs = (href: string) => new URL(href, Astro.site).toString();
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- 저장해 둔 화면 모드를 그리기 전에 적용해 깜빡임을 막는다 -->
+    <script is:inline>try { const m = localStorage.getItem('mgs:theme'); if (m === 'dark' || m === 'light') document.documentElement.dataset.theme = m; } catch {}</script>
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <meta name="google-site-verification" content="zxZW0YclDH3R_GsIjoLKVRfqxiPKT_ZzV8YWoU35YPc" />
@@ -106,6 +108,10 @@ const abs = (href: string) => new URL(href, Astro.site).toString();
           </ul>
         </nav>
         <div class="bar-lang">
+          <button type="button" class="theme-toggle" data-theme-toggle data-label-dark={tr.theme.toDark} data-label-light={tr.theme.toLight} aria-label={tr.theme.toDark}>
+            <span class="theme-moon"><Icon name="moon" /></span>
+            <span class="theme-sun"><Icon name="sun" /></span>
+          </button>
           <LangSwitch alternates={langLinks} current={lang} label={tr.langMenu} compact />
         </div>
       </div>
@@ -128,6 +134,7 @@ const abs = (href: string) => new URL(href, Astro.site).toString();
             <a href={privacyHref}>{tr.foot.privacy}</a>
             <a href={privacyHref + '#disclaimer'}>{tr.foot.disclaimer}</a>
             <a href={pagePath(lang, '/sitemap/')}>{tr.foot.sitemap}</a>
+            <a href={pagePath(lang, '/concepts/')}>{tr.foot.concepts}</a>
           </nav>
           <div class="foot-meta">
             <p>{tr.foot.email} <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
@@ -157,6 +164,20 @@ const abs = (href: string) => new URL(href, Astro.site).toString();
         timer = window.setTimeout(() => toast.classList.remove('is-on'), 2200);
       });
     </script>
+    <script>
+      // 화면 모드 전환: 지금 보이는 모드의 반대로 바꾸고 기억해 둔다
+      const toggle = document.querySelector<HTMLButtonElement>('[data-theme-toggle]');
+      const root = document.documentElement;
+      const isDark = () => (root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches);
+      const label = () => toggle?.setAttribute('aria-label', isDark() ? toggle.dataset.labelLight! : toggle.dataset.labelDark!);
+      label();
+      toggle?.addEventListener('click', () => {
+        const next = isDark() ? 'light' : 'dark';
+        root.dataset.theme = next;
+        try { localStorage.setItem('mgs:theme', next); } catch {}
+        label();
+      });
+    </script>
   </body>
 </html>
 
@@ -171,7 +192,29 @@ const abs = (href: string) => new URL(href, Astro.site).toString();
   }
   .brand { margin-right: auto; }
   /* 메뉴와 언어 탭 사이를 얇은 세로선으로 나눈다 */
-  .bar-lang { display: flex; align-items: center; padding-left: 1.5rem; border-left: 1px solid var(--frame-line); }
+  .bar-lang { display: flex; align-items: center; gap: 0.75rem; padding-left: 1.5rem; border-left: 1px solid var(--frame-line); }
+  .theme-toggle {
+    flex: none;
+    display: grid;
+    place-items: center;
+    width: 2.375rem; height: 2.375rem;
+    border: 1px solid var(--frame-line);
+    border-radius: 999px;
+    background: var(--frame-raised);
+    color: var(--frame-muted);
+    cursor: pointer;
+    transition: color 150ms ease, border-color 150ms ease;
+  }
+  .theme-toggle:hover { color: var(--frame-text); border-color: var(--frame-line-hover); }
+  .theme-toggle:focus-visible { outline: 2px solid var(--accent-on-dark); outline-offset: 2px; }
+  .theme-toggle :global(.icon) { width: 1.125rem; height: 1.125rem; }
+  .theme-sun { display: none; }
+  :global(:root[data-theme='dark']) .theme-moon { display: none; }
+  :global(:root[data-theme='dark']) .theme-sun { display: contents; }
+  @media (prefers-color-scheme: dark) {
+    :global(:root:not([data-theme='light'])) .theme-moon { display: none; }
+    :global(:root:not([data-theme='light'])) .theme-sun { display: contents; }
+  }
   .brand {
     display: inline-flex;
     align-items: center;

@@ -32,6 +32,8 @@ comic:
       caption: "Telling <strong>wanting</strong> apart from <strong>liking</strong> keeps you from being pulled along."
 ---
 
+import Quiz from '../../../components/widgets/Quiz.tsx';
+
 As phrases like "**dopamine** addiction" and "dopamine detox" have become common, dopamine has come to be known as the "pleasure chemical" released when we feel good. That isn't exactly wrong, but the picture brain research has drawn is far more interesting. What dopamine neurons respond to most clearly is not the reward itself, but **the difference between what we expected and what actually happened**.
 
 ## Monkeys and juice
@@ -71,6 +73,9 @@ In the 1990s, Wolfram Schultz's team recorded the activity of **dopamine** neuro
 
 This pattern is explained by the idea of **reward prediction error**. Subtract the prediction from the actual outcome: if the result is positive, activity rises; if it is zero, it stays the same; if it is negative, it falls. Dopamine is closer to a learning signal the brain sends itself, saying "predict more accurately next time."
 
+
+<Quiz client:visible lang="en" question="A monkey has learned that juice follows a light. The juice arrives just as expected. How do its dopamine neurons respond at that moment?" options={["More strongly than at first","Hardly at all","Activity drops below normal"]} answer={1} explain="After learning, the neurons fired when the light came on and barely responded to juice that arrived as expected, because the gap between prediction and reality was zero. Activity dropped only when the juice failed to come." />
+
 ## "Wanting" and "liking" are different
 
 Kent Berridge's team proposed another distinction. **Wanting** something and actually **liking** it rely on different brain circuits, and **dopamine** is mainly tied to the first: the motivation that moves us toward a reward (Berridge & Robinson, 1998). The experience of endlessly scrolling a feed without really enjoying it fits this distinction well. Wanting is switched on strongly, while liking doesn't follow to the same degree.
@@ -79,7 +84,7 @@ Kent Berridge's team proposed another distinction. **Wanting** something and act
 
 From the perspective of **reward prediction error**, a reward that could arrive at any moment is hard to predict, so it produces a small "surprise" every time. Message notifications and feeds that change with every refresh are classic examples. On the other hand, when the same reward comes at the same time every day, the prediction becomes accurate and the response to the reward itself shrinks. Understanding this also makes it clear why "quitting **dopamine**" can't be the goal: dopamine is a signal we need in order to learn and to act. The goal is **choosing which signals to train yourself to respond to**.
 
-<!-- related-link -->
+{/* related-link */}
 Once you see how prediction errors hold a habit in place, you may wonder how to retune that circuit. [**How exercise resets the brain's reward circuit**](/en/blog/break-bad-habits-reset-the-brains-reward-circuit-with-sweat/) picks up from here.
 
 ## Today's practice

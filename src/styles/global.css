@@ -67,6 +67,58 @@
   color-scheme: light;
 }
 
+/* 어두운 화면: 긴 글을 읽을 때 눈이 덜 피로하도록 순검정 대신 짙은 청회색, 글자는 한 단계 낮춘 밝기 */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+  --bg: #12161d;
+  --surface: #1a1f28;
+  --sunk: #222833;
+  --line: #2a313c;
+  --line-strong: #3a424f;
+  --line-hover: #4b5463;
+  --surface-hover: #1f2530;
+  --placeholder: #8b94a2;
+  --ink: #e4e8ee;
+  --ink-soft: #c3c9d2;
+  --muted: #98a1ae;
+  --accent: #17917f;
+  --accent-strong: #6fd6c7;
+  --accent-soft: #163330;
+  --accent-line: #24514a;
+  --danger: #ff8f85;
+  --danger-soft: #361e1e;
+  --danger-line: #5a2c2c;
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.3), 0 1px 3px rgb(0 0 0 / 0.25);
+  --shadow-md: 0 2px 4px rgb(0 0 0 / 0.25), 0 14px 28px -10px rgb(0 0 0 / 0.5);
+  --shadow-lg: 0 4px 8px rgb(0 0 0 / 0.3), 0 20px 40px -12px rgb(0 0 0 / 0.6);
+  color-scheme: dark;
+  }
+}
+:root[data-theme='dark'] {
+  --bg: #12161d;
+  --surface: #1a1f28;
+  --sunk: #222833;
+  --line: #2a313c;
+  --line-strong: #3a424f;
+  --line-hover: #4b5463;
+  --surface-hover: #1f2530;
+  --placeholder: #8b94a2;
+  --ink: #e4e8ee;
+  --ink-soft: #c3c9d2;
+  --muted: #98a1ae;
+  --accent: #17917f;
+  --accent-strong: #6fd6c7;
+  --accent-soft: #163330;
+  --accent-line: #24514a;
+  --danger: #ff8f85;
+  --danger-soft: #361e1e;
+  --danger-line: #5a2c2c;
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.3), 0 1px 3px rgb(0 0 0 / 0.25);
+  --shadow-md: 0 2px 4px rgb(0 0 0 / 0.25), 0 14px 28px -10px rgb(0 0 0 / 0.5);
+  --shadow-lg: 0 4px 8px rgb(0 0 0 / 0.3), 0 20px 40px -12px rgb(0 0 0 / 0.6);
+  color-scheme: dark;
+}
+
 *,
 *::before,
 *::after { box-sizing: border-box; }

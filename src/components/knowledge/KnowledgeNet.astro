@@ -1,0 +1,62 @@
+---
+// 글 아래 '지식 네트워크': 이 글이 닿아 있는 개념을 원인 → 원리 → 결과 순서의 사슬로 보이고,
+// 사슬 끝에 아직 읽지 않은 이웃 개념 하나를 점선으로 이어 다음 글로 건너가게 한다
+import { conceptById, conceptPath, neighbors } from '../../data/concepts';
+import type { Lang } from '../../i18n/ui';
+
+interface Props { lang: Lang; ids: string[]; counts: Record<string, number> }
+const { lang, ids, counts } = Astro.props;
+const T = {
+  ko: { title: '지식 네트워크', sub: '이 글이 닿아 있는 개념입니다. 개념을 누르면 같은 개념을 다룬 글을 모아 볼 수 있습니다.', next: '이어지는 개념', map: '전체 지식 지도 보기', n: (n: number) => `${n}편` },
+  en: { title: 'Knowledge network', sub: 'The concepts this post touches. Tap one to see every post on it.', next: 'Next concept', map: 'See the full knowledge map', n: (n: number) => `${n}` },
+  ja: { title: '知識ネットワーク', sub: 'この記事がつながっている概念です。概念を押すと、同じ概念を扱った記事をまとめて見られます。', next: 'つながる概念', map: '知識マップ全体を見る', n: (n: number) => `${n}本` },
+}[lang];
+const next = [...new Set(ids.flatMap(neighbors))].find((id) => !ids.includes(id));
+---
+{ids.length > 0 && (
+  <nav class="knet" aria-labelledby="knet-title">
+    <p id="knet-title" class="knet-title">{T.title}</p>
+    <p class="knet-sub">{T.sub}</p>
+    <ol class="knet-chain">
+      {ids.map((id) => (
+        <li><a class="knet-node" href={conceptPath(lang, id)}>{conceptById(id).name[lang]}<span class="knet-n tabular">{T.n(counts[id] ?? 0)}</span></a></li>
+      ))}
+      {next && (
+        <li class="knet-next"><a class="knet-node is-next" href={conceptPath(lang, next)}><span class="knet-next-label">{T.next}</span>{conceptById(next).name[lang]}</a></li>
+      )}
+    </ol>
+    <a class="knet-map" href={conceptPath(lang)}>{T.map} →</a>
+  </nav>
+)}
+
+<style>
+  .knet { margin-top: 3rem; padding: 1.5rem; border: 1px solid var(--line); border-radius: var(--radius-card); background: var(--surface); box-shadow: var(--shadow-sm); }
+  .knet-title { font-size: var(--text-md); font-weight: 700; letter-spacing: -0.02em; color: var(--ink); }
+  .knet-sub { margin-top: 0.375rem; font-size: var(--text-sm); line-height: 1.6; color: var(--muted); }
+  .knet-chain { list-style: none; display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0; margin: 1.125rem 0 0; padding: 0; }
+  .knet-chain li { display: flex; align-items: center; margin: 0; padding: 0; }
+  .knet-chain li::before { content: none; }
+  /* 개념 사이의 화살표 */
+  .knet-chain li + li::before { content: ''; display: block; width: 1.5rem; height: 2px; margin-inline: 0.25rem; background: var(--accent-line); }
+  .knet-chain li.knet-next::before { background: repeating-linear-gradient(90deg, var(--line-strong) 0 4px, transparent 4px 8px); }
+  .knet-node {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4375rem;
+    padding: 0.4375rem 0.875rem;
+    border: 1px solid var(--accent-line);
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent-strong);
+    font-size: var(--text-sm);
+    font-weight: 700;
+    text-decoration: none;
+    transition: border-color 150ms ease, background-color 150ms ease;
+  }
+  .knet-node:hover { border-color: var(--accent); }
+  .knet-n { font-size: var(--text-xs); font-weight: 600; color: var(--muted); }
+  .knet-node.is-next { border-style: dashed; border-color: var(--line-strong); background: transparent; color: var(--ink-soft); }
+  .knet-next-label { font-size: var(--text-xs); font-weight: 600; color: var(--muted); }
+  .knet-map { display: inline-block; margin-top: 1rem; font-size: var(--text-sm); font-weight: 600; color: var(--accent-strong); text-decoration: none; }
+  .knet-map:hover { text-decoration: underline; }
+</style>

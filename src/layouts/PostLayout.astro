@@ -6,6 +6,7 @@ import Base from './Base.astro';
 import Icon from '../components/Icon.astro';
 import HeroBrain from '../components/HeroBrain.astro';
 import type { ReadNext } from '../data/related';
+import KnowledgeNet from '../components/knowledge/KnowledgeNet.astro';
 import Disclaimer from '../components/Disclaimer.astro';
 import AdSlot from '../components/ads/AdSlot.astro';
 import Comic from '../components/comic/Comic.astro';
@@ -38,6 +39,7 @@ interface Props {
   nextLabel: string;
   related?: { title: string; items: { href: string; title: string; note: string }[] };
   readNext?: ReadNext[];
+  knowledge?: { ids: string[]; counts: Record<string, number> };
   lang?: Lang;
   alternates?: Alternate[];
   comic?: { title?: string; panels: { scene?: Scene; image?: string; alt: string; label: string; caption: string; bubble?: string }[] };
@@ -45,7 +47,7 @@ interface Props {
 
 const {
   title, description, jsonLd, image, url, back, headings, storageKey, reviewed,
-  tags = [], prev, next, prevLabel, nextLabel, related, readNext = [], lang = DEFAULT_LANG, alternates = [], comic,
+  tags = [], prev, next, prevLabel, nextLabel, related, readNext = [], knowledge, lang = DEFAULT_LANG, alternates = [], comic,
 } = Astro.props;
 const tr = t(lang).post;
 const pageUrl = new URL(url, Astro.site).toString();
@@ -56,6 +58,7 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
 ---
 <Base title={title} description={description} type="article" jsonLd={jsonLd} image={image} lang={lang} alternates={alternates}>
   <div class:list={['post-page', toc.length === 0 && 'is-narrow']}>
+    <div class="read-meter" aria-hidden="true"><span data-meter></span></div>
     <header class="art-head frame">
       <HeroBrain lang={lang} />
       <div class="wrap head-inner">
@@ -124,6 +127,8 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
             </ul>
           )}
 
+          {knowledge && <KnowledgeNet lang={lang} ids={knowledge.ids} counts={knowledge.counts} />}
+
           <Disclaimer reviewed={reviewed} lang={lang} />
 
           <section class="respond" aria-labelledby="respond-title">
@@ -181,6 +186,7 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
   const fill = bar.querySelector<HTMLElement>('[data-fill]')!;
   const flag = bar.querySelector<HTMLElement>('[data-flag]')!;
   const pctLabel = bar.querySelector<HTMLElement>('[data-pct]')!;
+  const meter = document.querySelector<HTMLElement>('[data-meter]')!;
 
   const read = (k: string) => { try { return JSON.parse(localStorage.getItem(k) || '{}'); } catch { return {}; } };
   const write = (k: string, v: unknown) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
@@ -212,6 +218,7 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
     ticking = false;
     const f = fraction();
     fill.style.transform = `scaleX(${f})`;
+    meter.style.transform = `scaleX(${Math.min(1, scrollY / Math.max(1, document.documentElement.scrollHeight - innerHeight))})`;
     pctLabel.textContent = `${Math.round(f * 100)}%`;
     bar.classList.toggle('is-shown', scrollY > article.offsetTop - 80);
     clearTimeout(saveTimer);
@@ -341,6 +348,17 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
 
   .art-surface { padding-bottom: clamp(3rem, 6vw, 4.5rem); }
 
+  /* 화면 맨 위의 얇은 독서 진행 줄: 글 머리부터 바로 보이고, transform만 바꿔 레이아웃을 건드리지 않는다 */
+  .read-meter { position: fixed; inset: 0 0 auto; z-index: 40; height: 3px; pointer-events: none; }
+  .read-meter span {
+    display: block;
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent-on-dark), #fdd663 60%, #ff5c6c);
+    box-shadow: 0 0 8px rgb(95 208 192 / 0.6);
+    transform-origin: left center;
+    transform: scaleX(0);
+    will-change: transform;
+  }
   .progress {
     position: sticky;
     top: 0;
@@ -496,6 +514,10 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
   }
   .prose :global(p:has(> img)) { margin-block: 2em; text-align: center; }
   .prose :global(p:has(> img) em) { display: block; margin-top: 0.75rem; font-style: normal; font-size: var(--text-sm); line-height: 1.6; color: var(--muted); }
+  .prose :global(.ad + .widget),
+  .prose :global(.widget + .ad),
+  .prose :global(.widget + .google-auto-placed),
+  .prose :global(.google-auto-placed + .widget) { margin-top: 4.5rem; }
   .prose :global(blockquote) {
     position: relative;
     margin: 2em 0;

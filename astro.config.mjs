@@ -1,6 +1,8 @@
 import { defineConfig } from 'astro/config';
 
 import sitemap from '@astrojs/sitemap';
+import mdx from '@astrojs/mdx';
+import preact from '@astrojs/preact';
 import sharp from 'sharp';
 import { copyFile } from 'node:fs/promises';
 import fs from 'node:fs';
@@ -15,7 +17,7 @@ function translationLinks() {
   const field = (src, name) => src.match(new RegExp(`^${name}:\\s*"?(.*?)"?\\s*$`, 'm'))?.[1] ?? '';
   const mdFiles = (dir) =>
     fs.readdirSync(dir, { withFileTypes: true }).flatMap((e) =>
-      e.isDirectory() ? mdFiles(path.join(dir, e.name)) : e.name.endsWith('.md') ? [path.join(dir, e.name)] : [],
+      e.isDirectory() ? mdFiles(path.join(dir, e.name)) : /\.mdx?$/.test(e.name) ? [path.join(dir, e.name)] : [],
     );
   const groups = new Map();
   const add = (key, lang, pathname) => {
@@ -31,7 +33,7 @@ function translationLinks() {
   for (const file of mdFiles('src/content/articles')) {
     const src = fs.readFileSync(file, 'utf8');
     const lang = field(src, 'lang') || 'ko';
-    const name = path.basename(file, '.md');
+    const name = path.basename(file).replace(/\.mdx?$/, '');
     add(`articles:${field(src, 'translationOf') || name}`, lang, `${lang === 'ko' ? '' : `/${lang}`}/articles/${name}/`);
   }
   // 한국어 아티클 목록은 홈(/)이고, 영어 · 일본어는 /en/articles/ · /ja/articles/
@@ -100,7 +102,8 @@ export default defineConfig({
     locales: ['ko', 'en', 'ja'],
     routing: { prefixDefaultLocale: false },
   },
-  integrations: [sitemap({
+  // 글 안의 인터랙티브 위젯: MDX에서 Preact 섬(island)을 쓰고, 화면에 보일 때만 스크립트를 불러온다(client:visible)
+  integrations: [mdx(), preact(), sitemap({
       filter: (page) => !page.includes('/404'),
       // 같은 경로의 언어별 페이지(/blog/ ↔ /en/blog/ ↔ /ja/blog/)를 xhtml:link로 서로 묶는다.
       i18n: { defaultLocale: 'ko', locales: SITEMAP_LOCALES },

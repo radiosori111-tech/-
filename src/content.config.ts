@@ -24,7 +24,7 @@ const comic = z
 export const CATEGORIES = ['뇌과학 기초', '뇌과학 이슈', '습관 형성', '수면 · 리듬'] as const;
 
 const articles = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/articles' }),
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/articles' }),
   schema: z.object({
     title: z.string(),
     description: z.string(),
@@ -45,7 +45,7 @@ const articles = defineCollection({
 // 블로그 글. 티스토리에서 옮겨 온 글(scripts/tistory-import.mjs가 만든다)은 source에 원문 주소가 있고,
 // 이 사이트에서 새로 쓴 글은 source가 없다.
 const blog = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/blog' }),
   schema: z.object({
     title: z.string(),
     slug: z.string(),
