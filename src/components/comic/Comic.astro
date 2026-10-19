@@ -31,7 +31,8 @@ const plain = (html: string) => html.replace(/<[^>]+>/g, '').replace(/\s+/g, ' '
 const panelAlt = (p: Panel, i: number) => {
   const head = [comic.title, PANEL_NAME[lang](i + 1, p.label)].filter(Boolean).join(' · ');
   const bubble = p.bubble ? ` “${p.bubble}”` : '';
-  return `${head}: ${p.alt}.${bubble} ${plain(p.caption)}`.trim();
+  const stop = lang === 'ja' ? '。' : '.';
+  return `${head}: ${p.alt}${stop}${bubble} ${plain(p.caption)}`.trim();
 };
 ---
 <section class="comic" aria-labelledby="comic-title" data-comic>
