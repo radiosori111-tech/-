@@ -106,17 +106,6 @@ comic:
 
 不安は、消し去るべき敵ではありません。恐れという招かれざる客を隣の席に乗せたままでも、私たちは自分が望む人生の方向へハンドルを切ることができます。今夜、心の中を漂う考えを、紙の上にそっと置いてみてください。
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **あわせて読むと脳がもっと冴える関連記事**
->
-> - 🌬️ **呼吸と脳の覚醒:** [息は脳のスイッチ：呼吸ひとつで不安を鎮め、集中を呼び覚ます脳科学――1日5分の習慣](/ja/blog/息は脳のスイッチ-呼吸の脳科学-1日5分の習慣/)
-> - 👀 **一日を観察する力:** [自分の一日を「観察」しはじめて変わったこと：量子もつれ（Quantum Entanglement）](/ja/blog/一日を観察しはじめて変わったこと-量子もつれ/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## 参考文献
 
 - Hayes, S. C., et al. (2006). Acceptance and Commitment Therapy: Model, processes and outcomes. *Behaviour Research and Therapy*, 44(1), 1–25.

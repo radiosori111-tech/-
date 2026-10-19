@@ -73,13 +73,3 @@ In the next post, I'll cover the science of whether the brain can change.
 
 - Related post: [Wake up your neuroplasticity](/en/blog/wake-up-your-neuroplasticity/)
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 📝 **Writing things down:** [Memory Is Less True Than We Think. So Write It Down](/en/blog/memory-is-less-true-so-write-it-down/)
-> - 🌀 **Waking up neuroplasticity:** [Wake Up Your Neuroplasticity](/en/blog/wake-up-your-neuroplasticity/)
-
-</aside>
-<!-- related-reads:end -->

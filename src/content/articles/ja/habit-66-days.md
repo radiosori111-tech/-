@@ -90,17 +90,6 @@ comic:
 4. **1日逃したら、次の日にすぐ戻りましょう。** 1回の抜けで曲線は崩れません。崩すのは、「もう台無しだ」と思って何日も止まってしまうことです。
 5. **判断は2か月後に。** 3週目でまだつらいなら、それは失敗ではなく、曲線の前半にいるだけです。
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **あわせて読むと脳がもっと冴える関連記事**
->
-> - 🗓️ **三日坊主の心理学:** [ダイエットも貯金も三日坊主で終わる理由、意志力のせいではなかった](/ja/blog/ダイエットも貯金も三日坊主で終わる理由-意志力のせいではなかった/)
-> - 🧩 **BDNF・aMCCで三日坊主を越える:** [三日坊主がくり返されるなら、意志力よりBDNF・aMCCの活用法から総まとめ](/ja/blog/三日坊主がくり返されるなら-意志力よりBDNFとaMCCの活用法から総まとめ/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## 参考文献
 
 - Lally, P., van Jaarsveld, C. H. M., Potts, H. W. W., & Wardle, J. (2010). How are habits formed: Modelling habit formation in the real world. *European Journal of Social Psychology*, 40(6), 998–1009.

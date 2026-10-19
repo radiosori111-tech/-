@@ -108,13 +108,3 @@ A glucose meter is less a diagnostic tool and more a reference for understanding
 
 <strong>If this helped you look after your brain health with a glucose meter, please give it a like!</strong>
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🍞 **Using insulin wisely:** [What Does Insulin Do? And How Can You Use It Wisely?](/en/blog/what-does-insulin-do-and-how-to-use-it-wisely/)
-> - 🍽️ **What to eat before a big day:** [What Should You Eat Right Before a Big Day That Needs Brainpower?](/en/blog/what-to-eat-right-before-a-big-day-that-needs-brainpower/)
-
-</aside>
-<!-- related-reads:end -->

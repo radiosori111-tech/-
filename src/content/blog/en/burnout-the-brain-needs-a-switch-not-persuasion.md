@@ -118,13 +118,3 @@ The brain is not something you persuade with willpower. Just as channelrhodopsin
 
 Reference: [https://www.chosun.com/medical/2026/10/06/C2QQIMRXI5DQ5GTOOZH4K2WV3E/](https://www.chosun.com/medical/2026/10/06/C2QQIMRXI5DQ5GTOOZH4K2WV3E/)
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🌳 **15 minutes in nature:** [Nature as Healing, Through Brain Science: Why a 15-Minute Habit Reboots Your Brain](/en/blog/nature-heals-the-brain-15-minute-habit/)
-> - 🌬️ **Breathing and arousal:** [Your Breath Is Your Brain's Switch: The Neuroscience of Turning Down Anxiety and Turning Up Focus, in 5 Minutes a Day](/en/blog/breath-is-your-brains-switch/)
-
-</aside>
-<!-- related-reads:end -->

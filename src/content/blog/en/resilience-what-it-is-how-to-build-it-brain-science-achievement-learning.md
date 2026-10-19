@@ -168,17 +168,6 @@ It is true that genes and early environment play a part. But as the Kauai study 
 
 No. Resilience isn't the ability not to feel sadness or anxiety; it's the ability to feel those emotions fully and then **come back**. Simply suppressing painful emotions can actually slow recovery. Acknowledging and naming your feelings, and asking for help when you need it, are also an important part of resilience.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - ☁️ **Stepping back from thoughts (ACT):** [Your Thoughts Are Not You: Acceptance and Commitment Therapy (ACT) and the Power of "Cognitive Defusion" Revealed by the Brain](/en/blog/thoughts-are-not-you-act-cognitive-defusion/)
-> - 🌬️ **Breathing and arousal:** [Your Breath Is Your Brain's Switch: The Neuroscience of Turning Down Anxiety and Turning Up Focus, in 5 Minutes a Day](/en/blog/breath-is-your-brains-switch/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## 📚 References
 
 - Kim, J.-H. (2011). *Resilience: The Delightful Secret of Turning Hardship into Good Fortune* (회복탄력성: 시련을 행운으로 바꾸는 유쾌한 비밀). Wisdom House. (In Korean.)

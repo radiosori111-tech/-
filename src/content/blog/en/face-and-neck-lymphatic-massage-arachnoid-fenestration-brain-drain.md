@@ -77,13 +77,3 @@ That said, there's something I should point out honestly. Whether VEGF-C gene th
 
 The discovery of arachnoid fenestrations is a breakthrough that could change the paradigm of brain health. Although it will take time before gene therapy can be applied in daily life, simply understanding the structural mechanism by which brain waste drains out through the nasal cavity and the lymph nodes of the neck is meaningful in itself. Science has, in effect, shown that my small habits, massaging my face and neck every morning and evening to help lymphatic circulation and taking care to breathe deeply and stretch my neck, were never meaningless. Creating an environment in which the brain can clean itself may ultimately be the wisest first step to protecting brain health in an age when we live to 100.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🧹 **Brain immune cells and dementia:** [A New Path for Dementia Treatment (Brain Immune Cells, the GAP Pathway, Hormesis)](/en/blog/new-path-for-dementia-treatment-gap-pathway-hormesis/)
-> - 😴 **Sleep and memory:** [While You Sleep, Your Brain Sorts the Day's Memories](/en/articles/sleep-memory/)
-
-</aside>
-<!-- related-reads:end -->

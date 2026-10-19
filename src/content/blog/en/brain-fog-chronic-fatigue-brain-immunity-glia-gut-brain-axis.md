@@ -207,17 +207,6 @@ The way to regain a clear mind and sharp focus is simple. Instead of relying on 
 
 Starting today, eat a diet rich in glutamine, cut back on refined sugar, and get 7 hours of deep sleep. Small changes in eating habits and lifestyle will revive your gut, calm your glial cells, and bring back days that shine clearly again.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 💆 **The brain's drain and lymphatic massage:** [Face and Neck Lymphatic Massage Was More Than Skin Care: A Plain-Language Guide to the Brain's Drain, "Arachnoid Fenestrations," Revealed in a New IBS Paper in Cell, and Everyday Habits That Help Clear Brain Waste](/en/blog/face-and-neck-lymphatic-massage-arachnoid-fenestration-brain-drain/)
-> - 🧹 **Brain immune cells and dementia:** [A New Path for Dementia Treatment (Brain Immune Cells, the GAP Pathway, Hormesis)](/en/blog/new-path-for-dementia-treatment-gap-pathway-hormesis/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## References
 
 1. Iliff, J. J., et al. (2012). A paravascular pathway facilitates CSF flow through the brain parenchyma and the clearance of interstitial solutes, including amyloid β. **Science Translational Medicine**, 4(147), 147ra111. (The glymphatic system and the clearance of waste during sleep)

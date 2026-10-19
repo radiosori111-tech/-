@@ -64,13 +64,3 @@ I'll end with something a YouTuber said:
 
 ![](/images/blog/babdbca233/01.webp)
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🔑 **The secret of success:** [The Secret of Success](/en/blog/the-secret-of-success/)
-> - 💬 **Words and neuroplasticity:** [One Word Can Rewire Your Brain: The Neuroscience of Neuroplasticity and Speech Habits](/en/blog/one-word-rewires-the-brain-neuroplasticity-and-speech-habits/)
-
-</aside>
-<!-- related-reads:end -->

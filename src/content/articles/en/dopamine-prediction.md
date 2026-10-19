@@ -89,17 +89,6 @@ Once you see how prediction errors hold a habit in place, you may wonder how to 
 3. **Record "Did I want it?" and "Did I like it?" separately.** After doing something, rate how much you wanted to do it and how much you actually enjoyed it, each from 1 to 5. Behaviors with strong wanting but low satisfaction will stand out.
 4. **Attach small, unexpected rewards to new habits.** For the first few weeks, occasionally giving yourself a small treat on days you follow through can help keep motivation going.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🧠 **How long habits really take:** [Does It Really Take 21 Days to Build a New Habit?](/en/articles/habit-66-days/)
-> - ⏪ **Why we repeat regrets:** [If You Keep Doing Things You Regret, Your Brain Had Already Acted First](/en/blog/if-you-keep-doing-things-you-regret-the-brain-acted-first/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## References
 
 - Schultz, W., Dayan, P., & Montague, P. R. (1997). A neural substrate of prediction and reward. *Science*, 275(5306), 1593–1599.

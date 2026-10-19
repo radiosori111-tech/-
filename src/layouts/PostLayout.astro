@@ -5,6 +5,7 @@ import type { MarkdownHeading } from 'astro';
 import Base from './Base.astro';
 import Icon from '../components/Icon.astro';
 import HeroBrain from '../components/HeroBrain.astro';
+import type { ReadNext } from '../data/related';
 import Disclaimer from '../components/Disclaimer.astro';
 import AdSlot from '../components/ads/AdSlot.astro';
 import Comic from '../components/comic/Comic.astro';
@@ -36,6 +37,7 @@ interface Props {
   prevLabel: string;
   nextLabel: string;
   related?: { title: string; items: { href: string; title: string; note: string }[] };
+  readNext?: ReadNext[];
   lang?: Lang;
   alternates?: Alternate[];
   comic?: { title?: string; panels: { scene?: Scene; image?: string; alt: string; label: string; caption: string; bubble?: string }[] };
@@ -43,7 +45,7 @@ interface Props {
 
 const {
   title, description, jsonLd, image, url, back, headings, storageKey, reviewed,
-  tags = [], prev, next, prevLabel, nextLabel, related, lang = DEFAULT_LANG, alternates = [], comic,
+  tags = [], prev, next, prevLabel, nextLabel, related, readNext = [], lang = DEFAULT_LANG, alternates = [], comic,
 } = Astro.props;
 const tr = t(lang).post;
 const pageUrl = new URL(url, Astro.site).toString();
@@ -81,12 +83,20 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
       <div class="wrap art-grid">
         {toc.length > 0 && (
           <aside class="toc" aria-labelledby="toc-title">
+            <div class="toc-stack">
             <details class="toc-box" open data-toc>
               <summary id="toc-title"><Icon name="list" /> {tr.toc}<span class="toc-chevron"><Icon name="chevron-down" /></span></summary>
               <ol>
                 {toc.map((h) => <li><a href={`#${h.slug}`} data-toc-link={h.slug}>{h.text}</a></li>)}
               </ol>
             </details>
+            {readNext.length > 0 && (
+              <nav class="read-next" aria-labelledby="read-next-title">
+                <p class="read-next-title" id="read-next-title">💡 {tr.readNext}</p>
+                <ul>{readNext.map((r) => <li><span aria-hidden="true">{r.emoji}</span> <strong>{r.label}:</strong> <a href={r.href}>{r.title}</a></li>)}</ul>
+              </nav>
+            )}
+            </div>
           </aside>
         )}
 
@@ -97,6 +107,12 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
             <button type="button" class="btn btn-secondary btn-sm" data-resume-go>{tr.resumeGo}</button>
           </div>
 
+          {toc.length === 0 && readNext.length > 0 && (
+            <nav class="read-next is-inline" aria-labelledby="read-next-title">
+              <p class="read-next-title" id="read-next-title">💡 {tr.readNext}</p>
+              <ul>{readNext.map((r) => <li><span aria-hidden="true">{r.emoji}</span> <strong>{r.label}:</strong> <a href={r.href}>{r.title}</a></li>)}</ul>
+            </nav>
+          )}
           {comic && <Comic comic={comic} lang={lang} />}
           <AdSlot position="top" lang={lang} />
           <slot />
@@ -381,9 +397,8 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
   }
   .is-narrow .art-grid { grid-template-columns: minmax(0, var(--measure)); }
   .toc { order: 2; }
+  .toc-stack { position: sticky; top: 5rem; display: grid; gap: 1rem; }
   .toc-box {
-    position: sticky;
-    top: 5rem;
     padding: 1.125rem 0.75rem 0.75rem;
     border: 1px solid var(--line);
     border-radius: var(--radius-card);
@@ -407,6 +422,21 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
   .toc-box[open] .toc-chevron { transform: rotate(180deg); }
   .toc summary::-webkit-details-marker { display: none; }
   .toc ol { list-style: none; display: grid; gap: 0.125rem; max-height: calc(100vh - 10rem); overflow-y: auto; }
+  .toc-stack:has(.read-next) .toc ol { max-height: calc(100vh - 25rem); }
+  /* 목차 밑 '함께 읽으면 좋은 글' */
+  .read-next { padding: 1.125rem 1.125rem 1rem; border: 1px solid var(--line); border-radius: var(--radius-card); background: var(--surface); box-shadow: var(--shadow-sm); }
+  .read-next-title { margin-bottom: 0.625rem; font-size: var(--text-sm); font-weight: 700; line-height: 1.5; color: var(--ink); }
+  .read-next ul { list-style: none; display: grid; gap: 0.625rem; }
+  .read-next li { font-size: var(--text-sm); line-height: 1.6; color: var(--muted); }
+  .read-next strong { font-weight: 600; color: var(--ink-soft); }
+  .read-next a { color: var(--accent-strong); font-weight: 500; text-decoration: underline; text-decoration-color: var(--accent-line); text-underline-offset: 3px; }
+  .read-next a:hover { color: var(--accent); text-decoration-color: currentColor; }
+  .toc .read-next a { display: inline; padding: 0; border-radius: 0; color: var(--accent-strong); background: none; }
+  .toc .read-next a:hover { color: var(--accent); background: none; }
+  .read-next.is-inline { margin-bottom: 2rem; }
+  .prose .read-next ul { margin: 0; padding: 0; }
+  .prose .read-next li { margin: 0; padding: 0; font-size: var(--text-sm); }
+  .prose .read-next li::before { content: none; }
   .toc a {
     display: block;
     padding: 0.4375rem 0.625rem;
@@ -476,13 +506,6 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
     color: var(--ink);
     font-weight: 600;
   }
-  /* 본문 끝의 '함께 읽으면 좋은 글' 상자: 인용과 구분되도록 따옴표 없이 목록형으로 */
-  .prose :global(.read-next blockquote) { padding: 1.25rem 1.5rem; font-weight: 500; background: var(--surface); border-color: var(--line-strong); box-shadow: var(--shadow-sm); }
-  .prose :global(.read-next blockquote)::before { content: none; }
-  .prose :global(.read-next blockquote p) { margin: 0 0 0.625rem; font-weight: 700; }
-  .prose :global(.read-next blockquote ul) { margin: 0; padding-left: 0; list-style: none; display: grid; gap: 0.5rem; }
-  .prose :global(.read-next blockquote li) { margin: 0; padding-left: 0; line-height: 1.6; }
-  .prose :global(.read-next blockquote li)::before { content: none; }
   .prose :global(blockquote)::before {
     content: '“';
     position: absolute;
@@ -698,6 +721,7 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
     /* 본문 열이 왼쪽에 붙으므로 머리말 · 진행 막대 · 이전/다음 글도 같은 왼쪽 선에 맞춘다 */
     .head-inner, .progress-inner, .pager, .related { margin-inline: 0; }
     .toc { order: 0; }
+    .toc-stack { position: static; }
     .toc-box { position: static; padding: 0.875rem 0.75rem; }
     .toc summary { padding-bottom: 0; }
     .toc-box[open] summary { padding-bottom: 0.75rem; }

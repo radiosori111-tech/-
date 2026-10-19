@@ -89,17 +89,6 @@ comic:
 
 眠っているあいだに呼吸が止まっているようだと言われたり、十分に眠っても日中ひどく眠かったりする場合は、睡眠専門医の診察を受けるのがよいでしょう。
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **あわせて読むと脳がもっと冴える関連記事**
->
-> - 🛡️ **海馬の非常用発電機PLA2G2F:** [年をとっても記憶力が保たれる人たち、脳の中の「非常用発電機」酵素が動いていた：PLA2G2Fと海馬のレジリエンス](/ja/blog/年をとっても記憶力が保たれる脳の非常用発電機-酵素PLA2G2Fと海馬のレジリエンス/)
-> - ☀️ **朝の光と体内時計:** [朝の光10分が夜の眠りを変える理由](/ja/articles/morning-light/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## 参考文献
 
 - Rasch, B., & Born, J. (2013). About sleep's role in memory. *Physiological Reviews*, 93(2), 681–766.

@@ -90,13 +90,3 @@ The story of solving in three weeks a problem that had resisted years of effort 
 
 <strong>If Professor Hwang Nong-mun's story of immersion helped you, next time we'll look at concrete methods for achieving immersion.</strong>
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🔑 **The secret of success:** [The Secret of Success](/en/blog/the-secret-of-success/)
-> - 🧭 **The brain's coordinate systems and learning:** [Exercise and Learning Through the Brain's Coordinate Systems (Mind-Muscle, Embodied Learning, Egocentric Space)](/en/blog/brain-coordinate-systems-exercise-and-learning/)
-
-</aside>
-<!-- related-reads:end -->

@@ -57,13 +57,3 @@ Episodic memory probably derives from the hippocampus's role in cognitive mappin
 
 That's exactly why it's worth <strong>writing down the facts and feelings of the day</strong> while they're fresh: a record gives you a steady reference point that recollection alone can't.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 👀 **Observing your day:** [What Changed When I Started "Observing" My Day: Quantum Entanglement](/en/blog/what-changed-when-i-started-observing-my-day-quantum-entanglement/)
-> - 🌀 **The changing brain:** [The Brain Is Changing](/en/blog/the-brain-is-changing/)
-
-</aside>
-<!-- related-reads:end -->

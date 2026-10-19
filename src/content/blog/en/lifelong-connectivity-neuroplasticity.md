@@ -57,13 +57,3 @@ Affective neuroscience emphasizes the importance of limbic emotion connected wit
 
 Humans can learn through empathic imitation and by observing other people's actions, and **mirror neurons** help us observe and recognize that someone else's action is something we can do too. Mirror neurons, first discovered in the brains of macaque monkeys, fire not only in response to their perceptions or when anticipating intentional, successful actions performed by others, but also when they intentionally move their own hands and feet.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🌀 **The changing brain:** [The Brain Is Changing](/en/blog/the-brain-is-changing/)
-> - 🧠 **What neuroplasticity really is:** [Do We Really Use Only 10% of Our Brains?](/en/articles/ten-percent-myth/)
-
-</aside>
-<!-- related-reads:end -->

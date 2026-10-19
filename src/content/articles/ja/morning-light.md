@@ -97,17 +97,6 @@ comic:
 
 光は薬ではなく、合図です。一日二日で劇的な変化を期待するよりも、一週間ほど同じ時刻に朝の光を浴び続け、眠る時刻がどう変わるかを記録してみてください。不眠が数週間以上続くようなら、睡眠専門医に相談するのがよいでしょう。
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **あわせて読むと脳がもっと冴える関連記事**
->
-> - 😴 **睡眠と記憶の整理:** [眠っているあいだに、脳は昼間の記憶を整理する](/ja/articles/sleep-memory/)
-> - 🌅 **朝の30分と睡眠慣性:** [早起きは三文の徳？いいえ、朝の30分で「睡眠慣性」（脳がもっとも無防備な瞬間）を目覚めさせよう](/ja/blog/早起きは三文の徳-いいえ朝の30分で睡眠慣性を目覚めさせよう/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## 参考文献
 
 - Czeisler, C. A. et al. (1999). Stability, precision, and near-24-hour period of the human circadian pacemaker. *Science*, 284(5423), 2177–2181.

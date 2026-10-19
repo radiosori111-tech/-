@@ -131,17 +131,6 @@ The physiological sigh is most useful **at the very moment you feel tension risi
 
 Meditation is the practice of **watching** the breath; the techniques here are practices of **changing** it directly. In the 2023 study, **mood improved more with breathing practice over the month**, but meditation had positive effects too. They are not rivals. When your mind is in turmoil, you can use breathing first to settle the body, then sit and observe quietly.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🏃 **The neuroscience of exercise:** [The Exercise Routine a Neuroscientist Found After Living with Anxiety: A Complete Guide to Putting the Brain Science of Exercise into Practice](/en/blog/neuroscientist-anxiety-move-exercise-brain-science-guide/)
-> - 🌳 **15 minutes in nature:** [Nature as Healing, Through Brain Science: Why a 15-Minute Habit Reboots Your Brain](/en/blog/nature-heals-the-brain-15-minute-habit/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## References
 
 - Yackle, K., Schwarz, L. A., Kam, K., Sorokin, J. M., Huguenard, J. R., Feldman, J. L., Luo, L., & Krasnow, M. A. (2017). Breathing control center neurons that promote arousal in mice. *Science*, 355(6332), 1411–1415.

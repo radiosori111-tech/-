@@ -107,13 +107,3 @@ In the end, insulin resistance should probably be seen not as a problem of diabe
 
 <strong>Share this story about dementia prevention and insulin resistance with family who'd benefit, or save it to read again later.</strong>
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🍞 **Using insulin wisely:** [What Does Insulin Do? And How Can You Use It Wisely?](/en/blog/what-does-insulin-do-and-how-to-use-it-wisely/)
-> - 🛡️ **Brain immunity and the gut-brain axis:** [Brain Fog and Chronic Fatigue: Is Brain Immunity the Real Problem? An Anti-Inflammatory Nutrient and Diet Guide for Your Glial Cells and Gut-Brain Axis](/en/blog/brain-fog-chronic-fatigue-brain-immunity-glia-gut-brain-axis/)
-
-</aside>
-<!-- related-reads:end -->

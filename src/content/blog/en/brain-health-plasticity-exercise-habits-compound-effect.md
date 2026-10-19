@@ -103,13 +103,3 @@ At first, it starts with overcoming what you don't want to do. That small achiev
 
 Reference: [https://www.youtube.com/watch?v=_b7Ua3uZiZs](https://www.youtube.com/watch?v=_b7Ua3uZiZs)
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🏃 **Walking that grows the hippocampus:** [A Year of Walking Made the Hippocampus Grow](/en/articles/exercise-hippocampus/)
-> - 🏋️ **Aerobic vs. strength training:** [Was Muscle the Real Culprit Behind Weak Willpower? How Aerobic and Strength Training Change the Brain Differently](/en/blog/weak-willpower-muscle-aerobic-vs-strength-training/)
-
-</aside>
-<!-- related-reads:end -->

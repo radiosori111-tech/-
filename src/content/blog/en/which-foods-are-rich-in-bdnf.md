@@ -141,17 +141,6 @@ If calorie control and intermittent fasting caught your interest, [**a hands-on 
 
 ---
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🌱 **Ways to raise BDNF:** [How to Increase BDNF: Exercise, Food, Reading, Meditation, Sleep and Sunlight — the Evidence, and How Long It Takes to Change Your Brain](/en/blog/how-to-increase-bdnf-exercise-food-reading-meditation-sleep-evidence-and-duration/)
-> - 💊 **Magnesium absorption:** [Why the Same Magnesium Works Differently: Organic Salts, Inorganic Salts, Chelates, and the Science of Glutathione, Memory and Metabolism](/en/blog/magnesium-bioavailability-organic-chelate-glutathione-memory/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## 📚 References
 
 - Gómez-Pinilla, F. (2008). Brain foods: the effects of nutrients on brain function. *Nature Reviews Neuroscience*, 9(7), 568–578.

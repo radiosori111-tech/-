@@ -5,6 +5,7 @@ import PostLayout from '../../layouts/PostLayout.astro';
 import { SITE } from '../../data/site';
 import { postUrl, postTags, postMinutes, postAlternates, type Post } from '../../data/blog';
 import { t, blogPath, formatDateFor, HREFLANG } from '../../i18n/ui';
+import { readNext } from '../../data/related';
 
 interface Props { post: Post; newer: Post | null; older: Post | null }
 const { post, newer, older } = Astro.props;
@@ -16,6 +17,7 @@ const url = postUrl(post);
 const alternates = await postAlternates(post);
 const wasUpdated = updated && updated.toDateString() !== date.toDateString();
 const pagerLink = (p: Post | null) => p && { href: postUrl(p), title: p.data.title };
+const next2 = await readNext('blog', post.data.translationOf ?? slug, lang);
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -50,6 +52,7 @@ const jsonLd = {
   lang={lang}
   alternates={alternates}
   comic={comic}
+  readNext={next2}
 >
   <Fragment slot="meta">
     <div><dt class="visually-hidden">{tr.published}</dt><dd class="tabular"><time datetime={date.toISOString()}>{formatDateFor(lang, date)}</time></dd></div>

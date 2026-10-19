@@ -57,13 +57,3 @@ If you're deciding what to eat before an important day, knowing how blood sugar 
 
 Honestly, I was a little upset today because I didn't get the result I wanted. Until the day we each achieve what we want, I hope you'll all protect your brain health and keep your nerve cells active!
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🥦 **Eating to support BDNF:** [Which Foods Are Rich in BDNF? Sulforaphane, Flavonoids, Omega-3 and the Eating Patterns That Protect BDNF, Backed by Research](/en/blog/which-foods-are-rich-in-bdnf/)
-> - 🧊 **Brain fog and ketones:** [Brain Fog (Ketones, the Carnivore Diet, Mental Clarity)](/en/blog/brain-fog-ketones-carnivore-mental-clarity/)
-
-</aside>
-<!-- related-reads:end -->

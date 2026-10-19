@@ -97,17 +97,6 @@ Morning light sets the body clock. What does daytime light do for focus? [**Dayl
 
 Light is a signal, not a medicine. Rather than expecting a dramatic change in a day or two, try getting morning light at the same time for about a week and note how your bedtime shifts. If insomnia lasts more than a few weeks, it is a good idea to see a sleep specialist.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 😴 **Sleep and memory:** [While You Sleep, Your Brain Sorts the Day's Memories](/en/articles/sleep-memory/)
-> - 🌅 **Morning minutes and sleep inertia:** [The Early Bird Gets the Worm? No: Use the First 30 Minutes to Wake the Brain Out of Sleep Inertia, Its Most Vulnerable Moment](/en/blog/the-early-bird-the-first-30-minutes-and-sleep-inertia/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## References
 
 - Czeisler, C. A. et al. (1999). Stability, precision, and near-24-hour period of the human circadian pacemaker. *Science*, 284(5423), 2177–2181.

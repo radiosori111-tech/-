@@ -183,17 +183,6 @@ Absorption isn't known to change much with the time of day, so taking it **consi
 
 Magnesium is not a nutrient where more is better. Going over the supplement upper limit (**350 mg a day**) easily causes diarrhoea, stomach cramps and nausea. People with **reduced kidney function** in particular may not clear magnesium properly, and blood levels can rise dangerously, so always talk to your doctor first. If you take blood pressure medication, diuretics, osteoporosis drugs or antibiotics, ask a pharmacist to check for interactions.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🥦 **Eating to support BDNF:** [Which Foods Are Rich in BDNF? Sulforaphane, Flavonoids, Omega-3 and the Eating Patterns That Protect BDNF, Backed by Research](/en/blog/which-foods-are-rich-in-bdnf/)
-> - 🛡️ **Brain immunity and the gut-brain axis:** [Brain Fog and Chronic Fatigue: Is Brain Immunity the Real Problem? An Anti-Inflammatory Nutrient and Diet Guide for Your Glial Cells and Gut-Brain Axis](/en/blog/brain-fog-chronic-fatigue-brain-immunity-glia-gut-brain-axis/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## 📚 References
 
 - de Baaij, J. H. F., Hoenderop, J. G. J., & Bindels, R. J. M. (2015). Magnesium in man: implications for health and disease. *Physiological Reviews*, 95(1), 1–46.

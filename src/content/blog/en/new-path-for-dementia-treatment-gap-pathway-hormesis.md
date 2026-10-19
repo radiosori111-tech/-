@@ -100,13 +100,3 @@ The road to dementia treatment is still long, but I think the discovery of the G
 
 Reference: [https://www.sciencetimes.co.kr/nscvrg/view/menu/247?thisPage=5&searchCategory=216&searchSection=&sersYn=&serlYn=&nscvrgSn=262417](https://www.sciencetimes.co.kr/nscvrg/view/menu/247?thisPage=5&searchCategory=216&searchSection=&sersYn=&serlYn=&nscvrgSn=262417)
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🛡️ **Brain immunity and the gut-brain axis:** [Brain Fog and Chronic Fatigue: Is Brain Immunity the Real Problem? An Anti-Inflammatory Nutrient and Diet Guide for Your Glial Cells and Gut-Brain Axis](/en/blog/brain-fog-chronic-fatigue-brain-immunity-glia-gut-brain-axis/)
-> - 🛡️ **Continuous walking and PLA2G2F:** [Is One Long Walk Better for Your Brain? What the Brain's Shield PLA2G2F and Walking Research Tell Us About Cognitive Resilience](/en/blog/one-long-walk-brain-shield-pla2g2f-cognitive-resilience/)
-
-</aside>
-<!-- related-reads:end -->

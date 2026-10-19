@@ -89,13 +89,3 @@ Just checking your foot arch has probably made your criteria for choosing runnin
 
 <strong>Do you pay attention to your foot arch when choosing running shoes? If you have your own criteria or tips, let me know in the comments.</strong>
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🤸 **Warming up around a run:** [Skip the 5-Minute Warm-Up and Cool-Down, and You Cut Running's Brain Benefits in Half!](/en/blog/skip-the-5-minute-warm-up-and-cool-down-and-you-halve-runnings-brain-benefits/)
-> - 🏃 **Running and BDNF:** [BDNF: Just 10 Minutes of Running Changes the Brain, and How to Start Running](/en/blog/bdnf-just-10-minutes-of-running-changes-the-brain-how-to-start/)
-
-</aside>
-<!-- related-reads:end -->

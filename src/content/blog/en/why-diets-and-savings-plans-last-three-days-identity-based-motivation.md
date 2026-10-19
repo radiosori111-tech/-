@@ -97,13 +97,3 @@ In the end, what matters may not be how fiercely you steel yourself, but how clo
 
 <strong>When you apply identity-based motivation theory to your own goals, what comes to mind? Leave your thoughts in the comments.</strong>
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🧠 **How long habits really take:** [Does It Really Take 21 Days to Build a New Habit?](/en/articles/habit-66-days/)
-> - 🔋 **The energy-saving brain:** [Why You Keep Giving Up on Diets and Put-Off Tasks: It Wasn't Willpower, It Was a Brain That Uses 20% of the Body's Energy](/en/blog/why-we-give-up-diets-and-tasks-the-brain-uses-20-percent-of-energy/)
-
-</aside>
-<!-- related-reads:end -->

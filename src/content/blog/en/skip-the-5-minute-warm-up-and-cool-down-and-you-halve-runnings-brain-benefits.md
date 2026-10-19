@@ -104,13 +104,3 @@ Simply following the order I've introduced today will make running feel much mor
 
 <strong>If you'd like to keep getting running tips that look after your brain health, be sure to follow along!</strong>
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 👟 **Knee pain for new runners:** [Running for Brain Health: A Beginner's Knee Pain May Come From Shoes That Don't Fit Your Arch](/en/blog/running-for-brain-health-beginner-knee-pain-and-the-wrong-shoes-for-your-arch/)
-> - 👟 **Running shoes by arch type:** [Flat Feet, High Arches, Normal Arches: How to Choose Running Shoes for Your Foot Arch](/en/blog/flat-feet-high-arches-normal-arches-how-to-choose-running-shoes/)
-
-</aside>
-<!-- related-reads:end -->

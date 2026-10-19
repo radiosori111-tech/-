@@ -104,17 +104,6 @@ Having experienced it myself, the change isn't dramatic. A 30-minute outdoor run
 
 Reference: [https://health.chosun.com/site/data/html_dir/2026/01/13/2026011302989.html](https://health.chosun.com/site/data/html_dir/2026/01/13/2026011302989.html)
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🌅 **Morning minutes and sleep inertia:** [The Early Bird Gets the Worm? No: Use the First 30 Minutes to Wake the Brain Out of Sleep Inertia, Its Most Vulnerable Moment](/en/blog/the-early-bird-the-first-30-minutes-and-sleep-inertia/)
-> - 🌳 **15 minutes in nature:** [Nature as Healing, Through Brain Science: Why a 15-Minute Habit Reboots Your Brain](/en/blog/nature-heals-the-brain-15-minute-habit/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## References
 
 - Health Chosun (Chosun Ilbo) coverage of the University of Manchester study

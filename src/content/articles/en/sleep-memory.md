@@ -89,17 +89,6 @@ Because deep slow-wave sleep is concentrated early in the night and REM sleep ar
 
 If someone tells you that your breathing seems to stop during sleep, or if you feel very sleepy during the day despite sleeping enough, it's a good idea to see a sleep specialist.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🛡️ **PLA2G2F, the hippocampus's backup generator:** [People Whose Memory Holds Up With Age Had a 'Backup Generator' Running in Their Brains: PLA2G2F and Hippocampal Resilience](/en/blog/the-brains-backup-generator-enzyme-pla2g2f-memory-resilience/)
-> - ☀️ **Morning light and the body clock:** [Why 10 Minutes of Morning Sunlight Changes Your Sleep at Night](/en/articles/morning-light/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## References
 
 - Rasch, B., & Born, J. (2013). About sleep's role in memory. *Physiological Reviews*, 93(2), 681–766.

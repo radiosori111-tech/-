@@ -77,13 +77,3 @@ Let's grow more today than yesterday!!!
 
 - Next post: [Is the placebo effect real? Let's find out](/en/blog/is-the-placebo-effect-real/)
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🎯 **Reaching your goals:** [Three Ways to Achieve Your Goals](/en/blog/three-ways-to-achieve-your-goals/)
-> - 🌀 **Waking up neuroplasticity:** [Wake Up Your Neuroplasticity](/en/blog/wake-up-your-neuroplasticity/)
-
-</aside>
-<!-- related-reads:end -->

@@ -102,13 +102,3 @@ Next time, we'll look at the problems that appear when BDNF is weak and the thin
 
 - Next post: [What causes BDNF deficiency, and does brain health improve too?](/en/blog/what-causes-bdnf-deficiency-and-does-brain-health-improve/)
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🌱 **What lowers BDNF:** [What Causes BDNF Deficiency? And Does Brain Health Improve Too?](/en/blog/what-causes-bdnf-deficiency-and-does-brain-health-improve/)
-> - 🥦 **Eating to support BDNF:** [Which Foods Are Rich in BDNF? Sulforaphane, Flavonoids, Omega-3 and the Eating Patterns That Protect BDNF, Backed by Research](/en/blog/which-foods-are-rich-in-bdnf/)
-
-</aside>
-<!-- related-reads:end -->

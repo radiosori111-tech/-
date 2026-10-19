@@ -118,17 +118,6 @@ What matters is to keep adding new stimulation, and for that stimulation to be e
 
 Reference: [https://yuyu.co.kr/blog/612ff20d-2f45-4d94-9e2a-0eb3c31c4668/](https://yuyu.co.kr/blog/612ff20d-2f45-4d94-9e2a-0eb3c31c4668/)
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🛡️ **PLA2G2F, the hippocampus's backup generator:** [People Whose Memory Holds Up With Age Had a 'Backup Generator' Running in Their Brains: PLA2G2F and Hippocampal Resilience](/en/blog/the-brains-backup-generator-enzyme-pla2g2f-memory-resilience/)
-> - 🖼️ **Focus and space:** [Raemian Gallery's Immersive Exhibition "A Part of Home": I'm Going for the Brain Science Talks, Starting with a Space That Feels Like Me](/en/blog/raemian-gallery-a-part-of-home-immersive-exhibition-brain-science-talks/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## References
 
 - National Institutes of Health (NIH). Neuroplasticity and Brain Health in Aging.

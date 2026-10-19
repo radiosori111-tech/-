@@ -83,17 +83,6 @@ If walking can grow the hippocampus, what keeps an older hippocampus going? The 
 
 If you have a medical condition or haven't exercised in a long time, talk to your doctor before increasing the intensity.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🛡️ **Continuous walking and PLA2G2F:** [Is One Long Walk Better for Your Brain? What the Brain's Shield PLA2G2F and Walking Research Tell Us About Cognitive Resilience](/en/blog/one-long-walk-brain-shield-pla2g2f-cognitive-resilience/)
-> - 🏃 **The neuroscience of exercise:** [The Exercise Routine a Neuroscientist Found After Living with Anxiety: A Complete Guide to Putting the Brain Science of Exercise into Practice](/en/blog/neuroscientist-anxiety-move-exercise-brain-science-guide/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## References
 
 - Erickson, K. I. et al. (2011). Exercise training increases size of hippocampus and improves memory. *Proceedings of the National Academy of Sciences*, 108(7), 3017–3022.

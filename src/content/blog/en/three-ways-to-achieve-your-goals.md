@@ -81,13 +81,3 @@ I hope you achieve every goal you've set for 2023 by putting to work <strong>pos
 ![A photo of a to-do list written to achieve my goals](/images/blog/67c0d03b2e/01.webp)
 *A photo of a to-do list written to achieve my goals*
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🔑 **The secret of success:** [The Secret of Success](/en/blog/the-secret-of-success/)
-> - 🗓️ **Why plans last three days:** [Why Diets and Savings Plans Last Only Three Days: It Wasn't Your Willpower](/en/blog/why-diets-and-savings-plans-last-three-days-identity-based-motivation/)
-
-</aside>
-<!-- related-reads:end -->

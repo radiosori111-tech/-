@@ -110,13 +110,3 @@ Both the familiar space of home and the familiar feeling of immersion can look n
 
 17 Chungmin-ro, Songpa-gu, Seoul, Raemian Gallery
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🎨 **Routines for a younger brain:** [The Most Enjoyable Way to Keep Your Brain Young: 3 Fun Routines That Wake Up Your Brain](/en/blog/the-most-enjoyable-way-to-keep-your-brain-young/)
-> - 🧭 **The brain's coordinate systems and learning:** [Exercise and Learning Through the Brain's Coordinate Systems (Mind-Muscle, Embodied Learning, Egocentric Space)](/en/blog/brain-coordinate-systems-exercise-and-learning/)
-
-</aside>
-<!-- related-reads:end -->

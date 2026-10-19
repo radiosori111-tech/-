@@ -126,17 +126,6 @@ Rainy weather is also a good chance to be exposed to nature. The sound of rain, 
 
 Exposure to nature is a supporting tool for improving mental health, not a replacement for medical treatment. If you have serious mental health symptoms, please see a medical professional. That said, it is very effective for managing everyday stress and brain fatigue.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🔌 **Burnout and the brain's switches:** [For Anyone Who Burned Out Running on Willpower: The Brain Needs a Switch, Not Persuasion](/en/blog/burnout-the-brain-needs-a-switch-not-persuasion/)
-> - ☀️ **Daylight and focus:** [Sunlight, Focus, and Brain Function (Circadian Rhythm, Cognition, Light Exposure)](/en/blog/sunlight-focus-and-brain-function/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## References
 
 - Kaplan, S. (1995). The restorative benefits of nature: Toward an integrative framework. *Journal of Environmental Psychology*, 15(3), 169–182. (The founding paper of Attention Restoration Theory)

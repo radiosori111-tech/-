@@ -132,13 +132,3 @@ Journal of Consulting and Clinical Psychology (2018). Mechanisms of Change in AC
 
 ※ 본 포스팅은 인지심리학 및 뇌과학 저널의 공인된 학술 연구를 바탕으로 작성된 건강·과학 정보 콘텐츠이며, 전문적인 정신건강의학적 진단이나 치료를 대신할 수 없습니다.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **함께 읽으면 뇌가 더 총명해지는 관련 글**
->
-> - 🌬️ **호흡과 뇌의 각성:** [숨은 뇌의 스위치다: 호흡 하나로 불안을 끄고 집중을 켜는 뇌과학, 하루 5분 습관](/blog/숨이-뇌의-스위치다-호흡-뇌과학-하루-5분-습관/)
-> - 👀 **하루를 관찰하는 힘:** [내 하루를 '관찰'하기 시작했을 때 달라진 것: 양자 얽힘(Quantum Entanglement)](/blog/내-하루를-관찰하기-시작했을-때-달라진-것-양자-얽힘Quantum-Entanglement/)
-
-</aside>
-<!-- related-reads:end -->

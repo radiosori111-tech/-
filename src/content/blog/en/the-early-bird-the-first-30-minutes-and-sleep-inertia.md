@@ -95,13 +95,3 @@ Back when I was fixated only on what time I got up, I opened my eyes early every
 
 From here I plan to weave one more small habit into this 30-minute routine. <strong>Starting very small</strong> is, <strong>as my own experience has already proven, the secret to a routine that lasts</strong>. <strong>I recommend starting by deciding tonight, before you fall asleep, how you'll spend the first 30 minutes tomorrow morning.</strong>
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - ☀️ **Daylight and focus:** [Sunlight, Focus, and Brain Function (Circadian Rhythm, Cognition, Light Exposure)](/en/blog/sunlight-focus-and-brain-function/)
-> - 😴 **Sleep and memory:** [While You Sleep, Your Brain Sorts the Day's Memories](/en/articles/sleep-memory/)
-
-</aside>
-<!-- related-reads:end -->

@@ -74,13 +74,3 @@ Eating only during a set window, as in 16:8 intermittent fasting, where you eat 
 
 Going from three meals to two lowers your energy intake, which tends to lower your activity level too, so there's a high chance of losing not only fat but also muscle. So <strong>keep up a regular exercise habit</strong> to make sure your body doesn't lose muscle mass.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🍞 **Using insulin wisely:** [What Does Insulin Do? And How Can You Use It Wisely?](/en/blog/what-does-insulin-do-and-how-to-use-it-wisely/)
-> - 🥦 **Eating to support BDNF:** [Which Foods Are Rich in BDNF? Sulforaphane, Flavonoids, Omega-3 and the Eating Patterns That Protect BDNF, Backed by Research](/en/blog/which-foods-are-rich-in-bdnf/)
-
-</aside>
-<!-- related-reads:end -->

@@ -90,13 +90,3 @@ Attitudes aren't formed overnight, and they don't change overnight. But simply r
 
 <strong>If you'd like to keep getting stories about brain science in everyday life, be sure to follow along!</strong>
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 💬 **Words and neuroplasticity:** [One Word Can Rewire Your Brain: The Neuroscience of Neuroplasticity and Speech Habits](/en/blog/one-word-rewires-the-brain-neuroplasticity-and-speech-habits/)
-> - ⏪ **Why we repeat regrets:** [If You Keep Doing Things You Regret, Your Brain Had Already Acted First](/en/blog/if-you-keep-doing-things-you-regret-the-brain-acted-first/)
-
-</aside>
-<!-- related-reads:end -->

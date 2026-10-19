@@ -77,13 +77,3 @@ Now that you know what insulin does, it is time to look at signs that can appear
 
 To see specific meal plans and lifestyle habits that reduce insulin resistance and lower your blood sugar response on video, take a look at [a 5-minute guide to improving insulin resistance](https://www.youtube.com/watch?v=gIIq1e7EuSw) (in Korean). The video explains diabetes and blood sugar management tips and recommended breakfasts in an easy-to-understand way.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🩸 **Checking blood sugar at home:** [A Glucose Meter That Reads Brain-Health Signals From One Drop of Blood: How to Measure at Home](/en/blog/glucose-meter-at-home-brain-health-signals-from-one-drop-of-blood/)
-> - ⏱️ **Intermittent fasting:** [Intermittent Fasting: A Secret for Those Who Gained Weight Over the Holidays](/en/blog/intermittent-fasting-a-secret-for-those-who-gained-weight-over-the-holidays/)
-
-</aside>
-<!-- related-reads:end -->

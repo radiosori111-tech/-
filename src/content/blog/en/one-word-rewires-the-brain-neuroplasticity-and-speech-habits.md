@@ -103,17 +103,6 @@ Fortunately, the brain has the remarkable property of **neuroplasticity**, the a
 
 <strong>The words you speak to yourself aloud today will change the structure of your brain tomorrow.</strong>
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🔁 **Emotional reflex circuits:** [What If Repeated Emotional Reactions, Speech Habits and Even Habitual Attitudes Are Reflex Circuits the Brain Has Learned?](/en/blog/emotional-reactions-and-speech-habits-are-learned-reflex-circuits/)
-> - ☁️ **Stepping back from thoughts (ACT):** [Your Thoughts Are Not You: Acceptance and Commitment Therapy (ACT) and the Power of "Cognitive Defusion" Revealed by the Brain](/en/blog/thoughts-are-not-you-act-cognitive-defusion/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## References
 
 - Yin, H. H., & Knowlton, B. J. (2006). The role of the basal ganglia in habit formation. **Nature Reviews Neuroscience**, 7(6), 464–476.

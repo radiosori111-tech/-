@@ -5,14 +5,20 @@ import { DEFAULT_LANG, type Lang, type Alternate } from '../i18n/ui';
 
 interface Props { title: string; lede: string; description?: string; lang?: Lang; alternates?: Alternate[] }
 const { title, lede, description, lang = DEFAULT_LANG, alternates } = Astro.props;
+const hasFeature = Astro.slots.has('feature');
 ---
 <Base title={title} description={description ?? lede} lang={lang} alternates={alternates}>
-  <header class="page-head frame">
+  <header class:list={['page-head frame', hasFeature && 'has-feature']}>
     <HeroBrain lang={lang} />
     <div class="wrap">
-      <h1>{title}</h1>
-      <p class="lede">{lede}</p>
-      <slot name="head" />
+      <div class="head-grid">
+        <div class="head-copy">
+          <h1>{title}</h1>
+          <p class="lede">{lede}</p>
+          <slot name="head" />
+        </div>
+        {hasFeature && <slot name="feature" />}
+      </div>
     </div>
   </header>
   <div class="wrap page-body">
@@ -36,6 +42,17 @@ const { title, lede, description, lang = DEFAULT_LANG, alternates } = Astro.prop
     color: var(--frame-muted);
   }
   .page-body { padding-top: clamp(2.75rem, 6vw, 4.5rem); }
+
+  /* 오른쪽 카드가 있는 머리(블로그): 아티클 홈 머리와 같은 높이와 7:5 배치 */
+  .has-feature { padding-block: clamp(3.5rem, 8vw, 6rem); min-height: clamp(30rem, 43vw, 38rem); }
+  .has-feature .head-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: clamp(2.5rem, 6vw, 5rem);
+    align-items: center;
+  }
+  .has-feature .lede { max-width: 34rem; margin-top: 1.5rem; }
+  @media (max-width: 900px) { .has-feature .head-grid { grid-template-columns: minmax(0, 1fr); } }
 
   /* 소개 · 문의 · 정책 페이지의 본문 */
   .page-body :global(.doc) { max-width: var(--measure); font-size: var(--text-md); line-height: 1.85; color: var(--ink-soft); }

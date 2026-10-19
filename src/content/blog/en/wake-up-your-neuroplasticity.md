@@ -103,13 +103,3 @@ The Korean Spirit column "Is my brain now really my brain?" introduced the five 
 
 Written after reading Kim Dae-sung's *How Are the Brains of People Who Eventually Achieve Built?*
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🌀 **Lifelong neuroplasticity:** [Lifelong Connectivity: Neuroplasticity](/en/blog/lifelong-connectivity-neuroplasticity/)
-> - 🔑 **The secret of success:** [The Secret of Success](/en/blog/the-secret-of-success/)
-
-</aside>
-<!-- related-reads:end -->

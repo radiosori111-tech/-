@@ -82,13 +82,3 @@ If you want to dig deeper into this topic, books that explain the concepts witho
 
 <strong>In short:</strong> "superposition" doesn't mean putting off conclusions; it's an attitude of keeping more possibilities open, and that attitude changes real actions and choices.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - ☁️ **Stepping back from thoughts (ACT):** [Your Thoughts Are Not You: Acceptance and Commitment Therapy (ACT) and the Power of "Cognitive Defusion" Revealed by the Brain](/en/blog/thoughts-are-not-you-act-cognitive-defusion/)
-> - 🎯 **Reaching your goals:** [Three Ways to Achieve Your Goals](/en/blog/three-ways-to-achieve-your-goals/)
-
-</aside>
-<!-- related-reads:end -->

@@ -102,13 +102,3 @@ Rather than aiming to finish a thick book today, how about <strong>starting by r
 
 <strong>Save this post on building the frontal lobe and aMCC through reading if you'd like to come back to it later.</strong>
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🗓️ **Why plans last three days:** [Why Diets and Savings Plans Last Only Three Days: It Wasn't Your Willpower](/en/blog/why-diets-and-savings-plans-last-three-days-identity-based-motivation/)
-> - 🌱 **BDNF basics:** [BDNF, Brain-Derived Neurotrophic Factor: What Are You?](/en/blog/bdnf-brain-derived-neurotrophic-factor-what-are-you/)
-
-</aside>
-<!-- related-reads:end -->

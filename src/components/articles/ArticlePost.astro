@@ -3,7 +3,8 @@
 import { render } from 'astro:content';
 import PostLayout from '../../layouts/PostLayout.astro';
 import { SITE } from '../../data/site';
-import { articleUrl, articleAlternates, type Article } from '../../data/articles';
+import { articleUrl, articleAlternates, articleSlug, type Article } from '../../data/articles';
+import { readNext } from '../../data/related';
 import { t, articlesPath, formatDateFor, CATEGORY_LABEL, HREFLANG } from '../../i18n/ui';
 
 interface Props { entry: Article; prev: Article | null; next: Article | null; related: Article[] }
@@ -14,6 +15,7 @@ const tr = t(lang).post;
 const categoryLabel = CATEGORY_LABEL[lang][category] ?? category;
 const url = articleUrl(entry);
 const alternates = await articleAlternates(entry);
+const next2 = await readNext('articles', entry.data.translationOf ?? articleSlug(entry), lang);
 
 const pagerLink = (a: Article | null) =>
   a && { href: articleUrl(a), title: a.data.title, badge: { text: a.data.time ?? tr.anytime, anytime: !a.data.time } };
@@ -31,6 +33,7 @@ const jsonLd = {
 };
 ---
 <PostLayout
+  readNext={next2}
   title={title}
   description={description}
   jsonLd={jsonLd}

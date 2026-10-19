@@ -83,17 +83,6 @@ comic:
 
 持病がある方や、長いあいだ運動をしていなかった方は、運動の強度を上げる前に医師にご相談ください。
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **あわせて読むと脳がもっと冴える関連記事**
->
-> - 🛡️ **続けて歩くこととPLA2G2F:** [一度に続けて歩く散歩は脳にもっとよいのか：脳の盾PLA2G2Fとウォーキング研究から見る認知レジリエンス](/ja/blog/一度に続けて歩く散歩は脳によいのか-脳の盾PLA2G2Fと認知レジリエンス/)
-> - 🏃 **運動の脳科学:** [不安障害を経験した脳科学者が見つけた運動法――「運動の脳科学」の実践法まとめ](/ja/blog/不安障害を経験した脳科学者が見つけた運動法-運動の脳科学-実践法まとめ/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## 参考文献
 
 - Erickson, K. I. et al. (2011). Exercise training increases size of hippocampus and improves memory. *Proceedings of the National Academy of Sciences*, 108(7), 3017–3022.

@@ -84,17 +84,6 @@ comic:
 3. **조금 어렵게 연습하세요.** 이미 쉬운 것만 반복하기보다 살짝 버거운 수준에 머물 때 뇌는 더 많이 바뀌어야 할 이유를 얻습니다.
 4. **잠과 운동을 함께 챙기세요.** 기억의 정리와 **해마**의 건강을 다룬 다른 글들이 이 실행을 뒷받침합니다.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **함께 읽으면 뇌가 더 총명해지는 관련 글**
->
-> - 🌀 **일생 동안의 뇌가소성:** [일생동안의 연계성: 뇌가소성](/blog/일생동안의-연계성-뇌가소성/)
-> - 💬 **말버릇과 뇌가소성:** [말 한마디가 뇌를 재설계한다: 뇌가소성과 말버릇의 신경과학](/blog/말-한마디가-뇌를-재설계한다-뇌가소성과-말버릇의-신경과학/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## 참고 문헌
 
 - Raichle, M. E., & Gusnard, D. A. (2002). Appraising the brain's energy budget. *Proceedings of the National Academy of Sciences*, 99(16), 10237–10239.

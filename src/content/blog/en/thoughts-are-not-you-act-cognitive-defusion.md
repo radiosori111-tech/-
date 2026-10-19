@@ -106,17 +106,6 @@ When I forced myself to "think positive," I felt resistance rise inside me. But 
 
 Anxiety is not an enemy that has to disappear. Even with fear riding along as an uninvited passenger, we can still turn the wheel toward the life we want. Tonight, try gently setting the thoughts drifting in your mind down on a sheet of paper.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🌬️ **Breathing and arousal:** [Your Breath Is Your Brain's Switch: The Neuroscience of Turning Down Anxiety and Turning Up Focus, in 5 Minutes a Day](/en/blog/breath-is-your-brains-switch/)
-> - 👀 **Observing your day:** [What Changed When I Started "Observing" My Day: Quantum Entanglement](/en/blog/what-changed-when-i-started-observing-my-day-quantum-entanglement/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## References
 
 - Hayes, S. C., et al. (2006). Acceptance and Commitment Therapy: Model, processes and outcomes. *Behaviour Research and Therapy*, 44(1), 1–25.

@@ -101,13 +101,3 @@ When intense, excessive dopamine release (drugs, Shorts and Reels, provocative m
 
 In the image <strong>you can see the red and yellow areas shrink sharply while the blue and dark areas grow</strong>. This signals a state of tolerance in which <strong>dopamine receptors have dulled</strong>, so you feel <strong>no satisfaction</strong> from ordinary stimuli and demand ever stronger stimulation.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - ⏪ **Why we repeat regrets:** [If You Keep Doing Things You Regret, Your Brain Had Already Acted First](/en/blog/if-you-keep-doing-things-you-regret-the-brain-acted-first/)
-> - 🏃 **The neuroscience of exercise:** [The Exercise Routine a Neuroscientist Found After Living with Anxiety: A Complete Guide to Putting the Brain Science of Exercise into Practice](/en/blog/neuroscientist-anxiety-move-exercise-brain-science-guide/)
-
-</aside>
-<!-- related-reads:end -->

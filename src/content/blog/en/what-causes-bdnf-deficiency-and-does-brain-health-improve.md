@@ -59,13 +59,3 @@ When you eat too much sugar, less BDNF, which together with other substances hel
 
 In the end, the causes of BDNF deficiency were never far from the causes that harm our health. I hope that through <strong>healthy lifestyle habits, eating habits and stress management</strong>, you'll protect a healthy brain where BDNF is released actively.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🌱 **BDNF basics:** [BDNF, Brain-Derived Neurotrophic Factor: What Are You?](/en/blog/bdnf-brain-derived-neurotrophic-factor-what-are-you/)
-> - ⏱️ **Intermittent fasting:** [Intermittent Fasting: A Secret for Those Who Gained Weight Over the Holidays](/en/blog/intermittent-fasting-a-secret-for-those-who-gained-weight-over-the-holidays/)
-
-</aside>
-<!-- related-reads:end -->

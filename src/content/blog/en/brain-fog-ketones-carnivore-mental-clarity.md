@@ -107,17 +107,6 @@ Brain fog is not a lack of willpower. For a long time I simply put up with the f
 
 The first two weeks bring the keto flu, but the change in cognitive function you feel after keeping it up to 30 days is unmistakable. If you have an important project, exam, or presentation ahead, it may be worth trying to restrict carbohydrates for at least two weeks. However, if you have an underlying condition, be sure to consult a medical professional first.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🥩 **Brain function on a carnivore diet:** [Boosting Brain Function with a Carnivore Diet, Started on the Recommendation of Heo Nam-jun and Jang Seung-jo from You Quiz on the Block](/en/blog/carnivore-diet-for-better-brain-function-inspired-by-you-quiz/)
-> - 🛡️ **Brain immunity and the gut-brain axis:** [Brain Fog and Chronic Fatigue: Is Brain Immunity the Real Problem? An Anti-Inflammatory Nutrient and Diet Guide for Your Glial Cells and Gut-Brain Axis](/en/blog/brain-fog-chronic-fatigue-brain-immunity-glia-gut-brain-axis/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## Medical disclaimer
 
 This post is <strong>content for information purposes only</strong>, based on personal experience and academic and professional sources.

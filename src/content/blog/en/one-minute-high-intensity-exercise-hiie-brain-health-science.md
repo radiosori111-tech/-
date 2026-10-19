@@ -89,13 +89,3 @@ If short, intense bursts stimulate the brain, the type of exercise likely matter
 
 <strong>You don't need a grand start, either.</strong> Five hundred meters is fine; just one minute is enough. Why not get up from where you are right now and run until you're out of breath for just one minute? <strong>That single minute of practice in your busy day can be the start of the most efficient brain health routine</strong>.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🏃 **Running and BDNF:** [BDNF: Just 10 Minutes of Running Changes the Brain, and How to Start Running](/en/blog/bdnf-just-10-minutes-of-running-changes-the-brain-how-to-start/)
-> - 🔋 **Exercising when you're tired:** [If I'm Already Physically Exhausted, Won't Exercise Make Me Even More Tired? How Movement Wakes Up the Brain](/en/blog/already-exhausted-will-exercise-make-me-more-tired/)
-
-</aside>
-<!-- related-reads:end -->

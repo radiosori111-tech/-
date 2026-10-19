@@ -108,13 +108,3 @@ Reference: [Chuseok holiday diet, carnivore, and magnesium — Google search](ht
 
 *This post is based on personal experience and general nutrition information, and it cannot replace professional medical diagnosis or treatment. If you have a medical condition or a particular constitution, please consult a specialist or pharmacist before starting.*
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🥩 **The carnivore diet and the brain:** [Eating Only Meat Changed Their Brains? What the Carnivore Diet Really Is](/en/blog/what-is-the-carnivore-diet-people-say-changed-their-brains/)
-> - 🧊 **Brain fog and ketones:** [Brain Fog (Ketones, the Carnivore Diet, Mental Clarity)](/en/blog/brain-fog-ketones-carnivore-mental-clarity/)
-
-</aside>
-<!-- related-reads:end -->

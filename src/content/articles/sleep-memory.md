@@ -87,17 +87,6 @@ comic:
 
 수면 중 호흡이 멈추는 것 같다는 이야기를 듣거나, 충분히 자도 낮에 심하게 졸리다면 수면 전문의의 진료를 받아 보는 것이 좋습니다.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **함께 읽으면 뇌가 더 총명해지는 관련 글**
->
-> - 🛡️ **해마의 비상 발전기 PLA2G2F:** [나이 들어도 기억력이 버티는 사람들, 뇌 속 '비상 발전기' 효소가 켜져 있었다: PLA2G2F와 해마의 회복탄력성](/blog/나이-들어도-기억력이-버티는-뇌의-비상발전기-효소-PLA2G2F-해마-인지-회복탄력성/)
-> - ☀️ **아침빛과 생체시계:** [아침 햇빛 10분이 밤잠을 바꾸는 이유](/articles/morning-light/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## 참고 문헌
 
 - Rasch, B., & Born, J. (2013). About sleep's role in memory. *Physiological Reviews*, 93(2), 681–766.

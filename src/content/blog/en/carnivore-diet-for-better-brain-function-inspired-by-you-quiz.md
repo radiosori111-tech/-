@@ -76,13 +76,3 @@ If you're curious about the 'clear head' people describe on a carnivore diet, re
 2. <strong>Steady, sustained energy without blood sugar swings:</strong> post-meal drowsiness and the hunger that follows blood sugar spikes disappear completely. Because body fat and dietary fat serve as a steady energy source, your energy stays even all day.
 3. <strong>Less neuroinflammation and normalized appetite:</strong> ketones themselves act as powerful anti-inflammatory signals, reducing neuroinflammation in the brain. They also promote appetite-suppressing hormones and improve leptin resistance, so false hunger and urges to binge disappear.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🥩 **The carnivore diet and the brain:** [Eating Only Meat Changed Their Brains? What the Carnivore Diet Really Is](/en/blog/what-is-the-carnivore-diet-people-say-changed-their-brains/)
-> - 🥩 **Carnivore and magnesium after the holidays:** [The Post-Holiday Quick Reset (A Guide to the Carnivore Diet and Magnesium Right After Chuseok)](/en/blog/post-holiday-reset-carnivore-diet-and-magnesium-guide/)
-
-</aside>
-<!-- related-reads:end -->

@@ -90,17 +90,6 @@ If the situation you repeat matters more than the number of days, how small can 
 4. **If you miss a day, come back the very next day.** A single slip doesn't break the curve. What breaks it is stopping for days because you think "I've already blown it."
 5. **Judge after two months.** If it's still hard in week three, you haven't failed; you're simply on the early part of the curve.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🗓️ **Why plans last three days:** [Why Diets and Savings Plans Last Only Three Days: It Wasn't Your Willpower](/en/blog/why-diets-and-savings-plans-last-three-days-identity-based-motivation/)
-> - 🧩 **BDNF, the aMCC and sticking with plans:** [If Your Resolutions Keep Lasting Three Days, Start With BDNF and the aMCC, Not Willpower](/en/blog/three-day-resolutions-use-bdnf-and-the-amcc-before-willpower/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## References
 
 - Lally, P., van Jaarsveld, C. H. M., Potts, H. W. W., & Wardle, J. (2010). How are habits formed: Modelling habit formation in the real world. *European Journal of Social Psychology*, 40(6), 998–1009.

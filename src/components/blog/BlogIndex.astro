@@ -5,7 +5,7 @@ import Icon from '../Icon.astro';
 import PostList, { type ListItem } from '../PostList.astro';
 import LangSwitch from '../LangSwitch.astro';
 import { getPosts, postUrl, postTags, postMinutes, listAlternates } from '../../data/blog';
-import { t, type Lang } from '../../i18n/ui';
+import { t, formatDateFor, type Lang } from '../../i18n/ui';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -21,9 +21,25 @@ const items: ListItem[] = posts.map((p) => ({
   date: p.data.date,
   hay: [p.data.title, p.data.description, ...postTags(p)].join(' ').toLowerCase(),
 }));
+// 가장 최근 글은 머리의 '최신글' 카드로 올리고, 목록에서는 검색할 때만 다시 보인다
+const latest = posts[0];
 ---
 <Page title={tr.list.blogTitle} lede={tr.list.blogLede} lang={lang} alternates={listAlternates}>
   <LangSwitch slot="head" alternates={listAlternates} current={lang} label={tr.post.readIn} />
+  {latest && (
+    <article class="latest" slot="feature">
+      <p class="latest-badge"><span class="latest-dot" aria-hidden="true"></span>{tr.list.latest}</p>
+      <h2><a href={postUrl(latest)}>{latest.data.title}</a></h2>
+      <p class="latest-desc">{latest.data.description}</p>
+      <div class="latest-foot">
+        <p class="latest-meta tabular">
+          <time datetime={latest.data.date.toISOString()}>{formatDateFor(lang, latest.data.date)}</time>
+          <span>{tr.post.minutes(postMinutes(latest))}</span>
+        </p>
+        <span class="latest-go" aria-hidden="true">{tr.list.read} <Icon name="arrow-right" /></span>
+      </div>
+    </article>
+  )}
   <section aria-labelledby="list-title">
     <div class="list-head">
       <h2 id="list-title">{tr.list.all} <span class="count tabular" aria-live="polite" data-count-label={tr.list.count('{n}')}>{tr.list.count(String(posts.length))}</span></h2>
@@ -35,7 +51,9 @@ const items: ListItem[] = posts.map((p) => ({
       </label>
     </div>
 
-    <PostList items={items} images lead lang={lang} />
+    <div class="blog-list">
+      <PostList items={items} images lang={lang} />
+    </div>
 
     <div class="search-empty" data-search-empty hidden>
       <p><strong data-search-q></strong>{tr.list.noMatch}</p>
@@ -52,6 +70,7 @@ const items: ListItem[] = posts.map((p) => ({
   const emptyQ = document.querySelector<HTMLElement>('[data-search-q]')!;
   const clearInline = document.querySelector<HTMLButtonElement>('.search-clear')!;
   const countLabel = count.dataset.countLabel!;
+  const list = document.querySelector<HTMLElement>('[data-rows]');
 
   function apply() {
     const words = input.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
@@ -61,8 +80,8 @@ const items: ListItem[] = posts.map((p) => ({
       row.hidden = !hit;
       if (hit) shown++;
     });
-    // 검색 중에는 첫 글을 크게 보여 주지 않는다
-    rows[0]?.classList.toggle('is-lead', words.length === 0);
+    // 최신글은 머리 카드에 있으니, 검색할 때만 목록에 다시 보여 준다
+    list?.classList.toggle('is-searching', words.length > 0);
     count.textContent = countLabel.replace('{n}', String(shown));
     clearInline.hidden = !input.value;
     empty.hidden = shown > 0;
@@ -79,6 +98,85 @@ const items: ListItem[] = posts.map((p) => ({
 </script>
 
 <style>
+  /* 머리의 최신글 카드: 아티클 홈의 추천 카드와 같은 틀, 우주 배경 위에서도 글자가 또렷하도록 짙은 유리 */
+  .latest {
+    position: relative;
+    padding: 1.75rem;
+    border: 1px solid var(--frame-line);
+    border-radius: var(--radius-lg);
+    background: rgb(12 17 31 / 0.82);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 24px 48px -24px rgb(0 0 0 / 0.6);
+    transition: border-color 200ms ease, transform 240ms var(--ease-out);
+  }
+  .latest :is(h2, p) { text-shadow: none; }
+  .latest-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.3125rem 0.75rem;
+    border: 1px solid rgb(255 92 108 / 0.45);
+    border-radius: 999px;
+    background: rgb(255 92 108 / 0.14);
+    color: #ff7d88;
+    font-size: var(--text-sm);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+  .latest-dot { width: 7px; height: 7px; border-radius: 50%; background: #ff5c6c; box-shadow: 0 0 0 0 rgb(255 92 108 / 0.6); animation: latest-pulse 2.4s ease-out infinite; }
+  @keyframes latest-pulse { 0% { box-shadow: 0 0 0 0 rgb(255 92 108 / 0.6); } 70%, 100% { box-shadow: 0 0 0 7px rgb(255 92 108 / 0); } }
+  .latest h2 { font-size: var(--text-2xl); font-weight: 700; line-height: 1.4; letter-spacing: -0.03em; color: var(--frame-text); }
+  .latest h2 a { text-decoration: none; color: inherit; }
+  .latest h2 a::after { content: ''; position: absolute; inset: 0; border-radius: inherit; }
+  .latest h2 a:focus-visible { outline: none; }
+  .latest:has(h2 a:focus-visible) { outline: 2px solid var(--accent-on-dark); outline-offset: 3px; }
+  .latest-desc {
+    margin-top: 0.75rem;
+    color: var(--frame-muted);
+    line-height: 1.75;
+    font-size: var(--text-ui);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .latest-foot {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem 1rem;
+    margin-top: 1.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--frame-line);
+  }
+  .latest-meta { display: flex; flex-wrap: wrap; gap: 0.375rem 0.875rem; font-size: var(--text-sm); color: var(--frame-muted); }
+  .latest-go {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    padding: 0.5rem 0.875rem;
+    border-radius: var(--radius);
+    background: var(--accent-on-dark);
+    color: var(--frame);
+    font-size: var(--text-sm);
+    font-weight: 700;
+  }
+  .latest-go :global(.icon) { width: 1rem; height: 1rem; transition: transform 220ms var(--ease-out); }
+  @media (hover: hover) and (pointer: fine) {
+    .latest:hover { border-color: var(--frame-line-hover); }
+  }
+  @media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+    .latest:hover { transform: translateY(-2px); }
+    .latest:hover .latest-go :global(.icon) { transform: translateX(3px); }
+  }
+  @media (prefers-reduced-motion: reduce) { .latest-dot { animation: none; } }
+  @media (max-width: 640px) { .latest { padding: 1.375rem; } }
+
+  .blog-list :global([data-rows]:not(.is-searching) > .row:first-child) { display: none; }
+
   .count { margin-left: 0.375rem; font-size: var(--text-md); font-weight: 600; letter-spacing: 0; color: var(--muted); }
 
   .search { position: relative; flex: 0 1 26rem; display: flex; align-items: center; }

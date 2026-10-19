@@ -96,13 +96,3 @@ In the end, the relationship between the carnivore diet and BDNF is still an act
 
 <strong>If you'd like to keep up with carnivore diet and brain health tips, be sure to follow along!</strong>
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🥩 **Brain function on a carnivore diet:** [Boosting Brain Function with a Carnivore Diet, Started on the Recommendation of Heo Nam-jun and Jang Seung-jo from You Quiz on the Block](/en/blog/carnivore-diet-for-better-brain-function-inspired-by-you-quiz/)
-> - 🥩 **Carnivore and magnesium after the holidays:** [The Post-Holiday Quick Reset (A Guide to the Carnivore Diet and Magnesium Right After Chuseok)](/en/blog/post-holiday-reset-carnivore-diet-and-magnesium-guide/)
-
-</aside>
-<!-- related-reads:end -->

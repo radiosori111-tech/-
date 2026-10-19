@@ -105,13 +105,3 @@ In the end, the wish to get smarter and the wish to become more strong-willed we
 
 <strong>If these ways to activate BDNF and the aMCC helped, share them with someone who needs them or save this to read again later.</strong>
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🌱 **Ways to raise BDNF:** [How to Increase BDNF: Exercise, Food, Reading, Meditation, Sleep and Sunlight — the Evidence, and How Long It Takes to Change Your Brain](/en/blog/how-to-increase-bdnf-exercise-food-reading-meditation-sleep-evidence-and-duration/)
-> - ⏳ **A 5-minute daily habit:** [A Five-Minute Daily Habit: The Real Reason Your Brain Changes Is Neuroplasticity](/en/blog/five-minutes-a-day-why-the-brain-really-changes-neuroplasticity/)
-
-</aside>
-<!-- related-reads:end -->

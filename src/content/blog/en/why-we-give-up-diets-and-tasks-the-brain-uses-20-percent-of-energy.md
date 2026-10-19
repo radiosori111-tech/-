@@ -103,13 +103,3 @@ Of course, that doesn't mean you should blame every choice on your brain and giv
 
 <strong>If you've been beating yourself up over willpower, save this post about the brain's energy-saving habit or share it with someone wrestling with the same thing.</strong>
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - ⏪ **Why we repeat regrets:** [If You Keep Doing Things You Regret, Your Brain Had Already Acted First](/en/blog/if-you-keep-doing-things-you-regret-the-brain-acted-first/)
-> - 🔌 **Burnout and the brain's switches:** [For Anyone Who Burned Out Running on Willpower: The Brain Needs a Switch, Not Persuasion](/en/blog/burnout-the-brain-needs-a-switch-not-persuasion/)
-
-</aside>
-<!-- related-reads:end -->

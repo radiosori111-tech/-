@@ -84,13 +84,3 @@ You don't need to join a crew from the start. Simply choosing a nearby park and 
 
 ![](/images/blog/bd5b44eaf1/03.webp)
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🌱 **Ways to raise BDNF:** [How to Increase BDNF: Exercise, Food, Reading, Meditation, Sleep and Sunlight — the Evidence, and How Long It Takes to Change Your Brain](/en/blog/how-to-increase-bdnf-exercise-food-reading-meditation-sleep-evidence-and-duration/)
-> - 👟 **Running shoes by arch type:** [Flat Feet, High Arches, Normal Arches: How to Choose Running Shoes for Your Foot Arch](/en/blog/flat-feet-high-arches-normal-arches-how-to-choose-running-shoes/)
-
-</aside>
-<!-- related-reads:end -->

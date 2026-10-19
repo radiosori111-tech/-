@@ -94,13 +94,3 @@ If you felt affirmations didn't work, it was most likely a problem of method, no
 
 <strong>If you'd like to keep getting self-improvement tips grounded in affirmations and brain science, be sure to follow along!</strong>
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🧪 **The placebo effect:** [Is the Placebo Effect Real? Let's Find Out](/en/blog/is-the-placebo-effect-real/)
-> - ⏳ **A 5-minute daily habit:** [A Five-Minute Daily Habit: The Real Reason Your Brain Changes Is Neuroplasticity](/en/blog/five-minutes-a-day-why-the-brain-really-changes-neuroplasticity/)
-
-</aside>
-<!-- related-reads:end -->

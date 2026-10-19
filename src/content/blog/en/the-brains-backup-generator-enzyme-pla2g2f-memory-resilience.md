@@ -118,17 +118,6 @@ The habits below have **not** been shown to raise PLA2G2F directly. They are hab
 
 Briefly losing a name or forgetting where you put something is common with age, and most of the time it has nothing to do with dementia. But if you **get lost on familiar routes, ask the same question repeatedly, or find daily life affected**, please see your doctor or a memory clinic for an assessment. As this study shows, the ability to withstand changes in the brain differs from person to person, and the earlier you know, the more you can do.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🏃 **Walking that grows the hippocampus:** [A Year of Walking Made the Hippocampus Grow](/en/articles/exercise-hippocampus/)
-> - 🌱 **Building resilience:** [The Brain's Power to Get Back Up: What Resilience Is, How to Build It, and What Neuroscience Says About Achievement and Learning](/en/blog/resilience-what-it-is-how-to-build-it-brain-science-achievement-learning/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## References
 
 - Memory stays strong in old age when this brain enzyme is active. (2026, October 16). *Nature* (News). doi:10.1038/d41586-026-03303-9

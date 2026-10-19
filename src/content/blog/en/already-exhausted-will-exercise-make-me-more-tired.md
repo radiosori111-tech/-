@@ -90,13 +90,3 @@ This level of intensity <strong>floods the brain with oxygen and nutrients witho
 ![An fMRI scan of brain activity during running](/images/blog/50da75638c/03.webp)
 *An fMRI scan of brain activity during running*
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - ⚡ **Short, intense exercise:** [The Science and Mechanisms Behind How One Minute of High-Intensity Exercise (HIIE) Changes Brain Health](/en/blog/one-minute-high-intensity-exercise-hiie-brain-health-science/)
-> - 🌳 **15 minutes in nature:** [Nature as Healing, Through Brain Science: Why a 15-Minute Habit Reboots Your Brain](/en/blog/nature-heals-the-brain-15-minute-habit/)
-
-</aside>
-<!-- related-reads:end -->

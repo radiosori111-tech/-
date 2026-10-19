@@ -111,13 +111,3 @@ In the end, the way to avoid regrettable actions wasn't squeezing out more willp
 
 <strong>If you'd like to see more about regret-free choices and brain science, be sure to follow along!</strong>
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 💧 **Resetting reward circuits with exercise:** [\[Brain Science\] If You Want to Break a Bad Habit, Reset the Brain's Reward Circuit with Sweat](/en/blog/break-bad-habits-reset-the-brains-reward-circuit-with-sweat/)
-> - 🔁 **Emotional reflex circuits:** [What If Repeated Emotional Reactions, Speech Habits and Even Habitual Attitudes Are Reflex Circuits the Brain Has Learned?](/en/blog/emotional-reactions-and-speech-habits-are-learned-reflex-circuits/)
-
-</aside>
-<!-- related-reads:end -->

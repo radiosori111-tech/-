@@ -88,17 +88,6 @@ comic:
 4. **하루 놓쳤다면 다음 날 바로 돌아오세요.** 한 번의 누락은 곡선을 무너뜨리지 않습니다. 무너뜨리는 것은 "이미 망쳤다"는 생각으로 며칠씩 멈추는 것입니다.
 5. **두 달 뒤에 판단하세요.** 3주째에 아직 힘들다면 실패가 아니라 곡선의 앞부분에 있는 것입니다.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **함께 읽으면 뇌가 더 총명해지는 관련 글**
->
-> - 🗓️ **작심삼일의 심리학:** [다이어트도 저축도 작심삼일로 끝나는 이유, 의지력 탓이 아니었다](/blog/다이어트도-저축도-작심삼일로-끝나는-이유-의지력-탓이-아니었다/)
-> - 🧩 **BDNF·aMCC로 작심삼일 넘기기:** [작심삼일 반복된다면, 의지력보다 BDNF·aMCC 활용법부터 총정리](/blog/작심삼일-반복된다면-의지력보다-BDNF·aMCC-활용법부터-총정리/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## 참고 문헌
 
 - Lally, P., van Jaarsveld, C. H. M., Potts, H. W. W., & Wardle, J. (2010). How are habits formed: Modelling habit formation in the real world. *European Journal of Social Psychology*, 40(6), 998–1009.

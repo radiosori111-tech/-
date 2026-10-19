@@ -219,17 +219,6 @@ If you'd like to start with the meals you eat every day, [**foods and eating pat
 
 ---
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🏃 **Running and BDNF:** [BDNF: Just 10 Minutes of Running Changes the Brain, and How to Start Running](/en/blog/bdnf-just-10-minutes-of-running-changes-the-brain-how-to-start/)
-> - 🧩 **BDNF, the aMCC and sticking with plans:** [If Your Resolutions Keep Lasting Three Days, Start With BDNF and the aMCC, Not Willpower](/en/blog/three-day-resolutions-use-bdnf-and-the-amcc-before-willpower/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## 📚 References
 
 - Szuhany, K. L., Bugatti, M., & Otto, M. W. (2015). A meta-analytic review of the effects of exercise on brain-derived neurotrophic factor. *Journal of Psychiatric Research*, 60, 56–64.

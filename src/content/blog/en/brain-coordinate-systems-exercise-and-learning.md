@@ -105,13 +105,3 @@ Today, while you exercised or studied, did you take your eyes off the numbers an
 
 *About the author's views, and a note for readers: the content and analysis in this post reflect personal views and learning notes reconstructed from the author's own trial and error and experience, together with literature and news articles. The effects of exercise methods and training approaches can vary depending on your build, past injuries, and underlying conditions. Please pay attention to your body's signals when trying a new exercise routine or managing pain, and if you have persistent pain or health problems, be sure to seek an accurate diagnosis and advice from a medical professional or specialist first.*
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🏋️ **Aerobic vs. strength training:** [Was Muscle the Real Culprit Behind Weak Willpower? How Aerobic and Strength Training Change the Brain Differently](/en/blog/weak-willpower-muscle-aerobic-vs-strength-training/)
-> - 🌀 **Waking up neuroplasticity:** [Wake Up Your Neuroplasticity](/en/blog/wake-up-your-neuroplasticity/)
-
-</aside>
-<!-- related-reads:end -->

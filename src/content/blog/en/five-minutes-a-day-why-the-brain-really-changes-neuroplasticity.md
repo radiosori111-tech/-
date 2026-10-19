@@ -104,13 +104,3 @@ It takes less time than you might think for one small habit to change your brain
 
 <strong>If you want to start growing every day with habits grounded in brain science, one at a time from today, please give this post a heart.</strong>
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 📈 **The compounding of exercise habits:** [Brain Health (Neuroplasticity, Exercise Habits, and the Compound Effect)](/en/blog/brain-health-plasticity-exercise-habits-compound-effect/)
-> - 🌀 **Waking up neuroplasticity:** [Wake Up Your Neuroplasticity](/en/blog/wake-up-your-neuroplasticity/)
-
-</aside>
-<!-- related-reads:end -->

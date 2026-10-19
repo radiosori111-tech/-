@@ -145,17 +145,6 @@ Not at all. In its 2020 guidelines, the World Health Organization dropped the ol
 
 Starting slowly on flat ground is fine for most people, but if you have **joint disease, heart disease, or dizziness**, talk to your doctor first. If walking is hard, you can build up your active time with lower-impact exercise such as an **indoor bike or water walking**. What matters more than the activity is **keeping it up consistently**.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🏃 **Walking that grows the hippocampus:** [A Year of Walking Made the Hippocampus Grow](/en/articles/exercise-hippocampus/)
-> - 🧠 **How long habits really take:** [Does It Really Take 21 Days to Build a New Habit?](/en/articles/habit-66-days/)
-
-</aside>
-<!-- related-reads:end -->
-
 ### References
 
 - Vicidomini, C., … Sahay, A. (2026). An aging-sensitive secreted phospholipase confers neuroprotection and cognitive resilience. *Nature Neuroscience*. doi:10.1038/s41593-026-02465-z

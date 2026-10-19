@@ -92,13 +92,3 @@ What changed most after I began consistently adding weight training wasn't focus
 
 Reference: [https://www.youtube.com/watch?v=FdpZLVsyBUo](https://www.youtube.com/watch?v=FdpZLVsyBUo)
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🏃 **The neuroscience of exercise:** [The Exercise Routine a Neuroscientist Found After Living with Anxiety: A Complete Guide to Putting the Brain Science of Exercise into Practice](/en/blog/neuroscientist-anxiety-move-exercise-brain-science-guide/)
-> - 📈 **The compounding of exercise habits:** [Brain Health (Neuroplasticity, Exercise Habits, and the Compound Effect)](/en/blog/brain-health-plasticity-exercise-habits-compound-effect/)
-
-</aside>
-<!-- related-reads:end -->

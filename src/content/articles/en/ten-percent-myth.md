@@ -86,17 +86,6 @@ If the brain reshapes itself according to how it is used, how do we encourage th
 3. **Practice at a slightly harder level.** Rather than repeating only what is already easy, staying at a level that is a little too hard gives the brain more reason to change.
 4. **Take care of sleep and exercise, too.** Our other articles on memory consolidation and the health of the **hippocampus** support this practice.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **Related reads for a sharper brain**
->
-> - 🌀 **Lifelong neuroplasticity:** [Lifelong Connectivity: Neuroplasticity](/en/blog/lifelong-connectivity-neuroplasticity/)
-> - 💬 **Words and neuroplasticity:** [One Word Can Rewire Your Brain: The Neuroscience of Neuroplasticity and Speech Habits](/en/blog/one-word-rewires-the-brain-neuroplasticity-and-speech-habits/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## References
 
 - Raichle, M. E., & Gusnard, D. A. (2002). Appraising the brain's energy budget. *Proceedings of the National Academy of Sciences*, 99(16), 10237–10239.

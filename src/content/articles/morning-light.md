@@ -95,17 +95,6 @@ comic:
 
 빛은 약이 아니라 신호입니다. 하루 이틀로 극적인 변화를 기대하기보다, 일주일 정도 꾸준히 같은 시각에 아침빛을 보고 잠드는 시각이 어떻게 달라지는지 기록해 보세요. 불면이 몇 주 이상 이어진다면 수면 전문의와 상담하는 것이 좋습니다.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **함께 읽으면 뇌가 더 총명해지는 관련 글**
->
-> - 😴 **수면과 기억 정리:** [잠든 사이 뇌는 낮의 기억을 정리한다](/articles/sleep-memory/)
-> - 🌅 **아침 30분과 수면관성:** [일찍일어나는 새가 벌레를 먹는다? 아니요,  아침 30분으로 수면관성(뇌가 가장 취약한 순간)을 깨우자](/blog/일찍일어나는-새가-먹이를-먹는다-아니요-아침-30분으로-수면관성뇌가-가장-취약한-순간을-깨우자/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## 참고 문헌
 
 - Czeisler, C. A. et al. (1999). Stability, precision, and near-24-hour period of the human circadian pacemaker. *Science*, 284(5423), 2177–2181.

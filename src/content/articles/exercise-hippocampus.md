@@ -81,17 +81,6 @@ comic:
 
 지병이 있거나 오랫동안 운동을 하지 않았다면 운동 강도를 높이기 전에 의사와 상의하세요.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **함께 읽으면 뇌가 더 총명해지는 관련 글**
->
-> - 🛡️ **이어 걷기와 PLA2G2F:** [한 번에 이어 걷는 산책은 뇌에 더 좋을까: 뇌의 방패 PLA2G2F와 걷기 연구로 본 인지 회복탄력성](/blog/한-번에-오래-걷기-뇌의-방패-PLA2G2F-인지-회복탄력성과-연속-걷기/)
-> - 🏃 **운동의 뇌과학:** [불안장애 겪은 뇌과학자가 찾아낸 운동법, 운동의 뇌과학 실천법 총정리](/blog/불안장애-겪은-뇌과학자가-찾아낸-운동법-운동의-뇌과학-실천법-총정리/)
-
-</aside>
-<!-- related-reads:end -->
-
 ## 참고 문헌
 
 - Erickson, K. I. et al. (2011). Exercise training increases size of hippocampus and improves memory. *Proceedings of the National Academy of Sciences*, 108(7), 3017–3022.

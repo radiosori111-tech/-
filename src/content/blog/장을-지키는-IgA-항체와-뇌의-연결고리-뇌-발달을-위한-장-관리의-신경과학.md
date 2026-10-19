@@ -246,17 +246,6 @@ MCT 오일과 올리브유의 올레산은 장 점막을 보호하는 유익균(
 
 오늘 소개해 드린 과학적 원리와 식재료 리스트를 바탕으로 나만의 라이프스타일에 맞춘 장 관리 식단을 시작해 보세요. 머릿속을 짓누르던 브레인 포그가 사라지고, 뇌의 잠재력이 최고치로 끌어올려지는 놀라운 변화를 경험하게 될 것입니다.
 
-<!-- related-reads:start -->
-<aside class="read-next">
-
-> 💡 **함께 읽으면 뇌가 더 총명해지는 관련 글**
->
-> - 🥦 **BDNF를 돕는 식사:** [BDNF가 많이 들어 있는 음식은? 설포라판·플라보노이드·오메가-3, 그리고 BDNF를 지키는 식사법을 논문으로 정리](/blog/BDNF가-많이들어있는-음식은/)
-> - 💆 **뇌 배수구와 림프 마사지:** [단순한 피부 관리가 아니었던 얼굴·목 림프 마사지! 최신 IBS 셀(Cell) 논문으로 밝혀진 뇌 배수구 '지주막 소창'의 비밀과 뇌 노폐물 배출을 돕는 일상 습관을 쉽게 풀어 설명해 드립니다.](/blog/단순한-피부-관리가-아니었던-얼굴·목-림프-마사지-최신-IBS-셀Cell-논문으로-밝혀진-뇌-배수구-지주막-소창의-비밀과-뇌-노폐물-배출을-돕는-일상-습관을-쉽게-풀어-설명해-드립니다/)
-
-</aside>
-<!-- related-reads:end -->
-
 #### 📚 학술 출처 및 레퍼런스 (Academic References) Perlmutter, D. (2015). Brain Maker: The Power of Gut Microbes to Heal and Protect Your Brain–for Life. Little, Brown and Company. Mayer, E. A. (2016). The Mind-Gut Connection: How the Hidden Conversation Within Our Bodies Impacts Our Mood, Our Choices, and Our Overall Health. Harper Wave. Frontiers in Immunology (2020). Secretory IgA and the Gut-Brain Axis: Implications for Neuroinflammation and Cognitive Health.
 
 ※ 본 포스팅은 공인된 신경과학 및 소화기내학 저널과 저서를 바탕으로 작성된 건강 정보 콘텐츠이며, 전문적인 의학적 진단이나 치료를 대신할 수 없습니다.
