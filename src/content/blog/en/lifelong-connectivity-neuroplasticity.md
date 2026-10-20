@@ -1,59 +1,155 @@
 ---
-title: "Lifelong Connectivity: Neuroplasticity"
+title: "Can Adult Brains Still Grow? Three Months of Study Enlarged Medical Students' Hippocampi"
 slug: "lifelong-connectivity-neuroplasticity"
 lang: "en"
 translationOf: "일생동안의-연계성-뇌가소성"
-description: "People say brain function declines step by step after our twenties. But neuroplasticity, the brain's ability to strengthen, restore and to some extent rewire itself, continues throughout life."
+description: "Yes, the brain changes throughout life. Here is the research: medical students' hippocampi grew while studying for an exam (J Neurosci, 2006), exercise started in one's 60s increased brain volume, and therapy that changes thinking changed brain circuits, plus the open debate over new neurons in adult brains."
 date: "2023-01-06T20:51:36+09:00"
-updated: "2023-01-15T00:06:24+09:00"
-tags: ["neuroplasticity", "plasticity", "brain", "art therapy", "neuroscience"]
+updated: "2026-10-20T18:00:00+09:00"
+tags: ["neuroplasticity", "adult neuroplasticity", "neurogenesis", "hippocampus", "emotion regulation", "mindfulness", "brain science"]
 comic:
   title: "A brain that changes for life"
   panels:
     - scene: tired
-      label: "The problem"
-      bubble: "All downhill after your twenties?"
-      alt: "A tired person with a lowered head beside an almost empty battery"
+      label: "The worry"
+      bubble: "Downhill after 20?"
+      alt: "A tired person with head bowed and an almost empty battery"
       caption: "People say brain function declines step by step as we age."
-    - scene: synapse
-      label: "How it works"
-      bubble: "The brain rewires"
-      alt: "Two neurons reaching out and connecting"
-      caption: "<strong>Neuroplasticity</strong>: the brain strengthens, restores and can rewire itself to a degree."
     - scene: book
-      label: "What to do"
-      bubble: "Study grows the brain"
-      alt: "An open book and a pen"
-      caption: "Medical students preparing for exams grew <strong>gray matter</strong> and the posterior <strong>hippocampus</strong>."
+      label: "Study"
+      bubble: "Three months of study"
+      alt: "An open book with sparkling thoughts"
+      caption: "Medical students preparing for an exam gained gray matter in the back of the <strong>hippocampus</strong>, still there three months later."
+    - scene: run
+      label: "Exercise"
+      bubble: "Even starting in your 60s"
+      alt: "A person running lightly with motion lines"
+      caption: "Adults aged 60 to 79 who did six months of aerobic exercise gained <strong>brain volume</strong> (2006)."
     - scene: calm
-      label: "The change"
-      bubble: "Relationships and mindfulness"
+      label: "Mind"
+      bubble: "Change thinking, change circuits"
       alt: "A brain with an even wave and a slowly beating heart"
-      caption: "Emotional regulation, empathy and <strong>mindfulness</strong> help integrate the brain."
+      caption: "Practicing seeing thoughts differently changes activity in the <strong>circuits</strong> linking emotion and judgment."
 ---
 
-- Related post: [Wake up your neuroplasticity](/en/blog/wake-up-your-neuroplasticity/)
+## 📌 Key takeaways
 
-## The brain's ability to strengthen, restore and, to some extent, rewire itself to compensate for developmental learning and traumatic brain deficits
+> **The short answer:** Yes, adult brains keep changing throughout life. Studies show that study, exercise, and training in changing how you think have reshaped adult brain structure and circuits. But how many new neurons the adult hippocampus makes is still debated among scientists.
 
-<strong>Neuroplasticity</strong> refers to <strong>the brain's ability to strengthen and restore itself and, to some extent, rewire itself</strong> to support <strong>developmental learning</strong> and <strong>compensate for traumatic brain deficits</strong>. Evidence was once presented that brain plasticity might be limited to early development, but it is now being explored much more broadly as an experience-dependent feature of adults. Neuroplasticity is perhaps one of the most meaningful findings of neuroimaging research, given its potential clinical usefulness. In other words, "the most important recent finding of MRI-based morphometry is the discovery of the brain's ability to change its shape within weeks, reflecting structural adaptation to physical and mental activity." Greater use of the brain increases dendritic and synaptic activity, <strong>thickens the brain's gray matter, and the heavier brain in turn increases neural activity</strong>. In older adults, aerobic exercise reduces the normal cortical decline of aging while <strong>*increasing brain volume and function*</strong>. **Cognitive behavioral therapy** also modifies neural circuit function, and changing the way people think about others triggers changes that affect brain function.
+- 📚 **Study grew adult brains.** Medical students preparing for a major exam gained gray matter in the back of the **hippocampus**, which handles memory, and in the parietal lobes within three months, and the change was still there three months after the exam (**Journal of Neuroscience**, 2006).
+- 🏃 **Exercise started in one's 60s changed the brain too.** When adults aged 60 to 79 did six months of aerobic exercise, **brain volume** in the frontal and temporal lobes increased (**Journal of Gerontology**, 2006).
+- 🧠 **Therapy that changes thinking changed brain circuits.** When people with depression received **cognitive behavioral therapy**, activity patterns in the frontal-limbic circuits linking thought and emotion shifted (**Archives of General Psychiatry**, 2004).
+- 🌱 **New neurons in adult brains are still debated.** New neurons were found in the adult hippocampus in 1998 (**Nature Medicine**), but in 2018 one study reported "almost none" and another reported "they persist into old age."
 
-<strong>*Medical students* in their mid-twenties studying for exams</strong> show significant, neuroimaging-based <strong>*increases in gray matter (unmyelinated neurons)*</strong> in the <strong>posterior hippocampus and the bilateral posterior and lateral parietal cortex</strong>. Scans three months later revealed that <strong>the structural changes persisted in each of these areas</strong>, and that <strong>the increase in the posterior hippocampus was in fact continuing</strong>. The hippocampus, which handles acquiring new information, holds it as short-term memory for about two years before engraving it for the long term. <strong>A 1998 study found that adult neurons can also regenerate in the hippocampus, the seahorse-shaped structure in the brain's limbic system responsible for learning and memory.</strong> *Hippocampal **neurogenesis** occurs during physical exercise in an enriched environment (one that gives the body plenty of stimulation) and while learning tasks that depend on new memory.* Hippocampal neurons respond weakly to prolonged chronic stress, but hippocampal neurogenesis can be successfully strengthened through pharmacological and non-pharmacological treatments for depression, which also help treat mood disorders.
+### 💬 "Is it really all downhill after your twenties?"
 
-At the core of mood disorders such as depression and anxiety is a problem of **emotional regulation**. From infancy throughout life, the social brain is governed by the ability to express and self-regulate emotional experience. Emotional regulation is a functional expression of the coupling between subcortical and limbic activity and cortical brain activity. The brain's circuits integrate the limbic system's bottom-up expression of emotion with the cortex's top-down regulation.
+In January 2023, reading a book on art therapy and clinical neuroscience, I lingered on one sentence. It defined neuroplasticity as the brain's ability to strengthen and restore itself, and to some extent **rewire itself**, both for **developmental learning** and to **compensate for brain damage**. Such ability was once thought to belong only to childhood, the book said, but it is now known to continue with experience after we become adults.
 
-Understanding *how the brain evolves and organizes itself* reveals *when and how strong emotional reactions drive a person to act.* The ascending sequence of the **brainstem**, from the midbrain to the right hemisphere and then across to the left hemisphere, is associated with the increased integration of cognition and emotion that underlies complex social functioning. By contrast, *midbrain areas* closely linked to limbic function are associated with *survival-based emotions*. *<strong>In times of danger, by coupling more strongly, function reverts to the brain's older regions, and the strong neural coupling between the limbic system and the cerebellar motor areas is accompanied by weaker neural coupling toward the cortical areas.</strong>* As a result, fear and anger under stress drive more complex emotions and cortical cognition.
+People say the mind stiffens with age, but is that true? In this post I went back to the original papers behind the research I met in that book and pulled together **how adult brains change throughout life**.
+
+## Deep Dive: how do adult brains change?
+
+### 1. Do adult brains make new neurons?
+
+For a long time it was common wisdom that "adult brain cells only decrease; they never regenerate." A 1998 discovery by a Swedish-American team shook that belief (Eriksson et al., **Nature Medicine**, 1998). Five cancer patients had received, for diagnostic purposes, a drug that marks newly dividing cells. When their brains were examined after death, marked **new neurons** were found in the **hippocampus**, which handles memory.
+
+But the story didn't end there. In 2018 one team reported that they could find almost no new neurons in the adult hippocampus (Sorrells et al., **Nature**, 2018), while another team that same year reported that new neurons keep being made even in healthy older adults (Boldrini et al., **Cell Stem Cell**, 2018). The following year, a study found many new neurons in the hippocampus of healthy people into old age, and far fewer in people with Alzheimer's disease (Moreno-Jiménez et al., **Nature Medicine**, 2019). Because results can depend on how brain tissue is preserved and analyzed, there is no conclusion yet.
+
+> In my original post I wrote that "the hippocampus holds new information in short-term memory for about two years." I couldn't find evidence for this, so I removed it. It's true that the hippocampus is important for forming new memories and that memories gradually move to and settle in the cortex over time, but I couldn't confirm any research supporting a "two-year" period.
+
+### 2. Studying for an exam changed medical students' brains
+
+Separate from the debate over new neurons, the evidence that **adult brain structure changes** is clear. A German team scanned the brains of 38 medical students facing a major exam before they started studying, right after the exam, and three months after it (Draganski et al., **Journal of Neuroscience**, 2006).
+
+- After three months of study, gray matter increased in the **back of the hippocampus** and in both **parietal lobes**.
+- Three months after the exam, the parietal changes held, and **the back of the hippocampus had grown slightly more.**
+
+In other words, even adults in their mid-twenties reshape their brains to fit the task when they intensively learn a large amount of information. Not only physical skills like juggling but also **book learning** changes the brain. The juggling study is covered in [What is neuroplasticity? Three months of juggling changed adult brains](/en/blog/the-secret-of-success/).
 
 <!-- related-link -->
-For concrete ways to wake up lifelong plasticity in daily life, continue with [**everyday habits that wake up neuroplasticity**](/en/blog/wake-up-your-neuroplasticity/).
+Concrete everyday ways to wake up lifelong plasticity continue in [**Lifestyle habits that wake up neuroplasticity**](/en/blog/wake-up-your-neuroplasticity/).
 
-The basic core emotions related to pleasure and pain are happiness, surprise, fear, anger, disgust and sadness. Basic emotions tell a person whether their environment is beneficial or harmful, rewarding or threatening, and whether it calls for acceptance or rejection, categorizing it as unpleasant or pleasant. Arousal from displeasure or pleasure is built by autonomic reflexes mediated by the brainstem and the basal ganglia, which affect brainstem motor activation. The innate human tendency to return to emotion is expressed in the brain's organization. The structure of a hierarchically organized brain model is expressed functionally through bottom-up and top-down neural pathways.
+### 3. Can exercise started later in life change the brain?
 
-## Emotional regulation and integration
+Arthur Kramer's team at the University of Illinois divided 59 previously inactive adults aged 60 to 79 into two groups (Colcombe et al., **Journal of Gerontology**, 2006). For six months, one group did **aerobic exercise** such as walking, and the other did stretching and toning. The aerobic group gained **gray matter in the frontal and temporal lobes**, involved in planning and memory, and **white matter in the front of the corpus callosum**, which links the two hemispheres. The stretching group showed no such changes.
 
-Affective neuroscience emphasizes the importance of limbic emotion connected with right frontal cortical communication. According to neuroimaging studies, the area commonly important for activating both core emotions and social emotions is the **orbitofrontal cortex (OFC)**. The OFC, the lower part of the **prefrontal cortex**, sits above the eyes and behind the forehead. The OFC is known as the summit of emotional processing. Its location, just above the central brain, is crucial for limbic emotion connecting with the frontal cortex.
+That means it's not too late to start later in life. The same team's later finding that a year of walking grew the hippocampus by about 2% (Erickson et al., **PNAS**, 2011) is covered in detail in [How to boost neuroplasticity](/en/blog/wake-up-your-neuroplasticity/).
 
-## Relational empathic expression and mindfulness
+### 4. Can therapy that changes how you think change the brain?
 
-Humans can learn through empathic imitation and by observing other people's actions, and **mirror neurons** help us observe and recognize that someone else's action is something we can do too. Mirror neurons, first discovered in the brains of macaque monkeys, fire not only in response to their perceptions or when anticipating intentional, successful actions performed by others, but also when they intentionally move their own hands and feet.
+At the core of depression and anxiety is difficulty with **emotion regulation**. Emotion regulation is a process in which the lower **limbic system**, which quickly generates emotions, works together with the upper **prefrontal cortex**, which monitors and regulates them. Emotion rises from the bottom up; regulation comes from the top down.
 
+- When people were asked to **reinterpret** the same scene, activity in the **amygdala**, which amplifies emotion, dropped and the **prefrontal cortex** became more active (Ochsner et al., **Journal of Cognitive Neuroscience**, 2002).
+- When people with depression improved after 15 to 20 sessions of **cognitive behavioral therapy**, activity patterns shifted in circuits linking thought and emotion, including the frontal cortex, hippocampus, and cingulate cortex. Interestingly, the change happened in **a different way** from patients who improved on antidepressants (Goldapple et al., **Archives of General Psychiatry**, 2004).
+
+Simply changing how you think changes the brain's circuits. The practice of putting distance between yourself and your thoughts is covered in [Thoughts are not you: ACT and cognitive defusion](/en/blog/thoughts-are-not-you-act-cognitive-defusion/).
+
+### 5. Do empathy and mindfulness change the brain?
+
+- **Mirror neurons**: Giacomo Rizzolatti's team at the University of Parma discovered neurons in monkeys that respond both when the monkey grasps an object and when it watches another grasp one (Rizzolatti et al., **Cognitive Brain Research**, 1996). Similar neurons have also been recorded in people during surgery (Mukamel et al., **Current Biology**, 2010). They are studied as one basis of our ability to learn by watching others, but the claim that mirror neurons explain all of empathy is an overstatement.
+- **Mindfulness**: One study found that gray matter density in areas including the hippocampus increased after an eight-week mindfulness program (Hölzel et al., **Psychiatry Research: Neuroimaging**, 2011). But a 2022 study combining two larger randomized trials **found no structural brain changes** after the same program (Kral et al., **Science Advances**, 2022). Mindfulness may help with stress and mood, but it's hard to say it changes brain structure in eight weeks.
+
+### 6. Summary: what's confirmed and what's still debated
+
+| Question | What we know so far | Type of evidence |
+| --- | --- | --- |
+| Does adult brain structure change? | After three months of exam study, hippocampal and parietal gray matter increased | Human study (J Neurosci, 2006) |
+| Does exercise started later in life help? | Brain volume in 60- to 79-year-olds increased in six months | Human randomized trial (2006) |
+| Does changing how you think change the brain? | After CBT, frontal-limbic circuit activity shifted | Human study (2004) |
+| Does the adult hippocampus make new neurons? | **Results differ between studies; still debated** | Postmortem brain tissue studies (1998–2019) |
+| Does mindfulness change brain structure? | **It did in a small study but not in larger randomized trials** | Human studies (2011, 2022) |
+
+## The plan: 3 steps to keep changing your brain for life
+
+**Step 1. Create a period of focused learning**
+The medical students' brains changed while they studied **a large amount intensively** for three months. Pick one learning goal with a clear target, such as a certification, a language, or an instrument, and keep at it for a few months. As the juggling study showed, changes can fade when you stop, so it helps to keep going a little even after you finish.
+
+**Step 2. Start aerobic exercise, whatever your age**
+People who started in their 60s gained brain volume in six months. Begin with exercise that makes you slightly out of breath, such as brisk walking, several times a week. Not having exercised until now is no reason not to start.
+
+**Step 3. Reinterpret emotions when they surge**
+When something upsets you, ask yourself, "How would someone else see this situation?" The practice of **looking at the same facts from a different angle** uses the circuits through which the prefrontal cortex regulates emotion. If depression or anxiety persists and is hard to handle alone, evidence-based therapy such as CBT is also a way to change your brain.
+
+| Step | What | How much | Evidence | What the evidence showed |
+| --- | --- | --- | --- | --- |
+| 1. Focused learning | Pick one learning goal with a clear target | Keep at it for a few months | Journal of Neuroscience (2006) | After three months of study, hippocampal and parietal gray matter increased |
+| 2. Aerobic exercise | Start brisk walking | Several times a week, for six months or more | Journal of Gerontology (2006) | Frontal and temporal volume increased in 60- to 79-year-olds |
+| 3. Reinterpreting | Look from another angle when emotions surge | Each time something upsets you | J Cogn Neurosci (2002), Arch Gen Psychiatry (2004) | Amygdala activity dropped, and circuit activity shifted after therapy |
+
+## Conclusion
+
+The idea that the brain goes downhill after your twenties isn't true. Medical students' hippocampi grew in three months of exam study, the brain volume of people who started exercising in their 60s increased, and therapy that changed thinking changed the circuits that handle emotion. How many new neurons the adult hippocampus makes is still debated, but many studies together show that **the brain changes while we learn, move, and think differently**. Neuroplasticity isn't a gift given only in childhood; it is **an ability that lasts a lifetime**.
+
+### 🙋 Frequently asked questions
+
+#### Is there a way to increase new neurons in the adult brain?
+
+In animal studies, **running** and **new, enriched environments** increased new neurons in the hippocampus. In people, there's no way yet to count new neurons directly in the living brain, so it's hard to confirm the same effect. Still, research shows that exercise grows the human hippocampus and raises BDNF, which looks after nerve cells. BDNF is covered in [What is BDNF? Why "more is better" is only half right](/en/blog/bdnf-brain-derived-neurotrophic-factor-what-are-you/).
+
+#### Does that mean mindfulness meditation doesn't work?
+
+The evidence that it changes brain structure in eight weeks has weakened, but many studies show mindfulness helps with managing stress and mood. Even without structural change, it may help **how the brain works** and how you handle emotions day to day. It's best not to exaggerate its effects, and to practice steadily while noticing your own changes.
+
+### 📚 References
+
+- Eriksson, P. S., Perfilieva, E., Björk-Eriksson, T., Alborn, A.-M., Nordborg, C., Peterson, D. A., & Gage, F. H. (1998). Neurogenesis in the adult human hippocampus. *Nature Medicine*, 4(11), 1313–1317.
+- Sorrells, S. F., Paredes, M. F., Cebrian-Silla, A., … Alvarez-Buylla, A. (2018). Human hippocampal neurogenesis drops sharply in children to undetectable levels in adults. *Nature*, 555(7696), 377–381.
+- Boldrini, M., Fulmore, C. A., Tartt, A. N., … Mann, J. J. (2018). Human hippocampal neurogenesis persists throughout aging. *Cell Stem Cell*, 22(4), 589–599.
+- Moreno-Jiménez, E. P., Flor-García, M., Terreros-Roncal, J., … Llorens-Martín, M. (2019). Adult hippocampal neurogenesis is abundant in neurologically healthy subjects and drops sharply in patients with Alzheimer's disease. *Nature Medicine*, 25(4), 554–560.
+- Draganski, B., Gaser, C., Kempermann, G., Kuhn, H. G., Winkler, J., Büchel, C., & May, A. (2006). Temporal and spatial dynamics of brain structure changes during extensive learning. *Journal of Neuroscience*, 26(23), 6314–6317.
+- Colcombe, S. J., Erickson, K. I., Scalf, P. E., … Kramer, A. F. (2006). Aerobic exercise training increases brain volume in aging humans. *Journal of Gerontology: Medical Sciences*, 61(11), 1166–1170.
+- Erickson, K. I., Voss, M. W., Prakash, R. S., … Kramer, A. F. (2011). Exercise training increases size of hippocampus and improves memory. *PNAS*, 108(7), 3017–3022.
+- Ochsner, K. N., Bunge, S. A., Gross, J. J., & Gabrieli, J. D. E. (2002). Rethinking feelings: an fMRI study of the cognitive regulation of emotion. *Journal of Cognitive Neuroscience*, 14(8), 1215–1229.
+- Goldapple, K., Segal, Z., Garson, C., … Mayberg, H. (2004). Modulation of cortical-limbic pathways in major depression: treatment-specific effects of cognitive behavior therapy. *Archives of General Psychiatry*, 61(1), 34–41.
+- Rizzolatti, G., Fadiga, L., Gallese, V., & Fogassi, L. (1996). Premotor cortex and the recognition of motor actions. *Cognitive Brain Research*, 3(2), 131–141.
+- Mukamel, R., Ekstrom, A. D., Kaplan, J., Iacoboni, M., & Fried, I. (2010). Single-neuron responses in humans during execution and observation of actions. *Current Biology*, 20(8), 750–756.
+- Hölzel, B. K., Carmody, J., Vangel, M., … Lazar, S. W. (2011). Mindfulness practice leads to increases in regional brain gray matter density. *Psychiatry Research: Neuroimaging*, 191(1), 36–43.
+- Kral, T. R. A., Davis, K., Korponay, C., … Davidson, R. J. (2022). Absence of structural brain changes from mindfulness-based stress reduction: two combined randomized controlled trials. *Science Advances*, 8(20), eabk3316.
+
+### 💭 A question for you
+
+Is there something you've put off learning, thinking "at my age…"? Just as the medical students' hippocampi changed in three months, share the one thing you'd like to keep at for the next three months through the [contact page](/en/contact/).
+
+### ⚠️ Disclaimer
+
+This post offers general information based on academic research and does not replace medical diagnosis or treatment. Brain imaging studies sometimes have small numbers of participants, and research on new neurons has not reached a conclusion. If depression, anxiety, or memory problems are interfering with daily life, please talk to a professional.
