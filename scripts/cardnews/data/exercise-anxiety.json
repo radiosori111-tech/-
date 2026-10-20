@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 불안할 때 운동",
+  "name": "불안할 때 운동 카드뉴스",
+  "post": "/blog/불안장애-겪은-뇌과학자가-찾아낸-운동법-운동의-뇌과학-실천법-총정리/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 운동과 불안",
+      "title": "불안할 때 운동하면\n==나아질까?==",
+      "size": "md",
+      "sub": "숨찬 느낌에 익숙해지자\n불안이 줄었다",
+      "heroNumber": "RUN"
+    },
+    {
+      "type": "statement",
+      "kicker": "또 두근두근…",
+      "title": "불안할 때의 몸,\n운동할 때와 닮았다",
+      "sub": "두근거림과 숨참에 ==익숙해지는 것==,\n그게 운동이 불안을 줄이는 과정이었습니다.",
+      "note": "제니퍼 헤이스의 『운동의 뇌과학』 속 실천법을 원 논문으로 확인했습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 운동",
+      "title": "불안한 뇌를\n바꾸는 ==세 가지==",
+      "size": "md",
+      "items": [
+        { "title": "불안 증상 감소", "text": "운동은 불안과 우울을 ==중간 크기로== 낮췄습니다." },
+        { "title": "몸 신호에 익숙해짐", "text": "2주 달리기 뒤 ++불안 민감도가++ 줄었습니다." },
+        { "title": "짧고 강하게", "text": "6분 고강도 운동 뒤 !!BDNF가!! 크게 올랐습니다." }
+      ],
+      "source": "Singh et al., BJSM (2023) · Smits et al., Depress Anxiety (2008) · Gibbons et al., J Physiol (2023)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "운동과 불안의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "1,039건", "label": "모은 시험 수", "detail": "12만 8천여 명의 결과" },
+        { "value": "6회", "label": "2주간 20분 달리기", "detail": "불안 민감도가 줄었습니다" }
+      ],
+      "note": "자연 속 걷기는 처음 5분의 효과가 가장 컸습니다.",
+      "source": "Singh et al. (2023) · Smits et al. (2008) · Barton & Pretty, ES&T (2010)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "상황별 운동\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "불안", "title": "주 3회, 숨차게 20분", "text": "말은 되고 노래는 어렵게", "hot": true },
+        { "time": "바쁨", "title": "6분 고강도", "text": "계단·30초 전력 달리기" },
+        { "time": "주 1~2", "title": "근력 운동 + 공원 걷기", "text": "스쿼트, 5분 산책부터" }
+      ],
+      "source": "Smits et al. (2008) · Gibbons et al. (2023) · Liu-Ambrose et al., Arch Intern Med (2010)"
+    },
+    {
+      "type": "cta",
+      "kicker": "골라 보기",
+      "title": "블로그에서\n==나에게 맞는 운동==을\n골라 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "불안한 날\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "운동 시작하려는\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "상황별 운동과\n참고 문헌 7편" }
+      ]
+    }
+  ]
+}
