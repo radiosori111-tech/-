@@ -35,6 +35,8 @@ comic:
 
 ## 📌 Key takeaways
 
+> **The short answer:** Yes, it is real. Simply expecting relief leads the brain to release its own painkillers and turn down activity in the areas that process pain. But it changes felt symptoms such as pain; it does not cure the disease itself.
+
 - 🦵 **Sham surgery eased pain as much as real surgery.** In a trial that split 180 people with knee osteoarthritis between real arthroscopic surgery and **sham surgery** with skin incisions only, neither real procedure beat the sham over two years (**New England Journal of Medicine**, 2002).
 - 💊 **Placebo is not "just in your head."** When a drug that blocks **endorphins**, the body's own painkillers, was given, placebo pain relief disappeared (**Lancet**, 1978). The brain was drawing on its own painkillers.
 - 🧠 **Expectation changes the brain areas that process pain.** People who expected relief showed less activity in the **thalamus, insula and anterior cingulate cortex** (**Science**, 2004).

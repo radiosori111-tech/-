@@ -35,6 +35,8 @@ comic:
 
 ## 📌 Key takeaways
 
+> **The short answer:** The surest choice is a light, familiar meal one to two hours before, plus a glass of water. If it usually agrees with you, you can add a square or two of high-cacao dark chocolate, but don't expect the effect of the special high-flavanol cocoa used in the studies.
+
 - 🍫 **Cocoa flavanols showed effects within hours.** After a cocoa flavanol drink, people did better on a long, demanding math task and felt less **mental fatigue** (**Journal of Psychopharmacology**, 2010).
 - 🧠 **Two hours after dark chocolate, working memory improved.** People who ate flavanol-rich dark chocolate did better on a **spatial working memory** task two hours later (**Physiology & Behavior**, 2011). Another study found more blood flow to the brain after cocoa.
 - ⚠️ **But store-bought chocolate isn't the same as the study drinks.** The studies used cocoa made to keep unusually high flavanol levels; ordinary chocolate loses much of its flavanols in processing, and comes with sugar and calories.

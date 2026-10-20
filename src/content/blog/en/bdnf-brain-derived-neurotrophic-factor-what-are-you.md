@@ -34,6 +34,8 @@ comic:
 
 ## 📌 Key takeaways
 
+> **The short answer:** BDNF is a protein that helps nerve cells survive and connect, and it is involved in learning, memory, and appetite. But it does different jobs in different brain areas, so "more is better" doesn't hold. The most reliable approach is something like exercise, which lets the brain make as much as it needs on its own.
+
 - 🌱 **BDNF is a protein that looks after nerve cells.** It was first purified from pig brain (**EMBO Journal**, 1982) and is one of the **neurotrophic factors** that help nerve cells survive and connect.
 - 🧠 **It is essential for learning and memory.** Mice lacking the BDNF gene had weakened **long-term potentiation (LTP)** in the hippocampus, the basis of memory (**PNAS**, 1995), and people with a variant that releases BDNF less well scored lower on episodic memory (**Cell**, 2003).
 - 🍽️ **It helps regulate appetite.** Mice short on BDNF overate and became obese, and children missing one copy of the BDNF gene were more often obese (**NEJM**, 2008).

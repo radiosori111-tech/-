@@ -34,6 +34,8 @@ comic:
 
 ## 📌 Key takeaways
 
+> **The short answer:** It isn't that the brain rejects new things. Sleepiness comes mainly from built-up sleep pressure and low arousal, and the reluctance comes from the brain treating mentally demanding work as a cost. Once repetition hands the task to habit circuits, it gets easier.
+
 - 🔋 **The brain is built to save energy.** At about 2% of body weight, it uses about 20% of the body's energy (**PNAS**, 2002), so it tries to avoid costly work whenever it can.
 - 🧩 **Mentally demanding work is meant to feel tiresome.** Given the same reward, people consistently chose the option that required less thinking (**Journal of Experimental Psychology: General**, 2010).
 - 🔁 **Familiar actions are handed to habit circuits.** Repeated behaviors shift to habit circuits in the **basal ganglia** that need less deliberation, running on their own with less energy (**Annual Review of Neuroscience**, 2008).

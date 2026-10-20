@@ -34,6 +34,8 @@ comic:
 
 ## 📌 Key takeaways
 
+> **The short answer:** Neuroplasticity is the brain's ability to change its structure and connections through experience and practice. Adult brains do change, but they change when you keep doing something new and a little hard, and they drift back when you stop.
+
 - 🧠 **The brain changes with use.** People who learned to juggle for three months gained **gray matter** in areas that track moving objects, and lost it again when they stopped (**Nature**, 2004).
 - 🚕 **Paths used for years grow thicker.** London taxi drivers, who must memorize a maze of streets, had a larger rear **hippocampus**, the area for spatial memory, and it was larger the longer they had driven (**PNAS**, 2000).
 - 🎨 **New, slightly hard learning worked.** Adults aged 60 to 90 who **learned new skills** such as digital photography or quilting improved their memory; those who only did familiar activities did not (**Psychological Science**, 2014).

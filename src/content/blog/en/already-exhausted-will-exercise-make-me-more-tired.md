@@ -35,6 +35,8 @@ comic:
 
 ## 📌 Key takeaways
 
+> **The short answer:** Done lightly, it actually leaves you less tired. Keeping up light exercise at a pace where you can still talk reduced fatigue and raised energy, and just 10 minutes of running woke up the prefrontal cortex, which handles focus. On tiring days, what to avoid isn't exercise itself but high intensity, which sharply raises stress hormones.
+
 - 🏃 **Light exercise reduced fatigue.** When young adults who felt tired for no clear reason did light exercise for six weeks, they **felt less fatigued and more energetic**, and fatigue fell most in the low-intensity group (**Psychotherapy and Psychosomatics**, 2008).
 - 🪑 **If you sit for long periods, "split walking" worked well.** On days when people walked 5 minutes every hour, they had better **energy and mood** all day and felt less fatigue in the afternoon (**International Journal of Behavioral Nutrition and Physical Activity**, 2016).
 - 🧠 **The brain responds within 10 minutes.** After 10 minutes of moderate running, mood improved, people did better on a test of focus, and the **prefrontal cortex** was more active (**Scientific Reports**, 2021).
