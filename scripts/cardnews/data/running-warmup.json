@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 러닝 준비운동",
+  "name": "러닝 준비운동 카드뉴스",
+  "post": "/blog/러닝-전후-5분-준비운동-놓치면-뇌-효과-반토막-난대요/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 러닝",
+      "title": "달리기 전 스트레칭,\n==부상==을 막아 줄까?",
+      "size": "md",
+      "sub": "러닝 준비운동,\n연구로 다시 짜기",
+      "heroNumber": "5min"
+    },
+    {
+      "type": "statement",
+      "kicker": "출발 전 습관",
+      "title": "다리를 쭉 뻗고\n오래 늘리시나요?",
+      "sub": "부상을 줄인 건 늘리기가 아니라\n==움직이며 데우기==였습니다.",
+      "note": "준비운동을 안 하면 뇌 효과가 반토막 난다는 근거는 없습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 준비운동",
+      "title": "늘리기보다\n==움직이기==",
+      "size": "md",
+      "items": [
+        { "title": "동적 준비운동", "text": "1,892명, 부상 위험이 ==약 3분의 1== 줄었습니다." },
+        { "title": "운동 전 정적 스트레칭", "text": "1,538명, 부상률이 ++차이 없었습니다.++" },
+        { "title": "쿨다운", "text": "근육통 효과는 작고 !!어지럼증 예방!!에 의미가 있습니다." }
+      ],
+      "source": "Soligard et al., BMJ (2008) · Pope et al., MSSE (2000) · Van Hooren & Peake (2018)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "스트레칭은\n==짧게==",
+      "size": "md",
+      "items": [
+        { "value": "45초", "label": "한 동작 이하로 늘리면", "detail": "근력 저하가 거의 없었습니다" },
+        { "value": "5.4%", "label": "오래 늘린 직후 근력", "detail": "평균적으로 떨어진 정도" }
+      ],
+      "note": "운동 뒤 스트레칭의 근육통 감소는 100점 만점에 1~2점이었습니다.",
+      "source": "Simic et al., SJMSS (2013) · Herbert et al., Cochrane (2011)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "달리기 전후\n==5분 루틴==",
+      "size": "md",
+      "items": [
+        { "time": "전", "title": "걷기 → 니업·힐킥 → 조깅", "text": "숨이 살짝 찰 때까지 5분" },
+        { "time": "중", "title": "처음 몇 분은 천천히", "text": "대화할 수 있는 속도로", "hot": true },
+        { "time": "후", "title": "3~5분 걸으며 멈추기", "text": "갑자기 서면 어지러울 수 있습니다" }
+      ],
+      "source": "Soligard et al., BMJ (2008) · Fradkin et al., JSCR (2010)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==5분 준비운동==을\n따라 해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "달리기 전에\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "러닝 크루에게\n보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "따라 하기 루틴과\n참고 문헌 8편" }
+      ]
+    }
+  ]
+}
