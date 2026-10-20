@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 시간 기록 효과",
+  "name": "시간 기록 효과 카드뉴스",
+  "post": "/blog/내-하루를-관찰하기-시작했을-때-달라진-것-양자-얽힘Quantum-Entanglement/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 시간 기록",
+      "title": "시간 기록하면\n==습관이 바뀔까?==",
+      "size": "md",
+      "sub": "휴대폰은 생각의\n두 배를 쓰고 있었다",
+      "heroNumber": "x2"
+    },
+    {
+      "type": "statement",
+      "kicker": "배달 앱 15분, 쇼핑몰 20분",
+      "title": "시간이 없는 걸까,\n방향이 없는 걸까?",
+      "sub": "하루를 적어 보자\n==흘려보낸 시간이 숫자로== 보였습니다.",
+      "note": "양자역학 비유는 바로잡고, 실제 연구로 다시 설명했습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 기록",
+      "title": "기록이 하루를\n바꾸는 ==세 가지==",
+      "size": "md",
+      "items": [
+        { "title": "어림은 절반", "text": "휴대폰 사용을 ==실제의 절반==으로 어림했습니다." },
+        { "title": "꾸준한 기록", "text": "꾸준히 적을수록 ++목표에 가까웠습니다.++" },
+        { "title": "운동 전염", "text": "친구가 더 달린 날 !!나도 더!! 달렸습니다." }
+      ],
+      "source": "Andrews et al., PLoS ONE (2015) · Burke et al. (2011) · Aral & Nicolaides, Nat Commun (2017)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "시간 기록의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "85번", "label": "하루 휴대폰 사용", "detail": "약 5시간, 어림은 절반" },
+        { "value": "66일", "label": "습관이 자리 잡는 시간", "detail": "하루쯤 빠뜨려도 괜찮았습니다" }
+      ],
+      "note": "물리학의 '관찰'은 측정 장치와의 상호작용입니다.",
+      "source": "Andrews et al. (2015) · Lally et al., Eur J Soc Psychol (2010)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "시간 기록\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "사흘", "title": "30분 단위로 적기", "text": "휴대폰 기록과 비교" },
+        { "time": "66일", "title": "같은 때 새 행동", "text": "점심 후 10분 걷기처럼", "hot": true },
+        { "time": "매일", "title": "체크하고 나누기", "text": "동료·친구와 함께" }
+      ],
+      "source": "Andrews et al. (2015) · Lally et al. (2010) · Aral & Nicolaides (2017)"
+    },
+    {
+      "type": "cta",
+      "kicker": "계산해 보기",
+      "title": "블로그에서\n==흘려보낸 시간==을\n계산해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "시간이 없다고\n느낄 때 다시 보기" },
+        { "icon": "share", "title": "공유", "text": "같이 걸을\n동료에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "시간 계산기와\n참고 문헌 9편" }
+      ]
+    }
+  ]
+}

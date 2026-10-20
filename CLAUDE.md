@@ -8,7 +8,7 @@ Astro 블로그(ko/en/ja). 글은 `src/content/blog/`(ko), `en/`, `ja/`에 있�
 - 변경 후에는 `npm run build`로 확인하고 commit한다. **push는 글 1편의 작업(글·카드뉴스·비교 팝업)이 모두 끝났을 때 한 번만** 한다. 이 저장소는 Vercel 프로젝트 여러 개에 연결되어 있어 push마다 배포가 여러 번 일어나고, 하루 배포 한도("Deployment rate limited")에 걸리면 jes-lu.com이 24시간 동안 갱신되지 않는다(2026-10-20 실제로 발생). scripts·CLAUDE.md만 바뀐 커밋은 vercel.json의 ignoreCommand로 배포를 건너뛴다. 커밋 끝에 `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`를 붙인다.
 
 ## 진행 중인 일: 참고 문헌 없는 옛 글을 근거로 보강 (AdSense 승인용)
-남은 글은 참고 문헌(`참고 문헌`)이 없는 ko 글이다. 2023년 글 3편은 모두 완료(간헐적 단식·BDNF 부족 원인·인슐린 역할). 남은 2026년 글은 date 순서로 진행한다: `grep -L "참고 문헌" src/content/blog/*.md*`를 date로 정렬해 맨 앞부터(러닝 무릎 통증·평발 러닝화·aMCC·카니보어 식단이란·독서 집중력·인슐린 저항성 자가체크·혈당 체크기·러닝 준비운동·후회할 행동·확언 효과·말버릇 고치는 법·매일 5분 공부·작심삼일 이유(정체성 동기)·몰입하는 방법·방 정리 집중력(래미안갤러리)·뇌 피로(에너지 20%)·불안할 때 운동(운동의 뇌과학)·카니보어 부작용(유퀴즈)·야식 충동과 운동(보상 회로)·1분 고강도 운동(VILPA) 글 완료. 다음: 내-하루를-관찰하기-시작했을-때-달라진-것-양자-얽힘Quantum-Entanglement …).
+남은 글은 참고 문헌(`참고 문헌`)이 없는 ko 글이다. 2023년 글 3편은 모두 완료(간헐적 단식·BDNF 부족 원인·인슐린 역할). 남은 2026년 글은 date 순서로 진행한다: `grep -L "참고 문헌" src/content/blog/*.md*`를 date로 정렬해 맨 앞부터(러닝 무릎 통증·평발 러닝화·aMCC·카니보어 식단이란·독서 집중력·인슐린 저항성 자가체크·혈당 체크기·러닝 준비운동·후회할 행동·확언 효과·말버릇 고치는 법·매일 5분 공부·작심삼일 이유(정체성 동기)·몰입하는 방법·방 정리 집중력(래미안갤러리)·뇌 피로(에너지 20%)·불안할 때 운동(운동의 뇌과학)·카니보어 부작용(유퀴즈)·야식 충동과 운동(보상 회로)·1분 고강도 운동(VILPA)·시간 기록 효과(양자 얽힘) 글 완료. 다음: 일찍일어나는-새가-먹이를-먹는다-아니요-아침-30분으로-수면관성뇌가-가장-취약한-순간을-깨우자 …).
 - **push 일정**: 2026-10-21 01:36 사용자가 '푸시하지마'라고 한 뒤(01:35에 한 번 push됨), '10/21 낮 14:00에 올려 Vercel이 배포하게, 안 되면 15:00'으로 정했다. 이 두 시각에만 push하고 jes-lu.com 제목으로 반영을 확인한다. 그 밖에는 사용자가 다시 말할 때까지 commit만 쌓는다.
 - 2023년 글: 전면 개정.
 - 2026년 글(이미 김): 틀린 내용 바로잡기 + 참고 문헌 목록 + 한 줄 답 + 제목 점검 위주로 줄여서.
@@ -18,7 +18,7 @@ Astro 블로그(ko/en/ja). 글은 `src/content/blog/`(ko), `en/`, `ja/`에 있�
 1. ko 원글, en/ja 번역, 내부 링크 후보 slug를 읽는다.
 2. 검색 의도를 정한다. 이미 고친 글과 같은 검색어가 겹치지 않게 한다.
 3. ko 글을 다시 쓴다(아래 글쓰기 기준). slug와 date는 유지하고 `updated`를 갱신한다. 4컷 만화(`comic`) 캡션도 새 내용에 맞춘다.
-   - **인터랙티브 위젯(MDX)을 글마다 1개 이상 넣는다**: 확인 퀴즈(`Quiz`)는 기본, 글에 맞으면 직접 해 보는 위젯(예: `WoopPlanner`, `SynapseSlider`, `BrainMap`, `FastingWindow`, 자가 점검표 `CheckList`는 items·tips를, 상황 고르기 `PickPlan`은 options·plans·why를 props로 넘겨 어느 글에나 쓸 수 있음. 충동 점수 재기 `CravingCheck`는 걷기 전후 비교)을 쓰거나 `src/components/widgets/`에 새로 만든다(Preact, `client:visible`, ko/en/ja 문구). 파일을 `.mdx`로 바꾸고(`git mv`), frontmatter 바로 뒤에 import, `<!-- -->` 대신 `{/* related-link */}`, 본문에 `<`·`{` 글자를 쓰지 않는다. 빌드 뒤 preview 서버에서 위젯을 한 번 눌러 확인한다.
+   - **인터랙티브 위젯(MDX)을 글마다 1개 이상 넣는다**: 확인 퀴즈(`Quiz`)는 기본, 글에 맞으면 직접 해 보는 위젯(예: `WoopPlanner`, `SynapseSlider`, `BrainMap`, `FastingWindow`, 자가 점검표 `CheckList`는 items·tips를, 상황 고르기 `PickPlan`은 options·plans·why를 props로 넘겨 어느 글에나 쓸 수 있음. 충동 점수 재기 `CravingCheck`는 걷기 전후 비교, 시간 계산기 `TimeTally`는 흘려보낸 시간 합계)을 쓰거나 `src/components/widgets/`에 새로 만든다(Preact, `client:visible`, ko/en/ja 문구). 파일을 `.mdx`로 바꾸고(`git mv`), frontmatter 바로 뒤에 import, `<!-- -->` 대신 `{/* related-link */}`, 본문에 `<`·`{` 글자를 쓰지 않는다. 빌드 뒤 preview 서버에서 위젯을 한 번 눌러 확인한다.
 4. en, ja 파일을 같은 내용으로 다시 쓴다(위젯 import 경로는 `../../../components/...`).
 5. `node scripts/rewrite/fix-bold.cjs "$PWD/src/content"`를 실행한 뒤 `npm run build`를 하고, 그 글의 내부 링크(`dist/<경로>/index.html` 존재)를 확인한다.
 6. commit (push는 10단계에서 한 번에).
