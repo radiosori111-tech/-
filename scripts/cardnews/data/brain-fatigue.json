@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 뇌 피로",
+  "name": "뇌 피로 카드뉴스",
+  "post": "/blog/다이어트도-미룬-일도-자꾸-포기하는-이유-의지-아니라-몸-에너지-20-쓰는-뇌-때문이었다/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 뇌 피로",
+      "title": "저녁마다 포기하는 건\n==뇌 피로== 때문?",
+      "size": "md",
+      "sub": "6시간 집중한 뒤엔\n눈앞 보상을 골랐다",
+      "heroNumber": "6h"
+    },
+    {
+      "type": "statement",
+      "kicker": "결국 야식을 또…",
+      "title": "왜 꼭 저녁만 되면\n무너질까?",
+      "sub": "의지가 약해서도, 뇌 연료가 바닥나서도\n아니었습니다. ==쌓인 뇌 피로==였습니다.",
+      "note": "뇌가 쓰는 에너지는 집중해도 5%도 늘지 않았습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 뇌 피로",
+      "title": "저녁의 선택을\n바꾸는 ==세 가지==",
+      "size": "md",
+      "items": [
+        { "title": "머리 쓰기는 비용", "text": "보상이 같아도 ==머리를 덜 쓰는 쪽==을 골랐습니다." },
+        { "title": "쌓이는 글루탐산", "text": "6시간 넘게 집중하자 ++외측 전전두엽++에 쌓였습니다." },
+        { "title": "잠 부족", "text": "밤을 새우면 !!고칼로리 음식!!을 더 원했습니다." }
+      ],
+      "source": "Kool et al., JEP:G (2010) · Wiehler et al., Current Biology (2022) · Greer et al., Nat Commun (2013)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "뇌 에너지와\n==피로의 근거==",
+      "size": "md",
+      "items": [
+        { "value": "20%", "label": "뇌가 쓰는 에너지", "detail": "몸무게 2%, 쉬는 동안의 몫" },
+        { "value": "<5%", "label": "집중할 때 더 쓰는 양", "detail": "연료 부족은 답이 아니었습니다" }
+      ],
+      "note": "억지 미소의 효과는 3,878명 실험에서 작았습니다.",
+      "source": "Raichle & Gusnard, PNAS (2002) · Raichle & Mintun (2006) · Coles et al., Nat Hum Behav (2022)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "저녁 포기 줄이기\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "아침", "title": "어려운 결정 먼저", "text": "식단, 미룬 일의 첫 단계" },
+        { "time": "미리", "title": "만약-그러면 적기", "text": "밤 9시 배고프면 삶은 달걀", "hot": true },
+        { "time": "밤", "title": "잘 시간부터 정하기", "text": "7시간 이상 자기" }
+      ],
+      "source": "Wiehler et al. (2022) · Gollwitzer & Sheeran (2006) · Greer et al. (2013)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==저녁 루틴==을\n따라 해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "야식 당길 때\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "다이어트 중인\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "하루 루틴과\n참고 문헌 8편" }
+      ]
+    }
+  ]
+}
