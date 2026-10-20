@@ -1,9 +1,9 @@
 ---
-title: "Will Exercise Make You More Tired When You're Already Exhausted? Light Exercise That Reduces Fatigue, and a 15-Minute 3-Step Plan for Office Workers"
+title: "Will Exercise Make You More Tired? A 15-Minute Plan That Cuts Fatigue"
 slug: "already-exhausted-will-exercise-make-me-more-tired"
 lang: "en"
 translationOf: "육체적으로-이미-지쳤는데-운동을-하면-더-피곤해지지-않을까요-뇌를-깨우는-메커니즘을-소개합니다"
-description: "People who kept up light exercise for six weeks felt less fatigued (Psychotherapy and Psychosomatics, 2008), and walking 5 minutes every hour during long sitting raised energy all day (IJBNPA, 2016). Here is why exercise eases fatigue even on tiring days, and a three-step plan for office workers that starts with a 15-minute break."
+description: "Light exercise actually reduced fatigue. Six weeks of easy workouts lowered tiredness (2008), and 5-minute walks every hour raised energy all day (2016). Here is why, and a 3-step plan for office workers that starts with a 15-minute break."
 date: "2026-09-17T23:21:48+09:00"
 updated: "2026-10-20T15:00:00+09:00"
 tags: ["exercise for fatigue", "office workout", "chronic fatigue", "light exercise", "cortisol", "BDNF", "Spark", "John Ratey", "brain science"]

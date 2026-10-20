@@ -1,9 +1,9 @@
 ---
-title: "Why Do New Things Feel Tiring and Make You Sleepy? How the Brain Adapts to Change, and 3 Steps to Help It"
+title: "Why Do New Things Make You Sleepy? The Brain Science and 3 Fixes"
 slug: "the-brain-is-changing"
 lang: "en"
 translationOf: "뇌가-변하고-있다"
-description: "The brain is 2% of body weight but uses about 20% of its energy (PNAS, 2002), so it steers away from mentally demanding work (Journal of Experimental Psychology: General, 2010) and hands familiar tasks to habit circuits. Here is why new things feel tiresome and sleepy, and three steps to adapt instead of blaming yourself."
+description: "It's not weak willpower. The brain is 2% of body weight but uses about 20% of its energy (PNAS, 2002), so it avoids mentally demanding work. Here is why new things feel tiresome and sleepy, and 3 steps to let a new habit settle in."
 date: "2022-12-22T13:52:20+09:00"
 updated: "2026-10-20T15:00:00+09:00"
 tags: ["neuroplasticity", "adapting to change", "habits", "cognitive effort", "sleepiness", "adenosine", "self-compassion", "brain science"]

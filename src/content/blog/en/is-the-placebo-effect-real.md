@@ -1,9 +1,9 @@
 ---
-title: "Is the Placebo Effect Real? What Sham Surgery and Brain Research Show About How Expectation Eases Pain"
+title: "Is the Placebo Effect Real? What Sham Surgery Reveals About Expectation"
 slug: "is-the-placebo-effect-real"
 lang: "en"
 translationOf: "플라세보가-진짜-존재하는지-알아보기"
-description: "Knee surgery did no better than sham surgery (NEJM, 2002), blocking the body's painkillers erased placebo relief (Lancet, 1978), and expectation dialed down pain areas in the brain (Science, 2004). Here is how the placebo effect works in the brain, and three steps for facing pain."
+description: "Short answer: yes. Sham surgery did as well as real knee surgery (NEJM, 2002), and expectation changed how the brain processes pain. Here is how the placebo effect works, and 3 steps for facing pain."
 date: "2022-12-29T16:03:34+09:00"
 updated: "2026-10-20T15:00:00+09:00"
 tags: ["placebo effect", "pain", "expectation", "learned helplessness", "endorphins", "The Painful Truth", "Monty Lyman", "neuroscience"]

@@ -1,9 +1,9 @@
 ---
-title: "Do Successful People Have Different Brains? Neuroplasticity in Research and 3 Steps to Change Your Brain with New Habits"
+title: "What Is Neuroplasticity? Proof Adult Brains Change, and 3 Habit Steps"
 slug: "the-secret-of-success"
 lang: "en"
 translationOf: "성공의-비밀"
-description: "Three months of juggling grew gray matter (Nature, 2004), London taxi drivers had larger hippocampi (PNAS, 2000), and older adults who learned new skills improved their memory (Psychological Science, 2014). Here is what research says about neuroplasticity, and three steps to change your brain through new behavior."
+description: "Adult brains do change. Three months of juggling grew gray matter (Nature, 2004), and older adults who learned new skills improved their memory. Here is what neuroplasticity research shows, and 3 steps to change your brain with new habits."
 date: "2022-12-27T15:39:36+09:00"
 updated: "2026-10-20T15:00:00+09:00"
 tags: ["neuroplasticity", "success habits", "learning new skills", "reappraisal", "hippocampus", "brain science"]

@@ -1,9 +1,9 @@
 ---
-title: "What Is BDNF? Brain-Derived Neurotrophic Factor in Research, Common Myths, and 3 Steps to Raise It"
+title: "What Is BDNF? Meaning, What It Does, and Is More Always Better?"
 slug: "bdnf-brain-derived-neurotrophic-factor-what-are-you"
 lang: "en"
 translationOf: "BDNF-뇌-유래-신경영양인자-너의-정체는-뭐니"
-description: "BDNF (brain-derived neurotrophic factor) is a protein first purified in 1982. Drawing on research into learning and memory (Cell, 2003), appetite (NEJM, 2008), and exercise and the hippocampus (PNAS, 2011), here is what BDNF does, the common myths about it, and three evidence-based steps to raise it."
+description: "BDNF is a protein that helps nerve cells survive and connect. Here is how it relates to memory, appetite, and exercise, why \"more is better\" is a myth, per Cell, NEJM, and PNAS studies, and 3 evidence-based steps to raise it."
 date: "2023-02-01T13:12:32+09:00"
 updated: "2026-10-20T16:00:00+09:00"
 tags: ["BDNF", "brain-derived neurotrophic factor", "what is BDNF", "hippocampus", "resilience", "exercise and the brain", "brain science"]

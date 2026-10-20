@@ -1,9 +1,9 @@
 ---
-title: "What to Eat Right Before an Exam or Interview: 3 Steps for a Big Day, from Dark Chocolate and Cocoa Research"
+title: "What to Eat Before an Exam or Interview? Dark Chocolate and 3 Steps"
 slug: "what-to-eat-right-before-a-big-day-that-needs-brainpower"
 lang: "en"
 translationOf: "두뇌활성이-필요한-중요한-날엔-직전에-뭘-먹을까"
-description: "People did better on demanding math tasks and felt less mentally tired after a cocoa flavanol drink (Journal of Psychopharmacology, 2010), and working memory improved two hours after dark chocolate (Physiology & Behavior, 2011). Here are three steps for what to eat, and how, right before an exam, interview or other big day."
+description: "After a high-flavanol cocoa drink, people did better on math tasks and felt less mentally tired (2010), but store-bought chocolate is different. Here is what to eat and what to skip right before an exam or interview, in 3 research-based steps."
 date: "2023-02-07T21:09:21+09:00"
 updated: "2026-10-20T15:00:00+09:00"
 tags: ["food before an exam", "food before an interview", "dark chocolate", "cocoa flavanols", "focus foods", "nuts", "vitamin B", "brain health"]
