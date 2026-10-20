@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 인슐린 저항성 자가체크",
+  "name": "인슐린 저항성 카드뉴스",
+  "post": "/blog/혈당-정상인데도-뇌는-늙는다…인슐린-저항성-자가체크-신호/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 혈당",
+      "title": "혈당 정상이어도\n==치매 위험==이\n오를까?",
+      "size": "md",
+      "sub": "인슐린 저항성 자가체크,\n숫자로 확인하세요",
+      "heroNumber": "3.0"
+    },
+    {
+      "type": "statement",
+      "kicker": "건강검진 결과표",
+      "title": "\"혈당은 정상입니다\"\n그럼 안심해도 될까?",
+      "sub": "당뇨가 없어도 평균 혈당이 높을수록\n==치매 위험이 높았습니다.==",
+      "note": "인슐린 저항성은 뚜렷한 증상이 거의 없습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 혈당과 뇌",
+      "title": "뇌도\n==인슐린==을 쓴다",
+      "size": "md",
+      "items": [
+        { "title": "평균 혈당 115 vs 100", "text": "당뇨가 없어도 치매 위험이 ==18% 높았습니다.==" },
+        { "title": "알츠하이머 환자의 뇌", "text": "당뇨가 없어도 인슐린 신호가 ++둔해져++ 있었습니다." },
+        { "title": "'제3형 당뇨'", "text": "연구자들이 쓰는 표현이지 !!공식 병명은 아닙니다.!!" }
+      ],
+      "source": "Crane et al., NEJM (2013) · Talbot et al., JCI (2012) · de la Monte & Wands (2008)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 자가체크",
+      "title": "검진표에서\n==이 숫자==를 보세요",
+      "size": "md",
+      "items": [
+        { "value": "3.0", "label": "중성지방/HDL 비율", "detail": "이상이면 인슐린 저항성 가능성↑" },
+        { "value": "100", "label": "공복혈당(mg/dL)", "detail": "100~125는 공복혈당장애" }
+      ],
+      "note": "식후 졸음은 인슐린 저항성 신호라는 근거가 약했습니다.",
+      "source": "McLaughlin et al., Ann Intern Med (2003)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "인슐린 저항성\n낮추는 ==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "확인", "title": "검진표 숫자 보기", "text": "비율·공복혈당·허리둘레" },
+        { "time": "운동", "title": "유산소 + 근력 함께", "text": "주 3회 걷기 + 주 2회 근력", "hot": true },
+        { "time": "식사", "title": "단 음료부터 줄이기", "text": "채소·단백질 먼저 먹기" }
+      ],
+      "source": "Church et al., JAMA (2010) · Livingston et al., Lancet (2024)"
+    },
+    {
+      "type": "cta",
+      "kicker": "직접 넣어 보기",
+      "title": "블로그에서\n==검진 수치==를\n넣어 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "검진표 받는 날\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "부모님께\n보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "자가체크 도구와\n참고 문헌 10편" }
+      ]
+    }
+  ]
+}
