@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 1분 고강도 운동",
+  "name": "1분 고강도 운동 카드뉴스",
+  "post": "/blog/1분-고강도-운동HIIE이-뇌-건강을-바꾸는-과학적-근거와-메커니즘/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 1분 운동",
+      "title": "1분 고강도 운동,\n==하루 몇 번?==",
+      "size": "md",
+      "sub": "하루 3번 1분에\n사망 위험이 40% 낮았다",
+      "heroNumber": "3x1"
+    },
+    {
+      "type": "statement",
+      "kicker": "운동할 시간이 없을 때",
+      "title": "한 번에 못 뛰면\n나눠 뛰어도 될까?",
+      "sub": "출근 전 2km, 쉬는 시간 1km, 퇴근 후 500m.\n==나눠 움직여도 효과==가 있었습니다.",
+      "note": "운영자의 9월 21일 기록을 연구로 확인했습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 짧은 운동",
+      "title": "짧아도 통하는\n==세 가지 근거==",
+      "size": "md",
+      "items": [
+        { "title": "하루 3번 VILPA", "text": "사망 위험이 ==약 40%== 낮았습니다." },
+        { "title": "전력 1분", "text": "10분 운동이 ++50분만큼++ 체력을 올렸습니다." },
+        { "title": "해마는 걷기", "text": "해마 2% 증가는 !!1년 걷기!! 연구였습니다." }
+      ],
+      "source": "Stamatakis et al., Nat Med (2022) · Gillen et al., PLoS ONE (2016) · Erickson et al., PNAS (2011)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "1분 운동의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "40%", "label": "사망 위험 차이", "detail": "하루 3번, 1~2분 숨찬 움직임" },
+        { "value": "19%", "label": "심폐 체력 향상", "detail": "10분 운동과 50분 운동이 같았습니다" }
+      ],
+      "note": "관찰 연구라 원인이라고 단정할 수는 없습니다.",
+      "source": "Stamatakis et al. (2022) · Gillen et al. (2016)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "하루 3번 1분\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "하루 3번", "title": "계단·정류장·스퍼트", "text": "1~2분 숨이 차게", "hot": true },
+        { "time": "강도", "title": "말하기 힘든 정도", "text": "시작 전 몸 풀기" },
+        { "time": "주 3회", "title": "30~40분 걷기 더하기", "text": "해마를 위한 꾸준함" }
+      ],
+      "source": "Stamatakis et al. (2022) · Allison et al., MSSE (2017) · Erickson et al. (2011)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==하루 3번 1분 루틴==을\n따라 해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "계단 앞에서\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "운동할 시간 없는\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "1분 루틴과\n참고 문헌 6편" }
+      ]
+    }
+  ]
+}
