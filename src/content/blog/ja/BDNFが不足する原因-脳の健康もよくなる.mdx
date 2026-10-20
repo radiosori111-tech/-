@@ -1,0 +1,162 @@
+---
+title: "BDNF不足の原因4つ、血液検査ではなぜわかりにくい？"
+slug: "BDNFが不足する原因-脳の健康もよくなる"
+lang: "ja"
+translationOf: "BDNF-부족하게-되는-원인-뇌건강도-좋아지나"
+description: "研究がBDNFを下げる原因として挙げるのは、慢性的なストレス、運動不足、甘くて脂っこい食事、加齢です。ただし血液中のBDNFはほとんどが血小板にたくわえられているため、血液検査の数値で脳のBDNFを知るのは困難です。Cell・PNAS・J Neurosciの研究で原因と根拠のレベルを分け、今日から変えられる3ステップとセルフチェックをまとめました。"
+date: "2023-02-06T20:53:55+09:00"
+updated: "2026-10-20T23:30:00+09:00"
+tags: ["BDNF不足の原因", "BDNF", "慢性ストレス", "運動不足", "糖分のとりすぎ", "脳の健康"]
+image: "/images/blog/ed574772da/01.webp"
+comic:
+  title: "BDNFが減る4つの理由"
+  panels:
+    - scene: alarm
+      label: "問題"
+      bubble: "ストレスが抜けない"
+      alt: "机の前で浅く息をする人と、頭の上で鳴る警報ベル"
+      caption: "長く続く<strong>ストレス</strong>は、動物実験で海馬のBDNFを減らしました。"
+    - scene: tired
+      label: "しくみ"
+      bubble: "運動もしてないし…"
+      alt: "疲れてうなだれる人と、ほとんど空になった電池"
+      caption: "<strong>運動不足</strong>、甘くて脂っこい食事、加齢も、BDNFが低くなる方向と結びついています。"
+    - scene: run
+      label: "実践"
+      bubble: "息がはずむまで歩こう"
+      alt: "軽く走る人と動きの線"
+      caption: "運動はBDNFを上げ、<strong>強度が高いほど</strong>大きく上がりました。"
+    - scene: sprout
+      label: "変化"
+      bubble: "海馬が育った"
+      alt: "脳の上から芽が出てくる図"
+      caption: "1年間のウォーキングで高齢者の<strong>海馬</strong>が大きくなり、BDNFの変化と連動していました。"
+---
+import CheckList from '../../../components/widgets/CheckList.tsx';
+import Quiz from '../../../components/widgets/Quiz.tsx';
+
+## 📌 この記事の要点
+
+> **ひとことで答えると：** 研究が挙げる**BDNF不足の原因**は、**慢性的なストレス、運動不足、甘くて脂っこい食事、加齢**の4つです。ただし血液中のBDNFはほとんどが血小板の中にあるため、血液検査の数値ひとつで自分の脳のBDNFを知ることは困難です。だから数値を測るより、原因となる生活を変えるほうが現実的です。
+
+- 😣 **ストレス：** ラットを毎日動けないように拘束すると、記憶を担う**海馬**のBDNFが減りました（**Journal of Neuroscience**、1995）。人では、うつ病の人の血中BDNFは平均して低かったものの、大きな研究ほどその差は小さくなりました（**Molecular Psychiatry**、2014）。
+- 🏃 **運動不足：** 1回の運動でもBDNFは上がり（メタ分析、2015）、**強度が高いほど**大きく上がりました（2007）。1年間ウォーキングをした高齢者は海馬が2％大きくなりました（**PNAS**、2011）。
+- 🍩 **甘くて脂っこい食事：** 精製糖と脂肪の多いえさを食べたラットは、海馬のBDNFと学習能力が下がりました（**Neuroscience**、2002）。人で直接確かめた研究はまだ少ないです。
+- 🧓 **加齢：** 年齢が高いほど血中BDNFが低く、低いほど海馬が小さい傾向がありました（**Journal of Neuroscience**、2010）。
+
+### 💬 「宝くじが当たったらすぐ会社を辞める」――そのとき脳では何が？
+
+前回の記事で[**BDNFとは何か**](/ja/blog/BDNF脳由来神経栄養因子-きみの正体は何/)をまとめると、自然に次の疑問がわいてきました。「では、何がBDNFを減らすのだろう？」 会社勤めをしていると、「宝くじが当たったらすぐ会社を辞める」という言葉を冗談のようによく口にします。ほどよい緊張は活力になりますが、その言葉が口ぐせになるほど積み重なったストレスは、体だけでなく脳にもあとを残します。
+
+最初にこの記事を書いたときは、ストレス、運動不足、果糖の3つを原因に挙げました。今回、元の論文を探してみると、大きな方向は合っていましたが、動物実験と人の研究がまざっていて、砂糖とセロトニンについての説明にはまちがいがありました。以下で根拠のレベルを分けて、もう一度まとめます。
+
+![中央に脳が描かれた写真（出典：UnsplashのMilad Fakurian）](/images/blog/ed574772da/01.webp)
+*中央に脳が描かれた写真（出典：UnsplashのMilad Fakurian）*
+
+## Deep Dive：BDNFはなぜ減るのか
+
+### 1. ストレスは本当にBDNFを減らすのか？
+
+動物でははっきりしています。米国国立精神衛生研究所（NIMH）の研究チームが、ラットを1日数時間動けなくするストレスを与えると、**海馬のBDNF遺伝子の発現が減り**、ストレスホルモンの**コルチコステロン**を注射しただけでも同じように減りました（Smith ほか、**Journal of Neuroscience**、1995）。最初の記事に書いた「長くストレスを受けたラットの脳は、BDNFが不足した脳に似てくる」という内容は、この研究の流れと合っています。イェール大学のロナルド・デュマンの研究チームはこうした結果をまとめ、慢性ストレスでBDNFが減ることがうつ病の原因のひとつかもしれないという**神経栄養仮説**を示しました（Duman & Monteggia、**Biological Psychiatry**、2006）。
+
+人では、もう少し慎重に見る必要があります。179の研究、9千人あまりを集めたメタ分析で、うつ病の人の血中BDNFは平均して低く、抗うつ薬の治療後に上がりました。しかし**参加者の多い研究ほど差が小さくなり**、最初に知られていたより効果が誇張されていた可能性もあわせて報告されました（Molendijk ほか、**Molecular Psychiatry**、2014）。
+
+### 2. 血液検査で自分のBDNFがわかる？
+
+「それなら血液検査でBDNFを測ればいいのでは？」と思うかもしれません。しかし人の血液中のBDNFは、**ほとんどが血小板の中にたくわえられていて**、採血した血が固まる過程で放出されます（Fujimura ほか、**Thrombosis and Haemostasis**、2002）。そのため血清BDNFの数値は、血小板の数や採血・保存の方法によって大きく変わります。
+
+興味深いことに、運動中は血中BDNFの**70〜80％が脳から出ていた**という測定結果があります（Rasmussen ほか、**Experimental Physiology**、2009）。つまり血中の数値は脳とまったく無関係ではありませんが、1回測った値で「自分の脳のBDNFが足りない」と判断できる検査はまだありません。研究では、多くの人の平均を比べる道具として使われています。
+
+<Quiz client:visible lang="ja" question="人の血液中のBDNFは、おもにどこにたくわえられているでしょう？" options={["赤血球","血小板","白血球"]} answer={1} explain="血液中のBDNFはほとんどが血小板にたくわえられていて、血が固まる過程で放出されます（Fujimura ほか、2002）。そのため血液検査の数値ひとつで脳のBDNFを判断するのは困難です。" />
+
+### 3. 運動不足はどのようにBDNFを下げるのか？
+
+運動はBDNFを上げるもっとも確かな方法で、運動不足はその機会を失うことになります。
+
+- 29の研究を集めたメタ分析で、**1回の運動**だけでも血中BDNFが上がり、ふだんから運動している人ではその上がり幅がより大きくなりました（Szuhany ほか、**Journal of Psychiatric Research**、2015）。
+- 同じ人が強度だけを変えて自転車をこぐと、**よりきつい強度**でBDNFが大きく上がりました（Ferris ほか、**Medicine & Science in Sports & Exercise**、2007）。最初の記事で韓国の論文（体育科学研究、2020）を挙げ、高強度の運動がBDNFをより上げると書いたのも同じ方向です。
+- 高齢者120人が1年間、週3回ウォーキングをすると**海馬が約2％大きくなり**、ストレッチだけのグループでは小さくなりました。海馬が大きくなった度合いは、血中BDNFの変化と連動していました（Erickson ほか、**PNAS**、2011）。
+
+最初の記事に書いた「BDNFは心臓の筋肉の動きにも影響する」というジョンズ・ホプキンス大学の研究も、元の論文で確かめました。BDNFの信号がないマウスは、心臓がうまく収縮・弛緩できませんでした（Feng ほか、**PNAS**、2015）。ただしマウスの実験です。
+
+{/* related-link */}
+運動でBDNFを上げたいなら、無理なく始める方法から知っておきましょう。[**ランニングが脳にいい理由と初心者の始め方**](/ja/blog/10分走るだけで脳が変わるというBDNF-ランニングのはじめ方まで総まとめ/)で3ステップにまとめました。
+
+### 4. 砂糖をたくさん食べるとBDNFは減る？
+
+動物実験ではそうです。米国UCLAのゴメス＝ピニーリャの研究チームは、精製糖と脂肪の多いえさを2か月食べたラットで、**海馬のBDNFが減り**、迷路の学習能力が下がったことを確かめました（Molteni ほか、**Neuroscience**、2002）。同じチームは、果糖を飲ませたラットの記憶力と脳のインスリン信号が悪くなり、オメガ3をいっしょに与えると悪化が小さかったと報告しています（Agrawal & Gomez-Pinilla、**Journal of Physiology**、2012）。ただし、人で砂糖の摂取と脳のBDNFを直接結びつけた研究はまだ少ないです。
+
+> 最初の記事では「適量の糖はセロトニンを分泌させて気分をよくするが、頻繁にとりすぎるとセロトニンが枯渇してうつ病になる」と書きました。この説明は根拠が見つかりませんでした。むしろ31の研究を集めたメタ分析で、炭水化物（糖）を食べても**気分はよくならず**、食後1時間以内は覚醒度が下がり、疲れを感じやすくなりました（Mantantzis ほか、**Neuroscience & Biobehavioral Reviews**、2019）。そこでセロトニン枯渇の話は削り、「甘くて脂っこい食事が動物でBDNFを減らした」という事実だけを残しました。
+
+### 5. 年をとるとBDNFも減るのか？
+
+60歳以上の約140人を調べた研究で、年齢が高いほど血中BDNFが低く、BDNFが低いほど**海馬が小さく**、記憶力も低い傾向がありました（Erickson ほか、**Journal of Neuroscience**、2010）。年齢は変えられませんが、先の1年間のウォーキング研究のように、年をとってからでも運動で海馬が大きくなりうるという点は希望が持てます。
+
+### 6. まとめ：原因ごとの根拠のレベル
+
+| 原因 | 研究が示したこと | 根拠の種類 |
+| --- | --- | --- |
+| 慢性的なストレス | ラットの海馬のBDNFが減りました。うつ病の人の血中BDNFは平均して低いものの、差は誇張されていた可能性があります | 動物実験（1995）、人のメタ分析（2014） |
+| 運動不足 | 運動はBDNFを上げ、強度が高いほど上がりました。1年のウォーキングで海馬が大きくなりました | 人のメタ分析（2015）、ランダム化試験（PNAS 2011） |
+| 甘くて脂っこい食事 | ラットの海馬のBDNFと学習能力が下がりました | 動物実験（2002、2012） |
+| 加齢 | 年齢が高いほど血中BDNFが低く、海馬が小さい傾向がありました | 人の観察研究（2010） |
+| 血液検査でわかるか | 血中BDNFはほとんど血小板にあるため、個人の診断には使いにくいです | 人の測定研究（2002、2009） |
+
+## 解決策：BDNFを守る3ステップ
+
+まず、自分に当てはまる原因をチェックしてみてください。
+
+<CheckList client:visible lang="ja" title="BDNFを下げる生活をしていませんか？" items={["何週間も解消されないストレスがたまっている","息がはずむほど体を動かす日が週に2日もない","甘い飲み物やお菓子をほぼ毎日とっている","食事が脂っこくて甘い加工食品中心だ","50代以上なのに、ふだんしている運動がない"]} tips={["自分なりの気分転換（散歩、おしゃべり、趣味）を、あらかじめ予定に入れておきましょう。","週3回、話はできるけれど歌うのはきついくらいのペースで20〜30分歩いてみましょう。","まず甘い飲み物を水や無糖のお茶にかえてみましょう。","1食ごとに魚・野菜・ナッツのどれかをひとつ足してみましょう。","年をとってからでも1年のウォーキングで海馬が大きくなりました。今日10分歩くことから始めましょう。"]} note="診断ツールではなく、生活をふり返るためのチェックリストです。気分の落ちこみや物忘れが長く続くときは、専門家に相談してください。" />
+
+**ステップ1. ストレス：解消されないストレスをためこまない**
+ストレスそのものをなくすことはできませんが、長引かないように区切ることはできます。自分なりの気分転換の方法を決め、予定表に入れておきましょう。そのなかでもっとも根拠が多いのが、次のステップの運動です。
+
+**ステップ2. 運動：息がはずむくらい、週3回**
+週に3回、1回20〜30分、話はできるけれど歌うのはきついくらいのペースで歩くか走りましょう。慣れてきたら少しずつ強度を上げます。強度が高いほどBDNFはより上がりましたが、最初から無理をすると長続きしません。
+
+**ステップ3. 食事：甘い飲み物からかえる**
+いちばん始めやすいのは、毎日飲んでいる**甘い飲み物**を水や無糖のお茶にかえることです。精製糖と脂っこい加工食品を減らし、魚、野菜、ナッツを増やしましょう。食事の時間を決めて間食を減らす方法は、[間欠的ファスティングの効果](/ja/blog/間欠的ファスティング-お正月太りした人のための秘訣/)でまとめました。
+
+| ステップ | 何を | どれくらい | 根拠 | 根拠が示したこと |
+| --- | --- | --- | --- | --- |
+| 1. ストレス | 自分なりの気分転換を予定に入れます | 毎日少しずつです | J Neurosci（1995）、Mol Psychiatry（2014） | 慢性ストレスは動物の海馬のBDNFを減らしました |
+| 2. 運動 | 息がはずむくらい歩くか走ります | 週3回、20〜30分です | J Psychiatr Res（2015）、PNAS（2011） | 運動はBDNFを上げ、1年後に海馬が大きくなりました |
+| 3. 食事 | 甘い飲み物と加工食品を減らします | 甘い飲み物からひとつずつです | Neuroscience（2002）、Neurosci Biobehav Rev（2019） | 動物でBDNFが減り、糖は気分も上げませんでした |
+
+## 結論
+
+BDNFを減らす原因は、結局、体全体の健康を損なう原因と変わりませんでした。長く積み重なったストレス、動かない生活、甘くて脂っこい食事、そして年齢です。血液検査の数値ひとつで自分の脳のBDNFはわかりませんが、原因となる生活は今日から変えられます。上のチェックリストでひとつでも当てはまったなら、その項目の実践ひとつから始めてみてください。
+
+### 🙋 よくある質問
+
+#### BDNFをサプリや食べ物で直接とればいいのでは？
+
+BDNFはタンパク質なので、食べるとほかのタンパク質と同じように消化されます。食べて脳のBDNFを直接補えるという根拠はありません。そのかわり、体がBDNFをつくるのを助ける食べ物や食べ方についての研究はあります。[BDNFが多く含まれる食べ物は？](/ja/blog/BDNFが多く含まれる食べ物は/)で、人の研究と動物の研究を分けてまとめました。
+
+#### 運動をやめると、上がったBDNFもすぐ下がりますか？
+
+1回の運動で上がった血中BDNFは、ふつう運動後しばらくするともとに戻ります。だからこそ**規則的に**続けることが大切で、ふだんから運動している人のほうが運動時のBDNFの上がり幅が大きくなりました。何をどれくらいすればいいかは、[BDNFを増やす方法まとめ](/ja/blog/BDNFを増やす方法まとめ-運動-食べ物-読書-瞑想-睡眠-実験の根拠と続ける期間/)でくわしく扱いました。
+
+### 📚 参考文献
+
+- Smith, M. A., Makino, S., Kvetnansky, R., & Post, R. M. (1995). Stress and glucocorticoids affect the expression of brain-derived neurotrophic factor and neurotrophin-3 mRNAs in the hippocampus. *Journal of Neuroscience*, 15(3), 1768–1777.
+- Duman, R. S., & Monteggia, L. M. (2006). A neurotrophic model for stress-related mood disorders. *Biological Psychiatry*, 59(12), 1116–1127.
+- Molendijk, M. L., Spinhoven, P., Polak, M., … Elzinga, B. M. (2014). Serum BDNF concentrations as peripheral manifestations of depression: evidence from a systematic review and meta-analyses on 179 associations (N=9484). *Molecular Psychiatry*, 19(7), 791–800.
+- Fujimura, H., Altar, C. A., Chen, R., … Tandon, N. N. (2002). Brain-derived neurotrophic factor is stored in human platelets and released by agonist stimulation. *Thrombosis and Haemostasis*, 87(4), 728–734.
+- Rasmussen, P., Brassard, P., Adser, H., … Pilegaard, H. (2009). Evidence for a release of brain-derived neurotrophic factor from the brain during exercise. *Experimental Physiology*, 94(10), 1062–1069.
+- Szuhany, K. L., Bugatti, M., & Otto, M. W. (2015). A meta-analytic review of the effects of exercise on brain-derived neurotrophic factor. *Journal of Psychiatric Research*, 60, 56–64.
+- Ferris, L. T., Williams, J. S., & Shen, C.-L. (2007). The effect of acute exercise on serum brain-derived neurotrophic factor levels and cognitive function. *Medicine & Science in Sports & Exercise*, 39(4), 728–734.
+- Erickson, K. I., Voss, M. W., Prakash, R. S., … Kramer, A. F. (2011). Exercise training increases size of hippocampus and improves memory. *PNAS*, 108(7), 3017–3022.
+- Feng, N., Huke, S., Zhu, G., … Paolocci, N. (2015). Constitutive BDNF/TrkB signaling is required for normal cardiac contraction and relaxation. *PNAS*, 112(6), 1880–1885.
+- Molteni, R., Barnard, R. J., Ying, Z., Roberts, C. K., & Gómez-Pinilla, F. (2002). A high-fat, refined sugar diet reduces hippocampal brain-derived neurotrophic factor, neuronal plasticity, and learning. *Neuroscience*, 112(4), 803–814.
+- Agrawal, R., & Gomez-Pinilla, F. (2012). 'Metabolic syndrome' in the brain: deficiency in omega-3 fatty acid exacerbates dysfunctions in insulin receptor signalling and cognition. *Journal of Physiology*, 590(10), 2485–2499.
+- Mantantzis, K., Schlaghecken, F., Sünram-Lea, S. I., & Maylor, E. A. (2019). Sugar rush or sugar crash? A meta-analysis of carbohydrate effects on mood. *Neuroscience & Biobehavioral Reviews*, 101, 45–67.
+- Erickson, K. I., Prakash, R. S., Voss, M. W., … Kramer, A. F. (2010). Brain-derived neurotrophic factor is associated with age-related decline in hippocampal volume. *Journal of Neuroscience*, 30(15), 5368–5375.
+
+### 💭 あなたに聞きたいこと
+
+上のチェックリストで、いちばん先に変えたい項目はどれでしたか？ ストレスを解消する自分なりの方法があれば、[お問い合わせページ](/ja/contact/)から聞かせてください。
+
+### ⚠️ 免責事項
+
+この記事は学術研究にもとづく一般的な情報であり、医学的な診断や治療に代わるものではありません。紹介した研究の一部は動物実験のため、人にそのまま当てはまらないことがあります。気分の落ちこみ、不眠、物忘れが長く続くときは、専門家に相談してください。
