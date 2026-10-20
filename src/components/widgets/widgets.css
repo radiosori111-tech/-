@@ -135,6 +135,16 @@
 .widget .ft-back { margin-top: 1rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.25rem 1rem; }
 .widget .ft-back:disabled { opacity: 0.55; }
 .widget .ft-back strong { color: var(--accent-strong); font-variant-numeric: tabular-nums; }
+/* 검진 수치 점검 */
+.mc-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem; margin-top: 1rem; }
+.mc-result { margin-top: 1rem; }
+.widget .mc-rows.mc-rows { list-style: none; display: grid; gap: 0.5rem; margin: 0; padding: 0; }
+.widget .mc-rows.mc-rows li { display: grid; gap: 0.125rem; margin: 0; padding: 0.75rem 1rem; border-radius: var(--radius); background: var(--accent-soft); color: var(--accent-strong); }
+.widget .mc-rows li::before { content: none; }
+.widget .mc-rows li.is-bad { background: var(--danger-soft); color: var(--danger); }
+.widget .mc-rows strong { color: inherit; font-variant-numeric: tabular-nums; }
+.widget .mc-rows span { font-size: var(--text-sm); }
+@media (max-width: 480px) { .mc-grid { grid-template-columns: minmax(0, 1fr); } }
 @media (max-width: 640px) {
   .widget { padding: 1.125rem; }
   .bmap { grid-template-columns: minmax(0, 1fr); }
