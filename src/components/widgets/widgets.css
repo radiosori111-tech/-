@@ -127,6 +127,14 @@
 .widget .arch-result li { margin: 0; }
 .widget .arch-result .arch-common { margin-top: 0.5rem; font-weight: 500; color: var(--ink-soft); }
 .widget .arch-result > .arch-common:first-child { margin-top: 0; }
+/* 집중 독서 타이머 */
+.ft-clock { margin-top: 1rem; font-size: 2.5rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; color: var(--ink); font-variant-numeric: tabular-nums; }
+.ft-bar { height: 6px; margin-top: 0.5rem; border-radius: 999px; background: var(--sunk); overflow: hidden; }
+.ft-bar span { display: block; height: 100%; background: var(--accent); transition: width 1s linear; }
+.widget .ft-main { border-color: var(--accent); background: var(--accent-soft); color: var(--accent-strong); font-weight: 700; }
+.widget .ft-back { margin-top: 1rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.25rem 1rem; }
+.widget .ft-back:disabled { opacity: 0.55; }
+.widget .ft-back strong { color: var(--accent-strong); font-variant-numeric: tabular-nums; }
 @media (max-width: 640px) {
   .widget { padding: 1.125rem; }
   .bmap { grid-template-columns: minmax(0, 1fr); }
