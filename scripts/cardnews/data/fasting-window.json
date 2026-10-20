@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 간헐적 단식 효과",
+  "name": "간헐적 단식 카드뉴스",
+  "post": "/blog/간헐적-단식-설-명절-확찐자들을-위한-비법/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 간헐적 단식",
+      "title": "살을 뺀 건\n'시간'이 아니라\n==양==이었다?",
+      "size": "md",
+      "sub": "간헐적 단식 효과,\n연구로 다시 보기",
+      "heroNumber": "16:8"
+    },
+    {
+      "type": "statement",
+      "kicker": "명절이 끝나면",
+      "title": "시도 때도 없이 먹고\n체중계 앞에서 한숨…",
+      "sub": "연휴에 는 체중은 평균 0.37kg.\n적지만 ==잘 빠지지 않고 남았습니다.==",
+      "note": "그래서 많은 사람이 명절 뒤 16:8 간헐적 단식을 시작합니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 간헐적 단식",
+      "title": "공복 시간보다\n==먹은 양==",
+      "size": "md",
+      "items": [
+        { "title": "같은 칼로리라면", "text": "8시간 안에 먹어도 1년 뒤 감량 차이가 ==의미 없었습니다.==" },
+        { "title": "시간만 줄이면", "text": "체중은 대조군과 비슷하게 빠지고 ++근육량은 더 줄었습니다.++" },
+        { "title": "먹는 시간대는", "text": "오후 3시 전에 다 먹자 !!인슐린 민감도!!가 좋아졌습니다(8명 연구)." }
+      ],
+      "source": "Liu et al., NEJM (2022) · Lowe et al., JAMA Intern Med (2020) · Sutton et al., Cell Metab (2018)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "시간을 줄여도\n==차이는 작았다==",
+      "size": "md",
+      "items": [
+        { "value": "1.7kg", "label": "1년 뒤 두 그룹의 감량 차이", "detail": "8.0kg vs 6.3kg, 통계적으로 의미 없었습니다" },
+        { "value": "0.26kg", "label": "12주 뒤 16:8과 세 끼의 차이", "detail": "16:8 그룹은 근육량이 더 줄었습니다" }
+      ],
+      "note": "\"16시간이면 근육 대신 늙은 세포만 쓴다\"는 말은 원 연구와 달랐습니다.",
+      "source": "Liu et al., NEJM (2022) · Lowe et al., JAMA Intern Med (2020)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "명절 뒤\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "시간", "title": "12시간 공복부터", "text": "식사 시간을 정해 간식·야식을 끊습니다" },
+        { "time": "양", "title": "채소·단백질 먼저, 천천히", "text": "한 끼 20~30분, 꼭꼭 씹어 먹습니다", "hot": true },
+        { "time": "근육", "title": "단백질 + 근력 운동", "text": "주 2~3회, 스쿼트·팔굽혀펴기" }
+      ],
+      "source": "Shukla et al., Diabetes Care (2015) · Moro et al., J Transl Med (2016)"
+    },
+    {
+      "type": "cta",
+      "kicker": "직접 정해 보기",
+      "title": "블로그에서\n==나의 식사 시간==을\n정해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "명절 끝나면\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "같이 다이어트할\n가족에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "식사 시간 위젯과\n참고 문헌 12편" }
+      ]
+    }
+  ]
+}
