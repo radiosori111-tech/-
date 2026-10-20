@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 야식 충동과 운동",
+  "name": "야식 충동과 운동 카드뉴스",
+  "post": "/blog/뇌과학-나쁜-습관을-끊어내고-싶다면-뇌의-보상-회로를-땀방울로-리셋하라/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 야식 충동",
+      "title": "야식 생각날 때\n==운동하면 사라질까?==",
+      "size": "md",
+      "sub": "15분 걷기에\n단 음식 욕구가 줄었다",
+      "heroNumber": "15'"
+    },
+    {
+      "type": "statement",
+      "kicker": "밤 11시, 퇴근 후",
+      "title": "배는 안 고픈데\n왜 먹고 싶을까?",
+      "sub": "야식 대신 러닝을 끼워 넣자\n==야식 생각이 싹 사라졌습니다.==",
+      "note": "운영자의 경험을 연구로 확인했습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 충동",
+      "title": "운동이 충동을\n줄이는 ==세 가지==",
+      "size": "md",
+      "items": [
+        { "title": "15분 걷기", "text": "단 간식 욕구가 ==눈에 띄게== 줄었습니다." },
+        { "title": "초콜릿 절반", "text": "걷고 난 뒤 ++절반 정도만++ 먹었습니다." },
+        { "title": "러너스 하이", "text": "엔도르핀보다 !!엔도카나비노이드!!와 관련." }
+      ],
+      "source": "Ledochowski et al., PLoS ONE (2015) · Oh & Taylor, Appetite (2012) · Siebers et al. (2021)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "야식 충동의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "15분", "label": "빠르게 걷기", "detail": "단 간식 욕구가 줄었습니다" },
+        { "value": "138편", "label": "기록 효과 연구", "detail": "적고 알리면 목표에 더 가까이" }
+      ],
+      "note": "쇼츠가 도파민 수용체를 줄인다는 근거는 없었습니다.",
+      "source": "Ledochowski et al. (2015) · Harkin et al., Psych Bull (2016) · Wang et al., Lancet (2001)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "야식 충동 바꾸기\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "15분", "title": "운동화부터 신기", "text": "참지 말고 빠르게 걷기", "hot": true },
+        { "time": "여유", "title": "20~30분 달리기", "text": "말은 되고 노래는 어렵게" },
+        { "time": "기록", "title": "적고 알리기", "text": "앱·SNS·가족에게" }
+      ],
+      "source": "Oh & Taylor (2012) · Siebers et al. (2021) · Harkin et al. (2016)"
+    },
+    {
+      "type": "cta",
+      "kicker": "직접 재 보기",
+      "title": "블로그에서\n==충동 점수==를\n재 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "야식 당길 때\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "야근하는\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "15분 걷기 도구와\n참고 문헌 8편" }
+      ]
+    }
+  ]
+}
