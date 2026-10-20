@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 림프 마사지와 뇌 노폐물",
+  "name": "림프 마사지와 뇌 노폐물 카드뉴스",
+  "post": "/blog/단순한-피부-관리가-아니었던-얼굴·목-림프-마사지-최신-IBS-셀Cell-논문으로-밝혀진-뇌-배수구-지주막-소창의-비밀과-뇌-노폐물-배출을-돕는-일상-습관을-쉽게-풀어-설명해-드립니다/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 뇌 청소",
+      "title": "림프 마사지,\n==뇌 노폐물도 빼 줄까?==",
+      "size": "md",
+      "sub": "쥐의 목을 쓸어내리자\n배출이 늘었다",
+      "heroNumber": "CSF"
+    },
+    {
+      "type": "statement",
+      "kicker": "매일 아침저녁 림프 마사지",
+      "title": "피부 관리가\n뇌에도 닿을까?",
+      "sub": "쥐에서는 근거가 생겼지만\n==사람은 아직 시험 전==입니다.",
+      "note": "IBS 연구단의 Nature 논문들을 원문으로 확인했습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 뇌의 배수 길",
+      "title": "뇌 노폐물이\n나가는 ==세 가지 길==",
+      "size": "md",
+      "items": [
+        { "title": "뇌막 림프관", "text": "뇌를 감싼 막에 ==림프관이== 있었습니다." },
+        { "title": "코 뒤와 목", "text": "뇌척수액이 ++비인두 림프관++을 지났습니다." },
+        { "title": "부드러운 자극", "text": "쥐의 목을 쓸어내리자 !!배출이 늘었습니다.!!" }
+      ],
+      "source": "Louveau et al., Nature (2015) · Yoon et al., Nature (2024) · Jin et al., Nature (2025)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "뇌 청소의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "500mL", "label": "하루 뇌척수액", "detail": "만든 만큼 빠져나갑니다" },
+        { "value": "60%", "label": "잘 때 넓어진 틈", "detail": "쥐의 뇌세포 사이 공간" }
+      ],
+      "note": "사람이 깊이 잘 때 뇌척수액이 큰 파도처럼 출렁였습니다.",
+      "source": "Xie et al., Science (2013) · Fultz et al., Science (2019)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "뇌의 배수 길 돕기\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "매일 밤", "title": "7시간 넘게 깊이 자기", "text": "사람 근거가 가장 많습니다", "hot": true },
+        { "time": "3~5분", "title": "부드럽게 쓸어내리기", "text": "귀 앞 → 목 옆 → 쇄골" },
+        { "time": "틈틈이", "title": "목과 몸 움직이기", "text": "스트레칭과 걷기" }
+      ],
+      "source": "Fultz et al. (2019) · Jin et al. (2025)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==저녁 마사지 루틴==을\n따라 해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "자기 전에\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "림프 마사지 하는\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "저녁 루틴과\n참고 문헌 8편" }
+      ]
+    }
+  ]
+}
