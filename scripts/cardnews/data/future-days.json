@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 작심삼일 이유",
+  "name": "작심삼일 이유 카드뉴스",
+  "post": "/blog/다이어트도-저축도-작심삼일로-끝나는-이유-의지력-탓이-아니었다/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 동기",
+      "title": "'20년 뒤' 대신\n==7,300일 뒤==라고 하면?",
+      "size": "md",
+      "sub": "다이어트도 저축도\n작심삼일인 진짜 이유",
+      "heroNumber": "7300"
+    },
+    {
+      "type": "statement",
+      "kicker": "사흘이면 끝나는 결심",
+      "title": "다이어트도 저축도\n또 작심삼일",
+      "sub": "의지력보다 중요한 건\n==미래의 내가 얼마나 가까운가==였습니다.",
+      "note": "'의지력이 바닥난다'는 이론은 대규모 재현에서 효과가 거의 없었습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 작심삼일",
+      "title": "포기를 가르는\n==세 가지==",
+      "size": "md",
+      "items": [
+        { "title": "날로 세기", "text": "'7,300일'로 들은 사람이 ==더 일찍 저축==하려 했습니다." },
+        { "title": "미래의 나 보기", "text": "나이 든 내 얼굴을 보자 ++저축 의향++이 늘었습니다." },
+        { "title": "어려움 읽기", "text": "'중요해서 힘들다'로 읽는 사람이 !!덜 포기했습니다.!!" }
+      ],
+      "source": "Lewis & Oyserman, Psych Sci (2015) · Hershfield et al. (2011) · Fisher & Oyserman (2017)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "미래의 나를\n==그려 본 학생들==",
+      "size": "md",
+      "items": [
+        { "value": "2년", "label": "효과가 이어진 기간", "detail": "성적·출석이 좋아졌습니다" },
+        { "value": "23곳", "label": "자아 고갈 재현 연구실", "detail": "효과가 거의 없었습니다" }
+      ],
+      "note": "'나는 ~한 사람이다' 문장만 바꾸는 효과는 재현이 엇갈렸습니다.",
+      "source": "Oyserman et al., JPSP (2006) · Hagger et al. (2016) · Gerber et al., PNAS (2016)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "작심삼일 넘기는\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "날짜", "title": "목표까지를 날로 세기", "text": "그 첫날인 오늘 할 일 하나" },
+        { "time": "그리기", "title": "미래의 나와 장애물", "text": "그때 할 행동까지 적기", "hot": true },
+        { "time": "읽기", "title": "'중요해서 어렵다'", "text": "하루 빠지면 다음 날 다시" }
+      ],
+      "source": "Oyserman et al., JPSP (2007) · Lally et al. (2010)"
+    },
+    {
+      "type": "cta",
+      "kicker": "직접 세어 보기",
+      "title": "블로그에서\n==내 목표까지 며칠==인지\n세어 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "결심 흔들릴 때\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "저축 시작할\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "날짜 세기 도구와\n참고 문헌 9편" }
+      ]
+    }
+  ]
+}
