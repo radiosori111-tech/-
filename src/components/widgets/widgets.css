@@ -114,6 +114,19 @@
 .gc-now { fill: none; stroke: var(--accent); stroke-width: 3.5; stroke-linecap: round; transition: d 300ms ease; }
 .gc-dot-base { background: transparent; border: 2px dashed var(--muted); }
 .widget .gc-tip.gc-tip { margin: 0 0 0.375rem; font-weight: 500; }
+/* 발아치 고르기 */
+.arch-options { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.5rem; margin-top: 1rem; }
+.arch-option { display: grid; justify-items: center; gap: 0.5rem; padding: 0.75rem 0.5rem; border: 1px solid var(--line-strong); border-radius: var(--radius); background: var(--surface); color: var(--ink-soft); font-size: var(--text-sm); line-height: 1.4; text-align: center; cursor: pointer; transition: border-color 150ms ease, background-color 150ms ease; }
+.arch-option:hover { border-color: var(--accent); }
+.arch-option svg { width: 2.75rem; }
+.arch-option.is-on { border-color: var(--accent); background: var(--accent-soft); color: var(--accent-strong); font-weight: 700; }
+.arch-print { fill: var(--line-strong); }
+.arch-option.is-on .arch-print { fill: var(--accent); }
+.widget .arch-result p, .widget .arch-result ul { margin: 0; }
+.widget .arch-result ul { margin-top: 0.375rem; padding-left: 1.125rem; display: grid; gap: 0.25rem; font-weight: 500; color: var(--ink); }
+.widget .arch-result li { margin: 0; }
+.widget .arch-result .arch-common { margin-top: 0.5rem; font-weight: 500; color: var(--ink-soft); }
+.widget .arch-result > .arch-common:first-child { margin-top: 0; }
 @media (max-width: 640px) {
   .widget { padding: 1.125rem; }
   .bmap { grid-template-columns: minmax(0, 1fr); }
