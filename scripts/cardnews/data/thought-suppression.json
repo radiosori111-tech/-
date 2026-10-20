@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 불안한 생각 멈추는 법",
+  "name": "불안한 생각 멈추는 법 카드뉴스",
+  "post": "/blog/생각은-내가-아니다-수용전념치료ACT와-뇌가-밝혀낸-인지적-탈융합의-힘/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 생각 억제",
+      "title": "불안한 생각,\n==억누르면 더 커질까?==",
+      "size": "md",
+      "sub": "흰곰을 참자\n흰곰이 더 떠올랐다",
+      "heroNumber": "BEAR"
+    },
+    {
+      "type": "statement",
+      "kicker": "발표를 망치면 어쩌지?",
+      "title": "긍정적으로 생각할수록\n더 불안해진다면",
+      "sub": "생각을 없애려 싸우지 말고\n==생각을 생각으로== 바라보세요.",
+      "note": "확인할 수 없던 출처 2편을 원 논문으로 바꿨습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 생각",
+      "title": "불안한 생각의\n==세 가지 사실==",
+      "size": "md",
+      "items": [
+        { "title": "흰곰 효과", "text": "참았던 생각이 ==나중에 더 자주== 떠올랐습니다." },
+        { "title": "30초 반복", "text": "괴로운 단어를 반복하자 ++덜 믿게++ 됐습니다." },
+        { "title": "이름 붙이기", "text": "감정에 이름을 붙이자 !!편도체가 진정!!됐습니다." }
+      ],
+      "source": "Wegner et al., JPSP (1987) · Masuda et al., BRT (2004) · Lieberman et al. (2007)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "수용전념치료의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "39편", "label": "ACT 무작위 시험", "detail": "불안과 우울 증상이 줄었습니다" },
+        { "value": "30초", "label": "단어 빠르게 반복", "detail": "생각을 덜 믿고 덜 불편해했습니다" }
+      ],
+      "note": "인지행동치료와 비슷한 효과였습니다.",
+      "source": "A-Tjak et al., Psychother Psychosom (2015) · Masuda et al. (2004)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "생각과 거리 두기\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "고쳐 말하기", "title": "'~라는 생각이 드는구나'", "text": "생각을 생각으로 알아차리기", "hot": true },
+        { "time": "30초", "title": "핵심 단어 빠르게 반복", "text": "뜻이 흐려질 때까지" },
+        { "time": "그다음", "title": "하려던 일로 돌아가기", "text": "생각이 남아 있어도 괜찮습니다" }
+      ],
+      "source": "Hayes et al., BRT (2006) · Masuda et al. (2004)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==3분 연습==을\n따라 해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "불안한 밤에\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "걱정이 많은\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "3분 연습과\n참고 문헌 5편" }
+      ]
+    }
+  ]
+}
