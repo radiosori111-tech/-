@@ -1,0 +1,112 @@
+{
+  "title": "카드뉴스 · 혈당 체크기 사용법",
+  "name": "혈당 체크기 카드뉴스",
+  "post": "/blog/피-한-방울로-뇌-건강-신호까지-보인다는-혈당-체크기-집에서-재는-법-총정리/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 혈당",
+      "title": "같은 빵을 먹어도\n혈당은 ==사람마다==\n달랐다",
+      "size": "md",
+      "sub": "혈당 체크기 사용법,\n집에서 정확하게 재기",
+      "heroNumber": "800"
+    },
+    {
+      "type": "statement",
+      "kicker": "약국에서 사 온 혈당 체크기",
+      "title": "당뇨가 없어도\n재 볼 필요가 있을까?",
+      "sub": "뇌는 몸무게의 2%로\n==에너지의 20%==를 씁니다.",
+      "note": "주된 연료는 포도당입니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 혈당 측정",
+      "title": "직접 재 보는\n==이유==",
+      "size": "md",
+      "items": [
+        {
+          "title": "800명, 4만 6천 끼니",
+          "text": "같은 음식에도 반응이 ==사람마다 달랐습니다.=="
+        },
+        {
+          "title": "당뇨가 없어도",
+          "text": "시리얼과 우유 뒤 ++당뇨 전 단계++ 수준까지 올랐습니다."
+        },
+        {
+          "title": "손을 안 씻으면",
+          "text": "과일 당분 때문에 !!가짜 고혈당!!이 나왔습니다."
+        }
+      ],
+      "source": "Zeevi et al., Cell (2015) · Hall et al., PLOS Biol (2018) · Hirose et al., Diabetes Care (2011)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 기준",
+      "title": "이 숫자를\n==기억하세요==",
+      "size": "md",
+      "items": [
+        {
+          "value": "99",
+          "label": "공복혈당 정상 상한(mg/dL)",
+          "detail": "100~125는 공복혈당장애"
+        },
+        {
+          "value": "±15%",
+          "label": "가정용 측정기 허용 오차",
+          "detail": "흐름으로 보세요"
+        }
+      ],
+      "note": "진단은 병원 정맥혈 검사로 합니다.",
+      "source": "ADA, Diabetes Care (2024) · ISO 15197:2013"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "혈당 체크기\n==3단계==",
+      "size": "md",
+      "items": [
+        {
+          "time": "정확도",
+          "title": "씻고, 말리고, 옆면에서",
+          "text": "손가락 끝 중앙보다 덜 아픕니다"
+        },
+        {
+          "time": "짝 맞추기",
+          "title": "공복 + 식사 시작 2시간 뒤",
+          "text": "주 2~3회면 충분합니다",
+          "hot": true
+        },
+        {
+          "time": "바꿔 보기",
+          "title": "높게 나온 메뉴는 다시",
+          "text": "채소 먼저, 식후 10분 걷기"
+        }
+      ],
+      "source": "Reynolds et al., Diabetologia (2016)"
+    },
+    {
+      "type": "cta",
+      "kicker": "직접 넣어 보기",
+      "title": "블로그에서\n==내 혈당 수치==를\n넣어 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        {
+          "icon": "save",
+          "title": "저장",
+          "text": "혈당 잴 때\n다시 보기"
+        },
+        {
+          "icon": "share",
+          "title": "공유",
+          "text": "혈당계 산\n가족에게 보내기"
+        },
+        {
+          "icon": "link",
+          "title": "프로필 링크",
+          "text": "수치 확인 도구와\n참고 문헌 10편"
+        }
+      ]
+    }
+  ]
+}
