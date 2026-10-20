@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 독서 집중력",
+  "name": "독서 집중력 카드뉴스",
+  "post": "/blog/작심삼일-반복되는-이유-전두엽-aMCC-훈련법-독서/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 독서",
+      "title": "딴생각에서\n==돌아오는 순간==이\n훈련이다?",
+      "size": "md",
+      "sub": "독서 집중력 높이는 법,\n연구로 정리했습니다",
+      "heroNumber": "10min"
+    },
+    {
+      "type": "statement",
+      "kicker": "책을 펴면",
+      "title": "세 줄 읽고\n휴대폰을 집는다",
+      "sub": "딴생각은 실패가 아니라\n==연습의 기회==입니다.",
+      "note": "누구나 읽다 보면 딴생각을 합니다. 중요한 건 그다음입니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 독서 집중력",
+      "title": "집중을 좌우하는\n==세 가지==",
+      "size": "md",
+      "items": [
+        { "title": "알아차리고 돌아오기", "text": "그 순간 ==주의 네트워크==와 전전두엽이 일했습니다." },
+        { "title": "알림", "text": "보지 않고 ++받기만 해도++ 실수가 크게 늘었습니다." },
+        { "title": "종이 vs 화면", "text": "정보성 글은 !!종이로!! 읽을 때 더 잘 이해했습니다." }
+      ],
+      "source": "Hasenkamp et al., NeuroImage (2012) · Stothart et al., JEP: HPP (2015) · Delgado et al. (2018)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "종이책의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "54편", "label": "종이·화면 비교 연구", "detail": "17만여 명을 모은 메타분석" },
+        { "value": "294명", "label": "평생 읽기 활동 추적", "detail": "인지 저하가 더 느렸습니다" }
+      ],
+      "note": "aMCC가 근육처럼 커진다는 말은 아직 가설입니다.",
+      "source": "Delgado et al., Educ Res Rev (2018) · Wilson et al., Neurology (2013)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "독서 집중력\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "환경", "title": "알림 끄고 10분", "text": "휴대폰은 다른 방에" },
+        { "time": "방식", "title": "정보성 책은 종이로", "text": "같은 시간, 같은 자리에서", "hot": true },
+        { "time": "정리", "title": "내 말로 한 줄 요약", "text": "스스로 만든 정보가 더 잘 남습니다" }
+      ],
+      "source": "Lally et al. (2010) · Bertsch et al., Mem Cognit (2007)"
+    },
+    {
+      "type": "cta",
+      "kicker": "직접 해 보기",
+      "title": "블로그에서\n==10분 독서 타이머==를\n켜 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "책 펴기 전에\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "책 읽기 어려운\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "독서 타이머와\n참고 문헌 8편" }
+      ]
+    }
+  ]
+}
