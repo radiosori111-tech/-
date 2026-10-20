@@ -168,6 +168,9 @@
 /* 습관 반응 바꾸기 */
 .widget[data-widget="habitswap"] .hs-idea-label { margin: 1rem 0 0; }
 .widget[data-widget="habitswap"] .fw-choices { margin-top: 0.5rem; }
+/* 복습 날짜 짜기 */
+.widget[data-widget="spacing"] .sp-label { margin: 1rem 0 0; }
+.widget[data-widget="spacing"] .fw-choices { margin-top: 0.5rem; }
 @media (max-width: 640px) {
   .widget { padding: 1.125rem; }
   .bmap { grid-template-columns: minmax(0, 1fr); }
