@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 카니보어 식단이란",
+  "name": "카니보어 식단 카드뉴스",
+  "post": "/blog/고기만-먹었는데-뇌가-달라졌다는-카니보어-식단-정체가-뭐길래/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 식단",
+      "title": "고기만 먹으면\n==뇌가== 달라질까?",
+      "size": "md",
+      "sub": "카니보어 식단,\n연구로 다시 보기",
+      "heroNumber": "172"
+    },
+    {
+      "type": "statement",
+      "kicker": "요즘 뜨는 식단",
+      "title": "채소·곡물 없이\n고기·생선·달걀만",
+      "sub": "\"머리가 맑아졌다\"는 후기,\n==어디까지 사실==일까요?",
+      "note": "탄수화물이 거의 없으면 몸은 지방으로 케톤체를 만듭니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 카니보어",
+      "title": "확인된 것과\n==아직 모르는 것==",
+      "size": "md",
+      "items": [
+        { "title": "만족도", "text": "2,029명 대부분이 ==건강이 좋아졌다==고 답했습니다(설문)." },
+        { "title": "케톤체 → BDNF", "text": "BDNF를 켠다는 결과는 ++생쥐 실험++입니다." },
+        { "title": "식이섬유", "text": "많이 먹은 사람의 사망 위험이 !!15~30% 낮았습니다.!!" }
+      ],
+      "source": "Lennerz et al., Curr Dev Nutr (2021) · Sleiman et al., eLife (2016) · Reynolds et al., Lancet (2019)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "만족도 뒤에\n==숨은 숫자==",
+      "size": "md",
+      "items": [
+        { "value": "172", "label": "LDL 콜레스테롤 평균(mg/dL)", "detail": "카니보어 2,029명 설문" },
+        { "value": "18%", "label": "가공육 하루 50g당", "detail": "대장암 위험 증가" }
+      ],
+      "note": "동물성 식품만 닷새 먹자 장내 세균이 빠르게 바뀌었습니다.",
+      "source": "Lennerz et al. (2021) · Bouvard et al., Lancet Oncol (2015) · David et al., Nature (2014)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "뇌를 위한 식단\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "줄이기", "title": "정제 탄수화물부터", "text": "빵·과자·단 음료를 하나씩" },
+        { "time": "남기기", "title": "채소·해조류·버섯", "text": "섬유는 매 끼니 조금씩", "hot": true },
+        { "time": "확인", "title": "3개월마다 피검사", "text": "LDL·혈당·간·신장 수치" }
+      ],
+      "source": "Reynolds et al., Lancet (2019) · Lennerz et al., Curr Dev Nutr (2021)"
+    },
+    {
+      "type": "cta",
+      "kicker": "시작 전 점검",
+      "title": "블로그에서\n==시작 전 점검표==를\n확인해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "식단 바꾸기 전에\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "고기 식단 하는\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "점검표와\n참고 문헌 6편" }
+      ]
+    }
+  ]
+}
