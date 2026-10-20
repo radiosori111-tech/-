@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 급찐급빠",
+  "name": "급찐급빠 카드뉴스",
+  "post": "/blog/급진급빠-다이어트추석-명절-직후-카니보어-식단과-마그네슘-보충-가이드/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 명절 다이어트",
+      "title": "급찐급빠,\n==명절 살 정말 빠질까?==",
+      "size": "md",
+      "sub": "연휴에 찐 살의 절반은\n5개월 뒤에도 남았다",
+      "heroNumber": "50%"
+    },
+    {
+      "type": "statement",
+      "kicker": "전, 갈비, 송편까지",
+      "title": "명절 뒤 묵직한 몸,\n그냥 두면 빠질까?",
+      "sub": "며칠 만에 빠지는 건 대부분 물,\n==남은 살은 2주 안에== 챙겨야 합니다.",
+      "note": "마그네슘을 설사가 날 때까지 먹는 방법은 따라 하지 마세요."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 명절 살",
+      "title": "명절 살의\n==세 가지 사실==",
+      "size": "md",
+      "items": [
+        { "title": "절반은 남는다", "text": "연휴 살의 절반이 ==5개월 뒤에도== 남았습니다." },
+        { "title": "먼저 빠지는 건 물", "text": "글리코겐 1g에 ++물 3~4g++이 붙어 있습니다." },
+        { "title": "공복 운동", "text": "먹고 한 운동과 !!체지방 감소가 같았습니다.!!" }
+      ],
+      "source": "Helander et al., NEJM (2016) · Kreitzman et al., AJCN (1992) · Schoenfeld et al. (2014)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "마그네슘의\n==안전 기준==",
+      "size": "md",
+      "items": [
+        { "value": "350mg", "label": "보충제 하루 상한", "detail": "설사는 과량의 신호입니다" },
+        { "value": "4%", "label": "산화마그네슘 흡수율", "detail": "변비약으로 많이 쓰입니다" }
+      ],
+      "note": "콩팥 질환이 있다면 보충제 전에 꼭 의사와 상의하세요.",
+      "source": "NIH Office of Dietary Supplements · Firoz & Graber, Magnes Res (2001)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "명절 살 되돌리기\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "2주 안", "title": "평소 식사로 돌아가기", "text": "떡·전·단 음료부터 줄이기", "hot": true },
+        { "time": "매일", "title": "30분 걷기·달리기", "text": "공복 여부보다 꾸준함" },
+        { "time": "마그네슘", "title": "음식 먼저, 보충제는 정량", "text": "하루 350mg 넘기지 않기" }
+      ],
+      "source": "Helander et al. (2016) · Schoenfeld et al. (2014) · NIH ODS"
+    },
+    {
+      "type": "cta",
+      "kicker": "점검해 보기",
+      "title": "블로그에서\n==마그네슘 점검표==를\n눌러 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "명절 끝나면\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "급찐급빠 중인\n가족에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "점검표와\n참고 문헌 6편" }
+      ]
+    }
+  ]
+}
