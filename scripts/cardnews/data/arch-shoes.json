@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 평발 러닝화",
+  "name": "평발 러닝화 카드뉴스",
+  "post": "/blog/평발-요족-정상발-발아치별-러닝화-이렇게-선택하세요/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 러닝화",
+      "title": "평발이면\n==안정화==를\n꼭 신어야 할까?",
+      "size": "md",
+      "sub": "발아치별 러닝화,\n연구로 다시 고르기",
+      "heroNumber": "2.8x"
+    },
+    {
+      "type": "statement",
+      "kicker": "러닝 매장에서 흔히 듣는 말",
+      "title": "\"평발은 안정화,\n요족은 쿠션화\"",
+      "sub": "그대로 고르면 부상이 줄까요?\n==직접 시험한 연구==가 있습니다.",
+      "note": "달릴 때 발에는 최고 체중의 약 2.8배 힘이 실립니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 러닝화",
+      "title": "아치보다\n==편안함==",
+      "size": "md",
+      "items": [
+        { "title": "아치 맞춤 신발", "text": "훈련병에게 나눠 신겨도 부상률이 ==비슷했습니다.==" },
+        { "title": "회내가 있어도", "text": "뉴트럴화를 신고 부상 위험이 ++높지 않았습니다.++" },
+        { "title": "편안함 필터", "text": "여러 켤레 중 !!가장 편한 신발!!을 고르라고 제안합니다." }
+      ],
+      "source": "Knapik et al., AJSM (2010) · Nielsen et al., BJSM (2014) · Nigg et al., BJSM (2015)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "발에 실리는 힘과\n==번갈아 신기==",
+      "size": "md",
+      "items": [
+        { "value": "2.8배", "label": "착지할 때 최고 힘", "detail": "체중과 비교한 값입니다" },
+        { "value": "39%", "label": "번갈아 신으면 낮아진 위험", "detail": "러너 264명 추적" }
+      ],
+      "note": "\"300~500km마다 교체\"는 근거를 찾지 못했습니다.",
+      "source": "Cavanagh & Lafortune, J Biomech (1980) · Malisoux et al., SJMSS (2015)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "러닝화 고르는\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "확인", "title": "젖은 발자국으로 아치 보기", "text": "참고용으로 한 번" },
+        { "time": "신기", "title": "오후에 서너 켤레 신어 보기", "text": "러닝 양말을 신고 가볍게 뛰어 봅니다", "hot": true },
+        { "time": "고르기", "title": "가장 편한 한 켤레", "text": "가능하면 두 켤레를 번갈아" }
+      ],
+      "source": "Kaufman et al., AJSM (1999) · Nigg et al., BJSM (2015)"
+    },
+    {
+      "type": "cta",
+      "kicker": "직접 골라 보기",
+      "title": "블로그에서\n==내 발자국 모양==을\n골라 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "러닝화 사러 갈 때\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "평발 친구에게\n보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "발아치 위젯과\n참고 문헌 6편" }
+      ]
+    }
+  ]
+}
