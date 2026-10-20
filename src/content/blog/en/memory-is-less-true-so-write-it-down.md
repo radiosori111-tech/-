@@ -1,59 +1,156 @@
 ---
-title: "Memory Is Less True Than We Think. So Write It Down"
+title: "Why Do Memories Change? The Ones You're Surest of Can Be Wrong"
 slug: "memory-is-less-true-so-write-it-down"
 lang: "en"
 translationOf: "기억은-덜-진실하다-그러니-기록하자"
-description: "Explicit, semantic, episodic and autobiographical memory: how the brain stores our past, why emotion strengthens memories, and why the very act of recalling a memory changes it."
+description: "Because memories are rebuilt each time we recall them. Drawing on a study where 9/11 memories changed within months while confidence stayed put (Psychological Science, 2003) and an experiment where one word in a question changed memory, here is how it works, and three steps for why writing things down is the most reliable reference."
 date: "2023-01-09T02:32:30+09:00"
-updated: "2023-01-09T03:14:33+09:00"
-tags: ["autobiographical memory", "recall changes memory", "explicit memory", "art therapy", "clinical neuroscience"]
+updated: "2026-10-20T19:00:00+09:00"
+tags: ["memory distortion", "autobiographical memory", "flashbulb memory", "reconsolidation", "journaling", "expressive writing", "brain science"]
 comic:
-  title: "Memory is less true than we think"
+  title: "Memory is less true"
   panels:
     - scene: speech
-      label: "The problem"
-      bubble: "I'm sure that's how it was…"
-      alt: "A speech bubble coming from a person"
-      caption: "We believe memory is as accurate as a photo, but in reality it often changes."
+      label: "The worry"
+      bubble: "I'm sure it happened…"
+      alt: "A speech bubble coming from a person's mouth"
+      caption: "We believe memory is as accurate as a photo, but it actually changes often."
     - scene: synapse
       label: "How it works"
-      bubble: "Revised with every recall"
-      alt: "Two neurons reaching out and connecting"
-      caption: "Each time the <strong>hippocampus</strong> and <strong>prefrontal cortex</strong> retrieve a memory, <strong>recall itself revises it</strong>."
+      bubble: "Re-saved every recall"
+      alt: "Two nerve cells reaching out and connecting"
+      caption: "Each time a memory is retrieved it is <strong>rebuilt</strong>, and it can shift a little in the process."
     - scene: book
       label: "What to do"
-      bubble: "So write it down"
-      alt: "An open book and a pen"
-      caption: "<strong>Recording</strong> the day's facts and feelings gives you a steady reference point."
+      bubble: "Write it down that day"
+      alt: "An open book with sparkling thoughts"
+      caption: "Writing down the day's <strong>facts and feelings</strong> separately gives you a steady reference later."
     - scene: calm
       label: "The change"
-      bubble: "You get to know yourself better"
+      bubble: "Writing settles the mind"
       alt: "A brain with an even wave and a slowly beating heart"
-      caption: "<strong>Emotion strengthens memory</strong>. A record becomes a map for understanding yourself."
+      caption: "People who wrote about a hard experience for a few days later made fewer <strong>health center visits</strong> (1986)."
 ---
 
-- Related post: [Wake up your neuroplasticity](/en/blog/wake-up-your-neuroplasticity/)
+## 📌 Key takeaways
 
-<strong>Explicit memory is conscious access to recollection</strong>, and it develops along with language expression and comprehension after about 18 months of age. The brain structures of explicit memory include the medial temporal lobe, parts of the **hippocampus** and the orbitofrontal cortex.
+> **The short answer:** Memories change because recall doesn't replay a stored recording; memories are **rebuilt each time we recall them**. So even memories we're very sure of can be wrong, and notes written on the day are the most reliable reference.
 
-There are several types of explicit memory. **Semantic**, factual memory includes memory of meaning, such as assigning the image of a brightly colored butterfly wing when we express our self-image in a collage.
+- 💥 **Confidence and accuracy are different things.** College students who wrote down their memories the day after 9/11 saw the details change over the following months as much as everyday memories did, but **their confidence stayed high** (**Psychological Science**, 2003).
+- 🚗 **One question can change a memory.** After watching a car crash video, people asked how fast the cars were going when they "**smashed**" rather than "hit" each other more often reported seeing **broken glass** that wasn't in the video (**Journal of Verbal Learning and Verbal Behavior**, 1974).
+- 🔁 **Recalling a memory re-saves it.** In a rat study, blocking protein synthesis right after a fear memory was recalled weakened that memory. Memories go through a **re-stabilizing process** each time they're retrieved (**Nature**, 2000).
+- ✍️ **Writing holds on to memories and helps the mind.** A psychologist who recorded 2,400 events in a diary over six years found that the records served as cues to recover forgotten memories (**Cognitive Psychology**, 1986), and people who wrote about a hard experience for a few days later made fewer health center visits (**Journal of Abnormal Psychology**, 1986).
 
-Semantic memory is encoded in the left hippocampus and the left **prefrontal cortex**. Semantic memories feel experientially different from other types of explicit memory, because they are mostly language-based and arise from left-hemisphere activity.
+### 💬 "I'm sure that's how it happened, so why do we remember it differently?"
 
-**Episodic memory**, another type of explicit memory, binds and arranges fragments of semantic memory. Semantic memory tells you what a spring butterfly looks like, while episodic memory tells you about the spring butterfly you saw last spring. Every new experience with butterflies revises our semantic representations of butterflies. Robin's later memories are revised by her memory of how she felt about the butterflies surrounding her body. Did her memory of her body, as heavy or light, change? Voluntary self-awareness and self-accepting autobiographical memory are also updated through experience.
+Have you ever been surprised, reminiscing with family or friends about a day you all spent together, to find that your memories didn't match? In January 2023, while reading a book on art therapy and clinical neuroscience, I underlined this sentence: "**Autobiographical memory, like other memories, is less true than the individual expects.**" The book added an old saying: "**We remember what we remember because we believe what we believe.**"
 
-Voluntary awareness in episodic memory coordinates information from multiple, layered cerebral lobes. Executive function arises from distributed brain processes, the negotiation of self-awareness, social insight and the **prefrontal** regulation of limbic feelings, while spatial information stored in the posterior parietal cortex is sequenced and organized. Automatic memories are implicit, non-declarative memories that include sensory information and the perception of episodic events.
+After reading that, I titled the post "So write it down." This post goes back to the original papers to check why memories change, and whether writing things down really helps.
+
+## Deep Dive: why do memories change?
+
+### 1. What kinds of memory are there?
+
+Memory you can put into words is called **explicit (declarative) memory**. Canadian psychologist Endel Tulving divided it into two branches (Tulving, 1972).
+
+- **Semantic memory**: facts and knowledge, such as "a butterfly is an insect with four wings," regardless of when you learned them.
+- **Episodic memory**: experiences tied to when and where they happened, such as "I saw a yellow butterfly in the park last spring." The episodic memories that make up the story of who you are are called **autobiographical memory**.
+
+The **hippocampus** is essential for forming new explicit memories. Patient H.M., who had the hippocampal regions on both sides removed in 1953 to treat epilepsy, could no longer remember new events after surgery, though much of his memory from long before the surgery remained (Scoville & Milner, **Journal of Neurology, Neurosurgery & Psychiatry**, 1957).
+
+> In my original post I copied the book's explanation that "semantic memory is encoded in the left, and autobiographical memory in the right hippocampus and orbitofrontal cortex." There is research showing that the two hemispheres are used differently when forming and retrieving memories, but neatly splitting memory types into left and right is an oversimplification, so I left it out this time.
+
+### 2. Can even our most vivid memories be wrong?
+
+Remembering the moment you heard about a major event as if it were a photograph is called a **flashbulb memory**. On September 12, 2001, a team at Duke University had college students write down the moment they first heard about 9/11, along with one ordinary everyday event from around that time (Talarico & Rubin, **Psychological Science**, 2003). They asked the same questions again 1, 6, and 32 weeks later.
+
+- Over time, the details of the 9/11 memories **changed at about the same rate as the everyday memories.**
+- But unlike the everyday memories, **vividness and confidence in the 9/11 memories stayed as high as at the start.**
+
+**Emotion makes memories stronger.** In emotionally intense moments, the **amygdala** helps the hippocampus store memories so they last longer (McGaugh, **Annual Review of Neuroscience**, 2004). But lasting and being accurate are two different things. The feeling of "I'm sure" doesn't guarantee a memory's accuracy.
 
 <!-- related-link -->
-Alongside writing, there's another time when memories are protected: sleep. See also [**how the brain sorts memories while you sleep**](/en/articles/sleep-memory/).
+There's one more time of day that protects memory along with writing: sleep. Read [**How the brain sorts memories while we sleep**](/en/articles/sleep-memory/) as well.
 
-Episodic memory probably derives from the hippocampus's role in cognitive mapping. This highly advanced survival skill lets us build four-dimensional models that transcend time. By about age two, toddlers begin to show a more sophisticated view of themselves. They start to show a sense of time as they learn the order in which events happen. By age two, stories are constructed at a rate of 2.2 per hour in ordinary conversations between parents and children. These stories are tied to interpreting reality and giving it meaning. At this stage, parents become self-aware and teach their children self-awareness by encouraging them to share the parents' own stories.
+### 3. Can one word in a question change a memory?
 
-<strong>Autobiographical memory, a subtype of episodic memory, provides our own unique sense of past, present and future.</strong> Autobiographical memory is encoded in the right hippocampus and the right orbitofrontal cortex. Autobiographical memory is mental time travel. It includes memories of personally special events, such as the first time you used paint at school, memories of art activities in general, a gestalt of years of art-making, and personal facts such as who the US president was when you were born. <strong>Emotion strengthens memory</strong>. Emotional states in particular produce lasting, vivid memories known as **flashbulb memories**. These arise in response to personal events or to special social events that shock vast numbers of people, such as Princess Diana's car crash in 1997. Flashbulb memories generally show strongly persistent, high levels of surprise, high impact and repeated verbal and mental reenactment. They put you back somewhere, like jumping through. The visceral intensity of this jumping through leads us to evaluate the experience emotionally right away, without going through the normal process.
+Elizabeth Loftus's team at the University of Washington showed people videos of car crashes and then asked each group a question that differed by only one word (Loftus & Palmer, **Journal of Verbal Learning and Verbal Behavior**, 1974). The group asked "How fast were the cars going when they **smashed** into each other?" estimated higher speeds than the group asked about when they "**hit**." A week later, when asked "Did you see any broken glass?", those who had been given the "smashed" question more often said they had seen **broken glass that wasn't in the video**.
 
-<strong>Autobiographical memory, like other memories, is less true than we expect.</strong> Old schemas and positive or negative expectations downplay or take over the mechanisms of autobiographical memory. All temporal, spatial and perceptual information is first interpreted by semantic memory, where our beliefs about the unique features and fine details of particular experiences are held, waiting to be encoded. General beliefs and expectations determine what gets retrieved. They include sensory input and implicit theories about what people, including ourselves, are like. The wishes and desires automatically activated while we experience something, the nature of memory, true memories and false memories are all formed in the same way. As the old saying goes, <strong>we remember what we remember because we believe what we believe.</strong> We tend to assume that the choices that are the product of memory are more beneficial and attractive than the ones we couldn't choose. We tend to distort reality and believe that what we chose is best and that what's ours is good. In the process of making artwork, clients activate many procedural and autobiographical choices while creating a visual story. Therapeutic encouragement strengthens their sense of competence, and art-making lets clients adjust past views and beliefs about their capacity for self-expression. Successful art-making enhances the memory of a competent self.
+Memories aren't kept exactly as experienced; they are **rewoven** with words and information we encounter later. As early as 1932, British psychologist Frederic Bartlett showed that the more often people recalled an unfamiliar story, the more they reshaped it to fit the ways familiar to their own culture (Bartlett, 1932). Our beliefs and expectations decide what we remember.
 
-<strong>The process of recall itself revises memory.</strong> When we dance, internal and external cues find abstract or concrete expression, much like explicit or implicit memories of color and form. In the artist's mind, artistry embraces and grafts together the artist's narrative intentions and other unpredictable cues, such as the bodily representation of pain. Vivid original memories and highly relived memories almost always have strong visual images associated with them. Strikingly visual imagery prompts working memory to expand older, stored information. Furthermore, memories of events, <strong>especially of emotionally charged events, are sometimes very different from what actually happened. We keep re-editing memories that have already been revised</strong>. Dance reminds us that a memory is a pattern of connection, interacting with neurons in other networks or within its own network. Works of art are continually reconstructed memories. The involvement of other networks provides unique connections that creativity can reach.
+### 4. Recalling alone can change a memory?
 
-That's exactly why it's worth <strong>writing down the facts and feelings of the day</strong> while they're fresh: a record gives you a steady reference point that recollection alone can't.
+Joseph LeDoux's team at New York University taught rats to link a sound with fear, then, right after the rats recalled that memory, injected a drug into the amygdala that blocks protein synthesis (Nader et al., **Nature**, 2000). The fear memory, which had already been firmly stored, weakened. When rats that hadn't recalled the memory got the same drug, the memory stayed intact.
 
+This is called **reconsolidation**. At the moment of retrieval, a memory briefly becomes malleable, and as it is saved again, the feelings and information of that moment can be layered onto it. The sentence I read in the book, "**the act of recall itself modifies memory**," was describing exactly this. So the more often we tell the same memory, the closer it may become to **the last version we told** rather than the original experience.
+
+### 5. So does writing things down really help?
+
+- **Records become memory cues.** Dutch psychologist Willem Wagenaar recorded what happened each day for six years, noting who, what, where, and when, for a total of 2,400 events (Wagenaar, **Cognitive Psychology**, 1986). When he later tested himself, he had forgotten much as time passed, but **when given several of the recorded cues**, he could recall many events he thought he had forgotten.
+- **Writing helps the mind settle.** James Pennebaker's team at the University of Texas had college students write about their thoughts and feelings regarding a difficult experience for 15 minutes a day over four days (Pennebaker & Beall, **Journal of Abnormal Psychology**, 1986). The students who wrote made **fewer visits to the campus health center** over the following months. An analysis pooling multiple studies also found that such **expressive writing** offered small but meaningful benefits for health and wellbeing (Smyth, **Journal of Consulting and Clinical Psychology**, 1998).
+- **Recalling again makes it last.** Students who **practiced recalling** a text remembered more a week later than students who only reread it (Roediger & Karpicke, **Psychological Science**, 2006). Occasionally revisiting what you wrote is another way to protect memories.
+
+### 6. Summary: what's confirmed and what to be careful about
+
+| Question | What we know so far | Type of evidence |
+| --- | --- | --- |
+| Are vivid memories accurate? | Details changed, but confidence stayed the same | Human study (Psychological Science, 2003) |
+| Can things we hear later change memories? | One word in a question made people remember a scene that wasn't there | Human experiment (1974) |
+| Does recalling change memories? | Memories go through a re-saving process right after recall | Animal study (Nature, 2000) |
+| Do records help memory? | Recorded cues brought back forgotten memories | Six-year diary study (1986) |
+| Does writing help the mind? | After writing about hard experiences, health center visits fell | Human experiment (1986), meta-analysis (1998) |
+
+## The plan: 3 steps to trust records over memory
+
+**Step 1. Write facts and feelings separately, on the same day**
+Since memories change over time, writing important things down **on the day** is most accurate. Briefly note who, what, where, and when, and put how you felt in a separate line. Keeping facts and interpretation apart lets you check the original facts later, even if your memory shifts with your feelings.
+
+**Step 2. For things that shook you, write for 15 minutes**
+If something hard happened, write honestly about your thoughts and feelings for 15 minutes a day over a few days. Don't worry about spelling or sentences. This is exactly the approach that worked in the research.
+
+**Step 3. Revisit what you wrote now and then**
+Once a week or a month, cover your notes, recall the events first, then compare with what you wrote. Recall practice makes memories last, and it also shows you where your memory has drifted.
+
+| Step | What | How much | Evidence | What the evidence showed |
+| --- | --- | --- | --- | --- |
+| 1. Same-day notes | Write facts (who, what, where, when) and feelings separately | On days when something important happens; five minutes is enough | Psychological Science (2003), Cognitive Psychology (1986) | Memories changed within months, and recorded cues brought them back |
+| 2. Expressive writing | Write about thoughts and feelings regarding a hard experience | 15 minutes a day, over a few days | J Abnorm Psychol (1986), J Consult Clin Psychol (1998) | Health center visits fell after writing |
+| 3. Recall again | Cover your notes, recall first, then compare | Once a week or a month | Psychological Science (2006) | Students who practiced recall remembered more |
+
+## Conclusion
+
+Memory is less like a photograph and more like **a picture redrawn each time we recall it**. Even memories of major events change within months while confidence stays put, one word in a question can create a scene that never happened, and memories are re-saved at the moment of recall. So what's more reliable than the certainty of "I'm sure that's how it was" is **a few lines written on the day**. Records hold on to memories, help settle a troubled mind, and become a steady reference when we look back on ourselves. Memory is less true. So let's write it down.
+
+### 🙋 Frequently asked questions
+
+#### If memories change like this, can I trust any of mine?
+
+It's not that bad. What changed in the studies was mainly the **details**; the overall gist was largely preserved. But details such as who said what or what time it was, and memories tangled up with strong emotions, change easily, so for important decisions or disagreements it's safer to check records than memory. The practice of putting distance between yourself and your thoughts is covered in [Thoughts are not you](/en/blog/thoughts-are-not-you-act-cognitive-defusion/).
+
+#### Is it better to write by hand or on my phone?
+
+One study found that students who took notes by hand answered conceptual questions better than those who used laptops (Mueller & Oppenheimer, **Psychological Science**, 2014), but a later replication didn't find a clear difference (Morehead et al., **Educational Psychology Review**, 2019). Writing **on the day, consistently** matters more than the tool. How steady habits change the brain continues in [Can adult brains still grow?](/en/blog/lifelong-connectivity-neuroplasticity/).
+
+### 📚 References
+
+- Tulving, E. (1972). Episodic and semantic memory. In E. Tulving & W. Donaldson (Eds.), *Organization of Memory* (pp. 381–403). Academic Press.
+- Scoville, W. B., & Milner, B. (1957). Loss of recent memory after bilateral hippocampal lesions. *Journal of Neurology, Neurosurgery & Psychiatry*, 20(1), 11–21.
+- Talarico, J. M., & Rubin, D. C. (2003). Confidence, not consistency, characterizes flashbulb memories. *Psychological Science*, 14(5), 455–461.
+- McGaugh, J. L. (2004). The amygdala modulates the consolidation of memories of emotionally arousing experiences. *Annual Review of Neuroscience*, 27, 1–28.
+- Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: an example of the interaction between language and memory. *Journal of Verbal Learning and Verbal Behavior*, 13(5), 585–589.
+- Bartlett, F. C. (1932). *Remembering: A Study in Experimental and Social Psychology*. Cambridge University Press.
+- Nader, K., Schafe, G. E., & LeDoux, J. E. (2000). Fear memories require protein synthesis in the amygdala for reconsolidation after retrieval. *Nature*, 406(6797), 722–726.
+- Wagenaar, W. A. (1986). My memory: a study of autobiographical memory over six years. *Cognitive Psychology*, 18(2), 225–252.
+- Pennebaker, J. W., & Beall, S. K. (1986). Confronting a traumatic event: toward an understanding of inhibition and disease. *Journal of Abnormal Psychology*, 95(3), 274–281.
+- Smyth, J. M. (1998). Written emotional expression: effect sizes, outcome types, and moderating variables. *Journal of Consulting and Clinical Psychology*, 66(1), 174–184.
+- Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: taking memory tests improves long-term retention. *Psychological Science*, 17(3), 249–255.
+- Mueller, P. A., & Oppenheimer, D. M. (2014). The pen is mightier than the keyboard: advantages of longhand over laptop note taking. *Psychological Science*, 25(6), 1159–1168.
+- Morehead, K., Dunlosky, J., & Rawson, K. A. (2019). How much mightier is the pen than the keyboard for note-taking? A replication and extension of Mueller and Oppenheimer (2014). *Educational Psychology Review*, 31(3), 753–780.
+
+### 💭 A question for you
+
+Have you ever discovered that you and family or friends remember the same event differently? What's one scene from today you'd like to keep? Share your journaling story through the [contact page](/en/contact/).
+
+### ⚠️ Disclaimer
+
+This post offers general information based on academic research and does not replace medical diagnosis or treatment. The reconsolidation research introduced here is an animal study, so we can't conclude it happens the same way in people. If painful memories keep coming back and make daily life difficult, please don't try to solve it with writing alone; talk to a professional.
