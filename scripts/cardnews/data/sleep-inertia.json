@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 수면 관성",
+  "name": "수면 관성 카드뉴스",
+  "post": "/blog/일찍일어나는-새가-먹이를-먹는다-아니요-아침-30분으로-수면관성뇌가-가장-취약한-순간을-깨우자/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 수면 관성",
+      "title": "일어나자마자\n==머리가 멍한 이유==",
+      "size": "md",
+      "sub": "깬 직후의 뇌는\n밤샘보다 더 둔했다",
+      "heroNumber": "30'"
+    },
+    {
+      "type": "statement",
+      "kicker": "새벽 5시, 침대 위 SNS",
+      "title": "일찍 일어났는데\n왜 하루가 흐릿할까?",
+      "sub": "문제는 기상 시간이 아니라\n==눈뜬 뒤 첫 30분==이었습니다.",
+      "note": "지금은 이 닦기, 소금차 한 잔, 스쿼트 100개로 시작합니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 아침",
+      "title": "깬 직후 뇌의\n==세 가지 사실==",
+      "size": "md",
+      "items": [
+        { "title": "밤샘보다 둔함", "text": "깬 지 1~3분 뒤 ==계산 능력이== 가장 낮았습니다." },
+        { "title": "전전두엽이 늦게", "text": "판단하는 뇌가 ++가장 늦게++ 깨어났습니다." },
+        { "title": "대개 30분", "text": "수면 관성은 보통 !!1~30분!! 이어졌습니다." }
+      ],
+      "source": "Wertz et al., JAMA (2006) · Balkin et al., Brain (2002) · Tassi & Muzet (2000)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "아침 뇌의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "26시간", "label": "밤샘보다도 낮았던 점수", "detail": "깬 지 1~3분 뒤 계산 능력" },
+        { "value": "50~75%", "label": "깬 뒤 코르티솔 상승", "detail": "30분 안의 정상 반응" }
+      ],
+      "note": "아침 스마트폰이 코르티솔을 교란한다는 근거는 찾지 못했습니다.",
+      "source": "Wertz et al. (2006) · Pruessner et al., Life Sci (1997)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "아침 첫 30분\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "전날 밤", "title": "아침 순서 정하기", "text": "이 닦기·물·가벼운 운동" },
+        { "time": "30분", "title": "결정과 뉴스 미루기", "text": "알람은 휴대폰 말고 시계로", "hot": true },
+        { "time": "매일 밤", "title": "충분히 자기", "text": "일찍보다 푹 자고 일어나기" }
+      ],
+      "source": "Lally et al. (2010) · Wertz et al. (2006) · Tassi & Muzet (2000)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==아침 30분 루틴==을\n따라 해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "자기 전에\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "아침이 힘든\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "아침 루틴과\n참고 문헌 6편" }
+      ]
+    }
+  ]
+}
