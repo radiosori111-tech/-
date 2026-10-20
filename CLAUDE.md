@@ -8,7 +8,7 @@ Astro 블로그(ko/en/ja). 글은 `src/content/blog/`(ko), `en/`, `ja/`에 있�
 - 변경 후에는 `npm run build`로 확인하고 commit, push한다. 커밋 끝에 `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`를 붙인다.
 
 ## 진행 중인 일: 참고 문헌 없는 옛 글을 근거로 보강 (AdSense 승인용)
-남은 글은 참고 문헌(`참고 문헌`)이 없는 ko 글이다. 순서: 2023년 글(목표-이루는-방법-3가지 → 간헐적-단식-설-명절-확찐자들을-위한-비법 → BDNF-부족하게-되는-원인-뇌건강도-좋아지나 → 인슐린-역할은-영리하게-사용하는-비법은) → 2026년 9~10월 글.
+남은 글은 참고 문헌(`참고 문헌`)이 없는 ko 글이다. 순서: 2023년 글(간헐적-단식-설-명절-확찐자들을-위한-비법 → BDNF-부족하게-되는-원인-뇌건강도-좋아지나 → 인슐린-역할은-영리하게-사용하는-비법은) → 2026년 9~10월 글.
 - 2023년 글: 전면 개정.
 - 2026년 글(이미 김): 틀린 내용 바로잡기 + 참고 문헌 목록 + 한 줄 답 + 제목 점검 위주로 줄여서.
 - 카드뉴스가 밀린 글 6편: BDNF-뇌-유래-신경영양인자-너의-정체는-뭐니, 플라세보가-진짜-존재하는지-알아보기, 성공의-비밀, 뇌가-변하고-있다, 두뇌활성이-필요한-중요한-날엔-직전에-뭘-먹을까, 육체적으로-이미-지쳤는데-…(피곤할 때 운동).
@@ -17,7 +17,8 @@ Astro 블로그(ko/en/ja). 글은 `src/content/blog/`(ko), `en/`, `ja/`에 있�
 1. ko 원글, en/ja 번역, 내부 링크 후보 slug를 읽는다.
 2. 검색 의도를 정한다. 이미 고친 글과 같은 검색어가 겹치지 않게 한다.
 3. ko 글을 다시 쓴다(아래 글쓰기 기준). slug와 date는 유지하고 `updated`를 갱신한다. 4컷 만화(`comic`) 캡션도 새 내용에 맞춘다.
-4. en, ja 파일을 같은 내용으로 다시 쓴다.
+   - **인터랙티브 위젯(MDX)을 글마다 1개 이상 넣는다**: 확인 퀴즈(`Quiz`)는 기본, 글에 맞으면 직접 해 보는 위젯(예: `WoopPlanner`, `SynapseSlider`, `BrainMap`)을 쓰거나 `src/components/widgets/`에 새로 만든다(Preact, `client:visible`, ko/en/ja 문구). 파일을 `.mdx`로 바꾸고(`git mv`), frontmatter 바로 뒤에 import, `<!-- -->` 대신 `{/* related-link */}`, 본문에 `<`·`{` 글자를 쓰지 않는다. 빌드 뒤 preview 서버에서 위젯을 한 번 눌러 확인한다.
+4. en, ja 파일을 같은 내용으로 다시 쓴다(위젯 import 경로는 `../../../components/...`).
 5. `node scripts/rewrite/fix-bold.cjs "$PWD/src/content"`를 실행한 뒤 `npm run build`를 하고, 그 글의 내부 링크(`dist/<경로>/index.html` 존재)를 확인한다.
 6. commit, push.
 7. Before→After 비교: `scripts/rewrite/build-rewrite-preview.cjs`의 `posts` 맨 앞에 항목(slug, base=고치기 전 커밋, short, titleNote, changes)을 추가한다. `node scripts/rewrite/build-rewrite-preview.cjs "$PWD/exports/rewrite" "$PWD"`를 실행하고, `exports/rewrite/rewrite-preview.html`을 기존 팝업 https://claude.ai/artifact/8kirAfPea3XaQJ2KgDoR8Z 에 url로 게시한다.

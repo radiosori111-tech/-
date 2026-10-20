@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 목표 이루는 방법",
+  "name": "목표 WOOP 카드뉴스",
+  "post": "/blog/목표-이루는-방법-3가지/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 목표 달성",
+      "title": "'이미 이뤘다' 상상하면\n오히려 ==멀어진다?==",
+      "size": "md",
+      "sub": "목표 이루는 방법,\n연구가 알려 준 3가지",
+      "heroNumber": "WOOP"
+    },
+    {
+      "type": "statement",
+      "kicker": "새해마다 반복되는 일",
+      "title": "다이어리는 샀는데\n계획은 그대로…",
+      "sub": "\"이미 이뤘다고 생각하라\"는 말,\n연구로 보면 ==반대 결과==였습니다.",
+      "note": "근거 있는 \"할 수 있다\"는 자신감은 도움이 되지만, \"이미 이뤘다\"는 공상은 힘을 뺍니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 목표 달성",
+      "title": "상상보다 강한\n==세 가지==",
+      "size": "md",
+      "items": [
+        { "title": "장애물까지 떠올리기", "text": "좋은 상상만 한 사람은 ==활력이 떨어졌고==, 장애물까지 그린 학생은 더 많이 공부했습니다." },
+        { "title": "\"만약 ~하면, 나는 ~한다\"", "text": "94개 연구에서 이 ++실행 의도++는 목표 달성에 중간 이상의 효과를 보였습니다." },
+        { "title": "해낸 것을 적기", "text": "진행 상황을 !!기록하고 확인한!! 사람이 목표를 더 잘 이뤘습니다." }
+      ],
+      "source": "Kappes & Oettingen (2011) · Gollwitzer & Sheeran (2006) · Harkin et al. (2016)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "계획은 ==구체적으로==,\n기록은 꾸준히",
+      "size": "md",
+      "items": [
+        { "value": "94", "label": "실행 의도 연구 메타분석", "detail": "\"만약 ~하면\" 계획의 효과를 모은 연구 수" },
+        { "value": "138", "label": "진행 기록 실험 메타분석", "detail": "적거나 알렸을 때 효과가 더 컸습니다" }
+      ],
+      "note": "WOOP = 소망(Wish) · 결과(Outcome) · 장애물(Obstacle) · 계획(Plan)",
+      "source": "Gollwitzer & Sheeran, Adv Exp Soc Psychol (2006) · Harkin et al., Psychol Bull (2016)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "나의 ==WOOP==\n4줄 쓰기",
+      "size": "md",
+      "items": [
+        { "time": "W·O", "title": "소망과 가장 좋은 결과", "text": "예: 아침 30분 독서 → 하루를 주도하는 느낌" },
+        { "time": "O", "title": "나를 막는 내 안의 장애물", "text": "예: 눈뜨자마자 휴대폰을 집는다", "hot": true },
+        { "time": "P", "title": "만약 ~하면, 나는 ~한다", "text": "예: 휴대폰 대신 머리맡의 책을 편다" }
+      ],
+      "source": "Oettingen 연구팀의 WOOP · Duckworth et al., Educational Psychology (2011)"
+    },
+    {
+      "type": "cta",
+      "kicker": "직접 만들어 보기",
+      "title": "블로그에서\n==WOOP 계획==을\n바로 만들어 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "새해 계획 세울 때\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "작심삼일 친구에게\n보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "WOOP 만들기와\n참고 문헌 12편" }
+      ]
+    }
+  ]
+}
