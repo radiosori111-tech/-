@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 점심 먹고 졸린 이유",
+  "name": "점심 먹고 졸린 이유 카드뉴스",
+  "post": "/blog/브레인포그-케톤체-카니보어-멘탈클래리티/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 식곤증",
+      "title": "점심 먹고 졸린 이유,\n==탄수화물 탓일까?==",
+      "size": "md",
+      "sub": "밥을 안 먹어도\n오후엔 졸렸다",
+      "heroNumber": "2PM"
+    },
+    {
+      "type": "statement",
+      "kicker": "오후 2시의 브레인포그",
+      "title": "중요한 날엔\n점심을 굶어야 할까?",
+      "sub": "오후 졸음에는\n==몸의 하루 리듬==이 먼저 깔려 있었습니다.",
+      "note": "카니보어로 오후가 맑아졌던 경험을 연구로 다시 봤습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 오후",
+      "title": "오후 졸음의\n==세 가지 사실==",
+      "size": "md",
+      "items": [
+        { "title": "점심 후 저하", "text": "점심을 안 먹어도 ==오후엔 졸렸습니다.==" },
+        { "title": "단 음식", "text": "1시간 안에 ++더 피곤해졌습니다.++" },
+        { "title": "10분 낮잠", "text": "깨자마자 !!졸음이 줄었습니다.!!" }
+      ],
+      "source": "Monk, Clin Sports Med (2005) · Mantantzis et al. (2019) · Brooks & Lack, Sleep (2006)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "오후 졸음의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "10분", "label": "가장 좋았던 낮잠", "detail": "효과가 2시간 넘게 이어졌습니다" },
+        { "value": "31편", "label": "설탕과 기분 연구", "detail": "1시간 안에 피로가 늘었습니다" }
+      ],
+      "note": "카니보어 91% 개선은 스스로 답한 설문이었습니다.",
+      "source": "Brooks & Lack (2006) · Mantantzis et al. (2019) · Lennerz et al. (2021)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "오후 브레인포그 줄이기\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "점심", "title": "평소의 8할, 단 음식 빼기", "text": "단백질과 채소 먼저" },
+        { "time": "식후", "title": "10분 걷기", "text": "바로 앉지 않기" },
+        { "time": "2~3시", "title": "10분 낮잠", "text": "알람은 10분에", "hot": true }
+      ],
+      "source": "Monk (2005) · Brooks & Lack (2006)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==점심 루틴==을\n따라 해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "점심 메뉴 고를 때\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "오후마다 조는\n동료에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "점심 루틴과\n참고 문헌 5편" }
+      ]
+    }
+  ]
+}
