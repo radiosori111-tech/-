@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 혼잣말 효과",
+  "name": "혼잣말 효과 카드뉴스",
+  "post": "/blog/말-한마디가-뇌를-재설계한다-뇌가소성과-말버릇의-신경과학/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 혼잣말",
+      "title": "혼잣말에 내 이름을 넣으면\n==달라질까?==",
+      "size": "md",
+      "sub": "1초 만에\n감정 반응이 줄었다",
+      "heroNumber": "1s"
+    },
+    {
+      "type": "statement",
+      "kicker": "아, 또 망했네",
+      "title": "실수한 순간\n먼저 튀어나오는 말",
+      "sub": "'나는 왜…' 대신\n==내 이름으로== 말해 보세요.",
+      "note": "처음 글의 틀린 출처를 원 논문으로 바로잡았습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 혼잣말",
+      "title": "혼잣말의\n==세 가지 효과==",
+      "size": "md",
+      "items": [
+        { "title": "이름으로 말하기", "text": "1초 안에 ==감정 반응==이 줄었습니다." },
+        { "title": "애쓰지 않아도", "text": "참는 뇌를 ++더 쓰지 않았습니다.++" },
+        { "title": "소리 내어 읽기", "text": "소리 낸 단어가 !!더 잘 기억났습니다.!!" }
+      ],
+      "source": "Moser et al., Sci Rep (2017) · MacLeod et al., JEP:LMC (2010)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "혼잣말의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "1초", "label": "감정 반응이 줄기까지", "detail": "내 이름으로 혼잣말할 때" },
+        { "value": "3인칭", "label": "발표 불안 감소", "detail": "이름이나 '너'로 말한 그룹" }
+      ],
+      "note": "'죽겠다'는 말이 코르티솔을 높인다는 근거는 찾지 못했습니다.",
+      "source": "Moser et al. (2017) · Kross et al., JPSP (2014)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "혼잣말 바꾸기\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "힘들 때", "title": "내 이름으로 말하기", "text": "○○아, 당황했구나", "hot": true },
+        { "time": "끝에", "title": "질문으로 끝내기", "text": "다음엔 뭘 바꿔 볼까?" },
+        { "time": "공부", "title": "핵심만 소리 내기", "text": "중요한 문장만 골라서" }
+      ],
+      "source": "Moser et al. (2017) · MacLeod et al. (2010)"
+    },
+    {
+      "type": "cta",
+      "kicker": "골라 보기",
+      "title": "블로그에서\n==상황별 혼잣말==을\n골라 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "실수한 날\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "자책이 잦은\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "상황별 예시와\n참고 문헌 6편" }
+      ]
+    }
+  ]
+}
