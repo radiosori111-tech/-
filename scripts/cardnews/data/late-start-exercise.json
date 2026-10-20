@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 늦게 시작한 운동과 뇌",
+  "name": "늦게 시작한 운동과 뇌 카드뉴스",
+  "post": "/blog/뇌-건강-뇌-가소성-운동-습관-복리-효과/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 운동과 뇌",
+      "title": "운동 습관, 늦게 시작해도\n==뇌가 바뀔까?==",
+      "size": "md",
+      "sub": "60~70대도 6개월 만에\n뇌 부피가 늘었다",
+      "heroNumber": "6mo"
+    },
+    {
+      "type": "statement",
+      "kicker": "20대에 시작한 달리기",
+      "title": "지금 시작하면\n이미 늦은 걸까?",
+      "sub": "나이가 들어도 뇌는 연습에 반응했습니다.\n==지금 시작해도 늦지 않습니다.==",
+      "note": "출근 전 2km, 12분 달리기로 하루를 엽니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 뇌",
+      "title": "나이 든 뇌의\n==세 가지 사실==",
+      "size": "md",
+      "items": [
+        { "title": "6개월 유산소", "text": "60~79세의 ==회백질과 백질==이 늘었습니다." },
+        { "title": "60대의 저글링", "text": "3개월 연습에 ++회백질++이 늘었습니다." },
+        { "title": "무증상 뇌경색", "text": "노인의 !!8~28%!!에서 MRI로 발견됐습니다." }
+      ],
+      "source": "Colcombe et al., J Gerontol (2006) · Boyke et al., J Neurosci (2008) · Vermeer et al., Lancet Neurol (2007)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "뇌 건강의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "40%", "label": "바꿀 수 있는 치매 요인", "detail": "고혈압·운동 부족 등 12가지" },
+        { "value": "66일", "label": "습관이 자리 잡는 시간", "detail": "21일보다 훨씬 깁니다" }
+      ],
+      "note": "경도인지장애의 절반이 치매가 된다는 말은 사실과 달랐습니다.",
+      "source": "Livingston et al., Lancet (2020) · Lally et al. (2010) · Mitchell & Shiri-Feshki (2009)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "뇌에 쌓이는 운동\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "이번 주", "title": "혈압부터 재기", "text": "무증상 뇌경색의 최대 위험 요인" },
+        { "time": "66일", "title": "같은 때 짧은 운동", "text": "출근 전 2km처럼", "hot": true },
+        { "time": "30분마다", "title": "앉은 시간 쪼개기", "text": "걷기·쪼그려 앉기" }
+      ],
+      "source": "Vermeer et al. (2007) · Colcombe et al. (2006) · Raichlen et al., PNAS (2020)"
+    },
+    {
+      "type": "cta",
+      "kicker": "점검해 보기",
+      "title": "블로그에서\n==뇌 혈관 습관 점검표==를\n눌러 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "운동 미루고 싶을 때\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "부모님께\n보내 드리기" },
+        { "icon": "link", "title": "프로필 링크", "text": "점검표와\n참고 문헌 7편" }
+      ]
+    }
+  ]
+}
