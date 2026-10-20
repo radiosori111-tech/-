@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 작심삼일과 aMCC",
+  "name": "작심삼일 aMCC 카드뉴스",
+  "post": "/blog/작심삼일-반복된다면-의지력보다-BDNF·aMCC-활용법부터-총정리/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 의지력",
+      "title": "하기 싫은 일 하면\n==의지력 뇌==가\n커질까?",
+      "size": "md",
+      "sub": "작심삼일과 aMCC,\n확인된 것과 가설",
+      "heroNumber": "aMCC"
+    },
+    {
+      "type": "statement",
+      "kicker": "사흘이면 끝나는 결심",
+      "title": "\"내 의지가\n약해서일까?\"",
+      "sub": "aMCC를 키우면 된다는 말,\n==어디까지 사실==일까요?",
+      "note": "aMCC는 뇌 깊은 곳, 대상피질의 앞쪽 중간 부분입니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 aMCC",
+      "title": "확인된 것과\n==아직 가설==",
+      "size": "md",
+      "items": [
+        { "title": "전기 자극", "text": "aMCC를 자극하자 ==\"버티겠다\"는 마음==이 생겼습니다(2명)." },
+        { "title": "슈퍼에이저", "text": "기억력이 젊은 노인은 aMCC 피질이 ++잘 보존++되어 있었습니다." },
+        { "title": "하기 싫은 일 → aMCC 성장", "text": "사람 실험으로 !!확인되지 않았습니다.!!" }
+      ],
+      "source": "Parvizi et al., Neuron (2013) · Sun et al., J Neurosci (2016)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "근거가 분명한 건\n==운동과 계획==",
+      "size": "md",
+      "items": [
+        { "value": "2개월", "label": "운동 프로그램 뒤", "detail": "흡연·음주·군것질이 줄었습니다" },
+        { "value": "94편", "label": "\"만약 ~하면\" 계획 연구", "detail": "중간 이상의 효과를 보였습니다" }
+      ],
+      "note": "찬물 샤워가 aMCC를 키운다는 연구는 찾지 못했습니다.",
+      "source": "Oaten & Cheng, BJHP (2006) · Gollwitzer & Sheeran (2006)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "작심삼일 넘기는\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "계획", "title": "만약 ~하면, 나는 ~한다", "text": "상황과 행동을 한 문장으로" },
+        { "time": "운동", "title": "숨이 찰 만큼 주 3회", "text": "20~30분 빠르게 걷거나 달리기", "hot": true },
+        { "time": "기간", "title": "66일을 기준으로", "text": "하루 빠져도 다음 날 다시" }
+      ],
+      "source": "Szuhany et al., J Psychiatr Res (2015) · Lally et al., Eur J Soc Psychol (2010)"
+    },
+    {
+      "type": "cta",
+      "kicker": "직접 만들어 보기",
+      "title": "블로그에서\n==나의 실행 문장==을\n만들어 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "결심이 흔들릴 때\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "작심삼일 친구에게\n보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "계획 만들기와\n참고 문헌 9편" }
+      ]
+    }
+  ]
+}
