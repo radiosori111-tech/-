@@ -58,6 +58,16 @@
 .quiz-feedback strong { color: var(--ink); }
 .quiz-retry { margin-top: 0.75rem; padding: 0.375rem 0.875rem; border: 1px solid var(--line-strong); border-radius: 999px; background: transparent; color: var(--ink-soft); cursor: pointer; font-size: var(--text-sm); }
 
+/* WOOP 계획 만들기 */
+.woop-fields { display: grid; gap: 0.75rem; margin-top: 1rem; }
+.woop-field { display: grid; gap: 0.25rem; font-size: var(--text-sm); font-weight: 600; color: var(--ink); }
+.woop-field input { width: 100%; min-width: 0; padding: 0.625rem 0.75rem; border: 1px solid var(--line-strong); border-radius: var(--radius); background: var(--surface); color: var(--ink); font: inherit; font-weight: 400; }
+.woop-field input:focus-visible { border-color: var(--accent); }
+.woop-result { margin: 1rem 0 0; min-height: 3.3em; padding: 0.875rem 1rem; border-radius: var(--radius); background: var(--sunk); color: var(--muted); }
+.woop-result.is-ready { background: var(--accent-soft); color: var(--accent-strong); font-weight: 700; }
+.woop-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.woop-actions .quiz-retry:disabled { opacity: 0.5; cursor: default; }
+
 /* 뇌 구조 지도 */
 .bmap { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 1.25rem; align-items: start; margin-top: 1rem; }
 .bmap-figure { margin: 0; aspect-ratio: 450 / 400; }

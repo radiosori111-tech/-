@@ -113,9 +113,18 @@ const strip = (md) => md
 const field = (md, k) => (md.match(new RegExp(`^${k}:\\s*"?(.*?)"?\\s*$`, 'm')) || [])[1] || '';
 const data = posts.map((p) => {
   if (p.base === undefined) p.changes.splice(1, 0, "검색 결과용 정리: 검색어를 제목 앞에 두고 30자 안팎으로 줄여 구글에서 잘리지 않게, 설명은 질문의 답부터 시작");
-  const path = `src/content/blog/${p.slug}.md`;
-  const after = fs.readFileSync(`${ROOT}/${path}`, "utf8");
-  const before = execSync(`git -C "${ROOT}" show ${p.base || "6bb0c02~1"}:"${path}"`, { encoding: 'utf8' });
+  // 글이 .md에서 .mdx로 바뀌었을 수 있으니 지금 파일과 예전 파일을 각각 찾는다
+  const pick = (ok) => ['.mdx', '.md'].map((e) => `src/content/blog/${p.slug}${e}`).find(ok);
+  const path = pick((f) => fs.existsSync(`${ROOT}/${f}`));
+  const base = p.base || "6bb0c02~1";
+  const oldPath = pick((f) => { try { execSync(`git -C "${ROOT}" cat-file -e ${base}:"${f}"`, { stdio: 'ignore' }); return true; } catch { return false; } });
+  // MDX 전용 줄(import, {/* */} 주석)은 빼고, 위젯은 한 줄 안내로 바꿔 보여 준다
+  const after = fs.readFileSync(`${ROOT}/${path}`, "utf8")
+    .replace(/^import .*$/gm, '')
+    .replace(/\{\/\*[\s\S]*?\*\/\}/g, '')
+    .replace(/<Quiz[^>]*question="([^"]*)"[^>]*\/>/g, (m, q) => `\n> 🧩 퀴즈 위젯: ${q}\n`)
+    .replace(/<(SynapseSlider|BrainMap|[A-Z]\w+)[^>]*\/>/g, (m, n) => `\n> 🧩 인터랙티브 위젯: ${n}\n`);
+  const before = execSync(`git -C "${ROOT}" show ${base}:"${oldPath}"`, { encoding: 'utf8' });
   const len = (md) => strip(md).replace(/[#>*_|\-\s\[\]()]/g, '').length;
   const refs = (md) => (strip(md).split(/참고 문헌/)[1] || '').split('\n').filter((l) => l.startsWith('- ')).length;
   const ch = p.changes.map((c) => c.startsWith("제목:") ? `제목: 「${field(before, "title")}」 → 「${field(after, "title")}」` + (p.titleNote ? ` (${p.titleNote})` : "") : c);
