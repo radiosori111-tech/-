@@ -5,7 +5,7 @@ Astro 블로그(ko/en/ja). 글은 `src/content/blog/`(ko), `en/`, `ja/`에 있�
 ## 진행 방식
 - 묻지 말고 바로 진행한다. 한 편씩, 쉬지 않고 다음 글로 넘어간다.
 - 작업이 끝날 때마다 팝업(Artifact) 링크를 채팅에 적는다.
-- 변경 후에는 `npm run build`로 확인하고 commit, push한다. 커밋 끝에 `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`를 붙인다.
+- 변경 후에는 `npm run build`로 확인하고 commit한다. **push는 글 1편의 작업(글·카드뉴스·비교 팝업)이 모두 끝났을 때 한 번만** 한다. 이 저장소는 Vercel 프로젝트 여러 개에 연결되어 있어 push마다 배포가 여러 번 일어나고, 하루 배포 한도("Deployment rate limited")에 걸리면 jes-lu.com이 24시간 동안 갱신되지 않는다(2026-10-20 실제로 발생). scripts·CLAUDE.md만 바뀐 커밋은 vercel.json의 ignoreCommand로 배포를 건너뛴다. 커밋 끝에 `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`를 붙인다.
 
 ## 진행 중인 일: 참고 문헌 없는 옛 글을 근거로 보강 (AdSense 승인용)
 남은 글은 참고 문헌(`참고 문헌`)이 없는 ko 글이다. 순서: 2023년 글(간헐적-단식-설-명절-확찐자들을-위한-비법 → BDNF-부족하게-되는-원인-뇌건강도-좋아지나 → 인슐린-역할은-영리하게-사용하는-비법은) → 2026년 9~10월 글.
@@ -20,11 +20,11 @@ Astro 블로그(ko/en/ja). 글은 `src/content/blog/`(ko), `en/`, `ja/`에 있�
    - **인터랙티브 위젯(MDX)을 글마다 1개 이상 넣는다**: 확인 퀴즈(`Quiz`)는 기본, 글에 맞으면 직접 해 보는 위젯(예: `WoopPlanner`, `SynapseSlider`, `BrainMap`)을 쓰거나 `src/components/widgets/`에 새로 만든다(Preact, `client:visible`, ko/en/ja 문구). 파일을 `.mdx`로 바꾸고(`git mv`), frontmatter 바로 뒤에 import, `<!-- -->` 대신 `{/* related-link */}`, 본문에 `<`·`{` 글자를 쓰지 않는다. 빌드 뒤 preview 서버에서 위젯을 한 번 눌러 확인한다.
 4. en, ja 파일을 같은 내용으로 다시 쓴다(위젯 import 경로는 `../../../components/...`).
 5. `node scripts/rewrite/fix-bold.cjs "$PWD/src/content"`를 실행한 뒤 `npm run build`를 하고, 그 글의 내부 링크(`dist/<경로>/index.html` 존재)를 확인한다.
-6. commit, push.
+6. commit (push는 10단계에서 한 번에).
 7. Before→After 비교: `scripts/rewrite/build-rewrite-preview.cjs`의 `posts` 맨 앞에 항목(slug, base=고치기 전 커밋, short, titleNote, changes)을 추가한다. `node scripts/rewrite/build-rewrite-preview.cjs "$PWD/exports/rewrite" "$PWD"`를 실행하고, `exports/rewrite/rewrite-preview.html`을 기존 팝업 https://claude.ai/artifact/8kirAfPea3XaQJ2KgDoR8Z 에 url로 게시한다.
 8. 카드뉴스: `scripts/cardnews/data/<이름>.json`(6장)을 쓰고 `node scripts/cardnews/build.mjs scripts/cardnews/data/<이름>.json`을 실행한다. PNG 6장이 `../카드뉴스/<이름>/`에 자동 저장된다. 한 장을 열어 넘침과 겹침을 확인한다.
 9. `exports/cardnews/<이름>.artifact.html`을 팝업으로 게시한다(`capabilities: {downloads: true}`, icon image). 카드뉴스 데이터를 커밋한다.
-10. 채팅에 보고한다: 팝업 링크(카드뉴스·비교), Before→After 표(제목·분량·참고 문헌 수), 바로잡은 사실, 다음 글. 그리고 곧바로 다음 글로 넘어간다.
+10. `git push`를 한 번 하고, 채팅에 보고한다: 팝업 링크(카드뉴스·비교), Before→After 표(제목·분량·참고 문헌 수), 바로잡은 사실, 다음 글. 그리고 곧바로 다음 글로 넘어간다.
 
 ## 글쓰기 기준
 - 근거: Nature·Science·Cell·NEJM·PNAS 등 학술 논문. 출처 없는 수치, 가짜 경험·경력, '뇌과학자가 말하는' 같은 권위 표현을 쓰지 않는다. '아편', '마약', '충격', '반전' 같은 자극어도 쓰지 않는다.

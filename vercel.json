@@ -1,4 +1,5 @@
 {
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- src public astro.config.mjs package.json package-lock.json tsconfig.json vercel.json",
   "redirects": [
     {
       "source": "/ja/blog/",
