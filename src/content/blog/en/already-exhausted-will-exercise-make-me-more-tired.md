@@ -65,6 +65,18 @@ Patrick O'Connor's team at the University of Georgia divided young adults who of
 - Both exercise groups **gained energy**.
 - **Fatigue** fell in both groups, and **more so in the low-intensity group**.
 
+#### What do low- and moderate-intensity exercise actually look like?
+
+Exercise intensity is usually sorted by **METs** (multiples of the energy you use sitting still) and by the **talk test**. The World Health Organization treats under 3 METs as light, 3 to under 6 METs as moderate, and 6 METs or more as vigorous (Bull et al., **British Journal of Sports Medicine**, 2020). The MET values in the examples below are based on a compendium of the energy cost of physical activities (Ainsworth et al., **Medicine & Science in Sports & Exercise**, 2011).
+
+| Intensity | Talk test | Examples | On tiring days |
+| --- | --- | --- | --- |
+| Light (under 3 METs) | Breathing is easy enough to sing | Slow strolling, walking around the office or hallway, gentle stretching, relaxed yoga | The first choice |
+| Moderate (3–6 METs) | You can talk but not sing | Brisk walking (5–6 km/h), easy cycling on flat ground, climbing stairs slowly, light strength training | Worth 10–15 minutes if you feel up to it |
+| Vigorous (6+ METs) | Hard to say more than a few words | Running, fast cycling, jumping rope, uphill hiking, interval training | Best avoided |
+
+MET values are based on an average person, so for someone fit, a slow jog may feel moderate. In the 10-minute running study below, each participant also ran at a moderate intensity matched to their fitness. That is why **your breath and your ability to talk** are a more accurate guide than the numbers.
+
 The same team had earlier pooled more than 70 studies, finding that regular exercise increases energy and reduces feelings of fatigue (Puetz, O'Connor & Dishman, **Psychological Bulletin**, 2006). In other words, **the more tired you are, the more it helps to move gently rather than hard**.
 
 ### 3. Five minutes of walking between stretches of sitting
@@ -144,6 +156,8 @@ Walking gently is fine. Running hard right after a meal, though, easily brings o
 - Hill, E. E., Zack, E., Battaglini, C., Viru, M., Viru, A., & Hackney, A. C. (2008). Exercise and circulating cortisol levels: the intensity threshold effect. *Journal of Endocrinological Investigation*, 31(7), 587–591.
 - Szuhany, K. L., Bugatti, M., & Otto, M. W. (2015). A meta-analytic review of the effects of exercise on brain-derived neurotrophic factor. *Journal of Psychiatric Research*, 60, 56–64.
 - Brooks, G. A. (2018). The science and translation of lactate shuttle theory. *Cell Metabolism*, 27(4), 757–785.
+- Bull, F. C., Al-Ansari, S. S., Biddle, S., … Willumsen, J. F. (2020). World Health Organization 2020 guidelines on physical activity and sedentary behaviour. *British Journal of Sports Medicine*, 54(24), 1451–1462.
+- Ainsworth, B. E., Haskell, W. L., Herrmann, S. D., … Leon, A. S. (2011). 2011 Compendium of Physical Activities: a second update of codes and MET values. *Medicine & Science in Sports & Exercise*, 43(8), 1575–1581.
 - Ratey, J. J., & Hagerman, E. (2008). *Spark: The Revolutionary New Science of Exercise and the Brain*. Little, Brown.
 
 ### 💭 A question for you
