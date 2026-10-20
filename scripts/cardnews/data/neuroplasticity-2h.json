@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 단 2시간 만에 해마가 변했다",
+  "post": "/blog/뇌가소성을-깨워라/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 뇌 가소성",
+      "title": "단 ==2시간== 만에…\n내 뇌 속 ‘해마’가\n변했다고?",
+      "size": "lg",
+      "sub": "MRI로 확인한 뇌 신경가소성의 속도",
+      "heroNumber": "2h"
+    },
+    {
+      "type": "statement",
+      "kicker": "우리가 알던 상식",
+      "title": "뇌가 바뀌려면\n몇 달, 몇 년이\n걸리는 줄 알았습니다.",
+      "sub": "그런데 2012년 뇌영상 연구는\n==훨씬 빠른 변화==를 포착했습니다.",
+      "note": "나이가 들면 머리가 굳는다? 지식과 경험의 지능(결정성 지능)은 나이가 들어도 유지되거나 자랍니다.",
+      "source": "Sagi et al., Neuron (2012) · Horn & Cattell, Acta Psychologica (1967)"
+    },
+    {
+      "type": "steps",
+      "kicker": "2시간 동안 무슨 일이?",
+      "title": "새 길을 익히자\n==해마==가 반응했습니다",
+      "size": "md",
+      "items": [
+        { "title": "2시간 동안 새 길 익히기", "text": "참가자들은 레이싱 게임에서 처음 보는 코스를 반복해 익혔습니다." },
+        { "title": "MRI에 잡힌 해마의 변화", "text": "길 찾기와 기억을 맡는 ++해마++의 미세 구조가 연습 전과 달라졌습니다." },
+        { "title": "현미경으로 본 이유", "text": "같은 과제를 한 쥐의 해마에서는 신경세포를 돕는 별아교세포, 시냅스 단백질, !!BDNF!!가 늘어 있었습니다." }
+      ],
+      "source": "Sagi et al., Learning in the fast lane, Neuron 73(6), 2012"
+    },
+    {
+      "type": "stats",
+      "kicker": "빠른 변화 vs 오래가는 변화",
+      "title": "빨리 반응하고,\n==꾸준히== 하면 자랍니다",
+      "size": "md",
+      "items": [
+        { "value": "2h", "label": "새 길 학습 2시간", "detail": "확산 MRI로 해마 미세 구조 변화 확인" },
+        { "value": "+2%", "label": "1년 걷기 (주 3회 40분)", "detail": "55~80세 노인의 해마 부피 증가" }
+      ],
+      "note": "확산 MRI는 뇌 속 ==물 분자의 움직임==을 봅니다. 지지 세포와 연결이 늘면 물이 퍼지는 방식이 바뀌어 영상에 변화로 나타납니다.",
+      "source": "Sagi et al., Neuron (2012) · Erickson et al., PNAS (2011)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "퇴근 후 ==20분==\n뇌 자극 걷기 루틴",
+      "size": "md",
+      "items": [
+        { "time": "0–3분", "title": "천천히 걸으며 몸 풀기", "text": "어깨와 발목을 가볍게 돌리며 시작합니다." },
+        { "time": "3–17분", "title": "빠르게, 그리고 새 길로", "text": "대화는 되지만 노래는 어려운 속도로, 안 가 본 골목을 골라 걷습니다.", "hot": true },
+        { "time": "17–20분", "title": "천천히 정리하기", "text": "숨을 고르며 오늘 걸은 길을 떠올려 봅니다." }
+      ],
+      "source": "20분 걷기 직후 주의력 향상: Hillman et al., Neuroscience (2009, 어린이 대상) · 중강도 기준: WHO (2020)"
+    },
+    {
+      "type": "cta",
+      "kicker": "더 알아보기",
+      "title": "연구 출처와\n뇌과학 메커니즘은\n==프로필 링크==에서",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "오늘 저녁 걷기 전에\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "같이 걸을 사람에게\n보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "참고 문헌 13편\n전문 읽기" }
+      ]
+    }
+  ]
+}

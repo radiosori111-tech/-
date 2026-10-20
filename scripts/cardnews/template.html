@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>카드뉴스</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<style>
+/* 인스타그램 카드뉴스 1080x1080. 화면에서는 줄여 보여 주고, 저장할 때는 원래 크기로 그린다 */
+:root {
+  --bg: #070b12; --ink: #f2f5f9; --soft: #b9c3d0; --muted: #7d8899;
+  --neon: #5fe3d0; --neon2: #9b8cff; --warm: #ffcf70; --line: rgba(255,255,255,.12);
+  --font: 'Pretendard Variable', Pretendard, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  --disp: 'Space Grotesk', var(--font);
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: #0b0f16; color: var(--ink); font-family: var(--font); }
+.toolbar { position: sticky; top: 0; z-index: 5; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 12px 16px; background: rgba(11,15,22,.92); border-bottom: 1px solid var(--line); }
+.toolbar h1 { font-size: 15px; margin: 0 auto 0 0; font-weight: 700; }
+.toolbar button, .save { font: inherit; font-size: 14px; font-weight: 600; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--neon); background: transparent; color: var(--neon); cursor: pointer; }
+.toolbar button.primary { background: var(--neon); color: #06110f; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 420px), 1fr)); gap: 24px; padding: 24px 16px 48px; max-width: 1400px; margin: 0 auto; }
+.cell { display: grid; gap: 10px; }
+.viewport { position: relative; width: 100%; aspect-ratio: 1; overflow: hidden; border-radius: 14px; box-shadow: 0 10px 40px rgba(0,0,0,.5); }
+.scaler { position: absolute; top: 0; left: 0; width: 1080px; height: 1080px; transform-origin: 0 0; }
+.save { justify-self: start; font-size: 13px; padding: 6px 12px; }
+
+/* 슬라이드 */
+.slide { position: relative; width: 1080px; height: 1080px; overflow: hidden; background: var(--bg); padding: 88px 92px; display: flex; flex-direction: column; }
+.slide .glow-a, .slide .glow-b { position: absolute; border-radius: 50%; pointer-events: none; }
+.slide .glow-a { width: 900px; height: 900px; right: -320px; top: -320px; background: radial-gradient(circle, rgba(95,227,208,.28) 0%, rgba(95,227,208,0) 62%); }
+.slide .glow-b { width: 800px; height: 800px; left: -300px; bottom: -340px; background: radial-gradient(circle, rgba(155,140,255,.24) 0%, rgba(155,140,255,0) 62%); }
+.slide svg.net { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .55; }
+.slide > .content { position: relative; z-index: 1; display: flex; flex-direction: column; height: 100%; }
+.top { display: flex; justify-content: space-between; align-items: center; font-family: var(--disp); font-size: 24px; letter-spacing: .04em; color: var(--muted); }
+.top .brand { color: var(--ink); font-weight: 700; }
+.top .brand i { font-style: normal; color: var(--neon); }
+.kicker { align-self: flex-start; margin-top: 64px; padding: 10px 22px; border: 2px solid var(--neon); border-radius: 999px; color: var(--neon); font-size: 26px; font-weight: 700; letter-spacing: .02em; text-shadow: 0 0 18px rgba(95,227,208,.6); box-shadow: 0 0 24px rgba(95,227,208,.25), inset 0 0 18px rgba(95,227,208,.12); }
+.title { margin: 40px 0 0; font-size: 82px; line-height: 1.22; font-weight: 800; letter-spacing: -.035em; word-break: keep-all; }
+.title.lg { font-size: 96px; }
+.title.md { font-size: 68px; }
+em { font-style: normal; color: var(--neon); text-shadow: 0 0 28px rgba(95,227,208,.75), 0 0 64px rgba(95,227,208,.35); }
+em.v { color: var(--neon2); text-shadow: 0 0 28px rgba(155,140,255,.75), 0 0 64px rgba(155,140,255,.35); }
+em.w { color: var(--warm); text-shadow: 0 0 28px rgba(255,207,112,.6); }
+.sub { margin: 32px 0 0; font-size: 38px; line-height: 1.5; color: var(--soft); font-weight: 500; word-break: keep-all; }
+.body { margin-top: auto; padding-top: 40px; display: grid; gap: 22px; }
+.bottom { margin-top: auto; padding-top: 40px; display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; }
+.source { font-size: 20px; line-height: 1.5; color: var(--muted); max-width: 720px; }
+.swipe { font-family: var(--disp); font-size: 24px; color: var(--neon); white-space: nowrap; letter-spacing: .06em; }
+
+/* 표지의 큰 숫자 */
+.hero-num { position: absolute; left: 70px; bottom: 30px; font-family: var(--disp); font-weight: 700; font-size: 300px; line-height: 1; color: transparent; -webkit-text-stroke: 3px rgba(95,227,208,.55); text-shadow: 0 0 60px rgba(95,227,208,.25); letter-spacing: -.04em; }
+
+/* 단계 카드 */
+.step { display: grid; grid-template-columns: 84px 1fr; gap: 28px; align-items: start; padding: 26px 30px; border: 1px solid var(--line); border-radius: 24px; background: rgba(255,255,255,.035); }
+.step .n { width: 84px; height: 84px; border-radius: 50%; display: grid; place-items: center; font-family: var(--disp); font-size: 36px; font-weight: 700; color: #06110f; background: var(--neon); box-shadow: 0 0 30px rgba(95,227,208,.6); }
+.step:nth-child(2) .n { background: var(--neon2); box-shadow: 0 0 30px rgba(155,140,255,.6); }
+.step:nth-child(3) .n { background: var(--warm); box-shadow: 0 0 30px rgba(255,207,112,.5); }
+.step b { display: block; font-size: 38px; font-weight: 800; letter-spacing: -.02em; }
+.step span { display: block; margin-top: 8px; font-size: 29px; line-height: 1.45; color: var(--soft); }
+
+/* 수치 카드 */
+.stats { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.stat { padding: 34px 32px; border-radius: 28px; border: 1px solid var(--line); background: rgba(255,255,255,.04); }
+.stat .v { font-family: var(--disp); font-size: 104px; font-weight: 700; line-height: 1; color: var(--neon); text-shadow: 0 0 34px rgba(95,227,208,.6); letter-spacing: -.03em; }
+.stat:nth-child(2) .v { color: var(--neon2); text-shadow: 0 0 34px rgba(155,140,255,.6); }
+.stat .l { margin-top: 18px; font-size: 30px; line-height: 1.4; color: var(--ink); font-weight: 700; }
+.stat .d { margin-top: 8px; font-size: 24px; line-height: 1.45; color: var(--muted); }
+.note { font-size: 30px; line-height: 1.5; color: var(--soft); padding: 24px 30px; border-left: 4px solid var(--neon); background: rgba(95,227,208,.06); border-radius: 0 18px 18px 0; }
+
+/* 타임라인 */
+.time { display: grid; grid-template-columns: 170px 1fr; gap: 26px; align-items: center; }
+.time .t { font-family: var(--disp); font-size: 36px; font-weight: 700; color: var(--neon); text-align: right; }
+.time .bar { padding: 22px 28px; border-radius: 20px; background: rgba(255,255,255,.045); border: 1px solid var(--line); }
+.time .bar b { font-size: 36px; font-weight: 800; }
+.time .bar span { display: block; margin-top: 6px; font-size: 26px; color: var(--soft); line-height: 1.4; }
+.time.hot .bar { border-color: rgba(95,227,208,.6); box-shadow: 0 0 30px rgba(95,227,208,.18), inset 0 0 24px rgba(95,227,208,.08); }
+
+/* CTA */
+.cta-url { margin-top: 44px; align-self: flex-start; font-family: var(--disp); font-size: 64px; font-weight: 700; color: var(--neon); text-shadow: 0 0 34px rgba(95,227,208,.7); padding: 18px 34px; border: 3px solid var(--neon); border-radius: 24px; }
+.icons { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+.icon { display: grid; justify-items: center; gap: 16px; padding: 30px 12px; border-radius: 26px; border: 1px solid var(--line); background: rgba(255,255,255,.04); text-align: center; }
+.icon svg { width: 76px; height: 76px; stroke: var(--neon); fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; filter: drop-shadow(0 0 10px rgba(95,227,208,.7)); }
+.icon b { font-size: 32px; }
+.icon span { font-size: 24px; color: var(--soft); line-height: 1.4; }
+
+@media print {
+  @page { size: 1080px 1080px; margin: 0; }
+  body { background: var(--bg); }
+  .toolbar, .save { display: none; }
+  .grid { display: block; padding: 0; max-width: none; }
+  .cell { display: block; break-after: page; }
+  .viewport { width: 1080px; height: 1080px; border-radius: 0; box-shadow: none; aspect-ratio: auto; }
+  .scaler { transform: none !important; }
+}
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <h1 id="doc-title"></h1>
+  <button type="button" class="primary" id="save-all">PNG 6장 모두 저장</button>
+  <button type="button" onclick="print()">PDF로 저장</button>
+</div>
+<div class="grid" id="grid"></div>
+<script>
+const DATA = /*DATA*/null;
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+// ==강조==, ++보라 강조++, !!노랑 강조!!, 줄바꿈은 \n
+const rich = (s) => esc(s).replace(/==(.+?)==/g, '<em>$1</em>').replace(/\+\+(.+?)\+\+/g, '<em class="v">$1</em>').replace(/!!(.+?)!!/g, '<em class="w">$1</em>').replace(/\n/g, '<br>');
+
+// 신경망 배경: 슬라이드마다 같은 모양이 나오도록 씨앗값으로 점과 선을 만든다
+function net(seed) {
+  let x = seed * 9301 + 49297;
+  const rnd = () => ((x = (x * 9301 + 49297) % 233280) / 233280);
+  const pts = Array.from({ length: 46 }, () => [rnd() * 1080, rnd() * 1080, 1.5 + rnd() * 3.5]);
+  let lines = '';
+  pts.forEach((a, i) => pts.slice(i + 1).forEach((b) => {
+    const d = Math.hypot(a[0] - b[0], a[1] - b[1]);
+    if (d < 190) lines += `<line x1="${a[0].toFixed(0)}" y1="${a[1].toFixed(0)}" x2="${b[0].toFixed(0)}" y2="${b[1].toFixed(0)}" stroke="rgba(95,227,208,${(0.28 * (1 - d / 190)).toFixed(2)})" stroke-width="1.2"/>`;
+  }));
+  const dots = pts.map((p, i) => `<circle cx="${p[0].toFixed(0)}" cy="${p[1].toFixed(0)}" r="${p[2].toFixed(1)}" fill="${i % 5 ? 'rgba(95,227,208,.55)' : 'rgba(155,140,255,.8)'}"/>`).join('');
+  return `<svg class="net" viewBox="0 0 1080 1080" aria-hidden="true">${lines}${dots}</svg>`;
+}
+
+const ICONS = {
+  save: '<svg viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>',
+  share: '<svg viewBox="0 0 24 24"><path d="M21 3 10 14"/><path d="M21 3l-7 18-4-7-7-4z"/></svg>',
+  link: '<svg viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>',
+  heart: '<svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg>',
+};
+
+function body(s) {
+  switch (s.type) {
+    case 'steps': return `<div class="body">${s.items.map((it, i) => `<div class="step"><div class="n">${i + 1}</div><div><b>${rich(it.title)}</b><span>${rich(it.text)}</span></div></div>`).join('')}</div>`;
+    case 'stats': return `<div class="body"><div class="stats">${s.items.map((it) => `<div class="stat"><div class="v">${esc(it.value)}</div><div class="l">${rich(it.label)}</div><div class="d">${rich(it.detail)}</div></div>`).join('')}</div>${s.note ? `<div class="note">${rich(s.note)}</div>` : ''}</div>`;
+    case 'timeline': return `<div class="body">${s.items.map((it) => `<div class="time${it.hot ? ' hot' : ''}"><div class="t">${esc(it.time)}</div><div class="bar"><b>${rich(it.title)}</b><span>${rich(it.text)}</span></div></div>`).join('')}</div>`;
+    case 'cta': return `<div class="cta-url">${esc(s.url)}</div><div class="body"><div class="icons">${s.items.map((it) => `<div class="icon">${ICONS[it.icon] || ''}<b>${esc(it.title)}</b><span>${rich(it.text)}</span></div>`).join('')}</div></div>`;
+    case 'statement': return s.note ? `<div class="body"><div class="note">${rich(s.note)}</div></div>` : '';
+    default: return '';
+  }
+}
+
+function slideHTML(s, i, n) {
+  const titleClass = s.size ? ` ${s.size}` : '';
+  return `<div class="slide" id="slide-${i + 1}">
+    <div class="glow-a"></div><div class="glow-b"></div>${net(i + 3)}
+    ${s.heroNumber ? `<div class="hero-num">${esc(s.heroNumber)}</div>` : ''}
+    <div class="content">
+      <div class="top"><span class="brand">jes<i>-</i>lu.com</span><span>${String(i + 1).padStart(2, '0')} / ${String(n).padStart(2, '0')}</span></div>
+      ${s.kicker ? `<div class="kicker">${esc(s.kicker)}</div>` : ''}
+      <h2 class="title${titleClass}">${rich(s.title)}</h2>
+      ${s.sub ? `<p class="sub">${rich(s.sub)}</p>` : ''}
+      ${body(s)}
+      <div class="bottom"><div class="source">${s.source ? '출처: ' + esc(s.source) : ''}</div>${i < n - 1 ? '<div class="swipe">SWIPE →</div>' : ''}</div>
+    </div>
+  </div>`;
+}
+
+document.title = DATA.title;
+document.getElementById('doc-title').textContent = DATA.title;
+const grid = document.getElementById('grid');
+DATA.slides.forEach((s, i) => {
+  const cell = document.createElement('div');
+  cell.className = 'cell';
+  cell.innerHTML = `<div class="viewport"><div class="scaler">${slideHTML(s, i, DATA.slides.length)}</div></div><button type="button" class="save" data-i="${i + 1}">${i + 1}번 PNG 저장</button>`;
+  grid.append(cell);
+});
+const fit = () => document.querySelectorAll('.viewport').forEach((v) => { v.firstElementChild.style.transform = `scale(${v.clientWidth / 1080})`; });
+addEventListener('resize', fit); fit();
+
+async function save(i) {
+  if (!window.html2canvas) { alert('저장 도구를 불러오지 못했습니다. 인터넷 연결을 확인하거나 PDF로 저장을 이용해 주세요.'); return; }
+  await document.fonts.ready;
+  const el = document.getElementById(`slide-${i}`);
+  const canvas = await html2canvas(el, { width: 1080, height: 1080, scale: 1, backgroundColor: '#070b12', useCORS: true,
+    onclone: (doc) => doc.querySelectorAll('.scaler').forEach((s) => { s.style.transform = 'none'; }) });
+  const a = document.createElement('a');
+  a.download = `${DATA.file || 'cardnews'}-${String(i).padStart(2, '0')}.png`;
+  a.href = canvas.toDataURL('image/png');
+  a.click();
+}
+grid.addEventListener('click', (e) => { const b = e.target.closest('.save'); if (b) save(Number(b.dataset.i)); });
+document.getElementById('save-all').addEventListener('click', async () => { for (let i = 1; i <= DATA.slides.length; i++) await save(i); });
+</script>
+</body>
+</html>
