@@ -1,10 +1,11 @@
 // 카드뉴스 데이터(JSON)를 템플릿에 넣어 두 파일을 만든다
 //  exports/cardnews/<이름>.html          내 컴퓨터에서 열어 PNG·PDF로 저장하는 파일
 //  exports/cardnews/<이름>.artifact.html 팝업(Artifact)으로 미리 보는 파일 (PNG는 downloads 기능으로 저장, PDF 버튼 없음, 허용된 글꼴만)
+//  ../카드뉴스/<이름>/<이름>-01~06.png    인스타그램에 바로 올리는 PNG (Edge로 자동 촬영)
 // 사용: node scripts/cardnews/build.mjs scripts/cardnews/data/<이름>.json
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { basename, dirname, join } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const src = process.argv[2];
@@ -32,3 +33,28 @@ const artifact = page
 writeFileSync(join(out, `${data.file}.artifact.html`), artifact);
 console.log(join(out, `${data.file}.html`));
 console.log(join(out, `${data.file}.artifact.html`));
+
+// 인스타그램용 PNG: my site/카드뉴스/<이름>/<이름>-01.png … 슬라이드 수만큼 자동 저장
+const pngDir = join(here, '..', '..', '..', '카드뉴스', data.file);
+mkdirSync(pngDir, { recursive: true });
+const { chromium } = await import('playwright');
+const browser = await chromium.launch({ channel: 'msedge' });
+try {
+  const page = await browser.newPage({ viewport: { width: 1200, height: 1200 } });
+  await page.goto(pathToFileURL(join(out, `${data.file}.html`)).href, { waitUntil: 'networkidle' });
+  await page.evaluate(async () => {
+    await document.fonts.ready;
+    const grid = document.querySelector('.grid');
+    grid.style.display = 'block'; grid.style.maxWidth = 'none'; grid.style.padding = '0';
+    document.querySelector('.toolbar').style.display = 'none';
+    document.querySelectorAll('.viewport').forEach((v) => { v.style.width = '1080px'; v.style.height = '1080px'; v.style.borderRadius = '0'; });
+    document.querySelectorAll('.scaler').forEach((s) => { s.style.transform = 'none'; });
+  });
+  for (let i = 1; i <= data.slides.length; i++) {
+    const dest = join(pngDir, `${data.file}-${String(i).padStart(2, '0')}.png`);
+    await page.locator(`#slide-${i}`).screenshot({ path: dest });
+    console.log(dest);
+  }
+} finally {
+  await browser.close();
+}
