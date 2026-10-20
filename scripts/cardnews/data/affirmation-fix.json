@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 확언 효과",
+  "name": "확언 효과 카드뉴스",
+  "post": "/blog/확언-1000번-외쳐도-안-변하는-이유-뇌과학으로-총정리/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 확언",
+      "title": "확언 외쳤더니\n기분이 ==더 나빠졌다?==",
+      "size": "md",
+      "sub": "확언 효과,\n연구로 다시 보기",
+      "heroNumber": "4min"
+    },
+    {
+      "type": "statement",
+      "kicker": "매일 아침",
+      "title": "\"나는 할 수 있다!\"\n그런데 삶은 그대로",
+      "sub": "믿기 어려운 문장은\n==마음속 반박==을 부릅니다.",
+      "note": "확언이 가장 필요해 보이는 사람에게 역효과가 날 수 있었습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 확언",
+      "title": "뇌에 닿는 말,\n==닿지 않는 말==",
+      "size": "md",
+      "items": [
+        { "title": "거창한 확언", "text": "자존감이 낮은 사람은 ==기분이 더 나빠졌습니다.==" },
+        { "title": "내 이름으로 혼잣말", "text": "'나' 대신 이름을 부르자 ++불안이 줄었습니다.++" },
+        { "title": "가치 적기", "text": "중요한 가치를 떠올리자 !!보상 영역!!이 켜졌습니다." }
+      ],
+      "source": "Wood et al., Psych Sci (2009) · Kross et al., JPSP (2014) · Cascio et al., SCAN (2016)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "보고 싶은 것만\n==보이는 뇌==",
+      "size": "md",
+      "items": [
+        { "value": "50%", "label": "고릴라를 못 본 사람", "detail": "패스 세기에 집중했을 때" },
+        { "value": "4분", "label": "확언을 되뇐 시간", "detail": "자존감 낮은 사람은 역효과" }
+      ],
+      "note": "망상활성계는 '중요한 정보 필터'가 아니라 각성을 조절합니다.",
+      "source": "Simons & Chabris, Perception (1999) · Wood et al. (2009)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "뇌에 닿는 확언\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "낮추기", "title": "믿을 수 있는 문장으로", "text": "\"아닌데\"가 떠오르면 너무 큰 문장" },
+        { "time": "이름", "title": "○○아, 너는 오늘 ~부터", "text": "작은 행동 하나와 짝짓기", "hot": true },
+        { "time": "증거", "title": "저녁에 한 일 한 줄", "text": "말보다 기록을 뇌가 믿습니다" }
+      ],
+      "source": "Kross et al., JPSP (2014) · Gollwitzer & Sheeran (2006)"
+    },
+    {
+      "type": "cta",
+      "kicker": "직접 바꿔 보기",
+      "title": "블로그에서\n==내 확언==을\n바꿔 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "아침 루틴 전에\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "확언하는 친구에게\n보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "확언 바꾸기 도구와\n참고 문헌 10편" }
+      ]
+    }
+  ]
+}
