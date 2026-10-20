@@ -1,104 +1,162 @@
 ---
-title: "BDNF, Brain-Derived Neurotrophic Factor: What Are You?"
+title: "What Is BDNF? Brain-Derived Neurotrophic Factor in Research, Common Myths, and 3 Steps to Raise It"
 slug: "bdnf-brain-derived-neurotrophic-factor-what-are-you"
 lang: "en"
 translationOf: "BDNF-뇌-유래-신경영양인자-너의-정체는-뭐니"
-description: "You may have read that intermittent fasting increases BDNF and plays a positive role in improving cognitive function. Here's what BDNF actually is, what it does in our bodies and how to raise it the right way."
+description: "BDNF (brain-derived neurotrophic factor) is a protein first purified in 1982. Drawing on research into learning and memory (Cell, 2003), appetite (NEJM, 2008), and exercise and the hippocampus (PNAS, 2011), here is what BDNF does, the common myths about it, and three evidence-based steps to raise it."
 date: "2023-02-01T13:12:32+09:00"
-updated: "2023-02-01T13:13:13+09:00"
-tags: ["BDNF", "brain-derived neurotrophic factor", "resilience", "hippocampus", "hypothalamus"]
+updated: "2026-10-20T16:00:00+09:00"
+tags: ["BDNF", "brain-derived neurotrophic factor", "what is BDNF", "hippocampus", "resilience", "exercise and the brain", "brain science"]
 comic:
   title: "BDNF, what are you?"
   panels:
     - scene: food
-      label: "The problem"
-      bubble: "Holiday bulk-up…"
+      label: "The question"
+      bubble: "Just raise BDNF?"
       alt: "A plate with meat, an egg, and greens, with a fork and knife"
-      caption: "When stress and binge eating go on, both body and mind grow heavy."
+      caption: "Heavier after the holidays, I wondered: if I just raise BDNF, will my brain get better?"
     - scene: sprout
-      label: "How it works"
+      label: "What it is"
       bubble: "I'm BDNF"
       alt: "A sprout growing from the top of a brain"
-      caption: "<strong>BDNF</strong> is a <strong>neurotrophic factor</strong> that grows nerve cells and supports learning and memory."
+      caption: "<strong>BDNF</strong> is a <strong>neurotrophic factor</strong> first purified in 1982 that helps nerve cells survive and connect."
     - scene: run
       label: "What to do"
-      bubble: "Let's move moderately"
+      bubble: "Keep walking"
       alt: "A person running lightly with motion lines"
-      caption: "<strong>Moderate exercise</strong> and <strong>healthy food</strong> raise BDNF."
+      caption: "Older adults who walked for a year grew their <strong>hippocampus</strong> by about 2% (<strong>PNAS</strong>, 2011)."
     - scene: calm
-      label: "The change"
-      bubble: "Failure is the default!"
+      label: "Balance"
+      bubble: "More isn't always better"
       alt: "A brain with an even wave and a slowly beating heart"
-      caption: "BDNF raises <strong>resilience</strong>, helping you get back up when you fall."
+      caption: "BDNF does different jobs in different brain areas, so <strong>balance</strong> matters more than \"the more the better.\""
 ---
 
-- Related post: [Intermittent fasting: a secret for those who gained weight over the holidays](/en/blog/intermittent-fasting-a-secret-for-those-who-gained-weight-over-the-holidays/)
+## 📌 Key takeaways
 
-You may have read that [intermittent fasting](/en/blog/intermittent-fasting-a-secret-for-those-who-gained-weight-over-the-holidays/) increases **BDNF** (brain-derived neurotrophic factor) and plays a positive role in improving cognitive function.
+- 🌱 **BDNF is a protein that looks after nerve cells.** It was first purified from pig brain (**EMBO Journal**, 1982) and is one of the **neurotrophic factors** that help nerve cells survive and connect.
+- 🧠 **It is essential for learning and memory.** Mice lacking the BDNF gene had weakened **long-term potentiation (LTP)** in the hippocampus, the basis of memory (**PNAS**, 1995), and people with a variant that releases BDNF less well scored lower on episodic memory (**Cell**, 2003).
+- 🍽️ **It helps regulate appetite.** Mice short on BDNF overate and became obese, and children missing one copy of the BDNF gene were more often obese (**NEJM**, 2008).
+- 🏃 **Exercise is the most reliable way to raise it.** Older adults who walked for a year grew their **hippocampus** by about 2%, and those whose blood BDNF rose more showed bigger gains (**PNAS**, 2011).
+- ⚖️ **"The more, the better" is a myth.** In a study of stressed mice, those with more BDNF in the brain's reward circuit were actually more vulnerable to stress (**Cell**, 2007).
 
-"Oh, really! Then if I just raise BDNF, it'll have a good effect on [neuroplasticity](/en/blog/wake-up-your-neuroplasticity/) and keep my brain working well, right?" That's what I thought. But the more I studied, the more I realized that while BDNF is indeed a necessary and important gene for us, it's one worth studying properly. So let's take some time to learn what BDNF is and what role it plays in our bodies, and to find the right ways to improve our brain function.
+### 💬 "Can't I just raise my BDNF?"
 
-> Contents
-> 1. What is BDNF?
-> 2. What BDNF does
-> 3. How to raise BDNF
+During the 2023 Lunar New Year holiday, I came home from a happy time with my family carrying a bulk-up I didn't need. While looking into [intermittent fasting](/en/blog/intermittent-fasting-a-secret-for-those-who-gained-weight-over-the-holidays/), I read that fasting raises **BDNF** (brain-derived neurotrophic factor) and is good for cognitive function.
 
-## 1. What is BDNF?
+"Oh, then if I just raise BDNF, my [neuroplasticity](/en/blog/wake-up-your-neuroplasticity/) will improve and my brain will keep getting better, right?" That was my first thought. But the more I studied, the more I felt that while BDNF is truly necessary and important, it is **something you need to understand properly before handling**. A book I was reading at the time, Kim Joo-hwan's *Resilience*, had this line:
 
-### 1) BDNF is a gene that regulates stress-driven binge eating
+> Exercise not only makes our brains happy but also makes us smarter. … In particular, the more we exercise, the more BDNF, a neurotrophic substance produced in the brain, improves our intellectual ability.
 
-The BDNF gene acts in the **pituitary gland**, which oversees the release of hormones, and BDNF and its receptor (**TrkB**) are widely distributed in the energy-balance centers of the **hypothalamus** and the hindbrain. The place in the hypothalamus with the most BDNF is the **VMH** (ventromedial hypothalamus, where many neurons important for regulating food intake are gathered).
+This post goes back to the question I had then, "What exactly is BDNF, and how do I raise it the right way?", and checks it against research.
 
-BDNF is also expressed in other areas involved in appetite regulation, such as the DMH (dorsomedial hypothalamus), the PVN (paraventricular nucleus) and the LH (lateral hypothalamic area). <strong>Low BDNF release related to appetite regulation increases stress-driven binge eating</strong>, in which stress triggers depression and anxiety. Because it's affected by emotional sensitivity, it has the characteristic of triggering binge eating when you're in certain states of stress.
+## Deep Dive: what does BDNF do in our bodies?
 
-BDNF also plays an important role in regulating the development of sensory pathways within the **vagus nerve**, which runs from the **brainstem** to the gut, sending sensory information from the digestive tract to the brain and to the stomach muscles when you eat.
+### 1. When and how was BDNF discovered?
 
-(Medical Today, Wellbeing, "Strengthening the nerve pathway from gut to brain 'can reduce how much you eat,'" August 5, 2014)
+In 1982, Yves-Alain Barde and Hans Thoenen's team at the Max Planck Institute in Germany purified a new protein from pig brain that kept nerve cells alive (Barde et al., **EMBO Journal**, 1982). Because it was a nerve-nourishing substance from the brain, it was named **brain-derived neurotrophic factor (BDNF)**.
 
-### 2) BDNF is one of the neurotrophins, a family of nervous-system growth factors
+BDNF sends its signal by binding to the **TrkB receptor** on the surface of nerve cells. The nerve cells then survive, grow branches, and strengthen their **synapses**, the points where they connect to other nerve cells. You could think of BDNF as **fertilizer** for the garden of the brain. Fertilizer doesn't plant the seeds for you, but it helps what you have planted grow well.
 
-According to a study published on September 26, 2003, in the journal ***Neuroscience***, <strong>BDNF increases the strength of synapses in the brain</strong> (*Neuroscience*, volume 121, issue 1, pages 1–252, September 2003). It also helps nerves regenerate and acts on nerve cells in both the central and peripheral nervous systems (paper: "Sulforaphane epigenetically enhances neuronal BDNF expression and TrkB signaling pathways").
+### 2. Is BDNF really needed for learning and memory?
 
-So BDNF has long been known to maintain the survival of nerve cells and to affect their differentiation and [plasticity](/en/blog/wake-up-your-neuroplasticity/), but recently it has emerged as an essential member of the neural circuits involved in **energy homeostasis**.
+Yes. A German team examined the hippocampus of mice whose BDNF gene had been removed (Korte et al., **PNAS**, 1995). **Long-term potentiation (LTP)**, in which repeated signals strengthen the connection between nerve cells, is considered the basis of memory, and in mice without BDNF it was greatly weakened.
 
-Source: [BRIC Bio Correspondent] "BDNF mediates obesity caused by overeating"
+There are similar clues in people. The BDNF gene has a common variant called **Val66Met**. A team at the US National Institute of Mental Health reported that people with the Met variant scored lower on **episodic memory** tests and showed a different pattern of hippocampal activity while remembering (Egan et al., **Cell**, 2003). In cell experiments, the Met variant reduced how much BDNF nerve cells release **when they are active**. Another study found that Met carriers had a slightly smaller hippocampus (Pezawas et al., **Journal of Neuroscience**, 2004).
 
-## 2. What does BDNF do?
-
-### 1) It's involved in learning and memory, and is important for improving cognitive function
-
-BDNF acts on the **hippocampus**, which handles memory and learning, the **temporal lobe**, which understands language, and the **frontal lobe**, which handles cognition, calculation and decision-making, creating new nerve cells and tightening their connections. BDNF isn't produced and released only in the brain; it's also produced in muscles, where it functions in relation to anti-inflammatory and immune responses.
-
-### 2) It raises resilience
-
-These days we feel a lot of fear when we try something new and fail. But people with **resilience** aren't afraid of failure; they push ahead with the mindset that <strong>"failure is the default, success is a bonus."</strong> <strong>In other words, resilience isn't an obsession with success but a mindset that fears no failure.</strong> People with a genetic variant that directs BDNF to be expressed at high levels have very sturdy brains and a large hippocampus, so they easily create and store new memories and build new frameworks of thinking.
-
-## 3. How to raise BDNF
-
-*Exercise not only makes our brains happy but also makes us smarter. Exercise builds networks connecting old nerve cells and supplies blood and nutrients to brain cells. In particular, BDNF, a neurotrophic substance produced in the brain the more we exercise, improves intellectual ability.*
+> In my original post I wrote that "people with a variant that expresses BDNF at high levels have a sturdy brain and a large hippocampus." Looking at the research again, the accurate version is: "**people with a variant (Met) that releases BDNF less well during activity tended to have lower memory scores and a slightly smaller hippocampus.**" Still, the effect of such variants is small, and results differ between studies.
 
 <!-- related-link -->
-Now that you know what BDNF is, the next question is how to raise it. [**The complete guide to increasing BDNF**](/en/blog/how-to-increase-bdnf-exercise-food-reading-meditation-sleep-evidence-and-duration/) gathers the evidence on exercise, food, sleep and sunlight.
+Now that you know what BDNF is, your next question is probably how to raise it. Continue with [**How to increase BDNF**](/en/blog/how-to-increase-bdnf-exercise-food-reading-meditation-sleep-evidence-and-duration/), which gathers the evidence on exercise, food, sleep, and sunlight.
 
-From *Resilience* (Kim Joo-hwan)
+### 3. Is it true that BDNF is linked to appetite?
 
-Resilience is defined as the ability to maintain a healthy outlook on life despite having experienced adversity.
+It is. But the part of my original post that said it "acts in the pituitary gland" was not accurate. The BDNF involved in appetite is concentrated in the **hypothalamus**, which regulates hunger and fullness, especially the **ventromedial hypothalamus (VMH)**.
 
-*The Science of Fate*, p. 265
+- In mice, BDNF in the VMH rose and fell with how much they had eaten, and putting BDNF into the brain reduced food intake (Xu et al., **Nature Neuroscience**, 2003).
+- Mice whose brain BDNF was removed after birth **overate and became obese** (Rios et al., **Molecular Endocrinology**, 2001).
+- In people, among children with a rare condition called WAGR syndrome, those **missing one copy of the BDNF gene** were far more often obese from early childhood (Han et al., **NEJM**, 2008).
 
-### 1) Moderate exercise creates new brain cells in the hippocampus
+So the evidence that BDNF is **part of the brain circuit that controls how much we eat** is solid. But there isn't enough evidence yet to explain everyday binge eating with BDNF alone, as in "low BDNF makes you binge when stressed."
 
-### 2) Eat healthy food
+### 4. Is BDNF made in muscle too?
 
-### 3) Get 10 to 20 minutes of sunlight every day, which is even better than taking vitamin D
+It is. A team in Copenhagen found that BDNF increased in the muscles of people who exercised (Matthews et al., **Diabetologia**, 2009). But this BDNF **stayed inside the muscle rather than entering the blood**, where it was used to burn fat.
 
-### 4) Enjoy fun foods you love
+So where does blood BDNF come from during exercise? In another study by the same group, comparing blood flowing into and out of the brain showed that **70–80% of blood BDNF at rest came from the brain**, and the brain's output rose **two- to threefold** during exercise (Rasmussen et al., **Experimental Physiology**, 2009). In effect, exercise **gets the brain to make more BDNF itself**.
 
-### 5) Strengthen your social relationships
+### 5. Does BDNF build resilience?
 
-Lonely people have a very high risk of developing Alzheimer's disease (Wilson et al. 2007a), which suggests that <strong>social interaction can delay the onset of disease</strong>.
+In my original post I described resilience as the mindset "failure is the default, success is an option." The book *The Science of Destiny* (p. 265) defines resilience as "the ability to maintain a healthy outlook on life despite experiencing adversity." So is BDNF linked to this strength? Research answers: **"it depends on where."**
 
-Next time, we'll look at the problems that appear when BDNF is weak and the things that get in the way of BDNF release.
+- In the **hippocampus**, many studies show that chronic stress lowers BDNF and antidepressants restore it (Duman & Monteggia, **Biological Psychiatry**, 2006). Hippocampal BDNF sits on the side of coping with stress.
+- In the **reward circuit (the pathway from the ventral tegmental area to the nucleus accumbens)**, by contrast, mice whose BDNF rose after repeated bullying by other mice actually avoided social situations, and blocking BDNF in this circuit made them cope better with stress (Krishnan et al., **Cell**, 2007).
 
-- Next post: [What causes BDNF deficiency, and does brain health improve too?](/en/blog/what-causes-bdnf-deficiency-and-does-brain-health-improve/)
+BDNF isn't a body-wide "good stuff level" that you simply push up. It is **a signal that works where it's needed, in the amount needed**. That was the very sense I had at first, that it is something "to understand properly before handling."
 
+### 6. Summary: what's confirmed and what to be careful about
+
+| Question | What we know so far | Type of evidence |
+| --- | --- | --- |
+| What is BDNF? | A protein that helps nerve cells survive and connect | Purification study (EMBO Journal, 1982) |
+| Is it needed for memory? | Without it, hippocampal LTP weakens | Animal study (PNAS, 1995), human genetic study (Cell, 2003) |
+| Is it linked to appetite? | It helps regulate food intake in the hypothalamus | Animal studies, rare-disease study (NEJM, 2008) |
+| Does exercise raise it? | BDNF released from the brain rose during exercise | Human study (Experimental Physiology, 2009), meta-analysis (2015) |
+| Is more always better? | **Its role differs by brain area, so we can't say so** | Animal study (Cell, 2007) |
+
+## The plan: 3 evidence-based steps to raise BDNF
+
+**Step 1. Start with 40-minute walks, three times a week**
+Of all the ways to raise BDNF, **aerobic exercise** has the most support from human studies. A meta-analysis of 29 studies found that even a single session raised blood BDNF, and the effect was larger in people who exercised regularly (Szuhany et al., **Journal of Psychiatric Research**, 2015). In the study where older adults' hippocampus grew by about 2%, participants walked briskly for 40 minutes three times a week (Erickson et al., **PNAS**, 2011).
+
+**Step 2. Go outside and get some daylight**
+A study analyzing the blood of more than 2,800 Dutch adults found that blood BDNF was higher in spring and summer, lower in autumn and winter, and higher with more hours of sunlight (Molendijk et al., **PLoS ONE**, 2012). Because it shows a correlation, we can't conclude that sunlight directly raises BDNF, but if you take Step 1's walk **outdoors during the day**, you get both.
+
+**Step 3. Stay connected to people**
+Older adults who felt very lonely had about twice the risk of Alzheimer's disease of those who didn't (Wilson et al., **Archives of General Psychiatry**, 2007). This study didn't measure BDNF directly, but it shows how much social contact matters for protecting the brain. Walking with someone is a good way to combine the steps.
+
+| Step | What | How much | Evidence | What the evidence showed |
+| --- | --- | --- | --- | --- |
+| 1. Aerobic exercise | Brisk walking or light running | Start with 40 minutes, three times a week | PNAS (2011), Journal of Psychiatric Research (2015) | The hippocampus grew about 2%, and blood BDNF rose after exercise |
+| 2. Daylight | Go outside during the day | Take your walk outdoors in daylight | PLoS ONE (2012) | More hours of sunlight went with higher blood BDNF |
+| 3. Social connection | Keep in regular touch with family and friends | Make time to walk or talk together | Archives of General Psychiatry (2007) | Greater loneliness went with higher Alzheimer's risk |
+
+## Conclusion
+
+BDNF is a protein that works like **fertilizer** for the garden of the brain. It helps nerve cells survive and connect, it is essential for the long-term potentiation that underlies memory, and it is part of the circuit that controls how much we eat. But the idea that "just raising BDNF will make your brain better" is only half right, because the same BDNF does different things in different brain areas. So rather than chasing a number, a more reliable path is a life built on what research supports, **exercise, daylight, and connection with people**, so that the brain makes as much BDNF as it needs on its own. In the next post, we'll look at [what causes BDNF to run low](/en/blog/what-causes-bdnf-deficiency-and-does-brain-health-improve/) and what gets in the way of its release.
+
+### 🙋 Frequently asked questions
+
+#### Will BDNF supplements raise my BDNF?
+
+BDNF itself is a **protein**, so it is digested when eaten, and even if it reached the blood it could barely cross the **blood-brain barrier** that protects the brain. So products claiming to deliver BDNF to the brain by mouth have no evidence behind them. Some studies suggest certain foods affect BDNF, but most are animal studies or small. The link between food and BDNF is covered, with the strength of the evidence, in [Which foods are rich in BDNF?](/en/blog/which-foods-are-rich-in-bdnf/).
+
+#### Can a blood test for BDNF tell me how my brain is doing?
+
+Not yet. Blood BDNF changes with the seasons and sunlight (Molendijk et al., **PLoS ONE**, 2012), and values also shift a lot depending on how blood is drawn and processed. It's used in research to compare groups, but **it isn't used as a diagnostic test** to judge one person's brain health. How exercise grows the hippocampus is covered in more detail in [the research on exercise and the hippocampus](/en/articles/exercise-hippocampus/).
+
+### 📚 References
+
+- Barde, Y. A., Edgar, D., & Thoenen, H. (1982). Purification of a new neurotrophic factor from mammalian brain. *The EMBO Journal*, 1(5), 549–553.
+- Korte, M., Carroll, P., Wolf, E., Brem, G., Thoenen, H., & Bonhoeffer, T. (1995). Hippocampal long-term potentiation is impaired in mice lacking brain-derived neurotrophic factor. *PNAS*, 92(19), 8856–8860.
+- Egan, M. F., Kojima, M., Callicott, J. H., … Weinberger, D. R. (2003). The BDNF val66met polymorphism affects activity-dependent secretion of BDNF and human memory and hippocampal function. *Cell*, 112(2), 257–269.
+- Pezawas, L., Verchinski, B. A., Mattay, V. S., … Weinberger, D. R. (2004). The brain-derived neurotrophic factor val66met polymorphism and variation in human cortical morphology. *Journal of Neuroscience*, 24(45), 10099–10102.
+- Xu, B., Goulding, E. H., Zang, K., … Reichardt, L. F. (2003). Brain-derived neurotrophic factor regulates energy balance downstream of melanocortin-4 receptor. *Nature Neuroscience*, 6(7), 736–742.
+- Rios, M., Fan, G., Fekete, C., … Jaenisch, R. (2001). Conditional deletion of brain-derived neurotrophic factor in the postnatal brain leads to obesity and hyperactivity. *Molecular Endocrinology*, 15(10), 1748–1757.
+- Han, J. C., Liu, Q. R., Jones, M., … Yanovski, J. A. (2008). Brain-derived neurotrophic factor and obesity in the WAGR syndrome. *New England Journal of Medicine*, 359(9), 918–927.
+- Matthews, V. B., Åström, M. B., Chan, M. H. S., … Febbraio, M. A. (2009). Brain-derived neurotrophic factor is produced by skeletal muscle cells in response to contraction and enhances fat oxidation via activation of AMP-activated protein kinase. *Diabetologia*, 52(7), 1409–1418.
+- Rasmussen, P., Brassard, P., Adser, H., … Pilegaard, H. (2009). Evidence for a release of brain-derived neurotrophic factor from the brain during exercise. *Experimental Physiology*, 94(10), 1062–1069.
+- Duman, R. S., & Monteggia, L. M. (2006). A neurotrophic model for stress-related mood disorders. *Biological Psychiatry*, 59(12), 1116–1127.
+- Krishnan, V., Han, M. H., Graham, D. L., … Nestler, E. J. (2007). Molecular adaptations underlying susceptibility and resistance to social defeat in brain reward regions. *Cell*, 131(2), 391–404.
+- Szuhany, K. L., Bugatti, M., & Otto, M. W. (2015). A meta-analytic review of the effects of exercise on brain-derived neurotrophic factor. *Journal of Psychiatric Research*, 60, 56–64.
+- Erickson, K. I., Voss, M. W., Prakash, R. S., … Kramer, A. F. (2011). Exercise training increases size of hippocampus and improves memory. *PNAS*, 108(7), 3017–3022.
+- Molendijk, M. L., Haffmans, J. P. M., Bus, B. A. A., … Elzinga, B. M. (2012). Serum BDNF concentrations show strong seasonal variation and correlations with the amount of ambient sunlight. *PLoS ONE*, 7(11), e48046.
+- Wilson, R. S., Krueger, K. R., Arnold, S. E., … Bennett, D. A. (2007). Loneliness and risk of Alzheimer disease. *Archives of General Psychiatry*, 64(2), 234–240.
+
+### 💭 A question for you
+
+What did you expect when you first heard about BDNF? And after reading this, what's the one thing you'd like to try first? Whether it's walking or daylight, share your small start through the [contact page](/en/contact/).
+
+### ⚠️ Disclaimer
+
+This post offers general information based on academic research and does not replace medical diagnosis or treatment. Many of the studies introduced here are animal studies or show correlations, so we can't conclude that people will see the same results. If memory problems, changes in appetite, or mood issues are interfering with daily life, please talk to a professional.
