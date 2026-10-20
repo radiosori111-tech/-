@@ -8,7 +8,7 @@ Astro 블로그(ko/en/ja). 글은 `src/content/blog/`(ko), `en/`, `ja/`에 있�
 - 변경 후에는 `npm run build`로 확인하고 commit한다. **push는 글 1편의 작업(글·카드뉴스·비교 팝업)이 모두 끝났을 때 한 번만** 한다. 이 저장소는 Vercel 프로젝트 여러 개에 연결되어 있어 push마다 배포가 여러 번 일어나고, 하루 배포 한도("Deployment rate limited")에 걸리면 jes-lu.com이 24시간 동안 갱신되지 않는다(2026-10-20 실제로 발생). scripts·CLAUDE.md만 바뀐 커밋은 vercel.json의 ignoreCommand로 배포를 건너뛴다. 커밋 끝에 `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`를 붙인다.
 
 ## 진행 중인 일: 참고 문헌 없는 옛 글을 근거로 보강 (AdSense 승인용)
-남은 글은 참고 문헌(`참고 문헌`)이 없는 ko 글이다. 순서: 2023년 글(BDNF-부족하게-되는-원인-뇌건강도-좋아지나 → 인슐린-역할은-영리하게-사용하는-비법은) → 2026년 9~10월 글. (간헐적 단식 글 완료)
+남은 글은 참고 문헌(`참고 문헌`)이 없는 ko 글이다. 순서: 2023년 글(인슐린-역할은-영리하게-사용하는-비법은) → 2026년 9~10월 글. (간헐적 단식·BDNF 부족 원인 글 완료)
 - **push 보류 중**: 2026-10-20 배포 한도에 걸려, 한도가 풀리는 2026-10-21 오후까지 commit만 쌓고 push하지 않는다. 풀리면 한 번에 push한다.
 - 2023년 글: 전면 개정.
 - 2026년 글(이미 김): 틀린 내용 바로잡기 + 참고 문헌 목록 + 한 줄 답 + 제목 점검 위주로 줄여서.
@@ -18,7 +18,7 @@ Astro 블로그(ko/en/ja). 글은 `src/content/blog/`(ko), `en/`, `ja/`에 있�
 1. ko 원글, en/ja 번역, 내부 링크 후보 slug를 읽는다.
 2. 검색 의도를 정한다. 이미 고친 글과 같은 검색어가 겹치지 않게 한다.
 3. ko 글을 다시 쓴다(아래 글쓰기 기준). slug와 date는 유지하고 `updated`를 갱신한다. 4컷 만화(`comic`) 캡션도 새 내용에 맞춘다.
-   - **인터랙티브 위젯(MDX)을 글마다 1개 이상 넣는다**: 확인 퀴즈(`Quiz`)는 기본, 글에 맞으면 직접 해 보는 위젯(예: `WoopPlanner`, `SynapseSlider`, `BrainMap`)을 쓰거나 `src/components/widgets/`에 새로 만든다(Preact, `client:visible`, ko/en/ja 문구). 파일을 `.mdx`로 바꾸고(`git mv`), frontmatter 바로 뒤에 import, `<!-- -->` 대신 `{/* related-link */}`, 본문에 `<`·`{` 글자를 쓰지 않는다. 빌드 뒤 preview 서버에서 위젯을 한 번 눌러 확인한다.
+   - **인터랙티브 위젯(MDX)을 글마다 1개 이상 넣는다**: 확인 퀴즈(`Quiz`)는 기본, 글에 맞으면 직접 해 보는 위젯(예: `WoopPlanner`, `SynapseSlider`, `BrainMap`, `FastingWindow`, 자가 점검표 `CheckList`는 items·tips를 props로 넘겨 어느 글에나 쓸 수 있음)을 쓰거나 `src/components/widgets/`에 새로 만든다(Preact, `client:visible`, ko/en/ja 문구). 파일을 `.mdx`로 바꾸고(`git mv`), frontmatter 바로 뒤에 import, `<!-- -->` 대신 `{/* related-link */}`, 본문에 `<`·`{` 글자를 쓰지 않는다. 빌드 뒤 preview 서버에서 위젯을 한 번 눌러 확인한다.
 4. en, ja 파일을 같은 내용으로 다시 쓴다(위젯 import 경로는 `../../../components/...`).
 5. `node scripts/rewrite/fix-bold.cjs "$PWD/src/content"`를 실행한 뒤 `npm run build`를 하고, 그 글의 내부 링크(`dist/<경로>/index.html` 존재)를 확인한다.
 6. commit (push는 10단계에서 한 번에).

@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · BDNF 부족 원인",
+  "name": "BDNF 부족 원인 카드뉴스",
+  "post": "/blog/BDNF-부족하게-되는-원인-뇌건강도-좋아지나/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · BDNF",
+      "title": "BDNF 부족 원인,\n==피검사==로는\n왜 알기 어려울까?",
+      "size": "md",
+      "sub": "연구가 꼽은 원인 4가지와\n오늘 바꿀 3가지",
+      "heroNumber": "BDNF"
+    },
+    {
+      "type": "statement",
+      "kicker": "뇌의 비료가 줄어든다면",
+      "title": "\"복권만 당첨되면\n회사 그만둔다\"",
+      "sub": "그 말이 입에 붙을 만큼 쌓인 스트레스,\n==뇌에도 흔적을 남깁니다.==",
+      "note": "BDNF는 신경세포가 살아남고 연결되도록 돕는 단백질입니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구가 꼽은 원인",
+      "title": "BDNF를 낮추는\n==네 가지==",
+      "size": "md",
+      "items": [
+        { "title": "만성 스트레스", "text": "쥐의 ==해마 BDNF==가 줄었습니다(동물 실험)." },
+        { "title": "운동 부족 · 나이", "text": "운동은 BDNF를 올렸고, ++나이가 많을수록++ 혈중 BDNF가 낮았습니다." },
+        { "title": "달고 기름진 식사", "text": "쥐의 BDNF와 학습 능력이 !!떨어졌습니다!!(동물 실험)." }
+      ],
+      "source": "Smith et al., J Neurosci (1995) · Erickson et al., J Neurosci (2010) · Molteni et al., Neuroscience (2002)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "피검사보다\n==움직임==",
+      "size": "md",
+      "items": [
+        { "value": "대부분", "label": "혈액 속 BDNF는 혈소판에", "detail": "수치 하나로 뇌를 알기 어렵습니다" },
+        { "value": "2%", "label": "1년 걷기 뒤 해마 크기", "detail": "노인 120명, 주 3회 걷기" }
+      ],
+      "note": "\"당이 세로토닌을 고갈시킨다\"는 말은 근거가 없었습니다.",
+      "source": "Fujimura et al., Thromb Haemost (2002) · Erickson et al., PNAS (2011)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "BDNF를 지키는\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "마음", "title": "스트레스를 쌓아 두지 않기", "text": "나만의 기분 전환을 일정에 넣습니다" },
+        { "time": "몸", "title": "숨이 찰 만큼 주 3회", "text": "말은 되지만 노래는 어려운 정도로 20~30분", "hot": true },
+        { "time": "식사", "title": "단 음료부터 바꾸기", "text": "물이나 무가당 차로 하나씩" }
+      ],
+      "source": "Szuhany et al., J Psychiatr Res (2015) · Mantantzis et al., Neurosci Biobehav Rev (2019)"
+    },
+    {
+      "type": "cta",
+      "kicker": "직접 점검하기",
+      "title": "블로그에서\n==나의 BDNF 생활==을\n점검해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "지칠 때\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "스트레스 많은\n동료에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "자가 점검표와\n참고 문헌 13편" }
+      ]
+    }
+  ]
+}
