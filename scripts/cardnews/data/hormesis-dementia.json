@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 호르메시스와 치매",
+  "name": "호르메시스와 치매 카드뉴스",
+  "post": "/blog/치매-치료-새-경로-뇌-면역세포-GAP-경로-호르메시스/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 호르메시스",
+      "title": "호르메시스,\n==독이 약이 될까?==",
+      "size": "md",
+      "sub": "치매 쥐에선 저농도 독성 물질이\n뇌 청소를 도왔다",
+      "heroNumber": "DOSE"
+    },
+    {
+      "type": "statement",
+      "kicker": "독이 약이 된다는 말",
+      "title": "적당한 자극이\n힘을 끌어낼까?",
+      "sub": "핵심은 ==양==이었습니다.\n많아도, 없애도 안 됐습니다.",
+      "note": "KIST 연구는 쥐 실험이며 기관 발표로만 확인했습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 뇌 청소",
+      "title": "뇌 청소부의\n==세 가지 사실==",
+      "size": "md",
+      "items": [
+        { "title": "미세아교세포", "text": "TREM2 변이로 ==치매 위험 약 3배.==" },
+        { "title": "저농도 퀴놀린산", "text": "쥐에서 ++청소 능력++이 올랐다는 발표." },
+        { "title": "레카네맙", "text": "인지 저하를 !!약 27%!! 늦췄습니다." }
+      ],
+      "source": "Guerreiro et al., NEJM (2013) · KIST (2025) · van Dyck et al., NEJM (2023)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "호르메시스의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "4주", "label": "운동 + 항산화제 실험", "detail": "운동 효과가 덜 나타났습니다" },
+        { "value": "27%", "label": "늦춰진 인지 저하", "detail": "레카네맙 18개월 임상" }
+      ],
+      "note": "고용량 항산화제가 운동의 적응 신호를 지웠습니다.",
+      "source": "Ristow et al., PNAS (2009) · van Dyck et al. (2023)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "뇌에 적당한 자극\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "주 3회", "title": "숨이 찰 만큼 운동", "text": "사람에게서 확인된 자극", "hot": true },
+        { "time": "운동 날", "title": "고용량 항산화제 피하기", "text": "채소·과일은 괜찮습니다" },
+        { "time": "꾸준히", "title": "조금 어려운 새 도전", "text": "악기·외국어·새 운동" }
+      ],
+      "source": "Ristow et al. (2009) · Mattson, Ageing Res Rev (2008)"
+    },
+    {
+      "type": "cta",
+      "kicker": "점검해 보기",
+      "title": "블로그에서\n==적당한 자극 점검표==를\n눌러 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "영양제 고를 때\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "부모님께\n보내 드리기" },
+        { "icon": "link", "title": "프로필 링크", "text": "점검표와\n참고 문헌 6편" }
+      ]
+    }
+  ]
+}
