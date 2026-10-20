@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 초보 러너 무릎 통증",
+  "name": "초보 러너 무릎 통증 카드뉴스",
+  "post": "/blog/뇌-건강에-좋은-러닝-초보-러너-무릎통증-발아치-안-맞는-러닝화가-원인일-수-있어요/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 러닝",
+      "title": "초보 러너 무릎 통증,\n==러닝화==가\n범인일까?",
+      "size": "md",
+      "sub": "발아치에 맞춘 신발,\n연구 결과는 달랐습니다",
+      "heroNumber": "30%"
+    },
+    {
+      "type": "statement",
+      "kicker": "달리기를 시작했는데",
+      "title": "며칠 만에\n무릎이 시큰…",
+      "sub": "러닝 부상에서 가장 흔한 부위는\n==무릎==이었습니다.",
+      "note": "그래서 많은 사람이 발아치에 맞는 러닝화부터 찾습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 러닝 부상",
+      "title": "신발보다\n==거리==",
+      "size": "md",
+      "items": [
+        { "title": "발 모양 맞춤 신발", "text": "훈련병에게 나눠 신겨도 부상률이 ==비슷했습니다.==" },
+        { "title": "회내가 있어도", "text": "초보 러너 927명, 부상 위험이 ++높지 않았습니다.++" },
+        { "title": "거리를 급히 늘리면", "text": "2주 사이 !!30% 넘게!! 늘린 사람이 더 다쳤습니다." }
+      ],
+      "source": "Knapik et al., AJSM (2010) · Nielsen et al., BJSM (2014) · Nielsen et al., JOSPT (2014)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "편하게, ==천천히==",
+      "size": "md",
+      "items": [
+        { "value": "30%", "label": "2주 사이 거리 증가 한계", "detail": "넘기면 일부 부상이 늘었습니다" },
+        { "value": "39%", "label": "번갈아 신으면 낮아진 위험", "detail": "러너 264명 추적" }
+      ],
+      "note": "신발은 아치 유형보다 '가장 편한 것'을 고르세요.",
+      "source": "Nielsen et al., JOSPT (2014) · Malisoux et al., SJMSS (2015) · Nigg et al., BJSM (2015)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "무릎 통증 없이\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "거리", "title": "2주 사이 30% 넘기지 않기", "text": "걷기와 달리기를 섞어 시작합니다" },
+        { "time": "신발", "title": "가장 편한 신발 고르기", "text": "여러 켤레를 신어 보고 번갈아 신습니다", "hot": true },
+        { "time": "통증", "title": "참지 말고 쉬기", "text": "계속되면 진료를 받습니다" }
+      ],
+      "source": "Nielsen et al., JOSPT (2014) · van Gent et al., BJSM (2007)"
+    },
+    {
+      "type": "cta",
+      "kicker": "직접 점검하기",
+      "title": "블로그에서\n==나의 달리기 습관==을\n점검해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "러닝화 사기 전에\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "러닝 시작한\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "자가 점검표와\n참고 문헌 7편" }
+      ]
+    }
+  ]
+}
