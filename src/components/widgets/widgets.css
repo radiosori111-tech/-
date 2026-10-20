@@ -106,6 +106,14 @@
 .widget .quiz-options.quiz-options { margin: 1rem 0 0; padding: 0; }
 .widget .quiz-options.quiz-options li { margin: 0; padding: 0; }
 .widget .check-tips.check-tips ul { margin: 0.375rem 0 0; }
+/* 혈당 곡선 개념도 */
+.gc-figure { margin: 1rem 0 0; aspect-ratio: 480 / 170; }
+.gc-figure svg { aspect-ratio: 480 / 170; }
+.gc-axis { stroke: var(--line-strong); stroke-width: 1.5; }
+.gc-base { fill: none; stroke: var(--muted); stroke-width: 2.5; stroke-dasharray: 6 5; }
+.gc-now { fill: none; stroke: var(--accent); stroke-width: 3.5; stroke-linecap: round; transition: d 300ms ease; }
+.gc-dot-base { background: transparent; border: 2px dashed var(--muted); }
+.widget .gc-tip.gc-tip { margin: 0 0 0.375rem; font-weight: 500; }
 @media (max-width: 640px) {
   .widget { padding: 1.125rem; }
   .bmap { grid-template-columns: minmax(0, 1fr); }

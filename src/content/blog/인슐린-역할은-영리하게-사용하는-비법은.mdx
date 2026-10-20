@@ -1,0 +1,162 @@
+---
+title: "인슐린 역할은? 인슐린을 낮춰도 지방이 덜 빠진 이유"
+slug: "인슐린-역할은-영리하게-사용하는-비법은"
+description: "인슐린은 혈액 속 포도당을 세포 안으로 넣어 혈당을 지키는 호르몬입니다. 그런데 탄수화물을 줄여 인슐린을 낮춘 사람들이 지방을 줄인 사람들보다 체지방이 덜 빠졌습니다(Cell Metabolism, 2015). '인슐린이 살찌게 한다'는 말을 연구로 다시 보고, 식후 혈당 급등을 줄이는 3단계를 직접 그래프로 확인해 봅니다."
+date: "2023-02-09T19:44:19+09:00"
+updated: "2026-10-20T23:50:00+09:00"
+tags: ["인슐린 역할", "인슐린", "혈당 스파이크", "혈당 지수", "식사 순서", "식후 걷기"]
+source: "https://t1-ilu.tistory.com/entry/%EC%9D%B8%EC%8A%90%EB%A6%B0-%EC%97%AD%ED%95%A0%EC%9D%80-%EC%98%81%EB%A6%AC%ED%95%98%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B9%84%EB%B2%95%EC%9D%80"
+comic:
+  title: "인슐린을 영리하게 쓰는 법"
+  panels:
+    - scene: food
+      label: "문제 상황"
+      bubble: "빵만 먹으면 살쪄"
+      alt: "접시에 담긴 고기, 달걀, 채소와 포크, 나이프"
+      caption: "정제 탄수화물을 많이 먹으면 살이 잘 찐다는 말, 들어 보셨죠?"
+    - scene: glucose
+      label: "원리"
+      bubble: "포도당을 세포 안으로"
+      alt: "혈액 한 방울과 혈당 측정기"
+      caption: "<strong>인슐린</strong>은 포도당을 세포에 넣어 혈당을 지키는 호르몬입니다."
+    - scene: food
+      label: "실천"
+      bubble: "밥은 마지막에"
+      alt: "접시에 담긴 고기, 달걀, 채소와 포크, 나이프"
+      caption: "<strong>탄수화물은 마지막에</strong>, 식후에는 <strong>10분 걷기</strong>로 혈당 급등을 줄입니다."
+    - scene: lift
+      label: "변화"
+      bubble: "근육이 포도당을 쓴다"
+      alt: "바벨을 들어 올리는 사람"
+      caption: "<strong>근력 운동</strong>으로 근육을 키우면 인슐린이 더 잘 듣습니다."
+---
+import GlucoseCurve from '../../components/widgets/GlucoseCurve.tsx';
+import Quiz from '../../components/widgets/Quiz.tsx';
+
+## 📌 핵심 요약
+
+> **한 줄 답:** **인슐린의 역할**은 식사 뒤 혈액 속 포도당을 근육·간·지방세포 안으로 넣어 혈당을 일정하게 지키는 것입니다. "인슐린이 살을 찌운다"는 말과 달리, 인슐린을 낮춘 식단이 지방을 더 빼 주지는 않았습니다. 다만 식후 혈당이 급하게 오르내리면 몇 시간 뒤 더 배고프고 더 먹게 되므로, **먹는 순서·식후 걷기·근력 운동**으로 곡선을 완만하게 만드는 것은 도움이 됩니다.
+
+- ⚖️ **인슐린을 낮춰도 지방은 덜 빠졌습니다.** 같은 칼로리를 줄이되 탄수화물을 줄인 기간에는 인슐린이 낮아졌지만, 지방을 줄인 기간보다 **체지방이 덜 빠졌습니다**(**Cell Metabolism**, 2015).
+- 🍞 **혈당이 급하게 오르면 다음이 배고픕니다.** 혈당 지수가 높은 식사 뒤 비만 청소년은 다음 식사에서 **훨씬 더 많이 먹었고**(**Pediatrics**, 1999), 몇 시간 뒤 뇌의 보상·갈망 영역이 더 활발했습니다(**American Journal of Clinical Nutrition**, 2013).
+- 🥗 **밥을 마지막에 먹으면 혈당이 낮아집니다.** 채소와 단백질을 먼저 먹었을 때 식후 혈당과 인슐린이 낮았습니다(**Diabetes Care**, 2015).
+- 🚶 **식후 10분 걷기가 효과적입니다.** 매 끼니 뒤 10분 걷기는 하루 한 번 30분 걷기보다 식후 혈당을 **12% 더 낮췄습니다**(**Diabetologia**, 2016).
+
+### 💬 "빵이랑 밀가루 많이 먹으면 살이 잘 찐대!"
+
+이런 말, 한 번쯤 들어 보셨을 겁니다. 그리고 그 말 끝에는 거의 늘 **인슐린**이 등장합니다. 저도 처음 이 글을 쓸 때 "적을 알고 나를 알면 백 번 싸워도 지지 않는다"는 마음으로 인슐린을 공부했습니다. 그때는 인슐린을 '살을 찌우는 호르몬'으로 보고, 인슐린을 낮게 유지하면 지방이 탄다고 썼습니다.
+
+이번에 원 논문들을 다시 찾아보니, 인슐린을 낮추는 것만으로 지방이 더 빠지지는 않는다는 실험 결과가 있었습니다. 또 "아침 공복에는 인슐린 민감도가 떨어져 있다"고 쓴 부분은 연구와 반대였습니다. 아래에서 하나씩 바로잡겠습니다.
+
+## Deep Dive: 인슐린은 몸에서 무슨 일을 할까
+
+### 1. 인슐린은 정확히 무슨 일을 할까?
+
+**인슐린**은 췌장의 **베타세포**에서 나오는 호르몬입니다. 식사 뒤 혈당이 오르면 인슐린이 나와 혈액 속 포도당을 세포 안으로 들여보내고, 남는 포도당은 간과 근육에 **글리코겐**으로, 일부는 지방으로 저장하게 합니다. 처음 글의 비유처럼, 차려 놓은 음식이 방 안에 냄새만 풍기지 않도록 식탁에서 각자의 그릇으로 옮겨 담아 주는 역할입니다.
+
+인슐린이 포도당을 가장 많이 보내는 곳은 **근육**입니다. 인슐린이 작용할 때 혈액에서 빠져나가는 포도당의 약 80%를 골격근이 받아들입니다(DeFronzo & Tripathy, **Diabetes Care**, 2009). 그래서 근육이 인슐린에 잘 반응하지 않는 **인슐린 저항성**이 생기면 혈당을 낮추기 위해 더 많은 인슐린이 필요해집니다.
+
+인슐린은 혈당만 다루지 않습니다. 하루 종일 조금씩 나오는 **기저 인슐린**은 공복에 간이 포도당을 너무 많이 내보내지 않게 막고, 식사 때 빠르게 나오는 **식후 인슐린**은 올라간 혈당을 낮춥니다. 또 인슐린은 칼륨을 세포 안으로 옮기는 역할도 해서, 처음 글의 소제목처럼 전해질 조절에도 관여합니다.
+
+### 2. 인슐린을 낮추면 정말 살이 빠질까?
+
+"인슐린이 지방을 저장하게 하니, 탄수화물을 줄여 인슐린을 낮추면 지방이 빠진다"는 주장을 미국 국립보건원(NIH) 케빈 홀 연구팀이 직접 시험했습니다(Hall 외, **Cell Metabolism**, 2015). 비만한 성인 19명이 연구 병동에 머물며, 한 번은 탄수화물만, 한 번은 지방만 줄여 <strong>똑같이 하루 칼로리의 30%</strong>를 줄였습니다.
+
+- 탄수화물을 줄인 기간에는 예상대로 **인슐린이 낮아지고** 몸이 지방을 더 태웠습니다.
+- 그런데 실제로 빠진 체지방은 지방을 줄인 기간이 하루 약 89g으로, 탄수화물을 줄인 기간(약 53g)보다 **더 많았습니다**.
+
+1년짜리 실험에서도 비슷했습니다. 609명을 건강한 저지방 식단과 저탄수화물 식단으로 나눴더니 1년 뒤 감량은 차이가 없었고, 처음에 인슐린 분비가 많던 사람이라고 저탄수화물에서 더 빠지지도 않았습니다(Gardner 외, **JAMA**, 2018).
+
+> 처음 글에서는 "낮게 유지된 인슐린 수치가 지방을 연소하는 데 도움을 준다"고 썼습니다. 인슐린이 낮으면 지방을 꺼내 쓰기 쉬워지는 것은 맞지만, 위 실험들에서 그것이 더 많은 체지방 감소로 이어지지는 않았습니다. 그래서 "인슐린만 낮추면 살이 빠진다"는 표현은 고쳤습니다.
+
+<Quiz client:visible lang="ko" question="같은 칼로리를 줄이되 탄수화물만 줄인 기간과 지방만 줄인 기간, 체지방은 어느 쪽에서 더 빠졌을까요?" options={["인슐린이 낮아진 탄수화물 제한 기간","지방 제한 기간","두 기간이 똑같았다"]} answer={1} explain="탄수화물을 줄이자 인슐린은 낮아졌지만, 실제 체지방 감소는 지방을 줄인 기간이 더 컸습니다(Hall 외, Cell Metabolism, 2015). 인슐린을 낮추는 것만으로 지방이 더 빠지지는 않았습니다." />
+
+### 3. 그렇다면 혈당 지수는 상관없을까?
+
+그렇지는 않습니다. 혈당 지수(GI)는 **배고픔**과 관련이 있었습니다.
+
+- 미국 보스턴 아동병원 데이비드 루드윅 연구팀은 비만 청소년 12명에게 칼로리가 같은 아침과 점심을 혈당 지수만 다르게 주었습니다(Ludwig 외, **Pediatrics**, 1999). 혈당 지수가 높은 식사 뒤에는 혈당이 빨리 올랐다가 빨리 떨어졌고, 이후 자유롭게 먹게 하자 낮은 식사 뒤보다 **81% 더 많이** 먹었습니다.
+- 같은 연구팀은 칼로리와 맛이 같은 밀크셰이크를 혈당 지수만 다르게 만들어 남성 12명에게 주었습니다(Lennerz 외, **American Journal of Clinical Nutrition**, 2013). 혈당 지수가 높은 쪽을 마신 4시간 뒤 혈당은 더 낮았고, 배고픔이 더 컸으며, 보상과 갈망을 맡는 뇌의 **측좌핵**이 더 활발했습니다.
+
+처음 글에서 "혈당이 급하게 내려가면 배가 고프지 않은데도 배고프다고 느끼는 가짜 식욕이 생긴다"고 쓴 내용은 이 연구들과 방향이 맞습니다. 다만 이런 효과는 실험실에서 한두 끼를 비교한 결과이고, 장기 체중에 미치는 영향은 위의 실험들처럼 크지 않을 수 있습니다.
+
+{/* related-link */}
+혈당이 정상 범위여도 인슐린이 제 역할을 못 하고 있다는 신호가 있을 수 있습니다. [**인슐린 저항성 자가체크 신호**](/blog/혈당-정상인데도-뇌는-늙는다…인슐린-저항성-자가체크-신호/)를 이어서 읽어 보세요.
+
+### 4. 아침 공복에 탄수화물을 먹으면 혈당이 더 오를까?
+
+처음 글에서는 "자고 일어난 직후는 인슐린 민감도가 떨어져 있어, 아침 공복에 빵을 먹으면 혈당 스파이크가 생기기 쉽다"고 썼습니다. 연구를 찾아보니 이 부분은 반대였습니다. 건강한 사람은 같은 음식을 먹어도 **아침보다 저녁에 혈당이 더 많이 오르고**, 인슐린에 대한 반응도 저녁에 떨어집니다. 몸의 생체 시계와 수면이 혈당 조절에 영향을 주기 때문입니다(Van Cauter 외, **Endocrine Reviews**, 1997).
+
+그러니 아침 빵을 두려워하기보다, **늦은 밤 정제 탄수화물 위주의 큰 식사**를 줄이는 편이 근거에 더 가깝습니다. 아침을 달걀과 채소로 먹는 것은 여전히 좋은 선택이지만, 그 이유는 '아침이라서'가 아니라 단백질과 채소가 포만감을 주기 때문입니다.
+
+### 5. 간식을 자주 먹으면 인슐린에 나쁠까?
+
+네덜란드 암스테르담대 연구팀은 마른 남성 36명에게 6주 동안 평소보다 칼로리를 더 먹게 하면서, 그 칼로리를 **끼니 양을 늘려** 먹는 그룹과 **끼니 사이 간식으로** 먹는 그룹으로 나눴습니다(Koopman 외, **Hepatology**, 2014). 같은 칼로리를 더 먹었는데도 간식 그룹에서만 간의 지방이 늘었습니다. 하루 종일 조금씩 먹는 습관이 대사에 부담이 될 수 있다는 결과입니다. 식사 시간을 정해 간식을 줄이는 방법은 [간헐적 단식 효과](/blog/간헐적-단식-설-명절-확찐자들을-위한-비법/)에서 정리했습니다.
+
+### 6. 정리: 확인된 것과 고친 것
+
+| 처음 글의 주장 | 연구로 본 답 | 근거의 종류 |
+| --- | --- | --- |
+| 인슐린은 포도당을 세포에 넣어 혈당을 조절합니다 | 맞습니다. 그중 약 80%를 근육이 받아들입니다 | 생리학 연구 (2009) |
+| 인슐린을 낮게 유지하면 지방이 탑니다 | 인슐린은 낮아졌지만 체지방은 오히려 덜 빠졌습니다 | 연구 병동 실험 (Cell Metab 2015), 무작위 시험 (JAMA 2018) |
+| 혈당이 급히 떨어지면 가짜 식욕이 생깁니다 | 다음 식사량과 뇌의 갈망 반응이 늘었습니다 | 교차 실험 (1999, 2013) |
+| 아침 공복에는 인슐린 민감도가 떨어져 있습니다 | 반대입니다. 저녁에 혈당이 더 오릅니다 | 리뷰 (Endocr Rev 1997) |
+| 잦은 간식은 대사에 나쁩니다 | 같은 칼로리라도 간식으로 먹으면 간 지방이 늘었습니다 | 무작위 시험 (Hepatology 2014) |
+
+## 해결책: 혈당 곡선을 완만하게 만드는 3단계
+
+먼저 아래에서 식사 방법을 하나씩 켜 보며 곡선이 어떻게 바뀌는지 확인해 보세요.
+
+<GlucoseCurve client:visible lang="ko" />
+
+**1단계. 먹는 순서: 채소·단백질 먼저, 탄수화물은 마지막**
+같은 음식이라도 순서가 중요합니다. 제2형 당뇨 환자에게 같은 식사를 순서만 바꿔 주었더니, 채소와 단백질을 먼저 먹었을 때 식후 혈당이 낮았고(Shukla 외, **Diabetes Care**, 2015), 탄수화물을 마지막에 먹는 방식은 인슐린 분비도 줄였습니다(Shukla 외, **BMJ Open Diabetes Research & Care**, 2017). 흰빵과 흰쌀 대신 통곡물이나 현미를 고르면 더 완만해집니다.
+
+**2단계. 식후 10분 걷기**
+식사 뒤 바로 앉거나 눕지 말고 10분만 걸어 보세요. 뉴질랜드 오타고대 연구팀이 제2형 당뇨 환자 41명을 조사한 결과, 매 끼니 뒤 10분 걷기는 하루 한 번 30분 걷기보다 식후 혈당을 12% 더 낮췄고 특히 저녁 식사 뒤 효과가 컸습니다(Reynolds 외, **Diabetologia**, 2016). 오래 앉아 있는 시간을 가벼운 걷기로 끊는 것만으로도 식후 혈당과 인슐린이 낮아졌습니다(Buffey 외, **Sports Medicine**, 2022).
+
+**3단계. 근력 운동으로 '포도당 창고' 키우기**
+인슐린이 보내는 포도당의 대부분을 받는 곳이 근육이므로, 근육을 키우면 같은 인슐린으로 혈당을 더 잘 낮출 수 있습니다. 미국당뇨병학회는 일주일에 2~3번 근력 운동을 권합니다(Colberg 외, **Diabetes Care**, 2016). 처음 글에서 '하체 위주'를 권했는데, 하체가 큰 근육이라 시작하기 좋은 것은 맞지만 하체만 특별하다는 근거는 찾지 못했습니다. 스쿼트로 시작해 팔과 등 운동도 함께하세요.
+
+| 단계 | 무엇을 | 얼마나 | 근거 | 근거가 보여 준 것 |
+| --- | --- | --- | --- | --- |
+| 1. 순서 | 채소·단백질을 먼저, 탄수화물은 마지막에 먹습니다 | 매 끼니 | Diabetes Care (2015), BMJ Open DRC (2017) | 식후 혈당과 인슐린이 낮아졌습니다 |
+| 2. 걷기 | 식사 뒤 바로 걷습니다 | 매 끼니 뒤 10분 | Diabetologia (2016), Sports Med (2022) | 하루 한 번 30분보다 식후 혈당이 12% 낮았습니다 |
+| 3. 근육 | 스쿼트부터 전신 근력 운동을 합니다 | 주 2~3회 | Diabetes Care (2009, 2016) | 근육이 인슐린이 보내는 포도당의 대부분을 받습니다 |
+
+## 결론
+
+인슐린은 적이 아니라 혈당을 지키는 꼭 필요한 호르몬입니다. 인슐린을 낮추기만 하면 살이 빠진다는 생각은 실험에서 확인되지 않았고, 결국 체중은 전체 섭취량이 좌우했습니다. 대신 혈당이 급하게 오르내리지 않게 하면 다음 끼니의 배고픔과 과식을 줄일 수 있습니다. 오늘 저녁에는 밥을 마지막에 먹고, 식사 뒤 10분만 걸어 보세요.
+
+### 🙋 자주 묻는 질문
+
+#### 혈당 스파이크가 생겼는지 집에서 알 수 있나요?
+
+손끝 채혈 **혈당 측정기**로 식사 직전과 식후 1시간, 2시간에 재 보면 내 몸이 어떤 음식에 크게 반응하는지 알 수 있습니다. 측정 방법과 주의할 점은 [혈당 체크기로 집에서 재는 법](/blog/피-한-방울로-뇌-건강-신호까지-보인다는-혈당-체크기-집에서-재는-법-총정리/)에 정리했습니다.
+
+#### 과일도 피해야 하나요?
+
+과일 속 과당은 혈당을 덜 올리고, 통과일에는 식이섬유가 있어 흡수가 느립니다. 다만 **과일 주스**는 식이섬유가 빠져 빨리 흡수되므로 통과일로 드시는 편이 좋습니다. 단 음료와 가공식품이 뇌에 미치는 영향은 [BDNF 부족 원인](/blog/BDNF-부족하게-되는-원인-뇌건강도-좋아지나/)에서 함께 다뤘습니다.
+
+### 📚 참고 문헌
+
+- DeFronzo, R. A., & Tripathy, D. (2009). Skeletal muscle insulin resistance is the primary defect in type 2 diabetes. *Diabetes Care*, 32(Suppl 2), S157–S163.
+- Hall, K. D., Bemis, T., Brychta, R., … Yannai, L. (2015). Calorie for calorie, dietary fat restriction results in more body fat loss than carbohydrate restriction in people with obesity. *Cell Metabolism*, 22(3), 427–436.
+- Gardner, C. D., Trepanowski, J. F., Del Gobbo, L. C., … King, A. C. (2018). Effect of low-fat vs low-carbohydrate diet on 12-month weight loss in overweight adults and the association with genotype pattern or insulin secretion: the DIETFITS randomized clinical trial. *JAMA*, 319(7), 667–679.
+- Ludwig, D. S., Majzoub, J. A., Al-Zahrani, A., … Roberts, S. B. (1999). High glycemic index foods, overeating, and obesity. *Pediatrics*, 103(3), e26.
+- Lennerz, B. S., Alsop, D. C., Holsen, L. M., … Ludwig, D. S. (2013). Effects of dietary glycemic index on brain regions related to reward and craving in men. *American Journal of Clinical Nutrition*, 98(3), 641–647.
+- Van Cauter, E., Polonsky, K. S., & Scheen, A. J. (1997). Roles of circadian rhythmicity and sleep in human glucose regulation. *Endocrine Reviews*, 18(5), 716–738.
+- Koopman, K. E., Caan, M. W. A., Nederveen, A. J., … Serlie, M. J. (2014). Hypercaloric diets with increased meal frequency, but not meal size, increase intrahepatic triglycerides: a randomized controlled trial. *Hepatology*, 60(2), 545–553.
+- Shukla, A. P., Iliescu, R. G., Thomas, C. E., & Aronne, L. J. (2015). Food order has a significant impact on postprandial glucose and insulin levels. *Diabetes Care*, 38(7), e98–e99.
+- Shukla, A. P., Andono, J., Touhamy, S. H., … Aronne, L. J. (2017). Carbohydrate-last meal pattern lowers postprandial glucose and insulin excursions in type 2 diabetes. *BMJ Open Diabetes Research & Care*, 5(1), e000440.
+- Reynolds, A. N., Mann, J. I., Williams, S., & Venn, B. J. (2016). Advice to walk after meals is more effective for lowering postprandial glycaemia in type 2 diabetes mellitus than advice that does not specify timing: a randomised crossover study. *Diabetologia*, 59(12), 2572–2578.
+- Buffey, A. J., Herring, M. P., Langley, C. K., Donnelly, A. E., & Carson, B. P. (2022). The acute effects of interrupting prolonged sitting time in adults with standing and light-intensity walking on biomarkers of cardiometabolic health: a systematic review and meta-analysis. *Sports Medicine*, 52(8), 1765–1787.
+- Colberg, S. R., Sigal, R. J., Yardley, J. E., … Tate, D. F. (2016). Physical activity/exercise and diabetes: a position statement of the American Diabetes Association. *Diabetes Care*, 39(11), 2065–2079.
+
+### 💭 당신에게 묻고 싶은 것
+
+식사 뒤 유난히 졸리거나, 두세 시간 만에 다시 배가 고팠던 메뉴가 있나요? 그 메뉴에서 순서나 재료를 어떻게 바꿔 보고 싶은지 [문의 페이지](/contact/)로 들려주세요.
+
+### ⚠️ 면책 조항
+
+이 글은 학술 연구를 바탕으로 한 일반적인 정보이며, 의학적 진단이나 치료를 대신하지 않습니다. 소개한 연구의 효과는 평균적인 결과로 사람마다 다를 수 있습니다. 당뇨병이 있거나 인슐린·혈당 강하제를 쓰고 계신다면 식사와 운동을 바꾸기 전에 의사와 상의해 주세요.

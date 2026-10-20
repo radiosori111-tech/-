@@ -1,0 +1,163 @@
+---
+title: "What does insulin do? Why lowering it didn't burn more fat"
+slug: "what-does-insulin-do-and-how-to-use-it-wisely"
+lang: "en"
+translationOf: "인슐린-역할은-영리하게-사용하는-비법은"
+description: "Insulin is the hormone that moves glucose from the blood into cells to keep blood sugar steady. Yet people who lowered their insulin by cutting carbs lost less body fat than when they cut fat (Cell Metabolism, 2015). This post revisits the idea that insulin makes you fat and lets you see, on a graph, three steps that soften post-meal blood sugar spikes."
+date: "2023-02-09T19:44:19+09:00"
+updated: "2026-10-20T23:50:00+09:00"
+tags: ["what insulin does", "insulin", "blood sugar spike", "glycemic index", "food order", "walking after meals"]
+comic:
+  title: "How to use insulin wisely"
+  panels:
+    - scene: food
+      label: "The problem"
+      bubble: "Bread makes me gain"
+      alt: "A plate with meat, an egg, and greens, with a fork and knife"
+      caption: "You've probably heard that eating lots of refined carbs makes you gain weight."
+    - scene: glucose
+      label: "How it works"
+      bubble: "Glucose into cells"
+      alt: "A drop of blood and a glucose meter"
+      caption: "<strong>Insulin</strong> is the hormone that moves glucose into cells to keep blood sugar steady."
+    - scene: food
+      label: "What to do"
+      bubble: "Carbs last"
+      alt: "A plate with meat, an egg, and greens, with a fork and knife"
+      caption: "Eat <strong>carbs last</strong>, then take a <strong>10-minute walk</strong> after meals to soften spikes."
+    - scene: lift
+      label: "The change"
+      bubble: "Muscle uses the glucose"
+      alt: "A person lifting a barbell"
+      caption: "Building muscle with <strong>strength training</strong> helps insulin work better."
+---
+import GlucoseCurve from '../../../components/widgets/GlucoseCurve.tsx';
+import Quiz from '../../../components/widgets/Quiz.tsx';
+
+## 📌 Key takeaways
+
+> **The short answer:** **Insulin's job** is to move glucose from the blood into muscle, liver, and fat cells after a meal, keeping blood sugar steady. Contrary to the idea that "insulin makes you fat," diets that lowered insulin didn't burn more fat. But when blood sugar shoots up and crashes after a meal, people get hungrier and eat more a few hours later, so softening the curve with **food order, a walk after eating, and strength training** does help.
+
+- ⚖️ **Lowering insulin didn't burn more fat.** With the same calorie cut, insulin fell when carbs were cut, but **less body fat was lost** than when fat was cut (**Cell Metabolism**, 2015).
+- 🍞 **A fast sugar rise means more hunger later.** After a high-glycemic-index meal, teenagers with obesity **ate much more** at the next meal (**Pediatrics**, 1999), and hours later the brain's reward and craving region was more active (**American Journal of Clinical Nutrition**, 2013).
+- 🥗 **Eating carbs last lowers blood sugar.** Eating vegetables and protein first lowered post-meal blood sugar and insulin (**Diabetes Care**, 2015).
+- 🚶 **A 10-minute walk after meals works.** Walking for 10 minutes after each meal lowered post-meal blood sugar **12% more** than one 30-minute walk a day (**Diabetologia**, 2016).
+
+### 💬 "Eat a lot of bread and flour and you'll gain weight!"
+
+You've probably heard this at least once, and **insulin** almost always comes up right after. When I first wrote this post, I studied insulin in the spirit of "know your enemy and know yourself, and you'll never lose a battle." Back then I saw insulin as "the hormone that makes you fat" and wrote that keeping it low burns fat.
+
+Going back to the original papers this time, I found experiments showing that lowering insulin alone doesn't burn more fat. And what I wrote about insulin sensitivity being low on an empty stomach in the morning turned out to be the opposite of the research. I'll correct these one by one below.
+
+## Deep Dive: what does insulin do in the body?
+
+### 1. What exactly does insulin do?
+
+**Insulin** is a hormone made by the **beta cells** of the pancreas. When blood sugar rises after a meal, insulin is released and moves glucose from the blood into cells, storing the extra as **glycogen** in the liver and muscles and some as fat. As in my original analogy, it's like moving a meal from the table into everyone's bowls so it doesn't just sit there filling the room with its smell.
+
+The place insulin sends the most glucose is **muscle**. When insulin is acting, skeletal muscle takes up about 80% of the glucose leaving the blood (DeFronzo & Tripathy, **Diabetes Care**, 2009). So when muscle stops responding well to insulin, a state called **insulin resistance**, more insulin is needed to bring blood sugar down.
+
+Insulin doesn't only handle blood sugar. **Basal insulin**, released in small amounts all day, keeps the liver from releasing too much glucose while you fast, and **mealtime insulin**, released quickly when you eat, brings the rise back down. Insulin also moves potassium into cells, so, as one of my original subheadings said, it plays a part in electrolyte balance too.
+
+### 2. Does lowering insulin really make you lose weight?
+
+The claim that "insulin makes the body store fat, so cutting carbs to lower insulin burns fat" was tested directly by Kevin Hall's team at the US National Institutes of Health (Hall et al., **Cell Metabolism**, 2015). Nineteen adults with obesity stayed on a research ward and cut **the same 30% of their daily calories**, once by cutting only carbs and once by cutting only fat.
+
+- When carbs were cut, **insulin fell** as expected and the body burned more fat.
+- But the body fat actually lost was about 89 g a day when fat was cut, **more than** the roughly 53 g a day when carbs were cut.
+
+A year-long trial found something similar. When 609 people were split between a healthy low-fat diet and a healthy low-carb diet, weight loss after a year didn't differ, and people who secreted more insulin at the start didn't lose more on low-carb (Gardner et al., **JAMA**, 2018).
+
+> In my original post I wrote that "keeping insulin low helps burn fat." It's true that low insulin makes it easier to draw on stored fat, but in the experiments above that didn't add up to more body fat lost. So I corrected the claim that "just lowering insulin makes you lose weight."
+
+<Quiz client:visible lang="en" question="With the same calorie cut, which period led to more body fat loss: cutting only carbs, or cutting only fat?" options={["The carb-cutting period, when insulin fell","The fat-cutting period","Both were exactly the same"]} answer={1} explain="Cutting carbs lowered insulin, but more body fat was actually lost when fat was cut (Hall et al., Cell Metabolism, 2015). Lowering insulin alone didn't burn more fat." />
+
+### 3. So does the glycemic index not matter?
+
+It does, though. The glycemic index (GI) was linked to **hunger**.
+
+- David Ludwig's team at Boston Children's Hospital gave 12 teenagers with obesity a breakfast and lunch with the same calories but different glycemic indexes (Ludwig et al., **Pediatrics**, 1999). After the high-GI meals, blood sugar rose fast and fell fast, and when they could then eat freely, they ate **81% more** than after the low-GI meals.
+- The same team made milkshakes with identical calories and taste but different glycemic indexes and gave them to 12 men (Lennerz et al., **American Journal of Clinical Nutrition**, 2013). Four hours after the high-GI shake, blood sugar was lower, hunger was greater, and the brain's **nucleus accumbens**, which handles reward and craving, was more active.
+
+What I wrote originally, that "when blood sugar drops fast, you feel a false hunger even when you're not really hungry," fits these studies. But these effects come from lab comparisons of one or two meals, and the impact on long-term weight may be smaller, as the trials above suggest.
+
+{/* related-link */}
+Even when blood sugar is in the normal range, there can be signs that insulin isn't doing its job well. Read [**self-check signs of insulin resistance**](/en/blog/normal-blood-sugar-but-an-aging-brain-insulin-resistance-self-check/) next.
+
+### 4. Do carbs on an empty stomach in the morning spike blood sugar more?
+
+In my original post I wrote that "right after waking, insulin sensitivity is low, so eating bread on an empty stomach in the morning easily causes a blood sugar spike." Looking into the research, this was backwards. In healthy people, the same food **raises blood sugar more in the evening than in the morning**, and the response to insulin also drops in the evening, because the body clock and sleep affect blood sugar control (Van Cauter et al., **Endocrine Reviews**, 1997).
+
+So rather than fearing morning bread, cutting back on **big, refined-carb meals late at night** is closer to the evidence. Eggs and vegetables for breakfast are still a good choice, but because protein and vegetables are filling, not because it's morning.
+
+### 5. Is frequent snacking bad for insulin?
+
+A team at the University of Amsterdam had 36 lean men eat extra calories for six weeks, with one group getting them by **eating bigger meals** and another by **snacking between meals** (Koopman et al., **Hepatology**, 2014). Although both ate the same extra calories, liver fat rose only in the snacking groups. It suggests that nibbling all day can strain your metabolism. I covered setting meal times to cut snacking in [intermittent fasting results](/en/blog/intermittent-fasting-a-secret-for-those-who-gained-weight-over-the-holidays/).
+
+### 6. Summary: what held up and what I corrected
+
+| Claim in my original post | What research shows | Type of evidence |
+| --- | --- | --- |
+| Insulin moves glucose into cells to control blood sugar | True. Muscle takes up about 80% of it | Physiology research (2009) |
+| Keeping insulin low burns fat | Insulin fell, but less body fat was lost | Research ward study (Cell Metab 2015), randomized trial (JAMA 2018) |
+| A fast drop in blood sugar causes false hunger | The next meal and the brain's craving response both increased | Crossover studies (1999, 2013) |
+| Insulin sensitivity is low on an empty stomach in the morning | The opposite. Blood sugar rises more in the evening | Review (Endocr Rev 1997) |
+| Frequent snacking is bad for metabolism | Even at the same calories, snacking raised liver fat | Randomized trial (Hepatology 2014) |
+
+## The fix: three steps to soften the blood sugar curve
+
+First, turn on each eating habit below and see how the curve changes.
+
+<GlucoseCurve client:visible lang="en" />
+
+**Step 1. Food order: vegetables and protein first, carbs last**
+Even with the same food, order matters. When people with type 2 diabetes ate the same meal in a different order, eating vegetables and protein first lowered post-meal blood sugar (Shukla et al., **Diabetes Care**, 2015), and eating carbs last also reduced insulin release (Shukla et al., **BMJ Open Diabetes Research & Care**, 2017). Choosing whole grains or brown rice over white bread and white rice flattens the curve further.
+
+**Step 2. A 10-minute walk after meals**
+Instead of sitting or lying down right after eating, walk for just 10 minutes. A University of Otago team in New Zealand studied 41 people with type 2 diabetes and found that walking 10 minutes after each meal lowered post-meal blood sugar 12% more than one 30-minute walk a day, with the biggest effect after dinner (Reynolds et al., **Diabetologia**, 2016). Simply breaking up long sitting with light walking also lowered post-meal blood sugar and insulin (Buffey et al., **Sports Medicine**, 2022).
+
+**Step 3. Build your "glucose storage" with strength training**
+Since muscle receives most of the glucose insulin sends, building muscle lets the same insulin lower blood sugar more effectively. The American Diabetes Association recommends strength training two to three times a week (Colberg et al., **Diabetes Care**, 2016). In my original post I recommended focusing on the lower body. Leg muscles are large and a good place to start, but I found no evidence that they're special, so begin with squats and add arm and back exercises too.
+
+| Step | What | How much | Evidence | What the evidence showed |
+| --- | --- | --- | --- | --- |
+| 1. Order | Eat vegetables and protein first, carbs last | Every meal | Diabetes Care (2015), BMJ Open DRC (2017) | Post-meal blood sugar and insulin were lower |
+| 2. Walking | Walk right after eating | 10 minutes after every meal | Diabetologia (2016), Sports Med (2022) | Post-meal blood sugar was 12% lower than with one 30-minute walk |
+| 3. Muscle | Full-body strength training, starting with squats | 2 to 3 times a week | Diabetes Care (2009, 2016) | Muscle takes up most of the glucose insulin sends |
+
+## Conclusion
+
+Insulin isn't the enemy; it's an essential hormone that protects your blood sugar. The idea that lowering insulin alone makes you lose weight didn't hold up in experiments, and in the end, total intake decided body weight. What you can do is keep blood sugar from spiking and crashing, which cuts hunger and overeating at the next meal. Tonight, try eating your rice last and walking for 10 minutes after dinner.
+
+### 🙋 Frequently asked questions
+
+#### Can I tell at home whether I'm getting blood sugar spikes?
+
+With a fingertip **glucose meter**, measuring right before a meal and one and two hours after shows which foods your body reacts to most. I covered how to measure and what to watch for in [how to use a glucose meter at home](/en/blog/glucose-meter-at-home-brain-health-signals-from-one-drop-of-blood/).
+
+#### Should I avoid fruit too?
+
+The fructose in fruit raises blood sugar less, and whole fruit has fiber that slows absorption. **Fruit juice**, though, has the fiber stripped out and is absorbed quickly, so whole fruit is the better choice. I also covered how sugary drinks and processed food affect the brain in [causes of low BDNF](/en/blog/what-causes-bdnf-deficiency-and-does-brain-health-improve/).
+
+### 📚 References
+
+- DeFronzo, R. A., & Tripathy, D. (2009). Skeletal muscle insulin resistance is the primary defect in type 2 diabetes. *Diabetes Care*, 32(Suppl 2), S157–S163.
+- Hall, K. D., Bemis, T., Brychta, R., … Yannai, L. (2015). Calorie for calorie, dietary fat restriction results in more body fat loss than carbohydrate restriction in people with obesity. *Cell Metabolism*, 22(3), 427–436.
+- Gardner, C. D., Trepanowski, J. F., Del Gobbo, L. C., … King, A. C. (2018). Effect of low-fat vs low-carbohydrate diet on 12-month weight loss in overweight adults and the association with genotype pattern or insulin secretion: the DIETFITS randomized clinical trial. *JAMA*, 319(7), 667–679.
+- Ludwig, D. S., Majzoub, J. A., Al-Zahrani, A., … Roberts, S. B. (1999). High glycemic index foods, overeating, and obesity. *Pediatrics*, 103(3), e26.
+- Lennerz, B. S., Alsop, D. C., Holsen, L. M., … Ludwig, D. S. (2013). Effects of dietary glycemic index on brain regions related to reward and craving in men. *American Journal of Clinical Nutrition*, 98(3), 641–647.
+- Van Cauter, E., Polonsky, K. S., & Scheen, A. J. (1997). Roles of circadian rhythmicity and sleep in human glucose regulation. *Endocrine Reviews*, 18(5), 716–738.
+- Koopman, K. E., Caan, M. W. A., Nederveen, A. J., … Serlie, M. J. (2014). Hypercaloric diets with increased meal frequency, but not meal size, increase intrahepatic triglycerides: a randomized controlled trial. *Hepatology*, 60(2), 545–553.
+- Shukla, A. P., Iliescu, R. G., Thomas, C. E., & Aronne, L. J. (2015). Food order has a significant impact on postprandial glucose and insulin levels. *Diabetes Care*, 38(7), e98–e99.
+- Shukla, A. P., Andono, J., Touhamy, S. H., … Aronne, L. J. (2017). Carbohydrate-last meal pattern lowers postprandial glucose and insulin excursions in type 2 diabetes. *BMJ Open Diabetes Research & Care*, 5(1), e000440.
+- Reynolds, A. N., Mann, J. I., Williams, S., & Venn, B. J. (2016). Advice to walk after meals is more effective for lowering postprandial glycaemia in type 2 diabetes mellitus than advice that does not specify timing: a randomised crossover study. *Diabetologia*, 59(12), 2572–2578.
+- Buffey, A. J., Herring, M. P., Langley, C. K., Donnelly, A. E., & Carson, B. P. (2022). The acute effects of interrupting prolonged sitting time in adults with standing and light-intensity walking on biomarkers of cardiometabolic health: a systematic review and meta-analysis. *Sports Medicine*, 52(8), 1765–1787.
+- Colberg, S. R., Sigal, R. J., Yardley, J. E., … Tate, D. F. (2016). Physical activity/exercise and diabetes: a position statement of the American Diabetes Association. *Diabetes Care*, 39(11), 2065–2079.
+
+### 💭 A question for you
+
+Is there a meal that leaves you especially sleepy, or hungry again two or three hours later? Tell me through the [contact page](/en/contact/) how you'd like to change its order or ingredients.
+
+### ⚠️ Disclaimer
+
+This post offers general information based on academic research and does not replace medical diagnosis or treatment. The effects described are average results and may differ from person to person. If you have diabetes or use insulin or blood sugar–lowering medication, please consult your doctor before changing how you eat or exercise.
