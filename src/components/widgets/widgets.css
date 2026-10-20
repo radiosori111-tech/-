@@ -157,6 +157,10 @@
 .widget .rs-list li.is-done { color: var(--muted); }
 .widget .rs-list li.is-done .rs-num { background: var(--accent-soft); color: var(--accent-strong); }
 .widget .check-tips .rs-how { margin: 0.375rem 0 0.75rem; font-size: var(--text-sm); }
+/* 감정 이름 붙이기 */
+.widget .ni-line.ni-line { margin: 0; }
+.widget .ni-line.ni-line + .ni-line { margin-top: 0.375rem; }
+.widget[data-widget="nameit"] .rs-progress { margin: 1rem 0 0; }
 @media (max-width: 640px) {
   .widget { padding: 1.125rem; }
   .bmap { grid-template-columns: minmax(0, 1fr); }
