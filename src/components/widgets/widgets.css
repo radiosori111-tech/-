@@ -84,6 +84,16 @@
 .bmap-chips { display: flex; flex-wrap: wrap; gap: 0.375rem; margin-top: 0.875rem; }
 .bmap-chip { padding: 0.25rem 0.625rem; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--surface); color: var(--ink-soft); font-size: var(--text-xs); font-weight: 600; cursor: pointer; }
 .bmap-chip.is-on { border-color: var(--accent); background: var(--accent-soft); color: var(--accent-strong); }
+/* 식사 시간 정하기 */
+.fw-choices { display: flex; flex-wrap: wrap; gap: 0.375rem; margin-top: 1rem; }
+.fw-figure { margin: 1rem 0 0; aspect-ratio: 480 / 64; }
+.fw-figure svg { aspect-ratio: 480 / 64; }
+.fw-fast { fill: var(--sunk); }
+.fw-eat { fill: var(--accent); transition: x 200ms ease, width 200ms ease; }
+.fw-legend { display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; margin-top: 0.5rem; font-size: var(--text-sm); }
+.fw-legend span { display: inline-flex; align-items: center; gap: 0.375rem; }
+.fw-dot { display: inline-block; width: 0.75rem; height: 0.75rem; border-radius: 3px; background: var(--sunk); border: 1px solid var(--line-strong); }
+.fw-dot-eat { background: var(--accent); border-color: var(--accent); }
 @media (max-width: 640px) {
   .widget { padding: 1.125rem; }
   .bmap { grid-template-columns: minmax(0, 1fr); }
