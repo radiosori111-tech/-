@@ -1,0 +1,112 @@
+{
+  "title": "카드뉴스 · 후회할 행동 반복하는 이유",
+  "name": "후회할 행동 카드뉴스",
+  "post": "/blog/후회할-행동-자꾸-반복된다면-뇌가-이미-먼저-저질러-놓은-뒤였다/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 감정",
+      "title": "감정에 ==이름==만\n붙여도 달라질까?",
+      "size": "md",
+      "sub": "후회할 행동을\n반복하는 이유",
+      "heroNumber": "NAME"
+    },
+    {
+      "type": "statement",
+      "kicker": "알면서도 또",
+      "title": "야식, 충동구매,\n홧김의 메시지",
+      "sub": "의지가 약해서가 아니라\n==당장의 보상==에 끌리는 뇌 때문입니다.",
+      "note": "배고프거나 화났을 때 그 끌림은 더 커집니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 후회",
+      "title": "그 순간\n==뇌에서는==",
+      "size": "md",
+      "items": [
+        {
+          "title": "당장의 보상",
+          "text": "'지금' 받는 보상에 ==변연계==가 더 반응했습니다."
+        },
+        {
+          "title": "배고플 때",
+          "text": "일주일 뒤 간식도 ++덜 건강하게++ 골랐습니다."
+        },
+        {
+          "title": "감정 단어 고르기",
+          "text": "말로 옮기자 !!편도체 반응!!이 줄었습니다."
+        }
+      ],
+      "source": "McClure et al., Science (2004) · Read & van Leeuwen (1998) · Lieberman et al., Psych Sci (2007)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "의지보다\n==계획과 환경==",
+      "size": "md",
+      "items": [
+        {
+          "value": "94편",
+          "label": "\"만약 ~하면\" 계획 연구",
+          "detail": "중간 이상의 효과"
+        },
+        {
+          "value": "200명+",
+          "label": "8주 명상 무작위 시험",
+          "detail": "편도체 구조 변화는 없었습니다"
+        }
+      ],
+      "note": "'10분이면 편도체가 가라앉는다'는 직접 근거가 없었습니다.",
+      "source": "Gollwitzer & Sheeran (2006) · Kral et al., Sci Adv (2022)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "후회를 줄이는\n==3단계==",
+      "size": "md",
+      "items": [
+        {
+          "time": "이름",
+          "title": "감정을 한 단어로",
+          "text": "짜증, 불안, 배고픔, 피곤함"
+        },
+        {
+          "time": "계획",
+          "title": "만약 ~하면, 나는 ~한다",
+          "text": "메시지는 임시 저장, 10분 걷기",
+          "hot": true
+        },
+        {
+          "time": "환경",
+          "title": "선택지를 미리 줄이기",
+          "text": "배달앱 지우기, 결제 정보 저장 안 하기"
+        }
+      ],
+      "source": "Ariely & Wertenbroch, Psych Sci (2002) · Ochsner et al. (2002)"
+    },
+    {
+      "type": "cta",
+      "kicker": "직접 해 보기",
+      "title": "블로그에서\n==감정 이름 붙이기==를\n연습해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        {
+          "icon": "save",
+          "title": "저장",
+          "text": "충동이 올 때\n다시 보기"
+        },
+        {
+          "icon": "share",
+          "title": "공유",
+          "text": "홧김에 후회하는\n친구에게 보내기"
+        },
+        {
+          "icon": "link",
+          "title": "프로필 링크",
+          "text": "연습 도구와\n참고 문헌 11편"
+        }
+      ]
+    }
+  ]
+}
