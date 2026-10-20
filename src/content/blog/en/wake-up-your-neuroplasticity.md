@@ -1,105 +1,167 @@
 ---
-title: "Wake Up Your Neuroplasticity"
+title: "How to Boost Neuroplasticity: Exercise, Sleep, Gut Health, and What Research Confirms"
 slug: "wake-up-your-neuroplasticity"
 lang: "en"
 translationOf: "뇌가소성을-깨워라"
-description: "People say our heads stiffen with age, but the brain keeps changing throughout life. Here's how to wake up neuroplasticity: movement, the gut, sleep, and information, laughter and happiness."
+description: "The best-supported ways are moving your body, sleeping enough, and seeking out new experiences. Here is the research on running and new neurons (Nature Neuroscience, 1999) and sleep and synapses (Science, 2014), plus how far the evidence on gut health really goes."
 date: "2023-01-04T18:37:32+09:00"
-updated: "2023-02-06T23:55:10+09:00"
-tags: ["plasticity", "neuroplasticity", "exercise", "the gut is the second brain", "serotonin"]
+updated: "2026-10-20T17:00:00+09:00"
+tags: ["neuroplasticity", "how to boost neuroplasticity", "exercise and the brain", "sleep and memory", "gut-brain axis", "brain science"]
 comic:
   title: "Wake up your neuroplasticity"
   panels:
     - scene: tired
-      label: "The problem"
-      bubble: "My head feels stiff"
-      alt: "A tired person with a lowered head beside an almost empty battery"
-      caption: "People say our heads stiffen with age, but the brain changes throughout life."
-    - scene: synapse
-      label: "How it works"
-      bubble: "Grow the connections"
-      alt: "Two neurons reaching out and connecting"
-      caption: "The core of <strong>neuroplasticity</strong> is adding nerve cells and strengthening <strong>synaptic</strong> networks."
-    - scene: gut
-      label: "What to do"
-      bubble: "Look after gut and sleep"
-      alt: "The brain and the gut joined by a dotted line"
-      caption: "The <strong>gut</strong> supports <strong>serotonin</strong>; deep <strong>sleep</strong> supports <strong>melatonin</strong> and recovery."
-    - scene: calm
-      label: "The change"
-      bubble: "Laughter is medicine too"
-      alt: "A brain with an even wave and a slowly beating heart"
-      caption: "New information, laughter and happy experiences wake up the <strong>hippocampus</strong> and <strong>frontal lobe</strong>."
+      label: "The worry"
+      bubble: "My brain feels stiff"
+      alt: "A tired person with head bowed and an almost empty battery"
+      caption: "People say the mind stiffens with age, but the intelligence built from knowledge and experience keeps growing."
+    - scene: run
+      label: "Movement"
+      bubble: "Running grows new cells"
+      alt: "A person running lightly with motion lines"
+      caption: "Mice that ran on a wheel had many more <strong>new neurons</strong> in the hippocampus (<strong>Nature Neuroscience</strong>, 1999)."
+    - scene: sleep
+      label: "Sleep"
+      bubble: "Sleep well after learning"
+      alt: "A person sleeping peacefully under a crescent moon"
+      caption: "Mice that slept after learning formed more new <strong>synapses</strong> (<strong>Science</strong>, 2014)."
+    - scene: steps
+      label: "Consistency"
+      bubble: "Keep going, steadily"
+      alt: "A person climbing steps one at a time toward a flag at the top"
+      caption: "New paths form slowly at first. Give your brain time to adapt and keep at it <strong>steadily</strong>."
 ---
 
-- Related post: [Lifelong connectivity: neuroplasticity](/en/blog/lifelong-connectivity-neuroplasticity/)
+## 📌 Key takeaways
 
-## The core of neuroplasticity is increasing the number of nerve cells and strengthening the network of synapses
+> **The short answer:** The best-supported ways to boost neuroplasticity are **moving your body, sleeping enough, and seeking out new, stimulating experiences**. The gut is connected to the brain, but evidence that gut health boosts neuroplasticity in people is still at an early stage.
 
-People say our heads stiffen with age. They say that once we're past our twenties, brain function declines step by step. So let's take some time to look into how to wake up neuroplasticity and check for yourself what state your brain is in right now.
+- 🧓 **"The mind stiffens with age" is only half true.** **Fluid intelligence**, which handles calculation and quick reasoning, tends to decline with age, but **crystallized intelligence**, built from knowledge and experience, holds steady or even grows (**Acta Psychologica**, 1967).
+- ⏱️ **The brain changes faster than you might think.** After just two hours of practicing a new task, measurable changes appeared in the structure of the hippocampus (**Neuron**, 2012).
+- 🏃 **Movement is the surest starting point.** Mice that ran had many more new neurons in the hippocampus (**Nature Neuroscience**, 1999), and older adults who walked for a year grew their hippocampus by about 2% (**PNAS**, 2011).
+- 😴 **Sleep engraves what you learn.** Mice that slept after learning formed more new synapses, and depriving them of sleep reduced that number (**Science**, 2014).
+- 🦠 **The gut and brain are connected, but there's a common myth.** About 90% of the body's serotonin is made in the gut (**Cell**, 2015), but gut serotonin doesn't travel into the brain to change your mood.
 
-In early 2012, researchers at the **University of Edinburgh** investigated how much genes affect intelligence. The experiment found that they account for only **24%**. In other words, environment and experience, how we've lived, had a much greater effect on intelligence than the DNA we inherited. Hearing that it doesn't matter whether you were born with a dirt, silver or gold spoon of DNA, I, the one writing this, feel truly happy that my future looks bright.
+### 💬 "What if I lost the genetic lottery?"
 
-That's because I've kept saying that we can use **neuroplasticity** so that the brain stiffens slowly, or rather, develops further as the transmission of neurotransmitters becomes more active.
+People say the mind stiffens with age, and that brain function slowly declines after your twenties. In January 2023, while reading a Korean book whose title translates as *How the Brains of People Who Eventually Succeed Are Made*, I started to wonder whether that was really true. The book had this line:
 
-You may be wondering how much you have to do for the brain to grow, and how often you need to invest in it.
+> The brain changes depending on how you use and train it. … If you act positively and proactively, it will change into a beneficial brain structure.
 
-According to the McGuire research team's study of the **hippocampus**, neuroplasticity happens within weeks or months. "Changes can happen in as little as two hours, but for them to show up properly in visible form can take years," said Bryan Kolb of the University of Lethbridge in Canada.
+Around then I read news of research saying environment and experience matter more for intelligence than genes, and I was genuinely happy to think I could change my future regardless of the DNA I was dealt. I also thought this: neuroplasticity is like a **treasure map**. Even if you're holding it, if you never set out to find the treasure, decades later it's still just a piece of paper. Even an apple on a tree has to be reached for, picked, and bitten before you can taste its crunch and sweetness.
 
-The core of neuroplasticity is increasing the number of nerve cells and strengthening the network of **synapses**. Neuroplasticity only serves as a map: even if someone tells you where Treasure Island is, if you don't go there yourself, decades later all you'll have in your hand is a scrap of paper called a map.
+This post checks those hopes against research. Let's sort out what truly changes the brain and what hasn't been confirmed yet.
 
-Put simply, even to enjoy an apple hanging on a tree, you have to reach out to the branch and twist it until the stem comes off. Then you have to take a bite and chew before you can taste the apple's crunch and sweetness.
+## Deep Dive: what wakes up neuroplasticity?
 
-In other words, we have to put in as much effort as we can. If you keep up steady effort toward the one thing you want while adding ways to raise your efficiency, a synergy effect occurs and shortens the time it takes to reach your goal!
+### 1. Does the mind really stiffen with age?
 
-In Kim Dae-sung's book *How Are the Brains of People Who Eventually Achieve Built?*:
+Psychologists John Horn and Raymond Cattell divided intelligence into two branches (Horn & Cattell, **Acta Psychologica**, 1967).
 
-"Neuroplasticity is interconnected. It's connected like a rhythm, as if things pull at one another. The body is like a magnet. It's connected to circuits similar to mine. If my head has positive neuroplasticity, that's what gets connected. If the concept of a knife doesn't exist in your brain, you don't know it's dangerous. Because there's no synapse for fear, there's nothing to be afraid or angry about. There will be times when someone's attitude displeases you. Negative feelings arise because negative synapses are connected to each other. To escape these feelings, you need to form positive synapses."
+- **Fluid intelligence**: the ability to solve unfamiliar problems quickly, calculate, and remember. It tends to decline gradually after young adulthood.
+- **Crystallized intelligence**: the knowledge, vocabulary, and judgment built through learning and experience. It holds steady or even grows with age.
 
-Because it's a mechanism that protects our bodies, neuroplasticity takes longer to form for information in areas where we haven't yet built a path. So give your brain time to get used to the change (just as it takes time for two people to become a couple), tell yourself the brain must be adapting, and keep at it steadfastly like Hanamichi Sakuragi in *Slam Dunk*, and a solid path will form.
+> In my original post I wrote that "a 2012 study found genes account for only 24% of intelligence." Looking at the paper again (Deary et al., **Nature**, 2012), what it estimated was not intelligence itself but the genetic share of **how much intelligence changed from age 11 to old age**, and that estimate had a wide margin of error. For differences in intelligence itself, roughly half is thought to be linked to genetics in adults (Plomin & Deary, **Molecular Psychiatry**, 2015). Still, the other half, and **how it changes as we age**, owes a great deal to experience and lifestyle.
 
-Coming back to the brain that doesn't age (or ages slowly?):
+### 2. How fast can the brain change?
 
-Intelligence is divided into **fluid intelligence** and **crystallized intelligence**. Fluid intelligence, the ability to calculate and remember, declines as brain function deteriorates. But crystallized intelligence can improve through learning and experience, regardless of age.
+A team at Tel Aviv University had people learn a new route in a computer racing game and scanned their brains before and after (Sagi et al., **Neuron**, 2012). After just **two hours** of practice, measurable changes appeared in the microstructure of the hippocampus. When they ran the same experiment in rats, astrocytes, the cells that support neurons, and synapse-related proteins had increased in that area.
 
-The best way to trigger neuroplasticity is <strong>movement</strong>. Moving your body activates the heart, which supplies blood to the brain and body, and increases blood flow to the brain, which consumes **20% of our energy**. When more nutrients and oxygen are supplied to the brain, brain function is activated and neuroplasticity grows even greater.
-
-Professor Yoo Im-joo of Korea University College of Medicine said: "To exercise, commands that control each muscle must be sent down from the brain. While you're exercising, it's actually your brain that is commanding each part of your body to move. The very fact that you're exercising means the brain's circuits keep running. So by steadily activating particular brain circuits, you can develop that part of the brain."
+But for fast changes to become lasting ones, repetition is needed. The study showing that gray matter changes became clear only after three months of juggling practice, and shrank back once practice stopped, is covered in detail in [What is neuroplasticity? Proof adult brains change](/en/blog/the-secret-of-success/). A new path starts out faint, like a trail. The brain's slowness to accept unfamiliar change is partly a mechanism that protects us, so just as it takes time to become a couple, the brain needs time to adapt. Keep going steadily, like Sakuragi in *Slam Dunk*, and the path will become solid.
 
 <!-- related-link -->
-Among the everyday materials that wake up plasticity, the closest at hand are the words you use. Read [**the neuroscience of how words rewire the brain**](/en/blog/one-word-rewires-the-brain-neuroplasticity-and-speech-habits/) too.
+One of the closest everyday ingredients for waking up plasticity is the words you use every day. Read [**The neuroscience of how speech habits rewire the brain**](/en/blog/one-word-rewires-the-brain-neuroplasticity-and-speech-habits/) as well.
 
-Paul Zientarski, a physical education department head, said: "That exercise stimulates the brain isn't just a belief; it's real science. Exercise, especially cardiovascular exercise, releases chemicals in the brain such as **dopamine**, serotonin and **norepinephrine**, which actually help the brain function. They affect memory, mood, alertness, attention and motivation."
+### 3. Why is movement the most reliable method?
 
-## The gut affects neuroplasticity
+Henriette van Praag and Fred Gage's team at the Salk Institute compared mice that ran freely in cages with running wheels to mice that didn't (van Praag et al., **Nature Neuroscience**, 1999). The runners had many more newborn neurons in the **hippocampus**, which handles memory.
 
-<strong>The gut affects neuroplasticity</strong>. Dr. Michael D. Gershon called the gut **the second brain**. **Serotonin**, which makes us happy, is concentrated in the gut. So a lack of serotonin causes emotional anxiety, and serotonin is also the precursor that produces **melatonin**, the sleep hormone.
+People show similar results. When 120 adults aged 55 to 80 walked briskly for 40 minutes three times a week for a year, their **hippocampus grew by about 2%**, while the stretching-only group's hippocampus shrank slightly (Erickson et al., **PNAS**, 2011). Those whose hippocampus grew more also showed bigger increases in blood **BDNF**. Moving your body increases blood flow to the brain and boosts substances like BDNF that look after nerve cells. What BDNF is is covered in [What is BDNF? Meaning and what it does](/en/blog/bdnf-brain-derived-neurotrophic-factor-what-are-you/).
 
-That's why the gut has to be happy for the brain to be happy. When your gut hurts, you lose motivation, so how could you want to do anything or perform better!
+### 4. What role does sleep play in neuroplasticity?
 
-## Sleep affects neuroplasticity
+Wen-Biao Gan's team at New York University taught mice a new motor skill, then let some sleep and kept others awake (Yang et al., **Science**, 2014). The mice that slept formed more **new synapses (dendritic spines)** in the brain area that controls movement, and the sleep-deprived mice formed fewer. In other words, the work of engraving what you learned into actual brain connections happens **while you sleep**.
 
-<strong>Sleep affects neuroplasticity</strong>. If you don't get enough sleep, it lowers your focus and interferes with long-term memory, making it hard to get results in study or work even when you try.
+The same goes for people. Those who stayed up all night were worse at remembering new things the next day, and their hippocampus was less active while forming memories (Yoo et al., **Nature Neuroscience**, 2007). The link between sleep and memory is covered in more detail in [How does sleep organize memory?](/en/articles/sleep-memory/).
 
-## Information, laughter and happiness affect neuroplasticity
+### 5. Is it true that "a happy gut makes a happy brain"?
 
-<strong>Information, laughter and happiness affect neuroplasticity.</strong> You know that when a home is full of laughter, based on the information that "our family is a happy one," people feel happy and secure.
+Half right, half in need of correction. In my original post I wrote that "serotonin, the happiness hormone, gathers in the gut, so the gut has to be happy for the brain to be happy."
 
-Beyond this, the brain feels happy when activities that help survival take place. Happy hormones are released through activities such as eating when you're hungry and sleeping when you're sleepy.
+- **What's right**: About 90% of the body's serotonin is made in the gut, and gut microbes are involved in producing it (Yano et al., **Cell**, 2015). The gut and brain exchange signals through the **vagus nerve**, immune substances, and compounds made by microbes. This is called the **gut-brain axis** (Cryan et al., **Physiological Reviews**, 2019).
+- **What needs correcting**: Serotonin made in the gut can barely cross the **blood-brain barrier** that protects the brain. The brain makes its own serotonin separately. So saying "gut serotonin goes to the brain and makes you happy" isn't accurate.
+- **What we don't know yet**: Most research suggesting gut microbes affect neuroplasticity comes from **animal studies**. There isn't enough evidence yet to say that particular foods or probiotics boost neuroplasticity in people.
 
-"The brain changes depending on how you use and train it. If you stay discouraged because something bad happened, it affects your brain. If you keep worrying, your neural structure changes for the worse. In fact, persistent stress and depression cause damage to the **frontal lobe** and temporal lobe. If you act positively and proactively, your brain structure will change for the better. People who make good use of neuroplasticity accept whatever happens with an open mind. They make good use of neuroplasticity by changing their brains according to what they think and dream. Even when something bad happens, they seem to handle it flexibly and solve it easily."
+### 6. How do new experiences and stress change the brain?
 
-Kim Dae-sung, *How Are the Brains of People Who Eventually Achieve Built?*
+In my original post I wrote that "information, laughter, and happiness affect neuroplasticity." I couldn't find research showing that laughter directly boosts neuroplasticity, but there is clear research on **new experiences** and **stress**.
 
-## The laws of neuroplasticity BTS learned
+- **A new, enriched environment**: Mice living in cages with toys, tunnels, and companions had more hippocampal neurons than mice in empty cages (Kempermann et al., **Nature**, 1997).
+- **Stress is reversible**: Medical students under high stress before an exam were worse at shifting attention and showed weaker prefrontal connectivity, but after a month of lower stress once the exam was over, **they recovered** (Liston et al., **PNAS**, 2009).
 
-The Korean Spirit column "Is my brain now really my brain?" introduced the five BOS laws:
+When constant worry shapes the brain in that direction, that's plasticity; when the brain bounces back as stress eases, that's plasticity too. Plasticity is a **double-edged property** that works in both good and bad directions.
 
-1. <strong>BOS Law 1</strong>: Wake up and pay attention
-2. <strong>BOS Law 2</strong>: Good news makes a good brain
-3. <strong>BOS Law 3</strong>: Choose it, and it will happen
-4. <strong>BOS Law 4</strong>: Be the master of your time and space
-5. <strong>BOS Law 5</strong>: Design every environment
+### 7. Summary: what's confirmed and what we don't know yet
 
-Written after reading Kim Dae-sung's *How Are the Brains of People Who Eventually Achieve Built?*
+| Question | What we know so far | Type of evidence |
+| --- | --- | --- |
+| Does the mind stiffen with age? | Fluid intelligence tends to decline, but crystallized intelligence holds or grows | Human research (1967) |
+| How fast does the brain change? | Even two hours of practice changed the hippocampus | Human and animal research (Neuron, 2012) |
+| Does exercise change the brain? | New neurons increased, and older adults' hippocampus grew | Animal study (1999), human randomized trial (PNAS, 2011) |
+| Is sleep necessary? | Sleeping after learning led to more new synapses | Animal study (Science, 2014), human study (2007) |
+| Does gut health boost neuroplasticity? | **The gut and brain are connected, but evidence in people is still lacking** | Mostly animal studies (Physiological Reviews, 2019) |
 
+## The plan: 3 steps to wake up neuroplasticity
+
+**Step 1. Move your body every day**
+This is the starting point with the most evidence. In the study where older adults' hippocampus grew, participants **walked briskly** for 40 minutes three times a week. If you can't find that much time at once, start with 10 to 15 minutes of walking at lunch.
+
+**Step 2. End a day of learning with sleep**
+What you learn gets engraved as synapses while you sleep. Adults are advised to sleep **7 hours or more** a night (Watson et al., **Sleep**, 2015). Pulling an all-nighter before an exam or presentation takes away the very time your brain needs to lock in what you learned.
+
+**Step 3. Add new stimulation and take away stress**
+Add one **unfamiliar experience** a week, such as walking a route you've never taken, trying a new hobby, or talking with someone new. And if you're in a stretch of ongoing stress, remember that it can leave a mark on the brain but **is reversible**, and put rest into your schedule first.
+
+| Step | What | How much | Evidence | What the evidence showed |
+| --- | --- | --- | --- | --- |
+| 1. Movement | Do aerobic exercise such as brisk walking | 40 minutes three times a week, or start with 10–15 minutes a day | PNAS (2011), Nature Neuroscience (1999) | The hippocampus grew about 2%, and new neurons increased |
+| 2. Sleep | Sleep well on days you learn | 7 hours or more a night for adults | Science (2014), Sleep (2015) | More new synapses formed after sleep |
+| 3. New stimulation | Add unfamiliar experiences and protect your rest | One new thing a week | Nature (1997), PNAS (2009) | Neurons increased in an enriched environment, and stress effects recovered |
+
+## Conclusion
+
+Neuroplasticity is like a **treasure map** in your hand, and research shows the map is real. Even two hours of practice makes the hippocampus respond, steady walking makes it grow, and while you sleep, what you learned is engraved as synapses. On the other hand, when worry and stress persist, the brain changes in that direction too. So the way to wake up neuroplasticity isn't grand: **move, sleep well, and add new things one at a time**. Take one step with your map today. Your brain will keep carving a path to follow your steps for life. How the brain changes across the lifespan continues in [Lifelong connectivity: neuroplasticity](/en/blog/lifelong-connectivity-neuroplasticity/).
+
+### 🙋 Frequently asked questions
+
+#### Will taking care of my gut improve neuroplasticity?
+
+It's clear that the gut and brain are connected through nerves and the immune system, but there isn't yet direct evidence that caring for your gut boosts neuroplasticity in people, because most of the research is in animals. Still, regular meals and sleep that keep your gut comfortable help how you feel in their own right. The immune link between the gut and brain is covered in more detail in [IgA antibodies and the gut-brain connection](/en/blog/iga-antibodies-gut-brain-connection/).
+
+#### Can I boost neuroplasticity even if I'm older?
+
+Yes. The participants in the walking study whose hippocampus grew by about 2% were 55 to 80 years old (Erickson et al., **PNAS**, 2011). Crystallized intelligence, built from knowledge and experience, can keep growing with age. Change may be slower than when you were young, but the ability to change doesn't disappear.
+
+### 📚 References
+
+- Horn, J. L., & Cattell, R. B. (1967). Age differences in fluid and crystallized intelligence. *Acta Psychologica*, 26, 107–129.
+- Deary, I. J., Yang, J., Davies, G., … Visscher, P. M. (2012). Genetic contributions to stability and change in intelligence from childhood to old age. *Nature*, 482(7384), 212–215.
+- Plomin, R., & Deary, I. J. (2015). Genetics and intelligence differences: five special findings. *Molecular Psychiatry*, 20(1), 98–108.
+- Sagi, Y., Tavor, I., Hofstetter, S., Tzur-Moryosef, S., Blumenfeld-Katzir, T., & Assaf, Y. (2012). Learning in the fast lane: new insights into neuroplasticity. *Neuron*, 73(6), 1195–1203.
+- van Praag, H., Kempermann, G., & Gage, F. H. (1999). Running increases cell proliferation and neurogenesis in the adult mouse dentate gyrus. *Nature Neuroscience*, 2(3), 266–270.
+- Erickson, K. I., Voss, M. W., Prakash, R. S., … Kramer, A. F. (2011). Exercise training increases size of hippocampus and improves memory. *PNAS*, 108(7), 3017–3022.
+- Yang, G., Lai, C. S. W., Cichon, J., Ma, L., Li, W., & Gan, W.-B. (2014). Sleep promotes branch-specific formation of dendritic spines after learning. *Science*, 344(6188), 1173–1178.
+- Yoo, S.-S., Hu, P. T., Gujar, N., Jolesz, F. A., & Walker, M. P. (2007). A deficit in the ability to form new human memories without sleep. *Nature Neuroscience*, 10(3), 385–392.
+- Yano, J. M., Yu, K., Donaldson, G. P., … Hsiao, E. Y. (2015). Indigenous bacteria from the gut microbiota regulate host serotonin biosynthesis. *Cell*, 161(2), 264–276.
+- Cryan, J. F., O'Riordan, K. J., Cowan, C. S. M., … Dinan, T. G. (2019). The microbiota-gut-brain axis. *Physiological Reviews*, 99(4), 1877–2013.
+- Kempermann, G., Kuhn, H. G., & Gage, F. H. (1997). More hippocampal neurons in adult mice living in an enriched environment. *Nature*, 386(6624), 493–495.
+- Liston, C., McEwen, B. S., & Casey, B. J. (2009). Psychosocial stress reversibly disrupts prefrontal processing and attentional control. *PNAS*, 106(3), 912–917.
+- Watson, N. F., Badr, M. S., Belenky, G., … Tasali, E. (2015). Recommended amount of sleep for a healthy adult. *Sleep*, 38(6), 843–844.
+
+### 💭 A question for you
+
+When do you feel your mind has "stiffened" these days? And if you picked one of walking, sleep, or a new experience this week, which would you start with? Share your first step through the [contact page](/en/contact/).
+
+### ⚠️ Disclaimer
+
+This post offers general information based on academic research and does not replace medical diagnosis or treatment. Some of the studies introduced here are animal studies, so we can't conclude that people will see the same results. If memory problems, sleep problems, or digestive issues are interfering with daily life, please talk to a professional.
