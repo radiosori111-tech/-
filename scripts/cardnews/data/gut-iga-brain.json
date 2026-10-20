@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 장 건강과 뇌",
+  "name": "장 건강과 뇌 카드뉴스",
+  "post": "/blog/장을-지키는-IgA-항체와-뇌의-연결고리-뇌-발달을-위한-장-관리의-신경과학/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 장-뇌 축",
+      "title": "장 건강이\n==뇌를 지킬까?==",
+      "size": "md",
+      "sub": "장에서 훈련된 IgA 세포가\n뇌막을 지키고 있었다",
+      "heroNumber": "IgA"
+    },
+    {
+      "type": "statement",
+      "kicker": "머리만 챙기면 될까?",
+      "title": "장과 뇌는\n면역으로도 이어져 있다",
+      "sub": "장에서 장내 세균을 만난 면역세포가\n==뇌를 감싼 막==까지 와 있었습니다.",
+      "note": "확인되지 않은 '장 누수 → 브레인포그' 주장은 바로잡았습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 장과 뇌",
+      "title": "장과 뇌의\n==세 가지 연결==",
+      "size": "md",
+      "items": [
+        { "title": "IgA 방화벽", "text": "장에서 온 세포가 ==뇌막 정맥 옆==을 지켰습니다." },
+        { "title": "발효식품", "text": "10주 만에 ++장내 세균이++ 다양해졌습니다." },
+        { "title": "세로토닌", "text": "90%는 장에서, 하지만 !!뇌로는 거의 안 갑니다.!!" }
+      ],
+      "source": "Fitzpatrick et al., Nature (2020) · Wastyk et al., Cell (2021) · Yano et al., Cell (2015)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "장-뇌 축의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "19가지", "label": "줄어든 염증 지표", "detail": "발효식품을 10주 늘린 사람들" },
+        { "value": "90%", "label": "장에서 만드는 세로토닌", "detail": "혈액뇌장벽은 거의 못 넘습니다" }
+      ],
+      "note": "장 누수가 브레인포그를 만든다는 사람 연구는 없었습니다.",
+      "source": "Wastyk et al. (2021) · Yano et al. (2015)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "장-뇌 축 돌보기\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "매일", "title": "발효식품 한 가지", "text": "요거트·김치·된장", "hot": true },
+        { "time": "매 끼니", "title": "채소·콩·통곡물", "text": "장내 세균의 먹이" },
+        { "time": "기본", "title": "7시간 잠, 주 3회 운동", "text": "장과 뇌를 함께" }
+      ],
+      "source": "Wastyk et al. (2021) · Erny et al., Nat Neurosci (2015)"
+    },
+    {
+      "type": "cta",
+      "kicker": "점검해 보기",
+      "title": "블로그에서\n==장 건강 점검표==를\n눌러 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "장보기 전에\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "장이 예민한\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "점검표와\n참고 문헌 7편" }
+      ]
+    }
+  ]
+}
