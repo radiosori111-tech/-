@@ -1,0 +1,125 @@
+<title>근거 보강 글 비교</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
+<style>
+/* 사이트처럼 남색 머리 + 회색 본문. 글을 고르고, Before/After를 탭으로 오간다 */
+:root {
+  --bg: #f6f7f9; --surface: #ffffff; --sunk: #eff1f4; --line: #e4e7ec; --ink: #121821; --soft: #384150; --muted: #5d6674;
+  --frame: #0f141c; --frame-text: #eef1f5; --frame-muted: #a7b0bd; --lagoon: #5fd0c0;
+  --accent: #0d7a6f; --accent-soft: #e4f3f0; --old: #8a5a00; --old-soft: #fff4dc;
+  --font: 'Pretendard Variable', Pretendard, 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12161d; --surface: #1a1f28; --sunk: #222833; --line: #2a313c; --ink: #e4e8ee; --soft: #c3c9d2; --muted: #98a1ae;
+  --accent: #6fd6c7; --accent-soft: #163330; --old: #f5c26b; --old-soft: #33290f; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #12161d; --surface: #1a1f28; --sunk: #222833; --line: #2a313c; --ink: #e4e8ee; --soft: #c3c9d2; --muted: #98a1ae;
+  --accent: #6fd6c7; --accent-soft: #163330; --old: #f5c26b; --old-soft: #33290f; color-scheme: dark; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font); line-height: 1.7; word-break: keep-all; }
+.wrap { max-width: 52rem; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.head { background: var(--frame); color: var(--frame-text); }
+.head .wrap { padding-block: 2rem 1.5rem; }
+h1 { margin: 0; font-size: clamp(1.375rem, 1.1rem + 1.2vw, 2rem); letter-spacing: -0.03em; }
+.lede { margin: 0.375rem 0 1.25rem; color: var(--frame-muted); }
+.picker { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.picker button { font: inherit; font-size: 0.875rem; padding: 0.4375rem 0.875rem; border-radius: 999px; border: 1px solid #2c3647; background: #171e29; color: var(--frame-text); cursor: pointer; }
+.picker button[aria-pressed="true"] { background: var(--lagoon); color: #0f141c; border-color: var(--lagoon); font-weight: 700; }
+.picker button:focus-visible, .tabs button:focus-visible { outline: 2px solid var(--lagoon); outline-offset: 2px; }
+main .wrap { padding-block: 1.5rem 3rem; display: grid; gap: 1.25rem; }
+.titles { display: grid; gap: 0.5rem; }
+.t-row { display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); gap: 0.75rem; align-items: baseline; }
+.tag { font-size: 0.75rem; font-weight: 700; padding: 0.125rem 0.5rem; border-radius: 999px; text-align: center; }
+.tag.old { color: var(--old); background: var(--old-soft); }
+.tag.new { color: var(--accent); background: var(--accent-soft); }
+.t-row p { margin: 0; font-weight: 700; }
+.t-row.before p { color: var(--muted); font-weight: 500; text-decoration: line-through; text-decoration-color: var(--line); }
+.stats { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; padding: 0.875rem 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; font-size: 0.9375rem; }
+.stats b { font-variant-numeric: tabular-nums; color: var(--accent); }
+.serp-box { padding: 1rem 1.25rem; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+.serp-box h2 { margin: 0 0 0.75rem; font-size: 1rem; }
+.serp-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); }
+.serp { margin-top: 0.5rem; font-family: Arial, 'Malgun Gothic', sans-serif; }
+.serp .url { font-size: 0.8125rem; color: var(--muted); }
+.serp .st { font-size: 1.125rem; line-height: 1.35; color: #1a0dab; margin: 0.125rem 0 0.25rem; }
+:root[data-theme="dark"] .serp .st { color: #8ab4f8; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .serp .st { color: #8ab4f8; } }
+.serp .sd { font-size: 0.875rem; color: var(--soft); line-height: 1.55; }
+.serp-note { margin: 0.75rem 0 0; font-size: 0.8125rem; color: var(--muted); }
+.changes { padding: 1rem 1.25rem; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+.changes h2 { margin: 0 0 0.5rem; font-size: 1rem; }
+.changes ul { margin: 0; padding-left: 1.25rem; display: grid; gap: 0.375rem; color: var(--soft); font-size: 0.9375rem; }
+.tabs { display: flex; gap: 0.25rem; border-bottom: 1px solid var(--line); }
+.tabs button { font: inherit; padding: 0.625rem 1rem; border: 0; border-bottom: 2px solid transparent; background: none; color: var(--muted); cursor: pointer; font-weight: 600; }
+.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.article { padding: 1.5rem 1.375rem; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; min-width: 0; overflow-wrap: anywhere; color: var(--soft); }
+.article h2 { color: var(--ink); font-size: 1.25rem; margin: 2em 0 0.6em; }
+.article h3 { color: var(--ink); font-size: 1.0625rem; margin: 1.6em 0 0.5em; }
+.article h4 { color: var(--ink); font-size: 1rem; margin: 1.3em 0 0.4em; }
+.article > :first-child { margin-top: 0; }
+.article strong { color: var(--ink); }
+.article blockquote { margin: 1em 0; padding: 0.625rem 0.875rem; background: var(--sunk); border-radius: 8px; color: var(--muted); font-size: 0.9375rem; }
+.article blockquote p { margin: 0; }
+.table-scroll { overflow-x: auto; margin: 1em 0; }
+.article table { border-collapse: collapse; font-size: 0.875rem; min-width: 32rem; }
+.article th, .article td { border: 1px solid var(--line); padding: 0.4375rem 0.5625rem; text-align: left; vertical-align: top; }
+.article th { background: var(--sunk); color: var(--ink); }
+.article a { color: var(--accent); }
+.article code { font-size: 0.875em; }
+</style>
+<header class="head">
+  <div class="wrap">
+    <h1>근거 보강 글 비교</h1>
+    <p class="lede">분량이 적던 옛 글을 학술 근거와 글쓰기 기준에 맞춰 다시 썼습니다. 글을 고르고 Before와 After를 오가며 비교해 보세요.</p>
+    <div class="picker" role="group" aria-label="글 고르기" id="picker"></div>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+    <div class="titles">
+      <div class="t-row before"><span class="tag old">Before</span><p id="t-before"></p></div>
+      <div class="t-row"><span class="tag new">After</span><p id="t-after"></p></div>
+    </div>
+    <div class="stats" id="stats"></div>
+    <section class="serp-box" aria-labelledby="serp-h"><h2 id="serp-h">구글 검색 결과에서는 이렇게 보입니다</h2><div class="serp-grid"><div><span class="tag old">Before</span><div class="serp" id="serp-before"></div></div><div><span class="tag new">After</span><div class="serp" id="serp-after"></div></div></div><p class="serp-note">제목은 약 30자, 설명은 약 80자 뒤로 잘려 “…”로 보입니다. 검색어를 앞에 두고, 설명은 질문에 대한 답으로 시작했습니다.</p></section>
+    <section class="changes" aria-labelledby="changes-h"><h2 id="changes-h">무엇을 바꿨나</h2><ul id="changes"></ul></section>
+    <div class="tabs" role="tablist" aria-label="원본과 새 글">
+      <button role="tab" id="tab-after" aria-selected="true" aria-controls="article">After (새 글)</button>
+      <button role="tab" id="tab-before" aria-selected="false" aria-controls="article">Before (원래 글)</button>
+    </div>
+    <article class="article" id="article" role="tabpanel"></article>
+  </div>
+</main>
+<script>
+  const DATA = /*DATA*/null;
+  const short = DATA.map((d) => d.short);
+  let cur = 0, view = 'after';
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => s.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+  DATA.forEach((d, i) => {
+    const b = document.createElement('button');
+    b.type = 'button'; b.textContent = `${i + 1}. ${short[i] || d.afterTitle.slice(0, 12)}`;
+    b.addEventListener('click', () => { cur = i; render(); });
+    $('picker').append(b);
+  });
+  function render() {
+    const d = DATA[cur];
+    [...$('picker').children].forEach((b, i) => b.setAttribute('aria-pressed', String(i === cur)));
+    $('t-before').textContent = d.beforeTitle;
+    $('t-after').textContent = d.afterTitle;
+    $('stats').innerHTML = `<span>본문 분량 <b>${d.stats.beforeLen.toLocaleString()}자 → ${d.stats.afterLen.toLocaleString()}자</b></span><span>참고 문헌 <b>${d.stats.beforeRefs}편 → ${d.stats.afterRefs}편</b></span>`;
+    const cut = (s, n) => s.length > n ? s.slice(0, n) + ' …' : s;
+    const serp = (title, desc) => `<div class="url">jes-lu.com › blog › …</div><div class="st">${esc(cut(title + ' | 믿음의 게임, 실행', 30))}</div><div class="sd">${esc(cut(desc, 80))}</div>`;
+    $('serp-before').innerHTML = serp(d.beforeTitle, d.beforeDesc);
+    $('serp-after').innerHTML = serp(d.afterTitle, d.afterDesc);
+    $('changes').innerHTML = d.changes.map((c) => `<li>${esc(c)}</li>`).join('');
+    $('tab-after').setAttribute('aria-selected', String(view === 'after'));
+    $('tab-before').setAttribute('aria-selected', String(view === 'before'));
+    const md = view === 'after' ? d.after : d.before;
+    const html = window.marked ? marked.parse(md) : `<pre>${esc(md)}</pre>`;
+    $('article').innerHTML = html.replace(/<table>/g, '<div class="table-scroll"><table>').replace(/<\/table>/g, '</table></div>');
+  }
+  $('tab-after').addEventListener('click', () => { view = 'after'; render(); });
+  $('tab-before').addEventListener('click', () => { view = 'before'; render(); });
+  render();
+</script>
