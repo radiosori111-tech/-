@@ -1,5 +1,5 @@
 ---
-title: "What to Eat Before an Exam or Interview? Dark Chocolate and 3 Steps"
+title: "Does Dark Chocolate Help Right Before an Exam? Store-Bought Is Different"
 slug: "what-to-eat-right-before-a-big-day-that-needs-brainpower"
 lang: "en"
 translationOf: "두뇌활성이-필요한-중요한-날엔-직전에-뭘-먹을까"

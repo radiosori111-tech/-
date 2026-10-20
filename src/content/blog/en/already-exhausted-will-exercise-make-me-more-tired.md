@@ -1,5 +1,5 @@
 ---
-title: "Will Exercise Make You More Tired? A 15-Minute Plan That Cuts Fatigue"
+title: "Will Exercise Make You More Tired? Light Exercise Cut Fatigue"
 slug: "already-exhausted-will-exercise-make-me-more-tired"
 lang: "en"
 translationOf: "육체적으로-이미-지쳤는데-운동을-하면-더-피곤해지지-않을까요-뇌를-깨우는-메커니즘을-소개합니다"

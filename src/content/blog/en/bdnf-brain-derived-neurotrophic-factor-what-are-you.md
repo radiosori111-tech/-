@@ -1,5 +1,5 @@
 ---
-title: "What Is BDNF? Meaning, What It Does, and Is More Always Better?"
+title: "What Is BDNF? Why \"More Is Better\" Is Only Half Right"
 slug: "bdnf-brain-derived-neurotrophic-factor-what-are-you"
 lang: "en"
 translationOf: "BDNF-뇌-유래-신경영양인자-너의-정체는-뭐니"

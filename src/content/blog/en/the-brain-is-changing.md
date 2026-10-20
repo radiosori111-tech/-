@@ -1,5 +1,5 @@
 ---
-title: "Why Do New Things Make You Sleepy? The Brain Science and 3 Fixes"
+title: "Why Do New Things Make You Sleepy? It Isn't Laziness"
 slug: "the-brain-is-changing"
 lang: "en"
 translationOf: "뇌가-변하고-있다"

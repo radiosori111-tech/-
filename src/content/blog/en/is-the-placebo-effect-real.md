@@ -1,5 +1,5 @@
 ---
-title: "Is the Placebo Effect Real? What Sham Surgery Reveals About Expectation"
+title: "Is the Placebo Effect Real? Fake Surgery Worked as Well as Real Surgery"
 slug: "is-the-placebo-effect-real"
 lang: "en"
 translationOf: "플라세보가-진짜-존재하는지-알아보기"

@@ -1,5 +1,5 @@
 ---
-title: "What Is Neuroplasticity? Proof Adult Brains Change, and 3 Habit Steps"
+title: "What Is Neuroplasticity? Three Months of Juggling Changed Adult Brains"
 slug: "the-secret-of-success"
 lang: "en"
 translationOf: "성공의-비밀"

@@ -1,5 +1,5 @@
 ---
-title: "How to Boost Neuroplasticity: Exercise, Sleep, Gut Health, and What Research Confirms"
+title: "How to Boost Neuroplasticity: The Hippocampus Changed in Just 2 Hours"
 slug: "wake-up-your-neuroplasticity"
 lang: "en"
 translationOf: "뇌가소성을-깨워라"
