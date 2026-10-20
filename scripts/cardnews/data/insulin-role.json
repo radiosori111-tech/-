@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 인슐린 역할",
+  "name": "인슐린 역할 카드뉴스",
+  "post": "/blog/인슐린-역할은-영리하게-사용하는-비법은/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 인슐린",
+      "title": "인슐린을 낮췄더니\n지방이 ==덜== 빠졌다?",
+      "size": "md",
+      "sub": "인슐린 역할,\n연구로 다시 보기",
+      "heroNumber": "GI"
+    },
+    {
+      "type": "statement",
+      "kicker": "흔히 듣는 말",
+      "title": "\"빵 많이 먹으면\n인슐린 때문에 살쪄!\"",
+      "sub": "인슐린은 정말 살찌게 하는 호르몬일까요?\n==직접 시험한 연구==가 있습니다.",
+      "note": "인슐린은 포도당을 세포 안으로 넣어 혈당을 지키는 호르몬입니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 인슐린",
+      "title": "인슐린에 대한\n==세 가지 사실==",
+      "size": "md",
+      "items": [
+        { "title": "인슐린을 낮춰도", "text": "같은 칼로리라면 체지방은 ==지방을 줄였을 때== 더 빠졌습니다." },
+        { "title": "혈당이 급히 오르면", "text": "몇 시간 뒤 ++더 배고프고 더 먹었습니다.++" },
+        { "title": "아침보다 저녁에", "text": "같은 음식도 !!저녁에!! 혈당이 더 올랐습니다." }
+      ],
+      "source": "Hall et al., Cell Metab (2015) · Ludwig et al., Pediatrics (1999) · Van Cauter et al., Endocr Rev (1997)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "곡선을 ==완만하게==",
+      "size": "md",
+      "items": [
+        { "value": "81%", "label": "고GI 식사 뒤 더 먹은 양", "detail": "저GI 식사 뒤와 비교했습니다" },
+        { "value": "12%", "label": "식후 10분 걷기 효과", "detail": "하루 한 번 30분 걷기와 비교" }
+      ],
+      "note": "인슐린이 보내는 포도당의 약 80%는 근육이 받아들입니다.",
+      "source": "Ludwig et al., Pediatrics (1999) · Reynolds et al., Diabetologia (2016)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "혈당 곡선을\n완만하게 ==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "순서", "title": "채소·단백질 먼저, 밥은 마지막", "text": "식후 혈당과 인슐린이 낮아졌습니다" },
+        { "time": "걷기", "title": "식후 바로 10분", "text": "특히 저녁 식사 뒤 효과가 컸습니다", "hot": true },
+        { "time": "근육", "title": "주 2~3회 근력 운동", "text": "스쿼트부터 전신으로" }
+      ],
+      "source": "Shukla et al., Diabetes Care (2015) · Colberg et al., Diabetes Care (2016)"
+    },
+    {
+      "type": "cta",
+      "kicker": "직접 바꿔 보기",
+      "title": "블로그에서\n==혈당 곡선==이 바뀌는 걸\n확인해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "식사 전에\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "빵 좋아하는\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "혈당 곡선 위젯과\n참고 문헌 12편" }
+      ]
+    }
+  ]
+}
