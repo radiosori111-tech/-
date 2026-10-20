@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 햇볕과 집중력",
+  "name": "햇볕과 집중력 카드뉴스",
+  "post": "/blog/햇볕과-집중력-그리고-뇌기능-생체리듬-인지기능-빛-노출/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 빛과 집중",
+      "title": "햇볕을 쬐면\n==집중력이 오를까?==",
+      "size": "md",
+      "sub": "낮에 빛을 많이 받은 사람일수록\n더 또렷했다",
+      "heroNumber": "SUN"
+    },
+    {
+      "type": "statement",
+      "kicker": "커피를 또 찾기 전에",
+      "title": "오늘 낮에\n햇볕을 받았나요?",
+      "sub": "러닝을 아침으로 바꾸자\n==몸이 가벼워졌습니다.==",
+      "note": "신문 기사 대신 원 논문으로 다시 확인했습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 빛",
+      "title": "빛과 뇌의\n==세 가지 사실==",
+      "size": "md",
+      "items": [
+        { "title": "낮 빛", "text": "많이 받은 사람일수록 ==더 또렷했습니다.==" },
+        { "title": "창가 자리", "text": "밤에 ++46분 더++ 잤습니다." },
+        { "title": "캠핑 1주", "text": "생체시계가 !!약 2시간!! 앞당겨졌습니다." }
+      ],
+      "source": "Didikoglu et al., Commun Psychol (2023) · Boubekri et al., JCSM (2014) · Wright et al., Curr Biol (2013)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "햇볕의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "58명", "label": "일주일 빛 측정", "detail": "낮엔 밝고 밤엔 어두울수록 좋았습니다" },
+        { "value": "46분", "label": "더 길어진 밤잠", "detail": "창가에서 일한 직장인" }
+      ],
+      "note": "관찰 연구라 빛이 원인이라고 단정할 수는 없습니다.",
+      "source": "Didikoglu et al. (2023) · Boubekri et al. (2014)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "낮엔 밝게, 밤엔 어둡게\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "아침", "title": "밖에서 걷거나 달리기", "text": "출근길 10분도 좋습니다" },
+        { "time": "낮", "title": "창가 자리, 점심엔 밖으로", "text": "10~15분이면 충분", "hot": true },
+        { "time": "밤", "title": "조명 낮추기", "text": "잠들기 1~2시간 전" }
+      ],
+      "source": "Wright et al. (2013) · Didikoglu et al. (2023)"
+    },
+    {
+      "type": "cta",
+      "kicker": "점검해 보기",
+      "title": "블로그에서\n==빛 습관 점검표==를\n눌러 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "오후에 졸릴 때\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "사무실 동료에게\n보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "점검표와\n참고 문헌 5편" }
+      ]
+    }
+  ]
+}
