@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 방 정리 집중력",
+  "name": "방 정리 집중력 카드뉴스",
+  "post": "/blog/래미안갤러리-A-Part-of-Home-몰입형-전시-뇌과학-강연-들으러가요-공간부터-나답게/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 공간과 집중",
+      "title": "방 정리하면\n==집중력이 오를까?==",
+      "size": "md",
+      "sub": "어지른 방에서\n아이디어가 더 나왔다",
+      "heroNumber": "MESS"
+    },
+    {
+      "type": "statement",
+      "kicker": "같은 집, 다른 자리",
+      "title": "왜 어떤 자리에서만\n집중이 될까?",
+      "sub": "정리된 방이 늘 정답은 아니었습니다.\n==일에 맞는 공간==이 따로 있었습니다.",
+      "note": "래미안갤러리 'A Part of Home' 전시 소식을 계기로 연구를 찾아봤습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 공간",
+      "title": "공간이 뇌를\n바꾸는 ==세 가지==",
+      "size": "md",
+      "items": [
+        { "title": "물건끼리 경쟁", "text": "시야의 물건들은 ==시각 피질에서== 서로 신호를 눌렀습니다." },
+        { "title": "어지른 방의 장점", "text": "어지른 방에서 ++더 독창적인++ 아이디어가 나왔습니다." },
+        { "title": "보이는 휴대폰", "text": "꺼 둬도 책상 위에 있으면 !!작업 기억이!! 줄었습니다." }
+      ],
+      "source": "McMains & Kastner, J Neurosci (2011) · Vohs et al., Psych Sci (2013) · Ward et al., JACR (2017)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "공간과 집중의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "800명", "label": "휴대폰 위치 실험", "detail": "약 800명 중 다른 방에 둔 쪽이 최고" },
+        { "value": "30쌍", "label": "집 소개와 코르티솔", "detail": "어수선하다는 집, 덜 떨어진 코르티솔" }
+      ],
+      "note": "몰입 중 도파민은 직접 잰 것이 아니라 상관관계였습니다.",
+      "source": "Ward et al. (2017) · Saxbe & Repetti, PSPB (2010) · de Manzano et al., NeuroImage (2013)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "집중 공간\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "휴대폰", "title": "다른 방에 두기", "text": "무음·뒤집기로는 부족했습니다" },
+        { "time": "집중", "title": "시야에 필요한 것만", "text": "나머지는 상자 하나에 모으기", "hot": true },
+        { "time": "구상", "title": "자리 바꾸기", "text": "탁 트이거나 조금 어수선한 곳" }
+      ],
+      "source": "Ward et al. (2017) · Vohs et al. (2013) · Meyers-Levy & Zhu, JCR (2007)"
+    },
+    {
+      "type": "cta",
+      "kicker": "점검해 보기",
+      "title": "블로그에서\n==내 자리 점검표==를\n눌러 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "책상 정리할 때\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "재택근무하는\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "점검표와\n참고 문헌 7편" }
+      ]
+    }
+  ]
+}
