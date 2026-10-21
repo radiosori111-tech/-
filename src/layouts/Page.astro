@@ -58,6 +58,24 @@ const hasFeature = Astro.slots.has('feature');
   .has-feature .lede { max-width: 34rem; margin-top: 1.5rem; }
   @media (max-width: 900px) { .has-feature .head-grid { grid-template-columns: minmax(0, 1fr); } }
 
+  /* 모바일 블로그 홈: 첫 화면에 뇌와 '지금' 선이 보이도록, 하루 띠를 최신글 카드 위로 올리고 뇌를 제목 뒤쪽 위에 둔다 */
+  @media (max-width: 900px) {
+    .has-feature .wrap { display: flex; flex-direction: column; }
+    .has-feature .head-grid { display: contents; }
+    .has-feature .head-copy { order: 1; }
+    .has-feature .wrap > :global(.dayband) { order: 2; margin-top: 2rem; padding-bottom: 0.5rem; }
+    .has-feature .head-grid > :global(:not(.head-copy)) { order: 3; margin-top: 1.75rem; }
+    .page-head.has-feature:has(:global(.dayband)) { padding-bottom: clamp(2.5rem, 5vw, 4rem); }
+    .page-head.has-feature :global(.hero-brain) {
+      top: 0.5rem;
+      left: auto;
+      right: -5.5rem;
+      translate: none;
+      width: min(26rem, 92vw);
+      opacity: 0.55;
+    }
+  }
+
   /* 소개 · 문의 · 정책 페이지의 본문 */
   .page-body :global(.doc) { max-width: var(--measure); font-size: var(--text-md); line-height: 1.85; color: var(--ink-soft); }
   .page-body :global(.doc h2) {
