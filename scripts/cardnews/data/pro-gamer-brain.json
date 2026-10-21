@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 게임과 프로게이머 뇌",
+  "name": "게임과 프로게이머 뇌 카드뉴스",
+  "post": "/blog/하루-10시간-게임해도-뇌가-똑똑해진-진짜-이유-프로게이머-훈련되-뇌-MRI-충격-결과/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 게임과 뇌",
+      "title": "게임하면\n==뇌가 좋아질까?==",
+      "size": "md",
+      "sub": "프로게이머는\n실수가 절반이었다",
+      "heroNumber": "2.6"
+    },
+    {
+      "type": "statement",
+      "kicker": "더 많이 보면 잘할 줄 알았지만",
+      "title": "선수의 뇌는\n==더 잘 걸렀습니다==",
+      "sub": "다만 한 시점 비교라\n게임 덕분인지는 아직 모릅니다.",
+      "note": "원래 그런 사람이 선수가 됐을 수도 있습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "LCK 선수 23명의 뇌",
+      "title": "일반인과\n==달랐던 세 가지==",
+      "size": "md",
+      "items": [
+        { "title": "섬엽–전대상피질", "text": "주의를 잡는 연결이 ==더 강했습니다==." },
+        { "title": "시상 연결", "text": "약할수록 ++작업 기억++ 점수가 높았습니다." },
+        { "title": "피질 두께", "text": "두 부위가 !!더 두꺼웠습니다!!." }
+      ],
+      "source": "중앙대·가천대 연구팀, Scientific Reports (2026)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "게임과 실력의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "2.6회", "label": "선수의 실수", "detail": "일반인은 5.7회" },
+        { "value": "26%", "label": "연습량이 설명한 실력", "detail": "나머지는 질·재능 등" }
+      ],
+      "note": "10일 액션 게임 훈련으로 시각적 주의력이 올랐습니다.",
+      "source": "Sci Rep (2026) · Macnamara et al. (2014) · Green & Bavelier, Nature (2003)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "시간보다 구조\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "시작 전", "title": "목표 하나만 정하기", "text": "오늘은 미니맵 확인처럼", "hot": true },
+        { "time": "끝난 뒤", "title": "한 장면만 복기", "text": "바꿀 점을 한 줄로" },
+        { "time": "공부 끝", "title": "읽기보다 떠올리기", "text": "백지에 뼈대 그리기" }
+      ],
+      "source": "Ericsson et al. (1993) · Roediger & Karpicke (2006)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==나에게 맞는 연습 구조==를\n골라 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "연습 전에\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "게임 좋아하는\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "연습 고르기와\n참고 문헌 9편" }
+      ]
+    }
+  ]
+}
