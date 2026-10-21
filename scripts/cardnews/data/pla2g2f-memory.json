@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · PLA2G2F와 기억력",
+  "name": "PLA2G2F와 기억력 카드뉴스",
+  "post": "/blog/나이-들어도-기억력이-버티는-뇌의-비상발전기-효소-PLA2G2F-해마-인지-회복탄력성/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 해마",
+      "title": "노화에도 기억력이\n==버티는 이유는?==",
+      "size": "md",
+      "sub": "나이 들수록 켜지는\n효소가 있었다",
+      "heroNumber": "2026"
+    },
+    {
+      "type": "statement",
+      "kicker": "냉장고 앞에서 멈춰 섰다면",
+      "title": "뇌는 그냥\n==무너지지 않습니다==",
+      "sub": "시냅스가 끊기기 시작하면\n해마가 ==비상 발전기==를 켭니다.",
+      "note": "그 발전기가 PLA2G2F라는 효소입니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 PLA2G2F",
+      "title": "쥐 실험의\n==세 가지 결과==",
+      "size": "md",
+      "items": [
+        { "title": "없앴을 때", "text": "시냅스가 줄고 ==기억 성적이 떨어졌습니다==." },
+        { "title": "높였을 때", "text": "나이 든 쥐의 ++기억 점수++가 올랐습니다." },
+        { "title": "작동 방식", "text": "미세아교세포의 !!지방 방울!!을 줄였습니다." }
+      ],
+      "source": "Vicidomini et al., Nature Neuroscience (2026)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "사람 뇌와\n==해마 연구==",
+      "size": "md",
+      "items": [
+        { "value": "13개", "label": "분석한 사람의 뇌", "detail": "잘 버틴 뇌에서 활성 최고" },
+        { "value": "2%", "label": "1년 걷기 뒤 해마", "detail": "주 3회, 40분" }
+      ],
+      "note": "이 효소를 늘리는 약이나 영양제는 아직 없습니다.",
+      "source": "Vicidomini et al. (2026) · Erickson et al., PNAS (2011)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "해마를 지키는\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "주 3회", "title": "40분 빠르게 걷기", "text": "숨이 살짝 찰 만큼", "hot": true },
+        { "time": "매일", "title": "7시간 이상 자기", "text": "잠들기 전 화면 줄이기" },
+        { "time": "매일 하나", "title": "낯선 것 배우기", "text": "새 길, 새 단어, 새 요리" }
+      ],
+      "source": "Erickson (2011) · Xie et al., Science (2013) · Stern (2012)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==해마 환경 점검표==를\n해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "깜빡한 날\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "부모님께\n보내 드리기" },
+        { "icon": "link", "title": "프로필 링크", "text": "점검표와\n참고 문헌 6편" }
+      ]
+    }
+  ]
+}
