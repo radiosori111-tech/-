@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 회복탄력성",
+  "name": "회복탄력성 카드뉴스",
+  "post": "/blog/회복탄력성-뜻과-키우는-법-뇌과학으로-본-성취와-학습의-관계/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 회복탄력성",
+      "title": "회복탄력성,\n==키울 수 있을까?==",
+      "size": "md",
+      "sub": "지친 뇌는\n한 달 뒤 회복됐다",
+      "heroNumber": "1개월"
+    },
+    {
+      "type": "statement",
+      "kicker": "무너질 것 같은 순간",
+      "title": "경보기는 울리고\n==관리실은 꺼집니다==",
+      "sub": "편도체가 울리면 전전두엽이 잠시 꺼지지만,\n==다시 켜질 수 있습니다==.",
+      "note": "회복탄력성은 타고난 성격이 아니라 훈련으로 키우는 힘입니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 회복탄력성",
+      "title": "뇌가 다시 일어서는\n==세 가지 열쇠==",
+      "size": "md",
+      "items": [
+        { "title": "회복", "text": "시험 스트레스가 끝나고 ==전전두엽이 회복==됐습니다." },
+        { "title": "통제감", "text": "++내가 멈출 수 있다++는 감각이 뇌를 지켰습니다." },
+        { "title": "능동적 적응", "text": "버틴 쥐는 !!더 많은 유전자 변화!!를 일으켰습니다." }
+      ],
+      "source": "Liston et al., PNAS (2009) · Amat et al. (2005) · Krishnan et al., Cell (2007)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "마음가짐과\n==학습==",
+      "size": "md",
+      "items": [
+        { "value": "1만+", "label": "고등학생 대규모 실험", "detail": "1시간 안 되는 교육" },
+        { "value": "학점↑", "label": "성적 낮던 학생", "detail": "마음가짐 교육 뒤" }
+      ],
+      "note": "실수를 성장의 재료로 보는 뇌는 다음 문제를 더 잘 풀었습니다.",
+      "source": "Yeager et al., Nature (2019) · Moser et al., Psychol Sci (2011)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "회복탄력성 훈련\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "자기 전 5분", "title": "감사한 일 세 가지", "text": "장면이 떠오르게", "hot": true },
+        { "time": "주 3회", "title": "30~40분 유산소", "text": "숨이 조금 찰 만큼" },
+        { "time": "힘들 때 1분", "title": "바꿀 수 있는 것 찾기", "text": "감정에 한 단어 이름" }
+      ],
+      "source": "Liston et al. (2009) · Amat et al., Nat Neurosci (2005)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==회복탄력성 점검표==를\n해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "힘든 날\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "지친 친구에게\n보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "점검표와\n참고 문헌 16편" }
+      ]
+    }
+  ]
+}
