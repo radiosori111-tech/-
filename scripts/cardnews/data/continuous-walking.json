@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 이어 걷기",
+  "name": "이어 걷기 카드뉴스",
+  "post": "/blog/한-번에-오래-걷기-뇌의-방패-PLA2G2F-인지-회복탄력성과-연속-걷기/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 걷기",
+      "title": "이어 걸으면\n==더 좋을까?==",
+      "size": "md",
+      "sub": "15분 넘게 걸은 사람은\n심혈관 위험이 3분의 1",
+      "heroNumber": "15분"
+    },
+    {
+      "type": "statement",
+      "kicker": "오늘 만 보를 채웠다면",
+      "title": "걸음 수만큼\n==걷는 방식==도 볼까요",
+      "sub": "자투리 걸음만으로 채운 만 보와\n==이어 걸은 걸음==은 달랐을 수 있습니다.",
+      "note": "다만 관찰 연구라 원인과 결과를 단정할 수는 없습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 걷기와 뇌",
+      "title": "확인된 것과\n==아직 모르는 것==",
+      "size": "md",
+      "items": [
+        { "title": "이어 걷기", "text": "15분 이상이면 ==심혈관 발생률이 낮았습니다==." },
+        { "title": "많이 걷기", "text": "아밀로이드가 있어도 ++인지 저하가 늦었습니다++." },
+        { "title": "걷기와 PLA2G2F", "text": "둘을 잇는 연구는 !!아직 없습니다!!." }
+      ],
+      "source": "Del Pozo Cruz et al., Ann Intern Med (2025) · Nature Medicine (2025)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "9.5년 누적\n==심혈관 발생률==",
+      "size": "md",
+      "items": [
+        { "value": "4.39%", "label": "15분 이상 이어 걷기", "detail": "하루 8,000보 이하" },
+        { "value": "13.03%", "label": "5분 미만 쪼갠 걸음", "detail": "영국 성인 33,560명" }
+      ],
+      "note": "오래 걸으면 뇌의 지방 방울이 빠진다는 말은 검증되지 않았습니다.",
+      "source": "Del Pozo Cruz et al., Annals of Internal Medicine (2025)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "근거가 있는 걷기\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "총량", "title": "주 150~300분", "text": "자투리 걸음도 포함", "hot": true },
+        { "time": "덩어리", "title": "15분 이어 걷기", "text": "하루 1번" },
+        { "time": "강도", "title": "30~40분 빠르게", "text": "주 3회 이상" }
+      ],
+      "source": "WHO (2020) · Ann Intern Med (2025) · Erickson et al., PNAS (2011)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==하루 걷기 예시==를\n따라 해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "산책 전에\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "만 보 걷는\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "걷기 예시와\n참고 문헌 9편" }
+      ]
+    }
+  ]
+}
