@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 새로운 걸 시작하면 왜 졸릴까",
+  "name": "새 시작과 졸음 카드뉴스",
+  "post": "/blog/뇌가-변하고-있다/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 새 습관",
+      "title": "새로운 걸 시작하면\n==왜 졸릴까?==",
+      "size": "md",
+      "sub": "게으름 탓이\n아니었다",
+      "heroNumber": "20%"
+    },
+    {
+      "type": "statement",
+      "kicker": "책만 펴면 졸린 나",
+      "title": "머리가 나빠서가\n==아닙니다==",
+      "sub": "졸음은 쌓인 잠의 압력,\n귀찮음은 ==생각 비용==을 아끼는 뇌의 특성입니다.",
+      "note": "반복하면 같은 일도 점점 쉬워집니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 귀찮음",
+      "title": "뇌가 새 일을\n==힘들어하는 이유==",
+      "size": "md",
+      "items": [
+        { "title": "에너지 절약", "text": "몸무게 2%로 ==에너지 20%==를 씁니다." },
+        { "title": "생각 비용", "text": "같은 보상이면 ++머리를 덜 쓰는 쪽++을 골랐습니다." },
+        { "title": "습관 회로", "text": "반복하면 !!기저핵!!이 맡아 쉬워집니다." }
+      ],
+      "source": "Raichle & Gusnard, PNAS (2002) · Kool et al. (2010) · Graybiel (2008)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "자동화까지\n==걸린 시간==",
+      "size": "md",
+      "items": [
+        { "value": "18일", "label": "가장 빨리 자리 잡은 사람", "detail": "중앙값은 66일" },
+        { "value": "254일", "label": "가장 오래 걸린 사람", "detail": "사람마다 크게 달랐음" }
+      ],
+      "note": "처음이 가장 힘든 건 뇌가 바뀌는 중이라는 신호에 가깝습니다.",
+      "source": "Lally et al., European Journal of Social Psychology (2010)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "새 습관이 자리 잡는\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "1단계", "title": "졸음 원인 가리기", "text": "7시간 이상 잤는지부터", "hot": true },
+        { "time": "2단계", "title": "시작 비용 줄이기", "text": "같은 시간·장소에서 작게" },
+        { "time": "3단계", "title": "너그럽게 다시 하기", "text": "뇌가 바뀌는 중이구나" }
+      ],
+      "source": "Watson et al., Sleep (2015) · Lally (2010) · Breines & Chen (2012)"
+    },
+    {
+      "type": "cta",
+      "kicker": "더 알아보기",
+      "title": "블로그에서\n==귀찮음의 정체==를\n확인해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "새로 시작할 때\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "자책하는\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "확인 퀴즈와\n참고 문헌 9편" }
+      ]
+    }
+  ]
+}
