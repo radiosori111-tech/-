@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 플라시보 효과",
+  "name": "플라시보 효과 카드뉴스",
+  "post": "/blog/플라세보가-진짜-존재하는지-알아보기/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 플라시보",
+      "title": "플라시보 효과,\n==진짜일까?==",
+      "size": "md",
+      "sub": "가짜 수술이\n진짜 수술만큼 통했다",
+      "heroNumber": "180"
+    },
+    {
+      "type": "statement",
+      "kicker": "아픈 건 몸인데",
+      "title": "왜 생각이\n==통증을 바꿀까?==",
+      "sub": "기대만으로 뇌는\n스스로 ==진통 물질==을 꺼내 씁니다.",
+      "note": "다만 병 자체를 고치지는 못합니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 플라시보",
+      "title": "기대가 뇌에서\n==하는 일==",
+      "size": "md",
+      "items": [
+        { "title": "엔도르핀", "text": "막는 약을 주자 ==진통 효과가 사라졌습니다==." },
+        { "title": "통증 뇌 영역", "text": "시상·섬엽·전대상피질 ++활동이 줄었습니다++." },
+        { "title": "한계", "text": "느끼는 증상은 바꾸지만 !!병은 못 고칩니다!!." }
+      ],
+      "source": "Levine et al., Lancet (1978) · Wager et al., Science (2004)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "가짜 수술\n==실험==",
+      "size": "md",
+      "items": [
+        { "value": "180명", "label": "무릎 골관절염 환자", "detail": "진짜 vs 가짜 관절경 수술" },
+        { "value": "2년", "label": "추적 기간", "detail": "진짜 수술이 더 낫지 않았음" }
+      ],
+      "note": "속이지 않고 '가짜 약'이라 알려도 일부 증상이 나아졌습니다.",
+      "source": "Moseley et al., NEJM (2002) · Kaptchuk et al., PLoS ONE (2010)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "통증과 마주하는\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "1단계", "title": "통증을 경보로 읽기", "text": "몸을 지키려는 신호", "hot": true },
+        { "time": "2단계", "title": "조절할 행동 하나", "text": "5분 걷기, 찜질, 스트레칭" },
+        { "time": "3단계", "title": "치료에 정확한 기대", "text": "목적과 과정을 묻기" }
+      ],
+      "source": "Louw et al. (2016) · Maier & Seligman (2016) · Wager (2004)"
+    },
+    {
+      "type": "cta",
+      "kicker": "더 알아보기",
+      "title": "블로그에서\n==플라시보의 원리==를\n확인해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "아픈 날\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "통증으로 힘든\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "확인 퀴즈와\n참고 문헌 8편" }
+      ]
+    }
+  ]
+}
