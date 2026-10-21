@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 뇌 가소성",
+  "name": "뇌 가소성 카드뉴스",
+  "post": "/blog/성공의-비밀/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 뇌 가소성",
+      "title": "어른의 뇌도\n==바뀔까?==",
+      "size": "md",
+      "sub": "저글링 석 달에\n뇌가 변했다",
+      "heroNumber": "3개월"
+    },
+    {
+      "type": "statement",
+      "kicker": "피곤하니 쉬어야지만 반복하면",
+      "title": "뇌는 쓰는 대로\n==모양이 바뀝니다==",
+      "sub": "새롭고 조금 어려운 것을 할 때 바뀌고,\n멈추면 ==다시 되돌아갑니다==.",
+      "note": "이 성질을 뇌 가소성이라고 합니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 뇌 가소성",
+      "title": "뇌가 바뀐\n==세 가지 장면==",
+      "size": "md",
+      "items": [
+        { "title": "저글링 3개월", "text": "움직임을 읽는 ==회백질이 늘었습니다==." },
+        { "title": "런던 택시 기사", "text": "경력이 길수록 ++해마 뒤쪽++이 컸습니다." },
+        { "title": "다시 해석하기", "text": "편도체가 줄고 !!전전두피질!!이 활발해졌습니다." }
+      ],
+      "source": "Draganski et al., Nature (2004) · Maguire et al., PNAS (2000) · Ochsner et al. (2002)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "새 배움과\n==습관의 근거==",
+      "size": "md",
+      "items": [
+        { "value": "60세+", "label": "새 기술을 배운 60~90세", "detail": "기억력이 좋아짐" },
+        { "value": "66일", "label": "습관이 자리 잡는 중앙값", "detail": "사람마다 18~254일" }
+      ],
+      "note": "익숙한 활동만 한 무리는 기억력이 좋아지지 않았습니다.",
+      "source": "Park et al., Psychol Sci (2014) · Lally et al. (2010)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "뇌를 바꾸는\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "1단계", "title": "새롭고 조금 어려운 것", "text": "서툴러 머리를 쓰는 정도", "hot": true },
+        { "time": "2단계", "title": "하루 10분, 몇 달", "text": "같은 시간·장소에서" },
+        { "time": "3단계", "title": "상황을 다르게 말하기", "text": "부정적 생각이 들 때" }
+      ],
+      "source": "Park (2014) · Lally (2010) · Ochsner (2002)"
+    },
+    {
+      "type": "cta",
+      "kicker": "더 알아보기",
+      "title": "블로그에서\n==뇌 가소성의 근거==를\n확인해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "새로 배울 때\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "늦었다고 느끼는\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "확인 퀴즈와\n참고 문헌 7편" }
+      ]
+    }
+  ]
+}
