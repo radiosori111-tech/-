@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · BDNF 늘리는 법",
+  "name": "BDNF 늘리는 법 카드뉴스",
+  "post": "/blog/BDNF-늘리는-법-총정리-운동-음식-독서-명상-수면-실험-근거와-유지-기간/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · BDNF",
+      "title": "BDNF 늘리는 법,\n==가장 확실한 건?==",
+      "size": "md",
+      "sub": "운동 1년에\n해마가 2% 커졌다",
+      "heroNumber": "2%"
+    },
+    {
+      "type": "statement",
+      "kicker": "뇌의 비료를 늘리려면",
+      "title": "한 번의 불꽃보다\n==꾸준한 불씨==",
+      "sub": "BDNF는 운동 직후 잠깐 올랐다가 내려옵니다.\n뇌가 바뀌려면 ==몇 달의 반복==이 필요했습니다.",
+      "note": "BDNF 자체를 먹어서 늘리는 방법은 없습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "근거의 강도",
+      "title": "BDNF를 돕는\n==활동 순위==",
+      "size": "md",
+      "items": [
+        { "title": "유산소 운동 ⭐⭐⭐", "text": "사람에게서 ==근거가 가장 강합니다==." },
+        { "title": "춤·명상·잠 ⭐⭐", "text": "++BDNF나 뇌 구조++ 변화가 보고됐습니다." },
+        { "title": "독서·음식 ⭐", "text": "!!사람 근거는 아직 제한적!!입니다." }
+      ],
+      "source": "Szuhany et al. (2015) · Erickson et al., PNAS (2011)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "효과가 나타난\n==기간==",
+      "size": "md",
+      "items": [
+        { "value": "8주", "label": "명상(MBSR)", "detail": "해마 회백질 밀도↑" },
+        { "value": "6개월", "label": "춤", "detail": "혈중 BDNF↑" }
+      ],
+      "note": "저글링으로 늘었던 회백질은 멈추자 3개월 뒤 다시 줄었습니다.",
+      "source": "Psychiatry Res (2011) · PLoS ONE (2018) · Nature (2004)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "BDNF를 늘리는\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "주 3회", "title": "30~40분 유산소", "text": "아침 햇빛과 함께", "hot": true },
+        { "time": "주 2회", "title": "움직이며 배우기", "text": "춤·탁구·새 동작" },
+        { "time": "매일", "title": "잠·명상·식단", "text": "BDNF가 깎이지 않게" }
+      ],
+      "source": "Erickson (2011) · PLoS ONE (2018) · Psychiatry Res (2011)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==나에게 맞는 활동==을\n골라 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "운동 계획 짤 때\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "BDNF가 궁금한\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "활동 고르기와\n참고 문헌 22편" }
+      ]
+    }
+  ]
+}
