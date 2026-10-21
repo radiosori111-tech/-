@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 뇌 노화와 취미",
+  "name": "뇌 노화와 취미 카드뉴스",
+  "post": "/blog/늙지-않는-뇌를-만드는-가장-즐거운-방법-두뇌-활력을-깨우는-3가지-즐거운-비밀-루틴/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 뇌 노화",
+      "title": "뇌 노화 늦추는\n==취미는?==",
+      "size": "md",
+      "sub": "피아노는 통했지만\n외국어 수업은 아니었다",
+      "heroNumber": "6개월"
+    },
+    {
+      "type": "statement",
+      "kicker": "혀끝에서 말이 맴돈다면",
+      "title": "새롭고 조금 어려운\n==배움이 답일까?==",
+      "sub": "일부는 맞았습니다.\n하지만 ==생활 전체==가 더 중요했습니다.",
+      "note": "치매 위험의 약 45%는 바꿀 수 있는 요인과 관련 있었습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 취미",
+      "title": "취미 실험의\n==세 가지 결과==",
+      "size": "md",
+      "items": [
+        { "title": "피아노 6개월", "text": "==주의 전환 검사==가 좋아졌습니다." },
+        { "title": "외국어 수업 11주", "text": "기억력은 ++달라지지 않았습니다++." },
+        { "title": "뇌 훈련 게임", "text": "훈련한 과제만 !!좋아졌습니다!!." }
+      ],
+      "source": "Bugos et al. (2007) · Berggren et al. (2020) · Simons et al. (2016)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "치매 위험과\n==생활==",
+      "size": "md",
+      "items": [
+        { "value": "14가지", "label": "바꿀 수 있는 위험 요인", "detail": "사회적 고립·청력 등" },
+        { "value": "45%", "label": "관련된 치매 사례", "detail": "랜싯 위원회 추정" }
+      ],
+      "note": "이중 언어 사용자의 4년 지연은 관찰 연구 결과입니다.",
+      "source": "Livingston et al., Lancet (2024) · Bialystok et al. (2007)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "뇌 노화를 늦추는\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "6개월", "title": "조금 어려운 취미 하나", "text": "하루 15분 악기", "hot": true },
+        { "time": "한 달 2번+", "title": "함께 배우는 모임", "text": "사회적 고립 줄이기" },
+        { "time": "매주", "title": "걷기·청력·잠 점검", "text": "주 150분 걷기" }
+      ],
+      "source": "Bugos (2007) · Livingston et al., Lancet (2024)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==나에게 맞는 취미==를\n골라 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "새 취미 고를 때\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "부모님께\n보내 드리기" },
+        { "icon": "link", "title": "프로필 링크", "text": "취미 고르기와\n참고 문헌 6편" }
+      ]
+    }
+  ]
+}
