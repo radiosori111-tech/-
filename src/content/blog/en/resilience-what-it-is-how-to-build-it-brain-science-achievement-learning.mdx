@@ -1,10 +1,11 @@
 ---
-title: "The Brain's Power to Get Back Up: What Resilience Is, How to Build It, and What Neuroscience Says About Achievement and Learning"
+title: "Can You Build Resilience? A Stressed Brain Recovered a Month Later"
 slug: "resilience-what-it-is-how-to-build-it-brain-science-achievement-learning"
 lang: "en"
 translationOf: "회복탄력성-뜻과-키우는-법-뇌과학으로-본-성취와-학습의-관계"
 description: "Resilience is not a personality you're born with but a strength of mind you can train. Drawing on the key ideas of Professor Kim Joo-hwan's Korean book Resilience and on studies in Nature, Cell, PNAS and Nature Neuroscience, we explain how resilience is built in the brain, how it shapes achievement and learning, and a three-step training plan you can start today."
 date: "2026-10-18T21:00:00+09:00"
+updated: "2026-10-21T12:45:00+09:00"
 tags: ["resilience", "Kim Joo-hwan", "prefrontal cortex", "amygdala", "neuroplasticity", "BDNF", "gratitude journal", "growth mindset", "neuroscience"]
 comic:
   title: "The brain that gets back up where it fell"
@@ -30,8 +31,12 @@ comic:
       alt: "Small repeated steps up a staircase towards a goal flag"
       caption: "A brain that uses mistakes as information learns better and goes further. <strong>Resilience</strong> is the ground floor of achievement."
 ---
+import CheckList from '../../../components/widgets/CheckList.tsx';
+import Quiz from '../../../components/widgets/Quiz.tsx';
 
 ## 📌 Key takeaways
+
+> **The short answer:** You can. In medical students, **prefrontal** connections weakened by exam stress recovered a month after the stress ended, and <strong>a sense that "I can control this"</strong> mattered for withstanding stress. The way to build it is to practice daily, like building a muscle: writing down what you are grateful for, regular aerobic exercise, and finding small actions you can change.
 
 - 🧠 **Resilience** is the strength of mind that brings you back to where you were, or higher, after hardship. In his Korean book *Resilience* (회복탄력성), Professor Kim Joo-hwan describes it through three pillars, **self-regulation, relationships and positivity**, and stresses that, like a muscle, **it can be trained**.
 - 🚨 In the moment you feel you might fall apart, the **amygdala**, the brain's alarm, goes off and the **prefrontal cortex**, which handles judgement, briefly shuts down. Yet in medical students facing a major exam, weakened prefrontal connections **recovered a month later**, once the stress had passed (**PNAS**, 2009).
@@ -103,7 +108,7 @@ The message of this experiment is a gentle one. The mark stress leaves on the br
 
 The brain's neural circuits are a lot like the **routes** on a sat-nav. If, every time you fail, you keep travelling the road that leads to "I can't do it," that road gradually widens into a **motorway**. The next time something similar happens, the brain takes that motorway automatically.
 
-<!-- related-link -->
+{/* related-link */}
 Like resilience of the mind, the brain has its own resilience. Read about the hippocampus's memory-protecting strength in the [**PLA2G2F study on the hippocampus's backup generator**](/en/blog/the-brains-backup-generator-enzyme-pla2g2f-memory-resilience/).
 
 But just as a sat-nav **recalculates a new route** around a blocked road, the brain can lay new roads too. As in **Hebb's rule**, "neurons that fire together wire together," repeating the thought "what could I change this time?" gradually widens a circuit that started as a narrow path. This ability of circuits to rewire with experience is called **neuroplasticity**. Training resilience, in the end, means **adding more route options** the brain can choose from when hardship strikes.
@@ -128,6 +133,8 @@ Positivity isn't just feeling good. According to psychologist Barbara Fredrickso
 
 Gratitude leaves a trace in the brain too. Among people receiving psychological counselling, those who wrote gratitude letters for three weeks showed, in brain scans **three months later**, a more sensitive response in the **medial prefrontal cortex** when expressing gratitude (Kini et al., **NeuroImage**, 2016). Practising gratitude had laid a road in the brain that lasted.
 
+<Quiz client:visible lang="en" question="What happened to the prefrontal connections that weakened in medical students under exam stress?" options={["They stayed permanently weakened","They recovered a month after the stress ended","They grew stronger during the exam"]} answer={1} explain="Prefrontal connections weakened by exam stress recovered a month after the stress ended (Liston et al., PNAS, 2009). A control room that switched off can switch back on." />
+
 ## 🎓 Resilience, achievement and learning
 
 ### A different brain for mistakes
@@ -150,6 +157,10 @@ Understanding something new, holding it in memory and making plans are all the p
 2. <strong>🏃 Step 2: Wake up BDNF with exercise (3 times a week, 30–40 minutes).</strong> Try aerobic exercise that leaves you slightly out of breath, such as brisk walking or light jogging. <strong>BDNF (brain-derived neurotrophic factor)</strong>, often called fertiliser for the brain, is a protein essential for building new neural connections, and it rises with exercise. When **120** older adults walked three times a week for a year, the **hippocampus**, the brain's memory hub, <strong>grew by about 2%</strong>, and greater growth went with higher blood BDNF (Erickson et al., **PNAS**, 2011). An analysis pooling more than 1,000 clinical trials also found that physical activity clearly reduced depression, anxiety and psychological distress (Singh et al., **British Journal of Sports Medicine**, 2023). It's as if your body delivers the building materials for laying new roads.
 3. <strong>🎯 Step 3: Find a small sense of control and name your feelings (1 minute, whenever something hard happens).</strong> Fold a sheet of paper in half. On one side write "what I can't change," on the other "what I can change." Then, from the side you can change, pick **the smallest action you can take today**. At the same time, **name your current feeling in one word**, such as "hurt" or "anxious." Simply putting feelings into words reduced the amygdala's response and activated the prefrontal cortex (Lieberman et al., **Psychological Science**, 2007). It's one minute to turn down the alarm and switch the control-room lights back on.
 
+First, check where you stand right now. For each item you select, you'll see something you can try right away.
+
+<CheckList client:visible lang="en" title="Where is your resilience weakest?" items={["When something hard happens, I get swept up in emotion and react right away","When I make a mistake, my first thought is 'I'm just no good'","When things are hard, I can't think of anyone to talk to","I struggle to remember anything I felt grateful for lately","I've barely had a day this week where I moved enough to get out of breath"]} tips={["When an emotion rises, name it in one word, such as 'I'm anxious right now.' Naming it alone can give you a moment's pause.","Fold a sheet of paper in half, list what you can't change and what you can, and do the smallest action on the 'can change' side today.","Pick one person to contact this week, and send even a short message to check in.","For five minutes before bed, write down three things you were grateful for today, in enough detail to picture them.","Start with brisk walking for 30–40 minutes, three times a week."]} note="This is a checklist for reflection, not a diagnostic tool. If lethargy or low mood lasts more than two weeks or daily life becomes hard to manage, talk to a professional. Nothing is saved." />
+
 | Step | What to do | When and how much | Pillar of resilience strengthened | What happens in the brain |
 | --- | --- | --- | --- | --- |
 | 1. Gratitude | Three things you're grateful for; a thank-you letter once a month | 5 minutes before bed | Positivity (gratitude, life satisfaction) | **Medial prefrontal cortex** stays more sensitive; thinking broadens |
@@ -157,6 +168,10 @@ Understanding something new, holding it in memory and making plans are all the p
 | 3. Control and labelling | The smallest action you can change; name your feeling in one word | 1 minute, whenever something is hard | Self-regulation (emotion regulation, causal analysis) | **Prefrontal cortex** switches on, the **amygdala** alarm quiets |
 
 None of these steps is grand. Resilience is a muscle that grows through **small repetitions** rather than big resolutions.
+
+## Conclusion
+
+What got me back on my feet that night when I nearly fell apart wasn't some grand resolution. The resilience the research describes isn't an inborn personality trait either; it's a process in which a control room switched off by stress turns back on, and a sense that "there's something I can change" protects the brain. Writing down what you're grateful for, moving enough to get out of breath, and choosing the smallest action you can change: build these up a little every day, like a muscle. Tonight before bed, start by writing down three things you were grateful for.
 
 ## 🙋 Frequently asked questions
 
