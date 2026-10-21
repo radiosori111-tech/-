@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 번아웃과 의지력",
+  "name": "번아웃과 의지력 카드뉴스",
+  "post": "/blog/의지로-버티다-번아웃-온-분들-보세요-뇌는-설득이-아니라-스위치를-켜는-겁니다/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 번아웃",
+      "title": "번아웃,\n==의지로 이겨낼까?==",
+      "size": "md",
+      "sub": "다짐보다 환경을 바꾼 쪽이\n효과가 컸다",
+      "heroNumber": "2×"
+    },
+    {
+      "type": "statement",
+      "kicker": "매일 아침 마음을 다잡았지만",
+      "title": "왜 더\n지쳐 갔을까?",
+      "sub": "달라진 건 다짐이 아니라\n==생활의 조건==을 바꾸면서였습니다.",
+      "note": "번아웃은 성격이 아니라 일과의 관계에서 생깁니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "번아웃의 세 얼굴",
+      "title": "번아웃은\n==세 가지==로 나타납니다",
+      "size": "md",
+      "items": [
+        { "title": "소진", "text": "몸과 마음의 ==에너지가 바닥==납니다." },
+        { "title": "냉소", "text": "일과 사람에게서 ++마음이 멀어집니다++." },
+        { "title": "효능감 저하", "text": "애써도 !!잘 해낼 수 없다!!고 느낍니다." }
+      ],
+      "source": "Maslach & Leiter, World Psychiatry (2016)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "다짐보다\n==조건 바꾸기==",
+      "size": "md",
+      "items": [
+        { "value": "2×", "label": "일의 조건을 바꾼 개입", "detail": "개인 대상보다 효과 큼" },
+        { "value": "94편", "label": "만약-그러면 계획 연구", "detail": "목표만보다 더 실천" }
+      ],
+      "note": "광유전학 노벨상이 일상 루틴을 증명한 것은 아닙니다.",
+      "source": "Panagioti et al., JAMA Intern Med (2017) · Gollwitzer & Sheeran (2006)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "조건을 바꾸는\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "이번 주", "title": "조건 하나 덜어 내기", "text": "업무량·일정·알림 중 하나", "hot": true },
+        { "time": "하루 하나", "title": "만약-그러면 문장", "text": "점심 먹으면 10분 걷기" },
+        { "time": "매일 아침", "title": "햇볕과 가벼운 걷기", "text": "생체시계 맞추기" }
+      ],
+      "source": "Panagioti (2017) · Gollwitzer (2006) · Berson et al., Science (2002)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==나를 지치게 하는 조건==을\n점검해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "지친 날\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "버티고 있는\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "점검표와\n참고 문헌 12편" }
+      ]
+    }
+  ]
+}
