@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 피곤할 때 운동",
+  "name": "피곤할 때 운동 카드뉴스",
+  "post": "/blog/육체적으로-이미-지쳤는데-운동을-하면-더-피곤해지지-않을까요-뇌를-깨우는-메커니즘을-소개합니다/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 피로와 운동",
+      "title": "피곤할 때 운동하면\n==더 피곤할까?==",
+      "size": "md",
+      "sub": "가볍게 하면\n피로가 줄었다",
+      "heroNumber": "6주"
+    },
+    {
+      "type": "statement",
+      "kicker": "이미 지쳤는데 운동하면",
+      "title": "피해야 할 건\n==높은 강도==입니다",
+      "sub": "대화할 수 있을 만큼 가볍게 하면\n==피로가 줄고 활력이 늘었습니다==.",
+      "note": "지친 날의 정답은 운동을 쉬는 것이 아니라 가볍게 하는 것입니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 가벼운 운동",
+      "title": "가벼운 운동의\n==세 가지 효과==",
+      "size": "md",
+      "items": [
+        { "title": "피로감", "text": "6주 저강도 운동으로 ==피로가 더 크게 줄었습니다==." },
+        { "title": "쪼개 걷기", "text": "매시간 5분 걷자 ++하루 활력++이 좋았습니다." },
+        { "title": "10분 달리기", "text": "!!전전두엽!!이 깨어나 집중이 좋아졌습니다." }
+      ],
+      "source": "Puetz et al. (2008) · Bergouignan et al. (2016) · Damrongthai et al., Sci Rep (2021)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "시간과 강도의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "5분", "label": "매시간 걷기", "detail": "오후 피로를 덜 느낌" },
+        { "value": "10분", "label": "중간 강도 달리기", "detail": "기분·집중력이 좋아짐" }
+      ],
+      "note": "코르티솔은 중간 강도 이하에서는 거의 오르지 않았습니다.",
+      "source": "Bergouignan (2016) · Damrongthai (2021) · Hill et al. (2008)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "지친 날 운동\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "강도", "title": "대화할 수 있을 만큼", "text": "숨이 차면 걷기로", "hot": true },
+        { "time": "시간", "title": "쉬는 시간 10~15분", "text": "또는 매시간 5분" },
+        { "time": "기간", "title": "6주를 목표로", "text": "일주일에 3회 이상" }
+      ],
+      "source": "Hill (2008) · Puetz (2008) · Damrongthai (2021)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==지친 날 운동법==을\n확인해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "지친 날\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "늘 피곤한\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "확인 퀴즈와\n참고 문헌 10편" }
+      ]
+    }
+  ]
+}
