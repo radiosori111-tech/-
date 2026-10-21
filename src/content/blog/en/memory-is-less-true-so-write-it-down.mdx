@@ -5,7 +5,7 @@ lang: "en"
 translationOf: "기억은-덜-진실하다-그러니-기록하자"
 description: "Because memories are rebuilt each time we recall them. Drawing on a study where 9/11 memories changed within months while confidence stayed put (Psychological Science, 2003) and an experiment where one word in a question changed memory, here is how it works, and three steps for why writing things down is the most reliable reference."
 date: "2023-01-09T02:32:30+09:00"
-updated: "2026-10-20T19:00:00+09:00"
+updated: "2026-10-21T13:30:00+09:00"
 tags: ["memory distortion", "autobiographical memory", "flashbulb memory", "reconsolidation", "journaling", "expressive writing", "brain science"]
 comic:
   title: "Memory is less true"
@@ -31,6 +31,8 @@ comic:
       alt: "A brain with an even wave and a slowly beating heart"
       caption: "People who wrote about a hard experience for a few days later made fewer <strong>health center visits</strong> (1986)."
 ---
+import RoutineSteps from '../../../components/widgets/RoutineSteps.tsx';
+import Quiz from '../../../components/widgets/Quiz.tsx';
 
 ## 📌 Key takeaways
 
@@ -69,7 +71,7 @@ Remembering the moment you heard about a major event as if it were a photograph 
 
 **Emotion makes memories stronger.** In emotionally intense moments, the **amygdala** helps the hippocampus store memories so they last longer (McGaugh, **Annual Review of Neuroscience**, 2004). But lasting and being accurate are two different things. The feeling of "I'm sure" doesn't guarantee a memory's accuracy.
 
-<!-- related-link -->
+{/* related-link */}
 There's one more time of day that protects memory along with writing: sleep. Read [**How the brain sorts memories while we sleep**](/en/articles/sleep-memory/) as well.
 
 ### 3. Can one word in a question change a memory?
@@ -100,6 +102,8 @@ This is called **reconsolidation**. At the moment of retrieval, a memory briefly
 | Do records help memory? | Recorded cues brought back forgotten memories | Six-year diary study (1986) |
 | Does writing help the mind? | After writing about hard experiences, health center visits fell | Human experiment (1986), meta-analysis (1998) |
 
+<Quiz client:visible lang="en" question="Students who wrote down their memories the day after 9/11: what happened months later?" options={["Details changed, but their confidence stayed high", "Their memories were exactly the same", "Their confidence dropped sharply"]} answer={0} explain="Months later the details had changed as much as everyday memories, but confidence in the memories stayed high (Talarico & Rubin, Psychological Science, 2003)." />
+
 ## The plan: 3 steps to trust records over memory
 
 **Step 1. Write facts and feelings separately, on the same day**
@@ -110,6 +114,10 @@ If something hard happened, write honestly about your thoughts and feelings for 
 
 **Step 3. Revisit what you wrote now and then**
 Once a week or a month, cover your notes, recall the events first, then compare with what you wrote. Recall practice makes memories last, and it also shows you where your memory has drifted.
+
+Tap each of the three steps below to see what to do and how much.
+
+<RoutineSteps client:visible lang="en" title="3 steps to trust records over memory" steps={["Same-day notes", "Expressive writing", "Recall again"]} times={["On days when something important happens; five minutes is enough", "15 minutes a day, over a few days", "Once a week or a month"]} how={["Write facts (who, what, where, when) and feelings separately. Memories changed within months, and recorded cues brought them back", "Write about thoughts and feelings regarding a hard experience. Health center visits fell after writing", "Cover your notes, recall first, then compare. Students who practiced recall remembered more"]} note="An example based on this post's solution table. If you have a medical condition or take medication, check with your doctor first." />
 
 | Step | What | How much | Evidence | What the evidence showed |
 | --- | --- | --- | --- | --- |

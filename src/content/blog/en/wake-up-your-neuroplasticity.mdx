@@ -5,7 +5,7 @@ lang: "en"
 translationOf: "뇌가소성을-깨워라"
 description: "The best-supported ways are moving your body, sleeping enough, and seeking out new experiences. Here is the research on running and new neurons (Nature Neuroscience, 1999) and sleep and synapses (Science, 2014), plus how far the evidence on gut health really goes."
 date: "2023-01-04T18:37:32+09:00"
-updated: "2026-10-20T17:00:00+09:00"
+updated: "2026-10-21T13:30:00+09:00"
 tags: ["neuroplasticity", "how to boost neuroplasticity", "exercise and the brain", "sleep and memory", "gut-brain axis", "brain science"]
 comic:
   title: "Wake up your neuroplasticity"
@@ -31,6 +31,8 @@ comic:
       alt: "A person climbing steps one at a time toward a flag at the top"
       caption: "New paths form slowly at first. Give your brain time to adapt and keep at it <strong>steadily</strong>."
 ---
+import RoutineSteps from '../../../components/widgets/RoutineSteps.tsx';
+import Quiz from '../../../components/widgets/Quiz.tsx';
 
 ## 📌 Key takeaways
 
@@ -69,7 +71,7 @@ A team at Tel Aviv University had people learn a new route in a computer racing 
 
 But for fast changes to become lasting ones, repetition is needed. The study showing that gray matter changes became clear only after three months of juggling practice, and shrank back once practice stopped, is covered in detail in [What is neuroplasticity? Proof adult brains change](/en/blog/the-secret-of-success/). A new path starts out faint, like a trail. The brain's slowness to accept unfamiliar change is partly a mechanism that protects us, so just as it takes time to become a couple, the brain needs time to adapt. Keep going steadily, like Sakuragi in *Slam Dunk*, and the path will become solid.
 
-<!-- related-link -->
+{/* related-link */}
 One of the closest everyday ingredients for waking up plasticity is the words you use every day. Read [**The neuroscience of how speech habits rewire the brain**](/en/blog/one-word-rewires-the-brain-neuroplasticity-and-speech-habits/) as well.
 
 ### 3. Why is movement the most reliable method?
@@ -111,6 +113,8 @@ When constant worry shapes the brain in that direction, that's plasticity; when 
 | Is sleep necessary? | Sleeping after learning led to more new synapses | Animal study (Science, 2014), human study (2007) |
 | Does gut health boost neuroplasticity? | **The gut and brain are connected, but evidence in people is still lacking** | Mostly animal studies (Physiological Reviews, 2019) |
 
+<Quiz client:visible lang="en" question="How long did it take for measurable changes to appear in hippocampal structure after practicing a new task?" options={["2 hours", "2 weeks", "2 years"]} answer={0} explain="After 2 hours of practicing a new task, measurable changes appeared in hippocampal structure (Sagi et al., Neuron, 2012)." />
+
 ## The plan: 3 steps to wake up neuroplasticity
 
 **Step 1. Move your body every day**
@@ -121,6 +125,10 @@ What you learn gets engraved as synapses while you sleep. Adults are advised to 
 
 **Step 3. Add new stimulation and take away stress**
 Add one **unfamiliar experience** a week, such as walking a route you've never taken, trying a new hobby, or talking with someone new. And if you're in a stretch of ongoing stress, remember that it can leave a mark on the brain but **is reversible**, and put rest into your schedule first.
+
+Tap each of the three steps below to see what to do and how much.
+
+<RoutineSteps client:visible lang="en" title="3 steps to wake up neuroplasticity" steps={["Movement", "Sleep", "New stimulation"]} times={["40 minutes three times a week, or start with 10–15 minutes a day", "7 hours or more a night for adults", "One new thing a week"]} how={["Do aerobic exercise such as brisk walking. The hippocampus grew about 2%, and new neurons increased", "Sleep well on days you learn. More new synapses formed after sleep", "Add unfamiliar experiences and protect your rest. Neurons increased in an enriched environment, and stress effects recovered"]} note="An example based on this post's solution table. If you have a medical condition or take medication, check with your doctor first." />
 
 | Step | What | How much | Evidence | What the evidence showed |
 | --- | --- | --- | --- | --- |

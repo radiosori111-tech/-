@@ -5,7 +5,7 @@ lang: "en"
 translationOf: "BDNF-뇌-유래-신경영양인자-너의-정체는-뭐니"
 description: "BDNF is a protein that helps nerve cells survive and connect. Here is how it relates to memory, appetite, and exercise, why \"more is better\" is a myth, per Cell, NEJM, and PNAS studies, and 3 evidence-based steps to raise it."
 date: "2023-02-01T13:12:32+09:00"
-updated: "2026-10-20T16:00:00+09:00"
+updated: "2026-10-21T13:30:00+09:00"
 tags: ["BDNF", "brain-derived neurotrophic factor", "what is BDNF", "hippocampus", "resilience", "exercise and the brain", "brain science"]
 comic:
   title: "BDNF, what are you?"
@@ -31,6 +31,8 @@ comic:
       alt: "A brain with an even wave and a slowly beating heart"
       caption: "BDNF does different jobs in different brain areas, so <strong>balance</strong> matters more than \"the more the better.\""
 ---
+import RoutineSteps from '../../../components/widgets/RoutineSteps.tsx';
+import Quiz from '../../../components/widgets/Quiz.tsx';
 
 ## 📌 Key takeaways
 
@@ -68,7 +70,7 @@ There are similar clues in people. The BDNF gene has a common variant called **V
 
 > In my original post I wrote that "people with a variant that expresses BDNF at high levels have a sturdy brain and a large hippocampus." Looking at the research again, the accurate version is: "**people with a variant (Met) that releases BDNF less well during activity tended to have lower memory scores and a slightly smaller hippocampus.**" Still, the effect of such variants is small, and results differ between studies.
 
-<!-- related-link -->
+{/* related-link */}
 Now that you know what BDNF is, your next question is probably how to raise it. Continue with [**How to increase BDNF**](/en/blog/how-to-increase-bdnf-exercise-food-reading-meditation-sleep-evidence-and-duration/), which gathers the evidence on exercise, food, sleep, and sunlight.
 
 ### 3. Is it true that BDNF is linked to appetite?
@@ -106,6 +108,8 @@ BDNF isn't a body-wide "good stuff level" that you simply push up. It is **a sig
 | Does exercise raise it? | BDNF released from the brain rose during exercise | Human study (Experimental Physiology, 2009), meta-analysis (2015) |
 | Is more always better? | **Its role differs by brain area, so we can't say so** | Animal study (Cell, 2007) |
 
+<Quiz client:visible lang="en" question="What changed in the hippocampus of mice lacking the BDNF gene?" options={["Long-term potentiation (LTP), the basis of memory, weakened", "Their memory improved", "Nothing changed"]} answer={0} explain="Mice lacking the BDNF gene showed weaker long-term potentiation, the basis of memory, in the hippocampus (Korte et al., PNAS, 1995)." />
+
 ## The plan: 3 evidence-based steps to raise BDNF
 
 **Step 1. Start with 40-minute walks, three times a week**
@@ -116,6 +120,10 @@ A study analyzing the blood of more than 2,800 Dutch adults found that blood BDN
 
 **Step 3. Stay connected to people**
 Older adults who felt very lonely had about twice the risk of Alzheimer's disease of those who didn't (Wilson et al., **Archives of General Psychiatry**, 2007). This study didn't measure BDNF directly, but it shows how much social contact matters for protecting the brain. Walking with someone is a good way to combine the steps.
+
+Tap each of the three steps below to see what to do and how much.
+
+<RoutineSteps client:visible lang="en" title="3 evidence-based steps to raise BDNF" steps={["Aerobic exercise", "Daylight", "Social connection"]} times={["Start with 40 minutes, three times a week", "Take your walk outdoors in daylight", "Make time to walk or talk together"]} how={["Brisk walking or light running. The hippocampus grew about 2%, and blood BDNF rose after exercise", "Go outside during the day. More hours of sunlight went with higher blood BDNF", "Keep in regular touch with family and friends. Greater loneliness went with higher Alzheimer's risk"]} note="An example based on this post's solution table. If you have a medical condition or take medication, check with your doctor first." />
 
 | Step | What | How much | Evidence | What the evidence showed |
 | --- | --- | --- | --- | --- |

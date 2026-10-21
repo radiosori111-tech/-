@@ -5,7 +5,7 @@ lang: "en"
 translationOf: "플라세보가-진짜-존재하는지-알아보기"
 description: "Short answer: yes. Sham surgery did as well as real knee surgery (NEJM, 2002), and expectation changed how the brain processes pain. Here is how the placebo effect works, and 3 steps for facing pain."
 date: "2022-12-29T16:03:34+09:00"
-updated: "2026-10-20T15:00:00+09:00"
+updated: "2026-10-21T13:30:00+09:00"
 tags: ["placebo effect", "pain", "expectation", "learned helplessness", "endorphins", "The Painful Truth", "Monty Lyman", "neuroscience"]
 image: "/images/blog/babdbca233/01.webp"
 comic:
@@ -32,6 +32,8 @@ comic:
       alt: "A brain with even waves and a slowly beating heart"
       caption: "Read pain as <strong>an alarm that protects you</strong>, and start with one small thing you can control."
 ---
+import RoutineSteps from '../../../components/widgets/RoutineSteps.tsx';
+import Quiz from '../../../components/widgets/Quiz.tsx';
 
 ## 📌 Key takeaways
 
@@ -84,7 +86,7 @@ Fabrizio Benedetti of the University of Turin and colleagues pulled such finding
 
 Fifty years later, Seligman and Steven Maier revised that interpretation using brain research (Maier & Seligman, **Psychological Review**, 2016). Passivity, they argue, is less something learned than the brain's default reaction to prolonged bad events; what the brain learns is **the sense that "I can control this,"** which takes hold as the **prefrontal cortex** dampens the stress response. Seen this way, my original conclusion that **expectation and hope move the brain** points in the same direction as the research.
 
-<!-- related-link -->
+{/* related-link */}
 If belief has a way of reaching the body, the words you tell yourself have their own way of reaching the brain. See [**affirmations that actually reach the brain**](/en/blog/why-affirmations-fail-even-after-1000-times-brain-science/).
 
 ### 5. Summary: what placebo does and doesn't do
@@ -96,6 +98,8 @@ If belief has a way of reaching the body, the words you tell yourself have their
 | Does expectation change pain areas? | Activity in pain-processing areas went down | Brain imaging (Science, 2004) |
 | Does a placebo work if you know it's fake? | For some symptoms, such as irritable bowel syndrome, it did | Randomized controlled trial (PLoS ONE, 2010) |
 | Can placebo cure disease itself? | **There's no evidence it does.** It mainly changes symptoms you feel | Body of research |
+
+<Quiz client:visible lang="en" question="When people were given a drug that blocks the painkiller endorphins, what happened to placebo pain relief?" options={["It disappeared", "It doubled", "It stayed the same"]} answer={0} explain="When a drug blocking endorphins was given, placebo pain relief disappeared (Levine et al., Lancet, 1978). It means the brain was drawing on its own painkillers." />
 
 ## The plan: three steps for facing pain
 
@@ -109,6 +113,10 @@ The key to undoing helplessness is **the experience of control**. Choose somethi
 
 **Step 3. Hold accurate expectations about treatment**
 Asking what a treatment does and understanding it replaces vague worry with **accurate expectation**. But never delay or stop needed treatment because of placebo. Expectation is a force that helps treatment work, not one that replaces it.
+
+Tap each of the three steps below to see what to do and how much.
+
+<RoutineSteps client:visible lang="en" title="three steps for facing pain" steps={["Reread", "Control", "Expect"]} times={["Say \"This is a signal to protect me\"", "Do a 5-minute walk, a compress or a stretch daily", "Ask your clinician about its purpose and process"]} how={["Understand pain as the body's alarm. Pain neuroscience education helped reduce pain and disability", "Choose a small action you can do yourself. Experiences of control built the brain's path for dampening stress", "Understand treatment and expect accurately. Expectation lowered activity in the brain's pain areas"]} note="An example based on this post's solution table. If you have a medical condition or take medication, check with your doctor first." />
 
 | Step | What | How | Evidence | What the evidence showed |
 | --- | --- | --- | --- | --- |

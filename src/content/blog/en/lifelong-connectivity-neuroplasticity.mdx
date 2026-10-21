@@ -5,7 +5,7 @@ lang: "en"
 translationOf: "일생동안의-연계성-뇌가소성"
 description: "Yes, the brain changes throughout life. Here is the research: medical students' hippocampi grew while studying for an exam (J Neurosci, 2006), exercise started in one's 60s increased brain volume, and therapy that changes thinking changed brain circuits, plus the open debate over new neurons in adult brains."
 date: "2023-01-06T20:51:36+09:00"
-updated: "2026-10-20T18:00:00+09:00"
+updated: "2026-10-21T13:30:00+09:00"
 tags: ["neuroplasticity", "adult neuroplasticity", "neurogenesis", "hippocampus", "emotion regulation", "mindfulness", "brain science"]
 comic:
   title: "A brain that changes for life"
@@ -31,6 +31,8 @@ comic:
       alt: "A brain with an even wave and a slowly beating heart"
       caption: "Practicing seeing thoughts differently changes activity in the <strong>circuits</strong> linking emotion and judgment."
 ---
+import RoutineSteps from '../../../components/widgets/RoutineSteps.tsx';
+import Quiz from '../../../components/widgets/Quiz.tsx';
 
 ## 📌 Key takeaways
 
@@ -66,7 +68,7 @@ Separate from the debate over new neurons, the evidence that **adult brain struc
 
 In other words, even adults in their mid-twenties reshape their brains to fit the task when they intensively learn a large amount of information. Not only physical skills like juggling but also **book learning** changes the brain. The juggling study is covered in [What is neuroplasticity? Three months of juggling changed adult brains](/en/blog/the-secret-of-success/).
 
-<!-- related-link -->
+{/* related-link */}
 Concrete everyday ways to wake up lifelong plasticity continue in [**Lifestyle habits that wake up neuroplasticity**](/en/blog/wake-up-your-neuroplasticity/).
 
 ### 3. Can exercise started later in life change the brain?
@@ -99,6 +101,8 @@ Simply changing how you think changes the brain's circuits. The practice of putt
 | Does the adult hippocampus make new neurons? | **Results differ between studies; still debated** | Postmortem brain tissue studies (1998–2019) |
 | Does mindfulness change brain structure? | **It did in a small study but not in larger randomized trials** | Human studies (2011, 2022) |
 
+<Quiz client:visible lang="en" question="What changed in the brains of medical students within three months of preparing for a big exam?" options={["Gray matter in the posterior hippocampus and parietal lobe increased", "The hippocampus shrank", "Nothing changed"]} answer={0} explain="Within three months, medical students preparing for an exam showed more gray matter in the posterior hippocampus and parietal lobe, and the change remained three months after the exam (Draganski et al., Journal of Neuroscience, 2006)." />
+
 ## The plan: 3 steps to keep changing your brain for life
 
 **Step 1. Create a period of focused learning**
@@ -109,6 +113,10 @@ People who started in their 60s gained brain volume in six months. Begin with ex
 
 **Step 3. Reinterpret emotions when they surge**
 When something upsets you, ask yourself, "How would someone else see this situation?" The practice of **looking at the same facts from a different angle** uses the circuits through which the prefrontal cortex regulates emotion. If depression or anxiety persists and is hard to handle alone, evidence-based therapy such as CBT is also a way to change your brain.
+
+Tap each of the three steps below to see what to do and how much.
+
+<RoutineSteps client:visible lang="en" title="3 steps to keep changing your brain for life" steps={["Focused learning", "Aerobic exercise", "Reinterpreting"]} times={["Keep at it for a few months", "Several times a week, for six months or more", "Each time something upsets you"]} how={["Pick one learning goal with a clear target. After three months of study, hippocampal and parietal gray matter increased", "Start brisk walking. Frontal and temporal volume increased in 60- to 79-year-olds", "Look from another angle when emotions surge. Amygdala activity dropped, and circuit activity shifted after therapy"]} note="An example based on this post's solution table. If you have a medical condition or take medication, check with your doctor first." />
 
 | Step | What | How much | Evidence | What the evidence showed |
 | --- | --- | --- | --- | --- |

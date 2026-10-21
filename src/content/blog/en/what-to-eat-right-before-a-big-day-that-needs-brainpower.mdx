@@ -5,7 +5,7 @@ lang: "en"
 translationOf: "두뇌활성이-필요한-중요한-날엔-직전에-뭘-먹을까"
 description: "After a high-flavanol cocoa drink, people did better on math tasks and felt less mentally tired (2010), but store-bought chocolate is different. Here is what to eat and what to skip right before an exam or interview, in 3 research-based steps."
 date: "2023-02-07T21:09:21+09:00"
-updated: "2026-10-20T15:00:00+09:00"
+updated: "2026-10-21T13:30:00+09:00"
 tags: ["food before an exam", "food before an interview", "dark chocolate", "cocoa flavanols", "focus foods", "nuts", "vitamin B", "brain health"]
 image: "/images/blog/41b4bcfe15/01.webp"
 comic:
@@ -32,6 +32,8 @@ comic:
       alt: "Lines of sight converging on one point, thoughts coming into focus"
       caption: "If you like, add a square or two of <strong>high-cocoa dark chocolate</strong>. Just know it isn't magic."
 ---
+import RoutineSteps from '../../../components/widgets/RoutineSteps.tsx';
+import Quiz from '../../../components/widgets/Quiz.tsx';
 
 ## 📌 Key takeaways
 
@@ -75,7 +77,7 @@ What these results show is not "chocolate makes you smart" but that **flavanol-r
 
 So chocolate isn't a **secret weapon** for a big day; it's more accurately **an optional extra** for people it already agrees with.
 
-<!-- related-link -->
+{/* related-link */}
 If you're deciding what to eat before an important day, knowing how blood sugar and insulin move after a meal makes it easier. Read [**what insulin does and how to use it wisely**](/en/blog/what-does-insulin-do-and-how-to-use-it-wisely/).
 
 ### 4. What about nuts and vitamin B?
@@ -94,6 +96,8 @@ If you're deciding what to eat before an important day, knowing how blood sugar 
 | Vitamin B supplements | Little evidence for taking them right before unless deficient | Nutrients (2016) |
 | Water | Drinking when thirsty sped up reaction times | Front Hum Neurosci (2013) |
 
+<Quiz client:visible lang="en" question="People who ate flavanol-rich dark chocolate did better on what, two hours later?" options={["A spatial working memory task", "A foreign vocabulary test", "There was no difference"]} answer={0} explain="Two hours after eating flavanol-rich dark chocolate, people did better on a spatial working memory task (Field et al., Physiology & Behavior, 2011). But store-bought chocolate differs from what was used in the study." />
+
 ## The plan: 3 steps for eating on a big day
 
 **Step 1. Dinner the night before and breakfast that morning: as usual**
@@ -104,6 +108,10 @@ Rather than going in on an empty stomach, have a little **easy-to-digest carbohy
 
 **Step 3. If you like, a square or two of dark chocolate**
 If chocolate usually agrees with you, add a square or two of **high-cocoa dark chocolate**. If you don't normally eat it, an important day is not the time to start. The same goes for coffee: don't go beyond your usual amount.
+
+Tap each of the three steps below to see what to do and how much.
+
+<RoutineSteps client:visible lang="en" title="3 steps for eating on a big day" steps={["As usual", "Light + water", "Dark chocolate"]} times={["The night before and that morning", "1–2 hours before", "Only if it usually agrees with you"]} how={["Eat a familiar meal that sits well. Unfamiliar food can cause unexpected discomfort", "Have a little easy-to-digest carbohydrate and a glass of water. Glucose tended to help memory tasks, and water sped up reactions", "Add a square or two of high-cocoa chocolate. Flavanol-rich cocoa helped some cognitive functions within hours"]} note="An example based on this post's solution table. If you have a medical condition or take medication, check with your doctor first." />
 
 | Step | What | When | Evidence | What the evidence showed |
 | --- | --- | --- | --- | --- |
