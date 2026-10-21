@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 자연 산책과 뇌",
+  "name": "자연 산책과 뇌 카드뉴스",
+  "post": "/blog/뇌과학으로-배우는-자연-치유-15분-습관이-뇌를-재부팅하는-이유/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 자연 산책",
+      "title": "자연 속 산책,\n==뇌에 정말 좋을까?==",
+      "size": "md",
+      "sub": "20분 만에\n스트레스 호르몬이 줄었다",
+      "heroNumber": "20분"
+    },
+    {
+      "type": "statement",
+      "kicker": "오후마다 같은 문장을 다시 읽는다면",
+      "title": "애써 집중하는 주의는\n==지칩니다==",
+      "sub": "나뭇잎, 물소리처럼\n힘들이지 않는 자극이 쉴 틈을 줍니다.",
+      "note": "이것을 주의 회복 이론이라고 합니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 자연 산책",
+      "title": "자연이 준\n==세 가지 효과==",
+      "size": "md",
+      "items": [
+        { "title": "주의력", "text": "공원을 걷자 ==주의력 점수가== 더 올랐습니다." },
+        { "title": "스트레스", "text": "20~30분에 ++코르티솔++이 가장 잘 줄었습니다." },
+        { "title": "반추", "text": "90분 산책 뒤 !!곱씹는 생각!!이 줄었습니다." }
+      ],
+      "source": "Berman et al. (2008) · Hunter et al. (2019) · Bratman et al., PNAS (2015)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "자연과 뇌의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "21%", "label": "시간당 코르티솔 추가 감소", "detail": "20~30분이 가장 효율적" },
+        { "value": "120분", "label": "일주일 자연 시간", "detail": "건강·행복감이 더 높았음" }
+      ],
+      "note": "화분이 공기를 정화한다는 말은 근거가 약했습니다.",
+      "source": "Hunter et al. (2019) · White et al., Sci Rep (2019)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "일주일 120분\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "하루 20분", "title": "초록 길 걷기", "text": "휴대폰은 가방에", "hot": true },
+        { "time": "흐려질 때", "title": "40초 창밖 보기", "text": "나무, 하늘, 화분" },
+        { "time": "일주일", "title": "합계 120분 채우기", "text": "몰아서 해도 괜찮아요" }
+      ],
+      "source": "Hunter (2019) · Lee et al. (2015) · White et al. (2019)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==일주일 120분 계획==을\n따라 해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "점심 산책 전에\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "지친 동료에게\n보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "주간 계획과\n참고 문헌 10편" }
+      ]
+    }
+  ]
+}
