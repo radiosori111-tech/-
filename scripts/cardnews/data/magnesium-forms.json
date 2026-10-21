@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 마그네슘 종류",
+  "name": "마그네슘 종류 카드뉴스",
+  "post": "/blog/마그네슘-유기염-무기염-킬레이트-흡수율-글루타치온-기억력/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 마그네슘",
+      "title": "마그네슘 종류,\n==뭘 먹어야 할까?==",
+      "size": "md",
+      "sub": "산화마그네슘은\n흡수율이 4%였다",
+      "heroNumber": "4%"
+    },
+    {
+      "type": "statement",
+      "kicker": "약국 진열대 앞에서",
+      "title": "문제는 마그네슘이 아니라\n==형태==였습니다",
+      "sub": "어떤 분자와 짝지어졌는지에 따라\n==흡수율과 쓰임==이 달라집니다.",
+      "note": "마그네슘을 필요로 하는 효소는 600종이 넘습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "목적별 마그네슘",
+      "title": "목적에 맞는\n==세 가지 형태==",
+      "size": "md",
+      "items": [
+        { "title": "산화마그네슘", "text": "흡수가 적어 ==변비==에 쓰입니다." },
+        { "title": "구연산·글루콘산", "text": "++효율적인 보충++에 좋습니다." },
+        { "title": "글리시네이트", "text": "장이 예민하거나 !!저녁에 먹을 때!! 무난합니다." }
+      ],
+      "source": "Magnesium Research (2001, 2003) · de Baaij et al., Physiol Rev (2015)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "마그네슘의\n==숫자==",
+      "size": "md",
+      "items": [
+        { "value": "350mg", "label": "보충제 하루 상한", "detail": "음식 속 마그네슘은 제외" },
+        { "value": "2시간", "label": "칼슘·철분과 간격", "detail": "일부 항생제도 마찬가지" }
+      ],
+      "note": "L-트레온산의 기억력 효과는 쥐 연구이고, 사람 연구는 아직 작습니다.",
+      "source": "Slutsky et al., Neuron (2010) · 보충제 상한 섭취량(성인)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "마그네슘 쓰는 법\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "먼저", "title": "접시에서 채우기", "text": "잎채소·호박씨·콩·현미", "hot": true },
+        { "time": "다음", "title": "목적에 맞는 형태", "text": "원소 마그네슘 함량 확인" },
+        { "time": "늘", "title": "나눠 먹고 상한 지키기", "text": "보충제 하루 350mg 이하" }
+      ],
+      "source": "Magnesium Research (2001, 2003)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==나에게 맞는 마그네슘==을\n골라 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "약국 가기 전에\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "마그네슘 먹는\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "형태 고르기와\n참고 문헌 18편" }
+      ]
+    }
+  ]
+}
