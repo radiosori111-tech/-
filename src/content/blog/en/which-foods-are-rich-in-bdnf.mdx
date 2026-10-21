@@ -1,11 +1,11 @@
 ---
-title: "Which Foods Are Rich in BDNF? Sulforaphane, Flavonoids, Omega-3 and the Eating Patterns That Protect BDNF, Backed by Research"
+title: "Which Foods Are Rich in BDNF? It Turns Out Food Contains No BDNF"
 slug: "which-foods-are-rich-in-bdnf"
 lang: "en"
 translationOf: "BDNF가-많이들어있는-음식은"
 description: "Food doesn't actually contain BDNF. But some foods and eating patterns help your body make it. From sulforaphane in broccoli and flavonoids in cocoa and berries to omega-3, the Mediterranean diet, eating less and intermittent fasting, we sort the evidence into human and animal studies and suggest a three-step diet you can start today."
 date: "2023-02-06T22:55:41+09:00"
-updated: "2026-10-19T15:00:00+09:00"
+updated: "2026-10-21T10:40:00+09:00"
 tags: ["BDNF", "foods for BDNF", "BDNF diet", "sulforaphane", "flavonoids", "omega-3", "Mediterranean diet", "intermittent fasting", "brain health"]
 comic:
   title: "A table that supports BDNF"
@@ -31,8 +31,12 @@ comic:
       alt: "A brain with steady waves and a slowly beating heart"
       caption: "After three years on a Mediterranean diet, <strong>fewer people had low BDNF</strong> (<strong>Nutritional Neuroscience</strong>, 2011)."
 ---
+import CheckList from '../../../components/widgets/CheckList.tsx';
+import Quiz from '../../../components/widgets/Quiz.tsx';
 
 ## 📌 Key takeaways
+
+> **The short answer:** BDNF is a protein that gets broken down when you digest it, so no food actually contains usable BDNF. What exists instead are **eating patterns that help your body make BDNF**. In human studies, a **Mediterranean diet with nuts** and flavanol-rich **cocoa** were linked to higher BDNF; in animal studies, broccoli **sulforaphane**, blueberries, and **omega-3s** raised it, while diets high in refined sugar and saturated fat lowered it.
 
 - 🥦 First, a correction. **Food doesn't contain BDNF.** BDNF is a protein, so when you eat it, it gets digested and broken down. A "BDNF-rich food" is really a **food that helps your body make BDNF**.
 - 🧪 **Sulforaphane** from broccoli (**Molecular Nutrition & Food Research**, 2017), **flavonoids** from blueberries (**Free Radical Biology & Medicine**, 2008) and **omega-3** from fish (**Journal of Neurotrauma**, 2004) raised hippocampal BDNF in animal studies.
@@ -62,6 +66,8 @@ If BDNF is new to you, start with [BDNF, brain-derived neurotrophic factor: what
 Much of the research on food and BDNF is in **rats and mice**. Their diet can be controlled precisely, and their brains can be examined directly. Human studies, by contrast, mostly measure **BDNF in the blood**, which doesn't directly reflect BDNF in the brain. That's why this article states, for every food, **whether the evidence comes from people or from animals**.
 
 ![Table sorting foods and eating patterns by human versus animal evidence: the Mediterranean diet and cocoa flavanols have human evidence; blueberries, sulforaphane, omega-3 and eating less rest mainly on animal evidence; a high-fat, refined-sugar diet is one to avoid](/images/blog/bdnf-food/en-food-evidence.svg)
+
+<Quiz client:visible lang="en" question="Which statement about food and BDNF matches the research?" options={["BDNF in food goes straight to the brain","Some eating patterns help the body make BDNF","Intermittent fasting reliably raises BDNF in people"]} answer={1} explain="BDNF is a protein that is broken down during digestion. Eating patterns such as the Mediterranean diet or cocoa flavanols help the body make it, while human studies on intermittent fasting were mixed across 16 studies (Alkurd et al., Medicina, 2024)." />
 
 ---
 
@@ -108,9 +114,25 @@ Rats fed a diet high in saturated fat and refined sugar for **two months** had *
 
 During long exercise, the liver makes a ketone called **β-hydroxybutyrate**, and in mice this compound released the brakes on the BDNF gene and raised hippocampal BDNF (Sleiman et al., **eLife**, 2016). Because fasting and low-carb diets also raise ketones, this study gets a lot of attention. But it looked at ketones produced by **exercise**; whether raising ketones through diet increases BDNF in people hasn't been shown.
 
+### 4. Summary: the evidence by food and eating pattern
+
+| Food or eating pattern | What the research showed | Type of evidence |
+| --- | --- | --- |
+| Sulforaphane (broccoli, cabbage) | BDNF rose in the hippocampus and cortex | Animal (2017) |
+| Blueberries | Memory improved along with hippocampal BDNF | Animal (2008) |
+| Cocoa flavanols | Blood BDNF and cognitive scores rose after 12 weeks, though another study found no change | Human (2016) |
+| Omega-3 (DHA) | BDNF that had dropped after brain injury recovered | Animal (2004) |
+| Mediterranean diet with nuts | Fewer people had low BDNF after 3 years | Human (2011) |
+| High-fat, refined-sugar diet | Hippocampal BDNF and learning fell within 2 months | Animal (2002) |
+| Eating less, intermittent fasting | BDNF rose in animals, but 16 human studies were mixed | Animal (2002), systematic review (2024) |
+
 ---
 
 ## ✅ Solution: a three-step diet that supports BDNF
+
+First, check your current plate. For each item you select, you'll see something you can change right away.
+
+<CheckList client:visible lang="en" title="Is your diet supporting BDNF?" items={["I rarely eat vegetables like broccoli, cabbage, or kale","My snacks are more often crisps or sweets than berries or fruit","I don't eat oily fish even once a week","I rarely use nuts or olive oil","I have sugary drinks or processed foods every day"]} tips={["Add broccoli to one meal today. Lightly steam it rather than boiling it for long, and chew it well.","Swap crisps for a handful of berries or a square or two of high-cacao dark chocolate.","Cook mackerel, salmon, or sardines once this week. The goal is twice a week.","Have a handful of walnuts or almonds (about 30 g) a day, and make olive oil your default oil.","Start by swapping sugary drinks for water or unsweetened tea. Cutting one item a day is enough."]} note="This is a checklist for reflecting on your meals, not a diagnostic tool. If you have a medical condition or take medication, talk to your doctor before making big changes to your diet. Nothing is saved." />
 
 1. <strong>🥦 Step 1: Fill one meal a day with "green and purple."</strong> Put **cruciferous vegetables** (broccoli, cabbage, kale) and **berries** (blueberries, cranberries) into one meal every day. Lightly steam the broccoli and chew it well. For snacks, swap crisps for **a handful of berries** or **a square or two of high-cacao dark chocolate**.
 2. <strong>🐟 Step 2: Fish twice a week, a handful of nuts every day.</strong> Eat **oily fish** such as mackerel, salmon or sardines twice a week, and a handful (about 30 g) of **nuts** such as walnuts or almonds every day. Use **olive oil** as your default oil. This combination is the backbone of the Mediterranean diet.
@@ -126,6 +148,12 @@ Food is an **auxiliary engine** for BDNF. In people, the most reliable method is
 
 ---
 
+## Conclusion
+
+The answer I was looking for that day in the supermarket aisle wasn't "a food that contains BDNF." You can't eat your way to BDNF; your brain makes it itself. What the research showed is that a **whole diet** built up over time, with more vegetables, berries, fish, and nuts and less sugar and processed food, supports BDNF. Much of the evidence comes from animal studies, though, so pair it with **exercise**, the most reliable method in people. Tonight, change just one thing on your plate.
+
+---
+
 ## 🙋 Frequently asked questions
 
 ### Q1. Can't I just take a BDNF supplement or a "brain food" product?
@@ -136,7 +164,7 @@ BDNF itself is a protein, so when you swallow it, it gets digested and broken do
 
 It did in mice, but in people results vary from study to study, so **it isn't clear yet**. Weigh intermittent fasting alongside other goals such as weight or blood-sugar control, and if you have diabetes or take medication, talk to your doctor first.
 
-<!-- related-link -->
+{/* related-link */}
 If calorie control and intermittent fasting caught your interest, [**a hands-on account of intermittent fasting**](/en/blog/intermittent-fasting-a-secret-for-those-who-gained-weight-over-the-holidays/) tells how it went after a holiday feast.
 
 ---
