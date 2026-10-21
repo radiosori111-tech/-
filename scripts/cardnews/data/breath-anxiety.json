@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 호흡과 불안",
+  "name": "호흡과 불안 카드뉴스",
+  "post": "/blog/숨이-뇌의-스위치다-호흡-뇌과학-하루-5분-습관/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 호흡",
+      "title": "호흡으로\n==불안이 줄까?==",
+      "size": "md",
+      "sub": "5분 한숨 연습이\n명상보다 기분을 올렸다",
+      "heroNumber": "5분"
+    },
+    {
+      "type": "statement",
+      "kicker": "긴장하면 숨이 짧아질 때",
+      "title": "숨은 의지로 바꿀 수 있는\n==몸의 손잡이==입니다",
+      "sub": "빠르고 얕은 숨은 경보를 키우고,\n==길게 내쉬는 숨==은 브레이크를 밟습니다.",
+      "note": "심장은 명령을 듣지 않지만, 숨은 바로 바꿀 수 있습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 호흡",
+      "title": "숨이 뇌를 바꾸는\n==세 가지 길==",
+      "size": "md",
+      "items": [
+        { "title": "청반과의 배선", "text": "뇌간 세포 175개가 ==각성 경보실==과 이어져 있었습니다." },
+        { "title": "긴 날숨", "text": "++미주신경++이 심장을 느리게 합니다." },
+        { "title": "코호흡", "text": "들숨 때 !!기억이 더 정확했습니다!!." }
+      ],
+      "source": "Yackle et al., Science (2017) · Lehrer & Gevirtz (2014) · Zelano et al. (2016)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "한 달 호흡\n==실험==",
+      "size": "md",
+      "items": [
+        { "value": "100명+", "label": "네 그룹으로 나눈 참가자", "detail": "한숨·박스·과호흡·명상" },
+        { "value": "1위", "label": "생리적 한숨", "detail": "긍정적 기분이 가장 많이 늘어남" }
+      ],
+      "note": "스스로 답한 기분 변화를 본 한 달짜리 연구입니다.",
+      "source": "Balban et al., Cell Reports Medicine (2023)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "하루 5분 호흡\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "낮", "title": "코로 숨쉬기", "text": "집중 전 1분", "hot": true },
+        { "time": "긴장될 때", "title": "생리적 한숨 1~3회", "text": "두 번 들이쉬고 길게 내쉬기" },
+        { "time": "잠들기 전", "title": "4초 들숨, 6초 날숨", "text": "5분 동안" }
+      ],
+      "source": "Balban (2023) · Zelano (2016) · Lehrer & Gevirtz (2014)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==하루 5분 호흡==을\n따라 해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "긴장될 때\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "발표 앞둔\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "호흡 루틴과\n참고 문헌 6편" }
+      ]
+    }
+  ]
+}
