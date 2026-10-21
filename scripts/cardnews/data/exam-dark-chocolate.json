@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 시험 직전 다크초콜릿",
+  "name": "시험 직전 다크초콜릿 카드뉴스",
+  "post": "/blog/두뇌활성이-필요한-중요한-날엔-직전에-뭘-먹을까/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 브레인 푸드",
+      "title": "시험 직전 다크초콜릿,\n==효과 있을까?==",
+      "size": "md",
+      "sub": "실험 코코아와\n시중 제품은 달랐다",
+      "heroNumber": "2시간"
+    },
+    {
+      "type": "statement",
+      "kicker": "중요한 날, 무엇을 먹을까",
+      "title": "가장 확실한 건\n==기본==입니다",
+      "sub": "1~2시간 전, 익숙한 음식을 가볍게\n그리고 ==물 한 잔==.",
+      "note": "낯선 음식은 긴장한 날 소화 부담이 될 수 있습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 코코아",
+      "title": "코코아 플라바놀의\n==세 가지 결과==",
+      "size": "md",
+      "items": [
+        { "title": "정신적 피로", "text": "계산 과제를 잘하고 ==피로를 덜 느꼈습니다==." },
+        { "title": "작업 기억", "text": "2시간 뒤 ++공간 작업 기억++이 좋아졌습니다." },
+        { "title": "시중 초콜릿", "text": "가공하면 !!플라바놀이 많이 줄어듭니다!!." }
+      ],
+      "source": "Scholey et al., J Psychopharmacol (2010) · Field et al., Physiol Behav (2011)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "직전에 먹고\n==마신 것==",
+      "size": "md",
+      "items": [
+        { "value": "2시간", "label": "다크초콜릿 뒤", "detail": "작업 기억 과제가 좋아짐" },
+        { "value": "물 1잔", "label": "목마를 때", "detail": "반응 속도가 빨라짐" }
+      ],
+      "note": "실험에는 플라바놀이 특별히 많은 코코아가 쓰였습니다.",
+      "source": "Field et al. (2011) · Edmonds et al., Front Hum Neurosci (2013)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "중요한 날 먹기\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "전날·아침", "title": "평소대로 먹기", "text": "익숙하고 속 편한 식사", "hot": true },
+        { "time": "1~2시간 전", "title": "가볍게 + 물 한 잔", "text": "소화 쉬운 탄수화물 조금" },
+        { "time": "원한다면", "title": "다크초콜릿 한두 조각", "text": "평소 잘 맞던 사람만" }
+      ],
+      "source": "Smith et al. (2011) · Edmonds (2013) · Scholey (2010)"
+    },
+    {
+      "type": "cta",
+      "kicker": "더 알아보기",
+      "title": "블로그에서\n==중요한 날 먹을 것==을\n확인해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "시험 전날\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "면접 앞둔\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "확인 퀴즈와\n참고 문헌 8편" }
+      ]
+    }
+  ]
+}
