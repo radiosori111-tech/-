@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 근력 운동과 뇌",
+  "name": "근력 운동과 뇌 카드뉴스",
+  "post": "/blog/의지력이-약한-진짜-범인은-근육이었다-유산소-vs-근력-운동이-뇌를-다르게-바꾸는-뇌과학적-원리/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 근력 운동",
+      "title": "근력 운동,\n==뇌에도 좋을까?==",
+      "size": "md",
+      "sub": "근육이 세질수록\n인지 점수가 올랐다",
+      "heroNumber": "LIFT"
+    },
+    {
+      "type": "statement",
+      "kicker": "1년 동안 매일 달렸지만",
+      "title": "버티는 힘은\n왜 그대로였을까?",
+      "sub": "웨이트를 더하고 4~6주 뒤\n==포기하지 않는 힘==이 생겼습니다.",
+      "note": "근력과 유산소, 둘 다 뇌에 도움이 됐습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 근력 운동",
+      "title": "근력 운동의\n==세 가지 효과==",
+      "size": "md",
+      "items": [
+        { "title": "인지 기능", "text": "근력이 오를수록 ==인지 점수도== 올랐습니다." },
+        { "title": "우울 증상", "text": "33개 시험에서 ++뚜렷하게++ 줄었습니다." },
+        { "title": "유산소와 함께", "text": "둘 다 !!비슷하게!! 인지 기능을 높였습니다." }
+      ],
+      "source": "Mavros et al., JAGS (2017) · Gordon et al., JAMA Psychiatry (2018) · Northey et al., BJSM (2018)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "근육과 건강의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "5kg", "label": "약해진 악력", "detail": "사망 위험 16% 증가" },
+        { "value": "39편", "label": "50세 이상 운동 시험", "detail": "근력·유산소 모두 효과" }
+      ],
+      "note": "우울증이 염증 질환으로 재분류됐다는 말은 과장이었습니다.",
+      "source": "Leong et al., Lancet (2015) · Northey et al. (2018)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "근력 + 유산소\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "주 2~3회", "title": "큰 근육 근력 운동", "text": "스쿼트·런지·팔굽혀펴기", "hot": true },
+        { "time": "주 2~3회", "title": "유산소는 그대로", "text": "숨이 찰 만큼 걷거나 달리기" },
+        { "time": "4주+", "title": "조금씩 무게 늘리기", "text": "꾸준함이 먼저" }
+      ],
+      "source": "Fiatarone Singh et al., JAMDA (2014) · Northey et al. (2018)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==일주일 운동표==를\n따라 해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "운동 계획 짤 때\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "달리기만 하는\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "운동표와\n참고 문헌 6편" }
+      ]
+    }
+  ]
+}
