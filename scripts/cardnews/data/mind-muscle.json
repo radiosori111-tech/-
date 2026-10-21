@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 마인드 머슬 커넥션",
+  "name": "마인드 머슬 커넥션 카드뉴스",
+  "post": "/blog/뇌-좌표계로-보는-운동과-학습-Mind-Muscle-신체화-학습-자기중심/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 주의 초점",
+      "title": "근육에 집중하면\n==더 커질까?==",
+      "size": "md",
+      "sub": "팔 근육은 두 배 가까이\n더 자랐다",
+      "heroNumber": "x2"
+    },
+    {
+      "type": "statement",
+      "kicker": "힙쓰러스트 60kg의 교훈",
+      "title": "무게 숫자만 쫓다\n골반을 다쳤다",
+      "sub": "어디에 집중하느냐가\n==쓰는 근육==을 바꿨습니다.",
+      "note": "목적에 따라 집중할 곳이 달랐습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 집중",
+      "title": "집중할 곳의\n==세 가지 원칙==",
+      "size": "md",
+      "items": [
+        { "title": "근육 키울 때", "text": "근육 수축에 집중하자 ==팔이 두 배 가까이==." },
+        { "title": "무겁게 들 때", "text": "80% 무게에선 ++근육 집중 효과 없음.++" },
+        { "title": "기록 낼 때", "text": "'바닥을 민다'처럼 !!바깥에 집중!!이 유리." }
+      ],
+      "source": "Schoenfeld et al., EJSS (2018) · Calatayud et al., EJAP (2016) · Wulf (2013)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "몸과 기억의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "12.4%", "label": "근육에 집중한 팔", "detail": "무게에 집중한 그룹은 6.9%" },
+        { "value": "26→62", "label": "기억의 궁전 6주", "detail": "72개 단어 중 기억한 수" }
+      ],
+      "note": "격자세포는 해마가 아니라 내후각피질에 있습니다.",
+      "source": "Schoenfeld et al. (2018) · Dresler et al., Neuron (2017) · Hafting et al., Nature (2005)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "목적별 집중\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "근육", "title": "가볍게, 근육에 집중", "text": "최대의 60% 이하로", "hot": true },
+        { "time": "기록", "title": "바깥에 집중", "text": "바닥을 밀어낸다" },
+        { "time": "공부", "title": "기억의 궁전, 설명하기", "text": "익숙한 장소에 하나씩" }
+      ],
+      "source": "Calatayud et al. (2016) · Wulf (2013) · Fiorella & Mayer (2013)"
+    },
+    {
+      "type": "cta",
+      "kicker": "골라 보기",
+      "title": "블로그에서\n==목적별 집중법==을\n골라 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "헬스장 가기 전\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "운동 시작한\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "집중법과\n참고 문헌 6편" }
+      ]
+    }
+  ]
+}
