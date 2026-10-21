@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 뇌 염증과 피로",
+  "name": "뇌 염증과 피로 카드뉴스",
+  "post": "/blog/멍한-머리와-만성-피로-문제는-뇌-면역이었다-신경아교세포와-장-뇌-축을-살리는-항염-영양소-식단-가이드/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 뇌 염증",
+      "title": "뇌 염증이\n==피로를 부를까?==",
+      "size": "md",
+      "sub": "염증 반응만으로\n의욕이 떨어졌다",
+      "heroNumber": "39명"
+    },
+    {
+      "type": "statement",
+      "kicker": "8시간 자도 머리가 멍하다면",
+      "title": "몸의 염증은\n==뇌에 신호를 보냅니다==",
+      "sub": "감기에 걸리면 만사가 귀찮듯,\n염증은 ==기분과 의욕==을 낮출 수 있습니다.",
+      "note": "다만 만성 피로가 모두 염증 때문은 아닙니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 염증과 뇌",
+      "title": "확인된 것과\n==바로잡은 것==",
+      "size": "md",
+      "items": [
+        { "title": "염증과 의욕", "text": "보상을 기대하는 ==뇌 반응이 줄었습니다==." },
+        { "title": "신경아교세포", "text": "뇌의 90%가 아니라 ++약 절반++입니다." },
+        { "title": "장 누수 원인설", "text": "전체 사슬을 보인 !!사람 연구는 없습니다!!." }
+      ],
+      "source": "Eisenberger et al. (2010) · Azevedo et al. (2009) · Cryan & Dinan (2012)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "식단을 바꾼\n==사람 실험==",
+      "size": "md",
+      "items": [
+        { "value": "19가지", "label": "줄어든 염증 단백질", "detail": "발효식품 10주" },
+        { "value": "32%", "label": "우울 증상이 크게 나아짐", "detail": "지중해식 12주, 대조군 8%" }
+      ],
+      "note": "글루타민은 장염 뒤 과민성 대장 환자에서만 확인됐습니다.",
+      "source": "Wastyk et al., Cell (2021) · Jacka et al., BMC Med (2017)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "염증을 낮추는\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "매일 밤", "title": "7시간 이상 자기", "text": "잠드는 시각 30분 당기기", "hot": true },
+        { "time": "12주", "title": "지중해식에 가깝게", "text": "채소·생선·견과류" },
+        { "time": "하루 1~2번", "title": "발효식품 더하기", "text": "요거트·김치·케피르" }
+      ],
+      "source": "Xie et al., Science (2013) · Jacka (2017) · Wastyk (2021)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==생활 습관 점검표==를\n해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "머리가 멍한 날\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "늘 피곤한\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "점검표와\n참고 문헌 11편" }
+      ]
+    }
+  ]
+}
