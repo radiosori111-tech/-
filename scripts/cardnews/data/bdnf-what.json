@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · BDNF란?",
+  "name": "BDNF란 카드뉴스",
+  "post": "/blog/BDNF-뇌-유래-신경영양인자-너의-정체는-뭐니/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · BDNF",
+      "title": "BDNF,\n==많을수록 좋을까?==",
+      "size": "md",
+      "sub": "절반만 맞는\n뇌 단백질 이야기",
+      "heroNumber": "BDNF"
+    },
+    {
+      "type": "statement",
+      "kicker": "BDNF만 올리면 될까?",
+      "title": "신경세포를\n==돌보는 단백질==",
+      "sub": "신경세포가 살아남고 연결되도록 돕지만,\n뇌 부위마다 하는 일이 다릅니다.",
+      "note": "1982년 돼지의 뇌에서 처음 정제됐습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 BDNF",
+      "title": "BDNF가 하는\n==세 가지 일==",
+      "size": "md",
+      "items": [
+        { "title": "학습과 기억", "text": "없으면 해마의 ==장기 강화==가 약해졌습니다." },
+        { "title": "식욕 조절", "text": "부족하면 ++많이 먹고 살이++ 쪘습니다." },
+        { "title": "많다고 좋진 않음", "text": "보상 회로에선 !!스트레스에 더 약했습니다!!." }
+      ],
+      "source": "Korte et al., PNAS (1995) · Han et al., NEJM (2008) · Krishnan et al., Cell (2007)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "운동과 BDNF의\n==근거==",
+      "size": "md",
+      "items": [
+        { "value": "2%", "label": "1년 걷기 후 해마", "detail": "BDNF 많이 는 사람이 더 커짐" },
+        { "value": "29편", "label": "운동과 BDNF 연구", "detail": "한 번의 운동도 BDNF 증가" }
+      ],
+      "note": "보충제보다 뇌가 스스로 만들게 하는 쪽이 확실합니다.",
+      "source": "Erickson et al., PNAS (2011) · Szuhany et al. (2015)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "BDNF를 늘리는\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "주 3회", "title": "40분 빠르게 걷기", "text": "유산소 운동부터", "hot": true },
+        { "time": "낮 시간", "title": "밖에서 햇볕 쬐기", "text": "걷기를 바깥에서" },
+        { "time": "꾸준히", "title": "사람들과 연결되기", "text": "함께 걷고 대화하기" }
+      ],
+      "source": "Erickson (2011) · Molendijk et al. (2012) · Wilson et al. (2007)"
+    },
+    {
+      "type": "cta",
+      "kicker": "더 알아보기",
+      "title": "블로그에서\n==BDNF의 정체==를\n확인해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "운동 전에\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "BDNF가 궁금한\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "확인 퀴즈와\n참고 문헌" }
+      ]
+    }
+  ]
+}
