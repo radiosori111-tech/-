@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 달리기와 뇌",
+  "name": "달리기와 뇌 카드뉴스",
+  "post": "/blog/10분만-뛰어도-뇌가-바뀐다는-BDNF-러닝-시작하는-방법까지-총정리/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 달리기",
+      "title": "달리기는\n==뇌에 좋을까?==",
+      "size": "md",
+      "sub": "10분만 뛰어도\n집중력이 올랐다",
+      "heroNumber": "10분"
+    },
+    {
+      "type": "statement",
+      "kicker": "운동이 뇌에 좋다는데",
+      "title": "빨리 뛸 필요는\n==없습니다==",
+      "sub": "대화할 수 있는 속도로,\n==다치지 않고 이어 가는 것==이 핵심입니다.",
+      "note": "가장 흔한 실패는 한꺼번에 거리를 늘리다 다치는 것입니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 달리기",
+      "title": "달리기가 뇌를\n==바꾸는 순서==",
+      "size": "md",
+      "items": [
+        { "title": "10분 뒤", "text": "기분·집중력이 좋아지고 ==전전두엽==이 활발했습니다." },
+        { "title": "꾸준히 하면", "text": "규칙적인 운동에서 ++BDNF 효과++가 더 컸습니다." },
+        { "title": "1년 뒤", "text": "유산소 걷기로 !!해마가 약 2%!! 커졌습니다." }
+      ],
+      "source": "Sci Rep (2021) · Szuhany et al. (2015) · Erickson et al., PNAS (2011)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "초보 러너의\n==숫자==",
+      "size": "md",
+      "items": [
+        { "value": "30%", "label": "한 주 거리 증가", "detail": "넘기면 특정 부상이 늘었음" },
+        { "value": "150분", "label": "WHO 주간 권장", "detail": "중간 강도 운동 기준" }
+      ],
+      "note": "10분 실험은 BDNF를 재지 않았습니다.",
+      "source": "Nielsen et al., JOSPT (2014) · Bull et al., BJSM (2020)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "러닝 초보\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "처음", "title": "대화 속도로 10분", "text": "말이 끊기면 걷기로", "hot": true },
+        { "time": "주 3회", "title": "걷기와 섞어 늘리기", "text": "1분 달리기 + 2분 걷기" },
+        { "time": "몇 달", "title": "주 150분 채우기", "text": "달리기 + 빠르게 걷기" }
+      ],
+      "source": "Persinger et al. (2004) · Nielsen (2014) · WHO (2020)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==8주 러닝 계획==을\n따라 해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "달리기 전에\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "러닝 시작하는\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "8주 계획과\n참고 문헌 13편" }
+      ]
+    }
+  ]
+}
