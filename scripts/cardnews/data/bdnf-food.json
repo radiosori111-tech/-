@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · BDNF가 많은 음식",
+  "name": "BDNF 음식 카드뉴스",
+  "post": "/blog/BDNF가-많이들어있는-음식은/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · BDNF 음식",
+      "title": "BDNF가 많은 음식,\n==정말 있을까?==",
+      "size": "md",
+      "sub": "음식에는 BDNF가\n들어 있지 않았다",
+      "heroNumber": "3년"
+    },
+    {
+      "type": "statement",
+      "kicker": "브레인 푸드 문구 앞에서",
+      "title": "BDNF는\n==먹을 수 없습니다==",
+      "sub": "단백질이라 먹으면 소화되어 분해됩니다.\n대신 ==몸이 만들도록 돕는 식사==가 있습니다.",
+      "note": "근거의 상당수는 동물 실험입니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 BDNF 식사",
+      "title": "BDNF를 도운\n==세 가지 식사==",
+      "size": "md",
+      "items": [
+        { "title": "지중해식 + 견과류", "text": "3년 뒤 ==BDNF가 낮은 사람==이 줄었습니다." },
+        { "title": "코코아 플라바놀", "text": "12주 뒤 ++혈중 BDNF++가 올랐습니다." },
+        { "title": "설탕·포화지방", "text": "2개월 만에 쥐의 !!해마 BDNF가 줄었습니다!!." }
+      ],
+      "source": "Sánchez-Villegas et al. (2011) · Neshatdoust et al. (2016) · Molteni et al. (2002)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "사람 연구의\n==숫자==",
+      "size": "md",
+      "items": [
+        { "value": "12주", "label": "코코아 실험 기간", "detail": "62~75세 노인" },
+        { "value": "16편", "label": "단식과 BDNF 사람 연구", "detail": "증가 5 · 감소 5 · 그대로 6" }
+      ],
+      "note": "단식이 사람의 BDNF를 늘린다는 근거는 아직 약합니다.",
+      "source": "Neshatdoust et al. (2016) · Alkurd et al., Medicina (2024)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "BDNF를 돕는 식단\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "매일 한 끼", "title": "초록과 보라 채우기", "text": "브로콜리·베리", "hot": true },
+        { "time": "주 2회·매일", "title": "생선과 견과류", "text": "등 푸른 생선, 견과 30g" },
+        { "time": "12주", "title": "설탕 음료 줄이기", "text": "하루 한 가지씩" }
+      ],
+      "source": "Kim et al. (2017) · Wu et al. (2004) · Molteni et al. (2002)"
+    },
+    {
+      "type": "cta",
+      "kicker": "따라 해 보기",
+      "title": "블로그에서\n==내 식탁 점검표==를\n해 보세요",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "장 보기 전에\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "브레인 푸드가 궁금한\n친구에게 보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "점검표와\n참고 문헌 10편" }
+      ]
+    }
+  ]
+}
