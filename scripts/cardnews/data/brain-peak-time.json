@@ -1,69 +1,69 @@
 {
-  "title": "카드뉴스 · 집중 잘 되는 시간",
-  "name": "집중 잘 되는 시간 카드뉴스",
+  "title": "카드뉴스 · 시간대별 뇌 활용법",
+  "name": "시간대별 뇌 활용법 카드뉴스",
   "post": "/blog/집중력-최고인-시간-뇌-피크-타임-시간대별-루틴/",
   "slides": [
     {
       "type": "cover",
-      "kicker": "BRAIN SCIENCE · 생체리듬",
-      "title": "집중 잘 되는 시간,\n==언제일까?==",
+      "kicker": "BRAIN SCIENCE · 하루 루틴",
+      "title": "어제보다 더 나은 하루,\n==시간대별 뇌 활용법==",
       "size": "md",
-      "sub": "덜 깬 시간에\n창의 문제를 더 잘 풀었다",
+      "sub": "같은 24시간도\n순서를 바꾸면 달라진다",
       "heroNumber": "24h"
     },
     {
       "type": "statement",
-      "kicker": "중요한 일은 아침에?",
-      "title": "깬 직후는\n==피크가 아닙니다==",
-      "sub": "코르티솔은 깬 뒤 30~45분에 가장 높지만,\n집중은 ==체온이 오르는 몇 시간 뒤==에 좋아집니다.",
-      "note": "피크 시간은 시계가 아니라 내 몸의 리듬이 정합니다."
+      "kicker": "오늘도 의지 탓을 했다면",
+      "title": "뇌는 하루 내내\n==같지 않습니다==",
+      "sub": "24시간 생체 시계에 따라\n==시간대마다 잘하는 일==이 다릅니다.",
+      "note": "정확한 시각은 아침형·저녁형에 따라 달라집니다."
     },
     {
       "type": "steps",
       "kicker": "연구로 본 뇌의 하루",
-      "title": "시간대별\n==뇌의 세 얼굴==",
+      "title": "시간대별\n==뇌 사용법==",
       "size": "md",
       "items": [
-        { "title": "나의 피크", "text": "기억·계산 같은 ==분석 수행==이 좋아집니다." },
-        { "title": "나의 비피크", "text": "번뜩이는 ++창의 문제++를 더 잘 풀었습니다." },
-        { "title": "잠들기 전", "text": "밝은 조명이 !!멜라토닌을 늦췄습니다!!." }
+        { "title": "아침", "text": "깬 직후는 예열. ==햇볕부터== 쬡니다." },
+        { "title": "오전 늦게~오후 이른 시간", "text": "체온이 오르면 ++어려운 일++을 합니다." },
+        { "title": "밤", "text": "조명을 낮춰야 !!멜라토닌이 제때!! 나옵니다." }
       ],
-      "source": "Wright et al. (2002) · Wieth & Zacks (2011) · Gooley et al. (2011)"
+      "source": "Pruessner et al. (1997) · Wright et al. (2002) · Gooley et al. (2011)"
     },
     {
       "type": "stats",
       "kicker": "숫자로 보는 근거",
-      "title": "시간과 성적의\n==숫자==",
+      "title": "오후를 살린\n==숫자==",
       "size": "md",
       "items": [
-        { "value": "200만", "label": "덴마크 학생 시험", "detail": "늦을수록 점수가 떨어짐" },
-        { "value": "30분", "label": "시험 전 20~30분 휴식", "detail": "쉰 학생은 점수가 오름" }
+        { "value": "10분", "label": "점심 뒤 낮잠", "detail": "효과가 2시간 넘게 지속" },
+        { "value": "200만", "label": "덴마크 학생 시험", "detail": "늦을수록↓, 쉬면↑" }
       ],
-      "note": "아침형 노인은 아침에, 대학생은 오후에 더 잘 기억했습니다.",
-      "source": "Sievertsen et al., PNAS (2016) · May et al., Psychol Sci (1993)"
+      "note": "집중이 풀린 시간에는 창의 문제를 더 잘 풀었습니다.",
+      "source": "Brooks & Lack, Sleep (2006) · Sievertsen et al., PNAS (2016)"
     },
     {
       "type": "timeline",
       "kicker": "오늘의 실천",
-      "title": "나의 뇌 시간표\n==3단계==",
+      "title": "하루 시간표\n==3단계==",
       "size": "md",
       "items": [
-        { "time": "일주일", "title": "하루 3번 집중 점수", "text": "1~5점으로 기록", "hot": true },
-        { "time": "매일", "title": "분석은 피크에", "text": "아이디어는 비피크에" },
-        { "time": "오후·밤", "title": "쉬고, 조명 낮추기", "text": "20~30분 휴식" }
+        { "time": "아침·오전", "title": "햇볕, 그다음 어려운 일", "text": "피크는 몇 시간 뒤", "hot": true },
+        { "time": "오후", "title": "10분 낮잠, 20분 휴식", "text": "풀린 시간엔 아이디어" },
+        { "time": "밤", "title": "조명 낮추고 내일 할 일 하나", "text": "잠들기 1~2시간 전" }
       ],
-      "source": "Schmidt et al. (2007) · Wieth & Zacks (2011) · PNAS (2016)"
+      "source": "Wright (2002) · Brooks & Lack (2006) · Wieth & Zacks (2011)"
     },
     {
       "type": "cta",
       "kicker": "따라 해 보기",
-      "title": "블로그에서\n==나의 유형별 시간표==를\n골라 보세요",
+      "title": "블로그에서\n==하루 시간표==를\n따라 해 보세요",
       "size": "md",
       "url": "jes-lu.com",
       "items": [
-        { "icon": "save", "title": "저장", "text": "일정 짤 때\n다시 보기" },
-        { "icon": "share", "title": "공유", "text": "올빼미형\n친구에게 보내기" },
-        { "icon": "link", "title": "프로필 링크", "text": "유형별 시간표와\n참고 문헌 7편" }
+        { "icon": "save", "title": "저장", "text": "내일 아침\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "바쁜 친구에게\n보내기" },
+        { "icon": "link", "title": "프로필 링크", "text": "하루 시간표와\n참고 문헌 8편" }
       ]
     }
   ]
