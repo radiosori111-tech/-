@@ -1,0 +1,70 @@
+{
+  "title": "카드뉴스 · 부러우면 왜 아플까",
+  "name": "오셀로 시기 카드뉴스",
+  "post": "/blog/부러우면-왜-아플까-셰익스피어-4대-비극-오셀로-시기-뇌과학/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · 셰익스피어 『오셀로』",
+      "title": "부러우면\n==왜 아플까?==",
+      "size": "md",
+      "sub": "뇌는 시기를\n통증으로 느꼈다",
+      "heroNumber": "ENVY"
+    },
+    {
+      "type": "statement",
+      "kicker": "친구의 승진 소식에",
+      "title": "축하했는데\n==왜 쓰릴까?==",
+      "sub": "비교에서 뒤처졌다고 느낄 때\n뇌의 ==앞쪽 띠이랑==이 켜집니다.",
+      "note": "참가자 19명의 연구로, 해석에 신중해야 한다는 지적도 있습니다."
+    },
+    {
+      "type": "steps",
+      "kicker": "연구로 본 시기",
+      "title": "같은 아픔,\n==두 갈래 길==",
+      "size": "md",
+      "items": [
+        { "title": "비교의 아픔", "text": "나와 같은 길을 가는 사람에게 ==가장 아팠습니다==." },
+        { "title": "부러움", "text": "++나를 끌어올리면++ 발전을 부릅니다." },
+        { "title": "시기", "text": "!!남을 끌어내리면!! 파멸을 부릅니다." }
+      ],
+      "source": "Takahashi et al., Science (2009) · van de Ven et al., Emotion (2009)"
+    },
+    {
+      "type": "stats",
+      "kicker": "숫자로 보는 근거",
+      "title": "이아고가\n==멈추지 않은 이유==",
+      "size": "md",
+      "items": [
+        { "value": "A·B·C", "label": "세 동창 이야기", "detail": "꿈이 비슷한 A에게 가장 아픔" },
+        { "value": "2단계", "label": "시기 → 남의 불행", "detail": "보상 회로(선조체)가 켜짐" }
+      ],
+      "note": "상대의 성공을 부당하다고 느낄수록 시기로 흘렀습니다.",
+      "source": "Takahashi et al., Science (2009) · van de Ven et al., Motiv Emot (2012)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "오늘의 실천",
+      "title": "시기 대신 부러움\n==3단계==",
+      "size": "md",
+      "items": [
+        { "time": "이름", "title": "\"나는 ○○이 부럽다\"", "text": "이름을 붙이면 편도체가 진정" },
+        { "time": "방향", "title": "정말 부당한가?", "text": "원하는 것 1개, 이번 주 행동 1개", "hot": true },
+        { "time": "환경", "title": "잠들기 전 SNS 멀리", "text": "의심은 당사자에게 직접" }
+      ],
+      "source": "Lieberman (2007) · van de Ven (2011) · Verduyn (2015)"
+    },
+    {
+      "type": "cta",
+      "kicker": "끝까지 읽기",
+      "title": "블로그에서\n==부러움을 성장으로==\n바꾸는 법",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "저장", "text": "배 아플 때\n다시 보기" },
+        { "icon": "share", "title": "공유", "text": "SNS에 지친\n친구에게" },
+        { "icon": "link", "title": "프로필 링크", "text": "퀴즈와\n참고 문헌 11편" }
+      ]
+    }
+  ]
+}

@@ -27,6 +27,7 @@
   /* 유일한 강조색: 딥 틸 */
   --accent: #0d7a6f;
   --accent-strong: #0a6158;
+  --key-red: #c62828;
   --accent-soft: #e4f3f0;
   --accent-on-dark: #5fd0c0;
   --accent-on-dark-hover: #7edccf;
@@ -83,6 +84,7 @@
   --muted: #98a1ae;
   --accent: #17917f;
   --accent-strong: #6fd6c7;
+    --key-red: #ff6b6b;
   --accent-soft: #163330;
   --accent-line: #24514a;
   --danger: #ff8f85;
@@ -108,6 +110,7 @@
   --muted: #98a1ae;
   --accent: #17917f;
   --accent-strong: #6fd6c7;
+    --key-red: #ff6b6b;
   --accent-soft: #163330;
   --accent-line: #24514a;
   --danger: #ff8f85;

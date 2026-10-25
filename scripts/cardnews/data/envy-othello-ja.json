@@ -1,0 +1,71 @@
+{
+  "lang": "ja",
+  "title": "カードニュース · 羨ましいとなぜ痛む",
+  "name": "オセロー 妬み カードニュース（JA）",
+  "post": "/ja/blog/羨ましいとなぜ痛む-シェイクスピア四大悲劇オセロー-妬みと脳科学/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · シェイクスピア『オセロー』",
+      "title": "羨ましいと\n==なぜ痛む？==",
+      "size": "md",
+      "sub": "脳は妬みを\n痛みとして感じた",
+      "heroNumber": "ENVY"
+    },
+    {
+      "type": "statement",
+      "kicker": "友人の昇進の知らせに",
+      "title": "祝ったのに\n==なぜチクッとする？==",
+      "sub": "人に後れをとったと感じるとき\n脳の==前帯状皮質==が働きます。",
+      "note": "参加者19人の研究で、解釈は慎重にという指摘もあります。"
+    },
+    {
+      "type": "steps",
+      "kicker": "研究で見る妬み",
+      "title": "同じ痛み、\n==2つの道==",
+      "size": "md",
+      "items": [
+        { "title": "比べる痛み", "text": "同じ道を行く人に==いちばん痛みました==。" },
+        { "title": "羨望", "text": "++自分を引き上げれば++成長を生みます。" },
+        { "title": "妬み", "text": "!!相手を引きずり下ろせば!!破滅を招きます。" }
+      ],
+      "source": "Takahashi et al., Science (2009) · van de Ven et al., Emotion (2009)"
+    },
+    {
+      "type": "stats",
+      "kicker": "数字で見る根拠",
+      "title": "イアーゴーが\n==止まらなかった理由==",
+      "size": "md",
+      "items": [
+        { "value": "A·B·C", "label": "3人の同級生の物語", "detail": "夢が似たAにいちばん痛み" },
+        { "value": "第2部", "label": "妬み → 人の不幸", "detail": "報酬回路（線条体）が働く" }
+      ],
+      "note": "相手の成功を不当だと感じるほど、妬みへ流れました。",
+      "source": "Takahashi et al., Science (2009) · van de Ven et al., Motiv Emot (2012)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "今日の実践",
+      "title": "妬みより羨望を\n==3ステップ==",
+      "size": "md",
+      "items": [
+        { "time": "名前", "title": "「○○が羨ましい」", "text": "名前をつけると扁桃体が落ち着く" },
+        { "time": "方向", "title": "本当に不当？", "text": "ほしいもの1つ、今週の行動1つ", "hot": true },
+        { "time": "環境", "title": "寝る前はSNSから離れる", "text": "疑いは本人に直接" }
+      ],
+      "source": "Lieberman (2007) · van de Ven (2011) · Verduyn (2015)"
+    },
+    {
+      "type": "cta",
+      "kicker": "続きを読む",
+      "title": "ブログで\n==羨ましさを成長に==\n変える方法を",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "保存", "text": "胸が痛むとき\nもう一度" },
+        { "icon": "share", "title": "シェア", "text": "SNSに疲れた\n友だちへ" },
+        { "icon": "link", "title": "プロフィールリンク", "text": "クイズと\n参考文献11本" }
+      ]
+    }
+  ]
+}

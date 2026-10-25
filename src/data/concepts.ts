@@ -123,7 +123,7 @@ export const CONCEPTS: Concept[] = [
       en: 'Empathy circuits that feel another’s pain as our own, and reward circuits that light up when we give, make cooperation and generosity come back to us.',
       ja: '他人の痛みを自分の痛みのように感じる共感の回路と、与えるときに働く報酬回路が、協力と分かち合いを自分に返ってくるものにします。',
     },
-    match: /이타|공감|베풂|베풀|베푼|나눔|기부|협력|친절|이기적 유전자|팃포탯|altruis|empath|generos|giving|cooperat|kindness|selfish gene|tit for tat|利他|共感|分かち合|寄付|協力|親切|利己的な遺伝子|しっぺ返し/i,
+    match: /시기심|시기하|부러움|부러우|질투|이타|공감|베풂|베풀|베푼|나눔|기부|협력|친절|이기적 유전자|팃포탯|altruis|empath|generos|giving|cooperat|kindness|selfish gene|tit for tat|envy|jealous|嫉妬|妬み|羨|利他|共感|分かち合|寄付|協力|親切|利己的な遺伝子|しっぺ返し/i,
   },
 ];
 

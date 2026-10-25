@@ -17,7 +17,12 @@ const out = join(here, '..', '..', 'exports', 'cardnews');
 mkdirSync(out, { recursive: true });
 
 const esc = (s) => s.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+// 영어·일본어판은 data.lang으로 문서 언어를 바꾸고, 일본어는 일본어 글꼴을 먼저 쓴다
+const lang = data.lang || 'ko';
 const page = tpl
+  .replace('<html lang="ko">', `<html lang="${lang}">`)
+  .replace('family=Noto+Sans+KR:', lang === 'ja' ? 'family=Noto+Sans+JP:wght@500;700;800;900&family=Noto+Sans+KR:' : 'family=Noto+Sans+KR:')
+  .replace("--font: 'Pretendard Variable',", lang === 'ja' ? "--font: 'Noto Sans JP', 'Pretendard Variable'," : "--font: 'Pretendard Variable',")
   .replace('<title>카드뉴스</title>', `<title>${esc(data.name || data.title)}</title>`)
   .replace('/*DATA*/null', JSON.stringify(data).replace(/</g, '\\u003c'));
 writeFileSync(join(out, `${data.file}.html`), page);

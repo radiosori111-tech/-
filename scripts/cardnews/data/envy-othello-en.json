@@ -1,0 +1,71 @@
+{
+  "lang": "en",
+  "title": "Card news · Why does envy hurt?",
+  "name": "Othello envy card news (EN)",
+  "post": "/en/blog/why-does-envy-hurt-shakespeare-othello-brain-feels-envy-as-pain/",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BRAIN SCIENCE · SHAKESPEARE'S OTHELLO",
+      "title": "Why does\n==envy hurt?==",
+      "size": "md",
+      "sub": "The brain felt envy\nas pain",
+      "heroNumber": "ENVY"
+    },
+    {
+      "type": "statement",
+      "kicker": "A friend got promoted",
+      "title": "You said congrats,\n==so why the sting?==",
+      "sub": "When we feel we've fallen behind,\nthe ==anterior cingulate cortex== lights up.",
+      "note": "A 19-person study; some experts urge caution in reading it."
+    },
+    {
+      "type": "steps",
+      "kicker": "What research shows",
+      "title": "Same pain,\n==two paths==",
+      "size": "md",
+      "items": [
+        { "title": "The pain of comparison", "text": "It hurt most when ==someone on our own path== pulled ahead." },
+        { "title": "Benign envy", "text": "++Lifts you up++ and drives growth." },
+        { "title": "Malicious envy", "text": "!!Pulls others down!! and leads to ruin." }
+      ],
+      "source": "Takahashi et al., Science (2009) · van de Ven et al., Emotion (2009)"
+    },
+    {
+      "type": "stats",
+      "kicker": "The evidence",
+      "title": "Why Iago\n==never stopped==",
+      "size": "md",
+      "items": [
+        { "value": "A·B·C", "label": "Three classmates", "detail": "A, with similar dreams, hurt most" },
+        { "value": "Step 2", "label": "Envy → their misfortune", "detail": "Reward circuit (striatum) lit up" }
+      ],
+      "note": "The more undeserved a success seemed, the more envy turned malicious.",
+      "source": "Takahashi et al., Science (2009) · van de Ven et al., Motiv Emot (2012)"
+    },
+    {
+      "type": "timeline",
+      "kicker": "Try it today",
+      "title": "Choose benign envy\n==in 3 steps==",
+      "size": "md",
+      "items": [
+        { "time": "Name", "title": "\"I envy ○○.\"", "text": "Naming it calms the amygdala" },
+        { "time": "Aim", "title": "Is it really undeserved?", "text": "One goal, one action this week", "hot": true },
+        { "time": "Space", "title": "No social media before bed", "text": "Ask suspicions face to face" }
+      ],
+      "source": "Lieberman (2007) · van de Ven (2011) · Verduyn (2015)"
+    },
+    {
+      "type": "cta",
+      "kicker": "Read the full post",
+      "title": "Learn to turn\n==envy into growth==\non the blog",
+      "size": "md",
+      "url": "jes-lu.com",
+      "items": [
+        { "icon": "save", "title": "Save", "text": "Reread when\nit stings" },
+        { "icon": "share", "title": "Share", "text": "Send to a friend\ntired of scrolling" },
+        { "icon": "link", "title": "Link in bio", "text": "Quiz and\n11 references" }
+      ]
+    }
+  ]
+}

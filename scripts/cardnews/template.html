@@ -154,7 +154,7 @@ function slideHTML(s, i, n) {
       <h2 class="title${titleClass}">${rich(s.title)}</h2>
       ${s.sub ? `<p class="sub">${rich(s.sub)}</p>` : ''}
       ${body(s)}
-      <div class="bottom"><div class="source">${s.source ? '출처: ' + esc(s.source) : ''}</div>${i < n - 1 ? '<div class="swipe">SWIPE →</div>' : ''}</div>
+      <div class="bottom"><div class="source">${s.source ? ({ en: 'Source: ', ja: '出典：' }[DATA.lang] || '출처: ') + esc(s.source) : ''}</div>${i < n - 1 ? '<div class="swipe">SWIPE →</div>' : ''}</div>
     </div>
   </div>`;
 }

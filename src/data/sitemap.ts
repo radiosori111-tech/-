@@ -42,7 +42,7 @@ export type BlogTopic = (typeof BLOG_TOPICS)[number];
 const TOPIC_RULES: [BlogTopic, RegExp][] = [
   ['exercise', /러닝|운동|HIIE|뛰어|발아치|땀방울/],
   ['food', /식단|카니보어|혈당|인슐린|단식|음식|먹을|브레인포그/],
-  ['mind', /이기적 유전자|남을 도울|남에게|감정|불안|생각은|후회|번아웃|플라시보|호흡|숨은|기억|관찰|난제/],
+  ['mind', /부러우면|이기적 유전자|남을 도울|남에게|감정|불안|생각은|후회|번아웃|플라시보|호흡|숨은|기억|관찰|난제/],
   ['habits', /가소성|습관|작심삼일|의지|확언|목표|성공|aMCC|변하고/],
 ];
 export const blogTopic = (title: string): BlogTopic => TOPIC_RULES.find(([, re]) => re.test(title))?.[0] ?? 'health';
