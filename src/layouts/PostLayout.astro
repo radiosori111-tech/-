@@ -498,6 +498,8 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
   .prose :global(.key-line) { margin: 0.4em 0 1.6em; font-size: var(--text-2xl); font-weight: 800; line-height: 1.55; letter-spacing: -0.025em; color: var(--key-red); text-wrap: balance; }
   .prose :global(.key-red-text) { font-size: calc(1em + 3pt); font-weight: 800; color: var(--key-red); }
   .prose :global(.key-emph) { font-size: calc(1em + 3pt); font-weight: 800; color: var(--ink); }
+  /* 글 안 바로 가기 링크가 닿는 자리: 위쪽 고정 막대에 가리지 않게 여백을 둔다 */
+  .prose :global(.jump-target) { display: block; height: 0; scroll-margin-top: 5rem; }
   .prose :global(.term-ink) { font-weight: 800; color: var(--ink); }
   .prose :global(.key-heading h3) { font-size: calc(var(--text-2xl) + 4pt); line-height: 1.35; }
   .prose :global(h4) { margin: 1.75em 0 0.6em; font-size: var(--text-md); line-height: 1.5; letter-spacing: -0.02em; }
