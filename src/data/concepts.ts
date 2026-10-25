@@ -1,4 +1,4 @@
-// 지식 네트워크: 글을 이어 주는 뇌과학 개념 10개와 그 사이의 연결.
+// 지식 네트워크: 글을 이어 주는 뇌과학 개념 11개와 그 사이의 연결.
 // 글의 제목 · 설명 · 태그에서 개념을 찾아(아래 match) 글 아래에 개념 사슬로 보여 주고, 개념마다 모아 보기 페이지를 만든다.
 import type { Lang } from '../i18n/ui';
 import { getPosts, postUrl, postTags, postMinutes, type Post } from './blog';
@@ -115,6 +115,16 @@ export const CONCEPTS: Concept[] = [
     },
     match: /기억|해마|학습|기록|memory|hippocamp|learning|record|記憶|海馬|学習|記録/i,
   },
+  {
+    id: 'social', x: 600, y: 140,
+    name: { ko: '관계 · 공감', en: 'Relationships & empathy', ja: '人間関係・共感' },
+    blurb: {
+      ko: '남의 아픔을 내 아픔처럼 느끼는 공감 회로와, 베풀 때 켜지는 보상 회로는 협력과 나눔이 결국 나에게 돌아오게 만듭니다.',
+      en: 'Empathy circuits that feel another’s pain as our own, and reward circuits that light up when we give, make cooperation and generosity come back to us.',
+      ja: '他人の痛みを自分の痛みのように感じる共感の回路と、与えるときに働く報酬回路が、協力と分かち合いを自分に返ってくるものにします。',
+    },
+    match: /이타|공감|베풂|베풀|베푼|나눔|기부|협력|친절|이기적 유전자|팃포탯|altruis|empath|generos|giving|cooperat|kindness|selfish gene|tit for tat|利他|共感|分かち合|寄付|協力|親切|利己的な遺伝子|しっぺ返し/i,
+  },
 ];
 
 // 개념 사이의 연결 (전체 지도의 선)
@@ -122,10 +132,11 @@ export const LINKS: [string, string][] = [
   ['exercise', 'bdnf'], ['exercise', 'emotion'], ['nutrition', 'bdnf'], ['nutrition', 'immunity'],
   ['emotion', 'habit'], ['habit', 'neurotransmitter'], ['habit', 'synapse'], ['neurotransmitter', 'synapse'],
   ['bdnf', 'synapse'], ['synapse', 'memory'], ['sleep', 'memory'], ['sleep', 'synapse'], ['immunity', 'memory'],
+  ['social', 'emotion'], ['social', 'neurotransmitter'],
 ];
 
 // 사슬은 원인 → 원리 → 결과 순서로 읽히게 놓는다
-const ORDER = ['exercise', 'nutrition', 'sleep', 'emotion', 'habit', 'neurotransmitter', 'bdnf', 'immunity', 'synapse', 'memory'];
+const ORDER = ['exercise', 'nutrition', 'sleep', 'emotion', 'social', 'habit', 'neurotransmitter', 'bdnf', 'immunity', 'synapse', 'memory'];
 
 export const conceptById = (id: string) => CONCEPTS.find((c) => c.id === id)!;
 export const conceptPath = (lang: Lang, id?: string) => `${lang === 'ko' ? '' : `/${lang}`}/concepts/${id ? `${id}/` : ''}`;
