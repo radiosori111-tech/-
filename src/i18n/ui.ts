@@ -54,6 +54,9 @@ export const ui = {
       title: '의학 · 학술 정보 면책 조항',
       body: '믿음의 게임, 실행의 모든 콘텐츠는 공개된 연구와 학회 권고를 바탕으로 한 <strong>일반적인 정보 제공</strong>을 목적으로 하며, 의사 등 전문가의 <strong>진단, 치료, 처방을 대신하지 않습니다.</strong> 연구 결과는 개인에 따라 다르게 나타날 수 있으므로 건강에 관한 결정은 반드시 전문가와 상담하세요. 이 사이트의 정보를 이용해 생긴 결과에 대해 사이트는 법적 책임을 지지 않습니다. 응급 상황에서는 즉시 119에 연락하세요.',
       more: '면책조항 전문 보기',
+      license: "이 사이트의 글과 이미지는 <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko\" rel=\"license noopener\" target=\"_blank\">크리에이티브 커먼즈 저작자표시-비영리-변경금지 4.0 국제 라이선스</a>에 따라 이용할 수 있습니다. 출처(믿음의 게임, 실행 · jes-lu.com)를 밝히면 비영리 목적으로 원문 그대로 공유할 수 있으며, 상업적 이용과 내용 변경은 따로 허락을 받아야 합니다. 인용한 논문 · 자료의 권리는 각 저작권자에게 있습니다.",
+      licenseLabel: 'CC BY-NC-ND 4.0 라이선스',
+      licenseUrl: 'https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ko',
     },
     disclaimer: {
       title: '의학 · 학술 정보 면책 조항',
@@ -145,6 +148,9 @@ export const ui = {
       title: 'Medical and scientific disclaimer',
       body: 'All content on this site is <strong>general information</strong> based on published research and professional guidelines, and it <strong>does not replace diagnosis, treatment, or prescriptions from a doctor or other professional.</strong> Results vary from person to person, so please consult a professional before making health decisions. The site accepts no legal liability for outcomes arising from the use of this information. In an emergency, contact your local emergency number right away.',
       more: 'Read the full disclaimer',
+      license: "Posts and images on this site are licensed under a <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\" rel=\"license noopener\" target=\"_blank\">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. You may share them unchanged for non-commercial purposes with credit (믿음의 게임, 실행 · jes-lu.com); commercial use and adaptations require permission. Rights to quoted papers and materials remain with their owners.",
+      licenseLabel: 'CC BY-NC-ND 4.0 license',
+      licenseUrl: 'https://creativecommons.org/licenses/by-nc-nd/4.0/',
     },
     disclaimer: {
       title: 'Medical and scientific disclaimer',
@@ -236,6 +242,9 @@ export const ui = {
       title: '医学・学術情報に関する免責事項',
       body: '当サイトのすべてのコンテンツは、公開された研究や学会の推奨に基づく<strong>一般的な情報の提供</strong>を目的としており、医師などの専門家による<strong>診断・治療・処方に代わるものではありません。</strong>研究結果には個人差があるため、健康に関する判断は必ず専門家にご相談ください。当サイトの情報の利用によって生じた結果について、当サイトは法的責任を負いません。緊急時はすぐに救急へ連絡してください。',
       more: '免責事項の全文を見る',
+      license: "このサイトの記事と画像は<a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja\" rel=\"license noopener\" target=\"_blank\">クリエイティブ・コモンズ 表示-非営利-改変禁止 4.0 国際ライセンス</a>のもとで利用できます。出典（믿음의 게임, 실행 · jes-lu.com）を明記すれば、非営利目的に限り原文のまま共有できます。商用利用と内容の改変には別途許可が必要です。引用した論文・資料の権利は各著作権者に帰属します。",
+      licenseLabel: 'CC BY-NC-ND 4.0 ライセンス',
+      licenseUrl: 'https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja',
     },
     disclaimer: {
       title: '医学・学術情報に関する免責事項',
