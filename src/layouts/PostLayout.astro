@@ -59,6 +59,8 @@ const pageUrl = new URL(url, Astro.site).toString();
 // 소제목이 두 개 이상인 단계로 목차를 만든다 (h2가 없는 글은 h3로)
 const level = [2, 3].find((d) => headings.filter((h) => h.depth === d).length >= 2);
 const toc = level ? headings.filter((h) => h.depth === level) : [];
+// 본문 끝에 글마다 쓴 면책 섹션(면책 · Disclaimer · 免責)이 있으면 공통 면책 상자는 빼고 정보 기준일만 남긴다
+const hasOwnDisclaimer = headings.some((h) => /면책|Disclaimer|免責/i.test(h.text));
 ---
 <Base title={title} description={description} type="article" jsonLd={jsonLd} image={image} lang={lang} alternates={alternates}>
   <div class:list={['post-page', toc.length === 0 && 'is-narrow']}>
@@ -134,7 +136,7 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
 
           {knowledge && <KnowledgeNet lang={lang} ids={knowledge.ids} counts={knowledge.counts} />}
 
-          <Disclaimer reviewed={reviewed} lang={lang} />
+          <Disclaimer reviewed={reviewed} lang={lang} dateOnly={hasOwnDisclaimer} />
 
           <section class="respond" aria-labelledby="respond-title">
             <h2 id="respond-title" class="respond-title">{tr.respond}</h2>

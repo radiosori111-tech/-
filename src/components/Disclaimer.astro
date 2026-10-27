@@ -3,11 +3,13 @@ import Icon from './Icon.astro';
 import { t, DEFAULT_LANG, type Lang } from '../i18n/ui';
 import { seoulISO } from '../data/site';
 
-interface Props { reviewed?: Date; lang?: Lang }
-const { reviewed, lang = DEFAULT_LANG } = Astro.props;
+// dateOnly: 본문 끝에 글마다 쓴 면책 섹션이 있으면 공통 면책은 되풀이하지 않고 정보 기준일 한 줄만 그린다
+interface Props { reviewed?: Date; lang?: Lang; dateOnly?: boolean }
+const { reviewed, lang = DEFAULT_LANG, dateOnly = false } = Astro.props;
 const d = t(lang).disclaimer;
 const reviewedHtml = reviewed && d.reviewed(`<time datetime="${seoulISO(reviewed)}">${d.reviewedDate(reviewed)}</time>`);
 ---
+{dateOnly ? (reviewedHtml && <p class="d-date d-date-only tabular" set:html={reviewedHtml} />) : (
 <aside class="disclaimer-box" role="note" aria-labelledby="disclaimer-title">
   <h2 id="disclaimer-title" class="d-title"><Icon name="info" /> {d.title}</h2>
   <ul>
@@ -16,8 +18,10 @@ const reviewedHtml = reviewed && d.reviewed(`<time datetime="${seoulISO(reviewed
   <p class="d-link" set:html={d.links} />
   {reviewedHtml && <p class="d-date tabular" set:html={reviewedHtml} />}
 </aside>
+)}
 
 <style>
+  .d-date-only { margin-top: 2rem !important; }
   .disclaimer-box {
     margin-top: 3rem;
     padding: clamp(1.25rem, 3vw, 1.75rem);
