@@ -84,4 +84,4 @@ comic:
 ## 참고 문헌
 
 - Erickson, K. I. et al. (2011). Exercise training increases size of hippocampus and improves memory. *Proceedings of the National Academy of Sciences*, 108(7), 3017–3022.
-- Hillman, C. H., Erickson, K. I., & Kramer, A. F. (2008). Be smart, exercise your heart: exercise effects on brain and cognition. *Nature Reviews Neuroscience*, 9(1), 58–65.
+- Hillman, C. H., Erickson, K. I., & Kramer, A. F. (2008). Be smart, exercise your heart: exercise effects on brain and cognition. *Nature Reviews Neuroscience*, 9(1), 58–65. [doi:10.1038/nrn2298](https://doi.org/10.1038/nrn2298)

@@ -91,5 +91,5 @@ If someone tells you that your breathing seems to stop during sleep, or if you f
 
 ## References
 
-- Rasch, B., & Born, J. (2013). About sleep's role in memory. *Physiological Reviews*, 93(2), 681–766.
-- Watson, N. F. et al. (2015). Recommended amount of sleep for a healthy adult: A joint consensus statement of the American Academy of Sleep Medicine and Sleep Research Society. *Sleep*, 38(6), 843–844.
+- Rasch, B., & Born, J. (2013). About sleep's role in memory. *Physiological Reviews*, 93(2), 681–766. [doi:10.1152/physrev.00032.2012](https://doi.org/10.1152/physrev.00032.2012)
+- Watson, N. F. et al. (2015). Recommended amount of sleep for a healthy adult: A joint consensus statement of the American Academy of Sleep Medicine and Sleep Research Society. *Sleep*, 38(6), 843–844. [doi:10.5665/sleep.4716](https://doi.org/10.5665/sleep.4716)

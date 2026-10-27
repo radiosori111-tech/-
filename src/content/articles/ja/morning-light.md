@@ -99,6 +99,6 @@ comic:
 
 ## 参考文献
 
-- Czeisler, C. A. et al. (1999). Stability, precision, and near-24-hour period of the human circadian pacemaker. *Science*, 284(5423), 2177–2181.
-- Berson, D. M., Dunn, F. A., & Takao, M. (2002). Phototransduction by retinal ganglion cells that set the circadian clock. *Science*, 295(5557), 1070–1073.
+- Czeisler, C. A. et al. (1999). Stability, precision, and near-24-hour period of the human circadian pacemaker. *Science*, 284(5423), 2177–2181. [doi:10.1126/science.284.5423.2177](https://doi.org/10.1126/science.284.5423.2177)
+- Berson, D. M., Dunn, F. A., & Takao, M. (2002). Phototransduction by retinal ganglion cells that set the circadian clock. *Science*, 295(5557), 1070–1073. [doi:10.1126/science.1067262](https://doi.org/10.1126/science.1067262)
 - Gooley, J. J. et al. (2011). Exposure to room light before bedtime suppresses melatonin onset and shortens melatonin duration in humans. *The Journal of Clinical Endocrinology & Metabolism*, 96(3), E463–E472.
