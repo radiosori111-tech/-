@@ -67,7 +67,8 @@ const sections = [
 
 const alternates = LANGS.map((l) => ({ lang: l, href: pagePath(l, '/sitemap/') }));
 ---
-<Page title={COPY.title} lede={COPY.lede} lang={lang} alternates={alternates}>
+{/* 길잡이 페이지라 검색 색인에서 뺀다 (XML 사이트맵에서도 제외) */}
+<Page title={COPY.title} lede={COPY.lede} lang={lang} alternates={alternates} noindex>
   <LangSwitch slot="head" alternates={alternates} current={lang} label={tr.post.readIn} />
 
   <div class="sitemap">

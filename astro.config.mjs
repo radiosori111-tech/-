@@ -131,7 +131,8 @@ export default defineConfig({
   },
   // 글 안의 인터랙티브 위젯: MDX에서 Preact 섬(island)을 쓰고, 화면에 보일 때만 스크립트를 불러온다(client:visible)
   integrations: [mdx(), preact(), sitemap({
-      filter: (page) => !page.includes('/404'),
+      // 404와 noindex 길잡이 페이지(지식 지도 /concepts/ · HTML 사이트맵 /sitemap/, 언어 접두어 포함)는 넣지 않는다
+      filter: (page) => !/\/404|\/concepts\/|\/sitemap\/$/.test(new URL(page).pathname),
       // 같은 경로의 언어별 페이지(/blog/ ↔ /en/blog/ ↔ /ja/blog/)를 xhtml:link로 서로 묶는다.
       i18n: { defaultLocale: 'ko', locales: SITEMAP_LOCALES },
       // 글마다 주소가 다른 번역 글(블로그 · 아티클)은 translationLinks()로 만든 언어별 주소를 붙인다

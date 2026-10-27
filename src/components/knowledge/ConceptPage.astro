@@ -10,17 +10,20 @@ interface Props { lang: Lang; id?: string }
 const { lang, id } = Astro.props;
 const entries = await conceptEntries(lang);
 const counts = Object.fromEntries(CONCEPTS.map((c) => [c.id, entries.filter((e) => e.concepts.includes(c.id)).length]));
+// 개념 개수는 CONCEPTS에서 센다 (개념을 더하면 문구도 따라 바뀐다)
+const n = CONCEPTS.length;
 const T = {
-  ko: { indexTitle: '지식 지도', indexLede: '이 사이트의 글은 열 가지 뇌과학 개념으로 서로 이어져 있습니다. 개념을 누르면 그 개념을 다룬 글을 모아 볼 수 있습니다.', map: '뇌과학 개념 열 가지와 그 사이의 연결을 그린 지식 지도', posts: '이 개념을 다룬 글', docTitle: (n: string) => `${n} 관련 뇌과학 글 모음`, near: '이웃한 개념', all: '전체 지식 지도' },
-  en: { indexTitle: 'Knowledge map', indexLede: 'The posts on this site connect through ten brain science concepts. Choose one to see every post about it.', map: 'A map of ten brain science concepts and how they connect', posts: 'Posts on this concept', docTitle: (n: string) => `${n}: brain science posts`, near: 'Neighboring concepts', all: 'Full knowledge map' },
-  ja: { indexTitle: '知識マップ', indexLede: 'このサイトの記事は、十の脳科学の概念でつながっています。概念を選ぶと、その概念を扱った記事をまとめて見られます。', map: '十の脳科学の概念とそのつながりを描いた知識マップ', posts: 'この概念を扱った記事', docTitle: (n: string) => `${n}に関する脳科学記事まとめ`, near: 'となりの概念', all: '知識マップ全体' },
+  ko: { indexTitle: '지식 지도', indexLede: `이 사이트의 글은 ${n}가지 뇌과학 개념으로 서로 이어져 있습니다. 개념을 누르면 그 개념을 다룬 글을 모아 볼 수 있습니다.`, map: `뇌과학 개념 ${n}가지와 그 사이의 연결을 그린 지식 지도`, posts: '이 개념을 다룬 글', docTitle: (n: string) => `${n} 관련 뇌과학 글 모음`, near: '이웃한 개념', all: '전체 지식 지도' },
+  en: { indexTitle: 'Knowledge map', indexLede: `The posts on this site connect through ${n} brain science concepts. Choose one to see every post about it.`, map: `A map of ${n} brain science concepts and how they connect`, posts: 'Posts on this concept', docTitle: (n: string) => `${n}: brain science posts`, near: 'Neighboring concepts', all: 'Full knowledge map' },
+  ja: { indexTitle: '知識マップ', indexLede: `このサイトの記事は、${n}の脳科学の概念でつながっています。概念を選ぶと、その概念を扱った記事をまとめて見られます。`, map: `${n}の脳科学の概念とそのつながりを描いた知識マップ`, posts: 'この概念を扱った記事', docTitle: (n: string) => `${n}に関する脳科学記事まとめ`, near: 'となりの概念', all: '知識マップ全体' },
 }[lang];
 const concept = id ? conceptById(id) : undefined;
 const shown = concept ? entries.filter((e) => e.concepts.includes(concept.id)) : [];
 const items: ListItem[] = shown.map((e) => ({ href: e.href, key: e.key, title: e.title, description: e.description, minutes: e.minutes, image: e.image, date: e.date, hay: e.hay }));
 const alternates = LANGS.map((l) => ({ lang: l, href: conceptPath(l, id) }));
+// 지식 지도는 글 목록을 모은 길잡이 페이지라 검색 색인에서 뺀다 (링크는 따라가게 둔다 · XML 사이트맵에서도 제외)
 ---
-<Page title={concept ? T.docTitle(concept.name[lang]) : T.indexTitle} heading={concept ? concept.name[lang] : undefined} lede={concept ? concept.blurb[lang] : T.indexLede} lang={lang} alternates={alternates}>
+<Page title={concept ? T.docTitle(concept.name[lang]) : T.indexTitle} heading={concept ? concept.name[lang] : undefined} lede={concept ? concept.blurb[lang] : T.indexLede} lang={lang} alternates={alternates} noindex>
   <section class="concept-map">
     <BrainAtlas lang={lang} current={concept?.id} />
     {concept && (

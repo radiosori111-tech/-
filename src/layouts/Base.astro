@@ -59,7 +59,8 @@ const ogImage = image ?? SITE.ogImage;
     <meta name="google-site-verification" content="zxZW0YclDH3R_GsIjoLKVRfqxiPKT_ZzV8YWoU35YPc" />
     {noindex && <meta name="robots" content="noindex, follow" />}
     {!noindex && <link rel="canonical" href={canonical} />}
-    {alternates.length > 1 && (
+    {/* noindex 페이지는 canonical처럼 언어별 주소(hreflang)도 넣지 않는다 */}
+    {!noindex && alternates.length > 1 && (
       <>
         {alternates.map((a) => <link rel="alternate" hreflang={HREFLANG[a.lang]} href={abs(a.href)} />)}
         <link rel="alternate" hreflang="x-default" href={abs((alternates.find((a) => a.lang === DEFAULT_LANG) ?? alternates[0]).href)} />
@@ -145,7 +146,6 @@ const ogImage = image ?? SITE.ogImage;
             <a href={pagePath(lang, '/contact/')}>{tr.nav.contact}</a>
             <a href={privacyHref}>{tr.foot.privacy}</a>
             <a href={privacyHref + '#disclaimer'}>{tr.foot.disclaimer}</a>
-            <a href={pagePath(lang, '/sitemap/')}>{tr.foot.sitemap}</a>
             <a href={pagePath(lang, '/concepts/')}>{tr.foot.concepts}</a>
           </nav>
           <div class="foot-meta">
