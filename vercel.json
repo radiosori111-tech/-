@@ -1,5 +1,6 @@
 {
   "ignoreCommand": "P=\"$VERCEL_GIT_PREVIOUS_SHA\"; if [ -n \"$P\" ] && git cat-file -e \"$P^{commit}\" 2>/dev/null; then git diff --quiet \"$P\" HEAD -- src public astro.config.mjs package.json package-lock.json tsconfig.json vercel.json || exit 1; else exit 1; fi",
+  "trailingSlash": true,
   "redirects": [
     {
       "source": "/blog/%EA%B8%B0%EC%96%B5",
@@ -43,7 +44,7 @@
     },
     {
       "source": "/entry/:path*",
-      "destination": "/blog/:path*",
+      "destination": "/blog/:path*/",
       "permanent": true
     },
     {
@@ -1143,7 +1144,7 @@
     },
     {
       "source": "/m/entry/:path*",
-      "destination": "/blog/:path*",
+      "destination": "/blog/:path*/",
       "permanent": true
     },
     {
