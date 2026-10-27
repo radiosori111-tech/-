@@ -6,7 +6,7 @@ import { SITE, seoulISO } from '../../data/site';
 import { articleUrl, articleAlternates, articleSlug, type Article } from '../../data/articles';
 import { readNext } from '../../data/related';
 import { conceptNet } from '../../data/concepts';
-import { t, articlesPath, formatDateFor, HREFLANG } from '../../i18n/ui';
+import { pagePath, t, articlesPath, formatDateFor, HREFLANG } from '../../i18n/ui';
 
 interface Props { entry: Article; prev: Article | null; next: Article | null; related: Article[] }
 const { entry, prev, next, related } = Astro.props;
@@ -28,7 +28,7 @@ const jsonLd = {
   description,
   datePublished: seoulISO(date),
   inLanguage: HREFLANG[lang],
-  author: { '@type': 'Organization', name: SITE.name },
+  author: { '@type': 'Person', name: SITE.author.name[lang], url: new URL(`${pagePath(lang, '/about/')}#${SITE.author.anchor}`, Astro.site).toString() },
   publisher: { '@type': 'Organization', name: SITE.name },
   mainEntityOfPage: new URL(url, Astro.site).toString(),
 };

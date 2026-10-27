@@ -10,9 +10,10 @@ import KnowledgeNet from '../components/knowledge/KnowledgeNet.astro';
 import Disclaimer from '../components/Disclaimer.astro';
 import AdSlot from '../components/ads/AdSlot.astro';
 import Comic from '../components/comic/Comic.astro';
+import { SITE } from '../data/site';
 import type { Scene } from '../components/comic/scenes';
 import LangSwitch from '../components/LangSwitch.astro';
-import { t, DEFAULT_LANG, type Lang, type Alternate } from '../i18n/ui';
+import { pagePath, t, DEFAULT_LANG, type Lang, type Alternate } from '../i18n/ui';
 
 interface PagerLink {
   href: string;
@@ -50,6 +51,9 @@ const {
   tags = [], prev, next, prevLabel, nextLabel, related, readNext = [], knowledge, lang = DEFAULT_LANG, alternates = [], comic,
 } = Astro.props;
 const tr = t(lang).post;
+// 작성자 바이라인: 문구는 site.ts의 SITE.author, 링크는 그 언어 소개 페이지의 작성자 소개(#author)
+const byline = SITE.author.byline[lang];
+const authorHref = `${pagePath(lang, '/about/')}#${SITE.author.anchor}`;
 const pageUrl = new URL(url, Astro.site).toString();
 
 // 소제목이 두 개 이상인 단계로 목차를 만든다 (h2가 없는 글은 h3로)
@@ -71,6 +75,7 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
         <dl class="meta">
           <slot name="meta" />
         </dl>
+        <p class="byline">{byline.text}{byline.open}<a href={authorHref}>{byline.link}</a>{byline.close}</p>
       </div>
     </header>
 
@@ -345,6 +350,14 @@ const toc = level ? headings.filter((h) => h.depth === level) : [];
   .meta :global(div) { display: flex; gap: 0.375rem; }
   .meta :global(dt:not(.visually-hidden)) { color: var(--frame-faint); }
   .meta :global(dd) { margin: 0; }
+  .byline {
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.7;
+    color: var(--frame-muted);
+  }
+  .byline a { color: var(--frame-text); text-underline-offset: 3px; white-space: nowrap; }
+  .byline a:hover { color: var(--accent-on-dark); }
 
   .art-surface { padding-bottom: clamp(3rem, 6vw, 4.5rem); }
 
