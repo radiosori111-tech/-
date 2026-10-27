@@ -4,11 +4,11 @@ import HeroBrain from '../components/HeroBrain.astro';
 import { DEFAULT_LANG, type Lang, type Alternate } from '../i18n/ui';
 
 // heading을 주면 화면의 큰 제목은 그 HTML로 쓰고(<span>은 강조색), 문서 제목(title)은 그대로 둔다. title이 null이면 사이트 이름이 문서 제목이 된다
-interface Props { title: string | null; heading?: string; lede: string; description?: string; lang?: Lang; alternates?: Alternate[] }
-const { title, heading, lede, description, lang = DEFAULT_LANG, alternates } = Astro.props;
+interface Props { title: string | null; heading?: string; lede: string; description?: string; lang?: Lang; alternates?: Alternate[]; noindex?: boolean }
+const { title, heading, lede, description, lang = DEFAULT_LANG, alternates, noindex } = Astro.props;
 const hasFeature = Astro.slots.has('feature');
 ---
-<Base title={title ?? undefined} description={description ?? lede} lang={lang} alternates={alternates}>
+<Base title={title ?? undefined} description={description ?? lede} lang={lang} alternates={alternates} noindex={noindex}>
   <header class:list={['page-head frame', hasFeature && 'has-feature']}>
     <HeroBrain lang={lang} />
     <div class="wrap">
