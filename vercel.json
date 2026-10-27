@@ -43,7 +43,7 @@
     },
     {
       "source": "/entry/:path*",
-      "destination": "/blog/:path*",
+      "destination": "/blog/:path*/",
       "permanent": true
     },
     {
@@ -1143,7 +1143,7 @@
     },
     {
       "source": "/m/entry/:path*",
-      "destination": "/blog/:path*",
+      "destination": "/blog/:path*/",
       "permanent": true
     },
     {
@@ -1214,6 +1214,11 @@
     {
       "source": "/archive/:path*",
       "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?:[^/]+/)*[^/.]+)",
+      "destination": "/:path/",
       "permanent": true
     }
   ]
