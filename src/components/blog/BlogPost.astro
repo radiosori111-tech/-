@@ -2,7 +2,7 @@
 // 블로그 글 한 편 (한국어 /blog/…, 영어 /en/blog/…, 일본어 /ja/blog/…가 함께 쓴다)
 import { render } from 'astro:content';
 import PostLayout from '../../layouts/PostLayout.astro';
-import { SITE } from '../../data/site';
+import { SITE, seoulISO } from '../../data/site';
 import { postUrl, postTags, postMinutes, postAlternates, type Post } from '../../data/blog';
 import { t, homePath, formatDateFor, HREFLANG } from '../../i18n/ui';
 import { readNext } from '../../data/related';
@@ -16,7 +16,8 @@ const tr = t(lang).post;
 const tags = postTags(post);
 const url = postUrl(post);
 const alternates = await postAlternates(post);
-const wasUpdated = updated && updated.toDateString() !== date.toDateString();
+// 날짜 비교도 한국 시간 기준 (seoulISO 앞 10자 = YYYY-MM-DD)
+const wasUpdated = updated && seoulISO(updated).slice(0, 10) !== seoulISO(date).slice(0, 10);
 const pagerLink = (p: Post | null) => p && { href: postUrl(p), title: p.data.title };
 const next2 = await readNext('blog', post.data.translationOf ?? slug, lang);
 const knowledge = await conceptNet(lang, url);
@@ -26,8 +27,8 @@ const jsonLd = {
   '@type': 'BlogPosting',
   headline: title,
   description,
-  datePublished: date.toISOString(),
-  dateModified: (updated ?? date).toISOString(),
+  datePublished: seoulISO(date),
+  dateModified: seoulISO((updated ?? date)),
   ...(image && { image: new URL(image, Astro.site).toString() }),
   ...(tags.length && { keywords: tags.join(', ') }),
   inLanguage: HREFLANG[lang],
@@ -58,8 +59,8 @@ const jsonLd = {
   knowledge={knowledge}
 >
   <Fragment slot="meta">
-    <div><dt class="visually-hidden">{tr.published}</dt><dd class="tabular"><time datetime={date.toISOString()}>{formatDateFor(lang, date)}</time></dd></div>
-    {wasUpdated && <div><dt>{tr.updated}</dt><dd class="tabular"><time datetime={updated!.toISOString()}>{formatDateFor(lang, updated!)}</time></dd></div>}
+    <div><dt class="visually-hidden">{tr.published}</dt><dd class="tabular"><time datetime={seoulISO(date)}>{formatDateFor(lang, date)}</time></dd></div>
+    {wasUpdated && <div><dt>{tr.updated}</dt><dd class="tabular"><time datetime={seoulISO(updated!)}>{formatDateFor(lang, updated!)}</time></dd></div>}
     <div><dt class="visually-hidden">{tr.readTime}</dt><dd class="tabular">{tr.minutes(postMinutes(post))}</dd></div>
   </Fragment>
   <Content />

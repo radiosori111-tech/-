@@ -6,6 +6,7 @@ import PostList, { type ListItem } from '../PostList.astro';
 import LangSwitch from '../LangSwitch.astro';
 import { getPosts, postUrl, postTags, postMinutes, listAlternates } from '../../data/blog';
 import { t, formatDateFor, type Lang } from '../../i18n/ui';
+import { seoulISO } from '../../data/site';
 import DayBand from '../DayBand.astro';
 import HeadCard from '../HeadCard.astro';
 import { getArticles, articleUrl } from '../../data/articles';
@@ -43,7 +44,7 @@ const pins = (await getArticles(lang))
       description={latest.data.description}
       readLabel={tr.list.read}
     >
-      <time datetime={latest.data.date.toISOString()}>{formatDateFor(lang, latest.data.date)}</time>
+      <time datetime={seoulISO(latest.data.date)}>{formatDateFor(lang, latest.data.date)}</time>
       <span>{tr.post.minutes(postMinutes(latest))}</span>
     </HeadCard>
   )}

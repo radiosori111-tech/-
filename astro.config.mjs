@@ -4,12 +4,22 @@ import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 import preact from '@astrojs/preact';
 import sharp from 'sharp';
-import { copyFile } from 'node:fs/promises';
+import { copyFile, readdir, readFile, writeFile } from 'node:fs/promises';
 import fs from 'node:fs';
 import path from 'node:path';
 
 const SITE_URL = 'https://jes-lu.com';
 const SITEMAP_LOCALES = { ko: 'ko-KR', en: 'en-US', ja: 'ja-JP' };
+
+// 사이트맵 lastmod를 한국 시간으로 적는다 (src/data/site.ts의 seoulISO와 같은 형식: 2026-10-14T00:54:00+09:00).
+// @astrojs/sitemap은 lastmod를 항상 UTC(…Z)로 바꿔 쓰므로, 빌드가 끝난 뒤 sitemapAlias에서 다시 바꾼다.
+function seoulISO(d) {
+  const p = Object.fromEntries(new Intl.DateTimeFormat('en-US', {
+    timeZone: 'Asia/Seoul', hourCycle: 'h23',
+    year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit',
+  }).formatToParts(d).map((x) => [x.type, x.value]));
+  return `${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}:${p.second}+09:00`;
+}
 
 // 번역 글은 언어마다 주소(slug)가 달라서 sitemap 통합의 i18n 설정만으로는 서로 묶이지 않는다.
 // 글 파일의 frontmatter(lang · slug · translationOf)를 읽어 주소 → 같은 글의 언어별 주소 목록을 만든다.
@@ -90,10 +100,17 @@ function imageAttributes() {
 
 // @astrojs/sitemap은 sitemap-index.xml만 만든다. 흔히 찾는 /sitemap.xml 주소로도 열리도록
 // 빌드가 끝난 뒤 같은 내용을 sitemap.xml로 한 부 더 써 둔다. (sitemap 통합 다음에 와야 한다)
+// 그 전에 사이트맵 파일들의 lastmod(UTC)를 한국 시간으로 바꾼다.
 const sitemapAlias = {
   name: 'sitemap-alias',
   hooks: {
     'astro:build:done': async ({ dir, logger }) => {
+      const files = (await readdir(dir)).filter((f) => /^sitemap-.*\.xml$/.test(f));
+      for (const f of files) {
+        const file = new URL(f, dir);
+        const xml = await readFile(file, 'utf8');
+        await writeFile(file, xml.replace(/<lastmod>([^<]+)<\/lastmod>/g, (_, v) => `<lastmod>${seoulISO(new Date(v))}</lastmod>`));
+      }
       const index = new URL('sitemap-index.xml', dir);
       await copyFile(index, new URL('sitemap.xml', dir));
       logger.info('`sitemap.xml` created from sitemap-index.xml');

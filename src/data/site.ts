@@ -26,6 +26,28 @@ export function minutesOfDay(time?: string) {
   return h * 60 + m;
 }
 
+// 날짜는 빌드하는 서버의 시간대(Vercel은 UTC)와 상관없이 항상 한국 시간으로 센다.
+// 그러지 않으면 한국 시간 오전 0~9시에 쓴 글이 하루 앞선 날짜로 보인다.
+export const SITE_TZ = 'Asia/Seoul';
+const seoulFormat = new Intl.DateTimeFormat('en-US', {
+  timeZone: SITE_TZ, hourCycle: 'h23',
+  year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric',
+});
+
+// 한국 시간 기준 연 · 월 · 일 · 시 · 분 · 초 (숫자)
+export function seoulParts(d: Date) {
+  const p = Object.fromEntries(seoulFormat.formatToParts(d).map((x) => [x.type, x.value]));
+  return { y: +p.year, m: +p.month, d: +p.day, h: +p.hour, min: +p.minute, s: +p.second };
+}
+
+// 한국 시간으로 적은 ISO 날짜 (예: 2026-10-14T00:54:00+09:00). JSON-LD · <time datetime> · 사이트맵에 쓴다
+export function seoulISO(d: Date) {
+  const { y, m, d: day, h, min, s } = seoulParts(d);
+  const two = (n: number) => String(n).padStart(2, '0');
+  return `${y}-${two(m)}-${two(day)}T${two(h)}:${two(min)}:${two(s)}+09:00`;
+}
+
 export function formatDate(d: Date) {
-  return `${d.getFullYear()}. ${d.getMonth() + 1}. ${d.getDate()}.`;
+  const { y, m, d: day } = seoulParts(d);
+  return `${y}. ${m}. ${day}.`;
 }

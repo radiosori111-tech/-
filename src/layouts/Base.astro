@@ -4,7 +4,7 @@ import '../styles/global.css';
 import Icon from '../components/Icon.astro';
 import LangSwitch from '../components/LangSwitch.astro';
 import AdSenseHead from '../components/ads/AdSenseHead.astro';
-import { SITE } from '../data/site';
+import { SITE, seoulParts } from '../data/site';
 import { t, LANGS, blogPath, homePath, articlesPath, pagePath, OG_LOCALE, HREFLANG, DEFAULT_LANG, type Lang, type Alternate } from '../i18n/ui';
 
 interface Props {
@@ -158,7 +158,7 @@ const ogImage = image ?? SITE.ogImage;
           <a class="foot-disclaimer-link" href={privacyHref + '#disclaimer'}>{tr.foot.more} <Icon name="arrow-right" /></a>
         </section>
         <div class="foot-bottom">
-          <p class="foot-copy tabular">© {new Date().getFullYear()} 믿음의 게임, 실행</p>
+          <p class="foot-copy tabular">© {seoulParts(new Date()).y} 믿음의 게임, 실행</p>
           <div class="foot-license">
             <a class="cc-mark" href={tr.foot.licenseUrl} rel="license noopener" target="_blank" aria-label={tr.foot.licenseLabel} title={tr.foot.licenseLabel}>
               <!-- 크리에이티브 커먼즈 표시: CC · 저작자표시(BY) · 비영리(NC) · 변경금지(ND) -->

@@ -1,5 +1,6 @@
 // 한국어(기본) · 영어 · 일본어 화면 문구와 언어별 주소 규칙.
 // 한국어 페이지는 주소 앞에 언어 표시가 없고(/blog/), 영어 · 일본어는 /en/ · /ja/로 시작한다.
+import { SITE_TZ, seoulParts } from '../data/site';
 
 export const LANGS = ['ko', 'en', 'ja'] as const;
 export type Lang = (typeof LANGS)[number];
@@ -25,10 +26,12 @@ export const CATEGORY_LABEL: Record<Lang, Record<string, string>> = {
   ja: { '뇌과학 기초': '脳科学の基礎', '뇌과학 이슈': '脳科学トピック', '습관 형성': '習慣づくり', '수면 · 리듬': '睡眠・リズム' },
 };
 
+// 글 날짜 표시. 영어 · 일본어 페이지도 한국 시간 기준 날짜를 쓴다 (site.ts의 SITE_TZ)
 export function formatDateFor(lang: Lang, d: Date) {
-  if (lang === 'en') return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-  if (lang === 'ja') return `${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日`;
-  return `${d.getFullYear()}. ${d.getMonth() + 1}. ${d.getDate()}.`;
+  if (lang === 'en') return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: SITE_TZ });
+  const { y, m, d: day } = seoulParts(d);
+  if (lang === 'ja') return `${y}年${m}月${day}日`;
+  return `${y}. ${m}. ${day}.`;
 }
 
 // 한 페이지의 언어별 주소 (hreflang과 언어 바꾸기 링크에 쓴다)
@@ -69,7 +72,7 @@ export const ui = {
       ],
       links: '<a href="/privacy/#disclaimer">면책조항 전문</a>과 <a href="/privacy/">개인정보 처리방침</a>을 함께 확인해 주세요.',
       reviewed: (date: string) => `정보 기준일 ${date} · 이후 새로운 연구로 내용이 달라질 수 있습니다.`,
-      reviewedDate: (d: Date) => `${d.getFullYear()}년 ${d.getMonth() + 1}월 ${d.getDate()}일`,
+      reviewedDate: (d: Date) => { const { y, m, d: day } = seoulParts(d); return `${y}년 ${m}월 ${day}일`; },
     },
     post: {
       toc: '목차',
@@ -163,7 +166,7 @@ export const ui = {
       ],
       links: 'See the <a href="/en/privacy/#disclaimer">full disclaimer</a> and <a href="/en/privacy/">privacy policy</a>.',
       reviewed: (date: string) => `Information current as of ${date}. Newer research may change these conclusions.`,
-      reviewedDate: (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
+      reviewedDate: (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: SITE_TZ }),
     },
     post: {
       toc: 'Contents',
@@ -257,7 +260,7 @@ export const ui = {
       ],
       links: '<a href="/ja/privacy/#disclaimer">免責事項の全文</a>と<a href="/ja/privacy/">プライバシーポリシー</a>もあわせてご確認ください。',
       reviewed: (date: string) => `情報の基準日：${date}。その後の新しい研究により内容が変わる可能性があります。`,
-      reviewedDate: (d: Date) => `${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日`,
+      reviewedDate: (d: Date) => { const { y, m, d: day } = seoulParts(d); return `${y}年${m}月${day}日`; },
     },
     post: {
       toc: '目次',

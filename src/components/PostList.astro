@@ -3,6 +3,7 @@
 import Icon from './Icon.astro';
 import { cover } from '../data/cover';
 import { t, formatDateFor, DEFAULT_LANG, type Lang } from '../i18n/ui';
+import { seoulISO } from '../data/site';
 
 export interface ListItem {
   href: string;
@@ -63,7 +64,7 @@ const emptyText = Astro.props.emptyText ?? tr.list.empty;
                 {it.time.moment && <> <span class="card-moment">{it.time.moment}</span></>}
               </span>
             )}
-            {it.date && <time class="card-time" datetime={it.date.toISOString()}>{formatDateFor(lang, it.date)}</time>}
+            {it.date && <time class="card-time" datetime={seoulISO(it.date)}>{formatDateFor(lang, it.date)}</time>}
           </div>
           <div class="card-sub">
             <span class="card-min">{tr.post.minutes(it.minutes)}</span>

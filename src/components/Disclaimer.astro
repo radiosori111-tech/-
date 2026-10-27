@@ -1,11 +1,12 @@
 ---
 import Icon from './Icon.astro';
 import { t, DEFAULT_LANG, type Lang } from '../i18n/ui';
+import { seoulISO } from '../data/site';
 
 interface Props { reviewed?: Date; lang?: Lang }
 const { reviewed, lang = DEFAULT_LANG } = Astro.props;
 const d = t(lang).disclaimer;
-const reviewedHtml = reviewed && d.reviewed(`<time datetime="${reviewed.toISOString()}">${d.reviewedDate(reviewed)}</time>`);
+const reviewedHtml = reviewed && d.reviewed(`<time datetime="${seoulISO(reviewed)}">${d.reviewedDate(reviewed)}</time>`);
 ---
 <aside class="disclaimer-box" role="note" aria-labelledby="disclaimer-title">
   <h2 id="disclaimer-title" class="d-title"><Icon name="info" /> {d.title}</h2>
