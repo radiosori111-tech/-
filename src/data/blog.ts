@@ -3,9 +3,12 @@ import { blogPath, homePath, LANGS, type Lang, type Alternate } from '../i18n/ui
 
 export type Post = CollectionEntry<'blog'>;
 
+// 비공개(draft) 글은 빌드 어디에도 내보내지 않는다. 블로그 글을 모을 때는 항상 이 조건을 함께 건다
+export const isPublished = (post: Post) => !post.data.draft;
+
 // 한 언어의 블로그 글을 최신순으로
 export async function getPosts(lang: Lang = 'ko') {
-  const posts = await getCollection('blog', (p) => p.data.lang === lang);
+  const posts = await getCollection('blog', (p) => isPublished(p) && p.data.lang === lang);
   return posts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 }
 
@@ -17,7 +20,7 @@ const originalSlug = (post: Post) => post.data.translationOf ?? post.data.slug;
 // 같은 글의 언어별 주소 (자기 자신 포함, 한국어 · 영어 · 일본어 순)
 export async function postAlternates(post: Post): Promise<Alternate[]> {
   const key = originalSlug(post);
-  const all = await getCollection('blog', (p) => originalSlug(p) === key);
+  const all = await getCollection('blog', (p) => isPublished(p) && originalSlug(p) === key);
   return LANGS.flatMap((lang) => {
     const p = all.find((x) => x.data.lang === lang);
     return p ? [{ lang, href: postUrl(p) }] : [];

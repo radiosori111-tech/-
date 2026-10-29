@@ -10,7 +10,7 @@ export async function GET(context) {
     categories: [article.data.category],
     link: `/articles/${article.id}/`,
   }));
-  const posts = (await getCollection('blog', (p) => p.data.lang === 'ko')).map((post) => ({
+  const posts = (await getCollection('blog', (p) => !p.data.draft && p.data.lang === 'ko')).map((post) => ({
     title: post.data.title,
     description: post.data.description,
     pubDate: post.data.date,

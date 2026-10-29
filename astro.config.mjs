@@ -39,6 +39,8 @@ function translationLinks() {
   };
   for (const file of mdFiles('src/content/blog')) {
     const src = fs.readFileSync(file, 'utf8');
+    // 비공개(draft) 글은 페이지를 만들지 않으므로 언어별 주소에서도 뺀다
+    if (field(src, 'draft') === 'true') continue;
     const lang = field(src, 'lang') || 'ko';
     const slug = field(src, 'slug');
     const blogPath = `${lang === 'ko' ? '' : `/${lang}`}/blog/${slug}/`;

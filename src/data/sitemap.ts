@@ -1,6 +1,6 @@
 import { getCollection } from 'astro:content';
 import { articleUrl, articleSlug, type Article } from './articles';
-import { postUrl, type Post } from './blog';
+import { isPublished, postUrl, type Post } from './blog';
 import { minutesOfDay } from './site';
 import { LANGS, type Lang } from '../i18n/ui';
 
@@ -49,7 +49,7 @@ export const blogTopic = (title: string): BlogTopic => TOPIC_RULES.find(([, re])
 
 // 블로그: 주제별로, 최신 글부터
 export async function sitemapPosts(lang: Lang): Promise<SitemapGroup[]> {
-  const all = await getCollection('blog');
+  const all = await getCollection('blog', isPublished);
   const key = (p: Post) => p.data.translationOf ?? p.data.slug;
   const originals = all.filter((p) => p.data.lang === 'ko').sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
   return BLOG_TOPICS.map((topic) => ({

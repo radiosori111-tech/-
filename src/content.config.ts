@@ -59,6 +59,8 @@ const blog = defineCollection({
     // 언어. 번역 글은 src/content/blog/en/, ja/ 아래에 두고 translationOf에 원문(한국어) slug를 적는다
     lang: z.enum(['ko', 'en', 'ja']).default('ko'),
     translationOf: z.string().optional(),
+    // true면 비공개: 글 페이지 · 목록 · 사이트맵 · RSS · 지식 지도 · 함께 읽기 어디에도 나오지 않는다 (src/data/blog.ts의 isPublished)
+    draft: z.boolean().default(false),
     comic,
   }),
 });

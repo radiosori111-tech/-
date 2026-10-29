@@ -1,7 +1,7 @@
 // 글마다 '함께 읽으면 좋은 글' 두 편. 열쇠는 '컬렉션:원문(한국어) slug'이고, 번역 글도 원문의 짝을 따른다
 import { getCollection } from 'astro:content';
 import type { Lang } from '../i18n/ui';
-import { postUrl } from './blog';
+import { isPublished, postUrl } from './blog';
 import { articleUrl, articleSlug } from './articles';
 
 interface Pick { to: string; emoji: string; label: Record<Lang, string> }
@@ -61,7 +61,7 @@ const PICKS: Record<string, Pick[]> = {
     { to: "blog:BDNF가-많이들어있는-음식은", emoji: "🥦", label: { ko: "BDNF를 돕는 식사", en: "Eating to support BDNF", ja: "BDNFを支える食事" } },
   ],
   "blog:고기만-먹었는데-뇌가-달라졌다는-카니보어-식단-정체가-뭐길래": [
-    { to: "blog:유퀴즈-나온-허남준-장승조-추천으로-시작한-카니보어-통한-뇌-기능-향상", emoji: "🥩", label: { ko: "카니보어와 뇌 기능", en: "Brain function on a carnivore diet", ja: "カーニボアと脳機能" } },
+    { to: "blog:브레인포그-케톤체-카니보어-멘탈클래리티", emoji: "🧊", label: { ko: "브레인포그와 케톤", en: "Brain fog and ketones", ja: "ブレインフォグとケトン" } },
     { to: "blog:급진급빠-다이어트추석-명절-직후-카니보어-식단과-마그네슘-보충-가이드", emoji: "🥩", label: { ko: "명절 뒤 카니보어와 마그네슘", en: "Carnivore and magnesium after the holidays", ja: "連休明けのカーニボアとマグネシウム" } },
   ],
   "blog:급진급빠-다이어트추석-명절-직후-카니보어-식단과-마그네슘-보충-가이드": [
@@ -169,7 +169,7 @@ const PICKS: Record<string, Pick[]> = {
     { to: "blog:의지력이-약한-진짜-범인은-근육이었다-유산소-vs-근력-운동이-뇌를-다르게-바꾸는-뇌과학적-원리", emoji: "🏋️", label: { ko: "유산소 vs 근력 운동", en: "Aerobic vs. strength training", ja: "有酸素運動と筋トレ" } },
   ],
   "blog:브레인포그-케톤체-카니보어-멘탈클래리티": [
-    { to: "blog:유퀴즈-나온-허남준-장승조-추천으로-시작한-카니보어-통한-뇌-기능-향상", emoji: "🥩", label: { ko: "카니보어와 뇌 기능", en: "Brain function on a carnivore diet", ja: "カーニボアと脳機能" } },
+    { to: "blog:고기만-먹었는데-뇌가-달라졌다는-카니보어-식단-정체가-뭐길래", emoji: "🥩", label: { ko: "카니보어 식단과 뇌", en: "The carnivore diet and the brain", ja: "カーニボア食と脳" } },
     { to: "blog:멍한-머리와-만성-피로-문제는-뇌-면역이었다-신경아교세포와-장-뇌-축을-살리는-항염-영양소-식단-가이드", emoji: "🛡️", label: { ko: "뇌 면역과 장-뇌 축", en: "Brain immunity and the gut-brain axis", ja: "脳の免疫と腸脳相関" } },
   ],
   "blog:생각은-내가-아니다-수용전념치료ACT와-뇌가-밝혀낸-인지적-탈융합의-힘": [
@@ -183,10 +183,6 @@ const PICKS: Record<string, Pick[]> = {
   "blog:숨이-뇌의-스위치다-호흡-뇌과학-하루-5분-습관": [
     { to: "blog:불안장애-겪은-뇌과학자가-찾아낸-운동법-운동의-뇌과학-실천법-총정리", emoji: "🏃", label: { ko: "운동의 뇌과학", en: "The neuroscience of exercise", ja: "運動の脳科学" } },
     { to: "blog:뇌과학으로-배우는-자연-치유-15분-습관이-뇌를-재부팅하는-이유", emoji: "🌳", label: { ko: "자연 속 15분과 뇌 회복", en: "15 minutes in nature", ja: "自然の中の15分と脳の回復" } },
-  ],
-  "blog:유퀴즈-나온-허남준-장승조-추천으로-시작한-카니보어-통한-뇌-기능-향상": [
-    { to: "blog:고기만-먹었는데-뇌가-달라졌다는-카니보어-식단-정체가-뭐길래", emoji: "🥩", label: { ko: "카니보어 식단과 뇌", en: "The carnivore diet and the brain", ja: "カーニボア食と脳" } },
-    { to: "blog:급진급빠-다이어트추석-명절-직후-카니보어-식단과-마그네슘-보충-가이드", emoji: "🥩", label: { ko: "명절 뒤 카니보어와 마그네슘", en: "Carnivore and magnesium after the holidays", ja: "連休明けのカーニボアとマグネシウム" } },
   ],
   "blog:육체적으로-이미-지쳤는데-운동을-하면-더-피곤해지지-않을까요-뇌를-깨우는-메커니즘을-소개합니다": [
     { to: "blog:1분-고강도-운동HIIE이-뇌-건강을-바꾸는-과학적-근거와-메커니즘", emoji: "⚡", label: { ko: "짧고 강한 운동", en: "Short, intense exercise", ja: "短く強い運動" } },
@@ -273,7 +269,7 @@ const PICKS: Record<string, Pick[]> = {
 export async function readNext(col: 'blog' | 'articles', originalSlug: string, lang: Lang): Promise<ReadNext[]> {
   const picks = PICKS[`${col}:${originalSlug}`] ?? [];
   const [blog, articles] = await Promise.all([
-    getCollection('blog', (p) => p.data.lang === lang),
+    getCollection('blog', (p) => isPublished(p) && p.data.lang === lang),
     getCollection('articles', (a) => a.data.lang === lang),
   ]);
   return picks.flatMap((pick) => {
