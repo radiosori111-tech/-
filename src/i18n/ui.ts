@@ -109,7 +109,7 @@ export const ui = {
       readTime: '읽는 시간',
       minutes: (n: number) => `${n}분 읽기`,
       readIn: '다른 언어로 읽기',
-      readNext: '함께 읽으면 뇌가 더 총명해지는 관련 글',
+      readNext: '함께 읽으면 좋은 글',
       comic: '4컷으로 먼저 보기',
     },
     list: {
@@ -203,7 +203,7 @@ export const ui = {
       readTime: 'Reading time',
       minutes: (n: number) => `${n} min read`,
       readIn: 'Read in another language',
-      readNext: 'Related reads for a sharper brain',
+      readNext: 'Related reads',
       comic: 'The story in four panels',
     },
     list: {
@@ -297,7 +297,7 @@ export const ui = {
       readTime: '読了時間',
       minutes: (n: number) => `${n}分で読めます`,
       readIn: 'ほかの言語で読む',
-      readNext: 'あわせて読むと脳がもっと冴える関連記事',
+      readNext: 'あわせて読みたい記事',
       comic: '4コマで先に見る',
     },
     list: {
